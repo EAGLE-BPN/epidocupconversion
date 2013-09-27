@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicación a Dis Pater (Plutón)</title>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=1018</idno>
+                <idno type="TM_id"/>
+                <availability default="false" status="unknown">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" instant="false" full="yes">España</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" instant="false" full="yes">Extremadura</placeName>
+                        </region>
+                        <settlement>
+                            <placeName instant="false" full="yes">Sevilla, Sevilla, Andalucía, España</placeName>                     
+                        </settlement>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/">Altar votivo</objectType>
+                                    <material ref="www.eagle-network.eu/voc/material/rock">Piedra</material>
+                                    <p part="N">Fragmento inferior de ara de mármol gris con molduras en el zócalo. Está rota por arriba y dañada a la derecha.</p>
+                                    <dimensions unit="cm">
+                                        <height>34</height>
+                                        <width>36</width>
+                                        <depth>36</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv"/>
+                                    <rs type="inscriptionType" ref="http://www.eagle-network.eu/voc/typeins/lod/81">Cultual</rs>
+                                <material ref="http://chc.sbg.ac.at/sri/thesaurus/49">Mármol</material></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="engravingTechnique"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Interpunción: punto redondo. Lín. 1: + es, probablemente, X. Max[im-] y se trataría de dos dedicantes unidos por et. Lín. 2: + es la parte izquierda de una letra redonda. C[ara] o C[lara]. Es posible que en línea 3 hubiera habido un nexo TI. <height unit="cm">3.7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName type="provinceItalicRegion" instant="false" full="yes">Baetica</placeName>
+                                <placeName instant="false" full="yes">Segida Restituta Iulia</placeName>
+                            </origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false"/>
+                        </origin>
+                        <provenance type="found">                            
+                            <placeName instant="false" full="yes">Burguillos del Cerro</placeName>
+                            <placeName type="modernCountry" instant="false" full="yes">España</placeName>
+                            <placeName type="modernRegion" instant="false" full="yes">Extremadura</placeName>
+                            <placeName type="modernProvince" instant="false" full="yes">Badajoz</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+                <encodingDesc>
+            <p part="N">Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+            <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2013-08-26" who="HE epidoc generator" status="draft">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile/>
+    <text>
+        <body>
+                       
+            <div type="bibliography" part="N" org="uniform" sample="complete">
+            <listBibl default="false"><bibl default="false" status="draft">EE IX 141</bibl><bibl default="false" status="draft"> ERBC 56 (HEp 7, 1997, 51)</bibl><bibl default="false" status="draft"> H. Gimeno Pascual y A. U. Stylow, ”Epigrafía de la Beturia Céltica en la Casa de Pilatos (Sevilla)”, C. Auliard – L. Bodiou (Dir.) Au jardin des Hespérides. Histoire, société et épigraphie des mondes anciens. Mélanges offerts a Alain Tranoy, Rennes 2004, 79-80, fig. 2. (HEp 13, 2003/2004, 87</bibl><bibl default="false" status="draft"> AE 2004, 739)</bibl></listBibl></div>
+            
+            <div type="edition" part="N" org="uniform" sample="complete"><head>Text</head><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/>
+                 <orig>T</orig>ext<gap reason="lost" quantity="1" unit="line" instant="false"/><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="2"/><gap reason="lost" quantity="3" unit="character" instant="false"/><orig>M</orig>a+<gap reason="lost" extent="unknown" unit="character" instant="false"/>?]<supplied reason="lost" instant="false"/><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="3"/><orig>Z</orig>etonia +<gap reason="lost" extent="unknown" unit="character" instant="false"/>?]<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="4"/><orig>D</orig>omino <orig>D</orig>it<supplied reason="lost" instant="false">i</supplied><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="5"/><orig>P</orig>atri <g type="stop"/> <expan instant="false"><abbr>a</abbr><ex instant="false">nimo</ex></expan> <g type="stop"/> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <g type="stop"/> <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <g type="stop"/> s(olv-)
+            </ab></div>
+
+            <div type="apparatus" part="N" org="uniform" sample="complete"><p part="N">ERBC: [-] Iuni[- - - / - - -]I[- - -]ONIA C[- - -] / Domino Dii / Patri · a(nimo) · l(ibens) · v(otum) · s(olvit)</p></div>
+
+            <div type="translation" xml:lang="Spanish" part="N" org="uniform" sample="complete">
+                <p part="N">
+                    <ref type="URI"/>
+                    <ref type="URL"/>
+                </p>
+            </div>
+
+            <div type="commentary" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+        </body>
+    </text>
+</TEI>

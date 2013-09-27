@@ -1,0 +1,140 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitafio de Fundana</title>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=1006</idno>
+                <idno type="TM_id"/>
+                <availability>
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Portugal</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Beja</placeName>
+                        </region>
+                        <settlement>
+                            <placeName/>                     
+                        </settlement>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType/>
+                                    <material/>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv"/>
+                                    <rs type="inscriptionType" ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitafio / sepulcral</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="engravingTechnique"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height unit="cm"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinceItalicRegion">Baetica</placeName>
+                                <placeName/>
+                            </origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/>
+                        </origin>
+                        <provenance type="found">                            
+                            <placeName>Serpa</placeName>
+                            <placeName type="modernCountry">Portugal</placeName>
+                            <placeName type="modernRegion">Beja</placeName>
+                            <placeName type="modernProvince">Serpa</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+                <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+            <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-08-26" who="HE epidoc generator">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="http://eda-bea.es/pub/graphics/10061.xml"><desc>content provider</desc></graphic></facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+            <listBibl><bibl>J.-G. GORGES, «Une inscription romaine inédite de Serpa (Beja, Portugal)», MCV 30 (1), 1994, 83-86, figs. 1-2</bibl><bibl> HEp 6, 1996, 1018</bibl><bibl> AE 1994, 891</bibl><bibl> ERBC 212</bibl></listBibl></div>
+            
+            <div type="edition">
+                 <head>Text</head>
+                <ab>D(is) · M(anibus) · s(acrum) · / I(ulia) M(arci) f(ilia) · Fundana / ann(orum) · XXVIII / Augustianus / maritus uxo/ri · pientissimae / f(aciendum) c(uravit) / h(ic) · s(ita) · e(st) · s(it) · t(ibi) · t(erra) · l(evis) ·</ab>
+            </div>
+
+            <div type="apparatus"><p/></div>
+
+            <div type="translation" xml:lang="Spanish">
+                <p>
+                    <ref type="URI"/>
+                    <ref type="URL"/>
+                </p>
+            </div>
+
+            <div type="commentary"><p/></div>
+
+        </body>
+    </text>
+</TEI>

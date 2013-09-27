@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Epitafio de varios Helvios</title>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=1020</idno>
+                <idno type="TM_id"/>
+                <availability default="false" status="unknown">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" instant="false" full="yes">España</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" instant="false" full="yes">Extremadura</placeName>
+                        </region>
+                        <settlement>
+                            <placeName instant="false" full="yes"/>                     
+                        </settlement>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/">Placa</objectType>
+                                    <material ref="www.eagle-network.eu/voc/material/rock">Piedra</material>
+                                    <p part="N">Lápida de mármol blanco local con moldura sencilla</p>
+                                    <dimensions unit="cm">
+                                        <height>41.5</height>
+                                        <width>56</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv"/>
+                                    <rs type="inscriptionType" ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitafio / sepulcral</rs>
+                                <material ref="http://chc.sbg.ac.at/sri/thesaurus/49">Mármol</material></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="engravingTechnique"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Letras: capital con rasgos rústicos. Interpunción: triangular. Lín. 1: HE e IR en nexo. Lín. 2 y 6: HE en nexo<height unit="cm" min="2.5" max="3">3 - 2.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName type="provinceItalicRegion" instant="false" full="yes">Baetica</placeName>
+                                <placeName instant="false" full="yes">Segida Restituta Iulia</placeName>
+                            </origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false"/>
+                        </origin>
+                        <provenance type="found">                            
+                            <placeName instant="false" full="yes">Burguillos del Cerro</placeName>
+                            <placeName type="modernCountry" instant="false" full="yes">España</placeName>
+                            <placeName type="modernRegion" instant="false" full="yes">Extremadura</placeName>
+                            <placeName type="modernProvince" instant="false" full="yes">Badajoz</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+                <encodingDesc>
+            <p part="N">Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+            <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2013-08-26" who="HE epidoc generator" status="draft">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="http://eda-bea.es/pub/graphics/10201.xml"><desc>content provider</desc></graphic></facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography" part="N" org="uniform" sample="complete">
+            <listBibl default="false"><bibl default="false" status="draft">CIL II 999b</bibl><bibl default="false" status="draft"> M. R. Martínez, "Inscripciones romanas de Burguillos". BRAH 32, 1898, 183 (EE IX 147)</bibl><bibl default="false" status="draft"> ERBC 86, nº 70, foto 37 (HEp 7, 1997, 54)</bibl></listBibl></div>
+            
+            <div type="edition" part="N" org="uniform" sample="complete"><head>Text</head><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/>
+                 <orig>T</orig>ext
+                <expan instant="false"><abbr>L</abbr><ex instant="false">ucio</ex></expan> <g type="stop"/> <orig>H</orig>elvio <g type="stop"/> <orig>R</orig>ufino <g type="stop"/> viro<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="2"/><expan instant="false"><abbr>ann</abbr><ex instant="false">orum</ex></expan> <g type="stop"/> <orig>L</orig><orig>X</orig> <g type="stop"/> et <g type="stop"/> <expan instant="false"><abbr>L</abbr><ex instant="false">ucio</ex></expan> <g type="stop"/> <orig>H</orig>elvio<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="3"/><orig>N</orig>ovato <g type="stop"/> <expan instant="false"><abbr>f</abbr><ex instant="false">ilio</ex></expan> <g type="stop"/> <expan instant="false"><abbr>ann</abbr><ex instant="false">orum</ex></expan> <g type="stop"/> <orig>X</orig><orig>X</orig><orig>X</orig><orig>X</orig><orig>I</orig><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="4"/>et <g type="stop"/> <expan instant="false"><abbr>M</abbr><ex instant="false">arco</ex></expan> <g type="stop"/> <orig>H</orig>elvio <g type="stop"/> <orig>R</orig>ufo <g type="stop"/> <expan instant="false"><abbr>f</abbr><ex instant="false">ilio</ex></expan><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="5"/><expan instant="false"><abbr>ann</abbr><ex instant="false">orum</ex></expan> <g type="stop"/> <orig>X</orig><orig>X</orig><orig>X</orig><orig>X</orig> <g type="stop"/> <orig>H</orig>elvia <g type="stop"/> <expan instant="false"><abbr>L</abbr><ex instant="false">uci</ex></expan> <g type="stop"/> <expan instant="false"><abbr>f</abbr><ex instant="false">ilia</ex></expan><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="6"/><orig>S</orig>evera <g type="stop"/> et <g type="stop"/> <expan instant="false"><abbr>M</abbr><ex instant="false">arcus</ex></expan> <g type="stop"/> <orig>H</orig>elvius<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="7"/><orig>R</orig>ufinus <g type="stop"/> <orig>R</orig>ufi <g type="stop"/> <expan instant="false"><abbr>f</abbr><ex instant="false">ilius</ex></expan> <g type="stop"/> <expan instant="false"><abbr>f</abbr><ex instant="false">aciendum</ex></expan> <g type="stop"/> <expan instant="false"><abbr>c</abbr><ex instant="false">uraverunt</ex></expan><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="8"/><expan instant="false"><abbr>h</abbr><ex instant="false">ic</ex></expan> <g type="stop"/> <expan instant="false"><abbr>s</abbr><ex instant="false">itus</ex></expan> <g type="stop"/> <expan instant="false"><abbr>e</abbr><ex instant="false">st</ex></expan> (sic) <g type="stop"/> <expan instant="false"><abbr>s</abbr><ex instant="false">it</ex></expan> <g type="stop"/> <expan instant="false"><abbr>v</abbr><ex instant="false">obis</ex></expan> <g type="stop"/><expan instant="false"><abbr>t</abbr><ex instant="false">erra</ex></expan> <g type="stop"/> <expan instant="false"><abbr>l</abbr><ex instant="false">evis</ex></expan> <g type="stop"/>&#xD;
+
+            </ab></div>
+
+            <div type="apparatus" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+            <div type="translation" xml:lang="Spanish" part="N" org="uniform" sample="complete">
+                <p part="N">
+                    <ref type="URI"/>
+                    <ref type="URL"/>
+                </p>
+            </div>
+
+            <div type="commentary" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+        </body>
+    </text>
+</TEI>

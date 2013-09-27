@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Doble epitafio</title>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=1026</idno>
+                <idno type="TM_id"/>
+                <availability default="false" status="unknown">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" instant="false" full="yes">España</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" instant="false" full="yes">Extremadura</placeName>
+                        </region>
+                        <settlement>
+                            <placeName instant="false" full="yes">Badajoz, Badajoz, Extremadura, España</placeName>                     
+                        </settlement>
+                        <repository>Museo Arqueológico Provincial de Badajoz</repository>
+                        <collection/>
+                        <idno>5175</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/">Placa</objectType>
+                                    <material ref="www.eagle-network.eu/voc/material/rock">Piedra</material>
+                                    <p part="N">Fragmento de placa de mármol a la que le faltan las partes superior, inferior y derecha.</p>
+                                    <dimensions unit="cm">
+                                        <height>17</height>
+                                        <width>22</width>
+                                        <depth>22</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv"/>
+                                    <rs type="inscriptionType" ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitafio / sepulcral</rs>
+                                <material ref="http://chc.sbg.ac.at/sri/thesaurus/49">Mármol</material></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="engravingTechnique"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Letras: capitales cuadradas bien grabada. Interpunción: hedera.<height unit="cm">2.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName type="provinceItalicRegion" instant="false" full="yes">Baetica</placeName>
+                                <placeName instant="false" full="yes"/>
+                            </origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false"/>
+                        </origin>
+                        <provenance type="found">                            
+                            <placeName instant="false" full="yes">Usagre </placeName>
+                            <placeName type="modernCountry" instant="false" full="yes">España</placeName>
+                            <placeName type="modernRegion" instant="false" full="yes">Extremadura</placeName>
+                            <placeName type="modernProvince" instant="false" full="yes">Badajoz</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+                <encodingDesc>
+            <p part="N">Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+            <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2013-08-26" who="HE epidoc generator" status="draft">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="http://eda-bea.es/pub/graphics/10261.xml"><desc>content provider</desc></graphic></facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography" part="N" org="uniform" sample="complete">
+            <listBibl default="false"><bibl default="false" status="draft">IMBA 31 (HEp 7, 1997, 77)</bibl><bibl default="false" status="draft"> M. Leyguarda – J.L. Ramírez Sádaba, "Las inscripciones, testimonio de la explotación del territorio de Ugultunia",  ANAS 19-20, 2006-2007, 156-158, nº 5, lám. V, fig. 2 y lám. VI, fig. 1(HEp 16, 2007, 20</bibl><bibl default="false" status="draft"> AE 2008, 658)</bibl></listBibl></div>
+            
+            <div type="edition" part="N" org="uniform" sample="complete"><head>Text</head><ab part="N"><lb/>
+                 <orig>T</orig>ext<gap reason="lost" quantity="1" unit="line" instant="false"><certainty locus="name" target=".."/></gap><lb/><gap reason="lost" quantity="1" unit="line" instant="false"/><lb/><gap reason="lost" unit="character" precision="low" atLeast="2" atMost="3" instant="false"/><expan instant="false"><abbr>v<supplied reason="lost" instant="false">ix</supplied></abbr><supplied reason="lost" instant="false"><ex instant="false">it</ex></supplied></expan> <expan instant="false"><abbr>an<supplied reason="lost" instant="false">n</supplied></abbr><supplied reason="lost" instant="false"><ex instant="false">is</ex></supplied></expan><lb/><orig>L</orig><orig>I</orig> <g type="stop"/> <orig>F</orig>ortuna<lb/><expan instant="false"><abbr>l</abbr><ex instant="false">iberta</ex></expan> <g type="stop"/> <expan instant="false"><abbr>vix</abbr><ex instant="false">it</ex></expan> <g type="stop"/> <expan instant="false"><abbr>ann</abbr><ex instant="false">is</ex></expan> <g type="stop"/> <orig>X</orig><orig>V</orig><orig>I</orig><lb/><space extent="unknown" unit="character"/> <expan instant="false"><abbr>v</abbr><ex instant="false">obis</ex></expan> <g type="stop"/> <expan instant="false"><abbr>t</abbr><ex instant="false">erra</ex></expan> <g type="stop"/> <expan instant="false"><abbr>l</abbr><ex instant="false">evis</ex></expan> <space extent="unknown" unit="character"/>&#xD;
+
+            </ab></div>
+
+            <div type="apparatus" part="N" org="uniform" sample="complete"><p part="N">IMBA: - - - - - - / [- - - - - -] / et • Fortuna[tus/ta] / l(ibertus/ta) • vix(it) • ann(is) • XVI / [- - - s(it)] v(obis) • t(erra) • l(evis)&#xD;
+</p></div>
+
+            <div type="translation" xml:lang="Spanish" part="N" org="uniform" sample="complete">
+                <p part="N">
+                    <ref type="URI"/>
+                    <ref type="URL"/>
+                </p>
+            </div>
+
+            <div type="commentary" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+        </body>
+    </text>
+</TEI>

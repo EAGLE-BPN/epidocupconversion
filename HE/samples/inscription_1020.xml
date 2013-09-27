@@ -1,0 +1,141 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitafio de varios Helvios</title>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=1020</idno>
+                <idno type="TM_id"/>
+                <availability>
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">España</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Extremadura</placeName>
+                        </region>
+                        <settlement>
+                            <placeName/>                     
+                        </settlement>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/">Placa</objectType>
+                                    <material ref="www.eagle-network.eu/voc/material/rock">Piedra</material>
+                                    <p>Lápida de mármol blanco local con moldura sencilla</p>
+                                    <dimensions unit="cm">
+                                        <height>41.5</height>
+                                        <width>56</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv"/>
+                                    <rs type="inscriptionType" ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitafio / sepulcral</rs>
+                                <material ref="http://chc.sbg.ac.at/sri/thesaurus/49">Mármol</material></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="engravingTechnique"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Letras: capital con rasgos rústicos. Interpunción: triangular. Lín. 1: HE e IR en nexo. Lín. 2 y 6: HE en nexo<height unit="cm" min="2.5" max="3">3 - 2.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinceItalicRegion">Baetica</placeName>
+                                <placeName>Segida Restituta Iulia</placeName>
+                            </origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/>
+                        </origin>
+                        <provenance type="found">                            
+                            <placeName>Burguillos del Cerro</placeName>
+                            <placeName type="modernCountry">España</placeName>
+                            <placeName type="modernRegion">Extremadura</placeName>
+                            <placeName type="modernProvince">Badajoz</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+                <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+            <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-08-26" who="HE epidoc generator">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="http://eda-bea.es/pub/graphics/10201.xml"><desc>content provider</desc></graphic></facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+            <listBibl><bibl>CIL II 999b</bibl><bibl> M. R. Martínez, "Inscripciones romanas de Burguillos". BRAH 32, 1898, 183 (EE IX 147)</bibl><bibl> ERBC 86, nº 70, foto 37 (HEp 7, 1997, 54)</bibl></listBibl></div>
+            
+            <div type="edition">
+                 <head>Text</head>
+                <ab>L(ucio) • Helvio • Rufino • viro / ann(orum) • LX • et • L(ucio) • Helvio / Novato • f(ilio) • ann(orum) • XXXXI / et • M(arco) • Helvio • Rufo • f(ilio) / ann(orum) • XXXX • Helvia • L(uci) • f(ilia) / Severa • et • M(arcus) • Helvius / Rufinus • Rufi • f(ilius) • f(aciendum) • c(uraverunt) / h(ic) • s(itus) • e(st) (sic) • s(it) • v(obis) •t(erra) • l(evis) •&#13;
+</ab>
+            </div>
+
+            <div type="apparatus"><p/></div>
+
+            <div type="translation" xml:lang="Spanish">
+                <p>
+                    <ref type="URI"/>
+                    <ref type="URL"/>
+                </p>
+            </div>
+
+            <div type="commentary"><p/></div>
+
+        </body>
+    </text>
+</TEI>

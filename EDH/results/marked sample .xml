@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>HD000052</title>
+            </titleStmt>  
+            <publicationStmt>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000052</idno>
+                <idno type="URI">www.trismegistos.org/text/000000</idno>
+                <availability default="false" status="unknown">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" ref="http://www.geonames.org/3175395/repubblica-italiana.html" instant="false" full="yes">Italia</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" ref="http://www.geonames.org/3174976/lazio.html" instant="false" full="yes">Latium</placeName>
+                        </region>
+                        <settlement>
+                            <placeName ref="http://www.geonames.org/3169070/rome.html" instant="false" full="yes">Roma</placeName>                     
+                        </settlement>
+                        <repository ref="www.trismegistos.org/collection/1751">Mentana, Lap. Zeri</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/XX">Tabula</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marble</material>
+                                    <p part="N"/>
+                                    <dimensions unit="cm">
+                                        <height>59</height>
+                                        <width>69.5</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="www.eagle-network.eu/voc/decoration/lod/XX"/>
+                                    <rs type="statPreserv" ref="www.eagle-network.eu/voc/statepreserv/lod/XX"/>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="www.eagle-network.eu/voc/writing/lod/XX"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm">4.3-3cm</height>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               
+                                <height unit="cm"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="www.trismegistos.org/place/11888" type="provinceItalicRegion" instant="false" full="yes">Latium</placeName>
+                                <placeName ref="www.trismegistos.org/place/2058" instant="false" full="yes">Roma</placeName>
+                            </origPlace>
+                            <origDate notBefore-custom="0213" notAfter-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" period="www.eagle-network.eu/voc/dates/lod/XX" instant="false">
+                            </origDate>
+                           
+                        </origin>
+                        <provenance type="found">  
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p part="N">Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass default="false">
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Votive Inscription</term>
+</keywords>
+    </textClass>
+
+            <langUsage default="false">
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc status="draft">
+         <change when="2011-01-17" who="Feraudi" status="draft">
+             Cheched through autopsy
+         </change>
+
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F010242">
+            
+        </graphic>
+        <graphic url="http://cil.bbaw.de/test06/bilder/datenbank/PH0007405.jpg">
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography" part="N" org="uniform" sample="complete">
+                <listBibl default="false">
+                    <bibl default="false" status="draft">
+                        <ref target="Bibliography"/>
+                        AE 1983, <citedRange>0045.</citedRange>
+                    </bibl>
+                    <bibl default="false" status="draft">
+                        <ref target="Bibliography"/>
+                        G. Barbieri, in: G. Barbieri (Hrsg.), Il lapidario Zeri di Mentana (Roma 1982)<citedRange> 58-62, Nr. 22; tav. 20.</citedRange>
+                    </bibl> 
+                   <bibl default="false" status="draft">
+                        <ref target="Bibliography"/>
+                        CIL 06, <citedRange>40647. </citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la" part="N" org="uniform" sample="complete"><head>Text</head><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/>
+Pro salute et reditu<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="2"/>et victorias<note anchored="true">(sic)</note> 
+<expan instant="false"><abbr>dom</abbr><ex instant="false">ini</ex></expan> <expan instant="false"><abbr>n</abbr><ex instant="false">ostri</ex></expan><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="3"/><expan instant="false"><abbr>Imp</abbr><ex instant="false">eratoris</ex></expan> <expan instant="false"><abbr>Caes</abbr><ex instant="false">aris</ex></expan> <expan instant="false"><abbr>M</abbr><ex instant="false">arci</ex></expan> Aureli 
+Anto<lb xmlns:tei="http://www.tei-c.org/ns/1.0" break="no" n="4"/>nini Pii <expan instant="false"><abbr>Fel</abbr><ex instant="false">icis</ex></expan> <expan instant="false"><abbr>Aug</abbr><ex instant="false">usti</ex></expan> <expan instant="false"><abbr>Brit</abbr><ex instant="false">annici</ex></expan> <expan instant="false"><abbr>max</abbr><ex instant="false">imi</ex></expan><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="5"/>et Iuliae 
+<expan instant="false"><abbr>Aug</abbr><ex instant="false">ustae</ex></expan> <expan instant="false"><abbr>mat</abbr><ex instant="false">ris</ex></expan> <expan instant="false"><abbr>Aug</abbr><ex instant="false">usti</ex></expan> et<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="6"/>castrorum<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="7"/><expan instant="false"><abbr>L</abbr><ex instant="false">ucio</ex></expan> Valerio Dato 
+<expan instant="false"><abbr>pr</abbr><ex instant="false">aefecto</ex></expan> <expan instant="false"><abbr>vig</abbr><ex instant="false">ilum</ex></expan> <expan instant="false"><abbr>e</abbr><ex instant="false">gregio</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">iro</ex></expan> et<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="8"/><expan instant="false"><abbr>P</abbr><ex instant="false">ublio</ex></expan> Aelio Anniano <expan instant="false"><abbr>s</abbr><ex instant="false">ub</ex></expan> <expan instant="false"><abbr>pr</abbr><ex instant="false">aefecto</ex></expan> 
+<expan instant="false"><abbr>M</abbr><ex instant="false">arco</ex></expan> Ulpio <gap reason="lost" extent="unknown" unit="character" instant="false"/><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="0"/><gap reason="lost" quantity="1" unit="line" instant="false"/>
+            </ab></div>
+
+            <div type="apparatus" part="N" org="uniform" sample="complete">
+                <p part="N"/>
+            </div>
+
+            <div type="commentary" part="N" org="uniform" sample="complete">
+                <p part="N">Inschrift für Caracalla aus der Collezione Muñoz; unten abgebrochen, links stark bestoßen. Herkunft nach Barbieri unbekannt; nach G. Alföldy entweder aus Rom oder vielleicht aus Ostia (CIL 06, 40647). Autopsie G. Alföldy. Die Inschrift ist nach Getas Tod gesetzt, jedoch vor Ende September 213, d.h. vor der Annahme des Siegertitels Germanicus maximus.</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

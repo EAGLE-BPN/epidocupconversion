@@ -1,0 +1,226 @@
+<?xml-model 
+    href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" 
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI 
+    xml:space="preserve" 
+    xml:lang="it" 
+    xml:base="ex-epidoctemplate.xml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EDR003049S</title>
+            </titleStmt>  
+            <publicationStmt>
+                <idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR003049</idno>
+                <idno type="URI">www.trismegistos.org/text/<!--TM_ID--></idno>
+                <availability>
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" ref="http://www.geonames.org/3175395/repubblica-italiana.html">Italy</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" ref="http://www.geonames.org/3174976/lazio.html">Lazio</placeName>
+                        </region>
+                        <settlement>
+                            <placeName ref="http://www.geonames.org/3169070/rome.html">Roma, via E. Giachino [fr. a]; Roma, via Fermo Ognibene, 27 [fr. b]</placeName>                     
+                        </settlement>
+                        <repository>Fonte Nuova (Roma), villa privata [fr. a]; Roma, Museo Nazionale Romano, senza inv. [fr. b]</repository>
+                        <collection></collection>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/XX">cippus</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">lapis tiburtinus</material>
+                                    <p></p>
+                                    <dimensions unit="cm">
+                                        <height>120</height>
+                                        <width>36</width>
+                                        <depth>12</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="www.eagle-network.eu/voc/decoration/lod/XX"><!--decoration--></rs>
+                                    <rs type="statPreserv" ref="www.eagle-network.eu/voc/statepreserv/lod/XX"> tit. fragmenta inter se coniuncta</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="www.eagle-network.eu/voc/writing/lod/1">Scalpro</rs>
+                                    <dimensions>
+                                        <width unit="cm"></width>
+                                        <height unit="cm"><!--letter size--></height>
+                                    </dimensions>
+                                    <rs type="metre"></rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               
+                                <height unit="cm"></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="http://www.geonames.org/3169070/rome.html" type="provinceItalicRegion">Roma</placeName>
+                                <placeName ref="http://www.geonames.org/3169070/rome.html">Roma</placeName>
+                            </origPlace>
+                            <origDate 
+                                notBefore-custom="-0100" 
+                                notAfter-custom="-0050" 
+                                evidence="historia antiquitates"
+                                datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" 
+                                period="www.eagle-network.eu/voc/dates/lod/XX">
+<!--                   any descriptive info on date, if any             -->
+<!--  when there is uncertainty: add into <origDate></origDate>    
+                                    the following: 
+                                    <certainty level=”high” target=”..”/>
+                                -->
+                            </origDate>
+                           
+                        </origin>
+                        <provenance type="found">  
+                            <date><!--YEAR OF FIND--></date>
+<!--    THE FOLLOWING INFORMATIONS ARE REPEATED from above, it might be unnecessary.-->
+                                
+                                <placeName ref="geonames uri Modern findspot"><!--modern findspot--></placeName> 
+                            <placeName type="modern" ref="geonames uri Modern Country"><!--Modern Country--></placeName>
+                            <placeName type="modern" ref="geonames uri Modern region"><!--Modern region--></placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><!-- all this section can be standard and does not need any 
+            change by CP. it contains the change element which I think we can 
+            use to track revisions since no versioning repository is being used -->
+            
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ. priv.que</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change 
+             when="2010-07-06" 
+             who="FERRARO">
+             Scheda
+         </change>
+
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://www.edr-edr.it/edr_programmi/view_img.php?id_nr=003049">
+            <desc>Photo: 3049
+<!--      use ONE of the following licences according to truth.     -->
+            <ref type="license" target="http://creativecommons.org/publicdomain/mark/1.0/">Licensed under a Creative Commons Public Domani Mark 1.0</ref>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence.</ref>
+        </desc>
+        </graphic>
+        <graphic url="external.photo.link">
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <ref/>
+AE 2006<citedRange>, 0185</citedRange>
+                    </bibl>  
+                    <bibl>
+                        <ref/>
+Ocnus, 4, 1996, (L. Quilici)<citedRange>p. 227 nt. 30, fig. 13 [fr. a]</citedRange>
+                    </bibl>                      
+                    <bibl>
+                        <ref/>
+AE 1996<citedRange>, 0255</citedRange>
+                    </bibl>                
+                    <bibl>
+                        <ref/>
+Misurare il tempo, misurare lo spazio (Atti del Colloquio AIEGL - Borghesi 2005), Faenza 2006,<citedRange> pp. 351-371, con foto [fr. a + b] (G. L. Gregori - A. Buccellato) - AE 2006 (3)</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+            
+            <div type="edition" xml:lang="la">
+T̲i̲̲b̲(eriae) C̲l̲a̲u̲d̲i̲a̲e̲
+C̲a̲m̲i̲l̲i̲a̲e̲ A̲l̲f̲i̲d̲i̲a̲e̲
+C̲e̲l̲o̲n̲i̲d̲e̲ (?)
+c̲(larissimae) f̲(eminae).
+Claudi̲a̲e̲
+Papiae Netoniae
+Insteiae
+Praenestinae
+c(larissimae) ((puellae)).
+L̲(ucio) I̲n̲s̲t̲e̲i̲o̲ L̲(uci) f̲(ilio) H̲o̲r̲(atia)
+Flaccia̲n̲o̲, p̲r̲(aetori) k̲(andidato), (:candidato)
+trib(uno) pl(ebis) k̲(andidato), (:candidato) q̲u̲a̲e̲s̲t̲(ori) u̲r̲b̲(ano), seviro t̲u̲r̲m̲a̲r̲u̲m̲,
+decemvir(o) st̲l̲i̲t̲i̲b̲(us) i̲u̲d̲i̲c̲a̲n̲d̲(is),
+sodali H̲a̲d̲r̲i̲a̲n̲a̲l̲i̲.
+D̲o̲m̲inis benignissimi̲s̲
+F̲a̲u̲s̲t̲i̲n̲u̲s ser(vus) act(or) ar̲k̲(arius) e̲x̲ A̲f̲r̲i̲c̲a̲.
+            </div>
+
+            <div type="apparatus">
+                <p>Textus secundum (4), aliter (1)-(2), contulit ad imaginem Ferraro a. 2010</p>
+            </div>
+            
+           <div type="translation" xml:lang="it">
+                <p>
+                    <ref type="URI">http://www.eagle-network.eu/wiki/index.php/Item:XX</ref>
+                    <ref type="URL"><!--CP URL for translation if any--></ref>
+<!--     TRANSLATION, if any-->
+                </p><desc> <!--the following is a suggested licence for translations: please provide the correct IPR statement IF differnt from the general one above-->
+                    <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons CAttribution-ShareAlike 3.0 Unported licence.</ref>
+                </desc>
+            </div>
+
+            <div type="commentary">
+                <p><!--Commentary--></p>
+            </div>
+
+        </body>
+    </text>
+</TEI>
+

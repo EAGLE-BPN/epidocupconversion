@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Epitafio de Surypantha</title>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=1005</idno>
+                <idno type="TM_id"/>
+                <availability default="false" status="unknown">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" instant="false" full="yes">España</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" instant="false" full="yes">Andalucía</placeName>
+                        </region>
+                        <settlement>
+                            <placeName instant="false" full="yes"/>                     
+                        </settlement>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/">Placa</objectType>
+                                    <material ref="www.eagle-network.eu/voc/material/rock">Piedra</material>
+                                    <p part="N">Placa de mármol blanco, con una grieta superficial muy fina en el extremo izquierdo</p>
+                                    <dimensions unit="cm">
+                                        <height>16</height>
+                                        <width>30</width>
+                                        <depth>30</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv"/>
+                                    <rs type="inscriptionType" ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitafio / sepulcral</rs>
+                                <material ref="http://chc.sbg.ac.at/sri/thesaurus/49">Mármol</material></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="engravingTechnique"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Letras: capital cuadrada Interpunción: hedera. Lín. 2: S = sigma mayúscula<height unit="cm" min="3" max="4">4 - 3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName type="provinceItalicRegion" instant="false" full="yes">Baetica</placeName>
+                                <placeName instant="false" full="yes">Hispalis</placeName>
+                            </origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false"/>
+                        </origin>
+                        <provenance type="found">                            
+                            <placeName instant="false" full="yes">Sevilla</placeName>
+                            <placeName type="modernCountry" instant="false" full="yes">España</placeName>
+                            <placeName type="modernRegion" instant="false" full="yes">Andalucía</placeName>
+                            <placeName type="modernProvince" instant="false" full="yes">Sevilla</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+                <encodingDesc>
+            <p part="N">Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+            <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2013-08-26" who="HE epidoc generator" status="draft">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="http://eda-bea.es/pub/graphics/10051.xml"><desc>content provider</desc></graphic></facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography" part="N" org="uniform" sample="complete">
+            <listBibl default="false"><bibl default="false" status="draft">M.Á. Tabales Rodríguez, «Intervención arqueológica en el convento de Santa María de los Reyes. Sevilla 1992», AAA, III, 577, lám. 4 (HEp 6, 1996, 879)</bibl><bibl default="false" status="draft"> HEp 11, 2001, 477</bibl><bibl default="false" status="draft"> AE 2001, 1189</bibl></listBibl></div>
+            
+            <div type="edition" part="N" org="uniform" sample="complete"><head>Text</head><div n="1" type="textpart" part="N" org="uniform" sample="complete"><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/>
+                 <orig>T</orig>ext
+                <expan instant="false"><abbr>D</abbr><ex instant="false">is</ex></expan> · <expan instant="false"><abbr>M</abbr><ex instant="false">anibus</ex></expan> · <expan instant="false"><abbr>s</abbr><ex instant="false">acrum</ex></expan> ·<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="2"/><orig>S</orig>urypantha · <expan instant="false"><abbr>ann</abbr><ex instant="false">orum</ex></expan> · <orig>X</orig><orig>I</orig><orig>I</orig> ·<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="3"/><expan instant="false"><abbr>m</abbr><ex instant="false">ensibus</ex></expan> · <orig>X</orig> · <expan instant="false"><abbr>d</abbr><ex instant="false">iebus</ex></expan> · <orig>V</orig><orig>I</orig> · cara suis · </ab></div><div n="2" type="textpart" part="N" org="uniform" sample="complete"><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/> et<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="2"/><expan instant="false"><abbr>p</abbr><ex instant="false">arentibus</ex></expan> </ab></div><div n="3" type="textpart" part="N" org="uniform" sample="complete"><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/> <expan instant="false"><abbr>h</abbr><ex instant="false">ic</ex></expan> · <expan instant="false"><abbr>s</abbr><ex instant="false">ita</ex></expan> · <expan instant="false"><abbr>e</abbr><ex instant="false">st</ex></expan> · <expan instant="false"><abbr>s</abbr><ex instant="false">it</ex></expan> · <expan instant="false"><abbr>t</abbr><ex instant="false">ibi</ex></expan> · <expan instant="false"><abbr>t</abbr><ex instant="false">erra</ex></expan> · <expan instant="false"><abbr>l</abbr><ex instant="false">evis</ex></expan> ·
+            </ab></div></div>
+
+            <div type="apparatus" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+            <div type="translation" xml:lang="Spanish" part="N" org="uniform" sample="complete">
+                <p part="N">
+                    <ref type="URI"/>
+                    <ref type="URL"/>
+                </p>
+            </div>
+
+            <div type="commentary" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+        </body>
+    </text>
+</TEI>

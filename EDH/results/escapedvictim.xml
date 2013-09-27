@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="edition">
+    <div n="1" type="textpart">
+        <ab><lb/><gap reason="lost" extent="unknown" unit="line"
+                    /><lb/><expan><abbr>L</abbr><ex>ucius</ex></expan> Teb<supplied reason="lost"
+                cert="low">ius</supplied><lb/><del rend="erasure"><supplied reason="lost"
+                    >Secundus</supplied></del>
+            <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> pr<lb
+                break="no"/><expan><abbr>aef</abbr><ex>e</ex>ctus</expan> castr<lb break="no"/>orum
+            inter<lb/>Onastinos et<lb/>Nares<supplied reason="omitted">t</supplied>inos ter<lb
+                break="no"/>m<supplied reason="lost" cert="low">inos</supplied><supplied
+                reason="lost" cert="low"> gin</supplied><supplied reason="lost" cert="low">
+                pin</supplied>
+        </ab>
+    </div>
+    <div n="2" type="textpart">
+        <ab><lb/>
+            <expan><abbr>pos</abbr><ex>u</ex>it</expan>
+            <gap reason="lost" quantity="1" unit="character"/><supplied reason="lost"
+                >i</supplied>us<lb break="no"/>su <expan><abbr>L</abbr><ex>uci</ex></expan>
+            <expan><abbr><am><g type="solidus"/></am></abbr><ex>Luci</ex></expan>
+            <abbr>lib</abbr>. <gap reason="lost" extent="unknown" unit="character"/><supplied
+                reason="lost">Volusi</supplied> Satu<lb break="no"/>rnini
+                    <expan><abbr>leg</abbr><ex>ati</ex></expan> pro pr<lb break="no"/>aetore
+                    <expan><abbr>C</abbr><ex>ai</ex></expan>
+            <del rend="erasure">C<supplied reason="lost">ae</supplied></del><lb break="no"/><del
+                rend="erasure">s<supplied reason="lost">ar</supplied>is A<supplied reason="lost"
+                    >ugust</supplied>iss<supplied reason="lost">imi</supplied></del><lb/><gap
+                reason="lost" quantity="1" unit="line"/><lb/><gap reason="lost" extent="unknown"
+                unit="line"/>
+        </ab>
+    </div>
+    <div n="3" type="textpart">
+        <ab><lb/>
+            <gap reason="lost" extent="unknown" unit="line"/><lb/><del rend="erasure">G<supplied
+                    reason="lost">erm</supplied>anici</del> ex<lb/>senten<surplus>ten</surplus>ti<lb
+                break="no"/>a <expan><abbr><am><g type="obitus"/></am></abbr><ex>obitus</ex></expan>
+            <expan><abbr>ann</abbr><ex>orum</ex></expan> quam
+                <expan><abbr>i</abbr><ex>i</ex>s</expan> ath<lb break="no"
+                    />i<choice><corr>b</corr><sic>R</sic></choice>ito<note>(sic)</note> consi<lb
+                break="no"/>lio <expan><abbr><am><g type="mulieris"
+                /></am></abbr><ex>mulieris</ex></expan>
+            <expan><abbr>lib</abbr><ex>erta</ex></expan> di<supplied reason="lost"
+                >xit</supplied><lb/><gap reason="lost" extent="unknown" unit="line"/></ab>
+    </div>
+</div>

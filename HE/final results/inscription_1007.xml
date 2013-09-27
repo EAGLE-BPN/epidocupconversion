@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=1007</idno>
+                <idno type="TM_id"/>
+                <availability default="false" status="unknown">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" instant="false" full="yes">Portugal</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" instant="false" full="yes">Beja</placeName>
+                        </region>
+                        <settlement>
+                            <placeName instant="false" full="yes"/>                     
+                        </settlement>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType/>
+                                    <material/>
+                                    <p part="N"/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv"/>
+                                    <rs type="inscriptionType" ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitafio / sepulcral</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="engravingTechnique"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height unit="cm"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName type="provinceItalicRegion" instant="false" full="yes">Baetica</placeName>
+                                <placeName instant="false" full="yes"/>
+                            </origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false"/>
+                        </origin>
+                        <provenance type="found">                            
+                            <placeName instant="false" full="yes">Serpa</placeName>
+                            <placeName type="modernCountry" instant="false" full="yes">Portugal</placeName>
+                            <placeName type="modernRegion" instant="false" full="yes">Beja</placeName>
+                            <placeName type="modernProvince" instant="false" full="yes">Serpa</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+                <encodingDesc>
+            <p part="N">Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+            <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2013-08-26" who="HE epidoc generator" status="draft">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile/>
+    <text>
+        <body>
+                       
+            <div type="bibliography" part="N" org="uniform" sample="complete">
+            <listBibl default="false"><bibl default="false" status="draft">HEp 6, 1996, 1019 = AE 1994, 892 = ERBC 213</bibl></listBibl></div>
+            
+            <div type="edition" part="N" org="uniform" sample="complete"><head>Text</head><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/>
+                 <orig>T</orig>ext
+                <expan instant="false"><abbr>D</abbr><ex instant="false">is</ex></expan> <expan instant="false"><abbr>M</abbr><ex instant="false">anibus</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">acrum</ex></expan><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="2"/><expan instant="false"><abbr>C</abbr><ex instant="false">aius</ex></expan> <orig>R</orig>ocius <gap reason="lost" quantity="3" unit="character" instant="false"/><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="0"/><gap reason="lost" quantity="1" unit="line" instant="false"/></ab></div>
+
+            <div type="apparatus" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+            <div type="translation" xml:lang="Spanish" part="N" org="uniform" sample="complete">
+                <p part="N">
+                    <ref type="URI"/>
+                    <ref type="URL"/>
+                </p>
+            </div>
+
+            <div type="commentary" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+        </body>
+    </text>
+</TEI>

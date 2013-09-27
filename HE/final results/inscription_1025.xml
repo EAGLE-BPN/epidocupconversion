@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmento de placa</title>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=1025</idno>
+                <idno type="TM_id"/>
+                <availability default="false" status="unknown">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" instant="false" full="yes">España</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" instant="false" full="yes">Extremadura</placeName>
+                        </region>
+                        <settlement>
+                            <placeName instant="false" full="yes">Badajoz, Badajoz, Extremadura, España</placeName>                     
+                        </settlement>
+                        <repository>Museo Arqueológico Provincial de Badajoz</repository>
+                        <collection/>
+                        <idno>494</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType/>
+                                    <material ref="www.eagle-network.eu/voc/material/rock">Piedra</material>
+                                    <p part="N">Fragmento de placa de mármol (ERBC caliza amarillenta) rectangular. Esta rota por la izquierda y fracturada horizontalmente en su parte inferior en dos pedazos que encajan entre sí.</p>
+                                    <dimensions unit="cm">
+                                        <height>27</height>
+                                        <width>34</width>
+                                        <depth>34</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv"/>
+                                    <rs type="inscriptionType" ref="http://www.eagle-network.eu/voc/typeins/lod/88">Dedicatoria</rs>
+                                <material ref="http://chc.sbg.ac.at/sri/thesaurus/49">Mármol</material></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="engravingTechnique"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Letras: rústicas. Interpunción: redonda.<height unit="cm" min="5" max="7">7 - 5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName type="provinceItalicRegion" instant="false" full="yes">Baetica</placeName>
+                                <placeName instant="false" full="yes">Nertobriga Concordia Iulia</placeName>
+                            </origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false"/>
+                        </origin>
+                        <provenance type="found">                            
+                            <placeName instant="false" full="yes">Fregenal de la Sierra</placeName>
+                            <placeName type="modernCountry" instant="false" full="yes">España</placeName>
+                            <placeName type="modernRegion" instant="false" full="yes">Extremadura</placeName>
+                            <placeName type="modernProvince" instant="false" full="yes">Badajoz</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+                <encodingDesc>
+            <p part="N">Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+            <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2013-08-26" who="HE epidoc generator" status="draft">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="http://eda-bea.es/pub/graphics/10251.xml"><desc>content provider</desc></graphic></facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography" part="N" org="uniform" sample="complete">
+            <listBibl default="false"><bibl default="false" status="draft">EE VIII 85</bibl><bibl default="false" status="draft"> IMBA 45-46, n1 32, lám. XXXIII (HEp 7, 1997, 73b)</bibl><bibl default="false" status="draft"> ERBC 41 (HEp 7, 1997, 73a)</bibl></listBibl></div>
+            
+            <div type="edition" part="N" org="uniform" sample="complete"><head>Text</head><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/>
+                 <orig>T</orig>ext
+                <gap reason="lost" quantity="3" unit="character" instant="false"/> <orig>P</orig>ollio<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="2"/><gap reason="lost" quantity="3" unit="character" instant="false"/> <orig>S</orig>uriacus<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="3"/><supplied reason="lost" instant="false"><expan instant="false"><abbr>f</abbr><ex instant="false">aciendum</ex></expan></supplied> · <expan instant="false"><abbr>c</abbr><ex instant="false">uravit</ex></expan> · <expan instant="false"><abbr>d</abbr><ex instant="false">e</ex></expan> · <expan instant="false"><abbr>s</abbr><ex instant="false">ua</ex></expan> · <expan instant="false"><abbr>p</abbr><ex instant="false">ecunia</ex></expan> ·
+            </ab></div>
+
+            <div type="apparatus" part="N" org="uniform" sample="complete"><p part="N">ERBC: [C(aius) Asinius? - - -] Pollio / [C(aius) Asinius? - - -] Suriacus / [ob honorem de]c(urionatus) · d(e) · s(uis) · p(osuerunt) · </p></div>
+
+            <div type="translation" xml:lang="Spanish" part="N" org="uniform" sample="complete">
+                <p part="N">
+                    <ref type="URI"/>
+                    <ref type="URL"/>
+                </p>
+            </div>
+
+            <div type="commentary" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+        </body>
+    </text>
+</TEI>

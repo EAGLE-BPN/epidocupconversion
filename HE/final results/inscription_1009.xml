@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Tegula inscrita</title>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=1009</idno>
+                <idno type="TM_id"/>
+                <availability default="false" status="unknown">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" instant="false" full="yes">España</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" instant="false" full="yes">Extremadura</placeName>
+                        </region>
+                        <settlement>
+                            <placeName instant="false" full="yes">Cáceres, Cáceres, Extremadura, España</placeName>                     
+                        </settlement>
+                        <repository>Museo de Cáceres</repository>
+                        <collection/>
+                        <idno>2913</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/">Teja</objectType>
+                                    <material ref="www.eagle-network.eu/voc/material/creta">Cerámica / Terracota</material>
+                                    <p part="N">Posible minuta de inscripción para ser grabada posteriormente en material más perdurable, escrita en una tegula, con resalte superior, rota por la mitad y desgastada por los bordes.</p>
+                                    <dimensions unit="cm">
+                                        <height>36</height>
+                                        <width>22</width>
+                                        <depth>22</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv"/>
+                                    <rs type="inscriptionType" ref="http://www.eagle-network.eu/voc/typeins/lod/127">Grafito</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="engravingTechnique"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Las letras, muy toscas e irregulares, son capitales elaboradas a punzón una vez seco el barro. Lín 1: P no completamente cerrada. Lín. 2: nexo VR. Lín. 3: nexo NT.<height unit="cm" min="2" max="3.5">3.5 - 2</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName type="provinceItalicRegion" instant="false" full="yes">Lusitania</placeName>
+                                <placeName instant="false" full="yes">Norba Caesarina</placeName>
+                            </origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">De mediados del siglo I a. C. </origDate>
+                        </origin>
+                        <provenance type="found">                            
+                            <placeName instant="false" full="yes">Garrovillas de Alconétar</placeName>
+                            <placeName type="modernCountry" instant="false" full="yes">España</placeName>
+                            <placeName type="modernRegion" instant="false" full="yes">Extremadura</placeName>
+                            <placeName type="modernProvince" instant="false" full="yes">Cáceres</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+                <encodingDesc>
+            <p part="N">Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+            <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2013-08-26" who="HE epidoc generator" status="draft">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="http://eda-bea.es/pub/graphics/10091.xml"><desc>content provider</desc></graphic></facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography" part="N" org="uniform" sample="complete">
+            <listBibl default="false"><bibl default="false" status="draft">J. Sanguino y Michel, ”¿Turmulus? Antigüedades descubiertas y otras ya conocidas”, Revista de Extremadura 8, 1906, 378, nº 3 (CPILC 37)</bibl><bibl default="false" status="draft"> ERCMCC 62-63, nº 53, lám. 53 (HEp 13, 2003/2004, 233) </bibl></listBibl></div>
+            
+            <div type="edition" part="N" org="uniform" sample="complete"><head>Text</head><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/>
+                 <orig>T</orig>ext
+                <orig>P</orig>recario <g type="stop"/> <orig>C</orig>oerensium<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="2"/>et <g type="stop"/> <orig>C</orig>alontensium <g type="stop"/> <orig>C</orig>alur<lb xmlns:tei="http://www.tei-c.org/ns/1.0" break="no" n="3"/>i <g type="stop"/> et <orig>P</orig>alantenses<lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="4"/>usi sunt&#xD;
+&#xD;
+
+            </ab></div>
+
+            <div type="apparatus" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+            <div type="translation" xml:lang="Spanish" part="N" org="uniform" sample="complete">
+                <p part="N">
+                    <ref type="URI"/>
+                    <ref type="URL"/>
+                </p>
+            </div>
+
+            <div type="commentary" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+        </body>
+    </text>
+</TEI>
