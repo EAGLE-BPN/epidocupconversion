@@ -10,6 +10,22 @@
     </xsl:template>
     
     
+    <!--  Create descriptive Title required from Europeana from Object Type and Inscription Type  -->
+    
+    <xsl:variable name="instyp" select="//tei:term"/>
+    <xsl:variable name="objtyp" select="//tei:objectType"/>    
+    
+    <xsl:template match="tei:title">
+        <title>
+            <xsl:value-of select="$instyp"/>
+            <xsl:text> on </xsl:text>
+            <xsl:value-of select="$objtyp"/>
+        </title>
+    </xsl:template>
+    
+    
+<!--  works on div to explicit TEXT and evaluate the presence of more inscriptions, parts, fragments  -->
+    
     <xsl:template match="tei:div[@type='edition']">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
