@@ -571,6 +571,22 @@
                                                   </expan>
                                                   </xsl:matching-substring>
                                                       <xsl:non-matching-substring>
+    <!--abbr+ expan (ta)mdiu situation-->
+                                                          <xsl:analyze-string select="."
+                                                              regex="\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)([A-Za-z0-9]+)*">
+                                                              <xsl:matching-substring>
+                                                                  <expan>
+                                                                      <ex>
+                                                                          <xsl:value-of select=" regex-group(1)"/>
+                                                                      </ex>
+                                                                      <abbr>
+                                                                          <xsl:value-of select=" regex-group(2)"/>
+                                                                      </abbr>
+                                                                      <xsl:value-of select=" regex-group(3)"/>
+                                                                  </expan>
+                                                              </xsl:matching-substring>
+                                                              <xsl:non-matching-substring>
+
 <!--|(centuria)-->
                                                       <xsl:analyze-string select="."
                                                           regex="\|\(centuria\)">
@@ -613,6 +629,8 @@
                                                           </xsl:non-matching-substring>
                                                       </xsl:analyze-string>
                                                       </xsl:non-matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:non-matching-substring>
                                                   </xsl:analyze-string>
                                                   </xsl:non-matching-substring>
                                                   </xsl:analyze-string>
