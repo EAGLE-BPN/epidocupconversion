@@ -13,7 +13,18 @@
     <!--  Create descriptive Title required from Europeana from Object Type and Inscription Type  -->
     
     <xsl:variable name="instyp" select="//tei:term"/>
-    <xsl:variable name="objtyp" select="//tei:objectType"/>
+    
+    <xsl:variable name="objtyp" select="//tei:objectType">
+    <xsl:analyze-string select="." regex="(\w+)\?">
+            <xsl:matching-substring>
+                <xsl:value-of select="regex-group(1)"/>
+            </xsl:matching-substring>            
+            <xsl:non-matching-substring>
+            <xsl:value-of select="."/>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+        </xsl:variable>
+        
     <xsl:variable name="bibl" select="//tei:bibl[position()=1]"/>
     
     <xsl:template match="tei:title">
