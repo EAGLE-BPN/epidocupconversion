@@ -143,6 +143,14 @@
                     select="regex-group(5)"/><xsl:text>]</xsl:text>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
+<!--     [dedicaverunt? \-\-\- Iu] -->
+                <xsl:analyze-string select="." regex="\[((.*)\?)(\s(\-\-\-)\s)(.*)\]">
+                <xsl:matching-substring>
+                    <xsl:text>[</xsl:text><xsl:value-of select="regex-group(1)"
+                    /><xsl:text>][</xsl:text><xsl:value-of select="regex-group(4)"/>][<xsl:value-of
+                        select="regex-group(5)"/><xsl:text>]</xsl:text>
+                </xsl:matching-substring>
+                <xsl:non-matching-substring>
 <!-- splits [bene? merenti?] in  [bene?][merenti?]      -->
                 <xsl:analyze-string select="." regex="\[((.*)\?)((.*)\?)\]">
                     <xsl:matching-substring>
@@ -215,6 +223,8 @@
                                                 </xsl:analyze-string>
                                             </xsl:non-matching-substring>
                                         </xsl:analyze-string>
+                                    </xsl:non-matching-substring>
+                                </xsl:analyze-string>
                                     </xsl:non-matching-substring>
                                 </xsl:analyze-string>
                             </xsl:non-matching-substring>
