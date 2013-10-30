@@ -18,7 +18,7 @@
     <xsl:template match="tei:title">
         <title>
             <xsl:value-of select="$instyp"/>
-            <xsl:text> on </xsl:text>
+            <xsl:text> über </xsl:text>
             <xsl:value-of select="$objtyp"/>
         </title>
     </xsl:template>
