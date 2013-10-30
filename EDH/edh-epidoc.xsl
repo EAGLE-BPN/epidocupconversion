@@ -17,9 +17,22 @@
     
     <xsl:template match="tei:title">
         <title>
-            <xsl:value-of select="$instyp"/>
-            <xsl:text> auf </xsl:text>
-            <xsl:value-of select="$objtyp"/>
+            <xsl:choose>
+                <xsl:when test="$objtyp/text()">
+                    <xsl:value-of select="$instyp"/>
+            <xsl:if test="$instyp/text()"><xsl:text> auf </xsl:text></xsl:if>
+            <xsl:value-of select="$objtyp"/></xsl:when>
+                <xsl:otherwise>
+                    <xsl:choose>
+                        <xsl:when test="$instyp/text()">
+                        <xsl:value-of select="$instyp"/>
+                        </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>Inschrift</xsl:text>
+                    </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
         </title>
     </xsl:template>
     
