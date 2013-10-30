@@ -471,7 +471,24 @@
                                                   <xsl:analyze-string select="." regex="\[(.*?)\]">
                                                   <xsl:matching-substring>
                                                   <supplied reason="lost">
-                                                  <xsl:value-of select="regex-group(1)"/>
+                                                <xsl:variable name="supplied"><xsl:value-of select="regex-group(1)"/></xsl:variable>
+                                                      <xsl:analyze-string select="$supplied"
+                                                          regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
+                                                          <xsl:matching-substring>
+                                                              <expan>
+                                                                  <abbr>
+                                                                      <xsl:value-of select=" regex-group(1)"/>
+                                                                  </abbr>
+                                                                  <ex>
+                                                                      <xsl:value-of select=" regex-group(2)"/>
+                                                                  </ex>
+                                                                  <xsl:value-of select=" regex-group(3)"/>
+                                                              </expan>
+                                                          </xsl:matching-substring>
+                                                          <xsl:non-matching-substring>
+                                                              <xsl:value-of select="."/>
+                                                          </xsl:non-matching-substring>
+                                                      </xsl:analyze-string>
                                                   </supplied>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
