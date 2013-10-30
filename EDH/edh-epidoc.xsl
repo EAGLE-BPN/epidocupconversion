@@ -13,11 +13,12 @@
     <!--  Create descriptive Title required from Europeana from Object Type and Inscription Type  -->
     
     <xsl:variable name="instyp" select="//tei:term"/>
-    <xsl:variable name="objtyp" select="//tei:objectType"/>    
+    <xsl:variable name="objtyp" select="//tei:objectType"/>
+    <xsl:variable name="bibl" select="//tei:bibl[position()=1]"/>
     
     <xsl:template match="tei:title">
         <title>
-            <xsl:choose>
+                        <xsl:choose>
                 <xsl:when test="$objtyp/text()">
                     <xsl:value-of select="$instyp"/>
             <xsl:if test="$instyp/text()"><xsl:text> auf </xsl:text></xsl:if>
@@ -28,7 +29,14 @@
                         <xsl:value-of select="$instyp"/>
                         </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text>Inschrift</xsl:text>
+                        <xsl:choose>
+                            <xsl:when test="$bibl">
+                                <xsl:value-of select="$bibl"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>Inschrift</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </xsl:otherwise>
                     </xsl:choose>
                 </xsl:otherwise>
