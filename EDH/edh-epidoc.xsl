@@ -566,21 +566,42 @@
                                                                       </expan>
                                                                   </xsl:matching-substring>
                                                                   <xsl:non-matching-substring>
- <!--expan + abbr-->
-                                                  <xsl:analyze-string select="."
-                                                  regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
-                                                  <xsl:matching-substring>
-                                                  <expan>
-                                                  <abbr>
-                                                  <xsl:value-of select=" regex-group(1)"/>
-                                                  </abbr>
-                                                  <ex>
-                                                  <xsl:value-of select=" regex-group(2)"/>
-                                                  </ex>
-                                                  <xsl:value-of select=" regex-group(3)"/>
-                                                  </expan>
-                                                  </xsl:matching-substring>
-                                                      <xsl:non-matching-substring>
+     <!--co(n)s(ul)-->
+                                                          <xsl:analyze-string select="."
+                                                              regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
+                                                              <xsl:matching-substring>
+                                                                  <expan>
+                                                                      <abbr>
+                                                                          <xsl:value-of select=" regex-group(1)"/>
+                                                                      </abbr>
+                                                                      <ex>
+                                                                          <xsl:value-of select=" regex-group(2)"/>
+                                                                      </ex>
+                                                                      <abbr>
+                                                                          <xsl:value-of select=" regex-group(3)"/>
+                                                                      </abbr>
+                                                                      <ex>
+                                                                          <xsl:value-of select=" regex-group(4)"/>
+                                                                      </ex>
+                                                                      <xsl:value-of select=" regex-group(5)"/>
+                                                                  </expan>
+                                                              </xsl:matching-substring>
+                                                              <xsl:non-matching-substring>
+        <!--expan + abbr-->
+                                                                  <xsl:analyze-string select="."
+                                                                      regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
+                                                                      <xsl:matching-substring>
+                                                                          <expan>
+                                                                              <abbr>
+                                                                                  <xsl:value-of select=" regex-group(1)"/>
+                                                                              </abbr>
+                                                                              <ex>
+                                                                                  <xsl:value-of select=" regex-group(2)"/>
+                                                                              </ex>
+                                                                              <xsl:value-of select=" regex-group(3)"/>
+                                                                          </expan>
+                                                                      </xsl:matching-substring>
+                                                                      <xsl:non-matching-substring>
     <!--abbr+ expan (ta)mdiu situation-->
                                                           <xsl:analyze-string select="."
                                                               regex="\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)([A-Za-z0-9]+)*">
@@ -660,7 +681,8 @@
                                                   </xsl:analyze-string>
                                                   </xsl:non-matching-substring>
                                                   </xsl:analyze-string>
-                                                      
+                                                      </xsl:non-matching-substring>
+                                                  </xsl:analyze-string>
                                                   </xsl:non-matching-substring>
                                                   </xsl:analyze-string>
                                                   </xsl:non-matching-substring>
