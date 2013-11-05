@@ -364,7 +364,24 @@
                                                   regex="\[\[(.*?)\]\]">
                                                   <xsl:matching-substring>
                                                   <del rend="erasure">
-                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:variable name="erased"><xsl:value-of select="regex-group(1)"/></xsl:variable>
+                                                      <xsl:analyze-string select="$erased"
+                                                          regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
+                                                          <xsl:matching-substring>
+                                                              <expan>
+                                                                  <abbr>
+                                                                      <xsl:value-of select=" regex-group(1)"/>
+                                                                  </abbr>
+                                                                  <ex>
+                                                                      <xsl:value-of select=" regex-group(2)"/>
+                                                                  </ex>
+                                                                  <xsl:value-of select=" regex-group(3)"/>
+                                                              </expan>
+                                                          </xsl:matching-substring>
+                                                          <xsl:non-matching-substring>
+                                                              <xsl:value-of select="."/>
+                                                          </xsl:non-matching-substring>
+                                                      </xsl:analyze-string>
                                                   </del>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
