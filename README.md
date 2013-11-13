@@ -25,6 +25,16 @@ this will have to be:
 - numbering parts and lines
 
 In each project directory there is therefore a series of folders: samples are the file described above, just out of a database. 
-results are files after the [projectname]-epidoc.xsl has been run.
-final results are files after the numering.xsl has been run.
+results are files after processing.
+The currently most up to date files are those in the EDH/allinone folder where all .xsl are articulated to call each other and the vocabulary export.
+
+things that still need attention, among things which I know about, are: 
+- spaces in the text (this is only relevant when we want to transform the generated .xml)
+- date (which is connected with the vocabularies)
+
+the vocabulary situation instead (generating the double urls and the non-matching instances) is as follows:
+- the Target vocabularies in Tematres will be available thanks to an update to the sofware. The EAGLE implementation will be soon updated and so will be the files in this repo. 
+- There are few doubles in the EAGLE vocabularies which I will soon remove
+- there are some missing entries: they will slowly be added, hopefully
+- thanks to Eydel Rivero Ruiz we do not have any more the problem of generating empty ref="" when populating the XML from the vocabulary
 
