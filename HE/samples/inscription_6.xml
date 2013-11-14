@@ -1,0 +1,157 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Donación de Suavis y Faustus de una edícula a los Lares y al Genio  </title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=6</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Almería, Almería, Andalucía, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Provincial de Almería</repository>
+            <idno>24004</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Placa</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Placa rectangular de mármol gris</p>
+                  <dimensions unit="cm">
+                    <height>17.5</height>
+                    <width>50.5</width>
+                    <depth>50.5</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Buen estado de conservación, aunque presenta saltaduras en los ángulos superiores y cierta erosión en la superficie.</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote> l. 1ª: 3,5; 2ª: 4,2; 3ª: 2; 4ª: 1,7 cm. Letras muy cuidadas en las dos primeras líneas y son notablemente mayores. Presenta una ligadura en MI de PRIMI, empleo abusivo de la interpunción.<height min="1.7" max="4.2">4.2 - 1.7</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Abdera</placeName>
+              </origPlace>
+              <origDate notBefore="0050" notAfter="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Siglo I d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Adra</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Cultual</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=6.jpg">
+      <desc>
+        <idno>61</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>CIL II 1980</bibl>
+          <bibl> ILS 3604</bibl>
+          <bibl> Waltzing, J.-P., Etude historique sur les corporations professionelles chez les Romains depuis les origines jusqu à la chute de l´empire d´Occident. III, Louvain, 1899, p. 7, n. 47</bibl>
+          <bibl> IRAL, 3, lám. I</bibl>
+          <bibl> Fernández Miranda, M., Abdera: Excavaciones en el Cerro de Montecristo (Adra, Almería), Madrid, EAE 85, 1975, 184-185, n. 10, lám. 15.10</bibl>
+          <bibl> Mangas, J., Esclavos y libertos en la España Romana. Salamanca, 1971, p. 203</bibl>
+          <bibl> Santero Santurino, J. M., Asociaciones populares en Hispania Romana, Sevilla, 1978, p. 153, n. 15</bibl>
+          <bibl> Fatás, G., «El villicus en Hispania», Caesaraugusta 45-6 (1978), 113-148, pp. 115-116</bibl>
+          <bibl> Bömer, F., Untersuchungen und Religion der Sklaven in Griecherland und Rom, Wiesbaden, 1981, 5. 47 + 202</bibl>
+          <bibl> Portillo, R. - Rodríguez Oliva, P. - Stylow, A. U., «Portrathermen mit Inschrift im romischen Hispanien», MM 26 (1985), pp. 185-217, 213, nota 53</bibl>
+          <bibl> Staerman, E. M. - Smirin, V. M. - Belova, N. N. - Kolosovskaja, Ju. K., Die Sklaverei in den westlichen Provinzen des römischen Reiches im 1.-3. Jahrhundert, Stuttgart, 1987, p. 47</bibl>
+          <bibl> Sánchez Martínez, M., Tierra Uccitana, Almería 1988, p. 52-53</bibl>
+          <bibl> Schulze-Oben, H., Freigelassene in den Städten des römischen Hispanien, Bonn, 1989, 183-185</bibl>
+          <bibl> Tapia, J., Historia de la Baja Alpujarra, Almería, 1989, p. 34</bibl>
+          <bibl>  Rodríguez Cortés, J., «Notas sobre la distribución geográfica de las inscripciones a las divinidades clásicas en la Bética», Studia historica. Historia Antigua 8 (1990), 121-148, p. 130</bibl>
+          <bibl> Oria Segura, M. - Mora de los Reyes, M., «La arquitectura religiosa en la Bética a través de la epigrafía», Anas 4-5 (1991-92), 115-135, p. 117, n. 11</bibl>
+          <bibl> HEp 1, 1989, 75</bibl>
+          <bibl> Silva Ruivo, J. da, «L. Antonio Urso liberti et familia», Conimbriga 31 (1992), 131-132</bibl>
+          <bibl> Marín, M. C. - Lomas, F. J., «Cádiz fenicio, púnico y romano»,  Dialoghi di Archeologia 10, ser. 1-2 (1992), 129-154, p. 145</bibl>
+          <bibl> Fortea López, F., Némesis en el Occidente romano, Zaragoza, 1994, p. 299, n. 11</bibl>
+          <bibl> Martín Valls, R. - Romero Carnicero, M. V. - Carretero Vaquero, S., «Aras votivas de Petavonium», Zephyrus XLVIII (1995), p. 331 C45</bibl>
+          <bibl> López Medina, M. J., El municipio romano de Abdera. Una aproximación histórica, Almería, 1996, p. 192</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>C(ultorum ?) · c(ollegii ?) · N(emesis ?) · / Suavis · l(ibertus) · et · / Faustus · vilic(us) · Lar(es) · et · Genium / cum · aedicula · primi · in · familia · d(e) · s(uo) · d(ant) · d(edicant) ·</ab>
+      </div>
+      <div type="apparatus">
+        <p>lin. 1: C C (Gaiorum) n(ostrorum) (ILS); C(auti) C(autopati) N(uminibus) (Mariner); C. C. N(ostris) (Rodríguez Oliva)</p>
+      </div>
+      <div type="commentary">
+        <p>No hay acuerdo sobre la lectura de la primera línea.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>6</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

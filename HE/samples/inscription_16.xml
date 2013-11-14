@@ -1,0 +1,144 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ex voto a las ninfas de L. F[- - -] Argyrinus </title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=16</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Almería, Almería, Andalucía, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Provincial de Almería</repository>
+            <idno>73703</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Pedestal</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Pedestal de mármol blanco, servía de apoyo a una escultura que tenía los brazos extendidos a lo largo del cuerpo y las manos abiertas mostrando las palmas. Conserva completas las molduras de la base.</p>
+                  <dimensions unit="cm">
+                    <height>60</height>
+                    <width>31</width>
+                  </dimensions>
+                  <rs type="statPreserv">Bastante deteriorado en la parte superior, llegando a afectar al texto al final de las línas 1ª y 2ª.</rs>
+                </support>
+              </supportDesc>
+              <layout>
+                <height>9.5</height>
+                <width>19</width>
+              </layout>
+            </objectDesc>
+            <handDesc>
+              <handNote> l. 1ª y 2ª: 2,5; 3ª: 2,6 cms. Letra capital cuadrada de buena factura. Interpunción: triángulo.<height min="2.5" max="2.6">2.6 - 2.5</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+                <placeName>Tagili</placeName>
+              </origPlace>
+              <origDate notAfter="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Siglo I d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Tíjola</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Cultual</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://www.juntadeandalucia.es/cultura/imgdomus/MAL_IMAGENES/fondos_pre/MALFCE73703_P.JPG">
+      <desc>
+        <idno>161</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Junta de Andalucía</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>IRAL 49</bibl>
+          <bibl> Tapia, J., Historia General de Almería y su provincia, t. II Colonizaciones, Almería, 1982, pp. 226-227</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>Nimph[ae] / L(ucius) F[- - -] Argyr/inus v(otum) s(olvit)</ab>
+      </div>
+      <div type="apparatus">
+        <p>IRAL:&#13;
+Nympho.&#13;
+&#13;
+J. Tapia:&#13;
+Nimpha / L. F. DRGYR / YNNUS V. S.</p>
+      </div>
+      <div type="commentary">
+        <p>La dedicación a las ninfas concuerda con la proximidad de aguas termales.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>16</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

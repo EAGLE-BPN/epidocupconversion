@@ -1,0 +1,147 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Honra de Caracalla</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=9</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Almería, Almería, Andalucía, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Provincial de Almería</repository>
+            <idno>24358</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Bloque</objectType>
+                  <material>Piedra</material>
+                  <material>Caliza, calcárea</material>
+                  <p>Bloque de caliza partido y desgastado perforado en la parte superior por tres orificios que servirían para sujetar la estatua del emperador. El campo epigráfico se encuentra delimitado por dos líneas paralelas en la parte superior, inapreciables en los lados restantes.</p>
+                  <dimensions unit="cm">
+                    <height>75</height>
+                    <width>30</width>
+                    <depth>30</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Partido en dos a la altura de la décima línea, muy desgastado en sus bordes e incompleto en los ángulos inferiores. La parte inferior aparece redondeada por las numerosas saltaduras, haciendo imposible la lectura de la última línea.</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>l. 1ª: 5 cm salvo I y C: 6,5 cm; el resto 3-3,5 cm. Letra capital cuadrada de buena factura. Interpunción: triángulo, con un empleo abusivo, empleada incluso en PI·I. Líneas guía.<height min="3" max="6.5">6.5 - 3</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Murgi</placeName>
+              </origPlace>
+              <origDate notBefore="0198" notAfter="0210" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" period="Severiana (c. 193-235 d.C.)">Siglo III d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Ejido, El</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Honorífica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=9_1.jpg">
+      <desc>
+        <idno>91</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=9_2.jpg">
+      <desc>
+        <idno>92</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>Navascues, J. M. de, «Inscripciones hispano-romanas», AEspA 10 (1934), 189-206, pp. 190-191</bibl>
+          <bibl> AE 1935, 10</bibl>
+          <bibl> ILER 1167</bibl>
+          <bibl> IRAL 46</bibl>
+          <bibl> Tapia, J., Historia de la Baja Alpujarra, Almería, 1989, pp. 57-58</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>Imp(eratori) · Caes(ari) / M(arco) · Aurelio · Antonino / Aug(usto) · trib(unitia) · potest(ate) · pro/co(n)s(uli) · Imp(eratori) · Caes(ari) · L(uci) · Sept/[i]mi · Severi · Pi · i · Pertina/cis · Aug(usti) · Arabici · Adia/[b]enici · Parthici · Max(imi) / [p]ontificis · max(imi) · Fortiss/[i]mi Felicissimi · p(ater) · p(atriae) · fili[o] / [D]ivi · M(arci) · Antonini · Ge/[r]manici · Sarm(atici) · nep(oti) Di/[vi · A]ntonini · Pii · prone/[p(oti)  D]ivi · Hadriani · ab[n/ep(oti) ·  D]ivi · Tra[i]ani · P[arthici] · et · Div[i · N]er[vae / adnep(oti) · Resp(ublica) M(urgitanorum)]</ab>
+      </div>
+      <div type="apparatus">
+        <p>No se han publicado otras variantes.</p>
+      </div>
+      <div type="commentary">
+        <p>Se emplea la interpunción de forma abusiva, así en PI · I. La última línea es apenas legible. La dedicatoria es a Caracalla en su primer año de principado, que tomó el nombre de Marco Aurelio Antonino por adopción, y fue Augusto en el año 198 cuando compartió el poder con su padre Septimio Severo.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>9</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

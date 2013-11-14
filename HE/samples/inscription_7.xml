@@ -1,0 +1,159 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Honra del pedagogo Nonius Auctus a G. Annius Hispanus</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=7</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Almería, Almería, Andalucía, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Provincial de Almería</repository>
+            <idno>24009</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Herma</objectType>
+                  <material>Piedra</material>
+                  <material>Caliza, calcárea</material>
+                  <p>Fragmento de herma de caliza rojiza (Caliza recristalizada procedente de las canteras de Alconera (Badajoz), según análisis de Miguel Cisneros Cunchillo). El fragmento superior presenta dos hendiduras, de las que se conserva perfectamente la del lado derecho, 8 x 5 cms. que posiblemente servían para anclaje de una escultura. Ello concuerda con el semicírculo desbastado en su parte superior. El texto ocupa solamente la parte central.</p>
+                  <dimensions unit="cm">
+                    <height>41</height>
+                    <width>23</width>
+                    <depth>23</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Partida por la mitad aproximadamente en sentido ascendente hacia la derecha. La parte superior aparece redondeada e incompleta por una saltadura; la parte inferior se encuentra también fragmentada en sentido descendente hacia la derecha. En uno de los extremos de la fractura media hay otra saltadura que afecta al final de la segunda línea.</rs>
+                </support>
+              </supportDesc>
+              <layout>
+                <height>10</height>
+                <width>19</width>
+              </layout>
+            </objectDesc>
+            <handDesc>
+              <handNote> l. 1ª: 2,4; 2ª: 1,5; 3ª: 2,3 cm. La letra es elegante, acabando los trazos en cursiva. La altura es bastante inferior en las letras de la segunda línea. Interpunción de tipo uncial en las dos primeras líneas.<height min="1.5" max="2.4">2.4 - 1.5</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Abdera</placeName>
+              </origPlace>
+              <origDate notBefore="0150" notAfter="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Siglo II d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Adra</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Honorífica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=7.jpg">
+      <desc>
+        <idno>71</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+    <graphic url="http://www.juntadeandalucia.es/cultura/imgdomus/MAL_IMAGENES/fondos_pre/MALFCE24009_P.JPG">
+      <desc>
+        <idno>72</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Junta de Andalucía</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>CIL II 1981</bibl>
+          <bibl> ILER 5743</bibl>
+          <bibl> Mangas, J., Esclavos y libertos en la España Romana, 1971, pp. 180 y 193</bibl>
+          <bibl> Fernández Miranda, M., Abdera: Excavaciones en el Cerro de Montecristo (Adra, Almería), Madrid, EAE 85, 1975, pp. 180-181, lám. 1, 3, 4</bibl>
+          <bibl> Sagredo San Eustaquio, L. - Crespo Ortiz de Zárate, S.,  «La enseñanza en la Hispania romana», Hispania Antiqua 5 (1975), 121-134, pp. 123-124, n. 4</bibl>
+          <bibl> IRAL 4</bibl>
+          <bibl> Rodríguez Oliva, P., «El conjunto de hermae-retratos de Obulco», Baetica 5 (1982), 133-141, pp. 134-5, nota 9</bibl>
+          <bibl> Rodríguez Oliva, P., «Epígrafes latinos sobre pedestales hermaicos de la Bética»,  Actas del I Congreso Andaluz de Estudios Clásicos: Jaén, 9-12 diciembre de 1981, Jaen, 1982, 383-391, p. 388, n. 8</bibl>
+          <bibl> Portillo, R. - Rodríguez Oliva, P. - Stylow, A. U., «Portrathermen mit Inschrift im romischen Hispanien», MM 26 (1985), pp. 185-217, 188, n. 1</bibl>
+          <bibl> Tapia, J., Historia de la Baja Alpujarra, Almería, 1989, p. 32</bibl>
+          <bibl> HEp 1, 1989, 74</bibl>
+          <bibl> Stanley, F. H., «Roman Education: Observations on the Iberian Experience», REA 93, nos. 3-4, (1991), 1-21</bibl>
+          <bibl> López Medina, M. J., El municipio romano de Abdera. Una aproximación histórica, Almería, 1996, p. 192</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>G(aio) Annio Hispano / N(onius) Auctus paedag(ogus) / d(edit) d(edicavit)</ab>
+      </div>
+      <div type="apparatus">
+        <p>Por la buena conservación de la pieza y la calidad de las letras no se han escrito variantes.</p>
+      </div>
+      <div type="commentary">
+        <p>Podría tratarse de una herma, por la escotadura en la parte superior que llevaría una imagen.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>7</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

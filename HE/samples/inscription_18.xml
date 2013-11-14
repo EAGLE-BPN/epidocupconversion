@@ -1,0 +1,145 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Últimas voluntades de Caesianus</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=18</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Madrid, Madrid, Comunidad de Madrid, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Nacional - Madrid</repository>
+            <idno>1907/32/110</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Pedestal</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Fragmento derecho de una lápida monumental de mármol. Doble moldura de 3,5 cms.</p>
+                  <dimensions unit="cm">
+                    <height>78</height>
+                    <width>48</width>
+                  </dimensions>
+                  <rs type="statPreserv">Fragmentada.</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Letra capital cuadrada cuidada y elegante. En la primera línea destaca la primera I de FIERI, en la sexta línea se observa una raya horizontal sobre el numeral VI y en la décima línea sobre el numeral I, indicativo propio del millar.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+                <placeName>Baria</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Desconocida</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Villaricos</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Epitafio / sepulcral</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=18.jpg">
+      <desc>
+        <idno>181</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>Siret, L., Villaricos y Herrerías, Madrid, 1908, p. 89 y 96, lám. XXIV</bibl>
+          <bibl> Rivero, C. M. del, El lapidario del Museo Arqueológico de Madrid, Valladolid, 1933, p. 34, nº 104</bibl>
+          <bibl> IRAL 31</bibl>
+          <bibl> Melchor Gil, E., «Evergetismo testamentario en la Hispania Romana : legados y fundaciones», Memorias de Historia Antigua 15-6 (1994-95), pp. 215-223</bibl>
+          <bibl> Abascal, J. M.</bibl>
+          <bibl> Gimeno, H., Epigrafía Hispánica, Madrid, 2000, nº 18</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>[- - -] Caesianus / [ex  test(amento)] hoc opus fieri / [iussit ac] huic dono he/[redes XX n]on deduxerunt / [- - -am]plius impende/[runt HS] VICLVI at custo/[diam tem]pli dederunt / [arb(itratu) - - -C]orneli Fausti / [- - -Fe]licio lib(erto) preti/[um fun]eris HS  ICCCC</ab>
+      </div>
+      <div type="apparatus">
+        <p>Rivero: &#13;
+..... [Cornelius] Caesianus / [...Barensis] hoc  opus fieri / [ex textamento iusit] huic dono he/[redes... ....]on deduxerunt / [...--]lius imende/[runt....--]cli at custo/[diam tem]pli deduxerunt / [C]orneli Fausti/[nus et Fe]licio lib preti/[um... fun]eris HS I CCCC&#13;
+&#13;
+Rodríguez de Berlanga:&#13;
+&#13;
+[............filius..........] Caesianus / [testam(ento) suo] hoc opus fieri / [iussit et] huic dono he/[redes XX (vicesimam) n]on deduxerunt / [sed etiam am]plius impende/[runt HS (sestertios) VICLVI at custo/[diam tem]pli, dederunt / [que....C]orneli Fausti/[ni bene]ficio lib(ertatis) preti/[um fun]eris HS (sestertios) ICCCC.</p>
+      </div>
+      <div type="commentary">
+        <p>Presenta a Baria como ciudad dependiente administrativamente de la Bética. Se relaciona con la «vigesima hereditatum» con CIL II 1425 y 1637.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>18</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

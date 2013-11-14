@@ -1,0 +1,140 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Epitafio de un caballero</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=19</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Bordeaux, Gironde, Francia</placeName>
+            </settlement>
+            <repository>Musée d'Aquitaine</repository>
+            <idno>X 118</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Placa</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Fragmento de una placa mármol blanco</p>
+                  <dimensions unit="cm">
+                    <height>13.5</height>
+                    <width>13.5</width>
+                    <depth>13.5</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Fragmentada.Rota por todos sus lados</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Capital cuadrada.  Interpunción: triángulo.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+                <placeName>Baria</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">siglo I o II</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Villaricos</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Epitafio / sepulcral</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://www.ucm.es/info/archiepi/aevh/Idfichas/19a.jpg">
+      <desc>
+        <idno>191</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>Dubois, Ch., «Inscriptions latines d´Espagne» Bulletin Hispanique 3 (1901), p. 219, nº 21</bibl>
+          <bibl> Curchin, L. A., «Forgotten inscriptions from Baria (Tarraconensis)» ZPE 49 (1982), 186</bibl>
+          <bibl> AE 1982, 632</bibl>
+          <bibl> AE 1987, 616, l)</bibl>
+          <bibl> Castillo, C., «Los flamines provinciales de la Bética», Revue des Études Anciennes 100, p. 457, nº 26.</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>- - - - - - / [flami]ni [tr(ibuno) mil(itum) leg(ionis) - - - / i]tem · tr(ibuni ?) m[il(itum) leg(ionis) - - -] / IIvir(o) · p[raef(ecto) fabr(um) - - - /h(ic)] s(itus) · s(it) [t(ibi) t(erra) l(evis)]</ab>
+      </div>
+      <div type="apparatus">
+        <p>No se han publicado otras variantes.</p>
+      </div>
+      <div type="commentary">
+        <p>Fue redescubierta por Curchin depositada en el Museo de Aquitania.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>19</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

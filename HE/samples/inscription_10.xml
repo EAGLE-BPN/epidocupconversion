@@ -1,0 +1,153 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>L. Aemilius Daphnus regala unas termas y dinero a sus conciudadanos</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=10</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Tembleque, Toledo, Castilla-La Mancha, España</placeName>
+            </settlement>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Placa</objectType>
+                  <material>Piedra</material>
+                  <material>Caliza, calcárea</material>
+                  <p>Placa caliza pulimentada de color ocre-violaceo con vetas blancas; está rota por el ángulo inferior izquierdo</p>
+                  <dimensions unit="cm">
+                    <height>50.5</height>
+                    <width>96.5</width>
+                  </dimensions>
+                  <rs type="statPreserv">Buen estado de conservación.</rs>
+                </support>
+              </supportDesc>
+              <layout>
+                <height>50</height>
+                <width>95</width>
+              </layout>
+            </objectDesc>
+            <handDesc>
+              <handNote>Letras cursivas, grabadas a doble bisel. Puntuacón lanceolada regularmente observada, salvo  entre QUO DIE, EODEM DIE y después de X.<height>4.5</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Murgi</placeName>
+              </origPlace>
+              <origDate notBefore="0050" notAfter="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Siglo I d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Ejido, El</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Monumental</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=10_1.jpg">
+      <desc>
+        <idno>101</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Pablo Martín-Rabadán</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>Rodríguez de Berlanga, M., Los bronces de Osuna, Málaga, 1873, pp. 185-186</bibl>
+          <bibl> EE II, 314</bibl>
+          <bibl> CIL II 5489</bibl>
+          <bibl> Fita, F., «Inscripciones murgitanas», BRAH LVII (1910), 106-126, pp. 116-119</bibl>
+          <bibl> Blázquez, A., «Vía romana de Guadix en Málaga: Informe inédito de D. Eduardo Saavedra», BRAH 83 (1923), 11-21</bibl>
+          <bibl> ILER 2045</bibl>
+          <bibl> D Ors, A, Epigrafia jurídica de la España romana, Madrid, 1953, p. 429, n. 37</bibl>
+          <bibl> Etienne, R., Le culte impérial dans la Péninsule Ibérique d Auguste a Dioclétien, París, 1958, p. 271, nota 1</bibl>
+          <bibl> López de Ayala y Álvarez de Toledo (Conde de Cedillo), J., Catálogo monumental de la provincia de Toledo, Toledo, 1959, pp. 392-393, nº 442</bibl>
+          <bibl> Mensel, H., Die Verwaltung un Finanziening der öffentlichen Baden zur römischen kaiserzeit, Köln, 1960, pp. 72-73</bibl>
+          <bibl> Pasqualini, A., «Note su alcuni aspetti politici di un costume di epoca imperiale: le sportulae municipali», Helikon 9-10 (1969-70), 265-312, n. 72 </bibl>
+          <bibl> IRAL 43</bibl>
+          <bibl> Muñiz Coello, J., El sistema fiscal en la España romana (República y Alto Imperio), Huelva, 1980, p. 322, n. 188</bibl>
+          <bibl> Serrano Delgado, J. M., Status y promoción social de los libertos en Hispania Romana, Sevilla, 1988, p. 109</bibl>
+          <bibl> Tapia, J., Historia de la Baja Alpujarra, Almería, 1989, pp. 55-57</bibl>
+          <bibl> del Hoyo, J., «Un aspecto socioeconómico de la Bética: los epula», en: Rodríguez Neila, J. F. (coord.), Actas del I Coloquio de Historia Antigua de Andalucia, Córdoba 1988, Córdoba, 1993, 73-88, p. 85</bibl>
+          <bibl> Abascal, J. M. - Gimeno, H., Epigrafía Hispánica, Madrid 2000, 65-66 </bibl>
+          <bibl> Andreu Pintado, J., «Evergetismo edilicio sobre termas en hispania», en: Fernández Ochoa, C.</bibl>
+          <bibl> García Entero, V. (eds.), Termas romanas en el Occidente del Imperio, II Coloquio Internacional de Arqueología en Gijón, Gijón, 2000, pp. 289-294</bibl>
+          <bibl> Lázaro, R., «Inscripción monumental de Murgi (El Ejido, Almería)», Rev. Inst. Est. Almerienses 19 (2003-04), pp. 157-164 (HEp 13, 2003/2004, 9)</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>L(ucius) · Aemilius · Daphnus · sevir · thermas / sua · omni · impensa · municipibus · Murg(itanis) / dedit · et · quodie · eas · dedicavit · X (denarios) sin/[gu]los · civibus · et · incolis · epulum · dedit / [q]uamdiu · vixisset · eodem · die · daturum / [esse]  X (denarios) singulos · eisdem · promisit · et · in · / [tute]lam · earundem · thermarum · quam/[diu ·  i]pse ·  vixisset · annuos · X (denarios) · CL / pollicitus · est.</ab>
+      </div>
+      <div type="apparatus">
+        <p>3: quo die: Saavedra, Berlanga —— 3-4:  sin[g]ulos: Saavedra, CIL,Lázaro  —— 5: [et q]uamdiu, Saavedra, Berlanga; [q]uamdiu, CIL, Fita, Lázaro——6: [se]: CIL, Fita, Lázaro —— 7: [tut]elam, Saavedra, Berlanga; [tutel]am, Lázaro —— diu . ipse. Saavedra, Berlanga, CIL, Lázaro</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>10</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

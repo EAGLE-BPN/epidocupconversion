@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Epitafio de Attia Galla</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=29</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>(?)</objectType>
+                  <p>No se tienen datos acerca del material en que estaba hecha.</p>
+                  <rs type="statPreserv">Fragmentaria. Presenta una laguna al principio de la línea tercera. La cuarta línea totalmente ilegible.</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Interpunción: hojas de hedera en la primera línea entre D y M y a continuación de M, entre ATTIA y GALLA en la segunda línea y en la tercera línea antes de PIA y entre PIA e IN.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Abdera</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">A falta de más datos resulta imposible datarla.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Adra</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Epitafio / sepulcral</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile/>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>CIL II 1986</bibl>
+          <bibl> IRAL 9</bibl>
+          <bibl> ILER 3151</bibl>
+          <bibl> Mª L. Albertos Firmat</bibl>
+          <bibl> «La onomástica personal primitiva de Hispania. Tarraconense y Bética», C.S.I.C. Salamanca, 1966, p. 41</bibl>
+          <bibl> M. Fernández Miranda, EAE 85, 1975, pp. 191-192, nº 21</bibl>
+          <bibl> J. Tapia, Historia Baja Alpujarra, Almería 1989, 37</bibl>
+          <bibl> Mª J. López Medina, «El municipio romano de Abdera. Una aproximación histórica», 1996, p. 193.</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>D(is) (hedera) M(anibus) (hedera) / Attia (hedera) Galla / [- - -] (hedera) pia (hedera) in / [suos ó suis] - - - - - -</ab>
+      </div>
+      <div type="apparatus">
+        <p>A falta de más datos no admite variantes posibles.</p>
+      </div>
+      <div type="commentary">
+        <p>En la 4ª línea se puede deducir alguna palabra por el formulario.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>29</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

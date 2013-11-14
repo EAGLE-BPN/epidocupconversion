@@ -1,0 +1,146 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Honra pública a L. Alfenus Avitianus</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=2</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Abla, Almería, Andalucía, España</placeName>
+            </settlement>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Pedestal</objectType>
+                  <material>Piedra</material>
+                  <material>Arenisca</material>
+                  <p>Pedestal de piedra arenisca amarillenta</p>
+                  <dimensions unit="cm">
+                    <height>52</height>
+                    <width>80</width>
+                    <depth>80</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Superficie erosionada y blanqueada con cal. Actualmente no se conservan restos de inscripción.</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Interpunción circular en la primera y tercera línea.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+                <placeName>Alba Bastetanorum</placeName>
+              </origPlace>
+              <origDate notBefore="0150" notAfter="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Siglo II d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Abla</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Honorífica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=2.jpg">
+      <desc>
+        <idno>21</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=2a.JPG">
+      <desc>
+        <idno>22</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>Suarez ms. 1696 «Historia del Obispado de Guadix-Baza»</bibl>
+          <bibl> CIL II 3401</bibl>
+          <bibl> IRAL, 26</bibl>
+          <bibl> Sánchez Martínez, M., Tierra Urcitana, Almería, 1988, pp. 27-28</bibl>
+          <bibl>  Lázaro, R., en: Homenaje a P. Tapia, Almería 1988, pp. 122-123</bibl>
+          <bibl> Pociña López, C. A., «Estudio toponímico de la población de Fiñana (Almería)», Florentia Iliberritana 7 (1996), 299-306, pp. 301-305.</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>L(ucio) · Alfeno · Arn(ensi) / Avitiano / [- - - - - -] / ordo · rei · p(ublicae) · / [- - -] de/crevit [- - -] / - - - - - -</ab>
+      </div>
+      <div type="apparatus">
+        <p>Suarez, ms. 1696.&#13;
+E. AVRE.I. NOO. ARN. / AVITIANO / BISIBIISCO / N ........ X.D.I. / CRIV. TNIN. / TISOVAT... V.../ ITI..... T...... V.... / D. I.. II..</p>
+      </div>
+      <div type="commentary">
+        <p>Se trata del mismo personaje de la inscripción de Fiñana CIL II 3399 que homenajea a Lucio Vero. Sánchez Martínez mantiene que ha de estudiarse con más detenimiento la lectura de Suárez. La indicación de la tribu Arnensis es signo de plena ciudadanía.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>2</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

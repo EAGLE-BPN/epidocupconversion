@@ -1,0 +1,149 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Epitafio de L. Aemilius y Cornelia</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=26</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Almería, Almería, Andalucía, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Provincial de Almería</repository>
+            <idno>24007</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Placa</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Fragmento de placa de mármol</p>
+                  <dimensions unit="cm">
+                    <height>26</height>
+                    <width>24.5</width>
+                    <depth>24.5</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Fragmentaria. Inscripción incompleta , deteriorada por una fractura que afecta a la lectura del final de la primera y segunda línea. La parte conservada se halla en buen estado.</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Mayúsculas con tendencia cursiva, de buena factura. Ausencia del asta transversal de la A, propio de la escritura vulgar. Son mayúsculas estiradas con tendencia cursiva en la A, M y N, cuyos ángulos superiores aparecen muy cerrados. Interpunción: ángulo.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Abdera</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Reinado de Claudio [Fernández Miranda (1975)]</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Adra</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Epitafio / sepulcral</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=1042.jpg">
+      <desc>
+        <idno>261</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+    <graphic url="http://www.juntadeandalucia.es/cultura/imgdomus/MAL_IMAGENES/fondos_pre/MALFCE24007_P.JPG">
+      <desc>
+        <idno>262</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Junta de Andalucía</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>CIL II 1983</bibl>
+          <bibl> IRAL 6</bibl>
+          <bibl> ILER 3687</bibl>
+          <bibl> M. Fernández Miranda, EAE 85, 1975, pp. 186-87, nº 12</bibl>
+          <bibl> J. Tapia </bibl>
+          <bibl> Historia Baja Alpujarra, Almería 1989, 35</bibl>
+          <bibl> Mª J. López Medina, «El municipio romano de Abdera. Una aproximación histórica», 1996, p. 192</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>L(ucio) · Aemilio[- - -] / Cornelia[- - -] / sibi [- - -]</ab>
+      </div>
+      <div type="apparatus">
+        <p>Debido a la buena conservación y la calidad de las letras no se discute la primera lectura.</p>
+      </div>
+      <div type="commentary">
+        <p>Al final de la segunda línea se podría leer CORNELIANO, que sería el cognomen de la persona a quien está dedicado el epígrafe, ya que parece iniciarse una nueva lectura  que quedó interrumpida por la fractura, con un trazo recto vertical, probablemente una N.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>26</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

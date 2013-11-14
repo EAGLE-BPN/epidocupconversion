@@ -1,0 +1,160 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Acción evergética de [- - -]lia Anulla</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=3</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Adra, Almería, Andalucía, España</placeName>
+            </settlement>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Placa</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Dos fragmentos de una placa de mármol, perdidos y otro, encontrado con posterioridad, que se conserva.</p>
+                  <dimensions unit="cm">
+                    <height>28</height>
+                    <width>17.5</width>
+                    <depth>17.5</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Rota</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Letra capital cuadrada. Interpunción triangular.<height min="4.5" max="5">5 - 4.5</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Abdera</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">siglos I-II d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Adra</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Honorífica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=4.jpg">
+      <desc>
+        <idno>31</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=3.jpg">
+      <desc>
+        <idno>32</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+      </desc>
+    </graphic>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=3a.jpg">
+      <desc>
+        <idno>33</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>CIL II 1979</bibl>
+          <bibl> Etienne, R., Le culte impérial dans la Péninsule Ibérique d`Auguste a Dioclétien, París, 1958, 241 n. XIV, nota 1</bibl>
+          <bibl> Fernández Miranda, M., Abdera: Excavaciones en el Cerro de Montecristo (Adra, Almería), Madrid, EAE 85, 1975, p. 192, n. 22</bibl>
+          <bibl> p. 180, n. 3, lám.12</bibl>
+          <bibl> Devijver, H., Prosopographia militiarum equestrium quae fuerunt ab Augusto ad Gallienum, Lovaina, 1976-1977, Pars sec. P. 894, n. 4</bibl>
+          <bibl> IRAL 2 = 25</bibl>
+          <bibl> Tapia, J., Historia de la Baja Alpujarra, Almería, 1989, pp. 61 y 32</bibl>
+          <bibl> HEp 2, 1990, 22</bibl>
+          <bibl> Oria Segura, M.</bibl>
+          <bibl> Mora de los Reyes, M., «La Arquitectura Religiosa en la Bética a Través de la Epigrafía», Anas 4-5 (1991-92), 115-135, pp. 127-128</bibl>
+          <bibl> Gil García, E., «Los praefecti fabrum en la península Ibérica», Actas II congresso peninsular de historia Antiga, Coimbra, 1993, 753-765, p. 763, n. 2</bibl>
+          <bibl> del Hoyo, J., «Un aspecto socioeconómico de la Bética: los epula»,  en: Rodríguez Neila, J. F. (coord.), Actas del I Coloquio de Historia Antigua de Andalucia, Córdoba 1988, Córdoba, 1993, 73-88, p. 85</bibl>
+          <bibl> Caballos Rufino, A., «Arqueólogos, historiadores y filólogos», en: Homenaje a Fernando Gascó, Tomo I, Sevilla, 1995, pp. 316-317, n. 22</bibl>
+          <bibl> López Medina, M. J., El municipio romano de Abdera. Una aproximación histórica, Almería, 1996, p. 192 y 194</bibl>
+          <bibl> HEp 7, 1997, 17</bibl>
+          <bibl> C. Castillo, «Los flamines provinciales de la Bética», Revue des Études Anciennes 100 (1998), pp. 456-457, nº 25</bibl>
+          <bibl> HEp 9, 1999, 64</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>- - - - - - / [- - - flam]en divorum aug(ustorum) pr[ovinciae Baetica / pr]aefectus fabrum II [vir -  - - / - - -]lia L(ucii) f(ilia)  Anulla mater sacerdo[s - - - / - - - b]as[ili]cam cum hypa[ethro - - - / - - -] epulo dato d(e) [s(ua) p(ecunia) d(edit) d(edicavit)]</ab>
+      </div>
+      <div type="apparatus">
+        <p>Kirkpatrik:&#13;
+AII / FVPRVVNII / M. SACLRD / CAMC M HPA/ VISDT</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>3</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

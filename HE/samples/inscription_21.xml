@@ -1,0 +1,153 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Base de una estatua de Clío Histórica con inscripción en griego</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=21</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Madrid, Madrid, Comunidad de Madrid, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Nacional - Madrid</repository>
+            <idno>exp. 1907/32/68; inv. nº 38386.</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Base de estatua</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Basa de mármol. Presenta en la cara superior el hueco donde encajaba la imagen de la musa.</p>
+                  <dimensions unit="cm">
+                    <height>5</height>
+                    <width>30</width>
+                    <depth>30</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Muy bueno, salvo desgaste en las esquinas.</rs>
+                </support>
+              </supportDesc>
+              <layout>
+                <height>5</height>
+                <width>30</width>
+              </layout>
+            </objectDesc>
+            <handDesc>
+              <handNote>Letra capital de buena factura, en caracteres griegos, mayúsculas.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+                <placeName>Baria</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Resulta imposible de datar por el momento.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Villaricos</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Cultual</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=21.jpg">
+      <desc>
+        <idno>211</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Museo Arqueológico Nacional</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>- CIL II p. 956, ad. 3524 &#13;
+- Casto M. del Rivero</bibl>
+          <bibl> El lapidario del Museo Arqueológico de Madrid, Valladolid 1933, p. 96, nº 354 &#13;
+- F. Fita </bibl>
+          <bibl> BRAH XIII 1888, p. 477 &#13;
+- F. Fita</bibl>
+          <bibl> «La musa de la Historia» BRAH 50, 1907, 356, 464 &#13;
+- Informe histórico y arqueológico sobre la ciudad de Cuevas de la Vera </bibl>
+          <bibl> Rev. de la Soc. de Estudios Almerienses 12, 1921, p. 48, n. 2 &#13;
+- Mª Paz de Hoz</bibl>
+          <bibl> «Epigrafía griega en Hispania», Epigraphica 59, 1997, p. 67, nº 13.2 &#13;
+- J. M. Abascal - H. Gimeno - I. Velázquez</bibl>
+          <bibl> Epigrafía Hispánica</bibl>
+          <bibl> Catálogo del Gabinete de Antigüedades de la Real Academia de la Historia, Madrid, 2000, p. 64, nº 17</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>ΚΛΕΙΩ ΙΣΤΟΡΙΑΝ</ab>
+      </div>
+      <div type="apparatus">
+        <p>No se han publicado otras variantes.</p>
+      </div>
+      <div type="commentary">
+        <p>Donada a la Real Academia de la Historia por Dn. G. José Bernabé Soler en 1907. Fita cree que por la elegancia de los caracteres griegos debió grabarse en tiempos anteriores al Imperio Romano y quizás vino traída de Grecia o Asia Menor.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>21</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

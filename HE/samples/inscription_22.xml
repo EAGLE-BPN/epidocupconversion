@@ -1,0 +1,133 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Honra de L. Fabius Gallus</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=22</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Teba, Málaga, Andalucía, España</placeName>
+            </settlement>
+            <repository>Museo Histórico Municipal - Teba</repository>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Pedestal</objectType>
+                  <material>Piedra</material>
+                  <material>Caliza, calcárea</material>
+                  <p>Pedestal prismático de caliza blanca. Consta de plinto rectangular, cuerpo central rematado en una gola coronada por dos bandas salientes y cimacio con dos orificios circulares en la superficie superior. La gola se decora con palmeras entre las que se intercalan lengüetas verticales y semipalmetas en los ángulos. Cada una de las cuatro caras presenta un erote en relieve frontal de 74 cm de alto, apoyados los pies en la superficie superior del plinto. Portan guirnaldas cilíndricas de cuyos extremos penden cintas que les unen entre sí. El de la cara principal ofrece el brazo izquierdo levantado y flexionado a la altura del hombro cogiendo entre sus dedos la punta de la guirnalda que sostiene la figura del lateral izquierdo, mientras el otro brazo cae separado del cuerpo cogiendo también el extremo de la guirnalda que porta el erote del lateral derecho. Este esquema se repite en los cuatro frentes de la pieza. Los erotes, desnudos y de formas redondeadas, tienen largas y escamosas alas curvadas en sus partes inferiores y el pelo caído hasta los hombros dividido en dos, ensortijándose en sus extremos. </p>
+                  <dimensions unit="cm">
+                    <height>174</height>
+                    <width>79</width>
+                    <depth>79</depth>
+                  </dimensions>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>capital libraria. Interpunción: triángulo y hedera<height>3.5</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Ignotum (cerro de la Lentejuela  o Cortijo del Tajo)</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Según la paleografía y el contenido del texto, pertenece a mediados del siglo II d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Teba</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Málaga</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Honorífica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=22.jpg">
+      <desc>
+        <idno>221</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>José Berdugo Romero (Museo Histórico Municipal de Teba)</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>R. Atencia Páez, «Inscipciones de los Fabii Fabiani en el Oppidum Ignotum del Cortijo del Tajo (Teba, Málaga)», in F. Sojo Rodríquez, coord.: Latinitas Biblica et Christiana. Studia philologica varia in honorem Olegario García de la Fuente, Madrid, 1994, pp. 133-137, con foto. = HEp 6, 652, p. 212 = CIL II2/5, 857, p. 239, con foto. = E. García Alfonso, V. Martínez Enamorado, A. Morgado Rodríguez, El Bajo Guadalteba (Málaga): Espacio y poblamiento, Málaga, 1995, 170-172.</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>L(ucio) · Fabio · Gal(eria tribu) · Gallo / L(ucius) · Fabius · Gal(eria tribu) / Fabianus · filio ·</ab>
+      </div>
+      <div type="commentary">
+        <p>Atencia mide la pieza en 150 cm de alto y los erotes en 79 cm. Según la autopsia de A. Canto, la altura total es de 1,74 m, la de los erotes de 74 cm y el campo epigráfico de 41 x 17 cm. En diversas partes del epígrafe se conservan restos de minio, en especial en la l. 3.&#13;
+Parece obra de un taller local por el material y las características físicas.&#13;
+Es obra de miembros de la familia aristocrática de los Fabii Fabiani, una de las más distinguidas de la región.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>22</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

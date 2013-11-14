@@ -1,0 +1,152 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Honra a Lucio Vero</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=13</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Málaga, Málaga, Andalucía, España</placeName>
+            </settlement>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Pedestal</objectType>
+                  <material>Piedra</material>
+                  <material>Caliza, calcárea</material>
+                  <p>Pedestal de piedra caliza muy desgastada, observándose un orificio en su parte superior. Moldura muy desgastada.</p>
+                  <dimensions unit="cm">
+                    <height>87</height>
+                    <width>63</width>
+                    <depth>63</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Las caras laterales y trasera estan lisas y la frontal presenta un marco que contiene la inscripción. Tiene una grieta en diagonal en el ángulo inferior derecho que afecta a las líneas siete y ocho. La línea décima está perdida.</rs>
+                </support>
+              </supportDesc>
+              <layout>
+                <height>68</height>
+                <width>48</width>
+              </layout>
+            </objectDesc>
+            <handDesc>
+              <handNote>Letra capital cuadrada de buena factura. El numeral de la línea quinta presenta una pequeña raya superpuesta V igual sucede con los numerales de las líneas sexta III y novena III. Interpunción: triángulo.<height>5</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+              </origPlace>
+              <origDate notBefore="0167" notAfter="0167" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" period="Antoniniana (c.138-192 d.C.)">Siglo II d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Abla</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Honorífica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://www.ucm.es/info/archiepi/aevh/Idfichas/13a.jpg">
+      <desc>
+        <idno>131</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=13.jpg">
+      <desc>
+        <idno>132</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>CIL II 3399</bibl>
+          <bibl> ILS 367</bibl>
+          <bibl> Freis, H., Die Cohortes urbanae, Köln-Bonn, 1967, p. 92</bibl>
+          <bibl> Domaszewski, A. V., Die Rangordnung des romischen Heeres, Köln, 1967, p. 201</bibl>
+          <bibl> ILER 1140</bibl>
+          <bibl> Dobson, B., Die Primipilares. Entwicklung und Bedeutung, Laufbahnen eines römischen Offiziersranges, Bonn, 1978, p. 262, n. 144</bibl>
+          <bibl> IRAL 37</bibl>
+          <bibl> Pociña López, C. A., «Estudio toponímico de la población de Fiñana (Almería)», Florentia Iliberritana 7 (1996), 299-306, pp. 301-305 </bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>[Imp](eratori) · Caes(ari) / L(ucio) · Aurelio / Vero · Aug(usto) · Ar/men(iaco) · [P]art(hico) Max(imo) / Med(ico) · p(ontifici) · m(aximo) · tr(ibunitia) · p(otestate) V / co(n)s(uli) · III / L(ucius) · Alfenus · Avi/tianus · p(rimo) p(ilaris) · tr(ibunus) / coh(ortis) III vi[g(ilum)] / [XII urbanae]</ab>
+      </div>
+      <div type="apparatus">
+        <p>l. 8: p(rimi) p(ilaris)&#13;
+l. 10 XII urbana[rum]&#13;
+(IRAL)</p>
+      </div>
+      <div type="commentary">
+        <p>Se relaciona con CIL II 3401 de Abla.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>13</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

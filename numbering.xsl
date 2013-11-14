@@ -5,6 +5,7 @@
     
     <!--insert attributes in div and lb and value as numbers-->
     <xsl:template match="@* | node()">
+        <xsl:param name="lb" tunnel="yes"/>
         <xsl:copy copy-namespaces="yes">
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
@@ -13,6 +14,7 @@
 <!--  the following is wirdish... @break is inserted by edh-epidoc.xsl, but this is the only way I found to preserve numbering and distinction, which is using it to identify specific cases and then put it back...   -->
     
     <xsl:template match="tei:lb[not(@break)]">
+        <xsl:param name="lb" tunnel="yes"/>
         <lb>
             <xsl:attribute name="n"><xsl:number count="tei:lb[not(following-sibling::*[1][self::tei:gap[@unit='line']])]"/></xsl:attribute>
             <xsl:apply-templates/>
@@ -20,6 +22,7 @@
     </xsl:template>
     
     <xsl:template match="tei:lb[@break]">
+        <xsl:param name="lb" tunnel="yes"/>
           <lb>
               <xsl:attribute name="break">no</xsl:attribute>
               <xsl:attribute name="n"><xsl:number count="tei:lb[not(following-sibling::*[1][self::tei:gap[@unit='line']])]"/></xsl:attribute>
@@ -28,6 +31,7 @@
     </xsl:template>
     
     <xsl:template match="tei:lb[following-sibling::*[1][self::tei:gap[@unit='line']]]">
+        <xsl:param name="lb" tunnel="yes"/>
         <lb n="0"/>
     </xsl:template>
 </xsl:stylesheet>

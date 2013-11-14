@@ -1,0 +1,139 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>HD045678</title>
+</titleStmt>
+<publicationStmt>
+<idno type="URI">
+http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD045678
+</idno>
+<idno type="URI"/>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>
+<placeName type="modern" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName>
+</country>
+<region>
+<placeName type="modern" ref="http://www.geonames.org/">Hunedoara</placeName>
+</region>
+<settlement>
+<placeName ref="http://www.geonames.org/677520">Geoagiu</placeName>
+</settlement>
+<repository ref="www.trismegistos.org/">Geoagiu, Kirche</repository>
+<collection/>
+<idno/>
+</msIdentifier>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/">Altar</objectType>
+<material/>
+<p/>
+<dimensions unit="cm">
+<height>132</height>
+<width>85</width>
+<depth>30</depth>
+</dimensions>
+<rs type="decoration"/>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+<rs type="execution"/>
+<dimensions>
+<width unit="cm"/>
+<height unit="cm">9</height>
+</dimensions>
+</layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<handNote>
+<height unit="cm"/>
+</handNote>
+</handDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace>
+<placeName ref="http://www.trismegistos.org/ http://pleiades.stoa.org/" type="provinceItalicRegion">Dacia</placeName>
+<placeName ref="http://www.trismegistos.org/ http://pleiades.stoa.org/">Germisara</placeName>
+</origPlace>
+<origDate notBefore-custom="0151" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" period="www.eagle-network.eu/voc/dates/lod/"/>
+</origin>
+<provenance type="found"/>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<p>Marked-up according to the EpiDoc Guidelines</p>
+<classDecl>
+<taxonomy>
+<category xml:id="representation">
+<catDesc>Digitized other representations</catDesc>
+</category>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords>
+<term ref="http://www.eagle-network.eu/voc/typeins/lod/">Grabinschrift</term>
+</keywords>
+</textClass>
+<langUsage>
+<language ident="ar">Arabic</language>
+<language ident="en">English</language>
+<language ident="fr">French</language>
+<language ident="de">German</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="grc-Latn">Transliterated Greek</language>
+<language ident="el">Modern Greek</language>
+<language ident="he">Hebrew</language>
+<language ident="it">Italian</language>
+<language ident="la">Latin</language>
+<language ident="sp">Spanish</language>
+</langUsage>
+<creation>
+EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy
+</creation>
+</profileDesc>
+<revisionDesc>
+<change when="2009-11-10" who="Gräf">überprüft an Zeichnung</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="bibliography">
+<listBibl>
+<bibl>AE 2006, 1108.</bibl>
+<bibl>IDR 3, 3, 251; fig. 185 (Zeichnung).</bibl>
+<bibl>CIL 03, 01400.</bibl>
+<bibl>
+R. Ardevan, in: HPS 13 (Debrecen 2006) 126-127, Nr. 7. (B) - AE 2006.
+</bibl>
+</listBibl>
+</div>
+<div type="edition" xml:lang="la">
+[---]us L(uci) f(ilius) / [---]T(?)us / [--- L]epida / [&amp;
+</div>
+<div type="apparatus">
+<p/>
+</div>
+<div type="commentary">
+<p>(B): Ardevan: Z. 6/7: Ma/rcella.</p>
+</div>
+</body>
+</text>
+</TEI>

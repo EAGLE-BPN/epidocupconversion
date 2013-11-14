@@ -1,0 +1,156 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmento del epitafio de un militar</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=1</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Granada, Granada, Andalucía, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico y Etnológico de Granada</repository>
+            <idno>1854</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Placa</objectType>
+                  <material>Piedra</material>
+                  <material>Lumaquela</material>
+                  <p>Fragmento de placa de mármol blanco de Macael con la superficie pulimentada y sin adornos.Presenta una moldura simple en los tres lados conservados. Una línea incisa recorre el campo epigráfico enmarcándolo.</p>
+                  <dimensions unit="cm">
+                    <height>41</height>
+                    <width>55</width>
+                    <depth>55</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Fragmentaria</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Letra capital alargada de buena factura. Inscripción en hexámetros.<height min="4" max="4.5">4.5 - 4</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+                <placeName>Alba Bastetanorum</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" period="Constantiniana (c. 307-337 d.C.)">Reinado de Juliano, hacia el 363.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Abla</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Honorífica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=1.png">
+      <desc>
+        <idno>11</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+    <graphic url="http://www.juntadeandalucia.es/cultura/imgdomus/MAEGR_IMAGENES/fondos_pre/MAEGRFCE01853_P.JPG">
+      <desc>
+        <idno>12</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Junta de Andalucía</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>MAP Granada 1854</bibl>
+          <bibl> Vives, ICERV (p. 293)</bibl>
+          <bibl> ILPG 138, pp. 261-2</bibl>
+          <bibl> IRAL 28</bibl>
+          <bibl> Le Roux, P., en: M. Christol et alii </bibl>
+          <bibl> Institutions, societé et vie politique dans l’empire romain au IV siècle a.p. J. C. (París 1984) Roma, 1992, 265-75, lám. XIII</bibl>
+          <bibl> AE 1992, 1074</bibl>
+          <bibl> Gómez Pallarès, J., «Initia de los Carmina Latina Epigraphica Hispaniae (Conventus Tarraconensis) (I)», Faventia 17/1 (1995), p. 72</bibl>
+          <bibl> HEp 5, 1995, 37</bibl>
+          <bibl>  Speidel, M. P., «A Spanish Guardsman of Emperor Julian», Madrider Mitteilungen 38 (1997), pp. 295-299</bibl>
+          <bibl> AE 1997, 945</bibl>
+          <bibl> HEp 7, 1997, 15</bibl>
+          <bibl> HEp 13, 2003/2004, 7</bibl>
+          <bibl> HEp 14, 2005, 18</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>Militias nobis et praemia [Caesar iunxit]/ accepi gemini bis praem[ia torquis turmae] / Armigerae primum comes al[terum] / Palatinarum custos dat[us ita nostras] / auxit fortunas ut avunc[uli Constantini] / olim sacrat de nomin[e nos decorarat]</ab>
+      </div>
+      <div type="apparatus">
+        <p>HEp 14 Lín. 1: praemia [domnus iunxit]; P. Le Roux, 1992, p. 272, lín. 3 [TERVM EXCVBIARVM]?; </p>
+      </div>
+      <div type="commentary">
+        <p>Se trata de una inscripción métrica escritas en hexámetros.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>1</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

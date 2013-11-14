@@ -1,0 +1,136 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Donación de Iunia Campana</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=20</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Madrid, Madrid, Comunidad de Madrid, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Nacional - Madrid</repository>
+            <idno>38386</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Lápida</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Lápida de mármol blanco algo picada en su superficie. El marco epigráfico se enmarca por un recuadro. Restos de moldura simple en tres de sus lados.</p>
+                  <dimensions unit="cm">
+                    <height>28.5</height>
+                    <width>33.3</width>
+                    <depth>33.3</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Bordes toscos, con saltaduras en los laterales y en el centro.</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Letra actuaria, sobre todo en A, M, N, F.. Interpunción: flecha. Se observa un ápice en la V de IVNIA. En la A se observa carencia de asta transversal.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+                <placeName>Baria</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">época severiana o post-severiana.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Villaricos</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Dedicatoria</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=20.jpg">
+      <desc>
+        <idno>201</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>- IRAL 34 </bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>Iunia M(arci) l(iberta) / Campana / sua imp(ensa) f(ecit)</ab>
+      </div>
+      <div type="apparatus">
+        <p>No se han publicado otras variantes.</p>
+      </div>
+      <div type="commentary">
+        <p>Se deconoce la naturaleza del objeto o monumento donado. </p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>20</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

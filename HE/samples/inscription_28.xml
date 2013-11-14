@@ -1,0 +1,144 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Epitafio de Anniola</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=28</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Almería, Almería, Andalucía, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Provincial de Almería</repository>
+            <idno>24001</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Placa</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Fragmento de placa de mármol de mala calidad muy deteriorada y de grosor irregular. Tiene una doble moldura de 4,5 cm. de ancho </p>
+                  <dimensions unit="cm">
+                    <height>20</height>
+                    <width>29.5</width>
+                    <depth>29.5</depth>
+                  </dimensions>
+                  <rs type="statPreserv"> Fragmentaria. Mal conservada. Presenta saltaduras en las dos esquinas inferiores.</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Capital cuadrada, bien excavada y uniforme en sus trazos. Interpunción: l. 2ª: triángulo.  Sólo está interrumpida la letra S de la segunda línea a causa de una saltadura. Otra leve saltadura en la A final de ANNIOLA afecta al asta transversal.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Abdera</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">siglo I, por el tipo de letra.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Adra</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Epitafio / sepulcral</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=1044.jpg">
+      <desc>
+        <idno>281</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+    <graphic url="http://www.juntadeandalucia.es/cultura/imgdomus/MAL_IMAGENES/fondos_pre/MALFCE24001_P.JPG">
+      <desc>
+        <idno>282</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Junta de Andalucía</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>CIL II 1985 / F. Fita, BRAH 70, 1917, n. 3 / ILER 2605 / M. Fernández Miranda, EAE 85, 1975, pp. 183-184, nº 8, lám. 14 / IRAL 8 /  J. Tapia </bibl>
+          <bibl> Historia Baja Alpujarra, Almería 1989, 33 /  Mª J. López Medina, «El municipio romano de Abdera. Una aproximación histórica», 1996, p. 193.</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>- - - - - -? / Anniola / s(it) t(ibi) t(erra) l(evis)</ab>
+      </div>
+      <div type="apparatus">
+        <p>Dada su sencillez no caben más versiones de lectura.</p>
+      </div>
+      <div type="commentary">
+        <p>Por la sencillez de la redacción, en la que sólo aparece el nombre del difunto y la fórmula funeraria, así como por las características de las letras, se puede considerar esta inscripción del siglo I.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>28</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

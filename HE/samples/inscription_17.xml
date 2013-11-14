@@ -1,0 +1,155 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Homenaje a Voconia Avita por la construcción de unas termas</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=17</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Almería, Almería, Andalucía, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Provincial de Almería</repository>
+            <idno>24360</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Lápida</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Lápida rectangular de mármol. Dos molduras: exterior de 1,3 e interior de 1 cms.</p>
+                  <dimensions unit="cm">
+                    <height>60</height>
+                    <width>91.5</width>
+                    <depth>91.5</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Bastante bueno, aunque presenta fracturas en la esquina inferior izquierda y rascaduras en la parte derecha.</rs>
+                </support>
+              </supportDesc>
+              <layout>
+                <height>49.5</height>
+                <width>80</width>
+              </layout>
+            </objectDesc>
+            <handDesc>
+              <handNote>Letra capital cuadrada monumental. La A aparece varias veces sin barra horizontal, R y P aparecen abiertas, la T lleva un trazo horizontal muy reducido. Se repiten los nexos en VM. Empleo de AT y QUOT en lugar de AD y QUOD ya que la lengua latina sonorizó la dental sorda en final de palabra. En las líneas finales el lapicida tiene que ceñirse al espacio disponible, de forma que las letras aparecen más juntas que en el resto del texto. Interpunción: hoja de hedera al final de las cuatro primeras líneas.<height>4.3</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+                <placeName>Tagili</placeName>
+              </origPlace>
+              <origDate notBefore="0069" notAfter="0110" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Siglos I-II d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Armuña de Almanzora</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Honorífica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=17a.jpg">
+      <desc>
+        <idno>171</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Junta de Andalucía</persName>
+      </desc>
+    </graphic>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=17.jpg">
+      <desc>
+        <idno>172</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>P. RESINA SOLA, M. PASTOR MUÑOZ, "Inscripción Romana Aparecida en Armuña del Almanzora (Almería)", Zephyrus 28-29, 1978, 333-336, con fotos (AE 1979, 352)</bibl>
+          <bibl> IRAL 48</bibl>
+          <bibl> Sánchez Martínez, M., Tierra Uccitana, Almería 1988, p. 24</bibl>
+          <bibl> Lázaro, R., Homenaje a P. Tapia, Almería, 1988, 123, lám. 4</bibl>
+          <bibl>  Oro Fernández, E., Actas del I Col. de Hitoria Antigua de Andalucía, (Córdoba 1988) 1993, p. 218, nº 2</bibl>
+          <bibl> Melchor Gil, E., “Evergetismo testamentario en la Hispania Romana : legados y fundaciones”, Memorias de Historia Antigua 15-6, 1994-5, pp. 218, 222-223  y 225, nº 222 </bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>Voconia Q(uinti) filia Avita (hedera) / thermas rei publicae (hedera) / suae Tagilitanae s(olo) s(uo) s(ua) p(ecunia) f(ecit) (hedera) / easdemq(ue) circensibus (hedera) / editis et epulo dato dedicabit / at quot opus tuendum usumq(ue) / perpetu(u)m thermarum praeben/dum r(ei) p(ublicae) Tagilitanae X (denarios) II (duo milia) D (quingentos) dedit.</ab>
+      </div>
+      <div type="apparatus">
+        <p>Resina - Pastor:&#13;
+l. 2ª: REIPVBLICAE&#13;
+l. 3ª: SVAE . . . SSSP F&#13;
+l. 5ª: EDIIS E EPULO . . . .&#13;
+l. 6ª: AT QVOT . . . . .</p>
+      </div>
+      <div type="commentary">
+        <p>Probablemente de época flavia, por consonancia con CIL II 5489 de Murgi, que es muy semejante.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>17</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

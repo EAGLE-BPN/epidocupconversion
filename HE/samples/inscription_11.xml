@@ -1,0 +1,147 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Honra a Porcia Maura</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=11</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Málaga, Málaga, Andalucía, España</placeName>
+            </settlement>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Pedestal</objectType>
+                  <material>Piedra</material>
+                  <material>Caliza, calcárea</material>
+                  <p>Pedestal calizo. Presenta un orificio en la parte superior. Molduras en la parte superior compuestas por un filete seguido de dos escocias separadas por ambos boceles, similar en la parte inferior aunque con el primer toro de mayor grosor. En el centro un marco fino convexo conteniendo la inscripción. Las tres caras restantes lisas.</p>
+                  <dimensions unit="cm">
+                    <height>144</height>
+                    <width>54</width>
+                    <depth>54</depth>
+                  </dimensions>
+                  <rs type="statPreserv">Rota y restaurada en el ángulo lateral derecho y frontal, con saltaduras y orificios que dificultan su lectura.</rs>
+                </support>
+              </supportDesc>
+              <layout>
+                <height>77</height>
+                <width>44</width>
+              </layout>
+            </objectDesc>
+            <handDesc>
+              <handNote>l. 1ª: 6; 2ª: 4,5; 3ª-13ª: 4 cm. Capital. Interpunción: triángulo.<height min="4" max="6">6 - 4</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Murgi</placeName>
+              </origPlace>
+              <origDate notBefore="0100" notAfter="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Siglo II d. C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Ejido, El</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Honorífica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://www.ucm.es/info/archiepi/aevh/Idfichas/11a.jpg">
+      <desc>
+        <idno>111</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>Rodríguez de Berlanga, M., Los bronces de Osuna, Málaga, 1873, p. 318, n. 3</bibl>
+          <bibl> CIL II 5490</bibl>
+          <bibl> Fita, F., «Inscripciones murgitanas», BRAH LVII (1910), 106-126, ILER 6021</bibl>
+          <bibl> Piernavieja, P., Corpus de inscripciones deportivas de la España romana, Madrid, 1977, pp. 119-120, n. 40</bibl>
+          <bibl> IRAL 44</bibl>
+          <bibl> Humphrey, J. H., Roman Circuses: Arenas for Chariot Racing, London, 1986, 384</bibl>
+          <bibl> Baena del Alcázar, L., «La colección de antigüedades romanas de la finca de San José (Malaga)», Mainake X (1988), 137-150, pp. 138-141</bibl>
+          <bibl> Tapia, J., Historia de la Baja Alpujarra, Almería, 1989, 58-60</bibl>
+          <bibl> Ceballos Hornero, A., Los espectáculos en la Hispania romana: la documentación epigráfica, Mérida, 2004, nº 25</bibl>
+          <bibl> Mingoia, V., «Evergetismo relativo agli edifici da spettacolo romani. Una rassegna di testi epigrafici della Baetica», Romula 3 (2004), 219-238, nº 21 </bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>Porciae / Maurae / L(ucius) · Pedanius / Venustus / uxori · opti/mae · et / L(ucius) · Ped(anius) · Clarus · e[t] / L(ucius) · Ped(anius) · Lupus · f[ili] /  matri ·  piissi[m(ae)] / posuerun[t] / editis · circ(ensibus) / dedicaveru[nt] / q(ui) · l(ocum) · a(cceperunt) · a · R(e) · [p(ublica)]</ab>
+      </div>
+      <div type="apparatus">
+        <p>No se han publicado otras variantes.</p>
+      </div>
+      <div type="commentary">
+        <p>Se considera que el sepulcro que apareció cerca de la pieza corresponde al de Porcia Maura.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>11</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

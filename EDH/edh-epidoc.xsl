@@ -42,7 +42,8 @@
     
     
     <xsl:template match="tei:title">
-        <title>
+<xsl:param name="maketitle"  tunnel="yes"/>
+    <title>
             <xsl:choose>
                 <xsl:when test="$typobj/text()">
                     <xsl:value-of select="$instyp"/>
@@ -99,11 +100,13 @@
                         <ab><lb/>
                             <xsl:variable name="brackets">
                                 <xsl:call-template name="breakbrackets">
-                                    <xsl:with-param name="textToBeProcessed" select="."/>
+                                    <xsl:with-param name="textToBeProcessed"  tunnel="yes" select="."/>
                                 </xsl:call-template>
                             </xsl:variable>
                             <xsl:for-each select="$brackets">
-                                <xsl:call-template name="upconversion"/>
+                                <xsl:call-template name="upconversion">
+                                    <xsl:with-param name="substitutions" tunnel="yes" select="."/>
+                                </xsl:call-template>
                             </xsl:for-each>
                         </ab>
                     </div>
@@ -115,11 +118,13 @@
                         <lb/>
                             <xsl:variable name="brackets">
                             <xsl:call-template name="breakbrackets">
-                                <xsl:with-param name="textToBeProcessed" select="."/>
+                                <xsl:with-param name="textToBeProcessed"  tunnel="yes" select="."/>
                             </xsl:call-template>
                         </xsl:variable>
                         <xsl:for-each select="$brackets">
-                            <xsl:call-template name="upconversion"/>
+                            <xsl:call-template name="upconversion">
+                                <xsl:with-param name="substitutions" tunnel="yes" select="."/>
+                            </xsl:call-template>
                         </xsl:for-each>
                     </ab>
                    </xsl:otherwise>
@@ -134,7 +139,7 @@
 
 <!--first step: breaks breakets in unique meaning ones -->
     <xsl:template name="breakbrackets">
-        <xsl:param name="textToBeProcessed"/>
+        <xsl:param name="textToBeProcessed" tunnel="yes"/>
 <!-- splits [fortasse? bene? merenti?] in  [fortasse?][bene?][merenti?]      -->
         <xsl:analyze-string select="$textToBeProcessed" regex="\[((.*)\?)((.*)\?)((.*)\?)\]">
             <xsl:matching-substring>
@@ -237,8 +242,8 @@
 
 <!--  Takes all breakets sets and other diacritict and substitutes them with markup  -->
     <xsl:template name="upconversion">
-
-<!--line breaks-->
+<xsl:param name="substitutions" tunnel="yes"/>
+        <!--line breaks-->
         <xsl:analyze-string select="." regex="(\s*)/(\s+)|(\s+)/(\s*)">
             <xsl:matching-substring>
                 <lb/>

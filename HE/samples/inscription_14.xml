@@ -1,0 +1,136 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Honra a Lucio Septimio Severo</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=14</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Fiñana, Almería, Andalucía, España</placeName>
+            </settlement>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Pedestal</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Pedestal de mármol amarillento. Decoración: moldura simple de 4 cms.</p>
+                  <dimensions unit="cm">
+                    <height>68</height>
+                    <width>88</width>
+                  </dimensions>
+                  <rs type="statPreserv">En muy mal estado de conservación. Campo epigráfico desgastado en el lado derecho y algo menos en el izquierdo, ya ilegible en el siglo pasado..</rs>
+                </support>
+              </supportDesc>
+              <layout>
+                <height>70</height>
+                <width>48</width>
+              </layout>
+            </objectDesc>
+            <handDesc>
+              <handNote>l. 1ª, 2ª, 4ª-7ª, 9ª-12ª: 4; 3ª y 8ª: 4,5; 13ª: 3 cms. Las Ms con astas divergentes y ápices en sus extremos. Interpunción: círculo en las líneas primera, segunda, cuarta y octava; hojas de hedera en la tercera y séptima, entre PII y GE y entre DIVI y HAD.<height min="3" max="4">4 - 3</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+              </origPlace>
+              <origDate notBefore="0193" notAfter="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" period="Severiana (c. 193-235 d.C.)">Siglo III d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Fiñana</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Honorífica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://www.ucm.es/info/archiepi/aevh/Idfichas/14a.jpg">
+      <desc>
+        <idno>141</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>CIL II 3400</bibl>
+          <bibl> IRAL 38</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>Imp(eratori) · Caes(ari) / Divi · M(arci) · Anto[nini] / Pii (hedera) Ge[rmanici] / [Sar]matici · fil(io) [Divi / Co]mmod[i fratri / Divi] Anto[nini Pii / nepoti] Divi (hedera) Had[riani / pro]nep(oti) · Di[vi Traiani] / Parth[ici abnepoti Divi Nervae adnepoti L(ucio)] / Se[ptimio Severo Pio Pertinaci i]nvict[o Augusto Arabico Adiabenico / Po]nt[ifici Maximo tr(ibunicia) p(otestate) - - - / Imp(eratori) - - -] co[nsuli - - -]&#13;
+&#13;
+(Hübner)</ab>
+      </div>
+      <div type="commentary">
+        <p>Se alude al reinado de Septimio Severo, sin poder precisar el año exacto.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>14</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Epitafio de la sacerdotisa Marcia Celsa</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=5</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Adra, Almería, Andalucía, España</placeName>
+            </settlement>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Lápida sepulcral</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>Lápida mármol blanco con concreciones y sin pulir. Presenta rebordes en la parte superior y en ambos lados para realzar la inscripción. Los márgenes de las molduras se encuentran rotos, el primero a 20 y el segundo a 24 cms. del inicio.</p>
+                  <dimensions unit="cm">
+                    <height>44</height>
+                    <width>44</width>
+                  </dimensions>
+                  <rs type="statPreserv">La lápida está incompleta, fragmentada en su parte inferior. Muy deteriorada en su superficie. Rotura del campo epigráfico en su ángulo inferior derecho. Se ha perdido la S de DOMVS en la 5ª línea y de la letra siguiente (ilegible).</rs>
+                </support>
+              </supportDesc>
+              <layout>
+                <height>35</height>
+                <width>30</width>
+              </layout>
+            </objectDesc>
+            <handDesc>
+              <handNote>l. 1ª :5,5; 2ª: 6 ; 3ª: 4; 4ª y 5ª: 3,5 cm. El tipo de letra es de época Claudio-Nerón. Las letras de las tres últimas líneas son notablemente más pequeñas.<height min="3.5" max="6">6 - 3.5</height></handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Baetica</placeName>
+                <placeName>Abdera</placeName>
+              </origPlace>
+              <origDate notBefore="0041" notAfter="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" period="Julio-Claudia (c. 27 a.C.-68 d.C.)" evidence="Por la paleografía">Siglo I d.C.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Adra</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Epitafio / sepulcral</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=5.jpg">
+      <desc>
+        <idno>51</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>CIL II 1978</bibl>
+          <bibl> Fita, F., «Epigrafía romana de la ciudad de Adra en la provincia de Almería», BRAH 70 (1917), 134-144, p. 138, nº 2</bibl>
+          <bibl> IRAL 1</bibl>
+          <bibl>   &#13;
+Fernández Miranda, M., Abdera: Excavaciones en el Cerro de Montecristo (Adra, Almería), Madrid, EAE 85, 1975, p. 179-80, n. 2, f. 83.2 y  lám. 122 </bibl>
+          <bibl> Curchin, L. A., «Notes and corrections to the latin epigraphy of Spain», ZPE 47 (1982), 107-8, n. 5</bibl>
+          <bibl> Tapia, J., Historia Baja Alpujarra, Almería, 1984, p. 32</bibl>
+          <bibl> López Medina, M. J., «El municipio romano de Abdera. Una aproximación histórica», 1996, p. 192.</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>Marciae / C(aii) f(iliae) Celsae / sacerdoti / perpetuae / domus d(ivinae)</ab>
+      </div>
+      <div type="apparatus">
+        <p>Lin. 5: domus A[ug] (CIL); domus s[---] (Fernández Miranda,1975)</p>
+      </div>
+      <div type="commentary">
+        <p>La inscripción constata la existencia del culto a la familia imperial.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>5</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>

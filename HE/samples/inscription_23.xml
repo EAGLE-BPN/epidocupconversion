@@ -1,0 +1,145 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lápida opistógrafa con los epitafios de Cornelia Avita y Aurelius Iulius</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence.</licence>
+        </availability>
+        <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=23</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>
+              <placeName type="modern">España</placeName>
+            </country>
+            <region>
+              <placeName type="modern">Andalucía</placeName>
+            </region>
+            <settlement>
+              <placeName>Madrid, Madrid, Comunidad de Madrid, España</placeName>
+            </settlement>
+            <repository>Museo Arqueológico Nacional - Madrid</repository>
+            <idno>16276</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType>Lápida sepulcral</objectType>
+                  <material>Piedra</material>
+                  <material>Mármol</material>
+                  <p>CARA A: Lápida de mármol con la superficie pulimentada, se conserva el lado izquierdo de la misma.  Está decorada con hojas de palmera en su lado izquierdo.&#13;
+CARA B: Superficie pulida </p>
+                  <rs type="statPreserv">La inscripción de la cara A tiene dos rebajes en las partes superior e inferior izquierda que no afectan al texto. Presenta pérdida de materia en el ángulo superior izquierdo que afecta ligeramente a la decoración El fragmento que falta corresponde al lado derecho. Por la cara B, el fragmento presenta pérdida de materia en la parte superior que afecta levemente al texto en su parte derecha. En la parte inferior hay igualmente pérdida de materia pero que no afecta al texto.</rs>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>A) Letra capital cuadrada. El texto aparece entre líneas guía. Se observa una reducción del tamaño de las letras de la línea quinta. Interpunción: hoja de hedera en la primera línea entre D y M, y triángulo en la tercera línea entre TAE y LIB y entre LIB y M, así como en las dos últimas líneas.&#13;
+B) Letra capital rústica con rasgos cursivos muy irregulares. Presenta una diferencia detamaño de las letras dentro de una misma línea, como en la 1ª y en la 3ª línea.  Las Aes de la primera y quinta líneas presentan asta transversal frente a las A de la tercera y sexta líneas, que carecen de la misma. La R de la primera línea presenta el asta vertical en una posición poco usual como si se hubiese escrito de derecha a izquierda o bien se hubiese tratado de rectificar otra letra. Igualmente se observa que la letra S está volcada hacia delante.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName type="provinceItalicRegion">Hispania Citerior</placeName>
+                <placeName>Alba Bastetanorum</placeName>
+              </origPlace>
+              <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">A ) fines del siglo I y primera mitad del siglo II   B) segunda mitad del s. III, según Le Roux.</origDate>
+            </origin>
+            <provenance type="found">
+              <placeName>Abla</placeName>
+              <placeName type="modernCountry">España</placeName>
+              <placeName type="modern_region">Andalucía</placeName>
+              <placeName type="modernProvince">Almería</placeName>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Marked-up according to the EpiDoc Guidelines</p>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="representation">
+            <catDesc>Digitized other representations</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="grc-Latn">Transliterated Greek</language>
+        <language ident="el">Modern Greek</language>
+        <language ident="he">Hebrew</language>
+        <language ident="it">Italian</language>
+        <language ident="la">Latin</language>
+        <language ident="sp">Spanish</language>
+        <!-- all other languages -->
+      </langUsage>
+      <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      <textClass>
+        <keywords>
+          <term>Epitafio / sepulcral</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-11" who="HE epidoc generator"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=1039_1.jpg">
+      <desc>
+        <idno>231</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+    <graphic url="http://eda-bea.es/helper/img_wrapper.php?img=1039_2.jpg">
+      <desc>
+        <idno>232</idno>
+        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence</ref>
+        <persName>Archivo Epigráfico de Hispania</persName>
+      </desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>Cara A: CIL II 3403, Suppl. p. 952</bibl>
+          <bibl> Casto M. del Rivero. El lapidario del Museo Arqueológico de Madrid, Valladolid, 1933, p. 83, nº 298</bibl>
+          <bibl> Rafael Lázaro Pérez, Inscripciones romanas de Almería, Almería 1980, p. 67, nº 29</bibl>
+          <bibl> A. Pérez Almoguera, «Dos nuevas inscripciones de Isona, Pallars Jussà. Los Antonii de Aeso», Pyrenae 25, 1994, pp. 205-213.&#13;
+&#13;
+Cara B: CIL II 3402</bibl>
+          <bibl> Rafael Lázaro Pérez, Inscripciones romanas de Almería, Almería 1980, p. 65, nº 27</bibl>
+          <bibl> Patrick Le Roux., L`armée romaine... p. 232, nº 211, lám. Xa.</bibl>
+        </listBibl>
+      </div>
+      <div type="edition" xml:lang="la">
+        <ab>D(is) · M(anibus) [S(acrum)] / Corneli[ae Avi]/tae · lib(erta) · M[aurae] / h(ic) · s(ita) · e(st) · a[nnor(um) - - -] / s(it) · t(ibi) · t(erra) · l(evis) // Aurelius / Iulius / annorum / XXXX / militavit / annis XVI</ab>
+      </div>
+      <div type="commentary">
+        <p>Reutilizada.&#13;
+Dado que la inscripción de Es improbable supone que este soldado pertenecía a la colonia Augusta de Acci, que recibió más tarde veteranos de dos legiones.</p>
+      </div>
+      <div type="translation" xml:lang="es">
+        <desc>
+          <idno>23</idno>
+        </desc>
+      </div>
+    </body>
+  </text>
+</TEI>
