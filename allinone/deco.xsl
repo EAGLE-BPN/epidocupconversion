@@ -21,9 +21,15 @@
             <xsl:copy-of select="@*[not(local-name()='ref')]"/>
             <xsl:if test="text()">
                 <xsl:variable name="voc_term">
+                    <xsl:choose> 
+                        <xsl:when test="text()">  
                 <xsl:value-of select="document('eagle-vocabulary-decoration.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
-                <xsl:value-of select="document('eagle-vocabulary-decoration.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
-           </xsl:variable> 
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="document('eagle-vocabulary-decoration.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable> 
                 <xsl:if test="$voc_term!=''">
                     <xsl:attribute name="ref">
                         <xsl:value-of select="$voc_term"/>

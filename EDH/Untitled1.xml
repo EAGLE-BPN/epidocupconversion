@@ -1,13 +1,15 @@
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model
+href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"
+?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>HD045678</title>
+<title>HD056478</title>
 </titleStmt>
 <publicationStmt>
 <idno type="URI">
-http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD045678
+http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056478
 </idno>
 <idno type="URI"/>
 <availability>
@@ -20,15 +22,15 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
 <msDesc>
 <msIdentifier>
 <country>
-<placeName type="modern" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName>
+<placeName type="modern" ref="http://www.geonames.org/countries/de/">Deutschland</placeName>
 </country>
 <region>
-<placeName type="modern" ref="http://www.geonames.org/">Hunedoara</placeName>
+<placeName type="modern" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName>
 </region>
 <settlement>
-<placeName ref="http://www.geonames.org/677520">Geoagiu</placeName>
+<placeName ref="http://www.geonames.org/">Mainz</placeName>
 </settlement>
-<repository ref="www.trismegistos.org/">Geoagiu, Kirche</repository>
+<repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
 <collection/>
 <idno/>
 </msIdentifier>
@@ -36,13 +38,13 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
 <objectDesc>
 <supportDesc>
 <support>
-<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/">Altar</objectType>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/">Stele?</objectType>
 <material/>
 <p/>
 <dimensions unit="cm">
-<height>132</height>
-<width>85</width>
-<depth>30</depth>
+<height/>
+<width/>
+<depth/>
 </dimensions>
 <rs type="decoration"/>
 </support>
@@ -52,7 +54,7 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
 <rs type="execution"/>
 <dimensions>
 <width unit="cm"/>
-<height unit="cm">9</height>
+<height unit="cm"/>
 </dimensions>
 </layout>
 </layoutDesc>
@@ -66,12 +68,14 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
 <history>
 <origin>
 <origPlace>
-<placeName ref="http://www.trismegistos.org/ http://pleiades.stoa.org/" type="provinceItalicRegion">Dacia</placeName>
-<placeName ref="http://www.trismegistos.org/ http://pleiades.stoa.org/">Germisara</placeName>
+<placeName ref="http://www.trismegistos.org/ http://pleiades.stoa.org/" type="provinceItalicRegion">Germania superior</placeName>
+<placeName ref="http://www.trismegistos.org/ http://pleiades.stoa.org/">Mogontiacum</placeName>
 </origPlace>
-<origDate notBefore-custom="0151" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" period="www.eagle-network.eu/voc/dates/lod/"/>
+<origDate notBefore-custom="0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" period="www.eagle-network.eu/voc/dates/lod/"></origDate>
 </origin>
-<provenance type="found"/>
+<provenance type="found">
+<date when="1804">1804</date>
+</provenance>
 </history>
 </msDesc>
 </sourceDesc>
@@ -89,7 +93,7 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
 <profileDesc>
 <textClass>
 <keywords>
-<term ref="http://www.eagle-network.eu/voc/typeins/lod/">Grabinschrift</term>
+<term ref="http://www.eagle-network.eu/voc/typeins/lod/">Grabinschrift?</term>
 </keywords>
 </textClass>
 <langUsage>
@@ -110,29 +114,29 @@ EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy
 </creation>
 </profileDesc>
 <revisionDesc>
-<change when="2009-11-10" who="Gräf">überprüft an Zeichnung</change>
+<change when="2009-05-07" who="Esch">überprüft per Autopsie</change>
 </revisionDesc>
 </teiHeader>
+<facsimile>
+<graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F014727">
+<desc>F014727</desc>
+</graphic>
+</facsimile>
 <text>
 <body>
 <div type="bibliography">
 <listBibl>
-<bibl>AE 2006, 1108.</bibl>
-<bibl>IDR 3, 3, 251; fig. 185 (Zeichnung).</bibl>
-<bibl>CIL 03, 01400.</bibl>
-<bibl>
-R. Ardevan, in: HPS 13 (Debrecen 2006) 126-127, Nr. 7. (B) - AE 2006.
-</bibl>
+<bibl>CIL 13, 07099.</bibl>
 </listBibl>
 </div>
 <div type="edition" xml:lang="la">
-[---]us L(uci) f(ilius) / [---]T(?)us / [--- L]epida / [&amp;
+$] / Prim[ige?]/nia C(ai) Pl[au?]/ti Veien[to]/nis an(n)o(rum) / [------] / [h(ic) s(ita)] e(st)
 </div>
 <div type="apparatus">
 <p/>
 </div>
 <div type="commentary">
-<p>(B): Ardevan: Z. 6/7: Ma/rcella.</p>
+<p>Autopsie R. Wiegels.</p>
 </div>
 </body>
 </text>

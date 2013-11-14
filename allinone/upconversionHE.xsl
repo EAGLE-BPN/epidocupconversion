@@ -264,7 +264,7 @@
                                                                       <supplied reason="lost">
                                                                           <xsl:variable name="supplied"><xsl:value-of select="regex-group(1)"/></xsl:variable>
                                                                           <xsl:analyze-string select="$supplied"
-                                                                              regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]*)\(*([A-Za-z0-9]*)\)*([A-Za-z0-9]*)">
+                                                                              regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)\s*([A-Za-z0-9]+)\(*([A-Za-z0-9]*)\)*([A-Za-z0-9]*)">
                                                                               <xsl:matching-substring>
                                                                                   <expan>
                                                                                       <abbr>
@@ -305,7 +305,8 @@
  <!-- (sic) -->
                                                   <xsl:analyze-string select="." regex="\((!)\)">
                                                   <xsl:matching-substring>
-                                                  <note>(sic)</note>
+                                                  <xsl:text> </xsl:text>
+                                                      <note>sic</note>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
 <!-- b(ene?) -->

@@ -16,11 +16,21 @@
                     select="regex-group(5)"/><xsl:text>]</xsl:text>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
+                <!-- splits [bene? merenti?] in  [bene?][merenti?]    can be improved with tokenize?  -->
+                <xsl:analyze-string select="." regex="(\[((\w+)\?)\s*((\w+)\?)\])">
+                    <xsl:matching-substring>
+                        <xsl:text>[</xsl:text>
+                        <xsl:value-of select="regex-group(2)"/>
+                        <xsl:text>][</xsl:text>
+                        <xsl:value-of select="regex-group(3)"/>
+                        <xsl:text>]</xsl:text>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring>
                 <!--     [dedicaverunt? \-\-\- Iu] -->
                 <xsl:analyze-string select="." regex="\[((.*)\?)(\s(\-\-\-)\s)(.*)\]">
                     <xsl:matching-substring>
                         <xsl:text>[</xsl:text><xsl:value-of select="regex-group(1)"
-                        /><xsl:text>][</xsl:text><xsl:value-of select="regex-group(4)"/>][<xsl:value-of
+                        /><xsl:text>][</xsl:text><xsl:text>3</xsl:text><!--<xsl:value-of select="regex-group(4)"/>--><xsl:text>][</xsl:text><xsl:value-of
                             select="regex-group(5)"/><xsl:text>]</xsl:text>
                     </xsl:matching-substring>
                     <xsl:non-matching-substring>
@@ -98,16 +108,7 @@
                                                                                         <xsl:value-of select="regex-group(2)"/>
                                                                                     </xsl:matching-substring>
                                                                                     <xsl:non-matching-substring>
-                                                                                        <!-- splits [bene? merenti?] in  [bene?][merenti?]    can be improved with tokenize?  -->
-                                                                                        <xsl:analyze-string select="." regex="\[((.*)\?)((.*)\?)\]">
-                                                                                            <xsl:matching-substring>
-                                                                                                <xsl:text>[</xsl:text>
-                                                                                                <xsl:value-of select="regex-group(1)"/>
-                                                                                                <xsl:text>][</xsl:text>
-                                                                                                <xsl:value-of select="regex-group(3)"/>
-                                                                                                <xsl:text>]</xsl:text>
-                                                                                            </xsl:matching-substring>
-                                                                                            <xsl:non-matching-substring>
+   
                                                                                                 <!--    corrects ]$                                   -->
                                                                                                 <xsl:analyze-string select="." regex="\]\$">
                                                                                                     <xsl:matching-substring>
