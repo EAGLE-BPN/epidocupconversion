@@ -8,12 +8,20 @@
     
     <xsl:template match="tei:material">
         <xsl:param name="materialURI" tunnel="yes"/>
-        <xsl:variable name="noquestion"><xsl:analyze-string select="." regex="(\w+)\?">
+        <xsl:variable name="noquestion">
+            <xsl:analyze-string select="." regex="(\w+)\?">
             <xsl:matching-substring>
                 <xsl:value-of select="regex-group(1)"/>
             </xsl:matching-substring>            
             <xsl:non-matching-substring>
+                <xsl:analyze-string select="." regex="(\w+),\s(\w*)">
+                    <xsl:matching-substring> 
+                            <xsl:value-of select="regex-group(1)"/>                     
+                    </xsl:matching-substring>            
+                    <xsl:non-matching-substring>
                 <xsl:value-of select="."/>
+            </xsl:non-matching-substring>
+</xsl:analyze-string>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
         </xsl:variable>
@@ -31,7 +39,6 @@
 </xsl:choose>
                 </xsl:variable>
                 <xsl:if test="$voc_term!=''">
-                    
                     <xsl:attribute name="ref">
                         <xsl:value-of select="$voc_term"/>
                     </xsl:attribute>                
