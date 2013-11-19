@@ -7,24 +7,24 @@
     exclude-result-prefixes="tei rdf skos">
     
     <!-- Object Type   -->
-    <xsl:include href="objectType.xsl"/>
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/objectType.xsl"/>
     
     <!-- Material   -->
-    <xsl:include href="material.xsl"/>
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/material.xsl"/>
     
     <!--  Type of Inscription  -->
-<xsl:include href="instype.xsl"/>
+<xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/instype.xsl"/>
     
     <!--  Writing  -->
-<xsl:include href="writing.xsl"/>
+<xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/writing.xsl"/>
     
     <!--  Dating Criteria -->
-<xsl:include href="dates.xsl"/>
+<xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/dates.xsl"/>
     
     <!--  Decoration  -->
-<xsl:include href="deco.xsl"/>
+<xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/deco.xsl"/>
     
     <!--  state preservation  -->
-   <xsl:include href="statepres.xsl"/>    
+   <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/statepres.xsl"/>    
     
 </xsl:stylesheet>
