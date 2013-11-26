@@ -84,7 +84,7 @@
                                                           </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
            <!--     line gap                                   -->
-                                                      <xsl:analyze-string select="." regex="\[(6)\]|\[(------)\]">
+                                                      <xsl:analyze-string select="." regex="\[(6)\]|\[(------)\]|(------)\]|\[(------)">
                                                   <xsl:matching-substring>
                                                   <gap reason="lost" quantity="1" unit="line"/>
                                                   </xsl:matching-substring>
