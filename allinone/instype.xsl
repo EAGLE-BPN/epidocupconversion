@@ -7,7 +7,6 @@
     exclude-result-prefixes="tei rdf skos">
     
     <xsl:template match="tei:term">
-        <xsl:param name="typinsURI" tunnel="yes"/>
         <xsl:variable name="noquestion"><xsl:analyze-string select="." regex="(\w+)\?">
             <xsl:matching-substring>
                 <xsl:value-of select="regex-group(1)"/>
@@ -23,10 +22,10 @@
                 <xsl:variable name="voc_term">
                     <xsl:choose> 
                         <xsl:when test="text()">  
-                    <xsl:value-of select="document('eagle-vocabulary-type-of-inscription.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
+                    <xsl:value-of select="document('eagle-vocabulary-type-of-inscription.xml')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:value-of select="document('eagle-vocabulary-type-of-inscription.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
+                            <xsl:value-of select="document('eagle-vocabulary-type-of-inscription.xml')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:variable>
