@@ -51,7 +51,7 @@
                                             <xsl:non-matching-substring>
  <!--del but lost line-->
                                                 <xsl:analyze-string select="."
-                                                    regex="\[\[\[------\]\]\]">
+                                                    regex="\[\[\[\-\-\-\-\-\-\]\]\]">
                                                     <xsl:matching-substring>
                                                         <del rend="erasure">
                                                             <gap reason="lost" quantity="1"
@@ -84,13 +84,13 @@
                                                           </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
            <!--     line gap                                   -->
-                                                      <xsl:analyze-string select="." regex="\[(6)\]|\[(------)\]|(------)\]|\[(------)">
+                                                      <xsl:analyze-string select="." regex="\[(6)\]|\[(\-\-\-\-\-\-)\]|(\-\-\-\-\-\-)\]|\[(\-\-\-\-\-\-)">
                                                   <xsl:matching-substring>
                                                   <gap reason="lost" quantity="1" unit="line"/>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
 <!--     extent unknown gap                                   -->
-                                                  <xsl:analyze-string select="." regex="\[(3)\]|\[(---)\]">
+                                                  <xsl:analyze-string select="." regex="\[(3)\]|\[(\-\-\-)\]">
                                                   <xsl:matching-substring>
                                                   <gap reason="lost" extent="unknown"
                                                   unit="character"/>
