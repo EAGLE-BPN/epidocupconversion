@@ -8,10 +8,16 @@
 
         <xsl:template name="upconversion">
 <xsl:param name="substitutions" tunnel="yes"/>
+<!--   Gap unknown lines begining and end                             -->
+                                                  <xsl:analyze-string select="."
+                                                  regex="(\$\]\s+)|(\s+\[&amp;)">
+                                                  <xsl:matching-substring>
+                                                  <gap reason="lost" extent="unknown" unit="line"/>
+                                                  </xsl:matching-substring>
+                                                  <xsl:non-matching-substring>
         <!--line breaks-->
         <xsl:analyze-string select="." regex="(\s*)/(\s+)|(\s+)/(\s*)">
             <xsl:matching-substring>
-                <xsl:text> </xsl:text>
                 <lb/>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
@@ -70,13 +76,7 @@
                                                   </del>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
-<!--   Gap unknown lines begining and end                             -->
-                                                  <xsl:analyze-string select="."
-                                                  regex="(\$\]\s+)|(\s+\[&amp;)">
-                                                  <xsl:matching-substring>
-                                                  <gap reason="lost" extent="unknown" unit="line"/>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
+
            <!--   Gap unknown charact begining and end                             -->
                                                       <xsl:analyze-string select="."
                                                           regex="(\$\])|(\[&amp;)">
