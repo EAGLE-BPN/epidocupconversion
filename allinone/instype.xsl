@@ -21,7 +21,7 @@
             <xsl:if test="text()">
                 <xsl:variable name="voc_term">
                     <xsl:choose> 
-                        <xsl:when test="text()">  
+                        <xsl:when test=".">  
                     <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/eagle-vocabulary-type-of-inscription.xml')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
                         </xsl:when>
                         <xsl:otherwise>
