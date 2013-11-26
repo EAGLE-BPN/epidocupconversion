@@ -11,6 +11,7 @@
         <!--line breaks-->
         <xsl:analyze-string select="." regex="(\s*)/(\s+)|(\s+)/(\s*)">
             <xsl:matching-substring>
+                <xsl:text> </xsl:text>
                 <lb/>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
