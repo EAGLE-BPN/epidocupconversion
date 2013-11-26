@@ -54,7 +54,13 @@
                                         <xsl:text>]</xsl:text>
                                     </xsl:matching-substring>
                                     <xsl:non-matching-substring>
-                                        <!--  splits $ fgh] in $][fgh]                          -->
+                                        <!--  splits ------] in [6]                          -->
+                                        <xsl:analyze-string select="." regex="\-\-\-\-\-\-\]|\[\-\-\-\-\-\-">
+                                            <xsl:matching-substring>
+                                                <xsl:text>[6]</xsl:text>
+                                            </xsl:matching-substring>
+                                            <xsl:non-matching-substring>
+                                             <!--  splits $ fgh] in $][fgh]                          -->
                                         <xsl:analyze-string select="." regex="(\$)\s+([a-zA-Z]+)\]">
                                             <xsl:matching-substring>
                                                 <xsl:value-of select="regex-group(1)"/>
@@ -130,6 +136,9 @@
                                                                                         </xsl:analyze-string>
                                                                                     </xsl:non-matching-substring>
                                                                                 </xsl:analyze-string>
+                                                                            </xsl:non-matching-substring>
+                                                                        </xsl:analyze-string>
+                                                                        
                                                                             </xsl:non-matching-substring>
                                                                         </xsl:analyze-string>
                                                                     </xsl:non-matching-substring>
