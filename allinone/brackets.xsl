@@ -54,7 +54,7 @@
                                         <xsl:text>]</xsl:text>
                                     </xsl:matching-substring>
                                     <xsl:non-matching-substring>
-                                        <!--  splits ------] in [6]                          -->
+                                        <!--  splits \-\-\-\-\-\-] in [6]                          -->
                                         <xsl:analyze-string select="." regex="\-\-\-\-\-\-\]|\[\-\-\-\-\-\-">
                                             <xsl:matching-substring>
                                                 <xsl:text>[6]</xsl:text>
