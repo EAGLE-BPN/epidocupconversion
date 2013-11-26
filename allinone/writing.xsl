@@ -23,14 +23,9 @@
             <xsl:copy-of select="@*[not(local-name()='ref')]"/>
             <xsl:if test="text()">
                 <xsl:variable name="voc_term">
-                    <xsl:choose> 
-                        <xsl:when test="text()">  
-                    <xsl:value-of select="document('eagle-vocabulary-writing.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of select="document('eagle-vocabulary-writing.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
+                    <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/eagle-vocabulary-writing.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
+                    <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/eagle-vocabulary-writing.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
+                        
                 </xsl:variable>
                 <xsl:if test="$voc_term!=''">
                     <xsl:attribute name="ref">
