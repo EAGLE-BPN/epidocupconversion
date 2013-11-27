@@ -6,7 +6,7 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="tei rdf skos">
 
-<xsl:template  match="tei:*">
+<xsl:template  match="tei:*" mode="lb">
     <xsl:copy>
         <xsl:copy-of select="@*"/>
         <xsl:apply-templates/>
