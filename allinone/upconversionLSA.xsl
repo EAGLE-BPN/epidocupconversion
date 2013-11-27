@@ -17,13 +17,11 @@
                 <!--     gap                                   -->
                 <xsl:analyze-string select="." regex="\[(\-+)\]">
                     <xsl:matching-substring>
-                        <gap>
-                            <xsl:attribute name="unit">character
-                            </xsl:attribute>
-                            <xsl:attribute name="quantity">
+                        <gap unit="character">
+<!--                            <xsl:attribute name="quantity">
                                 <xsl:number value="count(regex-group(1))"/>
                             </xsl:attribute>
-                        </gap>
+-->                        </gap>
                     </xsl:matching-substring>
                     <xsl:non-matching-substring>
 <!--line breaks in word -->

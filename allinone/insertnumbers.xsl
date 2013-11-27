@@ -9,7 +9,7 @@
 <xsl:template  match="tei:*" mode="lb">
     <xsl:copy>
         <xsl:copy-of select="@*"/>
-        <xsl:apply-templates/>
+        <xsl:apply-templates mode="lb"/>
     </xsl:copy>
 </xsl:template>   
 

@@ -15,6 +15,9 @@
     <!--  Create descriptive Title required from Europeana from Object Type and Inscription Type  -->
     <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/maketitle.xsl"/>
     
+    <!--  Create support/rs[@type='statPreserv'] with value verschollen when this occours in Aufbewarung-->
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/verschollen.xsl"/>
+    
 <!--  adds in specific elements a @ref with the corresponding url from the EAGLE Tematres Vocabularies -->
     <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/popwithvoc.xsl"/>
     
