@@ -6,16 +6,16 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="tei rdf skos">
 
-<xsl:template  match="tei:*" mode="lb" >
+<xsl:template  match="tei:*">
     <xsl:copy>
         <xsl:copy-of select="@*"/>
-        <xsl:apply-templates mode="lb"/>
+        <xsl:apply-templates/>
     </xsl:copy>
 </xsl:template>   
 
 <xsl:template match="tei:div[@type='edition']">       
     <xsl:variable name="nonumber">
-        <xsl:call-template name="edition"/>
+        <xsl:call-template name="upconversion"/>
     </xsl:variable>  
     <xsl:apply-templates select="$nonumber" mode="lb"/>
 </xsl:template>
