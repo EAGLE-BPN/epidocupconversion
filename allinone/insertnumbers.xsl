@@ -15,7 +15,7 @@
 
 <xsl:template match="tei:div[@type='edition']">       
     <xsl:variable name="nonumber">
-        <xsl:call-template name="upconversion"/>
+        <xsl:call-template name="edition"/>
     </xsl:variable>  
     <xsl:apply-templates select="$nonumber" mode="lb"/>
 </xsl:template>
