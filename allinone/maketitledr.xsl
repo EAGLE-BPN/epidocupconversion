@@ -37,15 +37,16 @@
     <xsl:template match="tei:title">
         <xsl:param name="maketitle"  tunnel="yes"/>
         <title>
+            
             <xsl:choose>
                 <xsl:when test="$typobj/text()">
-                    <xsl:if test="not($typins/text()=$typobj/text())"><xsl:value-of select="$instyp"/>
+                    <xsl:if test="not($typins/text()=$typobj/text())"><xsl:text>Titulus </xsl:text><xsl:value-of select="$instyp"/>
                         <xsl:if test="$typins/text()"><xsl:text> in </xsl:text></xsl:if></xsl:if>
                     <xsl:value-of select="$objtyp"/></xsl:when>
                 <xsl:otherwise>
                     <xsl:choose>
                         <xsl:when test="$typins/text()">
-                            <xsl:value-of select="$instyp"/>
+                            <xsl:text>Titulus </xsl:text><xsl:value-of select="$instyp"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:choose>
