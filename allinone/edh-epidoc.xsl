@@ -35,6 +35,6 @@
     
 <!-- remove attributes inherited from template which contain sample urls. to be used until those can be usefully populated  -->
     
-   <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/cleaner.xsl"/>
+<!--   <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/cleaner.xsl"/>-->
     
 </xsl:stylesheet>
