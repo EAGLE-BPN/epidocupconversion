@@ -8,7 +8,7 @@
     exclude-result-prefixes="tei rdf skos">
 
     <!--   GIVES PROBLEMS!!! probably due to vocabulary file -->
-    <xsl:template match="tei:rs[@type='exectution']">
+    <xsl:template match="tei:rs[@type='execution']">
         <xsl:param name="writingURI" tunnel="yes"/>
         <xsl:variable name="noquestion"><xsl:analyze-string select="." regex="(\w+)\?">
             <xsl:matching-substring>
