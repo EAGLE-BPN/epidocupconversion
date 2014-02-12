@@ -50,7 +50,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/113">
         <skos:prefLabel xml:lang="la">Adnuntiatio</skos:prefLabel>
-        <skos:scopeNote xml:lang="de"> Bekanntmachung; Ankdigung (z. B. vonmunera) Nichtrechtliche
+        <skos:scopeNote xml:lang="de"> Bekanntmachung; Ankdigung (z. B. von munera) Nichtrechtliche
             Verfungen(s.Rechtliche Verfung, fentlich / privat) </skos:scopeNote>
         <skos:historyNote xml:lang="en">Examples HD53407 </skos:historyNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
@@ -403,6 +403,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/83">
         <skos:prefLabel xml:lang="fr">Dédicace votive</skos:prefLabel>
         <skos:altLabel xml:lang="es">Dedicatoria votiva</skos:altLabel>
+        <skos:altLabel xml:lang="en">Votive</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/88"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/80"/>
@@ -634,6 +635,7 @@
         <skos:prefLabel xml:lang="en">Honorific inscription</skos:prefLabel>
         <skos:altLabel xml:lang="de">Ehreninschrift</skos:altLabel>
         <skos:altLabel xml:lang="en">honorary</skos:altLabel>
+        <skos:altLabel xml:lang="en">honours</skos:altLabel>
         <skos:altLabel xml:lang="fr">inscription honorifique</skos:altLabel>
         <skos:altLabel xml:lang="it">iscrizione onoraria</skos:altLabel>
         <skos:altLabel xml:lang="la">titulus honorarius</skos:altLabel>
@@ -689,6 +691,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/114">
         <skos:prefLabel xml:lang="en">imperial</skos:prefLabel>
+        <skos:altLabel xml:lang="en">imperial titulature</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
     </skos:Concept>
@@ -1145,6 +1148,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/92">
         <skos:prefLabel xml:lang="la">Sepulcralis</skos:prefLabel>
         <skos:altLabel xml:lang="en">Epitaph</skos:altLabel>
+        <skos:altLabel xml:lang="en">Funerary</skos:altLabel>
         <skos:altLabel xml:lang="de">Grabinschrift</skos:altLabel>
         <skos:altLabel xml:lang="en">Sepulchral inscription</skos:altLabel>
         <skos:altLabel xml:lang="hu">sírfelirat</skos:altLabel>
