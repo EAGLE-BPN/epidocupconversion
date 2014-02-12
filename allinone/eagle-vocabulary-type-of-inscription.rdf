@@ -1116,6 +1116,7 @@
         <skos:altLabel xml:lang="it">dedica</skos:altLabel>
         <skos:altLabel xml:lang="es">inscripción religiosa</skos:altLabel>
         <skos:altLabel xml:lang="en">religious</skos:altLabel>
+        <skos:altLabel xml:lang="en">dedication</skos:altLabel>
         <skos:altLabel xml:lang="fr">texte religieux</skos:altLabel>
         <skos:altLabel xml:lang="el">θρησκευτική, λατρευτική</skos:altLabel>
         <skos:altLabel xml:lang="ar">ديني</skos:altLabel>
