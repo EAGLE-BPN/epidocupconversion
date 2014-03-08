@@ -31,7 +31,6 @@
                     </xsl:attribute>                
                 </xsl:if>
             </xsl:if>
-            <xsl:apply-templates/>
         </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>
