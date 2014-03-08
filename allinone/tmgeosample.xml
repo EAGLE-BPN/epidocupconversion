@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <METADATA>
+        <FIELD EMPTYOK="NO" MAXREPEAT="1" NAME="id" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="full_name_reform" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="admin_sit" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="biblio" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="comments" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="country" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="current_account" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="ethnicon" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="fayum" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="geonames" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="google_id" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="html" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="identification" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="lang_other" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="lat_deg" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="lat_min" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="lat_sec" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="location" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="long_deg" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="long_min" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="long_sec" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="map" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="maps" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="modern_region" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="modified" TYPE="TIMESTAMP"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="modifier" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="name_latin" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="name_modern" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="name_standard" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="name_standard2" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="nomos_code" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="nomos_new" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="note" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="pleiades_id" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="provincia" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="region" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="repertoria" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="specificity" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="status" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="unicode_coptic" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="unicode_egyptian" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="unicode_greek" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="url1" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="url2" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="mapdata::height" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="mapdata::type" TYPE="TEXT"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="mapdata::width" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="mapdata::x" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="mapdata::y" TYPE="NUMBER"/>
+        <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="nomoi::nome_name" TYPE="TEXT"/>
+    </METADATA>
+    <RESULTSET FOUND="36784">
+        <ROW MODID="139" RECORDID="2">
+            <COL>
+                <DATA>2036</DATA>
+            </COL>
+            <COL>
+                <DATA>Egypt, 00b - Pyrreia</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>P. Tebt. 3.1, 1933, p. 120 n. 4; Uebel, Kleruchen, 1968, p. 142 no. 434-435;
+                    Daris, ZPE 70 (1987), p. 109; Clarysse / Hauben, ZPE 89 (1991), p. 47-68; BL 9,
+                    1995, p. 29</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Egypt</DATA>
+            </COL>
+            <COL>
+                <DATA>Herbert</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>1</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>2</DATA>
+            </COL>
+            <COL>
+                <DATA>1</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>1</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>9/17/2013 11:40:29</DATA>
+            </COL>
+            <COL>
+                <DATA>Herbert</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Pyrreia</DATA>
+            </COL>
+            <COL>
+                <DATA>Pyrreia (Pyrrea - Pyrraia - Pyrria - Paurreia - Pyrea - Phyreia -
+                    Phyrea)</DATA>
+            </COL>
+            <COL>
+                <DATA>00b</DATA>
+            </COL>
+            <COL>
+                <DATA>b</DATA>
+            </COL>
+            <COL>
+                <DATA>obsolete reading: Paumeia; Willy Clarysse: the accentuation is not Πυρρεία,
+                    but Πύρρεια (cf. Ἀλεξάνδρεια)</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Aegyptus</DATA>
+            </COL>
+            <COL>
+                <DATA>00</DATA>
+            </COL>
+            <COL>
+                <DATA>Dizionario IV, p. 75; p. 218; Suppl. 1, p. 221; Suppl. 2, p. 180; Suppl. 3, p.
+                    121; p. 132; Suppl. 5, p. 85; Wessely, Topographie, 1904, p. 134; P. Tebt. 2,
+                    1907, p. 358; p. 400</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>village: kome</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Πύρρεια</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>53</DATA>
+            </COL>
+            <COL>
+                <DATA>area</DATA>
+            </COL>
+            <COL>
+                <DATA>103</DATA>
+            </COL>
+            <COL>
+                <DATA>275</DATA>
+            </COL>
+            <COL>
+                <DATA>356</DATA>
+            </COL>
+            <COL>
+                <DATA>Egypt, Arsinoites (Fayum), meris of Themistos</DATA>
+            </COL>
+        </ROW>
+        <ROW MODID="82" RECORDID="3">
+            <COL>
+                <DATA>16</DATA>
+            </COL>
+            <COL>
+                <DATA>Jordan, Syria - Abella</DATA>
+            </COL>
+            <COL>
+                <DATA>in the Ammanitis; in the Perea</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>or accentuation Ἀβέλλα?</DATA>
+            </COL>
+            <COL>
+                <DATA>Jordan</DATA>
+            </COL>
+            <COL>
+                <DATA>Herbert</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>P. L. Bat. 21, 1981, map 2</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>9/17/2013 11:40:29</DATA>
+            </COL>
+            <COL>
+                <DATA>Herbert</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Abella</DATA>
+            </COL>
+            <COL>
+                <DATA>Abella</DATA>
+            </COL>
+            <COL>
+                <DATA>Syria</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Arabia</DATA>
+            </COL>
+            <COL>
+                <DATA>Syria</DATA>
+            </COL>
+            <COL>
+                <DATA>Dizionario I 1, p. 3; Suppl. 1, p. 1 (1)</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>city</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Ἄβελλα</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL>
+                <DATA>Syria</DATA>
+                <DATA>Iraq, Syria</DATA>
+                <DATA>Israel, Syria</DATA>
+                <DATA>Israel, Syria</DATA>
+                <DATA>Jordan, Syria</DATA>
+                <DATA>Jordan, Syria</DATA>
+                <DATA>Lebanon, Syria</DATA>
+                <DATA>Syria, Syria</DATA>
+                <DATA>Turkey, Syria</DATA>
+                <DATA>Turkey, Syria</DATA>
+                <DATA>Turkey, Syria</DATA>
+            </COL>
+        </ROW>
+        <ROW MODID="79" RECORDID="4">
+            <COL>
+                <DATA>14</DATA>
+            </COL>
+            <COL>
+                <DATA>Greece, Thracia - Abdera</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>PP X, 2002, p. 3</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Greece</DATA>
+            </COL>
+            <COL>
+                <DATA>Herbert</DATA>
+            </COL>
+            <COL>
+                <DATA>Abderites</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>9/17/2013 11:40:29</DATA>
+            </COL>
+            <COL>
+                <DATA>Herbert</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Abdera</DATA>
+            </COL>
+            <COL>
+                <DATA>Abdera - Avdira</DATA>
+            </COL>
+            <COL>
+                <DATA>Thracia</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Thracia</DATA>
+            </COL>
+            <COL>
+                <DATA>Thracia</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>city</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Ἄβδερα</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL>
+                <DATA>Thracia</DATA>
+                <DATA>Bulgaria, Thracia</DATA>
+                <DATA>Bulgaria, Thracia</DATA>
+                <DATA>Greece, Thracia</DATA>
+                <DATA>Greece, Thracia</DATA>
+                <DATA>Republic of Macedonia, Thracia</DATA>
+                <DATA>Romania, Thracia</DATA>
+                <DATA>Turkey, Thracia</DATA>
+            </COL>
+        </ROW>
+        <ROW MODID="71" RECORDID="6">
+            <COL>
+                <DATA>44</DATA>
+            </COL>
+            <COL>
+                <DATA>Turkey, Pisidia - Adada</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>not in PP X, 2002</DATA>
+            </COL>
+            <COL>
+                <DATA>Turkey</DATA>
+            </COL>
+            <COL>
+                <DATA>Herbert</DATA>
+            </COL>
+            <COL>
+                <DATA>Adadeus</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>10/24/2013 10:35:34</DATA>
+            </COL>
+            <COL>
+                <DATA>Herbert</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Adada</DATA>
+            </COL>
+            <COL>
+                <DATA>Adada - Ksar Banlo</DATA>
+            </COL>
+            <COL>
+                <DATA>Pisidia</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Lycia et Pamphylia</DATA>
+            </COL>
+            <COL>
+                <DATA>Pisidia</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>city</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Ἄδαδα</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL>
+                <DATA>Turkey, Pisidia</DATA>
+                <DATA>Pisidia</DATA>
+                <DATA>Turkey, Pisidia</DATA>
+                <DATA>Turkey, Pisidia</DATA>
+            </COL>
+        </ROW>
+        <ROW MODID="75" RECORDID="7">
+            <COL>
+                <DATA>48</DATA>
+            </COL>
+            <COL>
+                <DATA>Turkey, Troas - Adramyttion</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>PP X, 2002, p. 3</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Turkey</DATA>
+            </COL>
+            <COL>
+                <DATA>Herbert</DATA>
+            </COL>
+            <COL>
+                <DATA>Adramyttenos</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>10/28/2013 21:26:31</DATA>
+            </COL>
+            <COL>
+                <DATA>Herbert</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Adramyttion</DATA>
+            </COL>
+            <COL>
+                <DATA>Adramyttion (Adramytteion)</DATA>
+            </COL>
+            <COL>
+                <DATA>Troas</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Asia</DATA>
+            </COL>
+            <COL>
+                <DATA>Troas</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>city</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA>Ἀδραμύττιον</DATA>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL>
+                <DATA/>
+            </COL>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL/>
+            <COL>
+                <DATA>Turkey, Troas</DATA>
+                <DATA>Troas</DATA>
+            </COL>
+        </ROW>
+    </RESULTSET>
+</root>
