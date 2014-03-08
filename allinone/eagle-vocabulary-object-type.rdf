@@ -3354,7 +3354,6 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/250">
         <skos:prefLabel xml:lang="de">Stele</skos:prefLabel>
-        <skos:altLabel xml:lang="it">stele</skos:altLabel>
         <skos:altLabel xml:lang="en">stela</skos:altLabel>
         <skos:altLabel xml:lang="hu">sztélé</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
@@ -3662,7 +3661,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/283">
         <skos:prefLabel xml:lang="la">Thesaurus</skos:prefLabel>
-        <skos:scopeNote xml:lang="it">contenitore per offerte, cassetta per elemosine</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">contenitore per offerte, cassetta per
+            elemosine</skos:scopeNote>
         <skos:altLabel xml:lang="de">Opferkästchen</skos:altLabel>
         <skos:altLabel xml:lang="en">strong-box</skos:altLabel>
         <skos:altLabel xml:lang="el">θησαυροφυλάκιο, ταμίειον</skos:altLabel>
