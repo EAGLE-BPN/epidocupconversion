@@ -27,4 +27,7 @@
     <!--  state preservation  -->
    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/statepres.xsl"/>    
     
+<!--    TMGeo ID-->
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/tmgeo.xsl"/>
+    
 </xsl:stylesheet>
