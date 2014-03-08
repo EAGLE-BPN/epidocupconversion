@@ -38,7 +38,7 @@
                     </xsl:attribute>                
                 </xsl:if>
             </xsl:if>
-<!--            <xsl:apply-templates/>-->
+            <xsl:value-of select="."/>
         </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>
