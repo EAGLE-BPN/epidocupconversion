@@ -124,7 +124,7 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
                                 <placeName><xsl:value-of select="normalize-space(TD[position()=16])"/></placeName>
                                 <placeName type="provincItalicRegion"><xsl:value-of select="normalize-space(TD[position()=17])"/></placeName>
                             </origPlace>
-                              <origDate><xsl:attribute name="notBefore-custom"><xsl:value-of select="normalize-space(TD[position()=34])"/></xsl:attribute><xsl:attribute name="notAfter-custom"><xsl:value-of select="normalize-space(TD[position()=35])"/></xsl:attribute><xsl:attribute name="datingMethod">http://en.wikipedia.org/wiki/Julian_calendar</xsl:attribute><xsl:value-of select="normalize-space(TD[position()=31])"/></origDate>
+                              <origDate><xsl:if test="normalize-space(TD[position()=34])"><xsl:attribute name="notBefore-custom"><xsl:value-of select="normalize-space(TD[position()=34])"/></xsl:attribute></xsl:if><xsl:if test="normalize-space(TD[position()=35])"><xsl:attribute name="notAfter-custom"><xsl:value-of select="normalize-space(TD[position()=35])"/></xsl:attribute></xsl:if><xsl:attribute name="datingMethod">http://en.wikipedia.org/wiki/Julian_calendar</xsl:attribute><xsl:value-of select="normalize-space(TD[position()=31])"/></origDate>
                         </origin>
                         <provenance type="found">  
                             <date><xsl:value-of select="normalize-space(TD[position()=19])"/></date>
