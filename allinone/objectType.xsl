@@ -7,7 +7,7 @@
     exclude-result-prefixes="tei rdf skos">
     
     <xsl:template match="tei:objectType">
-        <xsl:param name="objectTypeURI" tunnel="yes"/>
+<!--        <xsl:param name="objectTypeURI" tunnel="yes"/>-->
         <xsl:variable name="noquestion"><xsl:analyze-string select="." regex="(\w+)\?">
             <xsl:matching-substring>
                 <xsl:value-of select="regex-group(1)"/>
@@ -21,7 +21,6 @@
             <xsl:copy-of select="@*[not(local-name()='ref')]"/>
             <xsl:if test="text()">
                 <xsl:variable name="voc_term">
-  
                     <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/eagle-vocabulary-object-type.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
                     <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/eagle-vocabulary-object-type.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
                 </xsl:variable>
@@ -31,6 +30,7 @@
                     </xsl:attribute>                
                 </xsl:if>
             </xsl:if>
+            <xsl:value-of select="."/>
         </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>
