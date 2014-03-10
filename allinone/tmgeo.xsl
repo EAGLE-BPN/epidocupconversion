@@ -4,6 +4,7 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
     xmlns:tei="http://www.tei-c.org/ns/1.0" 
     xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:f="http://www.filemaker.com/fmpxmlresult"
     exclude-result-prefixes="#all"
     >  
     
@@ -28,9 +29,17 @@
                 </xsl:analyze-string>
             </xsl:variable>
             <xsl:variable name="voc_term">  <!---->       
-                <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.xml')//RESULTSET/ROW/COL[2]/DATA[contains(., $noquestion)]/parent::COL/preceding-sibling::COL/DATA"/>
-                <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.xml')//RESULTSET/ROW/COL[30]/DATA[contains(., $noquestion)]/ancestor::ROW/COL[1]/DATA"/>
-            </xsl:variable>
+                <xsl:choose>                    <xsl:when test="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+                    [contains(., $noquestion)]">
+                    <xsl:value-of select="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+                        [contains(., $noquestion)]/parent::f:COL/preceding-sibling::f:COL/f:DATA"/>
+                </xsl:when>
+                    <xsl:when test="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
+                        [contains(., $noquestion)]">
+                        <xsl:value-of select="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
+                            [contains(., $noquestion)]/ancestor::f:ROW/f:COL[1]/f:DATA"/>
+                    </xsl:when>
+                    <xsl:otherwise><xsl:value-of select="$noquestion"/></xsl:otherwise></xsl:choose></xsl:variable>
         <xsl:copy>
             <xsl:copy-of select="@*[not(local-name()='ref')]"/>
             <xsl:attribute name="ref">
