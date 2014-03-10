@@ -28,8 +28,8 @@
                 </xsl:analyze-string>
             </xsl:variable>
             <xsl:variable name="voc_term">  <!---->       
-                <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/tmgeo/TMGeoExport18022014.xml')//RESULTSET/ROW/COL[2]/DATA[contains(., $noquestion)]/parent::COL/preceding-sibling::COL/DATA"/>
-                <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/tmgeo/TMGeoExport18022014.xml')//RESULTSET/ROW/COL[30]/DATA[contains(., $noquestion)]/ancestor::ROW/COL[1]/DATA"/>
+                <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.xml')//RESULTSET/ROW/COL[2]/DATA[contains(., $noquestion)]/parent::COL/preceding-sibling::COL/DATA"/>
+                <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.xml')//RESULTSET/ROW/COL[30]/DATA[contains(., $noquestion)]/ancestor::ROW/COL[1]/DATA"/>
             </xsl:variable>
         <xsl:copy>
             <xsl:copy-of select="@*[not(local-name()='ref')]"/>

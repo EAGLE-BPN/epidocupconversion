@@ -20,7 +20,7 @@
         <skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/material/lod/107"/>
         <skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/material/lod/1"/>
     </skos:ConceptScheme>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/2">
         <skos:prefLabel xml:lang="en">(Local) Stone</skos:prefLabel>
         <skos:altLabel xml:lang="tr">kamen</skos:altLabel>
         <skos:altLabel xml:lang="fi">kivi</skos:altLabel>
@@ -41,7 +41,7 @@
         <dct:modified>2013-08-26 22:27:13</dct:modified>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/73">
         <skos:prefLabel xml:lang="de">(vulkanische) Breccie</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/28"/>
@@ -50,7 +50,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/36"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/30">
         <skos:prefLabel xml:lang="de">(vulkanischer) Tuff</skos:prefLabel>
         <skos:altLabel xml:lang="en">(volcanic) tuff</skos:altLabel>
         <skos:altLabel xml:lang="es">Toba</skos:altLabel>
@@ -63,7 +63,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/35"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/88">
         <skos:prefLabel xml:lang="de">Achat</skos:prefLabel>
         <skos:altLabel xml:lang="hu">achát</skos:altLabel>
         <skos:altLabel xml:lang="en">Achat</skos:altLabel>
@@ -74,14 +74,14 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/234"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/136">
         <skos:prefLabel xml:lang="en">Acrolithic</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/118"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/109">
         <skos:prefLabel xml:lang="la">aes</skos:prefLabel>
         <skos:altLabel xml:lang="es">bronce</skos:altLabel>
         <skos:altLabel xml:lang="hu">bronz</skos:altLabel>
@@ -100,7 +100,7 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/304">
         <skos:prefLabel xml:lang="de">Amethyst</skos:prefLabel>
         <skos:altLabel xml:lang="hu">ametiszt</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -108,7 +108,7 @@
         <dct:created>2013-09-23 20:21:28</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/35">
         <skos:prefLabel xml:lang="de">Amphibolit</skos:prefLabel>
         <skos:altLabel xml:lang="hu">amfibol</skos:altLabel>
         <skos:altLabel xml:lang="en">amphibolite</skos:altLabel>
@@ -119,7 +119,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/39"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/43">
         <skos:prefLabel xml:lang="de">Amphibolit</skos:prefLabel>
         <skos:altLabel xml:lang="en">amphibolite</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -129,7 +129,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/46"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/309">
         <skos:prefLabel xml:lang="de">anderes metall</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/107"/>
@@ -142,7 +142,7 @@
         <dct:created>2013-09-23 20:24:04</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/15">
         <skos:prefLabel xml:lang="de">Andesit</skos:prefLabel>
         <skos:altLabel xml:lang="en">Andesite</skos:altLabel>
         <skos:altLabel xml:lang="hu">Andezit</skos:altLabel>
@@ -153,7 +153,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/23"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/22">
         <skos:prefLabel xml:lang="de">Andesit-Porphyr</skos:prefLabel>
         <skos:altLabel xml:lang="hu">andezit-porfír</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -163,7 +163,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/30"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/100">
         <skos:prefLabel xml:lang="de">Anhydrit</skos:prefLabel>
         <skos:altLabel xml:lang="hu">anhidrit</skos:altLabel>
         <skos:altLabel xml:lang="en">anhydrite-stone</skos:altLabel>
@@ -174,7 +174,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/66"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/7">
         <skos:prefLabel xml:lang="de">Aplit</skos:prefLabel>
         <skos:altLabel xml:lang="hu">gránitaplit</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -182,7 +182,7 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/131">
         <skos:prefLabel xml:lang="es">Arcilla</skos:prefLabel>
         <skos:altLabel xml:lang="hu">agyag</skos:altLabel>
         <skos:altLabel xml:lang="fr">Argile</skos:altLabel>
@@ -193,7 +193,7 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/128">
         <skos:prefLabel xml:lang="la">arenatum</skos:prefLabel>
         <skos:altLabel xml:lang="en">fresh mortar</skos:altLabel>
         <skos:altLabel xml:lang="tr">kireç</skos:altLabel>
@@ -210,7 +210,7 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/115">
         <skos:prefLabel xml:lang="la">argentum</skos:prefLabel>
         <skos:altLabel xml:lang="fr">argent</skos:altLabel>
         <skos:altLabel xml:lang="es">argento</skos:altLabel>
@@ -229,7 +229,7 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/3">
         <skos:prefLabel xml:lang="en">Artificial Rocks</skos:prefLabel>
         <skos:altLabel xml:lang="de">Kuenstliche Gesteine</skos:altLabel>
         <skos:altLabel xml:lang="hu">mesterséges kőzetek</skos:altLabel>
@@ -241,7 +241,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/5"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/112">
         <skos:prefLabel xml:lang="la">aurum</skos:prefLabel>
         <skos:altLabel xml:lang="tr">altın</skos:altLabel>
         <skos:altLabel xml:lang="hu">arany</skos:altLabel>
@@ -258,7 +258,7 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/16">
         <skos:prefLabel xml:lang="de">Basalt</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Basalte</skos:altLabel>
         <skos:altLabel xml:lang="es">Basalto</skos:altLabel>
@@ -270,7 +270,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/25"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/23">
         <skos:prefLabel xml:lang="de">Basalt-Porphyr</skos:prefLabel>
         <skos:altLabel xml:lang="hu">bazalt-porfír</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -280,7 +280,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/31"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/305">
         <skos:prefLabel xml:lang="de">Bergkristall</skos:prefLabel>
         <skos:altLabel xml:lang="hu">hegyikristály</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -288,7 +288,7 @@
         <dct:created>2013-09-23 20:21:28</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/119">
         <skos:prefLabel xml:lang="de">Bernstein</skos:prefLabel>
         <skos:altLabel xml:lang="es">Ambar</skos:altLabel>
         <skos:altLabel xml:lang="en">amber</skos:altLabel>
@@ -299,7 +299,7 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/31">
         <skos:prefLabel xml:lang="de">Bimsstein</skos:prefLabel>
         <skos:altLabel xml:lang="hu">habkő</skos:altLabel>
         <skos:altLabel xml:lang="es">Piedra pómez</skos:altLabel>
@@ -312,7 +312,7 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/33"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/65">
         <skos:prefLabel xml:lang="de">Biogene Sedimente</skos:prefLabel>
         <skos:altLabel xml:lang="de">Biogene Sedimente</skos:altLabel>
         <skos:altLabel xml:lang="hu">biogenetikus üledékes kőzet</skos:altLabel>
@@ -325,7 +325,7 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/124">
         <skos:prefLabel xml:lang="en">bone</skos:prefLabel>
         <skos:altLabel xml:lang="de">Bein</skos:altLabel>
         <skos:altLabel xml:lang="hu">csont</skos:altLabel>
@@ -337,7 +337,7 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/73">
         <skos:prefLabel xml:lang="de">Breccie</skos:prefLabel>
         <skos:altLabel xml:lang="en">breccia</skos:altLabel>
         <skos:altLabel xml:lang="hu">breccsa</skos:altLabel>
@@ -352,14 +352,14 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/61"/>
         </skos:closeMatch>
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/110">
         <skos:prefLabel xml:lang="en">Bronze, gilded</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/109"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
 
     </skos:Concept>
-    <skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/133">
         <skos:prefLabel xml:lang="it">cera</skos:prefLabel>
         <skos:prefLabel xml:lang="la">cera</skos:prefLabel>
         <skos:altLabel xml:lang="fr">cire</skos:altLabel>
