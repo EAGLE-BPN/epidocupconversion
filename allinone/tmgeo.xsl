@@ -29,13 +29,13 @@
                 </xsl:analyze-string>
             </xsl:variable>
             <xsl:variable name="voc_term">  <!---->       
-                <xsl:choose>                    <xsl:when test="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+                <xsl:choose>                    <xsl:when test="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
                     [contains(., $noquestion)]">
-                    <xsl:value-of select="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+                    <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
                         [contains(., $noquestion)]/parent::f:COL/preceding-sibling::f:COL/f:DATA"/>
                 </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
+                        <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
                             [contains(., $noquestion)]/ancestor::f:ROW/f:COL[1]/f:DATA"/></xsl:otherwise>
                     </xsl:choose></xsl:variable>
         <xsl:copy>
