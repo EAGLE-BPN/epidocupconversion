@@ -17,7 +17,7 @@
                         <xsl:value-of select="regex-group(1)"/>
                     </xsl:matching-substring>            
                     <xsl:non-matching-substring>
-                        <xsl:analyze-string select="." regex="(\w+),\s(\w*)">
+                        <xsl:analyze-string select="." regex="((\w+)\s*\w*)(,|:)\s(\w*\*?)\s*\w*\s*\w*">
                             <xsl:matching-substring> 
                                 <xsl:value-of select="regex-group(1)"/>                     
                             </xsl:matching-substring>            
@@ -29,17 +29,15 @@
                 </xsl:analyze-string>
             </xsl:variable>
             <xsl:variable name="voc_term">  <!---->       
-                <xsl:choose>                    <xsl:when test="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+                <xsl:choose>                    <xsl:when test="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
                     [contains(., $noquestion)]">
-                    <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+                    <xsl:value-of select="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
                         [contains(., $noquestion)]/parent::f:COL/preceding-sibling::f:COL/f:DATA"/>
                 </xsl:when>
-                    <xsl:when test="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
-                        [contains(., $noquestion)]">
-                        <xsl:value-of select="document('https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
-                            [contains(., $noquestion)]/ancestor::f:ROW/f:COL[1]/f:DATA"/>
-                    </xsl:when>
-                    <xsl:otherwise><xsl:value-of select="$noquestion"/></xsl:otherwise></xsl:choose></xsl:variable>
+                    <xsl:otherwise>
+                        <xsl:value-of select="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
+                            [contains(., $noquestion)]/ancestor::f:ROW/f:COL[1]/f:DATA"/></xsl:otherwise>
+                    </xsl:choose></xsl:variable>
         <xsl:copy>
             <xsl:copy-of select="@*[not(local-name()='ref')]"/>
             <xsl:attribute name="ref">

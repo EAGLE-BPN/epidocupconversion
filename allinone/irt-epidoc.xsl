@@ -17,9 +17,11 @@
         
 <!--  adds in specific elements a @ref with the corresponding url from the EAGLE Tematres Vocabularies -->
     <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/popwithvoc.xsl"/>
-    
-    
-<!--    breaks up sections and call templates to normalize ()[] and to convert in epidoc -->
+
+    <!--    adds tm geoid from (!!LOCAL!!) list in placeName-->
+    <xsl:include href="tmgeo.xsl"/>
+
+    <!--    breaks up sections and call templates to normalize ()[] and to convert in epidoc -->
   <!--  <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/textstructure.xsl"/>-->
     
     <!--breaks brackets in unique meaning ones as much as possible preparing things for the next step-->
