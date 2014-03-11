@@ -60,8 +60,6 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
                         <objectDesc>
                             <supportDesc>
                                 <support>
-<!--           PROBLEM POSED TO WROX SUPPORT FORUM:
-                 WHEN MORE THEN ONE VALUE IS THERE WITH A COMMA ONLY THE FIRST ONE is used to find the uri. -->
 <objectType><xsl:variable name="noquestion"><xsl:analyze-string 
                                             select="normalize-space(TD[position()=14])" 
                                             regex="(\*\s*\w*)\?"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring><xsl:non-matching-substring><xsl:analyze-string select="." regex="(\w+),\s(\w*)"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring><xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring></xsl:analyze-string></xsl:non-matching-substring></xsl:analyze-string></xsl:variable><!--
