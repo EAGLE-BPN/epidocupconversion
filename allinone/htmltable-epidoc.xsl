@@ -15,7 +15,6 @@
     HTML SPREADSHEET. POSITIONS OF TD ELEMENTS 
     OR NAMES OF CORRESPONDING ELEMENTS IN ANOTHER 
     XML FILE SHALL BE CHANGED FOR OTHER USE
-    
     -->
     
     
@@ -25,14 +24,6 @@
     
     <xsl:template match="/">
         <xsl:for-each select="/HTML/BODY/TABLE/TR">
-            <!--<xsl:for-each select=".">
-                <xsl:result-document method="xml" href="results/file_{@id}-output.xml">
-                    <xsl:apply-templates/>
-                </xsl:result-document>
-            </xsl:for-each>-->
-            <xsl:text>  
-            
-            </xsl:text>
             <TEI xml:space="preserve" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
