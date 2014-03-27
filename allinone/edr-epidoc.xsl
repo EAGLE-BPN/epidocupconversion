@@ -18,10 +18,6 @@
 <!--  adds in specific elements a @ref with the corresponding url from the EAGLE Tematres Vocabularies -->
     <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/popwithvoc.xsl"/>
     
-    <!--  adds in placName a @ref with the corresponding url from from TM GEO -->
-<!--    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/tmgeo.xsl"/>-->
-    
-    
 <!--    breaks up sections and call templates to normalize ()[] and to convert in epidoc -->
     <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/textstructureEDR.xsl"/>
     
@@ -30,11 +26,11 @@
 
 
 <!--  Takes all brackets sets and other diacritict and substitutes them with markup  -->
-<xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/upconversionEDR.xsl"/>    
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/upconversionEDR.xsl"/>    
     
     <!--  adds numbers to the marked up text-->
     
-    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/insertnumbers.xsl"/>
+    <xsl:include href="insertnumbers.xsl"/>
     
 <!-- remove attributes inherited from template which contain sample urls. to be used until those can be usefully populated  -->
     

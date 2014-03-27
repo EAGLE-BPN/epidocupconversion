@@ -7,45 +7,45 @@
     exclude-result-prefixes="tei rdf skos">
 
     <!--
-            &#12296;  &#12297;     〈 〉
-    &#12296;:in latere intuentibus sinistro &#12297;
-    &#12296;:in latere intuentibus dextro &#12297;
-    &#12296;:in epystilio &#12297;
-    &#12296;:in ipsa aedicula &#12297;
-    &#12296;:in una linea &#12297;
-    &#12296;:in parte aversa &#12297;
+   OK (x 1)      &#12296;  &#12297;     〈 〉
+   ok &#12296;:in latere intuentibus sinistro &#12297;
+   ok &#12296;:in latere intuentibus dextro &#12297;
+   ok &#12296;:in epystilio &#12297;
+   ok &#12296;:in ipsa aedicula &#12297;
+   ok &#12296;:in una linea &#12297;
+   ok &#12296;:in parte aversa &#12297;
     
     FRAMMENTI
-    &#12296;:frg. a&#12297;    
-    
-    &#12296;:in columna I &#12297;
+   ok &#12296;:frg. a&#12297;  |||||||STR||||||  
+   
+  ok  &#12296;:in columna I &#12297; 
     COLONNE
    
      &#12296;:servus&#12297; "PAROLE SOTTINTESE"   <supplied reason="subaudible" cert="high"></supplied>
 
-    macerie (:maceria)                                                               \w+\s\(\:\w+\) 
+  ok  macerie (:maceria)                                                               \w+\s\(\:\w+\) 
                                                                                                    <corr>macerie</corr><sic>maceria</sic>
         
-    Augg. (:Augusti duo)                                                          \w+\.\s\(\:.*\)  
+    ok Augg. (:Augusti duo)                                                          \w+\.\s\(\:.*\)  
     e simili con g                                                                          <expan><abbr>Aug<am>g</am></abbr><ex>usti duo</ex></expan>
     (che è un <am/> non un abbreviazione)
-    IIvir (:duovir)                                                                         <expan><abbr><am><n value="2">II</n>vir</am></abbr><ex>duovir</ex></expan>
-    IIIvir (:tresvir)                                                                        <expan><abbr><am><n value="3">III</n>vir</am></abbr><ex>tresvir</ex></expan>
-    IIIIvir (:quattuorvir)                                                              <expan><abbr><am><n value="4">IIII</n>vir</am></abbr><ex>quattuorvir</ex></expan>
-    VIvir (:sevir)                                                                           <expan><abbr><am><n value="6">VI</n>vir</am></abbr><ex>sevir</ex></expan>
-    coss. (consolibus)                                                                  <expan><abbr>co</abbr><ex>s</ex><abbr><am>s</am></abbr><ex>solibus</ex></expan>
+    ok IIvir (:duovir)                                                                         <expan><abbr><am><n value="2">II</n>vir</am></abbr><ex>duovir</ex></expan>
+    ok IIIvir (:tresvir)                                                                        <expan><abbr><am><n value="3">III</n>vir</am></abbr><ex>tresvir</ex></expan>
+    ok IIIIvir (:quattuorvir)                                                              <expan><abbr><am><n value="4">IIII</n>vir</am></abbr><ex>quattuorvir</ex></expan>
+    ok VIvir (:sevir)                                                                           <expan><abbr><am><n value="6">VI</n>vir</am></abbr><ex>sevir</ex></expan>
+    ok coss. (consolibus)                                                                  <expan><abbr>co</abbr><ex>s</ex><abbr><am>s</am></abbr><ex>solibus</ex></expan>
     
     %%%%% CONTROLLARE CHE NON INTEREFERISCA CON I NUMERI%%%%%%
     
-    ((:crux))                                                                                   <g type="crux"/>
+   ok ((:crux))                                                                                   <g type="crux"/>
     
-    ((abc))                                                                                     <g>abc</g>
+   ok ((abc))                                                                                     <g>abc</g>
     
-    &#818; SOTTOLINEATO ( PREVIOUSLY READ)         <supplied reason="undefined" evidence="previouseditor">αβγ</supplied>
+  ok  &#818; SOTTOLINEATO ( PREVIOUSLY READ)         <supplied reason="undefined" evidence="previouseditor">αβγ</supplied>
     
-    {servus} servus  parole ripetute per errore                         <surplus>a</surplus>
+    ok {servus} servus  parole ripetute per errore                         <surplus>a</surplus>
     
-    &#803; underdot
+ok    &#803; underdot
     
     &#12314; &#12315;〚  〛erased text                                    <del rend="erasure"></del>
         può contenere underdots
@@ -65,9 +65,9 @@
         
      &#768; αβ &#769;   `αβ´                                                               <add place="overstrike">αβ</add>
         
-    &#8988;   ⌜ ⌝  angolini in alto     
+   OK  &#8988;   ⌜ ⌝  angolini in alto     
     
-    &#770;      ̂                                                                                       <hi rend="ligature"></hi>
+  OK   &#770;      ̂                                                                                       <hi rend="ligature"></hi>
     ligature della lettera 
     su cui è con la seguente.
     
@@ -77,7 +77,7 @@
     &#7865;      Ẹ                                                                                      <unclear>E</unclear>
     &#773;    ̅                                                                                          <hi rend="supraline">abc</hi>
     
-    = /                                                                                                       @break="no"
+   OK  = /                                                                                                       @break="no"
     
     +++                                                                                                     <gap reason="illegible" unit="character" quantity="x"/>
     +10?+ 
@@ -99,27 +99,25 @@
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
         <!--line breaks-->
-        <xsl:analyze-string select="." regex="(\s*)/(\s+)|(\s+)/(\s*)">
+                                                      <xsl:analyze-string select="." regex="=\s*/">
             <xsl:matching-substring>
-                <lb/>
+                <lb break="no"/>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
 <!--line breaks in word -->
-                <xsl:analyze-string select="." regex="/">
+                <xsl:analyze-string select="." regex="(\s*)/(\s+)|(\s+)/(\s*)">
                     <xsl:matching-substring>
-                        <lb break="no"/>
+                        <lb/>
                     </xsl:matching-substring>
                     <xsl:non-matching-substring>
 <!--choice-->
-                        <xsl:analyze-string select="." regex="(&lt;)(.)=(.)(&gt;)">
+                        <xsl:analyze-string select="." regex="(⌜)(\w)(⌝)">
                             <xsl:matching-substring>
                                 <choice>
                                     <corr>
                                         <xsl:value-of select="regex-group(2)"/>
                                     </corr>
-                                    <sic>
-                                        <xsl:value-of select="regex-group(3)"/>
-                                    </sic>
+                                    
                                 </choice>
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
@@ -139,19 +137,40 @@
                                                 </surplus>
                                             </xsl:matching-substring>
                                             <xsl:non-matching-substring>
- <!--del but lost line-->
-                                                <xsl:analyze-string select="."
-                                                    regex="\[\[\[\-\-\-\-\-\-\]\]\]">
+   <!--unclear &#803; -->
+                                                <xsl:analyze-string select="." regex="((\w&#803;)+)">
                                                     <xsl:matching-substring>
-                                                        <del rend="erasure">
-                                                            <gap reason="lost" quantity="1"
-                                                                unit="line"/>
-                                                        </del>
+                                                        <unclear>
+                                                            <xsl:variable name="underdot">
+                                                                <xsl:value-of select="regex-group(1)"/>
+                                                            </xsl:variable>
+                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                 <xsl:non-matching-substring>     
+                                                                     <xsl:value-of select="."/>
+                                                                 </xsl:non-matching-substring>
+                                                             </xsl:analyze-string>
+                                                        </unclear>
                                                     </xsl:matching-substring>
                                                     <xsl:non-matching-substring>
-    <!--del but lost-->
+  <!--previously read &#818; -->
+                                                        <xsl:analyze-string select="." regex="((\w&#818;)+)">
+                                                            <xsl:matching-substring>
+                                                                <supplied reason="undefined" evidence="previouseditor">
+                                                                    <xsl:variable name="underline">
+                                                                        <xsl:value-of select="regex-group(1)"/>
+                                                                    </xsl:variable>
+                                                                    <xsl:analyze-string select="$underline" regex="&#818;">
+                                                                        <xsl:non-matching-substring>     
+                                                                            <xsl:value-of select="."/>
+                                                                        </xsl:non-matching-substring>
+                                                                    </xsl:analyze-string>
+                                                                </supplied>
+                                                            </xsl:matching-substring>
+                                                            <xsl:non-matching-substring>
+      
+    <!--del gap -->
                                                 <xsl:analyze-string select="."
-                                                  regex="\[\[\[(3)\]\]\]">
+                                                    regex="&#12314;\[\-\s\-\s\-\]&#12315;">
                                                   <xsl:matching-substring>
                                                   <del rend="erasure">
                                                   <gap reason="lost" extent="unknown"
@@ -159,7 +178,16 @@
                                                   </del>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
-
+      <!--del suppl -->
+                                                      <xsl:analyze-string select="."
+                                                          regex="&#12314;((\[(\w\s)\])*)\.*&#12315;">
+                                                          <xsl:matching-substring>
+                                                              <del rend="erasure">
+                                                                  <gap reason="lost" extent="unknown"
+                                                                      unit="character"/>
+                                                              </del>
+                                                          </xsl:matching-substring>
+                                                          <xsl:non-matching-substring>
            <!--   Gap unknown charact begining and end                             -->
                                                       <xsl:analyze-string select="."
                                                           regex="(\$\])|(\[&amp;)">
@@ -195,7 +223,7 @@
 
 <!--del but suppl-->
                                                   <xsl:analyze-string select="."
-                                                  regex="\[\[\[(.*?)\]\]\]">
+                                                      regex="&#12314;\[(.*?)\]&#12315;">
                                                   <xsl:matching-substring>
                                                   <del rend="erasure">
                                                   <supplied reason="lost">
@@ -214,7 +242,6 @@
                                                   <xsl:value-of select="regex-group(2)"/>
                                                   </supplied>
                                                   <xsl:value-of select="regex-group(3)"/>
-
                                                   <xsl:if test="regex-group(4)">
                                                   <supplied reason="lost">
                                                   <xsl:value-of select="regex-group(5)"/>
@@ -232,10 +259,12 @@
                                                   <xsl:non-matching-substring>
 <!--del-->
                                                   <xsl:analyze-string select="."
-                                                  regex="\[\[(.*?)\]\]">
+                                                      regex="&#12314;(.*?)&#12315;">
                                                   <xsl:matching-substring>
                                                   <del rend="erasure">
-                                                  <xsl:variable name="erased"><xsl:value-of select="regex-group(1)"/></xsl:variable>
+                                                  <xsl:variable name="erased">
+                                                      <xsl:value-of select="regex-group(1)"/>
+                                                  </xsl:variable>
                                                       <xsl:analyze-string select="$erased"
                                                           regex="([A-Za-z]+)\(([A-Za-z]+)\)(\w)*(\((.*?)\))*">
                                                           <xsl:matching-substring>
@@ -446,39 +475,73 @@
                                                               </expan></xsl:matching-substring>
                                                           <xsl:non-matching-substring>
 <!--(Luci) lib-->
-                                                      <xsl:analyze-string select="."
-                                                          regex="\|\(([A-Za-z0-9]+)\)\s(lib)">
+                                                    <xsl:analyze-string select="."
+                                                        regex="  &#12296;&#12296;(.*?)&#12297; &#12297;  ">
                                                           <xsl:matching-substring>
-                                                                      <expan>
-                                                                          <abbr>
-                                                                          <am>
-                                                                              <g type="solidus"/>
-                                                                          </am>
-                                                                  </abbr>
-                                                                  <ex>
-                                                                      <xsl:value-of select=" regex-group(1)"/>
-                                                                  </ex>
-                                                                      </expan>
-                                                                                     <xsl:text> </xsl:text>
-                                                              <abbr><xsl:text>lib</xsl:text></abbr>
+                                                              <add place="overstrike">
+                                                              <xsl:value-of select="regex-group(1)"/>
+                                                              </add>
                                                           </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
-<!--       W(mulieris)           -->
+    <!--        ((:crux))            -->
                                                               <xsl:analyze-string select="."
-                                                                  regex="((W)\(mulieris\))">
+                                                                  regex="\(\(:(\w*)\)\)">
                                                                   <xsl:matching-substring>
-                                                                      <expan>
-                                                                          <abbr>
-                                                                              <am>
-                                                                                  <g type="mulieris"/>
-                                                                              </am>
-                                                                          </abbr>
-                                                                          <ex>
-                                                                              <xsl:text>mulieris</xsl:text>
-                                                                          </ex>
-                                                                      </expan>
+                                                                                  <g>
+                                                                                     <xsl:attribute name="type">
+                                                                                         <xsl:value-of select="regex-group(1)"/>
+                                                                                     </xsl:attribute> 
+                                                                                  </g>
                                                                   </xsl:matching-substring>
                                                                   <xsl:non-matching-substring>
+      <!--        ((abc))            -->
+                                                                      <xsl:analyze-string select="."
+                                                                          regex="\(\((\w*)\)\)">
+                                                                          <xsl:matching-substring>
+                                                                              <g>
+                                                                                      <xsl:value-of select="regex-group(1)"/>
+                                                                                   </g>
+                                                                          </xsl:matching-substring>
+                                                                          <xsl:non-matching-substring>
+                                                                              
+                                                                      <!--     
+     Augg. (:Augusti duo)                                                          \w+\.\s\(\:.*\)  
+    e simili con g                                                                          <expan><abbr>Aug<am>g</am></abbr><ex>usti duo</ex></expan>
+    (che è un <am/> non un abbreviazione)
+    coss. (consolibus)                                                                  <expan><abbr>co</abbr><ex>s</ex><abbr><am>s</am></abbr><ex>solibus</ex></expan>-->
+                                                                      <xsl:analyze-string select="."
+                                                                          regex="((\w+)\.)\s\(:(\w+\s*)*\)">
+                                                                          <xsl:matching-substring>
+                                                                              <expan>
+                                                                                  <abbr>
+                                                                                      <am>
+                                                                                          <xsl:value-of select=" regex-group(2)"/>
+                                                                                      </am>
+                                                                                  </abbr>
+                                                                                  <ex><xsl:value-of select=" regex-group(3)"/></ex></expan>
+                                                                          </xsl:matching-substring>
+                                                                          <xsl:non-matching-substring>
+<!--                   
+    IIvir (:duovir)                                                                         <expan><abbr><am><n value="2">II</n>vir</am></abbr><ex>duovir</ex></expan>
+    IIIvir (:tresvir)                                                                        <expan><abbr><am><n value="3">III</n>vir</am></abbr><ex>tresvir</ex></expan>
+    IIIIvir (:quattuorvir)                                                              <expan><abbr><am><n value="4">IIII</n>vir</am></abbr><ex>quattuorvir</ex></expan>
+    VIvir (:sevir)                                                                           <expan><abbr><am><n value="6">VI</n>vir</am></abbr><ex>sevir</ex></expan>
+   
+                                                                              -->
+                                                                              <xsl:analyze-string select="."
+                                                                                  regex="((II|III|IIII|VI)vir)\s\(:(\w+\s*)*\)">
+                                                                                  <xsl:matching-substring>
+                                                                                      <expan>
+                                                                                          <abbr>
+                                                                                              <am>
+                                                                                                      <xsl:value-of select=" regex-group(1)"/>
+                                                                                                  </am>
+                                                                                          </abbr>
+                                                                                          <ex><xsl:value-of select=" regex-group(3)"/></ex></expan>
+                                                                                  </xsl:matching-substring>
+                                                                                  <xsl:non-matching-substring>
+                                                                                      
+                                                                      
      <!--co(n)s(ul)-->
                                                           <xsl:analyze-string select="."
                                                               regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
@@ -516,36 +579,27 @@
                                                                       </xsl:matching-substring>
                                                                       <xsl:non-matching-substring>
 
-<!--|(centuria)-->
+<!--subaudible words -->
                                                       <xsl:analyze-string select="."
-                                                          regex="\|\(centuria\)">
+                                                          regex="(&#12296;):(\w*?)(&#12297;)">
                                                           <xsl:matching-substring>
-                                                              <expan>
-                                                                  <abbr>
-                                                                      <am>
-                                                                          <g type="centuria"/>
-                                                                      </am>
-                                                                  </abbr>
-                                                                  <ex>
-                                                                      <xsl:text>centuria</xsl:text>
-                                                                  </ex>
-                                                              </expan>
+                                                              <supplied reason="subaudible">
+                                                                  <xsl:value-of select="regex-group(2)"/>
+                                                              </supplied>
                                                           </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
-<!--@(obitus)         -->
+<!--macerie (:maceria)         -->
                                                               <xsl:analyze-string select="."
-                                                                  regex="(@)\(obitus\)">
+                                                                  regex="(\w+)(\s\(:(\w+)\))">
                                                                   <xsl:matching-substring>
-                                                                      <expan>
-                                                                          <abbr>
-                                                                              <am>
-                                                                                  <g type="obitus"/>
-                                                                              </am>
-                                                                          </abbr>
-                                                                          <ex>
-                                                                              <xsl:text>obitus</xsl:text>
-                                                                          </ex>
-                                                                      </expan>
+                                                                      <choice>
+                                                                          <corr>
+                                                                              <xsl:value-of select="regex-group(1)"/>
+                                                                          </corr>
+                                                                          <sic>
+                                                                              <xsl:value-of select="regex-group(3)"/>
+                                                                          </sic>
+                                                                      </choice>
                                                                   </xsl:matching-substring>
                                                                   <xsl:non-matching-substring>
 <!--free standing (?)-->
@@ -555,15 +609,32 @@
                                                                               <certainty match="preceding-sibling::node()" locus="value"/>
                                                                           </xsl:matching-substring>
                                                                           <xsl:non-matching-substring>
-<!--close non matchings-->
+       <!--ligature   ̂   -->
+                                                                              <xsl:analyze-string select="."
+                                                                                  regex="((\ŵ)+\w)">
+                                                                                  <xsl:matching-substring>
+                                                                                      <hi rend="ligature">
+                                                                                      <xsl:value-of select="regex-group(1)"/>
+                                                                                      </hi>
+                                                                                  </xsl:matching-substring>
+                                                                                  <xsl:non-matching-substring>
+     <!--close non matchings-->
                                                       <xsl:value-of select="."/>
-                                                  </xsl:non-matching-substring>
-                                                  </xsl:analyze-string>
-                                                              
+
+                                                                                  </xsl:non-matching-substring>
+                                                                              </xsl:analyze-string>
+                                                                          </xsl:non-matching-substring>
+                                                                      </xsl:analyze-string>
+                                                                          </xsl:non-matching-substring>
+                                                                              </xsl:analyze-string>
                                                           </xsl:non-matching-substring>
                                                       </xsl:analyze-string>
                                                           </xsl:non-matching-substring>
                                                       </xsl:analyze-string>
+                                                                      </xsl:non-matching-substring>
+                                                                  </xsl:analyze-string>    
+                                                                      </xsl:non-matching-substring>
+                                                                  </xsl:analyze-string>
                                                           </xsl:non-matching-substring>
                                                       </xsl:analyze-string>
                                                       </xsl:non-matching-substring>
@@ -578,6 +649,9 @@
                                                   </xsl:analyze-string>
                                                   </xsl:non-matching-substring>
                                                   </xsl:analyze-string>
+                                                  </xsl:non-matching-substring>
+                                                  </xsl:analyze-string>
+                                                      
                                                   </xsl:non-matching-substring>
                                                   </xsl:analyze-string>
                                                   </xsl:non-matching-substring>
@@ -620,11 +694,12 @@
                         </xsl:analyze-string>
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
-                        
+                            </xsl:non-matching-substring>
+                        </xsl:analyze-string>
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
-            </xsl:non-matching-substring>
-        </xsl:analyze-string>
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
     </xsl:template>
 
 </xsl:stylesheet>
