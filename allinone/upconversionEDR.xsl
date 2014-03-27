@@ -6,6 +6,89 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="tei rdf skos">
 
+    <!--
+            &#12296;  &#12297;     〈 〉
+    &#12296;:in latere intuentibus sinistro &#12297;
+    &#12296;:in latere intuentibus dextro &#12297;
+    &#12296;:in epystilio &#12297;
+    &#12296;:in ipsa aedicula &#12297;
+    &#12296;:in una linea &#12297;
+    &#12296;:in parte aversa &#12297;
+    
+    FRAMMENTI
+    &#12296;:frg. a&#12297;    
+    
+    &#12296;:in columna I &#12297;
+    COLONNE
+   
+     &#12296;:servus&#12297; "PAROLE SOTTINTESE"   <supplied reason="subaudible" cert="high"></supplied>
+
+    macerie (:maceria)                                                               \w+\s\(\:\w+\) 
+                                                                                                   <corr>macerie</corr><sic>maceria</sic>
+        
+    Augg. (:Augusti duo)                                                          \w+\.\s\(\:.*\)  
+    e simili con g                                                                          <expan><abbr>Aug<am>g</am></abbr><ex>usti duo</ex></expan>
+    (che è un <am/> non un abbreviazione)
+    IIvir (:duovir)                                                                         <expan><abbr><am><n value="2">II</n>vir</am></abbr><ex>duovir</ex></expan>
+    IIIvir (:tresvir)                                                                        <expan><abbr><am><n value="3">III</n>vir</am></abbr><ex>tresvir</ex></expan>
+    IIIIvir (:quattuorvir)                                                              <expan><abbr><am><n value="4">IIII</n>vir</am></abbr><ex>quattuorvir</ex></expan>
+    VIvir (:sevir)                                                                           <expan><abbr><am><n value="6">VI</n>vir</am></abbr><ex>sevir</ex></expan>
+    coss. (consolibus)                                                                  <expan><abbr>co</abbr><ex>s</ex><abbr><am>s</am></abbr><ex>solibus</ex></expan>
+    
+    %%%%% CONTROLLARE CHE NON INTEREFERISCA CON I NUMERI%%%%%%
+    
+    ((:crux))                                                                                   <g type="crux"/>
+    
+    ((abc))                                                                                     <g>abc</g>
+    
+    &#818; SOTTOLINEATO ( PREVIOUSLY READ)         <supplied reason="undefined" evidence="previouseditor">αβγ</supplied>
+    
+    {servus} servus  parole ripetute per errore                         <surplus>a</surplus>
+    
+    &#803; underdot
+    
+    &#12314; &#12315;〚  〛erased text                                    <del rend="erasure"></del>
+        può contenere underdots
+        può contenere maiuscole
+        può contenere abbreviazioni
+        può contenere <supplied></supplied>
+        può contenere <gap></gap>
+        
+    &#12296;&#12296;  ... &#12297; &#12297;                                 <add place="overstrike">...</add>
+    
+   %%%%%%% NOTA
+    <subst>
+ <del rend="erasure">Imilchonis</del>
+ <add place="overstrike">Himilcho</add>
+</subst>            
+        NOTA %%%%%%
+        
+     &#768; αβ &#769;   `αβ´                                                               <add place="overstrike">αβ</add>
+        
+    &#8988;   ⌜ ⌝  angolini in alto     
+    
+    &#770;      ̂                                                                                       <hi rend="ligature"></hi>
+    ligature della lettera 
+    su cui è con la seguente.
+    
+    &#7735;     Ḷ                                                                                   <unclear>L</unclear>
+    &#7716;    Ḥ                                                                                    <unclear>H</unclear>
+    &#7747;      ṃ                                                                                  <unclear>m</unclear>
+    &#7865;      Ẹ                                                                                      <unclear>E</unclear>
+    &#773;    ̅                                                                                          <hi rend="supraline">abc</hi>
+    
+    = /                                                                                                       @break="no"
+    
+    +++                                                                                                     <gap reason="illegible" unit="character" quantity="x"/>
+    +10?+ 
+    
+    
+    NUMBERS
+    
+    ............
+    
+    -->
+    
         <xsl:template name="upconversion">
 <xsl:param name="substitutions" tunnel="yes"/>
 <!--   Gap unknown lines begining and end                             -->

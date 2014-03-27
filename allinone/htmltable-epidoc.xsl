@@ -186,12 +186,12 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
     </teiHeader>
         <xsl:if test="normalize-space(TD[position()=31])"> <facsimile>
 <xsl:for-each select="normalize-space(TD[position()=31])"><xsl:choose><xsl:when test="contains(.,';')"><xsl:for-each select="tokenize(.,';')">
-    <graphic><xsl:attribute name="n"><xsl:value-of select="."/></xsl:attribute><xsl:attribute name="url"><xsl:value-of select="concat('https://commons.wikimedia.org/wiki/File:',.)"/></xsl:attribute>
+    <graphic><xsl:attribute name="n"><xsl:value-of select="."/></xsl:attribute><xsl:attribute name="url"><xsl:value-of select="concat('https://commons.wikimedia.org/wiki/File:',.,'.png')"/></xsl:attribute>
        <desc> <xsl:value-of select="."/>
           <ref type="license" target="creativecommons.org/licenses/by-sa/3.0/">Licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license. </ref>
       </desc>
    </graphic></xsl:for-each></xsl:when><xsl:otherwise>
-   <graphic><xsl:attribute name="n"><xsl:value-of select="."/></xsl:attribute><xsl:attribute name="url"><xsl:value-of select="concat('https://commons.wikimedia.org/wiki/File:',.)"/></xsl:attribute>
+   <graphic><xsl:attribute name="n"><xsl:value-of select="."/></xsl:attribute><xsl:attribute name="url"><xsl:value-of select="concat('https://commons.wikimedia.org/wiki/File:',.,'.png')"/></xsl:attribute>
        <desc> <xsl:value-of select="."/>
           <ref type="license" target="creativecommons.org/licenses/by-sa/3.0/">Licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license. </ref>
       </desc>
