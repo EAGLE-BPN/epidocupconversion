@@ -16,21 +16,21 @@
 <!--    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/maketitledr.xsl"/>-->
         
 <!--  adds in specific elements a @ref with the corresponding url from the EAGLE Tematres Vocabularies -->
-    <xsl:include href="popwithvoc.xsl"/>
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/popwithvoc.xsl"/>
     
 <!--    breaks up sections and call templates to normalize ()[] and to convert in epidoc -->
-    <xsl:include href="textstructureEDR.xsl"/>
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/textstructureEDR.xsl"/>
     
     <!--breaks brackets in unique meaning ones as much as possible preparing things for the next step-->
-    <xsl:include href="bracketsEDR.xsl"/>
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/bracketsEDR.xsl"/>
 
 
 <!--  Takes all brackets sets and other diacritict and substitutes them with markup  -->
-    <xsl:include href="upconversionEDR.xsl"/>    
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/upconversionEDR.xsl"/>    
     
     <!--  adds numbers to the marked up text-->
     
-    <xsl:include href="insertnumbers.xsl"/>
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/insertnumbers.xsl"/>
     
 <!-- remove attributes inherited from template which contain sample urls. to be used until those can be usefully populated  -->
     
