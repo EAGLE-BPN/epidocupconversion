@@ -6,32 +6,30 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="tei rdf skos">
     
-    
-    <xsl:variable name="parts">
-        <xsl:analyze-string select="normalize-space(.)" regex="(&#12296;):(in latere intuentibus sinistro|in latere intuentibus dextro|in epystilio|in ipsa aedicula|in una linea|in parte aversa|in fgr.\s\w*\s*|in columna\s\w*\s*)(&#12297;)">
-    <xsl:matching-substring>
-        <xsl:sequence select="."/> 
-    </xsl:matching-substring>
-</xsl:analyze-string>
+    <xsl:variable name="sections">
+        <xsl:analyze-string select="." regex="(&#12296;):(in latere intuentibus sinistro|in latere intuentibus dextro|in epystilio|in ipsa aedicula|in una linea|in parte aversa|in fgr.\s\w*\s*|in columna\s\w*\s*)(&#12297;)">
+            <xsl:matching-substring>
+                <xsl:sequence select="."/> 
+            </xsl:matching-substring>
+        </xsl:analyze-string>
     </xsl:variable>
-    
-   
     
     <xsl:template name="edition">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
             <head>Text</head>
             <xsl:choose>
-                <xsl:when test="contains(., $parts)">
-                    <xsl:for-each select="tokenize(., $parts)">
+                <xsl:when test="contains(., $sections)">
+                    <xsl:for-each select="tokenize(., $sections)">
                         <div n="{position()}" type="textpart">
     <xsl:if test="not(position()=1)">
         <xsl:attribute name="subtype">
-                <xsl:analyze-string select="$parts" regex="(\w+)">
+                <xsl:analyze-string select="$sections" regex="(\w+)">
                     <xsl:matching-substring>
                         <xsl:value-of select="."/>
                     </xsl:matching-substring>
-                </xsl:analyze-string></xsl:attribute>
+                </xsl:analyze-string>
+        </xsl:attribute>
     </xsl:if>                           
                             <ab>
                                 <lb/>

@@ -6,100 +6,11 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="tei rdf skos">
 
-    <!--
-   OK (x 1)      &#12296;  &#12297;     〈 〉
-   ok &#12296;:in latere intuentibus sinistro &#12297;
-   ok &#12296;:in latere intuentibus dextro &#12297;
-   ok &#12296;:in epystilio &#12297;
-   ok &#12296;:in ipsa aedicula &#12297;
-   ok &#12296;:in una linea &#12297;
-   ok &#12296;:in parte aversa &#12297;
-    
-    FRAMMENTI
-   ok &#12296;:frg. a&#12297;  |||||||STR||||||  
-   
-  ok  &#12296;:in columna I &#12297; 
-    COLONNE
-   
-     &#12296;:servus&#12297; "PAROLE SOTTINTESE"   <supplied reason="subaudible" cert="high"></supplied>
-
-  ok  macerie (:maceria)                                                               \w+\s\(\:\w+\) 
-                                                                                                   <corr>macerie</corr><sic>maceria</sic>
-        
-    ok Augg. (:Augusti duo)                                                          \w+\.\s\(\:.*\)  
-    e simili con g                                                                          <expan><abbr>Aug<am>g</am></abbr><ex>usti duo</ex></expan>
-    (che è un <am/> non un abbreviazione)
-    ok IIvir (:duovir)                                                                         <expan><abbr><am><n value="2">II</n>vir</am></abbr><ex>duovir</ex></expan>
-    ok IIIvir (:tresvir)                                                                        <expan><abbr><am><n value="3">III</n>vir</am></abbr><ex>tresvir</ex></expan>
-    ok IIIIvir (:quattuorvir)                                                              <expan><abbr><am><n value="4">IIII</n>vir</am></abbr><ex>quattuorvir</ex></expan>
-    ok VIvir (:sevir)                                                                           <expan><abbr><am><n value="6">VI</n>vir</am></abbr><ex>sevir</ex></expan>
-    ok coss. (consolibus)                                                                  <expan><abbr>co</abbr><ex>s</ex><abbr><am>s</am></abbr><ex>solibus</ex></expan>
-    
-    %%%%% CONTROLLARE CHE NON INTEREFERISCA CON I NUMERI%%%%%%
-    
-   ok ((:crux))                                                                                   <g type="crux"/>
-    
-   ok ((abc))                                                                                     <g>abc</g>
-    
-  ok  &#818; SOTTOLINEATO ( PREVIOUSLY READ)         <supplied reason="undefined" evidence="previouseditor">αβγ</supplied>
-    
-    ok {servus} servus  parole ripetute per errore                         <surplus>a</surplus>
-    
-ok    &#803; underdot
-    
-    &#12314; &#12315;〚  〛erased text                                    <del rend="erasure"></del>
-        può contenere underdots
-        può contenere maiuscole
-        può contenere abbreviazioni
-        può contenere <supplied></supplied>
-        può contenere <gap></gap>
-        
-    &#12296;&#12296;  ... &#12297; &#12297;                                 <add place="overstrike">...</add>
-    
-   %%%%%%% NOTA
-    <subst>
- <del rend="erasure">Imilchonis</del>
- <add place="overstrike">Himilcho</add>
-</subst>            
-        NOTA %%%%%%
-        
-     &#768; αβ &#769;   `αβ´                                                               <add place="overstrike">αβ</add>
-        
-   OK  &#8988;   ⌜ ⌝  angolini in alto     
-    
-  OK   &#770;      ̂                                                                                       <hi rend="ligature"></hi>
-    ligature della lettera 
-    su cui è con la seguente.
-    
-    &#7735;     Ḷ                                                                                   <unclear>L</unclear>
-    &#7716;    Ḥ                                                                                    <unclear>H</unclear>
-    &#7747;      ṃ                                                                                  <unclear>m</unclear>
-    &#7865;      Ẹ                                                                                      <unclear>E</unclear>
-    &#773;    ̅                                                                                          <hi rend="supraline">abc</hi>
-    
-   OK  = /                                                                                                       @break="no"
-    
-    +++                                                                                                     <gap reason="illegible" unit="character" quantity="x"/>
-    +10?+ 
-    
-    
-    NUMBERS
-    
-    ............
-    
-    -->
-    
         <xsl:template name="upconversion">
 <xsl:param name="substitutions" tunnel="yes"/>
-<!--   Gap unknown lines begining and end                             -->
-                                                  <xsl:analyze-string select="."
-                                                  regex="(\$\]\s+)|(\s+\[&amp;)">
-                                                  <xsl:matching-substring>
-                                                  <gap reason="lost" extent="unknown" unit="line"/>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
-        <!--line breaks-->
-                                                      <xsl:analyze-string select="." regex="=\s*/">
+
+<!--line breaks-->
+          <xsl:analyze-string select="." regex="=\s*/">
             <xsl:matching-substring>
                 <lb break="no"/>
             </xsl:matching-substring>
@@ -137,7 +48,37 @@ ok    &#803; underdot
                                                 </surplus>
                                             </xsl:matching-substring>
                                             <xsl:non-matching-substring>
-   <!--unclear &#803; -->
+  <!--     line gap                                   -->
+                                                <xsl:analyze-string select="." regex="\[(6)\]">
+                                                    <xsl:matching-substring>
+                                                        <gap reason="lost" quantity="1" unit="line"/>
+                                                    </xsl:matching-substring>
+                                                    <xsl:non-matching-substring>
+       <!--      gap illegible                                  -->
+                                                        <xsl:analyze-string select="." regex="(\++)">
+                                                            <xsl:matching-substring>
+                                                                <gap reason="illegible" quantity="{string-length(regex-group(1))}" unit="character"/>
+                                                            </xsl:matching-substring>
+                                                            <xsl:non-matching-substring>
+    <!--      gap unknown                               -->
+                                                                <xsl:analyze-string select="." regex="\[(3)\]">
+                                                                    <xsl:matching-substring>
+                                                                        <gap reason="lost" extent="unknown" unit="character"/>
+                                                                    </xsl:matching-substring>
+                                                                    <xsl:non-matching-substring>
+       <!--      gap 2 char                                  -->
+                                                                <xsl:analyze-string select="." regex="\[(2)\]">
+                                                                    <xsl:matching-substring>
+                                                                        <gap reason="lost" quantity="2" unit="character"/>
+                                                                    </xsl:matching-substring>
+                                                                    <xsl:non-matching-substring>
+      <!--      gap 1 char                                  -->
+                                                                        <xsl:analyze-string select="." regex="\[(2)\]">
+                                                                            <xsl:matching-substring>
+                                                                                <gap reason="lost" quantity="1" unit="character"/>
+                                                                            </xsl:matching-substring>
+                                                                            <xsl:non-matching-substring>
+     <!--unclear &#803; -->
                                                 <xsl:analyze-string select="." regex="((\w&#803;)+)">
                                                     <xsl:matching-substring>
                                                         <unclear>
@@ -188,39 +129,14 @@ ok    &#803; underdot
                                                               </del>
                                                           </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
-           <!--   Gap unknown charact begining and end                             -->
+  <!--   Gap unknown charact begining and end                             -->
                                                       <xsl:analyze-string select="."
                                                           regex="(\$\])|(\[&amp;)">
                                                           <xsl:matching-substring>
                                                               <gap reason="lost" extent="unknown" unit="character"/>
                                                           </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
-           <!--     line gap                                   -->
-                                                      <xsl:analyze-string select="." regex="\[(6)\]|\[(\-\-\-\-\-\-)\]">
-                                                  <xsl:matching-substring>
-                                                  <gap reason="lost" quantity="1" unit="line"/>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
-<!--     extent unknown gap                                   -->
-                                                  <xsl:analyze-string select="." regex="\[(3)\]|\[(\-\-\-)\]">
-                                                  <xsl:matching-substring>
-                                                  <gap reason="lost" extent="unknown"
-                                                  unit="character"/>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
-<!--      gap 1 char                                  -->
-                                                  <xsl:analyze-string select="." regex="\[(1)\]">
-                                                  <xsl:matching-substring>
-                                                  <gap reason="lost" quantity="1" unit="character"/>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
-<!--      gap 2 char                                  -->
-                                                  <xsl:analyze-string select="." regex="\[(2)\]">
-                                                  <xsl:matching-substring>
-                                                  <gap reason="lost" quantity="2" unit="character"/>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
-
+  
 <!--del but suppl-->
                                                   <xsl:analyze-string select="."
                                                       regex="&#12314;\[(.*?)\]&#12315;">
@@ -618,15 +534,27 @@ ok    &#803; underdot
                                                                                       </hi>
                                                                                   </xsl:matching-substring>
                                                                                   <xsl:non-matching-substring>
-     <!--close non matchings-->
+<!--match roman numerals -->
+                                                                                  <!--    <xsl:analyze-string select="."
+                                                                                          regex="(M{{1,4}}(CM|CD|D?C{{0,3}})(XC|XL|L?X{{0,3}})(IX|IV|V?I{{0,3}})|M{{0,4}}(CM|C?D|D?C{{1,3}})(XC|XL|L?X{{0,3}})(IX|IV|V?I{{0,3}})|M{{0,4}}(CM|CD|D?C{{0,3}})(XC|X?L|L?X{{1,3}})(IX|IV|V?I{{0,3}})|M{{0,4}}(CM|CD|D?C{{0,3}})(XC|XL|L?X{{0,3}})(IX|I?V|V?I{{1,3}}))
+                                                                                          ">
+                                                                                          <xsl:matching-substring>
+                                                                                              <num type="roman">
+                                                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                                                              </num>
+                                                                                          </xsl:matching-substring>
+                                                                                          <xsl:non-matching-substring>-->
+<!--close non matchings-->
                                                       <xsl:value-of select="."/>
 
-                                                                                  </xsl:non-matching-substring>
-                                                                              </xsl:analyze-string>
+                                                                               <!--   </xsl:non-matching-substring>
+                                                                              </xsl:analyze-string>-->
                                                                           </xsl:non-matching-substring>
                                                                       </xsl:analyze-string>
                                                                           </xsl:non-matching-substring>
                                                                               </xsl:analyze-string>
+                                                                  </xsl:non-matching-substring>
+                                                              </xsl:analyze-string>
                                                           </xsl:non-matching-substring>
                                                       </xsl:analyze-string>
                                                           </xsl:non-matching-substring>
@@ -696,10 +624,94 @@ ok    &#803; underdot
                 </xsl:analyze-string>
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
-                    </xsl:non-matching-substring>
-                </xsl:analyze-string>
-                    </xsl:non-matching-substring>
-                </xsl:analyze-string>
+            </xsl:non-matching-substring>
+          </xsl:analyze-string>
+            </xsl:non-matching-substring>
+          </xsl:analyze-string>
     </xsl:template>
 
 </xsl:stylesheet>
+
+
+<!--
+   OK (x 1)      &#12296;  &#12297;     〈 〉
+   ok &#12296;:in latere intuentibus sinistro &#12297;
+   ok &#12296;:in latere intuentibus dextro &#12297;
+   ok &#12296;:in epystilio &#12297;
+   ok &#12296;:in ipsa aedicula &#12297;
+   ok &#12296;:in una linea &#12297;
+   ok &#12296;:in parte aversa &#12297;
+    
+    FRAMMENTI
+   ok &#12296;:frg. a&#12297;  |||||||STR||||||  
+   
+  ok  &#12296;:in columna I &#12297; 
+    COLONNE
+   
+     &#12296;:servus&#12297; "PAROLE SOTTINTESE"   <supplied reason="subaudible" cert="high"></supplied>
+     
+  ok  macerie (:maceria)                                                               \w+\s\(\:\w+\) 
+                                                                                                   <corr>macerie</corr><sic>maceria</sic>
+        
+    ok Augg. (:Augusti duo)                                                          \w+\.\s\(\:.*\)  
+    e simili con g                                                                          <expan><abbr>Aug<am>g</am></abbr><ex>usti duo</ex></expan>
+    (che è un <am/> non un abbreviazione)
+    ok IIvir (:duovir)                                                                         <expan><abbr><am><n value="2">II</n>vir</am></abbr><ex>duovir</ex></expan>
+    ok IIIvir (:tresvir)                                                                        <expan><abbr><am><n value="3">III</n>vir</am></abbr><ex>tresvir</ex></expan>
+    ok IIIIvir (:quattuorvir)                                                              <expan><abbr><am><n value="4">IIII</n>vir</am></abbr><ex>quattuorvir</ex></expan>
+    ok VIvir (:sevir)                                                                           <expan><abbr><am><n value="6">VI</n>vir</am></abbr><ex>sevir</ex></expan>
+    ok coss. (consolibus)                                                                  <expan><abbr>co</abbr><ex>s</ex><abbr><am>s</am></abbr><ex>solibus</ex></expan>
+    
+    %%%%% CONTROLLARE CHE NON INTEREFERISCA CON I NUMERI%%%%%%
+    
+   ok ((:crux))                                                                                   <g type="crux"/>
+    
+   ok ((abc))                                                                                     <g>abc</g>
+    
+  ok  &#818; SOTTOLINEATO ( PREVIOUSLY READ)         <supplied reason="undefined" evidence="previouseditor">αβγ</supplied>
+    
+    ok {servus} servus  parole ripetute per errore                         <surplus>a</surplus>
+    
+ok    &#803; underdot
+    
+    &#12314; &#12315;〚  〛erased text                                    <del rend="erasure"></del>
+        può contenere underdots
+        può contenere maiuscole
+        può contenere abbreviazioni
+        può contenere <supplied></supplied>
+        può contenere <gap></gap>
+        
+    &#12296;&#12296;  ... &#12297; &#12297;                                 <add place="overstrike">...</add>
+    
+   %%%%%%% NOTA
+    <subst>
+ <del rend="erasure">Imilchonis</del>
+ <add place="overstrike">Himilcho</add>
+</subst>            
+        NOTA %%%%%%
+        
+     &#768; αβ &#769;   `αβ´                                                               <add place="overstrike">αβ</add>
+        
+   OK  &#8988;   ⌜ ⌝  angolini in alto     
+    
+  OK   &#770;      ̂                                                                                       <hi rend="ligature"></hi>
+    ligature della lettera 
+    su cui è con la seguente.
+    
+    &#7735;     Ḷ                                                                                   <unclear>L</unclear>
+    &#7716;    Ḥ                                                                                    <unclear>H</unclear>
+    &#7747;      ṃ                                                                                  <unclear>m</unclear>
+    &#7865;      Ẹ                                                                                      <unclear>E</unclear>
+    &#773;    ̅                                                                                          <hi rend="supraline">abc</hi>
+    
+   OK  = /                                                                                                       @break="no"
+    
+    +++                                                                                                     <gap reason="illegible" unit="character" quantity="x"/>
+    +10?+ 
+    
+    
+    NUMBERS
+    
+    ............
+    
+    -->
