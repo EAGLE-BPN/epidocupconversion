@@ -19,17 +19,17 @@
     <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/popwithvoc.xsl"/>
     
     <!--  adds in placName a @ref with the corresponding url from from TM GEO -->
-    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/tmgeo.xsl"/>
+<!--    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/tmgeo.xsl"/>-->
     
 <!--    breaks up sections and call templates to normalize ()[] and to convert in epidoc -->
-    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/textstructureEDB.xsl"/>
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/textstructure.xsl"/>
     
     <!--breaks brackets in unique meaning ones as much as possible preparing things for the next step-->
-    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/bracketsEDB.xsl"/>
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/brackets.xsl"/>
 
 
 <!--  Takes all brackets sets and other diacritict and substitutes them with markup  -->
-<xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/upconversionEDB.xsl"/>    
+<xsl:include href="upconversionEDB.xsl"/>    
     
     <!--  adds numbers to the marked up text-->
     
