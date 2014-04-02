@@ -228,7 +228,22 @@
                                                   </supplied>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
-                                                      
+     <!--mace(rie) (:maceria)         -->
+                                                      <xsl:analyze-string select="."
+                                                          regex="(\w+)\((\w+)\)(\s\(:(\w+)\))">
+                                                          <xsl:matching-substring>
+                                                              <choice>
+                                                                  <corr>
+                                                                      <xsl:value-of select="regex-group(4)"/>
+                                                                  </corr>
+                                                                  <sic>
+                                                                      <expan><abbr><xsl:value-of select="regex-group(1)"/></abbr>
+                                                                      <ex><xsl:value-of select="regex-group(2)"/></ex></expan>
+                                                                  </sic>
+                                                              </choice>
+                                                          </xsl:matching-substring>
+                                                          <xsl:non-matching-substring>
+                                                              
            <!-- [A]u[g(ustus) e] situation-->                                                      
                                                       <xsl:analyze-string select="." regex="([A-Za-z0-9]*)\[([A-Za-z0-9]+)\]([A-Za-z0-9]*)\[([A-Za-z0-9]*)\(([A-Za-z0-9]+)\)\s*([A-Za-z0-9]*)\]">
                                                           <xsl:matching-substring>
@@ -280,7 +295,25 @@
                                                                       
                                                                   </xsl:matching-substring>
                                                                   <xsl:non-matching-substring>
-       <!-- [A]ug(ustus) situation-->
+                <!--[P(ublio)] situation-->
+                                                                      <xsl:analyze-string select="." regex="\[([A-Za-z0-9])+\(([A-Za-z0-9]+)\)\]">
+                                                                          <xsl:matching-substring>
+                                                                              <supplied reason="lost">
+                                                                              <expan>
+                                                                                  <abbr>
+                                                                                           <xsl:value-of select=" regex-group(1)"/>
+                                                                                     
+                                                                                  </abbr>
+                                                                                      <ex>
+                                                                                          <xsl:value-of select=" regex-group(2)"/>
+                                                                                      </ex>
+                                                                                  
+                                                                              </expan>
+                                                                              </supplied>
+                                                                          </xsl:matching-substring>
+                                                                          <xsl:non-matching-substring>
+                                                                              
+  <!-- [A]ug(ustus) situation-->
                                                                       <xsl:analyze-string select="."
                                                                           regex="([A-Za-z0-9]*)\[([A-Za-z0-9]+)\]([A-Za-z0-9]*)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
                                                                           <xsl:matching-substring>
@@ -547,8 +580,8 @@
 <!--close non matchings-->
                                                       <xsl:value-of select="."/>
 
-                                                                               <!--   </xsl:non-matching-substring>
-                                                                              </xsl:analyze-string>-->
+                                                                                  </xsl:non-matching-substring>
+                                                                              </xsl:analyze-string>
                                                                           </xsl:non-matching-substring>
                                                                       </xsl:analyze-string>
                                                                           </xsl:non-matching-substring>
@@ -616,6 +649,9 @@
                                                 </xsl:analyze-string>
                                             </xsl:non-matching-substring>
                                         </xsl:analyze-string>
+                                                                
+                                                            </xsl:non-matching-substring>
+                                                        </xsl:analyze-string>
                                     </xsl:non-matching-substring>
                                 </xsl:analyze-string>
                             </xsl:non-matching-substring>
