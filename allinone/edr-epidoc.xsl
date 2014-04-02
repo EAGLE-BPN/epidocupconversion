@@ -3,6 +3,7 @@
     version="2.0"  xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
     xmlns:tei="http://www.tei-c.org/ns/1.0" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="#all">
     

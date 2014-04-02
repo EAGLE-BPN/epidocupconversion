@@ -4,33 +4,33 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
     xmlns:tei="http://www.tei-c.org/ns/1.0" 
     xmlns="http://www.tei-c.org/ns/1.0" 
-    exclude-result-prefixes="tei rdf skos">
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    exclude-result-prefixes="tei rdf skos xsd">
     
-    <xsl:variable name="sections">
-        <xsl:analyze-string select="." regex="(&#12296;):(in latere intuentibus sinistro|in latere intuentibus dextro|in epystilio|in ipsa aedicula|in una linea|in parte aversa|in fgr.\s\w*\s*|in columna\s\w*\s*)(&#12297;)">
-            <xsl:matching-substring>
-                <xsl:sequence select="."/> 
-            </xsl:matching-substring>
-        </xsl:analyze-string>
-    </xsl:variable>
+
     
     <xsl:template name="edition">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
             <head>Text</head>
+            
             <xsl:choose>
-                <xsl:when test="contains(., $sections)">
-                    <xsl:for-each select="tokenize(., $sections)">
+                <xsl:when test="matches(., '(&#12296;):(in latere intuentibus sinistro|in latere intuentibus dextro|in epystilio|in ipsa aedicula|in una linea|in parte aversa|in fgr.\s\w*\s*|in columna\s\w*\s*)(&#12297;)')">
+                    <xsl:for-each select="tokenize(., '(&#12296;):(in latere intuentibus sinistro|in latere intuentibus dextro|in epystilio|in ipsa aedicula|in una linea|in parte aversa|in fgr.\s\w*\s*|in columna\s\w*\s*)(&#12297;)')">
+                       
                         <div n="{position()}" type="textpart">
-    <xsl:if test="not(position()=1)">
+                            <!--<xsl:if test="not(position()=1)">
         <xsl:attribute name="subtype">
-                <xsl:analyze-string select="$sections" regex="(\w+)">
+            <xsl:variable name="sections">
+                <xsl:analyze-string select="." regex="(&#12296;):(in latere intuentibus sinistro|in latere intuentibus dextro|in epystilio|in ipsa aedicula|in una linea|in parte aversa|in fgr.\s\w*\s*|in columna\s\w*\s*)(&#12297;)">
                     <xsl:matching-substring>
-                        <xsl:value-of select="."/>
+                        <xsl:sequence select="normalize-space(regex-group(2))"/> 
                     </xsl:matching-substring>
                 </xsl:analyze-string>
+            </xsl:variable>
+            <xsl:value-of select="$sections"/>
         </xsl:attribute>
-    </xsl:if>                           
+    </xsl:if>                -->           
                             <ab>
                                 <lb/>
                                 <xsl:variable name="brackets">

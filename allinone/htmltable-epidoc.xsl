@@ -32,7 +32,7 @@
             </titleStmt>  
             <publicationStmt>
                 <authority>UNIVERSITATEA BABES BOLYAI</authority>
-                <idno type="URI"><xsl:number count="//TR"/></idno>
+                <idno type="URI"><xsl:text>edh-www.adw.uni-heidelberg.de/edh/inschrift/UBB/Varga/</xsl:text><xsl:variable name="n"><xsl:number count="//TR"/></xsl:variable><xsl:value-of select="format-number(number($n),'000000')"/><xsl:text>.xml</xsl:text></idno>
                 <idno type="TM">www.trismegistos.org/text/</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
