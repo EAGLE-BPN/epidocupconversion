@@ -29,6 +29,7 @@ The xsl
 another xsl at the same time looks at the Target vocabularies in Tematres to populate with correct URIs the elements containing information about
 Type of Inscription
 Object Type
+Writing
 Material
 Decoration
 State of Preservation
