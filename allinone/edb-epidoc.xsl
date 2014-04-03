@@ -13,7 +13,7 @@
     </xsl:template>
     
     <!--  Create descriptive Title required from Europeana from Object Type and Inscription Type  -->
-    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/maketitle.xsl"/>
+<!--    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/maketitle.xsl"/>-->
         
 <!--  adds in specific elements a @ref with the corresponding url from the EAGLE Tematres Vocabularies -->
     <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/popwithvoc.xsl"/>

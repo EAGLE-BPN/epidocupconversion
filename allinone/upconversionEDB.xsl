@@ -445,7 +445,7 @@
                                                                   <xsl:non-matching-substring>
       <!--        ((abc))            -->
                                                                       <xsl:analyze-string select="."
-                                                                          regex="\(\((\w*\s*)*\)\)">
+                                                                          regex="\(\((\w*\s*\w*\s*\w*\s*)\)\)">
                                                                           <xsl:matching-substring>
                                                                               <g>
                                                                                       <xsl:value-of select="regex-group(1)"/>
