@@ -353,8 +353,7 @@
                                                                   <ex>
                                                                       <xsl:value-of select=" regex-group(2)"/>
                                                                   </ex>
-                                                                  <xsl:if test="regex-group(3)">  
-                                                                      <xsl:text> </xsl:text>                                                                
+                                                                  <xsl:if test="regex-group(3)">                                                    
                                                                     <abbr>
                                                                       <xsl:value-of select=" regex-group(3)"/>
                                                                   </abbr></xsl:if>
