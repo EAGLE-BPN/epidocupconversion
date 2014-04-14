@@ -201,6 +201,7 @@
 </xsl:if>
                                                                   
                                                               </expan>
+                                                              <xsl:text> </xsl:text>
                                                           </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
 <xsl:value-of select="."/>                                             
@@ -238,7 +239,8 @@
                                                                   </corr>
                                                                   <sic>
                                                                       <expan><abbr><xsl:value-of select="regex-group(1)"/></abbr>
-                                                                      <ex><xsl:value-of select="regex-group(2)"/></ex></expan>
+                                                                          <ex><xsl:value-of select="regex-group(2)"/></ex></expan>
+                                                                      <xsl:text> </xsl:text>
                                                                   </sic>
                                                               </choice>
                                                           </xsl:matching-substring>
@@ -394,6 +396,7 @@
                                                   </ex>
                                                   <xsl:value-of select=" regex-group(3)"/>
                                                   </expan>
+                                                      <xsl:text> </xsl:text>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
  <!-- only abbr -->
@@ -516,6 +519,7 @@
                                                                       </ex>
                                                                       <xsl:value-of select=" regex-group(5)"/>
                                                                   </expan>
+                                                                  <xsl:text> </xsl:text>
                                                               </xsl:matching-substring>
                                                               <xsl:non-matching-substring>
         <!--expan + abbr-->
@@ -531,6 +535,7 @@
                                                                               </ex>
                                                                               <xsl:value-of select=" regex-group(3)"/>
                                                                           </expan>
+                                                                          <xsl:text> </xsl:text>
                                                                       </xsl:matching-substring>
                                                                       <xsl:non-matching-substring>
 
