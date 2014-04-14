@@ -25,7 +25,7 @@
     <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/textstructure.xsl"/>
     
     <!--breaks brackets in unique meaning ones as much as possible preparing things for the next step-->
-    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/brackets.xsl"/>
+    <xsl:include href="https://raw.github.com/PietroLiuzzo/epidocupconversion/master/allinone/bracketsEDB.xsl"/>
 
 
 <!--  Takes all brackets sets and other diacritict and substitutes them with markup  -->
