@@ -268,6 +268,7 @@
                                                                   </supplied>
                                                                   
                                                               </expan>
+                                                              <xsl:text> </xsl:text>
                                                               <supplied reason="lost">
                                                                   <xsl:value-of select=" regex-group(6)"/>
                                                               </supplied>
@@ -292,7 +293,7 @@
                                                                           </supplied>
                                                                           <xsl:value-of select=" regex-group(5)"/>
                                                                       </expan>
-                                                                      
+                                                                      <xsl:text> </xsl:text>
                                                                   </xsl:matching-substring>
                                                                   <xsl:non-matching-substring>
                 <!--[P(ublio)] situation-->
@@ -309,6 +310,7 @@
                                                                                       </ex>
                                                                                   
                                                                               </expan>
+                                                                                  <xsl:text> </xsl:text>
                                                                               </supplied>
                                                                           </xsl:matching-substring>
                                                                           <xsl:non-matching-substring>
@@ -330,6 +332,7 @@
                                                                                   </ex>
                                                                                   <xsl:value-of select=" regex-group(5)"/>
                                                                               </expan>
+                                                                              <xsl:text> </xsl:text>
                                                                           </xsl:matching-substring>
                                                                           <xsl:non-matching-substring>
                                                                                       
@@ -361,6 +364,7 @@
                                                                       <xsl:value-of select=" regex-group(5)"/>
                                                                   </xsl:if>
                                                               </expan>
+                                                              <xsl:text> </xsl:text>
                                                           </xsl:matching-substring>
                                                                   <xsl:non-matching-substring>
                                                                       <xsl:value-of select="."/>
@@ -421,7 +425,9 @@
                                                                           <xsl:value-of select=" regex-group(4)"/>
                                                                       </abbr>
                                                                   </xsl:if>
-                                                              </expan></xsl:matching-substring>
+                                                              </expan>
+                                                              <xsl:text> </xsl:text>
+                                                          </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
 <!--(Luci) lib-->
                                                     <xsl:analyze-string select="."
