@@ -44,8 +44,8 @@
                                 <xsl:text>]</xsl:text>
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
-                                <!--    splits [ert 3] in [ert][3] -->
-                                <xsl:analyze-string select="." regex="\[([a-zA-Z]+)\s+(\d)\]">
+                                <!--    splits [ert gap] in [ert][gap] -->
+                                <xsl:analyze-string select="." regex="\[((.+)\s+)*(\-\s\-\s\-)\]">
                                     <xsl:matching-substring>
                                         <xsl:text>[</xsl:text>
                                         <xsl:value-of select="regex-group(1)"/>
