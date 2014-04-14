@@ -49,9 +49,7 @@
                                     <xsl:matching-substring>
                                         <xsl:text>[</xsl:text>
                                         <xsl:value-of select="regex-group(1)"/>
-                                        <xsl:text>][</xsl:text>
-                                        <xsl:value-of select="regex-group(2)"/>
-                                        <xsl:text>]</xsl:text>
+                                        <xsl:text>][3]</xsl:text>
                                     </xsl:matching-substring>
                                     <xsl:non-matching-substring>
           <!--  \-\s\-\s\-\s\-\s\-\s\- in [6]                          -->
