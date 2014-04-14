@@ -35,11 +35,9 @@
                     </xsl:matching-substring>
                     <xsl:non-matching-substring>
                         <!-- splits [3 ert] in [3][ert]-->
-                        <xsl:analyze-string select="." regex="\[(\d)\s+([a-zA-Z]+)\]">
+                        <xsl:analyze-string select="." regex="\[(\-\s\-\s\-)\s+([a-zA-Z]+)\]">
                             <xsl:matching-substring>
-                                <xsl:text>[</xsl:text>
-                                <xsl:value-of select="regex-group(1)"/>
-                                <xsl:text>][</xsl:text>
+                                <xsl:text>[3][</xsl:text>
                                 <xsl:value-of select="regex-group(2)"/>
                                 <xsl:text>]</xsl:text>
                             </xsl:matching-substring>
