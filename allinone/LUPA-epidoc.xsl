@@ -24,8 +24,12 @@ and insert it in a epidoc template compliant with EAGLE definition
  <xsl:template match="/">  
         
 
-         
-        <lupa>
+     <lupa>
+     <lupamonumentsonly>
+         <xsl:for-each select="//monument[not(inscription)]"><xsl:copy-of select="."/></xsl:for-each>
+     </lupamonumentsonly>
+     
+        <lupainscriptions>
             <xsl:for-each select="//monument[inscription]">
            
             <TEI xml:space="preserve" xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0">
@@ -277,7 +281,8 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
 
 
         </xsl:for-each>
-        </lupa>
+        </lupainscriptions>
+     </lupa>
     </xsl:template>
     
     
