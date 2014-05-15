@@ -11,32 +11,26 @@
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
     </xsl:template>
+<!--    https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/-->
     
     <!--  Create descriptive Title required from Europeana from Object Type and Inscription Type  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/maketitle.xsl"/>
+    <xsl:include href="maketitle.xsl"/>
         
 <!--  adds in specific elements a @ref with the corresponding url from the EAGLE Tematres Vocabularies -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/popwithvoc.xsl"/>
-    
-    <!--  adds in placName a @ref with the corresponding url from from TM GEO -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/tmgeo.xsl"/>
+    <xsl:include href="popwithvoc.xsl"/>
     
 <!--    breaks up sections and call templates to normalize ()[] and to convert in epidoc -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/textstructure.xsl"/>
+    <xsl:include href="textstructure.xsl"/>
     
     <!--breaks brackets in unique meaning ones as much as possible preparing things for the next step-->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/brackets.xsl"/>
+    <xsl:include href="brackets.xsl"/>
 
 
 <!--  Takes all brackets sets and other diacritict and substitutes them with markup  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/upconversion.xsl"/>    
+    <xsl:include href="upconversion.xsl"/>    
     
     <!--  adds numbers to the marked up text-->
     
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/insertnumbers.xsl"/>
-    
-<!-- remove attributes inherited from template which contain sample urls. to be used until those can be usefully populated  -->
-    
-    <!--   <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/cleaner.xsl"/>-->
+    <xsl:include href="insertnumbers.xsl"/>
     
 </xsl:stylesheet>

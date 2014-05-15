@@ -28,14 +28,14 @@
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:variable>
-            <xsl:variable name="voc_term">  <!---->       
-                <xsl:choose>                    <xsl:when test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+            <xsl:variable name="voc_term">  <!--https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/-->       
+                <xsl:choose>                    <xsl:when test="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
                     [contains(lower-case(.), lower-case($noquestion))]">
-                    <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+                    <xsl:value-of select="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
                         [contains(lower-case(.), lower-case($noquestion))]/parent::f:COL/preceding-sibling::f:COL/f:DATA"/>
                 </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
+                        <xsl:value-of select="document('TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
                             [contains(lower-case(.), lower-case($noquestion))]/ancestor::f:ROW/f:COL[1]/f:DATA"/></xsl:otherwise>
                     </xsl:choose></xsl:variable>
         <xsl:copy>
