@@ -60,24 +60,6 @@
                                                                 <gap reason="illegible" quantity="{string-length(regex-group(1))}" unit="character"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
-    <!--      gap unknown                               -->
-                                                                <xsl:analyze-string select="." regex="\[(3)\]">
-                                                                    <xsl:matching-substring>
-                                                                        <gap reason="lost" extent="unknown" unit="character"/>
-                                                                    </xsl:matching-substring>
-                                                                    <xsl:non-matching-substring>
-       <!--      gap 2 char                                  -->
-                                                                <xsl:analyze-string select="." regex="\[(2)\]">
-                                                                    <xsl:matching-substring>
-                                                                        <gap reason="lost" quantity="2" unit="character"/>
-                                                                    </xsl:matching-substring>
-                                                                    <xsl:non-matching-substring>
-      <!--      gap 1 char                                  -->
-                                                                        <xsl:analyze-string select="." regex="\[(2)\]">
-                                                                            <xsl:matching-substring>
-                                                                                <gap reason="lost" quantity="1" unit="character"/>
-                                                                            </xsl:matching-substring>
-                                                                            <xsl:non-matching-substring>
      <!--unclear &#803; -->
                                                 <xsl:analyze-string select="." regex="((\w&#803;)+)">
                                                     <xsl:matching-substring>
@@ -148,67 +130,417 @@
                                                   </del>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
-<!-- del and part suppl MAX THREE [[[DO NOT UNDERSTAND WHY...]]]-->
-                                                  <xsl:analyze-string select="."
-                                                  regex="\[\[(.*?)\[(.*?)\](.*?)(\[(.*?)\](.*?))?(\[(.*?)\](.*?))?\]\]">
-                                                  <xsl:matching-substring>
-                                                  <del rend="erasure">
-                                                  <xsl:value-of select="regex-group(1)"/>
-                                                  <supplied reason="lost">
-                                                  <xsl:value-of select="regex-group(2)"/>
-                                                  </supplied>
-                                                  <xsl:value-of select="regex-group(3)"/>
-                                                  <xsl:if test="regex-group(4)">
-                                                  <supplied reason="lost">
-                                                  <xsl:value-of select="regex-group(5)"/>
-                                                  </supplied>
-                                                  <xsl:value-of select="regex-group(6)"/>
-                                                  </xsl:if>
-                                                  <xsl:if test="regex-group(7)">
-                                                  <supplied reason="lost">
-                                                  <xsl:value-of select="regex-group(8)"/>
-                                                  </supplied>
-                                                  <xsl:value-of select="regex-group(9)"/>
-                                                  </xsl:if>
-                                                  </del>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
 <!--del-->
                                                   <xsl:analyze-string select="."
-                                                      regex="&#12314;(.*?)&#12315;">
+                                                  regex="\[\[(.*?)\]\]">
                                                   <xsl:matching-substring>
                                                   <del rend="erasure">
-                                                  <xsl:variable name="erased">
-                                                      <xsl:value-of select="regex-group(1)"/>
-                                                  </xsl:variable>
-                                                      <xsl:analyze-string select="$erased"
-                                                          regex="([A-Za-z]+)\(([A-Za-z]+)\)(\w)*(\((.*?)\))*">
+                                                      <xsl:analyze-string select="regex-group(1)" regex="\-\-\-|\[\-\-\-\]">    
                                                           <xsl:matching-substring>
-                                                              <expan>
-                                                                  <abbr>
-                                                                      <xsl:value-of select=" regex-group(1)"/>
-                                                                  </abbr>
-                                                                  <ex>
-                                                                      <xsl:value-of select=" regex-group(2)"/>
-                                                                  </ex>
-                                                                  <abbr>
-                                                                      <xsl:value-of select="regex-group(3)"/>
-                                                                  </abbr>
-                                                            <xsl:if test="regex-group(4)">   
-                                                                          <ex>
-                                                                              <xsl:value-of select="regex-group(5)"/>
-                                                                          </ex>
-</xsl:if>
-                                                                  
-                                                              </expan>
+                                                              <gap reason="lost" extent="unknown" unit="character"/>
+                                                              <!--                                                                                               it works in terms of search: it does not in terms of html transformation, cause it creates double breackets in the middle of a supplied...
+  this is probably something which would then need to be twicked by the start.edition stylesheets?
+  -->
                                                           </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
-<xsl:value-of select="."/>                                             
+                                                              <xsl:analyze-string select="." regex="\-|\[\-\]">    
+                                                                  <xsl:matching-substring>
+                                                                      <gap reason="lost" quantity="1" unit="character"/>
+                                                                  </xsl:matching-substring>
+                                                                  <xsl:non-matching-substring>
+                                                                      
+                                                                      
+                                                      <xsl:analyze-string select="."
+                                                          regex="\[(.*?)\]">
+                                                          <xsl:matching-substring>
+                                                              <supplied reason="lost">
+                                                                  <xsl:analyze-string select="regex-group(1)"
+                                                                      regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
+                                                                      <xsl:matching-substring>
+                                                                          <expan>
+                                                                              <abbr>
+                                                                                  <!--unclear &#803; -->
+                                                                                  <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                      <xsl:matching-substring>
+                                                                                          <unclear>
+                                                                                              <xsl:variable name="underdot">
+                                                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                                                              </xsl:variable>
+                                                                                              <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                  <xsl:non-matching-substring>     
+                                                                                                      <xsl:value-of select="."/>
+                                                                                                  </xsl:non-matching-substring>
+                                                                                              </xsl:analyze-string>
+                                                                                          </unclear>
+                                                                                      </xsl:matching-substring>
+                                                                                      <xsl:non-matching-substring>
+                                                                                          <xsl:value-of select="."/>
+                                                                                      </xsl:non-matching-substring>
+                                                                                  </xsl:analyze-string>
+                                                                              </abbr>
+                                                                              <ex>
+                                                                                      <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
+                                                                                          <xsl:matching-substring>
+                                                                                              <xsl:attribute name="cert">
+                                                                                                  <xsl:text>low</xsl:text>
+                                                                                              </xsl:attribute>                                                                                         
+                                                                                              <xsl:value-of select="regex-group(1)"/>
+                                                                                          </xsl:matching-substring>
+                                                                                          <xsl:non-matching-substring>
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                              </ex>
+                                                                              <abbr>
+                                                                                  <!--unclear &#803; -->
+                                                                                  <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                      <xsl:matching-substring>
+                                                                                          <unclear>
+                                                                                              <xsl:variable name="underdot">
+                                                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                                                              </xsl:variable>
+                                                                                              <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                  <xsl:non-matching-substring>     
+                                                                                                      <xsl:value-of select="."/>
+                                                                                                  </xsl:non-matching-substring>
+                                                                                              </xsl:analyze-string>
+                                                                                          </unclear>
+                                                                                      </xsl:matching-substring>
+                                                                                      <xsl:non-matching-substring>
+                                                                                          <xsl:value-of select="."/>
+                                                                                      </xsl:non-matching-substring>
+                                                                                  </xsl:analyze-string>
+                                                                              </abbr>
+                                                                              <ex>
+                                                                                      <xsl:analyze-string select="regex-group(4)" regex="(\w*?)\?">
+                                                                                          <xsl:matching-substring>
+                                                                                              <xsl:attribute name="cert">
+                                                                                                  <xsl:text>low</xsl:text>
+                                                                                              </xsl:attribute>                                                                                         
+                                                                                              <xsl:value-of select="regex-group(1)"/>
+                                                                                          </xsl:matching-substring>
+                                                                                          <xsl:non-matching-substring>
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                                  
+                                                                              </ex>
+                                                                              <xsl:value-of select=" regex-group(5)"/>
+                                                                          </expan>
+                                                                      </xsl:matching-substring>
+                                                                      <xsl:non-matching-substring>
+                                                                          <!--              expan + abbr + eventually ? in ex-->
+                                                                          <xsl:analyze-string select="."
+                                                                              regex="([A-Za-z0-9]+)\((.*?)\)([A-Za-z0-9]+)*">
+                                                                              <xsl:matching-substring>
+                                                                                  <expan>
+                                                                                      <abbr>
+                                                                                          <!--unclear &#803; -->
+                                                                                          <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                              <xsl:matching-substring>
+                                                                                                  <unclear>
+                                                                                                      <xsl:variable name="underdot">
+                                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                                      </xsl:variable>
+                                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                          <xsl:non-matching-substring>     
+                                                                                                              <xsl:value-of select="."/>
+                                                                                                          </xsl:non-matching-substring>
+                                                                                                      </xsl:analyze-string>
+                                                                                                  </unclear>
+                                                                                              </xsl:matching-substring>
+                                                                                              <xsl:non-matching-substring>
+                                                                                                  <xsl:value-of select="."/>
+                                                                                              </xsl:non-matching-substring>
+                                                                                          </xsl:analyze-string>
+                                                                                      </abbr>
+                                                                                      <ex>
+                                                                                          <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
+                                                                                              <xsl:matching-substring>
+                                                                                                  <xsl:attribute name="cert">
+                                                                                                      <xsl:text>low</xsl:text>
+                                                                                                  </xsl:attribute>                                                                                         
+                                                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                                                              </xsl:matching-substring>
+                                                                                              <xsl:non-matching-substring>
+                                                                                                  <xsl:value-of select="."/>
+                                                                                              </xsl:non-matching-substring>
+                                                                                          </xsl:analyze-string>
+                                                                                      </ex>
+                                                                                      <xsl:value-of select=" regex-group(3)"/>
+                                                                                  </expan>
+                                                                              </xsl:matching-substring>
+                                                                              <xsl:non-matching-substring>
+                                                                                  <!--unclear &#803; -->
+                                                                                  <xsl:analyze-string select="." regex="((\w&#803;)+)">
+                                                                                      <xsl:matching-substring>
+                                                                                          <unclear>
+                                                                                              <xsl:variable name="underdot">
+                                                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                                                              </xsl:variable>
+                                                                                              <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                  <xsl:non-matching-substring>     
+                                                                                                      <xsl:value-of select="."/>
+                                                                                                  </xsl:non-matching-substring>
+                                                                                              </xsl:analyze-string>
+                                                                                          </unclear>
+                                                                                      </xsl:matching-substring>
+                                                                                      <xsl:non-matching-substring>
+                                                                                  <xsl:analyze-string select="." regex="\-\-\-|\[\-\-\-\]">    
+                                                                                                                      <xsl:matching-substring>
+                                                                                                                          <gap reason="lost" extent="unknown" unit="character"/>
+                                                                                                                          <!--                                                                                               it works in terms of search: it does not in terms of html transformation, cause it creates double breackets in the middle of a supplied...
+  this is probably something which would then need to be twicked by the start.edition stylesheets?
+  -->
+                                                                                                                      </xsl:matching-substring>
+                                                                                                                      <xsl:non-matching-substring>
+                                                                                                                          <xsl:analyze-string select="." regex="\-|\[\-\]">    
+                                                                                                                              <xsl:matching-substring>
+                                                                                                                                  <gap reason="lost" quantity="1" unit="character"/>
+                                                                                                                              </xsl:matching-substring>
+                                                                                                                              <xsl:non-matching-substring>
+                                                                                                                          <xsl:analyze-string select="." regex="((\w+)\?)">
+                                                                                                                              <xsl:matching-substring>
+                                                                                                                                  <xsl:value-of select="regex-group(2)"/>
+                                                                                                                                  <certainty locus="name" match="preceding-sibling::text()" cert="low"/>
+                                                                                                                                  <!--                            not sure this is actually fine.           
+                                                                               needs to be handled by start edition stylesheets                      -->
+                                                                                                                              </xsl:matching-substring>
+                                                                                                                              <xsl:non-matching-substring>
+                                                                                                                                  <xsl:value-of select="."/>
+                                                                                                                      </xsl:non-matching-substring>
+                                                                                                  </xsl:analyze-string>
+                                                                                              </xsl:non-matching-substring>
+                                                                                          </xsl:analyze-string>
+                                                                                        </xsl:non-matching-substring>
+                                                                                  </xsl:analyze-string>    
+                                                                                      </xsl:non-matching-substring>
+                                                                                  </xsl:analyze-string>                                                                                           
+                                                                              </xsl:non-matching-substring>
+                                                                          </xsl:analyze-string>                                                                                                  
+                                                                      </xsl:non-matching-substring>
+                                                                  </xsl:analyze-string>
+                                                              </supplied>
+                                                          </xsl:matching-substring>
+                                                          <xsl:non-matching-substring>
+                                                              <xsl:analyze-string select="."
+                                                                  regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
+                                                                  <xsl:matching-substring>
+                                                                      <expan>
+                                                                          <abbr>
+                                                                              <!--unclear &#803; -->
+                                                                              <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                  <xsl:matching-substring>
+                                                                                      <unclear>
+                                                                                          <xsl:variable name="underdot">
+                                                                                              <xsl:value-of select="regex-group(1)"/>
+                                                                                          </xsl:variable>
+                                                                                          <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                              <xsl:non-matching-substring>     
+                                                                                                  <xsl:value-of select="."/>
+                                                                                              </xsl:non-matching-substring>
+                                                                                          </xsl:analyze-string>
+                                                                                      </unclear>
+                                                                                  </xsl:matching-substring>
+                                                                                  <xsl:non-matching-substring>
+                                                                                      <xsl:value-of select="."/>
+                                                                                  </xsl:non-matching-substring>
+                                                                              </xsl:analyze-string>
+                                                                          </abbr>
+                                                                          <ex>
+                                                                              <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
+                                                                                  <xsl:matching-substring>
+                                                                                      <xsl:attribute name="cert">
+                                                                                          <xsl:text>low</xsl:text>
+                                                                                      </xsl:attribute>                                                                                         
+                                                                                      <xsl:value-of select="regex-group(1)"/>
+                                                                                  </xsl:matching-substring>
+                                                                                  <xsl:non-matching-substring>
+                                                                                      <xsl:value-of select="."/>
+                                                                                  </xsl:non-matching-substring>
+                                                                              </xsl:analyze-string>
+                                                                              
+                                                                          </ex>
+                                                                          <abbr>
+                                                                              <!--unclear &#803; -->
+                                                                              <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                  <xsl:matching-substring>
+                                                                                      <unclear>
+                                                                                          <xsl:variable name="underdot">
+                                                                                              <xsl:value-of select="regex-group(1)"/>
+                                                                                          </xsl:variable>
+                                                                                          <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                              <xsl:non-matching-substring>     
+                                                                                                  <xsl:value-of select="."/>
+                                                                                              </xsl:non-matching-substring>
+                                                                                          </xsl:analyze-string>
+                                                                                      </unclear>
+                                                                                  </xsl:matching-substring>
+                                                                                  <xsl:non-matching-substring>
+                                                                                      <xsl:value-of select="."/>
+                                                                                  </xsl:non-matching-substring>
+                                                                              </xsl:analyze-string>
+                                                                          </abbr>
+                                                                          <ex>
+                                                                              <xsl:analyze-string select="regex-group(4)" regex="(\w*?)\?">
+                                                                                  <xsl:matching-substring>
+                                                                                      <xsl:attribute name="cert">
+                                                                                          <xsl:text>low</xsl:text>
+                                                                                      </xsl:attribute>                                                                                         
+                                                                                      <xsl:value-of select="regex-group(1)"/>
+                                                                                  </xsl:matching-substring>
+                                                                                  <xsl:non-matching-substring>
+                                                                                      <xsl:value-of select="."/>
+                                                                                  </xsl:non-matching-substring>
+                                                                              </xsl:analyze-string>
+                                                                              
+                                                                          </ex>
+                                                                          <xsl:value-of select=" regex-group(5)"/>
+                                                                      </expan>
+                                                                  </xsl:matching-substring>
+                                                                  <xsl:non-matching-substring>
+                                                                      <!--              expan + abbr + eventually ? in ex-->
+                                                                      <xsl:analyze-string select="."
+                                                                          regex="([A-Za-z0-9]+)\((.*?)\)([A-Za-z0-9]+)*">
+                                                                          <xsl:matching-substring>
+                                                                              <expan>
+                                                                                  <abbr>
+                                                                                      <!--unclear &#803; -->
+                                                                                      <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                          <xsl:matching-substring>
+                                                                                              <unclear>
+                                                                                                  <xsl:variable name="underdot">
+                                                                                                      <xsl:value-of select="regex-group(1)"/>
+                                                                                                  </xsl:variable>
+                                                                                                  <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                      <xsl:non-matching-substring>     
+                                                                                                          <xsl:value-of select="."/>
+                                                                                                      </xsl:non-matching-substring>
+                                                                                                  </xsl:analyze-string>
+                                                                                              </unclear>
+                                                                                          </xsl:matching-substring>
+                                                                                          <xsl:non-matching-substring>
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                                  </abbr>
+                                                                                  <ex>
+                                                                                      <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
+                                                                                          <xsl:matching-substring>
+                                                                                              <xsl:attribute name="cert">
+                                                                                                  <xsl:text>low</xsl:text>
+                                                                                              </xsl:attribute>                                                                                         
+                                                                                              <xsl:value-of select="regex-group(1)"/>
+                                                                                          </xsl:matching-substring>
+                                                                                          <xsl:non-matching-substring>
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                                  </ex>
+                                                                                  <xsl:value-of select=" regex-group(3)"/>
+                                                                              </expan>
+                                                                          </xsl:matching-substring>
+                                                                          <xsl:non-matching-substring>
+                                                                              <!--|(centuria)-->
+                                                                              <xsl:analyze-string select="."
+                                                                                  regex="\|\(centuria\)">
+                                                                                  <xsl:matching-substring>
+                                                                                      <expan>
+                                                                                          <abbr>
+                                                                                              <am>
+                                                                                                  <g type="centuria"/>
+                                                                                              </am>
+                                                                                          </abbr>
+                                                                                          <ex>
+                                                                                              <xsl:text>centuria</xsl:text>
+                                                                                          </ex>
+                                                                                      </expan>
+                                                                                  </xsl:matching-substring>
+                                                                                  <xsl:non-matching-substring>
+                                                                                      <!--@(obitus)         -->
+                                                                                      <xsl:analyze-string select="."
+                                                                                          regex="(@)\(obitus\)">
+                                                                                          <xsl:matching-substring>
+                                                                                              <expan>
+                                                                                                  <abbr>
+                                                                                                      <am>
+                                                                                                          <g type="obitus"/>
+                                                                                                      </am>
+                                                                                                  </abbr>
+                                                                                                  <ex>
+                                                                                                      <xsl:text>obitus</xsl:text>
+                                                                                                  </ex>
+                                                                                              </expan>
+                                                                                          </xsl:matching-substring>
+                                                                                          <xsl:non-matching-substring>
+                                                                                              <!--(Luci) lib-->
+                                                                                              <xsl:analyze-string select="."
+                                                                                                  regex="\|\(([A-Za-z0-9]+)\)\s(lib)">
+                                                                                                  <xsl:matching-substring>
+                                                                                                      <expan>
+                                                                                                          <abbr>
+                                                                                                              <am>
+                                                                                                                  <g type="solidus"/>
+                                                                                                              </am>
+                                                                                                          </abbr>
+                                                                                                          <ex>
+                                                                                                              <xsl:value-of select=" regex-group(1)"/>
+                                                                                                          </ex>
+                                                                                                      </expan>
+                                                                                                      <xsl:text> </xsl:text>
+                                                                                                      <abbr><xsl:text>lib</xsl:text></abbr>
+                                                                                                  </xsl:matching-substring>
+                                                                                                  <xsl:non-matching-substring>
+                                                                                                      <!--       W(mulieris)           -->
+                                                                                                      <xsl:analyze-string select="."
+                                                                                                          regex="((W)\(mulieris\))">
+                                                                                                          <xsl:matching-substring>
+                                                                                                              <expan>
+                                                                                                                  <abbr>
+                                                                                                                      <am>
+                                                                                                                          <g type="mulieris"/>
+                                                                                                                      </am>
+                                                                                                                  </abbr>
+                                                                                                                  <ex>
+                                                                                                                      <xsl:text>mulieris</xsl:text>
+                                                                                                                  </ex>
+                                                                                                              </expan>
+                                                                                                          </xsl:matching-substring>
+                                                                                                          <xsl:non-matching-substring>
+                                                                                                                      <xsl:analyze-string select="." regex="((\w+)\?)">
+                                                                                                                          <xsl:matching-substring>
+                                                                                                                              <xsl:value-of select="regex-group(2)"/>
+                                                                                                                              <certainty locus="name" match="preceding-sibling::text()" cert="low"/>
+                                                                                                                              <!--                            not sure this is actually fine.           
+                                                                               needs to be handled by start edition stylesheets                      -->
+                                                                                                                          </xsl:matching-substring>
+                                                                                                                          <xsl:non-matching-substring>
+                                                                                                                              <xsl:value-of select="."/>
+                                                                                                                          </xsl:non-matching-substring>
+                                                                                                                      </xsl:analyze-string>
+                                                                                                                          </xsl:non-matching-substring>
+                                                                                                                      </xsl:analyze-string>
+                                                                                                                  </xsl:non-matching-substring>
+                                                                                                              </xsl:analyze-string>
+                                                                                                          </xsl:non-matching-substring>
+                                                                                                      </xsl:analyze-string>
+                                                                                                  </xsl:non-matching-substring>
+                                                                                              </xsl:analyze-string>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                                  </xsl:non-matching-substring>
+                                                                              </xsl:analyze-string>                                                                                           
+                                                                          </xsl:non-matching-substring>
+                                                                      </xsl:analyze-string>                                                                                                  
+                                                                  </xsl:non-matching-substring>
+                                                              </xsl:analyze-string>
+                                                              
                                                           </xsl:non-matching-substring>
                                                       </xsl:analyze-string>
                                                   </del>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
+
 <!-- suppl cert low internal [bene?]-->
              <!--WORKS ONLY FOR ONE-->
                                                   <xsl:analyze-string select="." regex="(\[(.*?)\?\])">
@@ -237,7 +569,26 @@
                                                                       <xsl:value-of select="regex-group(4)"/>
                                                                   </corr>
                                                                   <sic>
-                                                                      <expan><abbr><xsl:value-of select="regex-group(1)"/></abbr>
+                                                                      <expan><abbr>
+                                                                          <!--unclear &#803; -->
+                                                                          <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                              <xsl:matching-substring>
+                                                                                  <unclear>
+                                                                                      <xsl:variable name="underdot">
+                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                      </xsl:variable>
+                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                          <xsl:non-matching-substring>     
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                                  </unclear>
+                                                                              </xsl:matching-substring>
+                                                                              <xsl:non-matching-substring>
+                                                                                  <xsl:value-of select="."/>
+                                                                              </xsl:non-matching-substring>
+                                                                          </xsl:analyze-string>
+                                                                      </abbr>
                                                                       <ex><xsl:value-of select="regex-group(2)"/></ex></expan>
                                                                   </sic>
                                                               </choice>
@@ -250,11 +601,49 @@
                                                               <expan>
                                                                   
                                                                   <abbr>
-                                                                      <xsl:value-of select=" regex-group(1)"/>
+                                                                      <abbr>
+                                                                          <!--unclear &#803; -->
+                                                                          <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                              <xsl:matching-substring>
+                                                                                  <unclear>
+                                                                                      <xsl:variable name="underdot">
+                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                      </xsl:variable>
+                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                          <xsl:non-matching-substring>     
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                                  </unclear>
+                                                                              </xsl:matching-substring>
+                                                                              <xsl:non-matching-substring>
+                                                                                  <xsl:value-of select="."/>
+                                                                              </xsl:non-matching-substring>
+                                                                          </xsl:analyze-string>
+                                                                      </abbr>
                                                                       <supplied reason="lost">
                                                                           <xsl:value-of select=" regex-group(2)"/>
                                                                       </supplied>
-                                                                      <xsl:value-of select=" regex-group(3)"/>
+                                                                      <abbr>
+                                                                          <!--unclear &#803; -->
+                                                                          <xsl:analyze-string select="regex-group(3)" regex="((\w&#803;)+)">
+                                                                              <xsl:matching-substring>
+                                                                                  <unclear>
+                                                                                      <xsl:variable name="underdot">
+                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                      </xsl:variable>
+                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                          <xsl:non-matching-substring>     
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                                  </unclear>
+                                                                              </xsl:matching-substring>
+                                                                              <xsl:non-matching-substring>
+                                                                                  <xsl:value-of select="."/>
+                                                                              </xsl:non-matching-substring>
+                                                                          </xsl:analyze-string>
+                                                                      </abbr>
                                                                       <supplied reason="lost">    
                                                                           
                                                                           <xsl:value-of select=" regex-group(4)"/>
@@ -280,7 +669,26 @@
                                                                       <expan>
                                                                           
                                                                           <abbr>
-                                                                              <xsl:value-of select=" regex-group(1)"/>
+                                                                              <abbr>
+                                                                                  <!--unclear &#803; -->
+                                                                                  <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                      <xsl:matching-substring>
+                                                                                          <unclear>
+                                                                                              <xsl:variable name="underdot">
+                                                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                                                              </xsl:variable>
+                                                                                              <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                  <xsl:non-matching-substring>     
+                                                                                                      <xsl:value-of select="."/>
+                                                                                                  </xsl:non-matching-substring>
+                                                                                              </xsl:analyze-string>
+                                                                                          </unclear>
+                                                                                      </xsl:matching-substring>
+                                                                                      <xsl:non-matching-substring>
+                                                                                          <xsl:value-of select="."/>
+                                                                                      </xsl:non-matching-substring>
+                                                                                  </xsl:analyze-string>
+                                                                              </abbr>
                                                                               <supplied reason="lost">
                                                                                   <xsl:value-of select=" regex-group(3)"/>
                                                                               </supplied>
@@ -301,8 +709,24 @@
                                                                               <supplied reason="lost">
                                                                               <expan>
                                                                                   <abbr>
-                                                                                           <xsl:value-of select=" regex-group(1)"/>
-                                                                                     
+                                                                                      <!--unclear &#803; -->
+                                                                                      <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                          <xsl:matching-substring>
+                                                                                              <unclear>
+                                                                                                  <xsl:variable name="underdot">
+                                                                                                      <xsl:value-of select="regex-group(1)"/>
+                                                                                                  </xsl:variable>
+                                                                                                  <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                      <xsl:non-matching-substring>     
+                                                                                                          <xsl:value-of select="."/>
+                                                                                                      </xsl:non-matching-substring>
+                                                                                                  </xsl:analyze-string>
+                                                                                              </unclear>
+                                                                                          </xsl:matching-substring>
+                                                                                          <xsl:non-matching-substring>
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
                                                                                   </abbr>
                                                                                       <ex>
                                                                                           <xsl:value-of select=" regex-group(2)"/>
@@ -319,12 +743,49 @@
                                                                           <xsl:matching-substring>
                                                                               <expan>
                                                                                   <abbr>
-                                                                                      <xsl:value-of select=" regex-group(1)"/>
+                                                                                      <abbr>
+                                                                                          <!--unclear &#803; -->
+                                                                                          <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                              <xsl:matching-substring>
+                                                                                                  <unclear>
+                                                                                                      <xsl:variable name="underdot">
+                                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                                      </xsl:variable>
+                                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                          <xsl:non-matching-substring>     
+                                                                                                              <xsl:value-of select="."/>
+                                                                                                          </xsl:non-matching-substring>
+                                                                                                      </xsl:analyze-string>
+                                                                                                  </unclear>
+                                                                                              </xsl:matching-substring>
+                                                                                              <xsl:non-matching-substring>
+                                                                                                  <xsl:value-of select="."/>
+                                                                                              </xsl:non-matching-substring>
+                                                                                          </xsl:analyze-string>
+                                                                                      </abbr>
                                                                                       <supplied reason="lost">
                                                                                           <xsl:value-of select=" regex-group(2)"/>
                                                                                       </supplied>
-                                                                                      <xsl:value-of select=" regex-group(3)"/>
-                                                                                  </abbr>
+                                                                                      
+                                                                                          <!--unclear &#803; -->
+                                                                                          <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                              <xsl:matching-substring>
+                                                                                                  <unclear>
+                                                                                                      <xsl:variable name="underdot">
+                                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                                      </xsl:variable>
+                                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                          <xsl:non-matching-substring>     
+                                                                                                              <xsl:value-of select="."/>
+                                                                                                          </xsl:non-matching-substring>
+                                                                                                      </xsl:analyze-string>
+                                                                                                  </unclear>
+                                                                                              </xsl:matching-substring>
+                                                                                              <xsl:non-matching-substring>
+                                                                                                  <xsl:value-of select="."/>
+                                                                                              </xsl:non-matching-substring>
+                                                                                          </xsl:analyze-string>
+                                                                                      </abbr>
                                                                                   <ex>
                                                                                       <xsl:value-of select=" regex-group(4)"/>
                                                                                   </ex>
@@ -332,44 +793,257 @@
                                                                               </expan>
                                                                           </xsl:matching-substring>
                                                                           <xsl:non-matching-substring>
-                                                                                      
-<!--suppl + co(n)s(ul) abbr inside it-->
-                                                  <xsl:analyze-string select="." regex="\[(.*?)\]">
-                                                  <xsl:matching-substring>
-                                                  <supplied reason="lost">
-                                                <xsl:variable name="supplied"><xsl:value-of select="regex-group(1)"/></xsl:variable>
-                                                      <xsl:analyze-string select="$supplied"
-                                                          regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)\s*([A-Za-z0-9]+)\(*([A-Za-z0-9]*)\)*([A-Za-z0-9]*)">
+         <!--      gap unknown                               -->
+                                                                              <xsl:analyze-string select="." regex="\[(3)\]|\[\-\-\-\]">
                                                           <xsl:matching-substring>
-                                                              <expan>
-                                                                  <abbr>
-                                                                      <xsl:value-of select=" regex-group(1)"/>
-                                                                  </abbr>
-                                                                  <ex>
-                                                                      <xsl:value-of select=" regex-group(2)"/>
-                                                                  </ex>
-                                                                        <xsl:if test="regex-group(3)">                                                                  
-                                                                    <abbr>
-                                                                      <xsl:value-of select=" regex-group(3)"/>
-                                                                  </abbr></xsl:if>
-                                                                 <xsl:if test="regex-group(4)"> 
-                                                                     <ex>
-                                                                      <xsl:value-of select=" regex-group(4)"/>
-                                                                  </ex>
-                                                                 </xsl:if>
-                                                                  <xsl:if test="regex-group(5)">
-                                                                      <xsl:value-of select=" regex-group(5)"/>
-                                                                  </xsl:if>
-                                                              </expan>
+                                                              <gap reason="lost" extent="unknown" unit="character"/>
                                                           </xsl:matching-substring>
+                                                          <xsl:non-matching-substring>
+      <!--      gap 2 char                                  -->
+                                                              <xsl:analyze-string select="." regex="\[(2)\]">
+                                                                  <xsl:matching-substring>
+                                                                      <gap reason="lost" quantity="2" unit="character"/>
+                                                                  </xsl:matching-substring>
                                                                   <xsl:non-matching-substring>
-                                                                      <xsl:value-of select="."/>
-                                                                  </xsl:non-matching-substring>
-                                                      </xsl:analyze-string>
-
-                                                  </supplied>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
+        <!--      gap 1 char                                  -->
+                                                                      <xsl:analyze-string select="." regex="\[(2)\]">
+                                                                          <xsl:matching-substring>
+                                                                              <gap reason="lost" quantity="1" unit="character"/>
+                                                                          </xsl:matching-substring>
+                                                                          <xsl:non-matching-substring>
+                                                                              
+        <!--suppl-->
+                                                                              <xsl:analyze-string select="."
+                                                                                  regex="\[(.*?)\]">
+                                                                                  <xsl:matching-substring>
+                                                                                      <supplied reason="lost">
+                                                                                          <xsl:analyze-string select="regex-group(1)"
+                                                                                              regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
+                                                                                              <xsl:matching-substring>
+                                                                                                  <expan>
+                                                                                                      <abbr>
+                                                                                                          <!--unclear &#803; -->
+                                                                                                          <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                                              <xsl:matching-substring>
+                                                                                                                  <unclear>
+                                                                                                                      <xsl:variable name="underdot">
+                                                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                                                      </xsl:variable>
+                                                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                                          <xsl:non-matching-substring>     
+                                                                                                                              <xsl:value-of select="."/>
+                                                                                                                          </xsl:non-matching-substring>
+                                                                                                                      </xsl:analyze-string>
+                                                                                                                  </unclear>
+                                                                                                              </xsl:matching-substring>
+                                                                                                              <xsl:non-matching-substring>
+                                                                                                                  <xsl:value-of select="."/>
+                                                                                                              </xsl:non-matching-substring>
+                                                                                                          </xsl:analyze-string>
+                                                                                                      </abbr>
+                                                                                                      <ex>
+                                                                                                          <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
+                                                                                                              <xsl:matching-substring>
+                                                                                                                  <xsl:attribute name="cert">
+                                                                                                                      <xsl:text>low</xsl:text>
+                                                                                                                  </xsl:attribute>                                                                                         
+                                                                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                                                                              </xsl:matching-substring>
+                                                                                                              <xsl:non-matching-substring>
+                                                                                                                  <xsl:value-of select="."/>
+                                                                                                              </xsl:non-matching-substring>
+                                                                                                          </xsl:analyze-string>
+                                                                                                      </ex>
+                                                                                                      <abbr>
+                                                                                                          <!--unclear &#803; -->
+                                                                                                          <xsl:analyze-string select="regex-group(3)" regex="((\w&#803;)+)">
+                                                                                                              <xsl:matching-substring>
+                                                                                                                  <unclear>
+                                                                                                                      <xsl:variable name="underdot">
+                                                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                                                      </xsl:variable>
+                                                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                                          <xsl:non-matching-substring>     
+                                                                                                                              <xsl:value-of select="."/>
+                                                                                                                          </xsl:non-matching-substring>
+                                                                                                                      </xsl:analyze-string>
+                                                                                                                  </unclear>
+                                                                                                              </xsl:matching-substring>
+                                                                                                              <xsl:non-matching-substring>
+                                                                                                                  <xsl:value-of select="."/>
+                                                                                                              </xsl:non-matching-substring>
+                                                                                                          </xsl:analyze-string>
+                                                                                                      </abbr>
+                                                                                                      <ex>
+                                                                                                          <xsl:analyze-string select="regex-group(4)" regex="(\w*?)\?">
+                                                                                                              <xsl:matching-substring>
+                                                                                                                  <xsl:attribute name="cert">
+                                                                                                                      <xsl:text>low</xsl:text>
+                                                                                                                  </xsl:attribute>                                                                                         
+                                                                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                                                                              </xsl:matching-substring>
+                                                                                                              <xsl:non-matching-substring>
+                                                                                                                  <xsl:value-of select="."/>
+                                                                                                              </xsl:non-matching-substring>
+                                                                                                          </xsl:analyze-string>
+                                                                                                      </ex>
+                                                                                                      <xsl:value-of select=" regex-group(5)"/>
+                                                                                                  </expan>
+                                                                                              </xsl:matching-substring>
+                                                                                              <xsl:non-matching-substring>
+                                                                                                  <!--              expan + abbr + eventually ? in ex-->
+                                                                                                  <xsl:analyze-string select="."
+                                                                                                      regex="([A-Za-z0-9]+)\((.*?)\)([A-Za-z0-9]+)*">
+                                                                                                      <xsl:matching-substring>
+                                                                                                          <expan>
+                                                                                                              <abbr>
+                                                                                                                  <!--unclear &#803; -->
+                                                                                                                  <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                                                      <xsl:matching-substring>
+                                                                                                                          <unclear>
+                                                                                                                              <xsl:variable name="underdot">
+                                                                                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                                                                                              </xsl:variable>
+                                                                                                                              <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                                                  <xsl:non-matching-substring>     
+                                                                                                                                      <xsl:value-of select="."/>
+                                                                                                                                  </xsl:non-matching-substring>
+                                                                                                                              </xsl:analyze-string>
+                                                                                                                          </unclear>
+                                                                                                                      </xsl:matching-substring>
+                                                                                                                      <xsl:non-matching-substring>
+                                                                                                                          <xsl:value-of select="."/>
+                                                                                                                      </xsl:non-matching-substring>
+                                                                                                                  </xsl:analyze-string>
+                                                                                                              </abbr>
+                                                                                                              <ex>
+                                                                                                                  <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
+                                                                                                                      <xsl:matching-substring>
+                                                                                                                          <xsl:attribute name="cert">
+                                                                                                                              <xsl:text>low</xsl:text>
+                                                                                                                          </xsl:attribute>                                                                                         
+                                                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                                                      </xsl:matching-substring>
+                                                                                                                      <xsl:non-matching-substring>
+                                                                                                                          <xsl:value-of select="."/>
+                                                                                                                      </xsl:non-matching-substring>
+                                                                                                                  </xsl:analyze-string>
+                                                                                                              </ex>
+                                                                                                              <xsl:value-of select=" regex-group(3)"/>
+                                                                                                          </expan>
+                                                                                                      </xsl:matching-substring>
+                                                                                                      <xsl:non-matching-substring>
+                                                                                                          <!--|(centuria)-->
+                                                                                                          <xsl:analyze-string select="."
+                                                                                                              regex="\|\(centuria\)">
+                                                                                                              <xsl:matching-substring>
+                                                                                                                  <expan>
+                                                                                                                      <abbr>
+                                                                                                                          <am>
+                                                                                                                              <g type="centuria"/>
+                                                                                                                          </am>
+                                                                                                                      </abbr>
+                                                                                                                      <ex>
+                                                                                                                          <xsl:text>centuria</xsl:text>
+                                                                                                                      </ex>
+                                                                                                                  </expan>
+                                                                                                              </xsl:matching-substring>
+                                                                                                              <xsl:non-matching-substring>
+                                                                                                                  <!--@(obitus)         -->
+                                                                                                                  <xsl:analyze-string select="."
+                                                                                                                      regex="(@)\(obitus\)">
+                                                                                                                      <xsl:matching-substring>
+                                                                                                                          <expan>
+                                                                                                                              <abbr>
+                                                                                                                                  <am>
+                                                                                                                                      <g type="obitus"/>
+                                                                                                                                  </am>
+                                                                                                                              </abbr>
+                                                                                                                              <ex>
+                                                                                                                                  <xsl:text>obitus</xsl:text>
+                                                                                                                              </ex>
+                                                                                                                          </expan>
+                                                                                                                      </xsl:matching-substring>
+                                                                                                                      <xsl:non-matching-substring>
+                                                                                                                          <!--(Luci) lib-->
+                                                                                                                          <xsl:analyze-string select="."
+                                                                                                                              regex="\|\(([A-Za-z0-9]+)\)\s(lib)">
+                                                                                                                              <xsl:matching-substring>
+                                                                                                                                  <expan>
+                                                                                                                                      <abbr>
+                                                                                                                                          <am>
+                                                                                                                                              <g type="solidus"/>
+                                                                                                                                          </am>
+                                                                                                                                      </abbr>
+                                                                                                                                      <ex>
+                                                                                                                                          <xsl:value-of select=" regex-group(1)"/>
+                                                                                                                                      </ex>
+                                                                                                                                  </expan>
+                                                                                                                                  <xsl:text> </xsl:text>
+                                                                                                                                  <abbr><xsl:text>lib</xsl:text></abbr>
+                                                                                                                              </xsl:matching-substring>
+                                                                                                                              <xsl:non-matching-substring>
+                                                                                                                                  <!--       W(mulieris)           -->
+                                                                                                                                  <xsl:analyze-string select="."
+                                                                                                                                      regex="((W)\(mulieris\))">
+                                                                                                                                      <xsl:matching-substring>
+                                                                                                                                          <expan>
+                                                                                                                                              <abbr>
+                                                                                                                                                  <am>
+                                                                                                                                                      <g type="mulieris"/>
+                                                                                                                                                  </am>
+                                                                                                                                              </abbr>
+                                                                                                                                              <ex>
+                                                                                                                                                  <xsl:text>mulieris</xsl:text>
+                                                                                                                                              </ex>
+                                                                                                                                          </expan>
+                                                                                                                                      </xsl:matching-substring>
+                                                                                                                                      <xsl:non-matching-substring>
+                                                                                                                                          <xsl:analyze-string select="." regex="\-\-\-">    
+                                                                                                                                              <xsl:matching-substring>
+                                                                                                                                                  <gap reason="lost" extent="unknown" unit="character"/>
+                                                                                                                                                  <!--                                                                                               it works in terms of search: it does not in terms of html transformation, cause it creates double breackets in the middle of a supplied...
+  this is probably something which would then need to be twicked by the start.edition stylesheets?
+  -->
+                                                                                                                                              </xsl:matching-substring>
+                                                                                                                                              <xsl:non-matching-substring>
+                                                                                                                                                  <xsl:analyze-string select="." regex="\-">    
+                                                                                                                                                      <xsl:matching-substring>
+                                                                                                                                                          <gap reason="lost" quantity="1" unit="character"/>
+                                                                                                                                                      </xsl:matching-substring>
+                                                                                                                                                      <xsl:non-matching-substring>
+                                                                                                                                                          <xsl:analyze-string select="." regex="((\w+)\?)">
+                                                                                                                                                              <xsl:matching-substring>
+                                                                                                                                                                  <xsl:value-of select="regex-group(2)"/>
+                                                                                                                                                                  <certainty locus="name" match="preceding-sibling::text()" cert="low"/>
+                                                                                                                                                                  <!--                            not sure this is actually fine.           
+                                                                               needs to be handled by start edition stylesheets                      -->
+                                                                                                                                                              </xsl:matching-substring>
+                                                                                                                                                              <xsl:non-matching-substring>
+                                                                                                                                                                  <xsl:value-of select="."/>
+                                                                                                                                                              </xsl:non-matching-substring>
+                                                                                                                                                          </xsl:analyze-string> 
+                                                                                                                                                          
+                                                                                                                                                      </xsl:non-matching-substring>
+                                                                                                                                                  </xsl:analyze-string> 
+                                                                                                                                              </xsl:non-matching-substring>
+                                                                                                                                          </xsl:analyze-string>
+                                                                                                                                      </xsl:non-matching-substring>
+                                                                                                                                  </xsl:analyze-string>
+                                                                                                                              </xsl:non-matching-substring>
+                                                                                                                          </xsl:analyze-string>
+                                                                                                                      </xsl:non-matching-substring>
+                                                                                                                  </xsl:analyze-string>
+                                                                                                              </xsl:non-matching-substring>
+                                                                                                          </xsl:analyze-string>                                                                                           
+                                                                                                      </xsl:non-matching-substring>
+                                                                                                  </xsl:analyze-string>                                                                                                  
+                                                                                              </xsl:non-matching-substring>
+                                                                                          </xsl:analyze-string>
+                                                                                      </supplied>
+                                                                                  </xsl:matching-substring>
+                                                                                  <xsl:non-matching-substring>                                                                
+                                                                                      
  <!-- (sic) -->
                                                   <xsl:analyze-string select="." regex="\((!)\)">
                                                   <xsl:matching-substring>
@@ -382,9 +1056,26 @@
                                                   regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\?\)([A-Za-z0-9]+)*">
                                                   <xsl:matching-substring>
                                                   <expan>
-                                                  <abbr>
-                                                  <xsl:value-of select=" regex-group(1)"/>
-                                                  </abbr>
+                                                      <abbr>
+                                                          <!--unclear &#803; -->
+                                                          <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                              <xsl:matching-substring>
+                                                                  <unclear>
+                                                                      <xsl:variable name="underdot">
+                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                      </xsl:variable>
+                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                          <xsl:non-matching-substring>     
+                                                                              <xsl:value-of select="."/>
+                                                                          </xsl:non-matching-substring>
+                                                                      </xsl:analyze-string>
+                                                                  </unclear>
+                                                              </xsl:matching-substring>
+                                                              <xsl:non-matching-substring>
+                                                                  <xsl:value-of select="."/>
+                                                              </xsl:non-matching-substring>
+                                                          </xsl:analyze-string>
+                                                      </abbr>
                                                   <ex cert="low">
                                                   <xsl:value-of select=" regex-group(2)"/>
                                                   </ex>
@@ -396,9 +1087,26 @@
                                                   <xsl:analyze-string select="."
                                                   regex="((\w)*?)\(3\)">
                                                   <xsl:matching-substring>
-                                                  <abbr>
-                                                  <xsl:value-of select=" regex-group(1)"/>
-                                                  </abbr>
+                                                      <abbr>
+                                                          <!--unclear &#803; -->
+                                                          <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                              <xsl:matching-substring>
+                                                                  <unclear>
+                                                                      <xsl:variable name="underdot">
+                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                      </xsl:variable>
+                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                          <xsl:non-matching-substring>     
+                                                                              <xsl:value-of select="."/>
+                                                                          </xsl:non-matching-substring>
+                                                                      </xsl:analyze-string>
+                                                                  </unclear>
+                                                              </xsl:matching-substring>
+                                                              <xsl:non-matching-substring>
+                                                                  <xsl:value-of select="."/>
+                                                              </xsl:non-matching-substring>
+                                                          </xsl:analyze-string>
+                                                      </abbr>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
                                                       <!--abbr+ expan (ta)mdiu situation and (contra)scr(iptor)-->
@@ -410,7 +1118,24 @@
                                                                       <xsl:value-of select=" regex-group(1)"/>
                                                                   </ex>
                                                                   <abbr>
-                                                                      <xsl:value-of select=" regex-group(2)"/>
+                                                                      <!--unclear &#803; -->
+                                                                      <xsl:analyze-string select="regex-group(2)" regex="((\w&#803;)+)">
+                                                                          <xsl:matching-substring>
+                                                                              <unclear>
+                                                                                  <xsl:variable name="underdot">
+                                                                                      <xsl:value-of select="regex-group(1)"/>
+                                                                                  </xsl:variable>
+                                                                                  <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                      <xsl:non-matching-substring>     
+                                                                                          <xsl:value-of select="."/>
+                                                                                      </xsl:non-matching-substring>
+                                                                                  </xsl:analyze-string>
+                                                                              </unclear>
+                                                                          </xsl:matching-substring>
+                                                                          <xsl:non-matching-substring>
+                                                                              <xsl:value-of select="."/>
+                                                                          </xsl:non-matching-substring>
+                                                                      </xsl:analyze-string>
                                                                   </abbr>
                                                                   <xsl:if test="regex-group(3)">                                                                  
                                                                       <ex>
@@ -418,7 +1143,24 @@
                                                                       </ex></xsl:if>
                                                                   <xsl:if test="regex-group(4)"> 
                                                                       <abbr>
-                                                                          <xsl:value-of select=" regex-group(4)"/>
+                                                                          <!--unclear &#803; -->
+                                                                          <xsl:analyze-string select="regex-group(4)" regex="((\w&#803;)+)">
+                                                                              <xsl:matching-substring>
+                                                                                  <unclear>
+                                                                                      <xsl:variable name="underdot">
+                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                      </xsl:variable>
+                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                          <xsl:non-matching-substring>     
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                                  </unclear>
+                                                                              </xsl:matching-substring>
+                                                                              <xsl:non-matching-substring>
+                                                                                  <xsl:value-of select="."/>
+                                                                              </xsl:non-matching-substring>
+                                                                          </xsl:analyze-string>
                                                                       </abbr>
                                                                   </xsl:if>
                                                               </expan></xsl:matching-substring>
@@ -497,13 +1239,47 @@
                                                               <xsl:matching-substring>
                                                                   <expan>
                                                                       <abbr>
-                                                                          <xsl:value-of select=" regex-group(1)"/>
+                                                                          <!--unclear &#803; -->
+                                                                          <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                              <xsl:matching-substring>
+                                                                                  <unclear>
+                                                                                      <xsl:variable name="underdot">
+                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                      </xsl:variable>
+                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                          <xsl:non-matching-substring>     
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                                  </unclear>
+                                                                              </xsl:matching-substring>
+                                                                              <xsl:non-matching-substring>
+                                                                                  <xsl:value-of select="."/>
+                                                                              </xsl:non-matching-substring>
+                                                                          </xsl:analyze-string>
                                                                       </abbr>
                                                                       <ex>
                                                                           <xsl:value-of select=" regex-group(2)"/>
                                                                       </ex>
                                                                       <abbr>
-                                                                          <xsl:value-of select=" regex-group(3)"/>
+                                                                          <!--unclear &#803; -->
+                                                                          <xsl:analyze-string select="regex-group(3)" regex="((\w&#803;)+)">
+                                                                              <xsl:matching-substring>
+                                                                                  <unclear>
+                                                                                      <xsl:variable name="underdot">
+                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                      </xsl:variable>
+                                                                                      <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                          <xsl:non-matching-substring>     
+                                                                                              <xsl:value-of select="."/>
+                                                                                          </xsl:non-matching-substring>
+                                                                                      </xsl:analyze-string>
+                                                                                  </unclear>
+                                                                              </xsl:matching-substring>
+                                                                              <xsl:non-matching-substring>
+                                                                                  <xsl:value-of select="."/>
+                                                                              </xsl:non-matching-substring>
+                                                                          </xsl:analyze-string>
                                                                       </abbr>
                                                                       <ex>
                                                                           <xsl:value-of select=" regex-group(4)"/>
@@ -518,7 +1294,24 @@
                                                                       <xsl:matching-substring>
                                                                           <expan>
                                                                               <abbr>
-                                                                                  <xsl:value-of select=" regex-group(1)"/>
+                                                                                  <!--unclear &#803; -->
+                                                                                  <xsl:analyze-string select="regex-group(1)" regex="((\w&#803;)+)">
+                                                                                      <xsl:matching-substring>
+                                                                                          <unclear>
+                                                                                              <xsl:variable name="underdot">
+                                                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                                                              </xsl:variable>
+                                                                                              <xsl:analyze-string select="$underdot" regex="&#803;">
+                                                                                                  <xsl:non-matching-substring>     
+                                                                                                      <xsl:value-of select="."/>
+                                                                                                  </xsl:non-matching-substring>
+                                                                                              </xsl:analyze-string>
+                                                                                          </unclear>
+                                                                                      </xsl:matching-substring>
+                                                                                      <xsl:non-matching-substring>
+                                                                                          <xsl:value-of select="."/>
+                                                                                      </xsl:non-matching-substring>
+                                                                                  </xsl:analyze-string>
                                                                               </abbr>
                                                                               <ex>
                                                                                   <xsl:value-of select=" regex-group(2)"/>
@@ -660,8 +1453,6 @@
                 </xsl:analyze-string>
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
-            </xsl:non-matching-substring>
-          </xsl:analyze-string>
             </xsl:non-matching-substring>
           </xsl:analyze-string>
     </xsl:template>
