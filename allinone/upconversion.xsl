@@ -76,6 +76,14 @@
                                                   </del>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
+                                                      
+      <!--   uncertain Gap unknown charact begining and end                             -->
+                                                      <xsl:analyze-string select="."
+                                                          regex="(\$\?\])|\$\]\(\?\)|(\[&amp;\?)">
+                                                          <xsl:matching-substring>
+                                                              <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+                                                          </xsl:matching-substring>
+                                                          <xsl:non-matching-substring>
 
            <!--   Gap unknown charact begining and end                             -->
                                                       <xsl:analyze-string select="."
@@ -90,6 +98,12 @@
                                                   <gap reason="lost" quantity="1" unit="line"/>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
+     <!--     unknown gap                                   -->
+                                                      <xsl:analyze-string select="." regex="\[(3)\]\(\?\)|\[(\-\-\-\?)\]">
+                                                          <xsl:matching-substring>
+                                                              <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+                                                          </xsl:matching-substring>
+                                                          <xsl:non-matching-substring>
 <!--del-->
                                                   <xsl:analyze-string select="."
                                                   regex="\[\[(.*?)\]\]">
@@ -1008,8 +1022,13 @@
                                                   </xsl:analyze-string>
                                                   </xsl:non-matching-substring>
                                                   </xsl:analyze-string>
+                                                    </xsl:non-matching-substring>
+                                                </xsl:analyze-string>
                                                   </xsl:non-matching-substring>
                                                   </xsl:analyze-string>
+                                                
+                                            </xsl:non-matching-substring>
+                                        </xsl:analyze-string>
                                                   </xsl:non-matching-substring>
                                                   </xsl:analyze-string>
                                                   </xsl:non-matching-substring>

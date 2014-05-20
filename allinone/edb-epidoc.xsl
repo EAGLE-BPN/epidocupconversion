@@ -29,7 +29,7 @@
 
 
 <!--  Takes all brackets sets and other diacritict and substitutes them with markup  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/upconversionEDB.xsl"/>    
+    <xsl:include href="upconversionEDB.xsl"/>    
     
     <!--  adds numbers to the marked up text-->
     
