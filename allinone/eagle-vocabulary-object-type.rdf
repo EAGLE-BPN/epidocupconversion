@@ -2241,7 +2241,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/154">
         <skos:prefLabel xml:lang="la">Massa</skos:prefLabel>
-        <skos:altLabel xml:lang="de">Barren</skos:altLabel>
+        <!--<skos:altLabel xml:lang="de">Barren</skos:altLabel>-->
         <skos:altLabel xml:lang="en">ingot</skos:altLabel>
         <skos:altLabel xml:lang="fr">lingot</skos:altLabel>
         <skos:altLabel xml:lang="es">Lingote</skos:altLabel>
