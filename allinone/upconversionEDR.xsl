@@ -457,6 +457,9 @@
                                                                           regex="\(\((\w*)\)\)">
                                                                           <xsl:matching-substring>
                                                                               <g>
+                                                                                  <xsl:attribute name="type">
+                                                                                      <xsl:value-of select="regex-group(1)"/>
+                                                                                  </xsl:attribute> 
                                                                                       <xsl:value-of select="regex-group(1)"/>
                                                                                    </g>
                                                                           </xsl:matching-substring>

@@ -8,7 +8,12 @@
 
         <xsl:template name="upconversion">
 <xsl:param name="substitutions" tunnel="yes"/>
-
+<!--1NAME1-->
+            <xsl:analyze-string select="." regex="1">
+                <xsl:matching-substring>
+                    <xsl:text></xsl:text>
+                </xsl:matching-substring>
+                <xsl:non-matching-substring>
             <!--line breaks-->
             <xsl:analyze-string select="." regex="(\s*)/(\s+)|(\s+)/(\s*)">
                 <xsl:matching-substring>
@@ -1359,6 +1364,9 @@
                                                                           regex="\(\((\w*\s*\w*\s*\w*\s*)\)\)">
                                                                           <xsl:matching-substring>
                                                                               <g>
+                                                                                  <xsl:attribute name="type">
+                                                                                      <xsl:value-of select="regex-group(1)"/>
+                                                                                  </xsl:attribute> 
                                                                                       <xsl:value-of select="regex-group(1)"/>
                                                                                    </g>
                                                                           </xsl:matching-substring>
@@ -1691,6 +1699,8 @@
                         </xsl:analyze-string>
             </xsl:non-matching-substring>
           </xsl:analyze-string>
+                </xsl:non-matching-substring>
+            </xsl:analyze-string>
     </xsl:template>
 
 </xsl:stylesheet>
