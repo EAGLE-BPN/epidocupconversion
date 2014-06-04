@@ -96,7 +96,7 @@
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
       
-    <!--del gap -->
+    <!--del gap unknown -->
                                                 <xsl:analyze-string select="."
                                                     regex="&#12314;\[\-\s\-\s\-\]&#12315;">
                                                   <xsl:matching-substring>
@@ -106,44 +106,16 @@
                                                   </del>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
-      <!--del suppl -->
-                                                      <xsl:analyze-string select="."
-                                                          regex="&#12314;((\[(\w\s)\])*)\.*&#12315;">
-                                                          <xsl:matching-substring>
-                                                              <del rend="erasure">
-                                                                  <gap reason="lost" extent="unknown"
-                                                                      unit="character"/>
-                                                              </del>
-                                                          </xsl:matching-substring>
-                                                          <xsl:non-matching-substring>
-  <!--   Gap unknown charact begining and end                             -->
-                                                      <xsl:analyze-string select="."
-                                                          regex="(\$\])|(\[&amp;)">
-                                                          <xsl:matching-substring>
-                                                              <gap reason="lost" extent="unknown" unit="character"/>
-                                                          </xsl:matching-substring>
-                                                          <xsl:non-matching-substring>
-  
-<!--del but suppl-->
-                                                  <xsl:analyze-string select="."
-                                                      regex="&#12314;\[(.*?)\]&#12315;">
-                                                  <xsl:matching-substring>
-                                                  <del rend="erasure">
-                                                  <supplied reason="lost">
-                                                  <xsl:value-of select="regex-group(1)"/>
-                                                  </supplied>
-                                                  </del>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
+
 <!--del-->
                                                   <xsl:analyze-string select="."
-                                                  regex="\[\[(.*?)\]\]">
+                                                      regex="&#12314;(.*?)&#12315;">
                                                   <xsl:matching-substring>
                                                   <del rend="erasure">
                                                       <xsl:analyze-string select="regex-group(1)" regex="\-\-\-|\[\-\-\-\]">    
                                                           <xsl:matching-substring>
                                                               <gap reason="lost" extent="unknown" unit="character"/>
-                                                              <!--                                                                                               it works in terms of search: it does not in terms of html transformation, cause it creates double breackets in the middle of a supplied...
+                                                              <!--   it works in terms of search: it does not in terms of html transformation, cause it creates double breackets in the middle of a supplied...
   this is probably something which would then need to be twicked by the start.edition stylesheets?
   -->
                                                           </xsl:matching-substring>
@@ -906,13 +878,13 @@
                                                           </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
       <!--      gap 2 char                                  -->
-                                                              <xsl:analyze-string select="." regex="\[(2)\]">
+                                                              <xsl:analyze-string select="." regex="\[(2)\]|\[\-\-\]">
                                                                   <xsl:matching-substring>
                                                                       <gap reason="lost" quantity="2" unit="character"/>
                                                                   </xsl:matching-substring>
                                                                   <xsl:non-matching-substring>
         <!--      gap 1 char                                  -->
-                                                                      <xsl:analyze-string select="." regex="\[(2)\]">
+                                                                      <xsl:analyze-string select="." regex="\[(1)\]|\[\-\]">
                                                                           <xsl:matching-substring>
                                                                               <gap reason="lost" quantity="1" unit="character"/>
                                                                           </xsl:matching-substring>
@@ -1695,12 +1667,6 @@
                         </xsl:analyze-string>
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-            </xsl:non-matching-substring>
-          </xsl:analyze-string>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
     </xsl:template>
 
 </xsl:stylesheet>
