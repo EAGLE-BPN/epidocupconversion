@@ -18,10 +18,8 @@
                 <ref>
                     <xsl:attribute name="type">licence</xsl:attribute>
                     <xsl:attribute name="target"><xsl:value-of select="document(concat(@url, '.xml'))//crm:E30.Right/@target"/></xsl:attribute>
-                    <xsl:value-of select="document(concat(@url, '.xml'))//crm:E30.Right/text()"/>
-                    <xsl:text>, </xsl:text><xsl:text>(</xsl:text>
+                    <xsl:value-of select="document(concat(@url, '.xml'))//crm:E30.Right/text()"/><xsl:text>, </xsl:text>
                     <xsl:value-of select="document(concat(@url, '.xml'))//crm:E39.Actor/@date"/>
-                    <xsl:text>)</xsl:text>
                     <xsl:text>, </xsl:text>
                     <xsl:value-of select="document(concat(@url, '.xml'))//crm:E39.Actor"/>
                 </ref>
