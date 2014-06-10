@@ -15,15 +15,15 @@
             <xsl:attribute name="url"><xsl:value-of select="concat('http://edh-www.adw.uni-heidelberg.de/fotos/', substring-after(@url, 'http://edh-www.adw.uni-heidelberg.de/edh/foto/'),'.JPG')"/></xsl:attribute>
             <desc>
                 <xsl:value-of select="tei:desc"/>
-                <xsl:text> (</xsl:text>
-                <xsl:value-of select="document(concat(@url, '.xml'))//crm:E39.Actor/@date"/>
-                <xsl:text>)</xsl:text>
-                <xsl:text>, </xsl:text>
-                <xsl:value-of select="document(concat(@url, '.xml'))//crm:E39.Actor"/>
                 <ref>
                     <xsl:attribute name="type">licence</xsl:attribute>
                     <xsl:attribute name="target"><xsl:value-of select="document(concat(@url, '.xml'))//crm:E30.Right/@target"/></xsl:attribute>
                     <xsl:value-of select="document(concat(@url, '.xml'))//crm:E30.Right/text()"/>
+                    <xsl:text>, </xsl:text><xsl:text>(</xsl:text>
+                    <xsl:value-of select="document(concat(@url, '.xml'))//crm:E39.Actor/@date"/>
+                    <xsl:text>)</xsl:text>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="document(concat(@url, '.xml'))//crm:E39.Actor"/>
                 </ref>
             </desc>
         </graphic>
