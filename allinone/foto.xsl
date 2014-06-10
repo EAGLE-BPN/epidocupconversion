@@ -37,14 +37,5 @@
 </xsl:choose>
         
     </xsl:template>
-    <!--    <graphic n="0003" url="http://images.cch.kcl.ac.uk/irt/liv/full/0003.jpg">
-        <desc> Ward-Perkins Archive, BSR (Sopr. DS 860 Leica) <ref type="licence"
-            target="http://www.europeana.eu/rights/rr-f/">Rights Reserved – Free Access from The
-            British School at Rome</ref>
-        </desc>
-    </graphic>
     
-    rend="externalLink"
-    
-    -->
 </xsl:stylesheet>
