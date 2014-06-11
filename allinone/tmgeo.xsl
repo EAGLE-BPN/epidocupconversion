@@ -8,6 +8,12 @@
     exclude-result-prefixes="#all"
     >  
     
+    <xsl:template match="tei:placeName[not(node())]">
+        <placeName/>
+    </xsl:template>
+
+    
+    
     <xsl:template match="tei:origPlace/tei:placeName">
         
         <xsl:for-each select=".">
