@@ -135,35 +135,34 @@
                                                                               <abbr>
                                                                                   <xsl:value-of select=" regex-group(1)"/>
                                                                               </abbr>
-                                                                              <ex>
-                                                                                      <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
-                                                                                          <xsl:matching-substring>
-                                                                                              <xsl:attribute name="cert">
-                                                                                                  <xsl:text>low</xsl:text>
-                                                                                              </xsl:attribute>                                                                                         
-                                                                                              <xsl:value-of select="regex-group(1)"/>
-                                                                                          </xsl:matching-substring>
-                                                                                          <xsl:non-matching-substring>
-                                                                                              <xsl:value-of select="."/>
-                                                                                          </xsl:non-matching-substring>
-                                                                                      </xsl:analyze-string>
+                                                                              <ex>     
+                                                                                  <xsl:if test="contains(regex-group(2), '?')">
+                                                                                      <xsl:attribute name="cert">low</xsl:attribute>
+                                                                                  </xsl:if>
+                                                                                  <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
+                                                                                      <xsl:matching-substring>                                                                                        
+                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                      </xsl:matching-substring>
+                                                                                      <xsl:non-matching-substring>
+                                                                                          <xsl:value-of select="."/>
+                                                                                      </xsl:non-matching-substring>
+                                                                                  </xsl:analyze-string>
                                                                               </ex>
                                                                               <abbr>
                                                                                   <xsl:value-of select=" regex-group(3)"/>
                                                                               </abbr>
-                                                                              <ex>
-                                                                                      <xsl:analyze-string select="regex-group(4)" regex="(\w*?)\?">
-                                                                                          <xsl:matching-substring>
-                                                                                              <xsl:attribute name="cert">
-                                                                                                  <xsl:text>low</xsl:text>
-                                                                                              </xsl:attribute>                                                                                         
-                                                                                              <xsl:value-of select="regex-group(1)"/>
-                                                                                          </xsl:matching-substring>
-                                                                                          <xsl:non-matching-substring>
-                                                                                              <xsl:value-of select="."/>
-                                                                                          </xsl:non-matching-substring>
-                                                                                      </xsl:analyze-string>
-                                                                                  
+                                                                              <ex>     
+                                                                                  <xsl:if test="contains(regex-group(4), '?')">
+                                                                                      <xsl:attribute name="cert">low</xsl:attribute>
+                                                                                  </xsl:if>
+                                                                                  <xsl:analyze-string select="regex-group(4)" regex="(\w*?)\?">
+                                                                                      <xsl:matching-substring>                                                                                        
+                                                                                          <xsl:value-of select="regex-group(1)"/>
+                                                                                      </xsl:matching-substring>
+                                                                                      <xsl:non-matching-substring>
+                                                                                          <xsl:value-of select="."/>
+                                                                                      </xsl:non-matching-substring>
+                                                                                  </xsl:analyze-string>
                                                                               </ex>
                                                                               <xsl:value-of select=" regex-group(5)"/>
                                                                           </expan>
@@ -177,12 +176,12 @@
                                                                                       <abbr>
                                                                                           <xsl:value-of select=" regex-group(1)"/>
                                                                                       </abbr>
-                                                                                      <ex>
+                                                                                      <ex>     
+                                                                                          <xsl:if test="contains(regex-group(2), '?')">
+                                                                                              <xsl:attribute name="cert">low</xsl:attribute>
+                                                                                          </xsl:if>
                                                                                           <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
-                                                                                              <xsl:matching-substring>
-                                                                                                  <xsl:attribute name="cert">
-                                                                                                      <xsl:text>low</xsl:text>
-                                                                                                  </xsl:attribute>                                                                                         
+                                                                                              <xsl:matching-substring>                                                                                        
                                                                                                   <xsl:value-of select="regex-group(1)"/>
                                                                                               </xsl:matching-substring>
                                                                                               <xsl:non-matching-substring>
@@ -311,36 +310,34 @@
                                                                           <abbr>
                                                                               <xsl:value-of select=" regex-group(1)"/>
                                                                           </abbr>
-                                                                          <ex>
+                                                                          <ex>     
+                                                                              <xsl:if test="contains(regex-group(2), '?')">
+                                                                                  <xsl:attribute name="cert">low</xsl:attribute>
+                                                                              </xsl:if>
                                                                               <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
-                                                                                  <xsl:matching-substring>
-                                                                                      <xsl:attribute name="cert">
-                                                                                          <xsl:text>low</xsl:text>
-                                                                                      </xsl:attribute>                                                                                         
+                                                                                  <xsl:matching-substring>                                                                                        
                                                                                       <xsl:value-of select="regex-group(1)"/>
                                                                                   </xsl:matching-substring>
                                                                                   <xsl:non-matching-substring>
                                                                                       <xsl:value-of select="."/>
                                                                                   </xsl:non-matching-substring>
                                                                               </xsl:analyze-string>
-                                                                              
                                                                           </ex>
                                                                           <abbr>
                                                                               <xsl:value-of select=" regex-group(3)"/>
                                                                           </abbr>
-                                                                          <ex>
+                                                                          <ex>     
+                                                                              <xsl:if test="contains(regex-group(4), '?')">
+                                                                                  <xsl:attribute name="cert">low</xsl:attribute>
+                                                                              </xsl:if>
                                                                               <xsl:analyze-string select="regex-group(4)" regex="(\w*?)\?">
-                                                                                  <xsl:matching-substring>
-                                                                                      <xsl:attribute name="cert">
-                                                                                          <xsl:text>low</xsl:text>
-                                                                                      </xsl:attribute>                                                                                         
+                                                                                  <xsl:matching-substring>                                                                                        
                                                                                       <xsl:value-of select="regex-group(1)"/>
                                                                                   </xsl:matching-substring>
                                                                                   <xsl:non-matching-substring>
                                                                                       <xsl:value-of select="."/>
                                                                                   </xsl:non-matching-substring>
                                                                               </xsl:analyze-string>
-                                                                              
                                                                           </ex>
                                                                           <xsl:value-of select=" regex-group(5)"/>
                                                                       </expan>
@@ -354,12 +351,12 @@
                                                                                   <abbr>
                                                                                       <xsl:value-of select=" regex-group(1)"/>
                                                                                   </abbr>
-                                                                                  <ex>
+                                                                                  <ex>     
+                                                                                      <xsl:if test="contains(regex-group(2), '?')">
+                                                                                          <xsl:attribute name="cert">low</xsl:attribute>
+                                                                                      </xsl:if>
                                                                                       <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
-                                                                                          <xsl:matching-substring>
-                                                                                              <xsl:attribute name="cert">
-                                                                                                  <xsl:text>low</xsl:text>
-                                                                                              </xsl:attribute>                                                                                         
+                                                                                          <xsl:matching-substring>                                                                                        
                                                                                               <xsl:value-of select="regex-group(1)"/>
                                                                                           </xsl:matching-substring>
                                                                                           <xsl:non-matching-substring>
@@ -527,12 +524,12 @@
                                                                       </supplied>
                                                                   </abbr>
                                                                   <supplied reason="lost">    
-                                                                      <ex>
+                                                                      <ex>     
+                                                                          <xsl:if test="contains(regex-group(5), '?')">
+                                                                              <xsl:attribute name="cert">low</xsl:attribute>
+                                                                          </xsl:if>
                                                                           <xsl:analyze-string select="regex-group(5)" regex="(\w*?)\?">
-                                                                              <xsl:matching-substring>
-                                                                                  <xsl:attribute name="cert">
-                                                                                      <xsl:text>low</xsl:text>
-                                                                                  </xsl:attribute>                                                                                         
+                                                                              <xsl:matching-substring>                                                                                        
                                                                                   <xsl:value-of select="regex-group(1)"/>
                                                                               </xsl:matching-substring>
                                                                               <xsl:non-matching-substring>
@@ -562,12 +559,12 @@
                                                                                       </supplied>
                                                                                       <xsl:value-of select=" regex-group(3)"/>
                                                                                   </abbr>
-                                                                                  <ex>
+                                                                                  <ex>     
+                                                                                      <xsl:if test="contains(regex-group(4), '?')">
+                                                                                          <xsl:attribute name="cert">low</xsl:attribute>
+                                                                                      </xsl:if>
                                                                                       <xsl:analyze-string select="regex-group(4)" regex="(\w*?)\?">
-                                                                                          <xsl:matching-substring>
-                                                                                              <xsl:attribute name="cert">
-                                                                                                  <xsl:text>low</xsl:text>
-                                                                                              </xsl:attribute>                                                                                         
+                                                                                          <xsl:matching-substring>                                                                                        
                                                                                               <xsl:value-of select="regex-group(1)"/>
                                                                                           </xsl:matching-substring>
                                                                                           <xsl:non-matching-substring>
@@ -591,12 +588,12 @@
                                                                                                       <abbr>
                                                                                                           <xsl:value-of select=" regex-group(1)"/>
                                                                                                       </abbr>
-                                                                                                      <ex>
+                                                                                                      <ex>     
+                                                                                                          <xsl:if test="contains(regex-group(2), '?')">
+                                                                                                              <xsl:attribute name="cert">low</xsl:attribute>
+                                                                                                          </xsl:if>
                                                                                                           <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
-                                                                                                              <xsl:matching-substring>
-                                                                                                                  <xsl:attribute name="cert">
-                                                                                                                      <xsl:text>low</xsl:text>
-                                                                                                                  </xsl:attribute>                                                                                         
+                                                                                                              <xsl:matching-substring>                                                                                        
                                                                                                                   <xsl:value-of select="regex-group(1)"/>
                                                                                                               </xsl:matching-substring>
                                                                                                               <xsl:non-matching-substring>
@@ -607,12 +604,12 @@
                                                                                                       <abbr>
                                                                                                           <xsl:value-of select=" regex-group(3)"/>
                                                                                                       </abbr>
-                                                                                                      <ex>
+                                                                                                      <ex>     
+                                                                                                          <xsl:if test="contains(regex-group(4), '?')">
+                                                                                                              <xsl:attribute name="cert">low</xsl:attribute>
+                                                                                                          </xsl:if>
                                                                                                           <xsl:analyze-string select="regex-group(4)" regex="(\w*?)\?">
-                                                                                                              <xsl:matching-substring>
-                                                                                                                  <xsl:attribute name="cert">
-                                                                                                                      <xsl:text>low</xsl:text>
-                                                                                                                  </xsl:attribute>                                                                                         
+                                                                                                              <xsl:matching-substring>                                                                                        
                                                                                                                   <xsl:value-of select="regex-group(1)"/>
                                                                                                               </xsl:matching-substring>
                                                                                                               <xsl:non-matching-substring>
@@ -632,12 +629,12 @@
                                                                                                               <abbr>
                                                                                                                   <xsl:value-of select=" regex-group(1)"/>
                                                                                                               </abbr>
-                                                                                                              <ex>
+                                                                                                              <ex>     
+                                                                                                                  <xsl:if test="contains(regex-group(2), '?')">
+                                                                                                                      <xsl:attribute name="cert">low</xsl:attribute>
+                                                                                                                  </xsl:if>
                                                                                                                   <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
-                                                                                                                      <xsl:matching-substring>
-                                                                                                                          <xsl:attribute name="cert">
-                                                                                                                              <xsl:text>low</xsl:text>
-                                                                                                                          </xsl:attribute>                                                                                         
+                                                                                                                      <xsl:matching-substring>                                                                                        
                                                                                                                           <xsl:value-of select="regex-group(1)"/>
                                                                                                                       </xsl:matching-substring>
                                                                                                                       <xsl:non-matching-substring>
@@ -795,12 +792,12 @@
                                                           regex="\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)\(*([A-Za-z0-9]*)\)*([A-Za-z0-9]*)">
                                                           <xsl:matching-substring>
                                                               <expan>
-                                                                  <ex>
+                                                                  <ex>     
+                                                                      <xsl:if test="contains(regex-group(1), '?')">
+                                                                          <xsl:attribute name="cert">low</xsl:attribute>
+                                                                      </xsl:if>
                                                                       <xsl:analyze-string select="regex-group(1)" regex="(\w*?)\?">
-                                                                          <xsl:matching-substring>
-                                                                              <xsl:attribute name="cert">
-                                                                                  <xsl:text>low</xsl:text>
-                                                                              </xsl:attribute>                                                                                         
+                                                                          <xsl:matching-substring>                                                                                        
                                                                               <xsl:value-of select="regex-group(1)"/>
                                                                           </xsl:matching-substring>
                                                                           <xsl:non-matching-substring>
@@ -812,12 +809,12 @@
                                                                       <xsl:value-of select=" regex-group(2)"/>
                                                                   </abbr>
                                                                   <xsl:if test="regex-group(3)">                                                                  
-                                                                      <ex>
+                                                                      <ex>     
+                                                                          <xsl:if test="contains(regex-group(3), '?')">
+                                                                              <xsl:attribute name="cert">low</xsl:attribute>
+                                                                          </xsl:if>
                                                                           <xsl:analyze-string select="regex-group(3)" regex="(\w*?)\?">
-                                                                              <xsl:matching-substring>
-                                                                                  <xsl:attribute name="cert">
-                                                                                      <xsl:text>low</xsl:text>
-                                                                                  </xsl:attribute>                                                                                         
+                                                                              <xsl:matching-substring>                                                                                        
                                                                                   <xsl:value-of select="regex-group(1)"/>
                                                                               </xsl:matching-substring>
                                                                               <xsl:non-matching-substring>
@@ -874,12 +871,12 @@
                                                                       <abbr>
                                                                           <xsl:value-of select=" regex-group(1)"/>
                                                                       </abbr>
-                                                                      <ex>
+                                                                      <ex>     
+                                                                          <xsl:if test="contains(regex-group(2), '?')">
+                                                                              <xsl:attribute name="cert">low</xsl:attribute>
+                                                                          </xsl:if>
                                                                           <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
-                                                                              <xsl:matching-substring>
-                                                                                  <xsl:attribute name="cert">
-                                                                                      <xsl:text>low</xsl:text>
-                                                                                  </xsl:attribute>                                                                                         
+                                                                              <xsl:matching-substring>                                                                                        
                                                                                   <xsl:value-of select="regex-group(1)"/>
                                                                               </xsl:matching-substring>
                                                                               <xsl:non-matching-substring>
@@ -890,12 +887,12 @@
                                                                       <abbr>
                                                                           <xsl:value-of select=" regex-group(3)"/>
                                                                       </abbr>
-                                                                      <ex>
+                                                                      <ex>     
+                                                                          <xsl:if test="contains(regex-group(4), '?')">
+                                                                              <xsl:attribute name="cert">low</xsl:attribute>
+                                                                          </xsl:if>
                                                                           <xsl:analyze-string select="regex-group(4)" regex="(\w*?)\?">
-                                                                              <xsl:matching-substring>
-                                                                                  <xsl:attribute name="cert">
-                                                                                      <xsl:text>low</xsl:text>
-                                                                                  </xsl:attribute>                                                                                         
+                                                                              <xsl:matching-substring>                                                                                        
                                                                                   <xsl:value-of select="regex-group(1)"/>
                                                                               </xsl:matching-substring>
                                                                               <xsl:non-matching-substring>
@@ -915,12 +912,12 @@
                                                                               <abbr>
                                                                                   <xsl:value-of select=" regex-group(1)"/>
                                                                               </abbr>
-                                                                              <ex>
+                                                                              <ex>     
+                                                                                    <xsl:if test="contains(regex-group(2), '?')">
+                                                                                        <xsl:attribute name="cert">low</xsl:attribute>
+                                                                                    </xsl:if>
                                                                                   <xsl:analyze-string select="regex-group(2)" regex="(\w*?)\?">
-                                                                                      <xsl:matching-substring>
-                                                                                            <xsl:attribute name="cert">
-                                                                                                <xsl:text>low</xsl:text>
-                                                                                            </xsl:attribute>                                                                                         
+                                                                                      <xsl:matching-substring>                                                                                        
                                                                                           <xsl:value-of select="regex-group(1)"/>
                                                                                       </xsl:matching-substring>
                                                                                       <xsl:non-matching-substring>

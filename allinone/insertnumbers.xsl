@@ -19,24 +19,24 @@
     </xsl:variable>  
     <xsl:apply-templates select="$nonumber" mode="lb"/>
 </xsl:template>
-
-<xsl:template match="tei:lb[not(@break)]" mode="lb">
+    
+    <xsl:template match="tei:lb[following-sibling::*[1][self::tei:gap[@unit='line']]]" mode="lb">
+        <lb n="0"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb[not(@break)][not(following-sibling::*[1][self::tei:gap[@unit='line']])]" mode="lb">
     <lb>
         <xsl:attribute name="n"><xsl:number count="tei:lb[not(following-sibling::*[1][self::tei:gap[@unit='line']])]"/></xsl:attribute>
         <xsl:apply-templates/>
     </lb>
 </xsl:template>
 
-<xsl:template match="tei:lb[@break]" mode="lb">
+    <xsl:template match="tei:lb[@break][not(following-sibling::*[1][self::tei:gap[@unit='line']])]" mode="lb">
     <lb>
         <xsl:attribute name="break">no</xsl:attribute>
         <xsl:attribute name="n"><xsl:number count="tei:lb[not(following-sibling::*[1][self::tei:gap[@unit='line']])]"/></xsl:attribute>
         <xsl:apply-templates/>
     </lb>
-</xsl:template>
-
-<xsl:template match="tei:lb[following-sibling::*[1][self::tei:gap[@unit='line']]]" mode="lb">
-    <lb n="0"/>
 </xsl:template>
 
 </xsl:stylesheet>

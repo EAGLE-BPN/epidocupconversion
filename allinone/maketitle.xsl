@@ -50,7 +50,7 @@
                         <xsl:otherwise>
                             <xsl:choose>
                                 <xsl:when test="contains($bibl,'AE')">
-                                    <xsl:analyze-string select="$bibl" regex="(AE(\s\d\d\d\d),(\s\d\d\d\d).)">
+                                    <xsl:analyze-string select="$bibl" regex="(AE(.*)\.)">
                                         <xsl:matching-substring>
                                             <xsl:value-of select="regex-group(1)"/>
                                             <!--<xsl:text> (?)</xsl:text>-->
@@ -59,7 +59,7 @@
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:choose><xsl:when test="contains($bibl,'CIL')"> 
-                                        <xsl:analyze-string select="$bibl" regex="(CIL(\s\d\d),(\s\d\d\d\d\d).)">
+                                        <xsl:analyze-string select="$bibl" regex="(CIL(.*)\.)">
                                             <xsl:matching-substring>
                                                 <xsl:value-of select="regex-group(1)"/>
                                             </xsl:matching-substring>

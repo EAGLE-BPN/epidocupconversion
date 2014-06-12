@@ -106,8 +106,8 @@
                                                                                 <xsl:text>][3]</xsl:text>
                                                                             </xsl:matching-substring>
                                                                             <xsl:non-matching-substring>
-                                                                                <!--       line breaks for gap unknown lines and first known line                                               -->
-                                                                                <xsl:analyze-string select="." regex="(\$\])(\w)">
+                   <!--       line breaks for gap unknown lines and first known line                                               -->
+                                                                                <xsl:analyze-string select="." regex="(\$\])\s(\w)">
                                                                                     <xsl:matching-substring>
                                                                                         <xsl:value-of select="regex-group(1)"/>
                                                                                         <xsl:text> / </xsl:text>
