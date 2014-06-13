@@ -14,9 +14,9 @@
 
     
     
-    <xsl:template match="tei:origPlace/tei:placeName">
+    <xsl:template match="//tei:origPlace">
         
-        <xsl:for-each select=".">
+        <xsl:for-each select="/tei:placeName">
             <xsl:variable name="noquestion">
                 <xsl:analyze-string select="." regex="(\w+)\?">
                     <xsl:matching-substring>
