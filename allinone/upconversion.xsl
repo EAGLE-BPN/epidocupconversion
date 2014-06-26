@@ -488,14 +488,14 @@
                                                                           <xsl:non-matching-substring>
                 <!-- suppl cert low internal [bene?]-->
              <!--WORKS ONLY FOR ONE if more words in the supplied and only one is uncertain then the following analysis in the suppl part will add a certainty element-->
-                                                  <xsl:analyze-string select="." regex="(\[(.*?)\?\])">
+                                          <!--        <xsl:analyze-string select="." regex="(\[(.*?)\?\])">
                                                   <xsl:matching-substring>
                                                   <supplied reason="lost" cert="low">
                                                   <xsl:value-of
                                                   select="regex-group(2)"/>
                                                   </supplied>
                                                   </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
+                                                  <xsl:non-matching-substring>-->
 <!--suppl cert low general [da]?-->
                                                   <xsl:analyze-string select="."
                                                   regex="\[(.*)\]\(\?\)">
@@ -581,6 +581,7 @@
                                                                                   regex="\[(.*?)\]">
                                                                                   <xsl:matching-substring>
                                                                                       <supplied reason="lost">
+                                                                                          
                                                                                           <xsl:analyze-string select="regex-group(1)"
                                                                                               regex="([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)*">
                                                                                               <xsl:matching-substring>
@@ -1033,8 +1034,8 @@
                                             </xsl:non-matching-substring>
                                         </xsl:analyze-string>
                                     </xsl:non-matching-substring>
-                                </xsl:analyze-string>
+                                </xsl:analyze-string><!--
                             </xsl:non-matching-substring>
-                        </xsl:analyze-string>
+                        </xsl:analyze-string>-->
     </xsl:template>
 </xsl:stylesheet>

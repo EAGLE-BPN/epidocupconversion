@@ -31,7 +31,7 @@
     <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/brackets.xsl"/>
 
 <!--  Takes all brackets sets and other diacritict and substitutes them with markup  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/upconversion.xsl"/>    
+    <xsl:include href="upconversion.xsl"/>    
     
     <!--  adds numbers to the marked up text-->
     
