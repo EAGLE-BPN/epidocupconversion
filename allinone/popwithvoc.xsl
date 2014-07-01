@@ -8,7 +8,7 @@
     
     
     <!-- Object Type   -->
-    <xsl:include href="objectType.xsl"/>
+    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/objectType.xsl"/>
     
     <!-- Material   -->
     <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/material.xsl"/>
