@@ -911,7 +911,11 @@
                                                                       <xsl:matching-substring>
                                                                           <expan>
                                                                               <abbr>
-                                                                                  <xsl:value-of select=" regex-group(1)"/>
+                                                                                 <xsl:choose> 
+                                                                                     <xsl:when test="contains(regex-group(1), 'Augg')">
+                                                                                      <xsl:text>Aug</xsl:text><am>g</am>
+                                                                                  </xsl:when>
+                                                                                  <xsl:otherwise><xsl:value-of select=" regex-group(1)"/></xsl:otherwise></xsl:choose>
                                                                               </abbr>
                                                                               <ex>     
                                                                                     <xsl:if test="contains(regex-group(2), '?')">
