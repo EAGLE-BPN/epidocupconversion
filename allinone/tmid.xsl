@@ -8,17 +8,26 @@
     exclude-result-prefixes="tei rdf skos xs">
     
     <xsl:template match="//tei:idno[@type='URI'][not(node())]">
+        
         <idno>
-            <xsl:attribute name="type">TM</xsl:attribute>
             <xsl:variable select="//tei:title" name="tm"/>
+            <xsl:attribute name="type">TM</xsl:attribute>
             <xsl:value-of select="document('edh-tm.htm')//td[preceding-sibling::td[lower-case(.) = lower-case($tm)]]"/>
 </idno>
+        <idno>
+            <xsl:attribute name="type">localID</xsl:attribute>
+            <xsl:value-of select="//tei:title"/>
+        </idno>
     </xsl:template>
     
     <xsl:template match="//tei:idno[@type='URI'][text()[contains(.,'http://www.trismegistos.org/text/')]]">
         <idno>
             <xsl:attribute name="type">TM</xsl:attribute>
             <xsl:value-of select="substring-after(., 'http://www.trismegistos.org/text/')"/>
+        </idno>
+        <idno>
+            <xsl:attribute name="type">localID</xsl:attribute>
+            <xsl:value-of select="//tei:title"/>
         </idno>
     </xsl:template>
     
