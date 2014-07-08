@@ -912,9 +912,21 @@
                                                                           <expan>
                                                                               <abbr>
                                                                                  <xsl:choose> 
-                                                                                     <xsl:when test="contains(regex-group(1), 'Augg')">
+                                                                                     <xsl:when test="matches(regex-group(1), 'Augg')">
                                                                                       <xsl:text>Aug</xsl:text><am>g</am>
                                                                                   </xsl:when>
+                                                                                     <xsl:when test="matches(regex-group(1), 'nnn')">
+                                                                                         <xsl:text>n</xsl:text><am>nn</am>
+                                                                                     </xsl:when>
+                                                                                     <xsl:when test="matches(regex-group(1), 'nn')">
+                                                                                         <xsl:text>n</xsl:text><am>n</am>
+                                                                                     </xsl:when>
+                                                                                     <xsl:when test="matches(regex-group(1), 'ddd')">
+                                                                                         <xsl:text>d</xsl:text><am>dd</am>
+                                                                                     </xsl:when>
+                                                                                     <xsl:when test="matches(regex-group(1), 'dd')">
+                                                                                         <xsl:text>d</xsl:text><am>d</am>
+                                                                                     </xsl:when>
                                                                                   <xsl:otherwise><xsl:value-of select=" regex-group(1)"/></xsl:otherwise></xsl:choose>
                                                                               </abbr>
                                                                               <ex>     
