@@ -20,14 +20,8 @@
                         <xsl:value-of select="regex-group(1)"/>                     
                     </xsl:matching-substring>            
                     <xsl:non-matching-substring>
-                        <xsl:choose>
-                            <xsl:when test="contains(.,'/')">
-                                <xsl:value-of select="substring-before(.,' ')"/>
-                            </xsl:when>
-                        <xsl:otherwise>
+                      
                             <xsl:value-of select="."/>
-                        </xsl:otherwise>
-                        </xsl:choose>
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
                 
@@ -39,11 +33,12 @@
             <xsl:if test="text()">
                 <xsl:variable name="voc_term">
                     <xsl:choose>
-                        <xsl:when test="document('eagle-vocabulary-writing.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space($noquestion))]/parent::skos:Concept[not(parent::skos:exactMatch)]/@rdf:about">
-                            <xsl:value-of select="document('eagle-vocabulary-writing.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space($noquestion))]/parent::skos:Concept/@rdf:about"/>
+                        <xsl:when test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-writing.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space($noquestion))]/parent::skos:Concept[not(parent::skos:exactMatch[contains(skos:Concept/@rdf:about,'archwort')])]/@rdf:about">
+                            <xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-writing.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space($noquestion))]/parent::skos:Concept/@rdf:about"/>
+                            <xsl:value-of select="$seq[1]"/>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:variable name="seq" select="document('eagle-vocabulary-writing.rdf')//skos:altLabel[lower-case(normalize-space(.))=lower-case(normalize-space($noquestion))]/parent::skos:Concept/@rdf:about"/>
+                            <xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-writing.rdf')//skos:altLabel[lower-case(normalize-space(.))=lower-case(normalize-space($noquestion))]/parent::skos:Concept/@rdf:about"/>
                             <xsl:value-of select="$seq[1]"/> <!--this is not very clever but gives at least coherent results and one value only when vocabularies have many possible...-->
                         </xsl:otherwise>
                     </xsl:choose>

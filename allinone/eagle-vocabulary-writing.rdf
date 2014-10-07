@@ -17,7 +17,7 @@
         <dc:language>en</dc:language>
     </skos:ConceptScheme>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/2">
-        <skos:prefLabel xml:lang="la">In ink / graffito</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Atramento</skos:prefLabel>
         <skos:altLabel xml:lang="it">a inchiostro</skos:altLabel>
         <skos:altLabel xml:lang="fr">encré</skos:altLabel>
         <skos:altLabel xml:lang="en">inked</skos:altLabel>
@@ -244,6 +244,7 @@
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/88">
                 <skos:prefLabel xml:lang="de">Geritzt</skos:prefLabel>
                 <skos:altLabel xml:lang="it">Graffito</skos:altLabel>
+                <skos:altLabel xml:lang="it">Geritzt / Graffito</skos:altLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
@@ -271,6 +272,7 @@
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/96">
                 <skos:prefLabel xml:lang="de">Gemalt</skos:prefLabel>
                 <skos:altLabel xml:lang="it">Dipinto</skos:altLabel>
+                <skos:altLabel xml:lang="de">Gemalt / Dipinto</skos:altLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
