@@ -31,10 +31,10 @@
                 <xsl:variable name="voc_term">         
                     <xsl:choose>
                         <xsl:when test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about">
-                                <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
+                                <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about[not(contains(.,'archwort'))]"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:altLabel[1][lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
+                        <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:altLabel[1][lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about[not(contains(.,'archwort'))]"/>
                     </xsl:otherwise>
                     </xsl:choose>
                 </xsl:variable>
