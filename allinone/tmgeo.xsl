@@ -14,9 +14,9 @@
 
     
     
-    <xsl:template match="//tei:origPlace">
+    <xsl:template match="tei:origPlace">
         
-        <xsl:for-each select="/tei:placeName">
+        <xsl:for-each select="tei:placeName">
             <xsl:variable name="noquestion">
                 <xsl:analyze-string select="." regex="(\w+)\?">
                     <xsl:matching-substring>
@@ -35,15 +35,20 @@
                 </xsl:analyze-string>
             </xsl:variable>
             <xsl:variable name="voc_term">  <!---->       
-                <xsl:choose>                    <xsl:when test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+                <xsl:choose> 
+                    <xsl:when test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
                     [contains(lower-case(.), lower-case($noquestion))]">
-                    <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+                    <xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
                         [contains(lower-case(.), lower-case($noquestion))]/parent::f:COL/preceding-sibling::f:COL/f:DATA"/>
-                </xsl:when>
+                        <xsl:value-of select="$seq[1]"/>
+                    </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
-                            [contains(lower-case(.), lower-case($noquestion))]/ancestor::f:ROW/f:COL[1]/f:DATA"/></xsl:otherwise>
-                    </xsl:choose></xsl:variable>
+                        <xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[3]/f:DATA
+                            [contains(lower-case(.), lower-case($noquestion))]/ancestor::f:ROW/f:COL[1]/f:DATA"/>
+                        <xsl:value-of select="$seq[1]"/>
+                    </xsl:otherwise>
+                    </xsl:choose>
+            </xsl:variable>
         <xsl:copy>
             <xsl:copy-of select="@*[not(local-name()='ref')]"/>
             <xsl:attribute name="ref">
