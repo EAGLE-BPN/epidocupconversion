@@ -13,7 +13,7 @@
         <dc:subject/>
         <dc:description><![CDATA[  ]]></dc:description>
         <dc:date>0000-00-00</dc:date>
-        <dct:modified>2013-08-01 12:06:43</dct:modified>
+        <dct:modified>2014-05-07 16:37:21</dct:modified>
         <dc:language>en</dc:language>
     </skos:ConceptScheme>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/16">
@@ -71,6 +71,18 @@
                 <skos:prefLabel xml:lang="de">Adler</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1391">
+                <skos:prefLabel xml:lang="de">Adlerfibel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-10-02 01:02:39</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/21">
+        <skos:prefLabel xml:lang="en">Akanthus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Acanthus</skos:altLabel>
+        <skos:altLabel xml:lang="en">akanthus</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/22">
@@ -102,6 +114,11 @@
                 <skos:prefLabel xml:lang="fr">Autel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1407">
+                <skos:prefLabel xml:lang="de">Altar</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/25">
@@ -116,7 +133,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/564">
         <skos:prefLabel xml:lang="de">Andromeda</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Andromeda</skos:altLabel>
+        <skos:altLabel xml:lang="en">Androméda</skos:altLabel>
         <skos:altLabel xml:lang="hu">Androméda</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2014-02-01 17:35:06</dct:created>
@@ -137,18 +154,27 @@
                 <skos:prefLabel xml:lang="fr">Amphithéâtre</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4116">
+                <skos:prefLabel xml:lang="de">Amphitheater</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/28">
-        <skos:prefLabel xml:lang="es">Animal</skos:prefLabel>
-        <skos:altLabel xml:lang="fr">Animal</skos:altLabel>
+        <skos:prefLabel xml:lang="fr">Animal</skos:prefLabel>
         <skos:altLabel xml:lang="hu">állat</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/351">
+       
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <dct:created>2014-02-01 17:33:39</dct:created>
+    </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/29">
         <skos:prefLabel xml:lang="de">Aphrodite; Venus</skos:prefLabel>
-        <skos:altLabel xml:lang="hu">Aphrodité; Venus</skos:altLabel>
+ <skos:altLabel xml:lang="hu">Aphrodité; Venus</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -158,6 +184,16 @@
         <skos:altLabel xml:lang="hu">Apollón; Apollo</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/566">
+        <skos:prefLabel xml:lang="en">Apollon</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <dct:created>2014-02-01 17:35:06</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/352">
+        <skos:prefLabel xml:lang="en">Apollón; Apollo</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <dct:created>2014-02-01 17:33:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/78">
         <skos:prefLabel xml:lang="es">Arado</skos:prefLabel>
@@ -184,6 +220,11 @@
                 <skos:prefLabel xml:lang="de">Baum</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1492">
+                <skos:prefLabel xml:lang="de">Baum</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/32">
@@ -197,6 +238,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/601">
                 <skos:prefLabel xml:lang="de">Arkaden</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=113">
+                <skos:prefLabel xml:lang="de">Arkadenmauer</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -219,6 +265,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/606">
                 <skos:prefLabel xml:lang="de">Waffen</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3200">
+                <skos:prefLabel xml:lang="de">Waffe</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -274,6 +325,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/607">
                 <skos:prefLabel xml:lang="fr">Astragale</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4797">
+                <skos:prefLabel xml:lang="de">Astragal</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -339,6 +395,11 @@
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/613">
+                <skos:prefLabel xml:lang="de">Sockel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=66">
                 <skos:prefLabel xml:lang="de">Sockel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -417,6 +478,11 @@
                 <skos:prefLabel xml:lang="de">Bukranion</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3667">
+                <skos:prefLabel xml:lang="de">Bukranienaltar</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/51">
@@ -433,6 +499,11 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/63">
         <skos:prefLabel xml:lang="es">Bulla</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=313">
+                <skos:prefLabel xml:lang="de">Bullauge</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/65">
@@ -458,6 +529,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/648">
                 <skos:prefLabel xml:lang="fr">Cheval</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2567">
+                <skos:prefLabel xml:lang="de">Pferd</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -510,15 +586,15 @@
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/569">
-        <skos:prefLabel xml:lang="es">Calo</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
-        <dct:created>2014-02-01 17:35:06</dct:created>
-    </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/68">
         <skos:prefLabel xml:lang="es">Calo</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/569">
+        <skos:prefLabel xml:lang="es">Calo</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <dct:created>2014-02-01 17:35:06</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/69">
         <skos:prefLabel xml:lang="es">Cántaro</skos:prefLabel>
@@ -569,6 +645,11 @@
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/644">
+                <skos:prefLabel xml:lang="de">Wagen</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3203">
                 <skos:prefLabel xml:lang="de">Wagen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -743,6 +824,11 @@
                 <skos:prefLabel xml:lang="de">Muscheln</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4728">
+                <skos:prefLabel xml:lang="de">Muschel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/86">
@@ -791,6 +877,11 @@
                 <skos:prefLabel xml:lang="de">Kranz, Kränze</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3454">
+                <skos:prefLabel xml:lang="de">Kranz</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/94">
@@ -804,8 +895,8 @@
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/95">
-        <skos:prefLabel xml:lang="es">Corona de laurel</skos:prefLabel>
-        <skos:altLabel xml:lang="hu">babérkoszorú</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Corona de laurel</skos:prefLabel>
+        <skos:altLabel xml:lang="en">babérkoszorú</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/663">
@@ -848,6 +939,11 @@
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/590">
+                <skos:prefLabel xml:lang="de">Kreuz</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2267">
                 <skos:prefLabel xml:lang="de">Kreuz</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -907,6 +1003,11 @@
                 <skos:prefLabel xml:lang="de">Füllhorn</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7606">
+                <skos:prefLabel xml:lang="de">Füllhorn</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/90">
@@ -921,8 +1022,8 @@
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/572">
-        <skos:prefLabel xml:lang="de">Daedalus</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Daedalus</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Daedalus</skos:prefLabel>
+<skos:altLabel xml:lang="de">Daedalus</skos:altLabel>
         <skos:altLabel xml:lang="hu">Daidalos</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2014-02-01 17:35:06</dct:created>
@@ -991,6 +1092,11 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/574">
+        <skos:prefLabel xml:lang="de">Dipti</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <dct:created>2014-02-01 17:35:06</dct:created>
+    </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/108">
         <skos:prefLabel xml:lang="de">Diptychon</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
@@ -1008,8 +1114,8 @@
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/109">
-        <skos:prefLabel xml:lang="de">Dolichenus</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Dolichenus</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Dolichenus</skos:prefLabel>
+<skos:altLabel xml:lang="de">Dolichenus</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -1032,7 +1138,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/576">
         <skos:prefLabel xml:lang="de">Endymion</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Endymion</skos:altLabel>
+<skos:altLabel xml:lang="en">Endymion</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2014-02-01 17:35:06</dct:created>
     </skos:Concept>
@@ -1048,9 +1154,9 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/119">
         <skos:prefLabel xml:lang="de">Epona</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Epona</skos:altLabel>
+<skos:altLabel xml:lang="en">Epona</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
-        <dct:created>2013-10-02 01:02:39</dct:created>
+        <dct:created>2014-02-01 17:35:06</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/121">
         <skos:prefLabel xml:lang="de">Eroten</skos:prefLabel>
@@ -1210,6 +1316,11 @@
                 <skos:prefLabel xml:lang="de">Schild</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2771">
+                <skos:prefLabel xml:lang="de">Schild</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/147">
@@ -1259,6 +1370,11 @@
                 <skos:prefLabel xml:lang="fr">Torsade</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2920">
+                <skos:prefLabel xml:lang="de">Spirale</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/122">
@@ -1285,6 +1401,11 @@
                 <skos:prefLabel xml:lang="de">Sterne</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2971">
+                <skos:prefLabel xml:lang="de">Stern</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/304">
@@ -1299,6 +1420,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/791">
                 <skos:prefLabel xml:lang="fr">Strigile</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7464">
+                <skos:prefLabel xml:lang="de">Riefelung</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -1343,12 +1469,22 @@
                 <skos:prefLabel xml:lang="de">Girlanden</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7636">
+                <skos:prefLabel xml:lang="de">Girlande</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/129">
         <skos:prefLabel xml:lang="de">Fibel</skos:prefLabel>
         <skos:altLabel xml:lang="hu">fibula</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1785">
+                <skos:prefLabel xml:lang="de">Fibel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/130">
@@ -1395,6 +1531,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/690">
                 <skos:prefLabel xml:lang="fr">Fleur</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1552">
+                <skos:prefLabel xml:lang="de">Blüte</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -1452,6 +1593,11 @@
                 <skos:prefLabel xml:lang="fr">Fruit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7571">
+                <skos:prefLabel xml:lang="de">Frucht</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/88">
@@ -1490,13 +1636,18 @@
         <skos:prefLabel xml:lang="de">Genius</skos:prefLabel>
         <skos:altLabel xml:lang="en">Genius</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
-        <dct:created>2013-10-02 01:02:39</dct:created>
+        <dct:created>2014-02-01 17:35:06</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/148">
         <skos:prefLabel xml:lang="de">Gorgoneion</skos:prefLabel>
         <skos:altLabel xml:lang="hu">Gorgó-fő</skos:altLabel>
         <skos:altLabel xml:lang="en">Gorgoneiion</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7607">
+                <skos:prefLabel xml:lang="de">Gorgoneion</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/152">
@@ -1517,6 +1668,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/707">
                 <skos:prefLabel xml:lang="de">Greifen</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1965">
+                <skos:prefLabel xml:lang="de">Greif</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -1580,8 +1736,8 @@
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/162">
-        <skos:prefLabel xml:lang="de">Hera; Juno</skos:prefLabel>
-        <skos:altLabel xml:lang="hu">Héra; Iuno</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Héra; Iuno</skos:prefLabel>
+        <skos:altLabel xml:lang="hu">Hera; Juno</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -1668,6 +1824,11 @@
                 <skos:prefLabel xml:lang="fr">Feuille</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1541">
+                <skos:prefLabel xml:lang="de">Blatt</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/167">
@@ -1687,8 +1848,8 @@
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/168">
-        <skos:prefLabel xml:lang="de">Hygieia</skos:prefLabel>
-        <skos:altLabel xml:lang="hu">Hygeia</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Hygeia</skos:prefLabel>
+        <skos:altLabel xml:lang="hu">Hygieia</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -1742,6 +1903,11 @@
         <skos:prefLabel xml:lang="es">Jarrón</skos:prefLabel>
         <skos:altLabel xml:lang="hu">váza</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3728">
+                <skos:prefLabel xml:lang="de">Grabvase</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/587">
@@ -1751,16 +1917,26 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2014-02-01 17:35:06</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/174">
+<skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/174">
         <skos:prefLabel xml:lang="de">Kannelur</skos:prefLabel>
         <skos:altLabel xml:lang="hu">kanellúra</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2159">
+                <skos:prefLabel xml:lang="de">Kannelur</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/175">
         <skos:prefLabel xml:lang="de">Kapitell</skos:prefLabel>
         <skos:altLabel xml:lang="hu">oszlopfő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=564">
+                <skos:prefLabel xml:lang="de">Kapitell</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/176">
@@ -1776,7 +1952,13 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/178">
         <skos:prefLabel xml:lang="de">Kline</skos:prefLabel>
         <skos:altLabel xml:lang="hu">kliné</skos:altLabel>
+        <skos:altLabel xml:lang="en">Kline</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2220">
+                <skos:prefLabel xml:lang="de">Kline</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/179">
@@ -1810,7 +1992,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/185">
         <skos:prefLabel xml:lang="de">Leda</skos:prefLabel>
-        <skos:altLabel xml:lang="hu">Léda</skos:altLabel>
+<skos:altLabel xml:lang="hu">Léda</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -1859,6 +2041,11 @@
         <skos:prefLabel xml:lang="de">Löwe</skos:prefLabel>
         <skos:altLabel xml:lang="hu">oroszlán</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1182">
+                <skos:prefLabel xml:lang="de">Löwenkopfwasserspeier</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/195">
@@ -1916,14 +2103,14 @@
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/204">
-        <skos:prefLabel xml:lang="de">Mars; Ares</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mars;Ares</skos:prefLabel>
         <skos:altLabel xml:lang="hu">Mars; Árés</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/205">
         <skos:prefLabel xml:lang="de">Marsyas</skos:prefLabel>
-        <skos:altLabel xml:lang="hu">Marsyas</skos:altLabel>
+<skos:altLabel xml:lang="hu">Marsyas</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -1971,7 +2158,7 @@
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/201">
-        <skos:prefLabel xml:lang="es">Medallón</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">medallion</skos:prefLabel>
         <skos:altLabel xml:lang="hu">medallion</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
@@ -1983,8 +2170,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/206">
         <skos:prefLabel xml:lang="de">Medea</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Medea</skos:altLabel>
-        <skos:altLabel xml:lang="hu">Médea</skos:altLabel>
+        <skos:altLabel xml:lang="en">Médea</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -2011,6 +2197,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/794">
                 <skos:prefLabel xml:lang="fr">Table</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3055">
+                <skos:prefLabel xml:lang="de">Tisch</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -2129,6 +2320,11 @@
                 <skos:prefLabel xml:lang="de">Nische</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=264">
+                <skos:prefLabel xml:lang="de">Nische</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/117">
@@ -2173,6 +2369,11 @@
                 <skos:prefLabel xml:lang="fr">Ours</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1477">
+                <skos:prefLabel xml:lang="de">Bär</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/226">
@@ -2192,6 +2393,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/743">
                 <skos:prefLabel xml:lang="fr">oves</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7648">
+                <skos:prefLabel xml:lang="de">Eierstab</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -2215,6 +2421,11 @@
                 <skos:prefLabel xml:lang="de">Vögel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3172">
+                <skos:prefLabel xml:lang="de">Vogel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/228">
@@ -2231,6 +2442,11 @@
                 <skos:prefLabel xml:lang="de">Palmetten</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7582">
+                <skos:prefLabel xml:lang="de">Palmette</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/235">
@@ -2243,6 +2459,11 @@
         <skos:prefLabel xml:lang="de">Panzer</skos:prefLabel>
         <skos:altLabel xml:lang="hu">páncél</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2549">
+                <skos:prefLabel xml:lang="de">Panzer</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/230">
@@ -2259,11 +2480,16 @@
                 <skos:prefLabel xml:lang="fr">Patère</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7614">
+                <skos:prefLabel xml:lang="de">Opferschale</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/246">
         <skos:prefLabel xml:lang="es">Pedestal</skos:prefLabel>
-        <skos:altLabel xml:lang="hu">talpazat</skos:altLabel>
+        <skos:altLabel xml:lang="hu">lábfej</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/756">
@@ -2407,6 +2633,11 @@
                 <skos:prefLabel xml:lang="fr">Pilastre</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=486">
+                <skos:prefLabel xml:lang="de">Pilaster</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/249">
@@ -2426,6 +2657,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/759">
                 <skos:prefLabel xml:lang="fr">Pomme de pin</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7574">
+                <skos:prefLabel xml:lang="de">Pinienzapfen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -2464,7 +2700,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/258">
         <skos:prefLabel xml:lang="de">Pteryges</skos:prefLabel>
-        <skos:altLabel xml:lang="hu">pteryges</skos:altLabel>
+<skos:altLabel xml:lang="hu">pteryges</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -2610,6 +2846,11 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/268">
         <skos:prefLabel xml:lang="de">Rolle</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7107">
+                <skos:prefLabel xml:lang="de">Rolle</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/194">
@@ -2634,6 +2875,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/768">
                 <skos:prefLabel xml:lang="de">Rosetten</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7593">
+                <skos:prefLabel xml:lang="de">Rosette</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -2672,7 +2918,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/274">
         <skos:prefLabel xml:lang="de">Sagum</skos:prefLabel>
-        <skos:altLabel xml:lang="en">sagum</skos:altLabel>
+   <skos:altLabel xml:lang="en">sagum</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -2697,12 +2943,22 @@
         <skos:prefLabel xml:lang="de">Säule</skos:prefLabel>
         <skos:altLabel xml:lang="hu">oszlop</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=479">
+                <skos:prefLabel xml:lang="de">Säule</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/279">
         <skos:prefLabel xml:lang="de">Scheibenfibel</skos:prefLabel>
         <skos:altLabel xml:lang="hu">hagymafibula</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2759">
+                <skos:prefLabel xml:lang="de">Scheibenfibel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/290">
@@ -2717,8 +2973,13 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/531">
+        <skos:prefLabel xml:lang="en">sella curulis</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <dct:created>2014-02-01 17:33:39</dct:created>
+    </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/292">
-        <skos:prefLabel xml:lang="la">Sella curulis</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sella curulis</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -2735,7 +2996,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/293">
         <skos:prefLabel xml:lang="de">Serapis</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Serapis</skos:altLabel>
+<skos:altLabel xml:lang="en">Serapis</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -2751,6 +3012,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/787">
                 <skos:prefLabel xml:lang="fr">Serpent</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2786">
+                <skos:prefLabel xml:lang="de">Schlange</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -2815,6 +3081,11 @@
         <skos:prefLabel xml:lang="de">Sphinx</skos:prefLabel>
         <skos:altLabel xml:lang="hu">szfinx</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7623">
+                <skos:prefLabel xml:lang="de">Sphinx</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/302">
@@ -2843,6 +3114,11 @@
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/498">
+        <skos:prefLabel xml:lang="en">talpazat</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <dct:created>2014-02-01 17:33:39</dct:created>
+    </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/308">
         <skos:prefLabel xml:lang="de">Tänien</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
@@ -2855,6 +3131,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/799">
                 <skos:prefLabel xml:lang="fr">Théâtre</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4068">
+                <skos:prefLabel xml:lang="de">Theater</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -2871,6 +3152,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/796">
                 <skos:prefLabel xml:lang="fr">Temple</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3034">
+                <skos:prefLabel xml:lang="de">Tempel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -2904,8 +3190,9 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/316">
         <skos:prefLabel xml:lang="la">Toga</skos:prefLabel>
+        <skos:altLabel xml:lang="it">toga</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
-        <dct:created>2013-10-02 01:02:39</dct:created>
+        <dct:created>2014-02-01 17:33:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/317">
         <skos:prefLabel xml:lang="la">Toga contabulata</skos:prefLabel>
@@ -2941,6 +3228,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/795">
                 <skos:prefLabel xml:lang="hu">Taureau</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7603">
+                <skos:prefLabel xml:lang="de">Stierschädel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -3001,6 +3293,16 @@
                 <skos:prefLabel xml:lang="fr">Urne</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3696">
+                <skos:prefLabel xml:lang="de">Aschenurne</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3125">
+                <skos:prefLabel xml:lang="de">Urne</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/150">
@@ -3015,6 +3317,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/706">
                 <skos:prefLabel xml:lang="de">Traube</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6042">
+                <skos:prefLabel xml:lang="de">Traubeneiche</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -3037,6 +3344,11 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/332">
         <skos:prefLabel xml:lang="la">Volumen</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3178">
+                <skos:prefLabel xml:lang="de">Volumen</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/333">
@@ -3047,14 +3359,24 @@
                 <skos:prefLabel xml:lang="fr">Volute</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3179">
+                <skos:prefLabel xml:lang="de">Volute</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/260">
-        <skos:prefLabel xml:lang="de">Volutenpolster; Pulvinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Volutenpolster;Pulvinus</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/762">
                 <skos:prefLabel xml:lang="fr">Puluinus</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=616">
+                <skos:prefLabel xml:lang="de">Volutenpolster</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
