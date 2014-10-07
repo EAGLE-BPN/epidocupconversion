@@ -13,12 +13,12 @@
         <dc:subject/>
         <dc:description><![CDATA[  ]]></dc:description>
         <dc:date>0000-00-00</dc:date>
-        <dct:modified>2013-08-01 12:08:09</dct:modified>
+        <dct:modified>2014-03-19 09:37:48</dct:modified>
         <dc:language>en</dc:language>
     </skos:ConceptScheme>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/4">
         <skos:prefLabel xml:lang="en">Broken</skos:prefLabel>
-        <skos:altLabel xml:lang="it">rotta</skos:altLabel>
+        <skos:altLabel xml:lang="it">rota</skos:altLabel>
         <skos:scopeNote xml:lang="it">Documento mutilo, di cui si conserva pidella
             metdell'iscrizione completa.</skos:scopeNote>
         <skos:historyNote xml:lang="it">Esempi: EDR000779 EDR000940</skos:historyNote>
@@ -54,9 +54,14 @@
         </skos:exactMatch>
         <dct:created>2013-10-02 00:41:34</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/24">
+        <skos:prefLabel xml:lang="en">contigous</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2014-03-19 09:37:30</dct:created>
+    </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/1">
         <skos:prefLabel xml:lang="en">Good</skos:prefLabel>
-        <skos:altLabel xml:lang="sp">bueno</skos:altLabel>
+        <skos:altLabel xml:lang="en">bueno</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
         <dct:created>2013-10-02 00:41:34</dct:created>
     </skos:Concept>
@@ -81,9 +86,14 @@
         </skos:exactMatch>
         <dct:created>2013-10-02 00:41:34</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/23">
+        <skos:prefLabel xml:lang="en">intact</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2014-03-19 09:32:23</dct:created>
+    </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/9">
         <skos:prefLabel xml:lang="en">Lost</skos:prefLabel>
-        <skos:altLabel xml:lang="sp">perdido</skos:altLabel>
+        <skos:altLabel xml:lang="es">perdido</skos:altLabel>
         <skos:altLabel xml:lang="de">verschollen</skos:altLabel>
         <skos:scopeNote xml:lang="it">Documento perduto.</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
@@ -93,6 +103,11 @@
         <skos:prefLabel xml:lang="en">lost but recorded</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
         <dct:created>2013-10-02 00:41:34</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/25">
+        <skos:prefLabel xml:lang="en">non-contigous</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2014-03-19 09:37:48</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/3">
         <skos:prefLabel xml:lang="en">Probably complete</skos:prefLabel>
