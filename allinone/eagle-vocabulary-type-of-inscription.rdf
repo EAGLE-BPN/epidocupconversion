@@ -172,6 +172,7 @@
         <skos:prefLabel xml:lang="de">Bauinschrift</skos:prefLabel>
         <skos:altLabel xml:lang="de">Bauinschrift, öffentlich und privat</skos:altLabel>
         <skos:altLabel xml:lang="en">Building / dedicatory inscription</skos:altLabel>
+        <skos:altLabel xml:lang="en">Building inscription</skos:altLabel>
         <skos:altLabel xml:lang="en">building text</skos:altLabel>
         <skos:altLabel xml:lang="hu">építési felirat</skos:altLabel>
         <skos:altLabel xml:lang="fr">Inscriptions sur un bâtiment public ou privé</skos:altLabel>
