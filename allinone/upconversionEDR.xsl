@@ -29,8 +29,14 @@
                                 </choice>
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
+  <!-- gap    omitted                  -->
+                                <xsl:analyze-string select="." regex="(&lt;|&#12296;)(\-\-\-)(&gt;|&#12297;)">
+                                    <xsl:matching-substring>
+                                        <gap reason="omitted" extent="unknown" unit="character"/>
+                                    </xsl:matching-substring>
+                                    <xsl:non-matching-substring>
 <!--      omitted                  -->
-                                <xsl:analyze-string select="." regex="(&lt;)(\w*?)(&gt;)">
+                                <xsl:analyze-string select="." regex="(&lt;|&#12296;)(\w*?)(&gt;|&#12297;)">
                                     <xsl:matching-substring>
                                         <supplied reason="omitted">
                                             <xsl:value-of select="regex-group(2)"/>
@@ -1291,6 +1297,8 @@
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
                     </xsl:non-matching-substring>
+                </xsl:analyze-string>
+            </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
