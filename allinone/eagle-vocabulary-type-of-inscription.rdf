@@ -1370,6 +1370,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/79">
         <skos:prefLabel xml:lang="la">Sacer</skos:prefLabel>
         <skos:altLabel xml:lang="it">dedica</skos:altLabel>
+        <skos:altLabel xml:lang="it">dedication</skos:altLabel>
         <skos:altLabel xml:lang="es">inscripción religiosa</skos:altLabel>
         <skos:altLabel xml:lang="en">religious</skos:altLabel>
         <skos:altLabel xml:lang="en">texte religieux</skos:altLabel>

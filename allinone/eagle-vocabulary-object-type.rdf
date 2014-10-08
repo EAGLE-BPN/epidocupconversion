@@ -7459,7 +7459,6 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/33">
         <skos:prefLabel xml:lang="de">Votivaltar</skos:prefLabel>
         <skos:altLabel xml:lang="la">ara, votum</skos:altLabel>
-        <skos:altLabel xml:lang="en">Dedication</skos:altLabel>
         <skos:altLabel xml:lang="en">Dedication Stone</skos:altLabel>
         <skos:altLabel xml:lang="hu">fogadalmi oltár</skos:altLabel>
         <skos:altLabel xml:lang="en">Votive altar</skos:altLabel>
