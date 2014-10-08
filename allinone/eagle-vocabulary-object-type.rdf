@@ -7458,13 +7458,13 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/33">
         <skos:prefLabel xml:lang="de">Votivaltar</skos:prefLabel>
-        <skos:altLabel xml:lang="fr">autel votive</skos:altLabel>
+        <skos:altLabel xml:lang="fr">autel votif</skos:altLabel>
         <skos:altLabel xml:lang="la">ara, votum</skos:altLabel>
         <skos:altLabel xml:lang="en">Dedication Stone</skos:altLabel>
         <skos:altLabel xml:lang="hu">fogadalmi oltár</skos:altLabel>
         <skos:altLabel xml:lang="en">Votive altar</skos:altLabel>
         <skos:altLabel xml:lang="de">Weihaltar</skos:altLabel>
-        <skos:scopeNote xml:lang="fr">Un autel votive se composent en gal d’un socle (plinthe), d’un
+        <skos:scopeNote xml:lang="fr">Un autel votif se composent en gal d’un socle (plinthe), d’un
             det d’un couronnement formpar une corniche, surmont d’une cimaise.Nous avons
             certainement affaire un autel votif si dans la cimaise est prent un focus qui sert aux
             sacrifices et aux libations. Le focus peut manquer, mais, si l’on trouve au sommet des
