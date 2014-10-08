@@ -92,7 +92,19 @@
                                                               <gap reason="lost" extent="unknown" unit="character"/>
                                                           </xsl:matching-substring>
                                                           <xsl:non-matching-substring>
-           <!--     line gap                                   -->
+         <!--     one line gap                                   -->
+                                                              <xsl:analyze-string select="." regex="\[(7)\]">
+                                                                  <xsl:matching-substring>
+                                                                      <gap reason="lost" quantity="1" unit="line"/>
+                                                                  </xsl:matching-substring>
+                                                                  <xsl:non-matching-substring>      
+              <!-- perhaps     one line gap                                   -->
+                                                                      <xsl:analyze-string select="." regex="\[(8)\]">
+                                                                          <xsl:matching-substring>
+                                                                              <gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap>
+                                                                          </xsl:matching-substring>
+                                                                          <xsl:non-matching-substring>    
+ <!--     line gap                                   -->
                                                       <xsl:analyze-string select="." regex="\[(6)\]|\[(\-\-\-\-\-\-)\]">
                                                   <xsl:matching-substring>
                                                   <gap reason="lost" quantity="1" unit="line"/>
@@ -1047,9 +1059,12 @@
                                                 </xsl:analyze-string>
                                             </xsl:non-matching-substring>
                                         </xsl:analyze-string>
+                        
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
                                     </xsl:non-matching-substring>
-                                </xsl:analyze-string><!--
+                                </xsl:analyze-string>
                             </xsl:non-matching-substring>
-                        </xsl:analyze-string>-->
+                        </xsl:analyze-string>
     </xsl:template>
 </xsl:stylesheet>
