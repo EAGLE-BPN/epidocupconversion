@@ -1714,6 +1714,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/372">
         <skos:prefLabel xml:lang="en">votive inscription</skos:prefLabel>
+        <skos:altLabel xml:lang="en">inscription votive</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/83"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/82"/>
