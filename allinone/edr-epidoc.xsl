@@ -13,6 +13,10 @@
         </xsl:copy>
     </xsl:template>
     
+    
+    <!--inserts trismegistos id-->
+    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/tmidEDR.xsl"/>
+    
     <!--  Create descriptive Title required from Europeana from Object Type and Inscription Type  -->
     <!--    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/maketitledr.xsl"/>-->
         

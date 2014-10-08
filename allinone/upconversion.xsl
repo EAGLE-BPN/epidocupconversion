@@ -121,9 +121,7 @@
                                                                   <xsl:matching-substring>
                                                                       <gap reason="lost" quantity="1" unit="character"/>
                                                                   </xsl:matching-substring>
-                                                                  <xsl:non-matching-substring>
-                                                                      
-                                                                      
+                                                                  <xsl:non-matching-substring> 
                                                       <xsl:analyze-string select="."
                                                           regex="\[(.*?)\]">
                                                           <xsl:matching-substring>
@@ -168,7 +166,7 @@
                                                                           </expan>
                                                                       </xsl:matching-substring>
                                                                       <xsl:non-matching-substring>
-                                                                          <!--              expan + abbr + eventually ? in ex-->
+<!--              expan + abbr + eventually ? in ex-->
                                                                           <xsl:analyze-string select="."
                                                                               regex="([A-Za-z0-9]+)\((.*?)\)([A-Za-z0-9]+)*">
                                                                               <xsl:matching-substring>
@@ -193,7 +191,7 @@
                                                                                   </expan>
                                                                               </xsl:matching-substring>
                                                                               <xsl:non-matching-substring>
-                                                                                  <!--|(centuria)-->
+ <!--|(centuria)-->
                                                                                   <xsl:analyze-string select="."
                                                                                       regex="\|\(centuria\)">
                                                                                       <xsl:matching-substring>
@@ -209,7 +207,7 @@
                                                                                           </expan>
                                                                                       </xsl:matching-substring>
                                                                                       <xsl:non-matching-substring>
-                                                                                          <!--@(obitus)         -->
+   <!--@(obitus)         -->
                                                                                           <xsl:analyze-string select="."
                                                                                               regex="(@)\(obitus\)">
                                                                                               <xsl:matching-substring>
@@ -225,7 +223,7 @@
                                                                                                   </expan>
                                                                                               </xsl:matching-substring>
                                                                                               <xsl:non-matching-substring>
-                                                                                                  <!--(Luci) lib-->
+<!--(Luci) lib-->
                                                                                                   <xsl:analyze-string select="."
                                                                                                       regex="\|\(([A-Za-z0-9]+)\)\s(lib)">
                                                                                                       <xsl:matching-substring>
@@ -243,7 +241,7 @@
                                                                                                           <abbr><xsl:text>lib</xsl:text></abbr>
                                                                                                       </xsl:matching-substring>
                                                                                                       <xsl:non-matching-substring>
-                                                                                                          <!--       W(mulieris)           -->
+     <!--       W(mulieris)           -->
                                                                                                           <xsl:analyze-string select="."
                                                                                                               regex="((W)\(mulieris\))">
                                                                                                               <xsl:matching-substring>
@@ -343,7 +341,7 @@
                                                                       </expan>
                                                                   </xsl:matching-substring>
                                                                   <xsl:non-matching-substring>
-                                                                      <!--              expan + abbr + eventually ? in ex-->
+   <!--              expan + abbr + eventually ? in ex-->
                                                                       <xsl:analyze-string select="."
                                                                           regex="([A-Za-z0-9]+)\((.*?)\)([A-Za-z0-9]+)*">
                                                                           <xsl:matching-substring>
@@ -368,7 +366,7 @@
                                                                               </expan>
                                                                           </xsl:matching-substring>
                                                                           <xsl:non-matching-substring>
-                                                                              <!--|(centuria)-->
+     <!--|(centuria)-->
                                                                               <xsl:analyze-string select="."
                                                                                   regex="\|\(centuria\)">
                                                                                   <xsl:matching-substring>
@@ -384,7 +382,7 @@
                                                                                       </expan>
                                                                                   </xsl:matching-substring>
                                                                                   <xsl:non-matching-substring>
-                                                                                      <!--@(obitus)         -->
+      <!--@(obitus)         -->
                                                                                       <xsl:analyze-string select="."
                                                                                           regex="(@)\(obitus\)">
                                                                                           <xsl:matching-substring>
@@ -400,7 +398,7 @@
                                                                                               </expan>
                                                                                           </xsl:matching-substring>
                                                                                           <xsl:non-matching-substring>
-                                                                                              <!--(Luci) lib-->
+     <!--(Luci) lib-->
                                                                                               <xsl:analyze-string select="."
                                                                                                   regex="\|\(([A-Za-z0-9]+)\)\s(lib)">
                                                                                                   <xsl:matching-substring>
@@ -418,7 +416,7 @@
                                                                                                       <abbr><xsl:text>lib</xsl:text></abbr>
                                                                                                   </xsl:matching-substring>
                                                                                                   <xsl:non-matching-substring>
-                                                                                                      <!--       W(mulieris)           -->
+  <!--       W(mulieris)           -->
                                                                                                       <xsl:analyze-string select="."
                                                                                                           regex="((W)\(mulieris\))">
                                                                                                           <xsl:matching-substring>
@@ -467,7 +465,7 @@
                                                   </del>
                                                   </xsl:matching-substring>
                                                   <xsl:non-matching-substring>
-          <!--     extent unknown gap                                   -->
+ <!--     extent unknown gap                                   -->
                                                       <xsl:analyze-string select="." regex="\[(3)\]|\[(\-\-\-)\]">
                                                           <xsl:matching-substring>
                                                               <gap reason="lost" extent="unknown"
@@ -647,7 +645,7 @@
                                                                                                           </expan>
                                                                                                       </xsl:matching-substring>
                                                                                                       <xsl:non-matching-substring>
-                                                                                                          <!--|(centuria)-->
+      <!--|(centuria)-->
                                                                                               <xsl:analyze-string select="."
                                                                                                   regex="\|\(centuria\)">
                                                                                                   <xsl:matching-substring>
@@ -663,7 +661,7 @@
                                                                                                       </expan>
                                                                                                   </xsl:matching-substring>
                                                                                                   <xsl:non-matching-substring>
-                                                                                                      <!--@(obitus)         -->
+          <!--@(obitus)         -->
                                                                                                       <xsl:analyze-string select="."
                                                                                                           regex="(@)\(obitus\)">
                                                                                                           <xsl:matching-substring>
@@ -679,7 +677,7 @@
                                                                                                               </expan>
                                                                                                           </xsl:matching-substring>
                                                                                                           <xsl:non-matching-substring>
-                                                                                                              <!--(Luci) lib-->
+            <!--(Luci) lib-->
                                                                                                               <xsl:analyze-string select="."
                                                                                                                   regex="\|\(([A-Za-z0-9]+)\)\s(lib)">
                                                                                                                   <xsl:matching-substring>
@@ -697,7 +695,7 @@
                                                                                                                       <abbr><xsl:text>lib</xsl:text></abbr>
                                                                                                                   </xsl:matching-substring>
                                                                                                                   <xsl:non-matching-substring>
-                                                                                                                      <!--       W(mulieris)           -->
+                <!--       W(mulieris)           -->
                                                                                                                       <xsl:analyze-string select="."
                                                                                                                           regex="((W)\(mulieris\))">
                                                                                                                           <xsl:matching-substring>
