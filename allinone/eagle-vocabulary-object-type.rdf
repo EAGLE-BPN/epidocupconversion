@@ -5201,7 +5201,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/260">
         <skos:prefLabel xml:lang="es">Placa</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Plate / Slab</skos:altLabel>
+        <skos:altLabel xml:lang="en">Plate</skos:altLabel>
+        <skos:altLabel xml:lang="en">Slab</skos:altLabel>
         <skos:altLabel xml:lang="de">Platte</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/257"/>
@@ -7458,6 +7459,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/33">
         <skos:prefLabel xml:lang="de">Votivaltar</skos:prefLabel>
         <skos:altLabel xml:lang="la">ara, votum</skos:altLabel>
+        <skos:altLabel xml:lang="en">Dedication</skos:altLabel>
         <skos:altLabel xml:lang="en">Dedication Stone</skos:altLabel>
         <skos:altLabel xml:lang="hu">fogadalmi oltár</skos:altLabel>
         <skos:altLabel xml:lang="en">Votive altar</skos:altLabel>
