@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Controlled Vocabularies of the Inscriptions of Dacia</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>UBB</authority>
+			</publicationStmt>
+			<sourceDesc>
+				<p>UBB</p>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="pietroliuzzo" when="2014-10-09+02:00">Created from files</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="material">
+				<list>
+					<item>-</item>
+					<item>?</item>
+					<item>andesite</item>
+					<item>ardoise</item>
+					<item>bronze</item>
+					<item>calcaire</item>
+					<item>clay</item>
+					<item>conglomérat calcareux</item>
+					<item>Céramique</item>
+					<item>engraved</item>
+					<item>gold</item>
+					<item>grit stone</item>
+					<item>grit-stone</item>
+					<item>grès</item>
+					<item>lead</item>
+					<item>Limestone</item>
+					<item>Marble</item>
+					<item>marbre</item>
+					<item>Marbre de Prokonnesos</item>
+					<item>mrearb</item>
+					<item>pottery</item>
+					<item>probablement en marbre</item>
+					<item>Sandstone</item>
+					<item>tuf volcanique</item>
+					<item>tuff</item>
+					<item>wood</item>
+					
+				</list>
+			</div>
+<div xml:id="typeofinscription">
+				<list>
+					<item>?</item>
+					<item>Border delimitation</item>
+					<item>Boundary inscription</item>
+					<item>building / honorific inscription</item>
+					<item>building inscription</item>
+					<item>building inscription ?</item>
+					<item>cippus</item>
+					<item>contract</item>
+					<item>Dedication</item>
+					<item>epitaph</item>
+					<item>Estampille tégulaire</item>
+					<item>Funerary</item>
+					<item>funerary inscription</item>
+					<item>Funerary?</item>
+					<item>groma</item>
+					<item>honorary inscription</item>
+					<item>Honorific</item>
+					<item>honorific monument</item>
+					<item>honorific statue ?</item>
+					<item>Inscription de construction</item>
+					<item>Inscription funéraire</item>
+					<item>Inscription funéraire ou votive</item>
+					<item>Inscription funéraire ou votive fragmentaire</item>
+					<item>Inscription honorifique</item>
+					<item>Inscription probablement fragmentaire</item>
+					<item>Inscription probablement funéraire</item>
+					<item>Inscription sur instrumentum</item>
+					<item>inscription votive</item>
+					<item>Inscription votive et de construction</item>
+					<item>Inscription votive ou honorifique</item>
+					<item>Inscription votive?</item>
+					<item>instrumentum</item>
+					<item>instrumentum militare</item>
+					<item>label</item>
+					<item>list</item>
+					<item>prayer ?</item>
+					<item>self-disolving declaration</item>
+					<item>Votive</item>
+					<item>votive / honorific inscription</item>
+					<item>votive inscription</item>
+					<item>votive inscription ?</item>
+				</list>
+			</div>
+						<div xml:id="objectType">
+				<list>
+					<item>?</item>
+					<item>Altar</item>
+					<item>altar / statue base</item>
+					<item>Altar or statue base</item>
+					<item>amphora</item>
+					<item>architectural piece</item>
+					<item>architrave</item>
+					<item>Autel ou base de statue</item>
+					<item>Autel votif</item>
+					<item>Autel votif ou base de statue</item>
+					<item>Base de monument funéraire</item>
+					<item>Base de monument funéraire, deux fragments</item>
+					<item>Base de statue</item>
+					<item>Base de statue en tuf volcanique, se composant d’un dé et d’une plinthe</item>
+					<item>Base de statue impériale</item>
+					<item>Base de statue impériale, fragment</item>
+					<item>Base de statue, le dé</item>
+					<item>Base or altar</item>
+					<item>Block</item>
+					<item>Border stone</item>
+					<item>Boundary Stone</item>
+					<item>bowl fragment</item>
+					<item>bowl rim</item>
+					<item>brick</item>
+					<item>Brique de pile d'hypocauste</item>
+					<item>Brique de suspensura</item>
+					<item>Brique ou tuile</item>
+					<item>Briques et tuiles</item>
+					<item>Cippus</item>
+					<item>Colonne votive</item>
+					<item>Colonne votive / base de statue</item>
+					<item>Colonne votive pour le salut de Septime Sévère et Caracalla</item>
+					<item>column</item>
+					<item>Column base</item>
+					<item>donarium</item>
+					<item>Dé ( ? ) d'un monument funéraire, fragment</item>
+					<item>Dé d'une base de monument funéraire</item>
+					<item>Dé d'une base de monument funéraire, fragment</item>
+					<item>Dé d'une base funéraire</item>
+					<item>Dé en calcaire d'une base de monument funéraire</item>
+					<item>Dé ou stéle funéraire, fragment</item>
+					<item>fibula</item>
+					<item>fitting</item>
+					<item>Fragment</item>
+					<item>Fragmentary statue base</item>
+					<item>instrumentum ( lead ingot )</item>
+					<item>jug</item>
+					<item>lamp</item>
+					<item>lamp mould</item>
+					<item>lid</item>
+					<item>monument base</item>
+					<item>monument base / stela</item>
+					<item>monument base / stela</item>
+					<item>Monument funéraire</item>
+					<item>Monument funéraire ou votif</item>
+					<item>monumnet base, reused as sarcophagus</item>
+					<item>mortarium</item>
+					<item>mouth and neck of a picher</item>
+					<item>pillar</item>
+					<item>plaque</item>
+					<item>plaque / stela</item>
+					<item>Plaque base de monument funéraire, fragment</item>
+					<item>Plaque de construction</item>
+					<item>Plaque de construction, deux fragments</item>
+					<item>Plaque funéraire</item>
+					<item>Plaque funéraire appartenant à un mausolée</item>
+					<item>Plaque funéraire, 2 fragments</item>
+					<item>Plaque funéraire, fragment</item>
+					<item>Plaque honorifique</item>
+					<item>Plaque honorifique encastrée dans une base</item>
+					<item>Plaque honorifique encastrée dans une base, deux fragments</item>
+					<item>Plaque honorifique encastrée dans une base, fragments</item>
+					<item>Plaque honorifique, partie inférieure</item>
+					<item>Plaque honorifique, partie supérieure gauche</item>
+					<item>Plaque ou base de monument funéraire</item>
+					<item>Plaque ou base de monument funéraire, 1 fragments</item>
+					<item>Plaque ou base de monument funéraire, 6 fragments</item>
+					<item>Plaque votive</item>
+					<item>Plaque votive encastrée dans une base</item>
+					<item>plaque votive ou honorifique</item>
+					<item>Plaque votive(?)</item>
+					<item>Plaque, stèle ou base de monument funéraire</item>
+					<item>plaque, tabula ansata</item>
+					<item>plaquette</item>
+					<item>Plate</item>
+					<item>pondus(instrumentum)</item>
+					<item>pot foot</item>
+					<item>pot fragment</item>
+					<item>pot rim</item>
+					<item>Probably an architrave</item>
+					<item>probably part of the groma monument</item>
+					<item>Relief votif</item>
+					<item>Relief votif ou autel</item>
+					<item>ring</item>
+					<item>sarcophagus</item>
+					<item>Signaculum</item>
+					<item>Slab</item>
+					<item>Small altar</item>
+					<item>statue / altar base</item>
+					<item>Statue avec sa base</item>
+					<item>Statue base</item>
+					<item>statue base / altar</item>
+					<item>statue base ?</item>
+					<item>stela</item>
+					<item>Stele</item>
+					<item>Stele ?</item>
+					<item>stella</item>
+					<item>Stèle en calcaire</item>
+					<item>Stèle funeraire, fragment</item>
+					<item>Stèle funéeraire</item>
+					<item>Stèle funéraire</item>
+					<item>Stèle funéraire avec la représentation du banquet funéraire</item>
+					<item>Stèle funéraire fragmentaire</item>
+					<item>Stèle funéraire, 11 fragments</item>
+					<item>Stèle funéraire, 6 morceaux</item>
+					<item>Stèle funéraire, fragment</item>
+					<item>Stèle funéraire, trois fragments</item>
+					<item>Stèle ou base de monument funéraire</item>
+					<item>Stèle ou base de monument funéraire, fragment</item>
+					<item>Stèle ou base funéraire, 4 Fragments</item>
+					<item>Stèle ou plaque funéraire</item>
+					<item>Stèle ou plaque funéraire, 2 fragments</item>
+					<item>Stèle ou plaque funéraire, fragment</item>
+					<item>Stèle, plaque ou base de monument funéraire, fragment.</item>
+					<item>Tabula ansata</item>
+					<item>Tabula ansata, probably part of a sarcophagus</item>
+					<item>tessera</item>
+					<item>TS bowl</item>
+					<item>TS bowl foot</item>
+					<item>TS foot fragment</item>
+					<item>TS fragment</item>
+					<item>TS medalion</item>
+					<item>tuile</item>
+					<item>Tuiles</item>
+					<item>Tuiles et briques de suspensura</item>
+					<item>wax tablet</item>
+				</list>
+			</div>
+			<div xml:id="writing">
+				<list/>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -71,6 +71,15 @@
                                                             <gap reason="lost" extent="unknown" unit="line"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
+                                                                
+      <!--     gap unknown characters                                  -->
+                                                                <xsl:analyze-string select="." regex="\[(\d)\?\]">
+                                                                    <xsl:matching-substring>
+                                                                        <gap reason="lost" extent="unknown" unit="character">
+                                                                            <certainty locus="name" match=".." cert="low"/>
+                                                                            </gap>
+                                                                    </xsl:matching-substring>
+                                                                    <xsl:non-matching-substring>
      <!--     unprecise characters number gap                                  -->
                                                                 <xsl:analyze-string select="." regex="\[\-(\d)\?\-\]">
                                                                     <xsl:matching-substring>
@@ -1039,6 +1048,24 @@
                                                             </g>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
+                                                                <!--Q.Q. (:Quintorum duorum)-->
+                                                                <xsl:analyze-string select="."
+                                                                    regex="(Q.Q.)\s\(:(Quintorum duorum)\)">
+                                                                    <xsl:matching-substring>
+                                                                              <xsl:value-of select=" regex-group(1)"/>
+                                                                               <!--                                                                       
+<expan>
+                                                                            <abbr>
+                                                                                <am>
+                                                                                    <xsl:value-of select=" regex-group(1)"/>
+                                                                                </am>
+                                                                            </abbr>
+                                                                            <ex>
+                                                                                <xsl:value-of select=" regex-group(2)"/>
+                                                                            </ex>
+                                                                        </expan>-->
+                                                                    </xsl:matching-substring>
+                                                                    <xsl:non-matching-substring>
 
                                                             <!--     
      Augg. (:Augusti duo)                                                          \w+\.\s\(\:.*\)  
@@ -1284,6 +1311,8 @@
                                                             </xsl:analyze-string>
                                                             </xsl:non-matching-substring>
                                                             </xsl:analyze-string>
+                                                                    </xsl:non-matching-substring>
+                                                                </xsl:analyze-string>
                                                             </xsl:non-matching-substring>
                                                             </xsl:analyze-string>
                                                             </xsl:non-matching-substring>
@@ -1297,6 +1326,8 @@
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
                     </xsl:non-matching-substring>
+                </xsl:analyze-string>
+            </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:non-matching-substring>
                 </xsl:analyze-string>

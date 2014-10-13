@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Controlled Vocabularies of the Inscriptions of Roman Tripolitania</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>IRT</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <p>InsLib Partnership</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="pietroliuzzo" when="2014-10-09+02:00">Created from files</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="material">
+            <list>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/48">marble</item>
+               <item>black marble</item>
+               <item>brown limestone</item>
+               <item>brown sand-stone</item>
+               <item>brownish-grey limestone</item>
+               <item>cipollino</item>
+               <item>cipollino</item>
+               <item>coarse grey limestone</item>
+               <item>cream marble</item>
+               <item>cream marble</item>
+               <item>cream marble flecked with brown</item>
+               <item>dark grey marble</item>
+               <item>dark limestone</item>
+               <item>dark limestone</item>
+               <item>fine brown limestone</item>
+               <item>green sandstone</item>
+               <item>grey limestone</item>
+               <item>grey and grey-brown limestone</item>
+               <item>grey brown limestone</item>
+               <item>grey granite</item>
+               <item>grey limestone</item>
+               <item>grey limestone</item>
+               <item>grey marble</item>
+               <item>grey sandstone</item>
+               <item>grey-brown limestone</item>
+               <item>grey-flecked white</item>
+               <item>grey-flecked, white marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/108">Lead</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">limestone</item>
+               <item>limestone veined with quartz</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/48">marble</item>
+               <item>marble, cream mottled with grey and purple</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/134">Mosaic</item>
+               <item>Numidian marble</item>
+               <item>pink limestone</item>
+               <item>pink-grained white marble</item>
+               <item>pinkish brown limestone</item>
+               <item>pitted grey limestone</item>
+               <item>Portasanta marble</item>
+               <item>Purple breccia</item>
+               <item>red Egyptian granite</item>
+               <item>sand-stone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/502">sandstone</item>
+               <item>stuccoed sandstone</item>
+               <item>white marble</item>
+               <item>white limestone</item>
+               <item>white marble</item>
+               <item>White Pentelic marble</item>
+               <item>yellow and white marble</item>
+               <item>Yellow breccia</item>
+               <item>yellow limestone</item>
+               <item>yellow marble</item>
+               <item>yellow-brown limestone</item>
+               <item>yellowish limestone</item>
+               <item>yellowish-grey limestone</item>
+            </list>
+         </div>
+         <div xml:id="typeofinscription">
+            <list>
+               <item>street sign</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/355">Acclamation</item>
+               <item>Apotropaic</item>
+               <item>benefaction</item>
+               <item>Boundary</item>
+               <item>Building</item>
+               <item>Christian</item>
+               <item>Decree</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/79">Dedication</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/11">Donation</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/92">Funerary</item>
+               <item>Gameboard text</item>
+               <item>greeting</item>
+               <item>honours</item>
+               <item>imperial titulature</item>
+               <item>invocation</item>
+               <item>Libyan</item>
+               <item>Mason's marks</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/102">milestone</item>
+               <item>monogram</item>
+               <item>Posthumous</item>
+               <item>quarry-mark</item>
+               <item>Sculptor's signature</item>
+               <item>stamp</item>
+               <item>Testamentary</item>
+               <item>Title</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/368">verse</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/83">Votive</item>
+               <item>Water-pipe </item>
+            </list>
+         </div>
+         <div xml:id="objectType">
+            <list>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/29">altar</item>
+               <item>arch</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1511">architrave</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1845">archivolt</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/199">Balustrade</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/53">base</item>
+               <item>base panel</item>
+               <item>benches</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/189">block</item>
+               <item>Block frieze mausoleum</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/310">bowl</item>
+               <item>Bracket</item>
+               <item>capitals</item>
+               <item>Catacomb</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/78">cinerary urn</item>
+               <item>Colonnette</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/100">column</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/107">console</item>
+               <item>emblema</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1868">entablature</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/37">exedra</item>
+               <item>Keystone</item>
+               <item>Lintel</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/89">Milestone</item>
+               <item>mosaic panel</item>
+               <item>mosaic pavement</item>
+               <item>panel</item>
+               <item>panel mosaic</item>
+               <item>Panel panel</item>
+               <item>panel stele</item>
+               <item>paving-slab</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/194">pilaster</item>
+               <item>plinths</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1911">Podium</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1446">sarcophagus</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/259">slab</item>
+               <item>stelae</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/250">stele</item>
+               <item>sundial</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/157">table</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/447">Tomb</item>
+               <item>Tomb-slab</item>
+               <item>water-pipe</item>
+            </list>
+         </div>
+         <div xml:id="writing">
+            <list>
+               <item>scalpro</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>
