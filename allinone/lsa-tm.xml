@@ -1,0 +1,6579 @@
+<?ml version="1.0" encoding="UTF-8"?>
+<lsalist>
+	<item>
+		<lsa>1821</lsa>
+		<tm>200708</tm>
+	</item>
+	<item>
+		<lsa>1864</lsa>
+		<tm/> 
+	</item>
+	<item>
+		<lsa>1858</lsa>
+		<tm>253821 </tm>
+	</item>
+	<item>
+		<lsa>1859</lsa>
+		<tm>253662 </tm>
+	</item>
+	<item>
+		<lsa>1860</lsa>
+		<tm/> 
+	</item>
+	<item>
+		<lsa>1861</lsa>
+		<tm>258086 </tm>
+	</item>
+	<item>
+		<lsa>1862</lsa>
+		<tm/> 
+	</item>
+	<item>
+		<lsa>1822</lsa>
+		<tm>199235 </tm>
+	</item>
+	<item>
+		<lsa>2505</lsa>
+		<tm>202303 </tm>
+	</item>
+	<item>
+		<lsa></lsa>
+		<tm>202300 </tm>
+	</item>
+	<item>
+		<lsa></lsa>
+		<tm>202301 </tm>
+	</item>
+	<item>
+		<lsa></lsa>
+		<tm>202302 </tm>
+	</item>
+	<item>
+		<lsa>2346 </lsa>
+		<tm>201829</tm>
+	</item>
+	<item>
+		<lsa>1697</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>653</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>677</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1716</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1717</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1718</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1719</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1720</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1722</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2565</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2015</lsa>
+		<tm>240931 </tm>
+	</item>
+	<item>
+		<lsa>1857</lsa>
+		<tm>254197 </tm>
+	</item>
+	<item>
+		<lsa>1776</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1777</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1779</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>642</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2488</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1688</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>935</lsa>
+		<tm>120803 </tm>
+	</item>
+	<item>
+		<lsa>828</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>829</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>5</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>914</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>915</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2036</lsa>
+		<tm>251888 </tm>
+	</item>
+	<item>
+		<lsa>2569</lsa>
+		<tm>251890 </tm>
+	</item>
+	<item>
+		<lsa>870</lsa>
+		<tm>106275 </tm>
+	</item>
+	<item>
+		<lsa>871</lsa>
+		<tm>106276 </tm>
+	</item>
+	<item>
+		<lsa>872</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>873</lsa>
+		<tm>106315 </tm>
+	</item>
+	<item>
+		<lsa>874</lsa>
+		<tm>103043 </tm>
+	</item>
+	<item>
+		<lsa>1146</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>1179</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>2672</lsa>
+		<tm>106170 </tm>
+	</item>
+	<item>
+		<lsa>2702</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>388</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>533</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>534</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1750</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2347</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1637</lsa>
+		<tm>286692 </tm>
+	</item>
+	<item>
+		<lsa>1789</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2348</lsa>
+		<tm>203171 </tm>
+	</item>
+	<item>
+		<lsa>1826</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>535</lsa>
+		<tm>176711 </tm>
+	</item>
+	<item>
+		<lsa>2846</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1138</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>651</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>652</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2705</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>876</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>877</lsa>
+		<tm>88334 </tm>
+	</item>
+	<item>
+		<lsa>365</lsa>
+		<tm>176929 </tm>
+	</item>
+	<item>
+		<lsa>1137</lsa>
+		<tm>176956 </tm>
+	</item>
+	<item>
+		<lsa>2082</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>2087</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2088</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2089</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2090</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa></lsa>
+		<tm>176927 </tm>
+	</item>
+	<item>
+		<lsa>392</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>646</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>648</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>148</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>151</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>153</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>164</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>166</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>167</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>183</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>185</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>186</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>187</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>188</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>189</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>190</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>191</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>192</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>193</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>194</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>195</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>197</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>199</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>220</lsa>
+		<tm>176060 </tm>
+	</item>
+	<item>
+		<lsa>221</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>222</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>223</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>224</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>225</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>226</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>228</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>229</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>230</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>231</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>232</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>233</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>234</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>235</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>237</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>532</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>547</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>2564</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>2587</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>1827</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1828</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2490</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1215</lsa>
+		<tm>288862 </tm>
+	</item>
+	<item>
+		<lsa>1216</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1217</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1218</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1233</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1234</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2571</lsa>
+		<tm>122198 </tm>
+	</item>
+	<item>
+		<lsa>2572</lsa>
+		<tm>122164 </tm>
+	</item>
+	<item>
+		<lsa>2659</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2660</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa></lsa>
+		<tm>125265 </tm>
+	</item>
+	<item>
+		<lsa>626</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>595</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>998</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>999</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>324</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1829</lsa>
+		<tm>199115 </tm>
+	</item>
+	<item>
+		<lsa>1639</lsa>
+		<tm>287034 </tm>
+	</item>
+	<item>
+		<lsa>912</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>291</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>292</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1928</lsa>
+		<tm>257626 </tm>
+	</item>
+	<item>
+		<lsa>1</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>93</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>94</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>97</lsa>
+		<tm>177300 </tm>
+	</item>
+	<item>
+		<lsa>102</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>103</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>134</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>135</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>136</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>137</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>138</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>139</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>140</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>141</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>399</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>400</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>402</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>424</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>425</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>430</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1978</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>609</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1780</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2610</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2611</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2643</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2644</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2645</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2646</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1830</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1831</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1834</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1704</lsa>
+		<tm>246183 </tm>
+	</item>
+	<item>
+		<lsa>2558</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1832</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2349</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2350</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2489</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>104</lsa>
+		<tm>207440 </tm>
+	</item>
+	<item>
+		<lsa>2612</lsa>
+		<tm>207414 </tm>
+	</item>
+	<item>
+		<lsa>2613</lsa>
+		<tm>207412 </tm>
+	</item>
+	<item>
+		<lsa>2641</lsa>
+		<tm>207407 </tm>
+	</item>
+	<item>
+		<lsa>2642</lsa>
+		<tm>207441 </tm>
+	</item>
+	<item>
+		<lsa>2279</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2280</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2281</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1988</lsa>
+		<tm>236754 </tm>
+	</item>
+	<item>
+		<lsa>1989</lsa>
+		<tm>229661 </tm>
+	</item>
+	<item>
+		<lsa>1210</lsa>
+		<tm>123541 </tm>
+	</item>
+	<item>
+		<lsa>330</lsa>
+		<tm>244857 </tm>
+	</item>
+	<item>
+		<lsa>1724</lsa>
+		<tm>246651 </tm>
+	</item>
+	<item>
+		<lsa>1725</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1726</lsa>
+		<tm>244858 </tm>
+	</item>
+	<item>
+		<lsa>1727</lsa>
+		<tm>246744 </tm>
+	</item>
+	<item>
+		<lsa>1728</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1729</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1730</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1731</lsa>
+		<tm>244745 </tm>
+	</item>
+	<item>
+		<lsa>1732</lsa>
+		<tm>244746 </tm>
+	</item>
+	<item>
+		<lsa>1733</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1734</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1735</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1736</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1737</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1738</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1739</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1740</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1741</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1742</lsa>
+		<tm>246549 </tm>
+	</item>
+	<item>
+		<lsa>1745</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1746</lsa>
+		<tm>246934 </tm>
+	</item>
+	<item>
+		<lsa>1747</lsa>
+		<tm>246469 </tm>
+	</item>
+	<item>
+		<lsa>1748</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1749</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1934</lsa>
+		<tm>244961 </tm>
+	</item>
+	<item>
+		<lsa>484</lsa>
+		<tm>Literary Testimonial </tm>
+	</item>
+	<item>
+		<lsa>1153</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1190</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1833</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2355</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2356</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2577</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1148</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1149</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1150</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1151</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1775</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1991</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1600</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1601</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1602</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1603</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1184</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2357</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2358</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2385</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2386</lsa>
+		<tm>201220 </tm>
+	</item>
+	<item>
+		<lsa>2387</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2492</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2593</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2601</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2313</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2314</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2315</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2316</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2557</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>11</lsa>
+		<tm>Not in </tm>
+	</item>
+	<item>
+		<lsa>12</lsa>
+		<tm>Not in </tm>
+	</item>
+	<item>
+		<lsa>1090</lsa>
+		<tm>not in </tm>
+	</item>
+	<item>
+		<lsa>1100</lsa>
+		<tm>198174 </tm>
+	</item>
+	<item>
+		<lsa>1105</lsa>
+		<tm>198317 </tm>
+	</item>
+	<item>
+		<lsa>1106</lsa>
+		<tm>198316 </tm>
+	</item>
+	<item>
+		<lsa>1107</lsa>
+		<tm>198279 </tm>
+	</item>
+	<item>
+		<lsa>2806</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2807</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1964</lsa>
+		<tm>254390 </tm>
+	</item>
+	<item>
+		<lsa>1965</lsa>
+		<tm>254391 </tm>
+	</item>
+	<item>
+		<lsa>1966</lsa>
+		<tm>254279 </tm>
+	</item>
+	<item>
+		<lsa>1967</lsa>
+		<tm>254365 </tm>
+	</item>
+	<item>
+		<lsa>1835</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1836</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1837</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2406</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2408</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2409</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2410</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2491</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1691</lsa>
+		<tm>245787 </tm>
+	</item>
+	<item>
+		<lsa>1692</lsa>
+		<tm>245788 </tm>
+	</item>
+	<item>
+		<lsa>1698</lsa>
+		<tm>244781 </tm>
+	</item>
+	<item>
+		<lsa>1693</lsa>
+		<tm>244691 </tm>
+	</item>
+	<item>
+		<lsa>1694</lsa>
+		<tm>245999</tm>
+	</item>
+	<item>
+		<lsa>1695</lsa>
+		<tm>245760 </tm>
+	</item>
+	<item>
+		<lsa>1696</lsa>
+		<tm>245744 </tm>
+	</item>
+	<item>
+		<lsa>401</lsa>
+		<tm>250439 </tm>
+	</item>
+	<item>
+		<lsa>1930</lsa>
+		<tm>250427 </tm>
+	</item>
+	<item>
+		<lsa>1935</lsa>
+		<tm>252277 </tm>
+	</item>
+	<item>
+		<lsa>1936</lsa>
+		<tm>251339 </tm>
+	</item>
+	<item>
+		<lsa>1938</lsa>
+		<tm>250812 </tm>
+	</item>
+	<item>
+		<lsa>1939</lsa>
+		<tm>252287 </tm>
+	</item>
+	<item>
+		<lsa>1940</lsa>
+		<tm>252286 </tm>
+	</item>
+	<item>
+		<lsa>1941</lsa>
+		<tm>252225 </tm>
+	</item>
+	<item>
+		<lsa>1942</lsa>
+		<tm>252357 </tm>
+	</item>
+	<item>
+		<lsa>1943</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1958</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1959</lsa>
+		<tm>250431 </tm>
+	</item>
+	<item>
+		<lsa>1961</lsa>
+		<tm>252298 </tm>
+	</item>
+	<item>
+		<lsa>1968</lsa>
+		<tm>253316 </tm>
+	</item>
+	<item>
+		<lsa>2566</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1838</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1839</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1841</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1842</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1843</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2337</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2338</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2339</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2340</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2341</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2344</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2506</lsa>
+		<tm>202201 </tm>
+	</item>
+	<item>
+		<lsa>2771</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2249</lsa>
+		<tm>324906 </tm>
+	</item>
+	<item>
+		<lsa>2322</lsa>
+		<tm>324907 </tm>
+	</item>
+	<item>
+		<lsa>2027</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2028</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2647</lsa>
+		<tm>216645 </tm>
+	</item>
+	<item>
+		<lsa>1630</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2421</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1517</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2056</lsa>
+		<tm>175826 </tm>
+	</item>
+	<item>
+		<lsa>2057</lsa>
+		<tm>175825 </tm>
+	</item>
+	<item>
+		<lsa>1127</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1135</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1141</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2652</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2653</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2035</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>538</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>539</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>672</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1795</lsa>
+		<tm>260128 </tm>
+	</item>
+	<item>
+		<lsa>2227</lsa>
+		<tm>326762 </tm>
+	</item>
+	<item>
+		<lsa>2228</lsa>
+		<tm>326768 </tm>
+	</item>
+	<item>
+		<lsa>2229</lsa>
+		<tm>326764 </tm>
+	</item>
+	<item>
+		<lsa>2230</lsa>
+		<tm>326765 </tm>
+	</item>
+	<item>
+		<lsa>2231</lsa>
+		<tm>326763 </tm>
+	</item>
+	<item>
+		<lsa>2232</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2233</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2234</lsa>
+		<tm>207328 </tm>
+	</item>
+	<item>
+		<lsa>2235</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2319</lsa>
+		<tm>326735 </tm>
+	</item>
+	<item>
+		<lsa>2320</lsa>
+		<tm>326772 </tm>
+	</item>
+	<item>
+		<lsa>2321</lsa>
+		<tm>331270 </tm>
+	</item>
+	<item>
+		<lsa>2327</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2520</lsa>
+		<tm>207329 </tm>
+	</item>
+	<item>
+		<lsa>2536</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2599</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1623</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1087</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>366</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2596</lsa>
+		<tm>191207 </tm>
+	</item>
+	<item>
+		<lsa>2597</lsa>
+		<tm>191006 </tm>
+	</item>
+	<item>
+		<lsa>2598</lsa>
+		<tm>191005 </tm>
+	</item>
+	<item>
+		<lsa>649</lsa>
+		<tm>176019 </tm>
+	</item>
+	<item>
+		<lsa>1927</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2602</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2603</lsa>
+		<tm>191958 </tm>
+	</item>
+	<item>
+		<lsa>27</lsa>
+		<tm>197865 </tm>
+	</item>
+	<item>
+		<lsa>30</lsa>
+		<tm>197798 </tm>
+	</item>
+	<item>
+		<lsa>349</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>361</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2456</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>2461</lsa>
+		<tm>197867 </tm>
+	</item>
+	<item>
+		<lsa>2497</lsa>
+		<tm>197602 </tm>
+	</item>
+	<item>
+		<lsa>1994</lsa>
+		<tm>223615 </tm>
+	</item>
+	<item>
+		<lsa>1995</lsa>
+		<tm>223616 </tm>
+	</item>
+	<item>
+		<lsa>1996</lsa>
+		<tm>223618 </tm>
+	</item>
+	<item>
+		<lsa>1997</lsa>
+		<tm>223617 </tm>
+	</item>
+	<item>
+		<lsa>1998</lsa>
+		<tm>223619 </tm>
+	</item>
+	<item>
+		<lsa>1999</lsa>
+		<tm>223623 </tm>
+	</item>
+	<item>
+		<lsa>2000</lsa>
+		<tm>225471 </tm>
+	</item>
+	<item>
+		<lsa>16</lsa>
+		<tm>177522 </tm>
+	</item>
+	<item>
+		<lsa>17</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>18</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>26</lsa>
+		<tm>177523 </tm>
+	</item>
+	<item>
+		<lsa>50</lsa>
+		<tm>177064 </tm>
+	</item>
+	<item>
+		<lsa>51</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>52</lsa>
+		<tm>177064 </tm>
+	</item>
+	<item>
+		<lsa>53</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>58</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>60</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>61</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>62</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>359</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>942</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2236</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2237</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2238</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2239</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2240</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2241</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2243</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2244</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2245</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2246</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2247</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2248</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2250</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2251</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2252</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2323</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2324</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2325</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2848</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa></lsa>
+		<tm>204690 </tm>
+	</item>
+	<item>
+		<lsa>1925</lsa>
+		<tm>250813 </tm>
+	</item>
+	<item>
+		<lsa>1790</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1791</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2636</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>927</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>928</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>929</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>930</lsa>
+		<tm>177208 </tm>
+	</item>
+	<item>
+		<lsa>931</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1077</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>933</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>383</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>564</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>541</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>671</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>542</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1993</lsa>
+		<tm>234193 </tm>
+	</item>
+	<item>
+		<lsa>95</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>99</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2008</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2009</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2010</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2011</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2012</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2013</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2014</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>241</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>242</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>459</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>487</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>610</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>611</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>661</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>662</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>711</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>713</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>714</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>715</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>716</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>717</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>718</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>719</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>720</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>721</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>722</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>723</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>724</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>725</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>726</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>727</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>729</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>730</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>731</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>732</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>733</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>734</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>735</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>739</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>740</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>742</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>743</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>744</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>745</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>747</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>748</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>749</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>751</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1595</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2079</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2080</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2084</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2086</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>579</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>878</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>285</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2032</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2033</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2034</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1628</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1792</lsa>
+		<tm>261231 </tm>
+	</item>
+	<item>
+		<lsa>1613</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1211</lsa>
+		<tm>123600 </tm>
+	</item>
+	<item>
+		<lsa>1627</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1621</lsa>
+		<tm>248472 </tm>
+	</item>
+	<item>
+		<lsa>1214</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2040</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2042</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2043</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2044</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2045</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1609</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1969</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2683</lsa>
+		<tm>Notin </tm>
+	</item>
+	<item>
+		<lsa>2422</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1823</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2423</lsa>
+		<tm>199124 </tm>
+	</item>
+	<item>
+		<lsa>1679</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1680</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2070</lsa>
+		<tm>285178 </tm>
+	</item>
+	<item>
+		<lsa>2071</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2657</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>14</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2083</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2094</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2618</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2619</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2620</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1758</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2331</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2332</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1824</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>59</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>63</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>89</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>472</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>770</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>771</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>772</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>773</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>774</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>775</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>776</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>777</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>778</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>779</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>780</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>781</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>782</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>783</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>785</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>786</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>787</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>950</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>1177</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>1178</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>2849</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>536</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>537</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1147</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>284</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>301</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>403</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>686</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>528</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>529</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>608</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>605</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>659</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2501</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>636</lsa>
+		<tm>176718 </tm>
+	</item>
+	<item>
+		<lsa>637</lsa>
+		<tm>176719 </tm>
+	</item>
+	<item>
+		<lsa>638</lsa>
+		<tm>176720 </tm>
+	</item>
+	<item>
+		<lsa>1825</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2437</lsa>
+		<tm>199701 </tm>
+	</item>
+	<item>
+		<lsa>2001</lsa>
+		<tm>221066 </tm>
+	</item>
+	<item>
+		<lsa>1638</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>240</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>514</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>515</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2706</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>274</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>287</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>288</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>289</lsa>
+		<tm>176039 </tm>
+	</item>
+	<item>
+		<lsa>290</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>338</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1635</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1636</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2029</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2030</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2002</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2003</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1781</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1782</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1783</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>294</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>286</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>243</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1681</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2253</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2254</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2255</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2256</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2257</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2258</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2259</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2260</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2261</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2262</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2263</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2326</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2412</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1413</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1414</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1415</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2680</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2681</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2704</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2845</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2264</lsa>
+		<tm>324993 </tm>
+	</item>
+	<item>
+		<lsa>386</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>524</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>525</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>526</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>544</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>606</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2024</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2092</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2500</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1774</lsa>
+		<tm>246365 </tm>
+	</item>
+	<item>
+		<lsa>293</lsa>
+		<tm>176010 </tm>
+	</item>
+	<item>
+		<lsa>2648</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1669</lsa>
+		<tm>254844 </tm>
+	</item>
+	<item>
+		<lsa>1670</lsa>
+		<tm>254842 </tm>
+	</item>
+	<item>
+		<lsa>1671</lsa>
+		<tm>254843 </tm>
+	</item>
+	<item>
+		<lsa>1672</lsa>
+		<tm>254840 </tm>
+	</item>
+	<item>
+		<lsa>1674</lsa>
+		<tm>254832 </tm>
+	</item>
+	<item>
+		<lsa>1675</lsa>
+		<tm>254900 </tm>
+	</item>
+	<item>
+		<lsa>1676</lsa>
+		<tm>254823 </tm>
+	</item>
+	<item>
+		<lsa>1677</lsa>
+		<tm>249551 </tm>
+	</item>
+	<item>
+		<lsa>1678</lsa>
+		<tm>254845 </tm>
+	</item>
+	<item>
+		<lsa>926</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2148</lsa>
+		<tm>202689 </tm>
+	</item>
+	<item>
+		<lsa>2149</lsa>
+		<tm>202686 </tm>
+	</item>
+	<item>
+		<lsa>2150</lsa>
+		<tm>202687 </tm>
+	</item>
+	<item>
+		<lsa>2151</lsa>
+		<tm>202688 </tm>
+	</item>
+	<item>
+		<lsa>2152</lsa>
+		<tm>200194 </tm>
+	</item>
+	<item>
+		<lsa>2153</lsa>
+		<tm>202690 </tm>
+	</item>
+	<item>
+		<lsa>2154</lsa>
+		<tm>199709 </tm>
+	</item>
+	<item>
+		<lsa>2155</lsa>
+		<tm>200371 </tm>
+	</item>
+	<item>
+		<lsa>2156</lsa>
+		<tm>202693 </tm>
+	</item>
+	<item>
+		<lsa>2157</lsa>
+		<tm>200372 </tm>
+	</item>
+	<item>
+		<lsa>2158</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2159</lsa>
+		<tm>202695 </tm>
+	</item>
+	<item>
+		<lsa>2160</lsa>
+		<tm>202696 </tm>
+	</item>
+	<item>
+		<lsa>2161</lsa>
+		<tm>202697 </tm>
+	</item>
+	<item>
+		<lsa>2162</lsa>
+		<tm>202732 </tm>
+	</item>
+	<item>
+		<lsa>2163</lsa>
+		<tm>202730 </tm>
+	</item>
+	<item>
+		<lsa>2164</lsa>
+		<tm>202740 </tm>
+	</item>
+	<item>
+		<lsa>2165</lsa>
+		<tm>202731 </tm>
+	</item>
+	<item>
+		<lsa>2166</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2167</lsa>
+		<tm>202788 </tm>
+	</item>
+	<item>
+		<lsa>2168</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2169</lsa>
+		<tm>199558 </tm>
+	</item>
+	<item>
+		<lsa>2170</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2171</lsa>
+		<tm>203135 </tm>
+	</item>
+	<item>
+		<lsa>2172</lsa>
+		<tm>202755 </tm>
+	</item>
+	<item>
+		<lsa>2173</lsa>
+		<tm>200096 </tm>
+	</item>
+	<item>
+		<lsa>2174</lsa>
+		<tm>202734 </tm>
+	</item>
+	<item>
+		<lsa>2175</lsa>
+		<tm>199511 </tm>
+	</item>
+	<item>
+		<lsa>2176</lsa>
+		<tm>202738 </tm>
+	</item>
+	<item>
+		<lsa>2177</lsa>
+		<tm>202698 </tm>
+	</item>
+	<item>
+		<lsa>2178</lsa>
+		<tm>200370 </tm>
+	</item>
+	<item>
+		<lsa>2179</lsa>
+		<tm>199994 </tm>
+	</item>
+	<item>
+		<lsa>2180</lsa>
+		<tm>202905 </tm>
+	</item>
+	<item>
+		<lsa>2181</lsa>
+		<tm>201084 </tm>
+	</item>
+	<item>
+		<lsa>2182</lsa>
+		<tm>199512 </tm>
+	</item>
+	<item>
+		<lsa>2183</lsa>
+		<tm>200481 </tm>
+	</item>
+	<item>
+		<lsa>2184</lsa>
+		<tm>202761 </tm>
+	</item>
+	<item>
+		<lsa>2185</lsa>
+		<tm>199727 </tm>
+	</item>
+	<item>
+		<lsa>2186</lsa>
+		<tm>199725 </tm>
+	</item>
+	<item>
+		<lsa>2187</lsa>
+		<tm>199681 </tm>
+	</item>
+	<item>
+		<lsa>2188</lsa>
+		<tm>202759 </tm>
+	</item>
+	<item>
+		<lsa>2189</lsa>
+		<tm>202762 </tm>
+	</item>
+	<item>
+		<lsa>2190</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2191</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2192</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>2193</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2194</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2195</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2196</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2197</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2198</lsa>
+		<tm>201211 </tm>
+	</item>
+	<item>
+		<lsa>2199</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2200</lsa>
+		<tm>200369 </tm>
+	</item>
+	<item>
+		<lsa>2201</lsa>
+		<tm>202828 </tm>
+	</item>
+	<item>
+		<lsa>2202</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2203</lsa>
+		<tm>202758 </tm>
+	</item>
+	<item>
+		<lsa>2204</lsa>
+		<tm>202763 </tm>
+	</item>
+	<item>
+		<lsa>2205</lsa>
+		<tm>202786 </tm>
+	</item>
+	<item>
+		<lsa>2206</lsa>
+		<tm>200039 </tm>
+	</item>
+	<item>
+		<lsa>2207</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2208</lsa>
+		<tm>202827 </tm>
+	</item>
+	<item>
+		<lsa>2209</lsa>
+		<tm>202838 </tm>
+	</item>
+	<item>
+		<lsa>2210</lsa>
+		<tm>202865 </tm>
+	</item>
+	<item>
+		<lsa>2211</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2212</lsa>
+		<tm>202868 </tm>
+	</item>
+	<item>
+		<lsa>2213</lsa>
+		<tm>200633 </tm>
+	</item>
+	<item>
+		<lsa>2214</lsa>
+		<tm>202940 </tm>
+	</item>
+	<item>
+		<lsa>2215</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2216</lsa>
+		<tm>202572 </tm>
+	</item>
+	<item>
+		<lsa>2218</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2219</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2220</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2221</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2222</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2223</lsa>
+		<tm>202691 </tm>
+	</item>
+	<item>
+		<lsa>1723</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2055</lsa>
+		<tm>175806 </tm>
+	</item>
+	<item>
+		<lsa>2063</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2064</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2065</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2066</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2852</lsa>
+		<tm>175808 </tm>
+	</item>
+	<item>
+		<lsa>2853</lsa>
+		<tm>284556 </tm>
+	</item>
+	<item>
+		<lsa>1921</lsa>
+		<tm>254304 </tm>
+	</item>
+	<item>
+		<lsa>1711</lsa>
+		<tm>245302 </tm>
+	</item>
+	<item>
+		<lsa>1715</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1617</lsa>
+		<tm>248940 </tm>
+	</item>
+	<item>
+		<lsa>1618</lsa>
+		<tm>248927 </tm>
+	</item>
+	<item>
+		<lsa>1619</lsa>
+		<tm>248928 </tm>
+	</item>
+	<item>
+		<lsa>1620</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1085</lsa>
+		<tm>121054 </tm>
+	</item>
+	<item>
+		<lsa>1086</lsa>
+		<tm>121084 </tm>
+	</item>
+	<item>
+		<lsa>2265</lsa>
+		<tm>325241 </tm>
+	</item>
+	<item>
+		<lsa>2600</lsa>
+		<tm>325235 </tm>
+	</item>
+	<item>
+		<lsa>1743</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1756</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1757</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1759</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1760</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1761</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1878</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1879</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2438</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2446</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2447</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>613</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>614</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2007</lsa>
+		<tm>221529 </tm>
+	</item>
+	<item>
+		<lsa>934</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>949</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2448</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2059</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2062</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1604</lsa>
+		<tm>286125 </tm>
+	</item>
+	<item>
+		<lsa>1605</lsa>
+		<tm>286125 </tm>
+	</item>
+	<item>
+		<lsa>55</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>56</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>57</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>543</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2300</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2449</lsa>
+		<tm>200844 </tm>
+	</item>
+	<item>
+		<lsa>2450</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>667</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>668</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>546</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>549</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>550</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>551</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>552</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>565</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>660</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2037</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2038</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2039</lsa>
+		<tm>250192 </tm>
+	</item>
+	<item>
+		<lsa>2580</lsa>
+		<tm>250059 </tm>
+	</item>
+	<item>
+		<lsa>2581</lsa>
+		<tm>250060 </tm>
+	</item>
+	<item>
+		<lsa>1920</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2451</lsa>
+		<tm>198780 </tm>
+	</item>
+	<item>
+		<lsa>678</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2351</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2352</lsa>
+		<tm>200817 </tm>
+	</item>
+	<item>
+		<lsa>2266</lsa>
+		<tm>333711 </tm>
+	</item>
+	<item>
+		<lsa>1882</lsa>
+		<tm>199392 </tm>
+	</item>
+	<item>
+		<lsa>1883</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1615</lsa>
+		<tm>244593 </tm>
+	</item>
+	<item>
+		<lsa>1762</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1763</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>513</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>632</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>634</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>635</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>938</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>941</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>645</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2654</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2655</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1634</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>326</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>327</lsa>
+		<tm>249661 </tm>
+	</item>
+	<item>
+		<lsa>340</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1874</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1875</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1876</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1877</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1901</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1906</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1907</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1908</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2452</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2453</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1629</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>295</lsa>
+		<tm>176538 </tm>
+	</item>
+	<item>
+		<lsa>296</lsa>
+		<tm>176537 </tm>
+	</item>
+	<item>
+		<lsa>628</lsa>
+		<tm>176405 </tm>
+	</item>
+	<item>
+		<lsa>629</lsa>
+		<tm>176576 </tm>
+	</item>
+	<item>
+		<lsa>630</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>631</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>633</lsa>
+		<tm>176586 </tm>
+	</item>
+	<item>
+		<lsa>664</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa></lsa>
+		<tm>176604 </tm>
+	</item>
+	<item>
+		<lsa>1865</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1866</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1867</lsa>
+		<tm>256500 </tm>
+	</item>
+	<item>
+		<lsa>1868</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1869</lsa>
+		<tm>253601 </tm>
+	</item>
+	<item>
+		<lsa>1870</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1871</lsa>
+		<tm>254720 </tm>
+	</item>
+	<item>
+		<lsa>1872</lsa>
+		<tm>254025 </tm>
+	</item>
+	<item>
+		<lsa>1873</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1231</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>1232</lsa>
+		<tm> </tm>
+	</item>
+	<item>
+		<lsa>1102</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1103</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2445</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2594</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2850</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2851</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>658</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1632</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1633</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2682</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>366</lsa>
+		<tm>191207 </tm>
+	</item>
+	<item>
+		<lsa>2596</lsa>
+		<tm>191207 </tm>
+	</item>
+	<item>
+		<lsa>2597</lsa>
+		<tm>191006 </tm>
+	</item>
+	<item>
+		<lsa>2598</lsa>
+		<tm>191005 </tm>
+	</item>
+	<item>
+		<lsa>2074</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2076</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>792</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1161</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>794</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>394</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2016</lsa>
+		<tm>240840 </tm>
+	</item>
+	<item>
+		<lsa>329</lsa>
+		<tm>249876 </tm>
+	</item>
+	<item>
+		<lsa>1645</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1646</lsa>
+		<tm>258256 </tm>
+	</item>
+	<item>
+		<lsa>1647</lsa>
+		<tm>258257 </tm>
+	</item>
+	<item>
+		<lsa>1649</lsa>
+		<tm>258258 </tm>
+	</item>
+	<item>
+		<lsa>1651</lsa>
+		<tm>258259 </tm>
+	</item>
+	<item>
+		<lsa>1653</lsa>
+		<tm>256152 </tm>
+	</item>
+	<item>
+		<lsa>1654</lsa>
+		<tm>258260 </tm>
+	</item>
+	<item>
+		<lsa>1655</lsa>
+		<tm>254784 </tm>
+	</item>
+	<item>
+		<lsa>1656</lsa>
+		<tm>254938 </tm>
+	</item>
+	<item>
+		<lsa>1657</lsa>
+		<tm>254788 </tm>
+	</item>
+	<item>
+		<lsa>1659</lsa>
+		<tm>254852 </tm>
+	</item>
+	<item>
+		<lsa>1661</lsa>
+		<tm>229603 </tm>
+	</item>
+	<item>
+		<lsa>1662</lsa>
+		<tm>249560 </tm>
+	</item>
+	<item>
+		<lsa>1667</lsa>
+		<tm>255111 </tm>
+	</item>
+	<item>
+		<lsa>2539</lsa>
+		<tm>250115 </tm>
+	</item>
+	<item>
+		<lsa>2540</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2574</lsa>
+		<tm>251596 </tm>
+	</item>
+	<item>
+		<lsa>2578</lsa>
+		<tm>254785 </tm>
+	</item>
+	<item>
+		<lsa>2582</lsa>
+		<tm>250004 </tm>
+	</item>
+	<item>
+		<lsa>2649</lsa>
+		<tm>215704 </tm>
+	</item>
+	<item>
+		<lsa>1845</lsa>
+		<tm>247052 </tm>
+	</item>
+	<item>
+		<lsa>793</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>391</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1514</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2067</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2068</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2069</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1213</lsa>
+		<tm>125297 </tm>
+	</item>
+	<item>
+		<lsa>944</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1235</lsa>
+		<tm>125138 </tm>
+	</item>
+	<item>
+		<lsa>1236</lsa>
+		<tm>125139 </tm>
+	</item>
+	<item>
+		<lsa>431</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>913</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>517</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>675</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2855</lsa>
+		<tm>177024 </tm>
+	</item>
+	<item>
+		<lsa>2856</lsa>
+		<tm>177025 </tm>
+	</item>
+	<item>
+		<lsa>2857</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>284</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>301</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>403</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>686</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1125</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>627</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1764</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1765</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1766</lsa>
+		<tm>200403 </tm>
+	</item>
+	<item>
+		<lsa>2305</lsa>
+		<tm>200404 </tm>
+	</item>
+	<item>
+		<lsa>875</lsa>
+		<tm>80936 </tm>
+	</item>
+	<item>
+		<lsa>2832</lsa>
+		<tm>199551 </tm>
+	</item>
+	<item>
+		<lsa>830</lsa>
+		<tm>120985 </tm>
+	</item>
+	<item>
+		<lsa>367</lsa>
+		<tm>197631 </tm>
+	</item>
+	<item>
+		<lsa>932</lsa>
+		<tm>121715 </tm>
+	</item>
+	<item>
+		<lsa>1786</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1208</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1209</lsa>
+		<tm>125288 </tm>
+	</item>
+	<item>
+		<lsa>1650</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1652</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1653</lsa>
+		<tm>256152 </tm>
+	</item>
+	<item>
+		<lsa>1660</lsa>
+		<tm>256719 </tm>
+	</item>
+	<item>
+		<lsa>1682</lsa>
+		<tm>257539 </tm>
+	</item>
+	<item>
+		<lsa>1683</lsa>
+		<tm>257105 </tm>
+	</item>
+	<item>
+		<lsa>1684</lsa>
+		<tm>257864 </tm>
+	</item>
+	<item>
+		<lsa>1685</lsa>
+		<tm>249746 </tm>
+	</item>
+	<item>
+		<lsa>1686</lsa>
+		<tm>257114 </tm>
+	</item>
+	<item>
+		<lsa>2051</lsa>
+		<tm>256182 </tm>
+	</item>
+	<item>
+		<lsa>2052</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2570</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>527</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1767</lsa>
+		<tm>200772 </tm>
+	</item>
+	<item>
+		<lsa>1768</lsa>
+		<tm>198874 </tm>
+	</item>
+	<item>
+		<lsa>41</lsa>
+		<tm>250354 </tm>
+	</item>
+	<item>
+		<lsa>42</lsa>
+		<tm>251198 </tm>
+	</item>
+	<item>
+		<lsa>43</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>45</lsa>
+		<tm>250687 </tm>
+	</item>
+	<item>
+		<lsa>47</lsa>
+		<tm>250729 </tm>
+	</item>
+	<item>
+		<lsa>331</lsa>
+		<tm>256685 </tm>
+	</item>
+	<item>
+		<lsa>332</lsa>
+		<tm>255163 </tm>
+	</item>
+	<item>
+		<lsa>335</lsa>
+		<tm>255102 </tm>
+	</item>
+	<item>
+		<lsa>339</lsa>
+		<tm>256683 </tm>
+	</item>
+	<item>
+		<lsa>341</lsa>
+		<tm>251197 </tm>
+	</item>
+	<item>
+		<lsa>1903</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1905</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1909</lsa>
+		<tm>250730 </tm>
+	</item>
+	<item>
+		<lsa>1910</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1911</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1912</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1913</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1914</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1915</lsa>
+		<tm>256684 </tm>
+	</item>
+	<item>
+		<lsa>1916</lsa>
+		<tm>257001 </tm>
+	</item>
+	<item>
+		<lsa>1917</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1918</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1919</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1922</lsa>
+		<tm>250366 </tm>
+	</item>
+	<item>
+		<lsa>1923</lsa>
+		<tm>251195 </tm>
+	</item>
+	<item>
+		<lsa>1924</lsa>
+		<tm>250430 </tm>
+	</item>
+	<item>
+		<lsa>1611</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1612</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1796</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1805</lsa>
+		<tm>246963 </tm>
+	</item>
+	<item>
+		<lsa>1807</lsa>
+		<tm>246964 </tm>
+	</item>
+	<item>
+		<lsa>1808</lsa>
+		<tm>246957 </tm>
+	</item>
+	<item>
+		<lsa>827</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>936</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>937</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1481</lsa>
+		<tm>184445 </tm>
+	</item>
+	<item>
+		<lsa>269</lsa>
+		<tm>280805 </tm>
+	</item>
+	<item>
+		<lsa>270</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>271</lsa>
+		<tm>279422 </tm>
+	</item>
+	<item>
+		<lsa>272</lsa>
+		<tm>279424 </tm>
+	</item>
+	<item>
+		<lsa>273</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>302</lsa>
+		<tm>279461 </tm>
+	</item>
+	<item>
+		<lsa>303</lsa>
+		<tm>279421 </tm>
+	</item>
+	<item>
+		<lsa>304</lsa>
+		<tm>281945 </tm>
+	</item>
+	<item>
+		<lsa>305</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>306</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>314</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>319</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>323</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>342</lsa>
+		<tm>280470 </tm>
+	</item>
+	<item>
+		<lsa>404</lsa>
+		<tm>263698 </tm>
+	</item>
+	<item>
+		<lsa>405</lsa>
+		<tm>265800 </tm>
+	</item>
+	<item>
+		<lsa>784</lsa>
+		<tm>263689 </tm>
+	</item>
+	<item>
+		<lsa>788</lsa>
+		<tm>262852 </tm>
+	</item>
+	<item>
+		<lsa>789</lsa>
+		<tm>262875 </tm>
+	</item>
+	<item>
+		<lsa>790</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>791</lsa>
+		<tm>275556 </tm>
+	</item>
+	<item>
+		<lsa>819</lsa>
+		<tm>281864 </tm>
+	</item>
+	<item>
+		<lsa>820</lsa>
+		<tm>281948 </tm>
+	</item>
+	<item>
+		<lsa>821</lsa>
+		<tm>281896 </tm>
+	</item>
+	<item>
+		<lsa>822</lsa>
+		<tm>281898 </tm>
+	</item>
+	<item>
+		<lsa>835</lsa>
+		<tm>277364 </tm>
+	</item>
+	<item>
+		<lsa>837</lsa>
+		<tm>278702 </tm>
+	</item>
+	<item>
+		<lsa>838</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1088</lsa>
+		<tm>277278 </tm>
+	</item>
+	<item>
+		<lsa>1089</lsa>
+		<tm>281885 </tm>
+	</item>
+	<item>
+		<lsa>1049</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1097</lsa>
+		<tm>279221 </tm>
+	</item>
+	<item>
+		<lsa>1099</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1247</lsa>
+		<tm>264385 </tm>
+	</item>
+	<item>
+		<lsa>1248</lsa>
+		<tm>262903 </tm>
+	</item>
+	<item>
+		<lsa>1250</lsa>
+		<tm>262904 </tm>
+	</item>
+	<item>
+		<lsa>1251</lsa>
+		<tm>262411 </tm>
+	</item>
+	<item>
+		<lsa>1252</lsa>
+		<tm>264704 </tm>
+	</item>
+	<item>
+		<lsa>1253</lsa>
+		<tm>276589 </tm>
+	</item>
+	<item>
+		<lsa>1254</lsa>
+		<tm>271346 </tm>
+	</item>
+	<item>
+		<lsa>1255</lsa>
+		<tm>279284 </tm>
+	</item>
+	<item>
+		<lsa>1256</lsa>
+		<tm>271156 </tm>
+	</item>
+	<item>
+		<lsa>1257</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1258</lsa>
+		<tm>281884 </tm>
+	</item>
+	<item>
+		<lsa>1259</lsa>
+		<tm>281899 </tm>
+	</item>
+	<item>
+		<lsa>1260</lsa>
+		<tm>281900 </tm>
+	</item>
+	<item>
+		<lsa>1261</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1262</lsa>
+		<tm>281946 </tm>
+	</item>
+	<item>
+		<lsa>1263</lsa>
+		<tm>281897 </tm>
+	</item>
+	<item>
+		<lsa>1264</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1265</lsa>
+		<tm>279277 </tm>
+	</item>
+	<item>
+		<lsa>1266</lsa>
+		<tm>281624 </tm>
+	</item>
+	<item>
+		<lsa>1270</lsa>
+		<tm>281528 </tm>
+	</item>
+	<item>
+		<lsa>1272</lsa>
+		<tm>277888 </tm>
+	</item>
+	<item>
+		<lsa>1274</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1275</lsa>
+		<tm>263238 </tm>
+	</item>
+	<item>
+		<lsa>1276</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1277</lsa>
+		<tm>270772 </tm>
+	</item>
+	<item>
+		<lsa>1278</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1279</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1280</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1281</lsa>
+		<tm>277365 </tm>
+	</item>
+	<item>
+		<lsa>1282</lsa>
+		<tm>277382 </tm>
+	</item>
+	<item>
+		<lsa>1283</lsa>
+		<tm>277276 </tm>
+	</item>
+	<item>
+		<lsa>1284</lsa>
+		<tm>279220 </tm>
+	</item>
+	<item>
+		<lsa>1285</lsa>
+		<tm>279499 </tm>
+	</item>
+	<item>
+		<lsa>1286</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1287</lsa>
+		<tm>276842 </tm>
+	</item>
+	<item>
+		<lsa>1288</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1289</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1290</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1291</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1292</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1293</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1294</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1303</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1304</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1305</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1306</lsa>
+		<tm>276713 </tm>
+	</item>
+	<item>
+		<lsa>1307</lsa>
+		<tm>272599 </tm>
+	</item>
+	<item>
+		<lsa>1308</lsa>
+		<tm>272953 </tm>
+	</item>
+	<item>
+		<lsa>1309</lsa>
+		<tm>279554 </tm>
+	</item>
+	<item>
+		<lsa>1310</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1311</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1312</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1313</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1316</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1317</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1318</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1319</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1320</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1321</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1322</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1325</lsa>
+		<tm>274557 </tm>
+	</item>
+	<item>
+		<lsa>1326</lsa>
+		<tm>280465 </tm>
+	</item>
+	<item>
+		<lsa>1327</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1328</lsa>
+		<tm>276837 </tm>
+	</item>
+	<item>
+		<lsa>1329</lsa>
+		<tm>276838 </tm>
+	</item>
+	<item>
+		<lsa>1330</lsa>
+		<tm>276839 </tm>
+	</item>
+	<item>
+		<lsa>1331</lsa>
+		<tm>276799 </tm>
+	</item>
+	<item>
+		<lsa>1332</lsa>
+		<tm>276800 </tm>
+	</item>
+	<item>
+		<lsa>1333</lsa>
+		<tm>276798 </tm>
+	</item>
+	<item>
+		<lsa>1334</lsa>
+		<tm>276797 </tm>
+	</item>
+	<item>
+		<lsa>1335</lsa>
+		<tm>279420 </tm>
+	</item>
+	<item>
+		<lsa>1336</lsa>
+		<tm>280466 </tm>
+	</item>
+	<item>
+		<lsa>1337</lsa>
+		<tm>280467 </tm>
+	</item>
+	<item>
+		<lsa>1338</lsa>
+		<tm>277275 </tm>
+	</item>
+	<item>
+		<lsa>1339</lsa>
+		<tm>281471 </tm>
+	</item>
+	<item>
+		<lsa>1340</lsa>
+		<tm>276790 </tm>
+	</item>
+	<item>
+		<lsa>1341</lsa>
+		<tm>276845 </tm>
+	</item>
+	<item>
+		<lsa>1342</lsa>
+		<tm>276846 </tm>
+	</item>
+	<item>
+		<lsa>1343</lsa>
+		<tm>280462 </tm>
+	</item>
+	<item>
+		<lsa>1344</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1345</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1346</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1347</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1349</lsa>
+		<tm>276730 </tm>
+	</item>
+	<item>
+		<lsa>1350</lsa>
+		<tm>280464 </tm>
+	</item>
+	<item>
+		<lsa>1351</lsa>
+		<tm>275102 </tm>
+	</item>
+	<item>
+		<lsa>1352</lsa>
+		<tm>274931 </tm>
+	</item>
+	<item>
+		<lsa>1353</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1354</lsa>
+		<tm>265799 </tm>
+	</item>
+	<item>
+		<lsa>1355</lsa>
+		<tm>274829 </tm>
+	</item>
+	<item>
+		<lsa>1356</lsa>
+		<tm>281288 </tm>
+	</item>
+	<item>
+		<lsa>1357</lsa>
+		<tm>281289 </tm>
+	</item>
+	<item>
+		<lsa>1358</lsa>
+		<tm>275616 </tm>
+	</item>
+	<item>
+		<lsa>1359</lsa>
+		<tm>275617 </tm>
+	</item>
+	<item>
+		<lsa>1360</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1361</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1362</lsa>
+		<tm>276726 </tm>
+	</item>
+	<item>
+		<lsa>1363</lsa>
+		<tm>276670 </tm>
+	</item>
+	<item>
+		<lsa>1364</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1365</lsa>
+		<tm>263234 </tm>
+	</item>
+	<item>
+		<lsa>1366</lsa>
+		<tm>263197 </tm>
+	</item>
+	<item>
+		<lsa>1367</lsa>
+		<tm>263165 </tm>
+	</item>
+	<item>
+		<lsa>1368</lsa>
+		<tm>263236 </tm>
+	</item>
+	<item>
+		<lsa>1369</lsa>
+		<tm>272348 </tm>
+	</item>
+	<item>
+		<lsa>1370</lsa>
+		<tm>272889 </tm>
+	</item>
+	<item>
+		<lsa>1371</lsa>
+		<tm>263237 </tm>
+	</item>
+	<item>
+		<lsa>1372</lsa>
+		<tm>263156 </tm>
+	</item>
+	<item>
+		<lsa>1373</lsa>
+		<tm>263157 </tm>
+	</item>
+	<item>
+		<lsa>1374</lsa>
+		<tm>263166 </tm>
+	</item>
+	<item>
+		<lsa>1375</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1376</lsa>
+		<tm>263158 </tm>
+	</item>
+	<item>
+		<lsa>1377</lsa>
+		<tm>263162 </tm>
+	</item>
+	<item>
+		<lsa>1378</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1379</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1381</lsa>
+		<tm>264584 </tm>
+	</item>
+	<item>
+		<lsa>1382</lsa>
+		<tm>262356 </tm>
+	</item>
+	<item>
+		<lsa>1383</lsa>
+		<tm>262359 </tm>
+	</item>
+	<item>
+		<lsa>1384</lsa>
+		<tm>262357 </tm>
+	</item>
+	<item>
+		<lsa>1385</lsa>
+		<tm>262398 </tm>
+	</item>
+	<item>
+		<lsa>1386</lsa>
+		<tm>277930 </tm>
+	</item>
+	<item>
+		<lsa>1387</lsa>
+		<tm>281276 </tm>
+	</item>
+	<item>
+		<lsa>1388</lsa>
+		<tm>263163 </tm>
+	</item>
+	<item>
+		<lsa>1389</lsa>
+		<tm>279462 </tm>
+	</item>
+	<item>
+		<lsa>1390</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1391</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1392</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1393</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1394</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1395</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1396</lsa>
+		<tm>264833 </tm>
+	</item>
+	<item>
+		<lsa>1397</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1398</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1399</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1400</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1401</lsa>
+		<tm>280468 </tm>
+	</item>
+	<item>
+		<lsa>1402</lsa>
+		<tm>280469 </tm>
+	</item>
+	<item>
+		<lsa>1403</lsa>
+		<tm>279425 </tm>
+	</item>
+	<item>
+		<lsa>1404</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1405</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1406</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1407</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1408</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1409</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1410</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1411</lsa>
+		<tm>277923 </tm>
+	</item>
+	<item>
+		<lsa>1412</lsa>
+		<tm>281625 </tm>
+	</item>
+	<item>
+		<lsa>1413</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1415</lsa>
+		<tm>278457 </tm>
+	</item>
+	<item>
+		<lsa>1416</lsa>
+		<tm>262817 </tm>
+	</item>
+	<item>
+		<lsa>1417</lsa>
+		<tm>281470 </tm>
+	</item>
+	<item>
+		<lsa>1418</lsa>
+		<tm>274874 </tm>
+	</item>
+	<item>
+		<lsa>1419</lsa>
+		<tm>271349 </tm>
+	</item>
+	<item>
+		<lsa>1420</lsa>
+		<tm>271347 </tm>
+	</item>
+	<item>
+		<lsa>1421</lsa>
+		<tm>271348 </tm>
+	</item>
+	<item>
+		<lsa>1422</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1423</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1424</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1425</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1426</lsa>
+		<tm>276445 </tm>
+	</item>
+	<item>
+		<lsa>1427</lsa>
+		<tm>262388 </tm>
+	</item>
+	<item>
+		<lsa>1428</lsa>
+		<tm>262354 </tm>
+	</item>
+	<item>
+		<lsa>1429</lsa>
+		<tm>262364 </tm>
+	</item>
+	<item>
+		<lsa>1430</lsa>
+		<tm>262392 </tm>
+	</item>
+	<item>
+		<lsa>1431</lsa>
+		<tm>262426 </tm>
+	</item>
+	<item>
+		<lsa>1432</lsa>
+		<tm>262427 </tm>
+	</item>
+	<item>
+		<lsa>1433</lsa>
+		<tm>265661 </tm>
+	</item>
+	<item>
+		<lsa>1434</lsa>
+		<tm>263941 </tm>
+	</item>
+	<item>
+		<lsa>1435</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1436</lsa>
+		<tm>281616 </tm>
+	</item>
+	<item>
+		<lsa>1437</lsa>
+		<tm>275648 </tm>
+	</item>
+	<item>
+		<lsa>1438</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1439</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1441</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1442</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1443</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1444</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1445</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1446</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1447</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1448</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1449</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1450</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1451</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1452</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1453</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1454</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1455</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1456</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1457</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1458</lsa>
+		<tm>279555 </tm>
+	</item>
+	<item>
+		<lsa>1459</lsa>
+		<tm>281834 </tm>
+	</item>
+	<item>
+		<lsa>1460</lsa>
+		<tm>279426 </tm>
+	</item>
+	<item>
+		<lsa>1461</lsa>
+		<tm>281838 </tm>
+	</item>
+	<item>
+		<lsa>1462</lsa>
+		<tm>281473 </tm>
+	</item>
+	<item>
+		<lsa>1463</lsa>
+		<tm>281472 </tm>
+	</item>
+	<item>
+		<lsa>1464</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1465</lsa>
+		<tm>279556 </tm>
+	</item>
+	<item>
+		<lsa>1466</lsa>
+		<tm>278458 </tm>
+	</item>
+	<item>
+		<lsa>1467</lsa>
+		<tm>279429 </tm>
+	</item>
+	<item>
+		<lsa>1468</lsa>
+		<tm>279437 </tm>
+	</item>
+	<item>
+		<lsa>1469</lsa>
+		<tm>274786 </tm>
+	</item>
+	<item>
+		<lsa>1470</lsa>
+		<tm>281198 </tm>
+	</item>
+	<item>
+		<lsa>1471</lsa>
+		<tm>262912 </tm>
+	</item>
+	<item>
+		<lsa>1472</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1473</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1474</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1475</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1476</lsa>
+		<tm>262889 </tm>
+	</item>
+	<item>
+		<lsa>1477</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1478</lsa>
+		<tm>278920 </tm>
+	</item>
+	<item>
+		<lsa>1479</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1480</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1482</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1483</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1484</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1485</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1486</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1487</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1488</lsa>
+		<tm>281202 </tm>
+	</item>
+	<item>
+		<lsa>1489</lsa>
+		<tm>275339 </tm>
+	</item>
+	<item>
+		<lsa>1490</lsa>
+		<tm>262873 </tm>
+	</item>
+	<item>
+		<lsa>1491</lsa>
+		<tm>275451 </tm>
+	</item>
+	<item>
+		<lsa>1493</lsa>
+		<tm>278543 </tm>
+	</item>
+	<item>
+		<lsa>1494</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1495</lsa>
+		<tm>262363 </tm>
+	</item>
+	<item>
+		<lsa>1496</lsa>
+		<tm>262288 </tm>
+	</item>
+	<item>
+		<lsa>1497</lsa>
+		<tm>262401 </tm>
+	</item>
+	<item>
+		<lsa>1498</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1499</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1500</lsa>
+		<tm>277923 </tm>
+	</item>
+	<item>
+		<lsa>1502</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1503</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1505</lsa>
+		<tm>279304 </tm>
+	</item>
+	<item>
+		<lsa>1506</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1507</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1508</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1509</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1510</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1516</lsa>
+		<tm>275058 </tm>
+	</item>
+	<item>
+		<lsa>1518</lsa>
+		<tm>262367 </tm>
+	</item>
+	<item>
+		<lsa>1519</lsa>
+		<tm>262383 </tm>
+	</item>
+	<item>
+		<lsa>1520</lsa>
+		<tm>262387 </tm>
+	</item>
+	<item>
+		<lsa>1521</lsa>
+		<tm>263657 </tm>
+	</item>
+	<item>
+		<lsa>1522</lsa>
+		<tm>262877 </tm>
+	</item>
+	<item>
+		<lsa>1523</lsa>
+		<tm>273677 </tm>
+	</item>
+	<item>
+		<lsa>1524</lsa>
+		<tm>265662 </tm>
+	</item>
+	<item>
+		<lsa>1525</lsa>
+		<tm>262882 </tm>
+	</item>
+	<item>
+		<lsa>1526</lsa>
+		<tm>262893 </tm>
+	</item>
+	<item>
+		<lsa>1527</lsa>
+		<tm>262888 </tm>
+	</item>
+	<item>
+		<lsa>1528</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1530</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1531</lsa>
+		<tm>277902 </tm>
+	</item>
+	<item>
+		<lsa>1532</lsa>
+		<tm>277256 </tm>
+	</item>
+	<item>
+		<lsa>1533</lsa>
+		<tm>262393 </tm>
+	</item>
+	<item>
+		<lsa>1534</lsa>
+		<tm>276574 </tm>
+	</item>
+	<item>
+		<lsa>1535</lsa>
+		<tm>262907 </tm>
+	</item>
+	<item>
+		<lsa>1536</lsa>
+		<tm>274827 </tm>
+	</item>
+	<item>
+		<lsa>1537</lsa>
+		<tm>270892 </tm>
+	</item>
+	<item>
+		<lsa>1538</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1539</lsa>
+		<tm>263233 </tm>
+	</item>
+	<item>
+		<lsa>1540</lsa>
+		<tm>263269 </tm>
+	</item>
+	<item>
+		<lsa>1542</lsa>
+		<tm>263316 </tm>
+	</item>
+	<item>
+		<lsa>1543</lsa>
+		<tm>262353 </tm>
+	</item>
+	<item>
+		<lsa>1544</lsa>
+		<tm>262358 </tm>
+	</item>
+	<item>
+		<lsa>1545</lsa>
+		<tm>262360 </tm>
+	</item>
+	<item>
+		<lsa>1546</lsa>
+		<tm>262361 </tm>
+	</item>
+	<item>
+		<lsa>1547</lsa>
+		<tm>262362 </tm>
+	</item>
+	<item>
+		<lsa>1549</lsa>
+		<tm>265669 </tm>
+	</item>
+	<item>
+		<lsa>1550</lsa>
+		<tm>277925 </tm>
+	</item>
+	<item>
+		<lsa>1551</lsa>
+		<tm>265370 </tm>
+	</item>
+	<item>
+		<lsa>1562</lsa>
+		<tm>265369 </tm>
+	</item>
+	<item>
+		<lsa>1563</lsa>
+		<tm>266342 </tm>
+	</item>
+	<item>
+		<lsa>1564</lsa>
+		<tm>262409 </tm>
+	</item>
+	<item>
+		<lsa>1565</lsa>
+		<tm>266343 </tm>
+	</item>
+	<item>
+		<lsa>1566</lsa>
+		<tm>262416 </tm>
+	</item>
+	<item>
+		<lsa>1567</lsa>
+		<tm>262425 </tm>
+	</item>
+	<item>
+		<lsa>1568</lsa>
+		<tm>262434 </tm>
+	</item>
+	<item>
+		<lsa>1569</lsa>
+		<tm>262829 </tm>
+	</item>
+	<item>
+		<lsa>1570</lsa>
+		<tm>276426 </tm>
+	</item>
+	<item>
+		<lsa>1571</lsa>
+		<tm>275622 </tm>
+	</item>
+	<item>
+		<lsa>1572</lsa>
+		<tm>262838 </tm>
+	</item>
+	<item>
+		<lsa>1573</lsa>
+		<tm>265760 </tm>
+	</item>
+	<item>
+		<lsa>1574</lsa>
+		<tm>262818 </tm>
+	</item>
+	<item>
+		<lsa>1575</lsa>
+		<tm>262821 </tm>
+	</item>
+	<item>
+		<lsa>1576</lsa>
+		<tm>262831 </tm>
+	</item>
+	<item>
+		<lsa>1577</lsa>
+		<tm>262876 </tm>
+	</item>
+	<item>
+		<lsa>1578</lsa>
+		<tm>262833 </tm>
+	</item>
+	<item>
+		<lsa>1581</lsa>
+		<tm>262841 </tm>
+	</item>
+	<item>
+		<lsa>1582</lsa>
+		<tm>262842 </tm>
+	</item>
+	<item>
+		<lsa>1583</lsa>
+		<tm>262847 </tm>
+	</item>
+	<item>
+		<lsa>1584</lsa>
+		<tm>262851 </tm>
+	</item>
+	<item>
+		<lsa>1585</lsa>
+		<tm>262856 </tm>
+	</item>
+	<item>
+		<lsa>1586</lsa>
+		<tm>262860 </tm>
+	</item>
+	<item>
+		<lsa>1587</lsa>
+		<tm>263630 </tm>
+	</item>
+	<item>
+		<lsa>1797</lsa>
+		<tm>265908 </tm>
+	</item>
+	<item>
+		<lsa>1798</lsa>
+		<tm>262861 </tm>
+	</item>
+	<item>
+		<lsa>1799</lsa>
+		<tm>262862 </tm>
+	</item>
+	<item>
+		<lsa>1800</lsa>
+		<tm>262863 </tm>
+	</item>
+	<item>
+		<lsa>1801</lsa>
+		<tm>262864 </tm>
+	</item>
+	<item>
+		<lsa>1802</lsa>
+		<tm>262330 </tm>
+	</item>
+	<item>
+		<lsa>1803</lsa>
+		<tm>262866 </tm>
+	</item>
+	<item>
+		<lsa>1816</lsa>
+		<tm>262902 </tm>
+	</item>
+	<item>
+		<lsa>1817</lsa>
+		<tm>264215 </tm>
+	</item>
+	<item>
+		<lsa>1819</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1820</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2538</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2575</lsa>
+		<tm>261801 </tm>
+	</item>
+	<item>
+		<lsa>2584</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2585</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2664</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2665</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2666</lsa>
+		<tm>271000 </tm>
+	</item>
+	<item>
+		<lsa>2667</lsa>
+		<tm>264480 </tm>
+	</item>
+	<item>
+		<lsa>2668</lsa>
+		<tm>276636 </tm>
+	</item>
+	<item>
+		<lsa>2669</lsa>
+		<tm>272619 </tm>
+	</item>
+	<item>
+		<lsa>2670</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2685</lsa>
+		<tm>263697 </tm>
+	</item>
+	<item>
+		<lsa>1884</lsa>
+		<tm>198883 </tm>
+	</item>
+	<item>
+		<lsa>1121</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2328</lsa>
+		<tm>327686 </tm>
+	</item>
+	<item>
+		<lsa>2224</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2225</lsa>
+		<tm>202375 </tm>
+	</item>
+	<item>
+		<lsa>2226</lsa>
+		<tm>199995 </tm>
+	</item>
+	<item>
+		<lsa>2333</lsa>
+		<tm>202416 </tm>
+	</item>
+	<item>
+		<lsa>2334</lsa>
+		<tm>202417 </tm>
+	</item>
+	<item>
+		<lsa>2335</lsa>
+		<tm>202414 </tm>
+	</item>
+	<item>
+		<lsa>2336</lsa>
+		<tm>202434 </tm>
+	</item>
+	<item>
+		<lsa>2562</lsa>
+		<tm>200036 </tm>
+	</item>
+	<item>
+		<lsa>2563</lsa>
+		<tm>200037 </tm>
+	</item>
+	<item>
+		<lsa>2838</lsa>
+		<tm>202334 </tm>
+	</item>
+	<item>
+		<lsa>1622</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1751</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1753</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1754</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1773</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2576</lsa>
+		<tm>282576 </tm>
+	</item>
+	<item>
+		<lsa>639</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2524</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2525</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2526</lsa>
+		<tm>177020 </tm>
+	</item>
+	<item>
+		<lsa>2527</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2529</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2530</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2531</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2559</lsa>
+		<tm>341710 </tm>
+	</item>
+	<item>
+		<lsa>2560</lsa>
+		<tm>204507 </tm>
+	</item>
+	<item>
+		<lsa>864</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>865</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>866</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>867</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>868</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2017</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2018</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2019</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2020</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2555</lsa>
+		<tm>337309 </tm>
+	</item>
+	<item>
+		<lsa>2556</lsa>
+		<tm>337308 </tm>
+	</item>
+	<item>
+		<lsa>1846</lsa>
+		<tm>256973 </tm>
+	</item>
+	<item>
+		<lsa>1847</lsa>
+		<tm>257089 </tm>
+	</item>
+	<item>
+		<lsa>1849</lsa>
+		<tm>257552 </tm>
+	</item>
+	<item>
+		<lsa>1850</lsa>
+		<tm>257899 </tm>
+	</item>
+	<item>
+		<lsa>13</lsa>
+		<tm>186627 </tm>
+	</item>
+	<item>
+		<lsa>1136</lsa>
+		<tm>184337 </tm>
+	</item>
+	<item>
+		<lsa>1142</lsa>
+		<tm>184671 </tm>
+	</item>
+	<item>
+		<lsa>1143</lsa>
+		<tm>188919 </tm>
+	</item>
+	<item>
+		<lsa>1144</lsa>
+		<tm>188920 </tm>
+	</item>
+	<item>
+		<lsa>1145</lsa>
+		<tm>181732 </tm>
+	</item>
+	<item>
+		<lsa>2604</lsa>
+		<tm>192167 </tm>
+	</item>
+	<item>
+		<lsa>803</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>818</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>823</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>826</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>945</lsa>
+		<tm>197758 </tm>
+	</item>
+	<item>
+		<lsa>654</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2318</lsa>
+		<tm>338534 </tm>
+	</item>
+	<item>
+		<lsa>1152</lsa>
+		<tm>198179 </tm>
+	</item>
+	<item>
+		<lsa>2836</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1769</lsa>
+		<tm>201823 </tm>
+	</item>
+	<item>
+		<lsa>1770</lsa>
+		<tm>201824 </tm>
+	</item>
+	<item>
+		<lsa>2307</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1607</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1608</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2679</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1885</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1886</lsa>
+		<tm>200824 </tm>
+	</item>
+	<item>
+		<lsa>1640</lsa>
+		<tm>288287 </tm>
+	</item>
+	<item>
+		<lsa>1643</lsa>
+		<tm>288323 </tm>
+	</item>
+	<item>
+		<lsa>2684</lsa>
+		<tm>288258 </tm>
+	</item>
+	<item>
+		<lsa>1887</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1888</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1889</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2454</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2455</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2465</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1501</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1890</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2466</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>260</lsa>
+		<tm>176992 </tm>
+	</item>
+	<item>
+		<lsa>261</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>262</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>263</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>264</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>265</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>266</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>267</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>268</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>275</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>276</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>278</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>279</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>280</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>281</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>282</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>411</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>651</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>652</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2098</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1990</lsa>
+		<tm>236333 </tm>
+	</item>
+	<item>
+		<lsa>2004</lsa>
+		<tm>222819 </tm>
+	</item>
+	<item>
+		<lsa>2005</lsa>
+		<tm>222821 </tm>
+	</item>
+	<item>
+		<lsa>2006</lsa>
+		<tm>222820 </tm>
+	</item>
+	<item>
+		<lsa>540</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1933</lsa>
+		<tm>252275 </tm>
+	</item>
+	<item>
+		<lsa>2317</lsa>
+		<tm>336865 </tm>
+	</item>
+	<item>
+		<lsa>2551</lsa>
+		<tm>336882 </tm>
+	</item>
+	<item>
+		<lsa>2552</lsa>
+		<tm>336884 </tm>
+	</item>
+	<item>
+		<lsa>2553</lsa>
+		<tm>336885 </tm>
+	</item>
+	<item>
+		<lsa>2554</lsa>
+		<tm>336883 </tm>
+	</item>
+	<item>
+		<lsa>516</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>518</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>519</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>612</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2588</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2589</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1139</lsa>
+		<tm>215037 </tm>
+	</item>
+	<item>
+		<lsa>1140</lsa>
+		<tm>215038 </tm>
+	</item>
+	<item>
+		<lsa>6</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>357</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>825</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>909</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>910</lsa>
+		<tm>177459 </tm>
+	</item>
+	<item>
+		<lsa>911</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>656</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>657</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1200</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1201</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1202</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2081</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1891</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1970</lsa>
+		<tm>256619 </tm>
+	</item>
+	<item>
+		<lsa>1971</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1972</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2567</lsa>
+		<tm>249915 </tm>
+	</item>
+	<item>
+		<lsa>2568</lsa>
+		<tm>249915 </tm>
+	</item>
+	<item>
+		<lsa>2308</lsa>
+		<tm>199529 </tm>
+	</item>
+	<item>
+		<lsa>1892</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1414</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1851</lsa>
+		<tm>253739 </tm>
+	</item>
+	<item>
+		<lsa>1852</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1853</lsa>
+		<tm>253742 </tm>
+	</item>
+	<item>
+		<lsa>1854</lsa>
+		<tm>253743 </tm>
+	</item>
+	<item>
+		<lsa>1855</lsa>
+		<tm>253744 </tm>
+	</item>
+	<item>
+		<lsa>644</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1515</lsa>
+		<tm>284592 </tm>
+	</item>
+	<item>
+		<lsa>1896</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2047</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2048</lsa>
+		<tm>251404 </tm>
+	</item>
+	<item>
+		<lsa>2049</lsa>
+		<tm>249598 </tm>
+	</item>
+	<item>
+		<lsa>1979</lsa>
+		<tm>229300 </tm>
+	</item>
+	<item>
+		<lsa>1980</lsa>
+		<tm>229301 </tm>
+	</item>
+	<item>
+		<lsa>1981</lsa>
+		<tm>229302 </tm>
+	</item>
+	<item>
+		<lsa>1982</lsa>
+		<tm>229304 </tm>
+	</item>
+	<item>
+		<lsa>1983</lsa>
+		<tm>229303 </tm>
+	</item>
+	<item>
+		<lsa>1984</lsa>
+		<tm>237933 </tm>
+	</item>
+	<item>
+		<lsa>1985</lsa>
+		<tm>237934 </tm>
+	</item>
+	<item>
+		<lsa>1986</lsa>
+		<tm>229305 </tm>
+	</item>
+	<item>
+		<lsa>1987</lsa>
+		<tm>229308 </tm>
+	</item>
+	<item>
+		<lsa>2688</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2689</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2690</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2691</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>676</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1713</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1714</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1973</lsa>
+		<tm>250353 </tm>
+	</item>
+	<item>
+		<lsa>1974</lsa>
+		<tm>254217 </tm>
+	</item>
+	<item>
+		<lsa>354</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>355</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>356</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>432</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>569</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>570</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>571</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1078</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1810</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1811</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1812</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>647</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1893</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1212</lsa>
+		<tm>122184 </tm>
+	</item>
+	<item>
+		<lsa>393</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>615</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>616</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>617</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>618</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>619</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>620</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>621</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>622</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>623</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>624</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>625</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2650</lsa>
+		<tm>215653 </tm>
+	</item>
+	<item>
+		<lsa>1894</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1895</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1881</lsa>
+		<tm>199911 </tm>
+	</item>
+	<item>
+		<lsa>1897</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1898</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2549</lsa>
+		<tm>204175 </tm>
+	</item>
+	<item>
+		<lsa>2272</lsa>
+		<tm>336315 </tm>
+	</item>
+	<item>
+		<lsa>2329</lsa>
+		<tm>323082 </tm>
+	</item>
+	<item>
+		<lsa>2372</lsa>
+		<tm>328987 </tm>
+	</item>
+	<item>
+		<lsa>2373</lsa>
+		<tm>323112 </tm>
+	</item>
+	<item>
+		<lsa>2374</lsa>
+		<tm>328989 </tm>
+	</item>
+	<item>
+		<lsa>2375</lsa>
+		<tm>328988 </tm>
+	</item>
+	<item>
+		<lsa>2376</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2377</lsa>
+		<tm>323113 </tm>
+	</item>
+	<item>
+		<lsa>2378</lsa>
+		<tm>328990 </tm>
+	</item>
+	<item>
+		<lsa>2379</lsa>
+		<tm>328991 </tm>
+	</item>
+	<item>
+		<lsa>2380</lsa>
+		<tm>323114 </tm>
+	</item>
+	<item>
+		<lsa>2485</lsa>
+		<tm>323085 </tm>
+	</item>
+	<item>
+		<lsa>2486</lsa>
+		<tm>323087 </tm>
+	</item>
+	<item>
+		<lsa>2487</lsa>
+		<tm>323086 </tm>
+	</item>
+	<item>
+		<lsa>2678</lsa>
+		<tm>205588 </tm>
+	</item>
+	<item>
+		<lsa>940</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>946</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>948</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1032</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>924</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>925</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1179</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1180</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2621</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2622</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2623</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2624</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2625</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2626</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2627</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2628</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2629</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2630</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2631</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>795</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>796</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>839</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>916</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>917</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>918</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>919</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>920</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>921</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>922</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>923</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>377</lsa>
+		<tm>121651 </tm>
+	</item>
+	<item>
+		<lsa>2467</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1899</lsa>
+		<tm>201046 </tm>
+	</item>
+	<item>
+		<lsa>1900</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1945</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1946</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2267</lsa>
+		<tm>205407 </tm>
+	</item>
+	<item>
+		<lsa>2268</lsa>
+		<tm>332574 </tm>
+	</item>
+	<item>
+		<lsa>2269</lsa>
+		<tm>332573 </tm>
+	</item>
+	<item>
+		<lsa>2270</lsa>
+		<tm>329601 </tm>
+	</item>
+	<item>
+		<lsa>2271</lsa>
+		<tm>325322 </tm>
+	</item>
+	<item>
+		<lsa>2273</lsa>
+		<tm>329602 </tm>
+	</item>
+	<item>
+		<lsa>2274</lsa>
+		<tm>332575 </tm>
+	</item>
+	<item>
+		<lsa>2275</lsa>
+		<tm>332576 </tm>
+	</item>
+	<item>
+		<lsa>2276</lsa>
+		<tm>332577 </tm>
+	</item>
+	<item>
+		<lsa>2330</lsa>
+		<tm>325326 </tm>
+	</item>
+	<item>
+		<lsa>1840</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1947</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1948</lsa>
+		<tm>200077 </tm>
+	</item>
+	<item>
+		<lsa>1949</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2468</lsa>
+		<tm>200739 </tm>
+	</item>
+	<item>
+		<lsa>2469</lsa>
+		<tm>200859 </tm>
+	</item>
+	<item>
+		<lsa>1950</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2471</lsa>
+		<tm>198959 </tm>
+	</item>
+	<item>
+		<lsa>1176</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1181</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1182</lsa>
+		<tm>200531 </tm>
+	</item>
+	<item>
+		<lsa>2470</lsa>
+		<tm>199988 </tm>
+	</item>
+	<item>
+		<lsa>2472</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2473</lsa>
+		<tm>201047 </tm>
+	</item>
+	<item>
+		<lsa>2474</lsa>
+		<tm>200533 </tm>
+	</item>
+	<item>
+		<lsa>2475</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2481</lsa>
+		<tm>200532 </tm>
+	</item>
+	<item>
+		<lsa>2482</lsa>
+		<tm>201081 </tm>
+	</item>
+	<item>
+		<lsa>2483</lsa>
+		<tm>201082 </tm>
+	</item>
+	<item>
+		<lsa>2484</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>92</lsa>
+		<tm>201207 </tm>
+	</item>
+	<item>
+		<lsa>1170</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1171</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1951</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2023</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2309</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2310</lsa>
+		<tm>199450 </tm>
+	</item>
+	<item>
+		<lsa>1689</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1690</lsa>
+		<tm>258558 </tm>
+	</item>
+	<item>
+		<lsa>2278</lsa>
+		<tm>328627 </tm>
+	</item>
+	<item>
+		<lsa>398</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>407</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>521</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1962</lsa>
+		<tm>254161 </tm>
+	</item>
+	<item>
+		<lsa>1963</lsa>
+		<tm>254058 </tm>
+	</item>
+	<item>
+		<lsa>650</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>600</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>842</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1952</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2277</lsa>
+		<tm>325062 </tm>
+	</item>
+	<item>
+		<lsa>2072</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2073</lsa>
+		<tm>175659 </tm>
+	</item>
+	<item>
+		<lsa>955</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1172</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1173</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1174</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1175</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>10</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1112</lsa>
+		<tm>197698 </tm>
+	</item>
+	<item>
+		<lsa>1665</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2025</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2093</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1771</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1953</lsa>
+		<tm>199113 </tm>
+	</item>
+	<item>
+		<lsa>1954</lsa>
+		<tm>198902 </tm>
+	</item>
+	<item>
+		<lsa>2479</lsa>
+		<tm>198901 </tm>
+	</item>
+	<item>
+		<lsa>2480</lsa>
+		<tm>198904 </tm>
+	</item>
+	<item>
+		<lsa>2242</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1956</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1992</lsa>
+		<tm>234241 </tm>
+	</item>
+	<item>
+		<lsa>2476</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1772</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1631</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1814</lsa>
+		<tm>247092 </tm>
+	</item>
+	<item>
+		<lsa>328</lsa>
+		<tm>255629 </tm>
+	</item>
+	<item>
+		<lsa>1975</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1976</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1977</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1700</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1701</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1702</lsa>
+		<tm>245625 </tm>
+	</item>
+	<item>
+		<lsa>1703</lsa>
+		<tm>245560 </tm>
+	</item>
+	<item>
+		<lsa>2381</lsa>
+		<tm>323114 </tm>
+	</item>
+	<item>
+		<lsa>2382</lsa>
+		<tm>324819 </tm>
+	</item>
+	<item>
+		<lsa>2383</lsa>
+		<tm>205369 </tm>
+	</item>
+	<item>
+		<lsa>1239</lsa>
+		<tm>125167 </tm>
+	</item>
+	<item>
+		<lsa>1240</lsa>
+		<tm>123716 </tm>
+	</item>
+	<item>
+		<lsa>1598</lsa>
+		<tm>123360 </tm>
+	</item>
+	<item>
+		<lsa>1599</lsa>
+		<tm>125175 </tm>
+	</item>
+	<item>
+		<lsa>1237</lsa>
+		<tm>125150 </tm>
+	</item>
+	<item>
+		<lsa>1238</lsa>
+		<tm>125151 </tm>
+	</item>
+	<item>
+		<lsa>2656</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1111</lsa>
+		<tm>193308 </tm>
+	</item>
+	<item>
+		<lsa>2607</lsa>
+		<tm>193308 </tm>
+	</item>
+	<item>
+		<lsa>1957</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>2477</lsa>
+		<tm>199534 </tm>
+	</item>
+	<item>
+		<lsa>2478</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1813</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1625</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1926</lsa>
+		<tm></tm>
+	</item>
+	<item>
+		<lsa>1626</lsa>
+		<tm></tm>
+	</item>
+</lsalist>
