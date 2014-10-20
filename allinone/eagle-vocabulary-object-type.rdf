@@ -157,6 +157,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/29">
         <skos:prefLabel xml:lang="en">Altar</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Small altar</skos:altLabel>
         <skos:altLabel xml:lang="la">ara</skos:altLabel>
         <skos:altLabel xml:lang="fr">autel</skos:altLabel>
         <skos:altLabel xml:lang="hu">oltár</skos:altLabel>
@@ -190,7 +191,14 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/30">
         <skos:prefLabel xml:lang="en">Altar / Basis</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Base or altar</skos:altLabel>
         <skos:altLabel xml:lang="la">ara, basis</skos:altLabel>
+        <skos:altLabel xml:lang="en">altar / statue base</skos:altLabel>
+        <skos:altLabel xml:lang="en">statue / altar base</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Statue avec sa base</skos:altLabel>
+        <skos:altLabel xml:lang="en">statue base / altar</skos:altLabel>
+        <skos:altLabel xml:lang="en">Altar or statue base</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Autel ou base de statue</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1407">
@@ -291,6 +299,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/21">
         <skos:prefLabel xml:lang="la">Amphora, cortex</skos:prefLabel>
         <skos:altLabel xml:lang="en">amphora cap</skos:altLabel>
+<skos:altLabel xml:lang="en">lid</skos:altLabel>
         <skos:altLabel xml:lang="es">Tape de anfora</skos:altLabel>
         <skos:altLabel xml:lang="it">tappo d’anfora</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
@@ -578,6 +587,7 @@
         <skos:altLabel xml:lang="es">architectura</skos:altLabel>
         <skos:altLabel xml:lang="en">Architectural Element</skos:altLabel>
         <skos:altLabel xml:lang="en">Architectural member</skos:altLabel>
+        <skos:altLabel xml:lang="en">architectural piece</skos:altLabel>
         <skos:altLabel xml:lang="fr">Architecture</skos:altLabel>
         <skos:altLabel xml:lang="hu">építészeti elem</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
@@ -684,6 +694,7 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1299">
                 <skos:prefLabel xml:lang="en">Columnar monument</skos:prefLabel>
+                <skos:altLabel xml:lang="en">Colonnette</skos:altLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
@@ -997,7 +1008,8 @@
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1773">
-        <skos:prefLabel xml:lang="en">Base de Statue Commémorative</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Base de Statue Commémorative</skos:prefLabel>
+        <skos:altLabel xml:lang="fr">Base de monument funéraire</skos:altLabel>
         <skos:scopeNote xml:lang="fr">statues, igs pour des dunts dans des espaces publiques, par
             exemple dans un forum. Elles ne peuvent pas re appels statues funaires parce que’elles
             ne sont pas igs dans un cimetie. Elles ne peuvent pas re appels non plus des statues
@@ -1009,6 +1021,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/53">
         <skos:prefLabel xml:lang="en">Basis</skos:prefLabel>
         <skos:altLabel xml:lang="es">base</skos:altLabel>
+        <skos:altLabel xml:lang="en">monument base</skos:altLabel>
         <skos:altLabel xml:lang="tr">kaide</skos:altLabel>
         <skos:altLabel xml:lang="hu">lábazat</skos:altLabel>
         <skos:altLabel xml:lang="es">Pedestal</skos:altLabel>
@@ -1160,6 +1173,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/310">
         <skos:prefLabel xml:lang="en">Bol</skos:prefLabel>
         <skos:altLabel xml:lang="en">Bowl</skos:altLabel>
+        <skos:altLabel xml:lang="en">bowl fragment</skos:altLabel>
+        <skos:altLabel xml:lang="en">bowl rim</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1370">
@@ -1721,6 +1736,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/91">
         <skos:prefLabel xml:lang="la">Cippus, funus</skos:prefLabel>
         <skos:altLabel xml:lang="en">tombstone / gravestone</skos:altLabel>
+        <skos:altLabel xml:lang="en">Tomb-slab</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1470">
@@ -1759,6 +1775,7 @@
         <skos:altLabel xml:lang="fr">borne, marque de frontière</skos:altLabel>
         <skos:altLabel xml:lang="en">boundary marker</skos:altLabel>
         <skos:altLabel xml:lang="en">boundary stone</skos:altLabel>
+        <skos:altLabel xml:lang="en">Border stone</skos:altLabel>
         <skos:altLabel xml:lang="it">cippo di delimitazione</skos:altLabel>
         <skos:altLabel xml:lang="es">Hito</skos:altLabel>
         <skos:altLabel xml:lang="tr">sınır taşı</skos:altLabel>
@@ -1962,6 +1979,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/100">
         <skos:prefLabel xml:lang="la">Columna</skos:prefLabel>
         <skos:altLabel xml:lang="fr">colonne</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Colonne votive</skos:altLabel>
         <skos:altLabel xml:lang="en">column</skos:altLabel>
         <skos:altLabel xml:lang="hu">oszlop</skos:altLabel>
         <skos:altLabel xml:lang="de">Säule</skos:altLabel>
@@ -1998,7 +2016,7 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1483">
-                <skos:prefLabel xml:lang="fr">Plaque</skos:prefLabel>
+                <skos:prefLabel xml:lang="fr">Plaque</skos:prefLabel><!--???-->
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
@@ -2943,6 +2961,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/186">
         <skos:prefLabel xml:lang="de">Fries</skos:prefLabel>
         <skos:altLabel xml:lang="en">frieze</skos:altLabel>
+        <skos:altLabel xml:lang="en">Block frieze mausoleum</skos:altLabel>
         <skos:altLabel xml:lang="hu">fríz</skos:altLabel>
         <skos:altLabel xml:lang="la">ornamentum</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
@@ -3204,6 +3223,11 @@
         <skos:altLabel xml:lang="en">burial building</skos:altLabel>
         <skos:altLabel xml:lang="it">edificio sepolcrale</skos:altLabel>
         <skos:altLabel xml:lang="en">funerary monument</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Dé ( ? ) d'un monument funéraire, fragment</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Dé d'une base de monument funéraire</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Dé d'une base de monument funéraire, fragment</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Dé d'une base funéraire</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Dé ou stéle funéraire, fragment</skos:altLabel>
         <skos:altLabel xml:lang="en">Funerary Site</skos:altLabel>
         <skos:altLabel xml:lang="de">Grab</skos:altLabel>
         <skos:altLabel xml:lang="en">Grave monument</skos:altLabel>
@@ -3644,6 +3668,28 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/259">
         <skos:prefLabel xml:lang="en">Inscribed plaque</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Panel</skos:altLabel>
+        <skos:altLabel xml:lang="en">Panel panel</skos:altLabel>
+        <skos:altLabel xml:lang="en">base panel</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Plaque base de monument funéraire, fragment</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Plaque de construction</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Plaque funéraire</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Plaque funéraire appartenant à un mausolée</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Plaque funéraire, fragment</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Plaque honorifique
+        <skos:altLabel xml:lang="fr">Plaque honorifique encastrée dans une base</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Plaque honorifique encastrée dans une base, deux fragments</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Plaque honorifique encastrée dans une base, fragments</skos:altLabel>
+       <skos:altLabel xml:lang="fr">Plaque honorifique, partie inférieure</skos:altLabel>
+       <skos:altLabel xml:lang="fr">Plaque honorifique, partie supérieure gauche</skos:altLabel>
+       <skos:altLabel xml:lang="fr">Plaque ou base de monument funéraire</skos:altLabel>
+       <skos:altLabel xml:lang="fr">Plaque votive</skos:altLabel>
+       <skos:altLabel xml:lang="fr">Plaque votive encastrée dans une base</skos:altLabel>
+       <skos:altLabel xml:lang="fr">plaque votive ou honorifique</skos:altLabel>
+       <skos:altLabel xml:lang="fr">Plaque votive(?)</skos:altLabel>
+       <skos:altLabel xml:lang="fr">Plaque, stèle ou base de monument funéraire</skos:altLabel>
+       <skos:altLabel xml:lang="fr">plaque, tabula ansata</skos:altLabel>
+       <skos:altLabel xml:lang="fr">plaquette</skos:altLabel>
         <skos:altLabel xml:lang="es">bandeja</skos:altLabel>
         <skos:altLabel xml:lang="it">lastra</skos:altLabel>
         <skos:altLabel xml:lang="en">slab</skos:altLabel>
@@ -3667,6 +3713,7 @@
         <skos:altLabel xml:lang="en">Domestic</skos:altLabel>
         <skos:altLabel xml:lang="la">instrumentum</skos:altLabel>
         <skos:altLabel xml:lang="fr">mobilier, outillage, matériel</skos:altLabel>
+        <skos:altLabel xml:lang="fr">instrumentum ( lead ingot )</skos:altLabel>
         <skos:altLabel xml:lang="it">strumento</skos:altLabel>
         <skos:altLabel xml:lang="el">εργαλείο</skos:altLabel>
         <skos:altLabel xml:lang="ru">инструмент, орудие</skos:altLabel>
@@ -3784,6 +3831,7 @@
         <skos:prefLabel xml:lang="de">Kapitell</skos:prefLabel>
         <skos:altLabel xml:lang="en">capital (of a column)</skos:altLabel>
         <skos:altLabel xml:lang="it">capitello</skos:altLabel>
+        <skos:altLabel xml:lang="en">capitals</skos:altLabel>
         <skos:altLabel xml:lang="la">capitulum</skos:altLabel>
         <skos:altLabel xml:lang="hu">oszlopfő</skos:altLabel>
         <skos:altLabel xml:lang="el">κιονόκρανο</skos:altLabel>
@@ -4029,6 +4077,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/38">
         <skos:prefLabel xml:lang="fr">Linteau</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Lintel</skos:altLabel>
         <skos:altLabel xml:lang="la">architectura, (architrave)</skos:altLabel>
         <skos:altLabel xml:lang="es">Dintel</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
@@ -4214,6 +4263,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/164">
         <skos:prefLabel xml:lang="es">Medallón</skos:prefLabel>
+        <skos:altLabel xml:lang="en">emblema</skos:altLabel>
         <skos:altLabel xml:lang="la">monile, emblema</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2013-10-01 22:44:21</dct:created>
@@ -4489,6 +4539,7 @@
         <skos:prefLabel xml:lang="de">Möbelfuß / Lampenständer</skos:prefLabel>
         <skos:altLabel xml:lang="hu">bútorláb / lámpásállvány</skos:altLabel>
         <skos:altLabel xml:lang="en">oil-lamp</skos:altLabel>
+        <skos:altLabel xml:lang="en">lamp mould</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1572">
@@ -4608,6 +4659,7 @@
         <skos:altLabel xml:lang="it">fibbia</skos:altLabel>
         <skos:altLabel xml:lang="es">fíbula</skos:altLabel>
         <skos:altLabel xml:lang="fr">fibule, épingle</skos:altLabel>
+        <skos:altLabel xml:lang="la">fibula</skos:altLabel>
         <skos:altLabel xml:lang="en">pin</skos:altLabel>
         <skos:altLabel xml:lang="de">Schmuck, Fibel</skos:altLabel>
         <skos:altLabel xml:lang="el">κόσμημα, πόρπη/περόνη</skos:altLabel>
@@ -4724,6 +4776,9 @@
         <skos:altLabel xml:lang="it">Mosaico</skos:altLabel>
         <skos:altLabel xml:lang="hu">mozaik</skos:altLabel>
         <skos:altLabel xml:lang="la">opus, tessellatum</skos:altLabel>
+        <skos:altLabel xml:lang="en">mosaic panel</skos:altLabel>
+        <skos:altLabel xml:lang="en">panel mosaic</skos:altLabel>
+        <skos:altLabel xml:lang="en">mosaic pavement</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1637">
@@ -4840,6 +4895,9 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/182">
         <skos:prefLabel xml:lang="la">Olla</skos:prefLabel>
         <skos:altLabel xml:lang="es">olla, hombár</skos:altLabel>
+        <skos:altLabel xml:lang="en">pot foot</skos:altLabel>
+        <skos:altLabel xml:lang="en">pot fragment</skos:altLabel>
+        <skos:altLabel xml:lang="en">pot rim</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/183"/>
         <skos:exactMatch>
@@ -5076,6 +5134,7 @@
         <skos:altLabel xml:lang="la">pavimentum</skos:altLabel>
         <skos:altLabel xml:lang="en">paving</skos:altLabel>
         <skos:altLabel xml:lang="en">Paving stone</skos:altLabel>
+        <skos:altLabel xml:lang="en">paving-slab</skos:altLabel>
         <skos:altLabel xml:lang="es">Suelo</skos:altLabel>
         <skos:altLabel xml:lang="hu">vakolat</skos:altLabel>
         <skos:altLabel xml:lang="el">δάπεδο</skos:altLabel>
@@ -5278,6 +5337,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1910">
         <skos:prefLabel xml:lang="en">Plinth</skos:prefLabel>
+        <skos:altLabel xml:lang="en">plinths</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=63">
@@ -5691,6 +5751,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/19">
         <skos:prefLabel xml:lang="en">Religious, Ritual and Funerary</skos:prefLabel>
+       <skos:altLabel xml:lang="fr"> Monument funéraire ou votif</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -5947,6 +6008,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/226">
         <skos:prefLabel xml:lang="it">Sedile</skos:prefLabel>
+        <skos:altLabel xml:lang="en">benches</skos:altLabel>
         <skos:altLabel xml:lang="en">seat</skos:altLabel>
         <skos:altLabel xml:lang="fr">siège</skos:altLabel>
         <skos:altLabel xml:lang="de">Sitz</skos:altLabel>
@@ -6188,6 +6250,7 @@
         <skos:altLabel xml:lang="la">horologium, (meridiana)</skos:altLabel>
         <skos:altLabel xml:lang="hu">napóra</skos:altLabel>
         <skos:altLabel xml:lang="en">sun-dial</skos:altLabel>
+        <skos:altLabel xml:lang="en">sundial</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1540">
@@ -6347,7 +6410,11 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/57">
         <skos:prefLabel xml:lang="en">Statue base</skos:prefLabel>
         <skos:altLabel xml:lang="it">base (piedistallo) di statua onoraria</skos:altLabel>
-        <skos:altLabel xml:lang="es">base de statue</skos:altLabel>
+        <skos:altLabel xml:lang="fr">base de statue</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Base de statue impériale</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Base de statue impériale, fragment</skos:altLabel>
+        <skos:altLabel xml:lang="en">Fragmentary statue base</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Base de statue, le dé</skos:altLabel>
         <skos:altLabel xml:lang="en">base, statue</skos:altLabel>
         <skos:altLabel xml:lang="la">basis, statua</skos:altLabel>
         <skos:altLabel xml:lang="en">Basis, Statue</skos:altLabel>
@@ -6439,8 +6506,15 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/250">
         <skos:prefLabel xml:lang="de">Stele</skos:prefLabel>
-        <skos:altLabel xml:lang="en">stela</skos:altLabel>
+        <skos:altLabel xml:lang="la">stela</skos:altLabel>
+        <skos:altLabel xml:lang="la">stelae</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Stèle funeraire, fragment</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Stèle funéeraire</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Stèle funéraire</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Stèle funéraire avec la représentation du banquet funéraire</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Stèle funéraire fragmentaire</skos:altLabel>
         <skos:altLabel xml:lang="hu">sztélé</skos:altLabel>
+        <skos:altLabel xml:lang="en">plaque / stela</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1763">
@@ -6545,6 +6619,7 @@
         <skos:prefLabel xml:lang="la">Suppellex</skos:prefLabel>
         <skos:altLabel xml:lang="en">furniture</skos:altLabel>
         <skos:altLabel xml:lang="en">furniture and fittings</skos:altLabel>
+        <skos:altLabel xml:lang="en">fitting</skos:altLabel>
         <skos:altLabel xml:lang="de">Hausrat</skos:altLabel>
         <skos:altLabel xml:lang="it">masserizie, mobili per la casa</skos:altLabel>
         <skos:altLabel xml:lang="fr">mobilier</skos:altLabel>
@@ -6595,6 +6670,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/263">
         <skos:prefLabel xml:lang="la">Tabula ansata</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Tabula ansata, probably part of a sarcophagus</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -6609,6 +6685,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/265">
         <skos:prefLabel xml:lang="la">Tabula, cerata</skos:prefLabel>
+        <skos:altLabel xml:lang="en">wax tablet</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -6785,6 +6862,7 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1665">
                 <skos:prefLabel xml:lang="fr">Tuile</skos:prefLabel>
+                <skos:altLabel xml:lang="fr">Tuiles</skos:altLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
@@ -7159,6 +7237,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/18">
         <skos:prefLabel xml:lang="en">Triumphal arch</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Arch</skos:altLabel>
         <skos:altLabel xml:lang="it">Arco</skos:altLabel>
         <skos:altLabel xml:lang="la">arcus</skos:altLabel>
         <skos:altLabel xml:lang="hu">diadalív</skos:altLabel>
@@ -7487,6 +7566,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/25">
         <skos:prefLabel xml:lang="de">Votivrelief</skos:prefLabel>
+        <skos:altLabel xml:lang="fr">Relief votif</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Relief votif ou autel</skos:altLabel>
         <skos:altLabel xml:lang="la">anaglyphum, votum</skos:altLabel>
         <skos:altLabel xml:lang="hu">votív relief</skos:altLabel>
         <skos:altLabel xml:lang="en">votive relief</skos:altLabel>
@@ -7592,6 +7673,7 @@
         <skos:altLabel xml:lang="la">tubus, ductus (doccione)</skos:altLabel>
         <skos:altLabel xml:lang="hu">vízköpő</skos:altLabel>
         <skos:altLabel xml:lang="en">Water Pipe</skos:altLabel>
+        <skos:altLabel xml:lang="en">water-pipe</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1179">
@@ -7687,7 +7769,9 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/147">
         <skos:prefLabel xml:lang="de">Ziegel</skos:prefLabel>
-        <skos:altLabel xml:lang="en">brique</skos:altLabel>
+        <skos:altLabel xml:lang="es">brique</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Brique de pile d'hypocauste</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Brique de suspensura</skos:altLabel>
         <skos:altLabel xml:lang="fr">brique</skos:altLabel>
         <skos:altLabel xml:lang="es">Ladrillo</skos:altLabel>
         <skos:altLabel xml:lang="el">πλίνθος, τούβλο</skos:altLabel>
@@ -7738,6 +7822,78 @@
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1952">
+        <skos:prefLabel xml:lang="fr">Brique ou tuile</skos:prefLabel>
+        <skos:altLabel xml:lang="fr">Briques et tuiles</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Tuiles et briques de suspensura</skos:altLabel>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/147"/>
+<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2013-10-20 11:44:21</dct:created>
+</skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1953">
+        <skos:prefLabel xml:lang="fr">Colonne votive / base de statue</skos:prefLabel>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/100"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/57"/>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2013-10-20 11:44:21</dct:created>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1954">
+<skos:prefLabel xml:lang="fr">donarium</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2013-10-20 11:44:21</dct:created>
+</skos:Concept>
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1955">
+        <skos:prefLabel xml:lang="fr">monument base / stela</skos:prefLabel>
+        <skos:altLabel xml:lang="fr">Stèle ou base de monument funéraire</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Stèle ou base de monument funéraire, fragment</skos:altLabel>
+     <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/250"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/53"/>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2013-10-20 11:44:21</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1957">
+        <skos:prefLabel xml:lang="fr">Stèle ou plaque funéraire</skos:prefLabel>
+        <skos:altLabel xml:lang="en">panel stele</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Stèle ou plaque funéraire, fragment</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Stèle, plaque ou base de monument funéraire, fragment.</skos:altLabel>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/250"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/53"/>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2013-10-20 11:44:21</dct:created>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1958">
+        <skos:prefLabel xml:lang="en">  TS bowl</skos:prefLabel>
+        <skos:altLabel xml:lang="en">TS bowl foot</skos:altLabel>
+        <skos:altLabel xml:lang="en">TS foot fragment</skos:altLabel>
+        <skos:altLabel xml:lang="en">TS fragment</skos:altLabel>
+        <skos:altLabel xml:lang="en">TS medalion</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+    <dct:created>2013-10-20 11:44:21</dct:created>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1956">
+        <skos:prefLabel xml:lang="fr">mouth and neck of a picher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2013-10-20 11:44:21</dct:created>
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1959">
+        <skos:prefLabel xml:lang="en">Bracket</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2013-10-20 11:44:21</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1960">
+        <skos:prefLabel xml:lang="en">Keystone</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2013-10-20 11:44:21</dct:created>
+    </skos:Concept>
+
+
+
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/322">
         <skos:prefLabel xml:lang="it">Zoomorfo</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>

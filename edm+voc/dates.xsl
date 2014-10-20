@@ -8,14 +8,22 @@
     
     <xsl:template match="originDating">
         <xsl:param name="dateURI" tunnel="yes"/>
-        <xsl:variable name="noquestion"><xsl:analyze-string select="." regex="(\w+)\?">
-            <xsl:matching-substring>
-                <xsl:value-of select="regex-group(1)"/>
-            </xsl:matching-substring>            
-            <xsl:non-matching-substring>
-                <xsl:value-of select="."/>
-            </xsl:non-matching-substring>
-        </xsl:analyze-string>
+        <xsl:variable name="noquestion"><xsl:variable name="noquestion">
+            <xsl:analyze-string select="." regex="(\w+\s*\w*\s*)\?">
+                <xsl:matching-substring>
+                    <xsl:value-of select="regex-group(1)"/>
+                </xsl:matching-substring>            
+                <xsl:non-matching-substring>
+                    <xsl:analyze-string select="." regex="(\w+\s*\w*\s*),\s(\w*)">
+                        <xsl:matching-substring> 
+                            <xsl:value-of select="regex-group(1)"/>                     
+                        </xsl:matching-substring>            
+                        <xsl:non-matching-substring>
+                            <xsl:value-of select="."/>
+                        </xsl:non-matching-substring>
+                    </xsl:analyze-string>
+                </xsl:non-matching-substring>
+            </xsl:analyze-string>
         </xsl:variable>
         <xsl:copy>
             <xsl:copy-of select="@*[not(local-name()='period')]"/>

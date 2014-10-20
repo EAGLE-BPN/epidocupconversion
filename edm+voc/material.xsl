@@ -9,12 +9,12 @@
     <xsl:template match="material">
         <xsl:param name="materialURI" tunnel="yes"/>
         <xsl:variable name="noquestion">
-            <xsl:analyze-string select="." regex="(\w+)\?">
+            <xsl:analyze-string select="." regex="(\w+\s*\w*\s*)\?">
             <xsl:matching-substring>
                 <xsl:value-of select="regex-group(1)"/>
             </xsl:matching-substring>            
             <xsl:non-matching-substring>
-                <xsl:analyze-string select="." regex="(\w+),\s(\w*)">
+                <xsl:analyze-string select="." regex="(\w+\s*\w*\s*),\s(\w*)">
                     <xsl:matching-substring> 
                             <xsl:value-of select="regex-group(1)"/>                     
                     </xsl:matching-substring>            

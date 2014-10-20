@@ -20,90 +20,90 @@
          <div xml:id="material">
             <list>
                <item uri="http://www.eagle-network.eu/voc/material/lod/48">marble</item>
-               <item>black marble</item>
-               <item>brown limestone</item>
-               <item>brown sand-stone</item>
-               <item>brownish-grey limestone</item>
-               <item>cipollino</item>
-               <item>cipollino</item>
-               <item>coarse grey limestone</item>
-               <item>cream marble</item>
-               <item>cream marble</item>
-               <item>cream marble flecked with brown</item>
-               <item>dark grey marble</item>
-               <item>dark limestone</item>
-               <item>dark limestone</item>
-               <item>fine brown limestone</item>
-               <item>green sandstone</item>
-               <item>grey limestone</item>
-               <item>grey and grey-brown limestone</item>
-               <item>grey brown limestone</item>
-               <item>grey granite</item>
-               <item>grey limestone</item>
-               <item>grey limestone</item>
-               <item>grey marble</item>
-               <item>grey sandstone</item>
-               <item>grey-brown limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/366">black marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">brown limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/75">brown sand-stone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">brownish-grey limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/648">cipollino</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/648">cipollino</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">coarse grey limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/354">cream marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/354">cream marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/355">cream marble flecked with brown</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/356">dark grey marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">dark limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">dark limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">fine brown limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/75">green sandstone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">grey limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">grey and grey-brown limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">grey brown limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/11">grey granite</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">grey limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">grey limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/357">grey marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/75">grey sandstone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">grey-brown limestone</item>
                <item>grey-flecked white</item>
                <item>grey-flecked, white marble</item>
                <item uri="http://www.eagle-network.eu/voc/material/lod/108">Lead</item>
                <item uri="http://www.eagle-network.eu/voc/material/lod/66">limestone</item>
-               <item>limestone veined with quartz</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/647">limestone veined with quartz</item>
                <item uri="http://www.eagle-network.eu/voc/material/lod/48">marble</item>
                <item>marble, cream mottled with grey and purple</item>
                <item uri="http://www.eagle-network.eu/voc/material/lod/134">Mosaic</item>
-               <item>Numidian marble</item>
-               <item>pink limestone</item>
-               <item>pink-grained white marble</item>
-               <item>pinkish brown limestone</item>
-               <item>pitted grey limestone</item>
-               <item>Portasanta marble</item>
-               <item>Purple breccia</item>
-               <item>red Egyptian granite</item>
-               <item>sand-stone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/359">Numidian marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">pink limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/360">pink-grained white marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">pinkish brown limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">pitted grey limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/361">Portasanta marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/73">Purple breccia</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/11">red Egyptian granite</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/75">sand-stone</item>
                <item uri="http://www.eagle-network.eu/voc/material/lod/502">sandstone</item>
-               <item>stuccoed sandstone</item>
-               <item>white marble</item>
-               <item>white limestone</item>
-               <item>white marble</item>
-               <item>White Pentelic marble</item>
-               <item>yellow and white marble</item>
-               <item>Yellow breccia</item>
-               <item>yellow limestone</item>
-               <item>yellow marble</item>
-               <item>yellow-brown limestone</item>
-               <item>yellowish limestone</item>
-               <item>yellowish-grey limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/75">stuccoed sandstone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/362">white marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">white limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/362">white marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/363">White Pentelic marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/364">yellow and white marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/73">Yellow breccia</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">yellow limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/365">yellow marble</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">yellow-brown limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">yellowish limestone</item>
+               <item uri="http://www.eagle-network.eu/voc/material/lod/66">yellowish-grey limestone</item>
             </list>
          </div>
          <div xml:id="typeofinscription">
             <list>
-               <item>street sign</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/380">street sign</item>
                <item uri="http://www.eagle-network.eu/voc/typeins/lod/355">Acclamation</item>
-               <item>Apotropaic</item>
-               <item>benefaction</item>
-               <item>Boundary</item>
-               <item>Building</item>
-               <item>Christian</item>
-               <item>Decree</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/381">Apotropaic</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/382">benefaction</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/96">Boundary</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/86">Building</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/383">Christian</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/384">Decree</item>
                <item uri="http://www.eagle-network.eu/voc/typeins/lod/79">Dedication</item>
                <item uri="http://www.eagle-network.eu/voc/typeins/lod/11">Donation</item>
                <item uri="http://www.eagle-network.eu/voc/typeins/lod/92">Funerary</item>
-               <item>Gameboard text</item>
-               <item>greeting</item>
-               <item>honours</item>
-               <item>imperial titulature</item>
-               <item>invocation</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/385">Gameboard text</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/386">greeting</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/69">honours</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/114">imperial titulature</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/387">invocation</item>
                <item>Libyan</item>
-               <item>Mason's marks</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/388">Mason's marks</item>
                <item uri="http://www.eagle-network.eu/voc/typeins/lod/102">milestone</item>
-               <item>monogram</item>
-               <item>Posthumous</item>
-               <item>quarry-mark</item>
-               <item>Sculptor's signature</item>
-               <item>stamp</item>
-               <item>Testamentary</item>
-               <item>Title</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/140">monogram</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/389">Posthumous</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/390">quarry-mark</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/115">Sculptor's signature</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/118">stamp</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/63">Testamentary</item>
+               <item uri="http://www.eagle-network.eu/voc/typeins/lod/391">Title</item>
                <item uri="http://www.eagle-network.eu/voc/typeins/lod/368">verse</item>
                <item uri="http://www.eagle-network.eu/voc/typeins/lod/83">Votive</item>
                <item>Water-pipe </item>
@@ -112,48 +112,48 @@
          <div xml:id="objectType">
             <list>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/29">altar</item>
-               <item>arch</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/18">arch</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1511">architrave</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1845">archivolt</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/199">Balustrade</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/53">base</item>
-               <item>base panel</item>
-               <item>benches</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/259">base panel</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/226">benches</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/189">block</item>
-               <item>Block frieze mausoleum</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/186">Block frieze mausoleum</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/310">bowl</item>
-               <item>Bracket</item>
-               <item>capitals</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1959">Bracket</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/63">capitals</item>
                <item>Catacomb</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/78">cinerary urn</item>
-               <item>Colonnette</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1299">Colonnette</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/100">column</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/107">console</item>
-               <item>emblema</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/164">emblema</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1868">entablature</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/37">exedra</item>
-               <item>Keystone</item>
-               <item>Lintel</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1960">Keystone</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/38">Lintel</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/89">Milestone</item>
-               <item>mosaic panel</item>
-               <item>mosaic pavement</item>
-               <item>panel</item>
-               <item>panel mosaic</item>
-               <item>Panel panel</item>
-               <item>panel stele</item>
-               <item>paving-slab</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/184">mosaic panel</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/184">mosaic pavement</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/259">panel</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/184">panel mosaic</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/259">Panel panel</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1957">panel stele</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/190">paving-slab</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/194">pilaster</item>
-               <item>plinths</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1910">plinths</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1911">Podium</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/1446">sarcophagus</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/259">slab</item>
-               <item>stelae</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/250">stelae</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/250">stele</item>
-               <item>sundial</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/134">sundial</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/157">table</item>
                <item uri="http://www.eagle-network.eu/voc/objtyp/lod/447">Tomb</item>
-               <item>Tomb-slab</item>
-               <item>water-pipe</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/91">Tomb-slab</item>
+               <item uri="http://www.eagle-network.eu/voc/objtyp/lod/298">water-pipe</item>
             </list>
          </div>
          <div xml:id="writing">
