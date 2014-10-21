@@ -7,9 +7,14 @@
     exclude-result-prefixes="tei rdf skos">
     
     <xsl:template name="breakbrackets">
-        <xsl:param name="textToBeProcessed" tunnel="yes"/>
-        <!-- splits [fortasse? bene? merenti?] in  [fortasse?][bene?][merenti?]      -->
-        <xsl:analyze-string select="$textToBeProcessed" regex="\[((.*)\?)((.*)\?)((.*)\?)\]">
+        <xsl:param name="textToBeProcessed" tunnel="yes"/>        
+<xsl:analyze-string select="$textToBeProcessed" regex="\[\-\]">
+            <xsl:matching-substring>
+                <xsl:text>[-]</xsl:text>
+            </xsl:matching-substring>
+    <xsl:non-matching-substring>
+            <!-- splits [fortasse? bene? merenti?] in  [fortasse?][bene?][merenti?]      -->
+            <xsl:analyze-string select="$textToBeProcessed" regex="\[((.*)\?)((.*)\?)((.*)\?)\]">
             <xsl:matching-substring>
                 <xsl:text>[</xsl:text><xsl:value-of select="regex-group(1)"
                 /><xsl:text>][</xsl:text><xsl:value-of select="regex-group(3)"/>][<xsl:value-of
@@ -246,5 +251,8 @@
                 </xsl:analyze-string>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
+    
+    </xsl:non-matching-substring>
+</xsl:analyze-string>
     </xsl:template>
 </xsl:stylesheet>

@@ -29,7 +29,17 @@
                                 </choice>
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
-  <!-- gap    omitted                  -->
+<!-- gap    name                 --> 
+                                <xsl:analyze-string select="." regex="\[\-\]">
+                                    <xsl:matching-substring>
+                                        <name type="praenomen">
+                                            <gap reason="lost" atLeast="1" atMost="3"
+                                                unit="character"/>
+                                        </name>
+                                    </xsl:matching-substring>
+                                    <xsl:non-matching-substring>
+
+ <!-- gap    omitted                  -->
                                 <xsl:analyze-string select="." regex="(&lt;|&#12296;)(\-\-\-)(&gt;|&#12297;)">
                                     <xsl:matching-substring>
                                         <gap reason="omitted" extent="unknown" unit="character"/>
@@ -1333,7 +1343,8 @@
                 </xsl:analyze-string>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
-
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
     </xsl:template>
 
 </xsl:stylesheet>
