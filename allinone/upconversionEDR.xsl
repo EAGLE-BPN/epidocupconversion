@@ -2655,6 +2655,7 @@
                                                                         </expan>
                                                                     </xsl:matching-substring>
                                                                     <xsl:non-matching-substring>
+<!--eventually left over (:xxx) cases from complex abreviations partially or totally supplied are put at least in a expansion-->
                                             <xsl:analyze-string select="." regex="\(:(\w+\s*\w*\s*\w*\s*\w*)\)">
     <xsl:matching-substring>
        <expan><ex><xsl:value-of select="regex-group(1)"/></ex></expan>
