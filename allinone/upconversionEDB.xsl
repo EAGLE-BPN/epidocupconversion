@@ -1333,11 +1333,11 @@
                                                                   <xsl:non-matching-substring>
       <!--        ((abc))            -->
                                                                       <xsl:analyze-string select="."
-                                                                          regex="\(\((\w*\s*\w*\s*\w*\s*)\)\)">
+                                                                          regex="\(\((\w*\s*\w*\s*\w*\s*\w*\s*\w*\s*\w*\s*)\)\)">
                                                                           <xsl:matching-substring>
                                                                               <g>
                                                                                   <xsl:attribute name="type">
-                                                                                      <xsl:value-of select="regex-group(1)"/>
+                                                                                      <xsl:text>descriptive</xsl:text>
                                                                                   </xsl:attribute> 
                                                                                       <xsl:value-of select="regex-group(1)"/>
                                                                                    </g>
