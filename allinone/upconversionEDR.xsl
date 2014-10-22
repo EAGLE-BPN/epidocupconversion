@@ -2655,7 +2655,13 @@
                                                                         </expan>
                                                                     </xsl:matching-substring>
                                                                     <xsl:non-matching-substring>
-        <!--unclear &#803; -->
+                                            <xsl:analyze-string select="." regex="\(:(\w+\s*\w*\s*\w*\s*\w*)\)">
+    <xsl:matching-substring>
+       <expan><ex><xsl:value-of select="regex-group(1)"/></ex></expan>
+    </xsl:matching-substring>
+    <xsl:non-matching-substring>
+    
+                                                                        <!--unclear &#803; -->
                                                                         <xsl:analyze-string select="." regex="((\w&#803;)+)">
                                                                             <xsl:matching-substring>
                                                                                 <unclear>
@@ -2735,6 +2741,9 @@
                                                             </xsl:analyze-string>
                                                             </xsl:non-matching-substring>
                                                             </xsl:analyze-string>
+                                                            </xsl:non-matching-substring>
+                                                            </xsl:analyze-string>
+                                                                
                                                             </xsl:non-matching-substring>
                                                             </xsl:analyze-string>
                                                             </xsl:non-matching-substring>
