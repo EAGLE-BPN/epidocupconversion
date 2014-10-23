@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns="http://www.tei-c.org/ns/1.0">
+   <skos:ConceptScheme rdf:about="http://www.eagle-network.eu/voc/objtyp/">EAGLE Vocabulary - Object type<dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE BPN)</dc:creator>
+      <dc:contributor/>
+      <dc:publisher/>
+      <dc:rights/>
+      <dc:subject/>
+      <dc:description rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp/.html"/>
+      <dc:date>2014-10-23+02:00</dc:date>
+      <dct:modified>2014-10-23+02:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/147">
+        <skos:prefLabel xml:lang="de">Ziegel</skos:prefLabel>
+        <skos:altLabel xml:lang="es">brique</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Brique de pile d'hypocauste</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Brique de suspensura</skos:altLabel>
+        <skos:altLabel xml:lang="fr">brique</skos:altLabel>
+        <skos:altLabel xml:lang="es">Ladrillo</skos:altLabel>
+        <skos:altLabel xml:lang="el">πλίνθος, τούβλο</skos:altLabel>
+        <skos:altLabel xml:lang="ru">кирпич</skos:altLabel>
+        <skos:altLabel xml:lang="ar">قرميد</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/951"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1658">
+                <skos:prefLabel xml:lang="fr">Brique</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1405">
+                <skos:prefLabel xml:lang="de">tile</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1401">
+                <skos:prefLabel xml:lang="fr">Tuile</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1129">
+                <skos:prefLabel xml:lang="de">Ziegel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1129">
+                <skos:prefLabel xml:lang="de">Ziegel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://eda-bea.es/pub/record_card_2.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=ladrillo&amp;rec=4297"/>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300010463"/>
+        </skos:exactMatch>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
+</rdf:RDF>
