@@ -31,12 +31,7 @@
             Evangelisti).</skos:scopeNote>
         <skos:historyNote xml:lang="en">EDR080072</skos:historyNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR080072"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-08-26 11:29:56</dct:created>
+      <dct:created>2013-08-26 11:29:56</dct:created>
         <dct:modified>2013-08-26 11:30:28</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/3">
@@ -59,12 +54,7 @@
                 <skos:prefLabel xml:lang="de">eingraviert</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR004986"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-08-26 11:31:00</dct:created>
+       <dct:created>2013-08-26 11:31:00</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/18">
         <skos:prefLabel xml:lang="la">Carbone</skos:prefLabel>
@@ -190,11 +180,6 @@
             al materiale in cui la lettera stata ricavata (Silvia Evangelisti).</skos:scopeNote>
         <skos:historyNote xml:lang="en">EDR032760</skos:historyNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR032760"
-            />
-        </skos:exactMatch>
         <dct:created>2013-08-26 11:31:44</dct:created>
         <dct:modified>2013-08-26 11:33:06</dct:modified>
     </skos:Concept>
@@ -220,11 +205,6 @@
                 <skos:prefLabel xml:lang="de">litterae aureae (in
                     Buchstabenbettungen)</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR029193"
-            />
         </skos:exactMatch>
         <dct:created>2013-08-26 13:40:09</dct:created>
     </skos:Concept>
@@ -253,11 +233,6 @@
                     eingedübelt)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR103378"
-            />
-        </skos:exactMatch>
         <dct:created>2013-08-26 11:34:26</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/7">
@@ -278,12 +253,7 @@
                 <skos:prefLabel xml:lang="la">Reversus impressione scriptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR115514"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-08-26 11:35:08</dct:created>
+       <dct:created>2013-08-26 11:35:08</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/8">
         <skos:prefLabel xml:lang="la">Litteris ex Forma</skos:prefLabel>
@@ -316,11 +286,6 @@
                 <skos:prefLabel xml:lang="de">gestempelt</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR015716"
-            />
-        </skos:exactMatch>
         <dct:created>2013-08-26 11:35:33</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/9">
@@ -351,12 +316,7 @@
                 <skos:prefLabel xml:lang="la">Scariphatus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000146"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-08-26 11:36:00</dct:created>
+       <dct:created>2013-08-26 11:36:00</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/172">
         <skos:prefLabel xml:lang="en">molded</skos:prefLabel>
@@ -392,11 +352,6 @@
                 <skos:prefLabel xml:lang="la">Pictus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR005156"
-            />
-        </skos:exactMatch>
         <dct:created>2013-08-26 11:36:25</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/171">
@@ -421,12 +376,7 @@
                 <skos:prefLabel xml:lang="de">gepunzt</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR071974"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-08-26 11:36:33</dct:created>
+          <dct:created>2013-08-26 11:36:33</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/1">
         <skos:prefLabel xml:lang="la">Scalpro</skos:prefLabel>
@@ -461,12 +411,7 @@
                 <skos:prefLabel xml:lang="la">Insculptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000079"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-08-23 16:45:39</dct:created>
+       <dct:created>2013-08-23 16:45:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/13">
         <skos:prefLabel xml:lang="la">Signaculo</skos:prefLabel>
@@ -524,11 +469,6 @@
                 <skos:prefLabel xml:lang="it">Exaratus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR029531"
-            />
-        </skos:exactMatch>
         <dct:created>2013-08-26 11:38:59</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/15">
@@ -573,12 +513,7 @@
                 <skos:prefLabel xml:lang="la">Tessellis scriptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000939"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-08-26 11:39:23</dct:created>
+       <dct:created>2013-08-26 11:39:23</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/17">
         <skos:prefLabel xml:lang="la">Typo</skos:prefLabel>

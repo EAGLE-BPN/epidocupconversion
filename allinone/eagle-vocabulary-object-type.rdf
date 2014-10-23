@@ -79,11 +79,6 @@
                 <skos:prefLabel xml:lang="de">Gebäude</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR025340"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1829">
@@ -174,19 +169,6 @@
         <skos:closeMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300003725"/>
         </skos:closeMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001300"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=urna&amp;rec=14640"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000019"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/30">
@@ -284,16 +266,6 @@
                 <skos:prefLabel xml:lang="es">Ánfora</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR120945"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=anfora&amp;rec=14676"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/21">
@@ -350,14 +322,6 @@
                 <skos:prefLabel xml:lang="de">Flasche</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD052766"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR029470"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/167">
@@ -410,11 +374,6 @@
         <skos:altLabel xml:lang="ru">якорь</skos:altLabel>
         <skos:altLabel xml:lang="ar">مخطاف</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR133137"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1835">
@@ -498,11 +457,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1141">
                 <skos:prefLabel xml:lang="de">Antefix</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR090078"
-            />
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300002217"/>
@@ -601,19 +555,6 @@
                 <skos:prefLabel xml:lang="de">Architekturelement</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002208"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR001344"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=architrav&amp;rec=16351"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/119">
@@ -669,11 +610,7 @@
         <skos:altLabel xml:lang="en">on fresh mortar</skos:altLabel>
         <skos:altLabel xml:lang="el">αμμοκονίαμα</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR113685"
-            />
-        </skos:exactMatch>
+        
         <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300014741"/>
         </skos:exactMatch>
@@ -731,10 +668,6 @@
                 <skos:prefLabel xml:lang="de">Helm</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/visualizza.php?id_nr=EDR007605"/>
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/47">
@@ -765,11 +698,6 @@
                 <skos:prefLabel xml:lang="de">Geschoss (Projektil)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR123445"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/49">
@@ -789,11 +717,6 @@
                 <skos:prefLabel xml:lang="de">Schwert</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:broadMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR091005"
-            />
-        </skos:broadMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1846">
@@ -977,9 +900,6 @@
                 <skos:prefLabel xml:lang="de">Bank</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043839"/>
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/324">
@@ -1044,19 +964,6 @@
                 <skos:prefLabel xml:lang="de">Basis</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD010489"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=pedestal&amp;rec=11"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000067"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/56">
@@ -1070,11 +977,6 @@
         <skos:altLabel xml:lang="el">βάση αναθήματος</skos:altLabel>
         <skos:altLabel xml:lang="ar">قاعدة، دعامة</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR005001"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/325">
@@ -1149,19 +1051,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1548">
                 <skos:prefLabel xml:lang="de">Block</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=pedestal&amp;rec=11"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000663"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000850"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -1275,14 +1164,6 @@
                 <skos:prefLabel xml:lang="de">Brunnen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD036823"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=fuente&amp;page=2&amp;rec=1784"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/205">
@@ -1355,14 +1236,6 @@
                 <skos:prefLabel xml:lang="de">Porträt</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD052137"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR109707"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/170">
@@ -1432,10 +1305,6 @@
                 <skos:prefLabel xml:lang="de">Zaun</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/visualizza.php?id_nr=EDR102366"/>
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/61">
@@ -1450,11 +1319,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8612">
                 <skos:prefLabel xml:lang="de">Kandelaber</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR121721"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -1484,11 +1348,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=596">
                 <skos:prefLabel xml:lang="de">Abakus</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR113669"
-            />
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300001699"/>
@@ -1544,12 +1403,7 @@
                 <skos:prefLabel xml:lang="de">Tiegel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR120876"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 23:00:08</dct:created>
+         <dct:created>2013-10-01 23:00:08</dct:created>
         <dct:modified>2013-10-01 23:00:38</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/437">
@@ -1666,17 +1520,6 @@
                 <skos:prefLabel xml:lang="fr">Cippe</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001512"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD007791"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000086"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/86">
@@ -1689,11 +1532,6 @@
         <skos:altLabel xml:lang="el">σύνορο αγρών, υδραγωγείο</skos:altLabel>
         <skos:altLabel xml:lang="ar">علامة قناة مياه</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR032675"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/87">
@@ -1708,12 +1546,7 @@
             αγροτεμαχίων</skos:altLabel>
         <skos:altLabel xml:lang="ar">علامة التقسيم المئوي للاراضي</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR074059"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/88">
         <skos:prefLabel xml:lang="la">Cippus, flumen</skos:prefLabel>
@@ -1726,11 +1559,6 @@
         <skos:altLabel xml:lang="el">σύνορο αγρών, ποταμός</skos:altLabel>
         <skos:altLabel xml:lang="ar">علامة حافة النهر</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR032677"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/91">
@@ -1764,10 +1592,6 @@
         <skos:altLabel xml:lang="en">pomerium marker</skos:altLabel>
         <skos:altLabel xml:lang="el">σύνορο αγρών, πωμήριο</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/visualizza.php?id_nr=EDR005694"/>
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/92">
@@ -1794,12 +1618,7 @@
                 <skos:prefLabel xml:lang="es">Mojón (Término)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000050"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/81">
         <skos:prefLabel xml:lang="fr">Cirque</skos:prefLabel>
@@ -1891,19 +1710,6 @@
                 <skos:prefLabel xml:lang="de">Schild</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019166"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=escudo&amp;rec=14967"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR106462"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1171">
@@ -1921,12 +1727,7 @@
         <skos:altLabel xml:lang="el">κολχιάριο</skos:altLabel>
         <skos:altLabel xml:lang="ar">ملعقة</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR110082"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/97">
         <skos:prefLabel xml:lang="it">Collare</skos:prefLabel>
@@ -1936,11 +1737,6 @@
         <skos:altLabel xml:lang="el">περιτραχήλιο, κολλάρο</skos:altLabel>
         <skos:altLabel xml:lang="ar">طوق</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR029401"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/175">
@@ -1987,17 +1783,7 @@
         <skos:altLabel xml:lang="ru">колонна</skos:altLabel>
         <skos:altLabel xml:lang="ar">عمود</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000431"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=columna&amp;rec=176"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
+            <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300001571"/>
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
@@ -2114,11 +1900,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7521">
                 <skos:prefLabel xml:lang="de">Krone</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR113670"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -2285,12 +2066,7 @@
                 <skos:prefLabel xml:lang="de">Tonne</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000058"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/113">
         <skos:prefLabel xml:lang="la">Cupa, lamina</skos:prefLabel>
@@ -2428,9 +2204,6 @@
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1509">
                 <skos:prefLabel xml:lang="es">Díptico</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD050167"/>
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -2613,19 +2386,6 @@
                 <skos:prefLabel xml:lang="de">Votivsäule</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD003764"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=columna&amp;page=2&amp;rec=8304"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000431"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/20">
@@ -2637,14 +2397,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3767">
                 <skos:prefLabel xml:lang="de">Ehrenbogen</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD003722"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR103504"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -2818,19 +2570,6 @@
                 <skos:prefLabel xml:lang="de">in den Fels gehauen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD011474"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=+Inscripci%C3%B3n+rupestre&amp;rec=8714"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR007230"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/348">
@@ -2893,11 +2632,6 @@
                 <skos:prefLabel xml:lang="de">Matrize</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR073612"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/75">
@@ -2951,12 +2685,7 @@
                 <skos:prefLabel xml:lang="de">Fragment</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000111"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/186">
         <skos:prefLabel xml:lang="de">Fries</skos:prefLabel>
@@ -3103,12 +2832,7 @@
                 <skos:prefLabel xml:lang="de">Gemme</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR129485"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/36">
         <skos:prefLabel xml:lang="de">Gesims</skos:prefLabel>
@@ -3164,17 +2888,7 @@
                 <skos:prefLabel xml:lang="de">Gewicht</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR126791"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=pesa&amp;rec=1913"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/120">
         <skos:prefLabel xml:lang="de">Giebel</skos:prefLabel>
@@ -3246,14 +2960,6 @@
                 <skos:prefLabel xml:lang="de">Grab</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD047534"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000718"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/235">
@@ -3313,12 +3019,7 @@
                 <skos:prefLabel xml:lang="de">Treppe</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR078643"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
+          <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300003228"/>
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
@@ -3343,11 +3044,6 @@
         <skos:altLabel xml:lang="en">theatre steps</skos:altLabel>
         <skos:altLabel xml:lang="ar">مسرح</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR078643"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/335">
@@ -3427,19 +3123,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4364">
                 <skos:prefLabel xml:lang="de">Herme</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022711"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR072026"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=erma&amp;page=4&amp;rec=3117"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -3616,12 +3299,7 @@
                 <skos:prefLabel xml:lang="de">Schuh</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR112909"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+ <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/139">
         <skos:prefLabel xml:lang="la">Indumentum, cingulum</skos:prefLabel>
@@ -3734,22 +3412,11 @@
                 rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=Instrumento+dom%C3%A9stico&amp;rec=20055"
             />
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004245"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR111721"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/141">
         <skos:prefLabel xml:lang="la">Instrumentum militare</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002376"/>
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/142">
@@ -3762,14 +3429,6 @@
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1554">
                 <skos:prefLabel xml:lang="es">Objetos de culto</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD042711"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=Objetos+de+culto&amp;rec=376"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -3852,11 +3511,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=564">
                 <skos:prefLabel xml:lang="de">Kapitell</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR033794"
-            />
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300001662"/>
@@ -3959,12 +3613,7 @@
                 <skos:prefLabel xml:lang="de">Becken</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR073834"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/145">
         <skos:prefLabel xml:lang="es">Lámina</skos:prefLabel>
@@ -4011,12 +3660,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/855">
         <skos:prefLabel xml:lang="la">later</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR100410"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-12-02 12:51:54</dct:created>
+       <dct:created>2013-12-02 12:51:54</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/148">
         <skos:prefLabel xml:lang="la">Laterculus</skos:prefLabel>
@@ -4047,11 +3691,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3195">
                 <skos:prefLabel xml:lang="de">Waage</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR100000"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -4138,12 +3777,7 @@
                 <skos:prefLabel xml:lang="de">Panzer</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR128157"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/149">
         <skos:prefLabel xml:lang="de">Löwe (Löwen)</skos:prefLabel>
@@ -4233,14 +3867,6 @@
                 <skos:prefLabel xml:lang="de">Barre</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD052766"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR116575"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/857">
@@ -4305,19 +3931,6 @@
                 <skos:prefLabel xml:lang="de">Meilenstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000478"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=miliario&amp;rec=1881"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR010510"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/157">
@@ -4338,14 +3951,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3055">
                 <skos:prefLabel xml:lang="de">Tisch</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030144"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000339"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -4386,12 +3991,7 @@
                 <skos:prefLabel xml:lang="es">Mesa de medidas</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR129380"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+          <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/161">
         <skos:prefLabel xml:lang="la">Mensura, capacitas</skos:prefLabel>
@@ -4551,12 +4151,7 @@
                 <skos:prefLabel xml:lang="it">lucerna</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR135302"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1893">
         <skos:prefLabel xml:lang="en">Modul / Embater</skos:prefLabel>
@@ -4588,12 +4183,7 @@
                 <skos:prefLabel xml:lang="de">Mühlstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR130338"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/321">
         <skos:prefLabel xml:lang="es">Molde</skos:prefLabel>
@@ -4623,12 +4213,7 @@
                 <skos:prefLabel xml:lang="de">Fingerring</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR006648"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+      <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/171">
         <skos:prefLabel xml:lang="la">Monile, armilla</skos:prefLabel>
@@ -4645,11 +4230,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1446">
                 <skos:prefLabel xml:lang="de">Armreif</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR109550"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -4671,12 +4251,7 @@
                 <skos:prefLabel xml:lang="de">Fibel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR120891"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/173">
         <skos:prefLabel xml:lang="la">Monile, inaures</skos:prefLabel>
@@ -4837,12 +4412,7 @@
                 <skos:prefLabel xml:lang="de">Naiskos</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR129383"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
+         <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300108367"/>
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
@@ -4858,12 +4428,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/181">
         <skos:prefLabel xml:lang="la">Nummus</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR106297"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+          <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1898">
         <skos:prefLabel xml:lang="en">Nymphaeum</skos:prefLabel>
@@ -4916,14 +4481,6 @@
         <skos:altLabel xml:lang="ar">محراب لوضع اناء الرماد للدفن</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/182"/>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019414"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000615"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/387">
@@ -4975,11 +4532,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1418">
                 <skos:prefLabel xml:lang="de">Anhänger</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR126792"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -5154,19 +4706,6 @@
         <skos:closeMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300002088"/>
         </skos:closeMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004825"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=pavimento&amp;rec=23888"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000939"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/213">
@@ -5197,11 +4736,6 @@
         <skos:altLabel xml:lang="ru">пилястр</skos:altLabel>
         <skos:altLabel xml:lang="ar">عمود مستطيل ذو تاج</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR114245"
-            />
-        </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300000953"/>
         </skos:exactMatch>
@@ -5313,19 +4847,6 @@
                 <skos:prefLabel xml:lang="de">Geschirr</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022585"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR070693"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=plato&amp;rec=21059"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/311">
@@ -5363,12 +4884,7 @@
                 <skos:prefLabel xml:lang="de">Brüstung</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR005006"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1911">
         <skos:prefLabel xml:lang="en">Podium</skos:prefLabel>
@@ -5490,11 +5006,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=350">
                 <skos:prefLabel xml:lang="de">Türpfosten</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR033577"
-            />
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300003146"/>
@@ -5624,12 +5135,7 @@
                 <skos:prefLabel xml:lang="de">Brunnenrand</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR071771"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/207">
         <skos:prefLabel xml:lang="de">Pyramidenstumpf</skos:prefLabel>
@@ -5732,14 +5238,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2659">
                 <skos:prefLabel xml:lang="de">Relief</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD009347"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000944"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -5861,19 +5359,6 @@
                 <skos:prefLabel xml:lang="de">Sarkophag</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004697"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=sarcofago&amp;rec=22035"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR001340"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/223">
@@ -5894,16 +5379,6 @@
                 <skos:prefLabel xml:lang="es">Sarcófago (Tapa de...)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR074975"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=sarcofago&amp;rec=770"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/104">
@@ -5923,12 +5398,7 @@
                 <skos:prefLabel xml:lang="de">Säulenbasis</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR030381"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
+       <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300233843"/>
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
@@ -5970,19 +5440,6 @@
                 <skos:prefLabel xml:lang="de">Schmuck</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD029488"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=Joya&amp;rec=242"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR109803"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/977">
@@ -6020,11 +5477,6 @@
                 <skos:prefLabel xml:lang="de">Sitz</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR108234"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/9">
@@ -6057,12 +5509,7 @@
                 rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=cupa&amp;rec=305"
             />
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR026199"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/373">
         <skos:prefLabel xml:lang="en">Settlement</skos:prefLabel>
@@ -6126,12 +5573,7 @@
                 <skos:prefLabel xml:lang="de">Siegel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR005000"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
+      <skos:exactMatch>
             <skos:Concept
                 rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=sello&amp;rec=3555"
             />
@@ -6175,11 +5617,6 @@
                 <skos:prefLabel xml:lang="de">Silex</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR010599"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1926">
@@ -6204,20 +5641,7 @@
                 <skos:prefLabel xml:lang="es">Estatua / Escultura</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR006377"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD048296"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_2.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=Escultura+&amp;rec=919"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+      <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1927">
         <skos:prefLabel xml:lang="en">Socle</skos:prefLabel>
@@ -6279,12 +5703,7 @@
                 <skos:prefLabel xml:lang="de">Opfertisch</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR015965"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+          <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/246">
         <skos:prefLabel xml:lang="la">Speculum</skos:prefLabel>
@@ -6297,11 +5716,6 @@
                 <skos:prefLabel xml:lang="de">Spiegel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR122247"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/247">
@@ -6309,11 +5723,6 @@
         <skos:altLabel xml:lang="it">sfera</skos:altLabel>
         <skos:altLabel xml:lang="en">sphere</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR105606"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/248">
@@ -6366,9 +5775,6 @@
                 <skos:prefLabel xml:lang="de">Befestigung</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032485"/>
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/220">
@@ -6391,19 +5797,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2947">
                 <skos:prefLabel xml:lang="de">Statue</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD036597"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR032837"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=estatua&amp;rec=2602"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -6460,19 +5853,6 @@
                 <skos:prefLabel xml:lang="de">Basis</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:closeMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000667"/>
-        </skos:closeMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=basa+de+estatua&amp;rec=21"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR015312"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1772">
@@ -6525,19 +5905,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2963">
                 <skos:prefLabel xml:lang="de">Stele</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000307"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=estela&amp;rec=57"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000035"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -6632,12 +5999,7 @@
                 <skos:prefLabel xml:lang="de">Hausrat</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR115708"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+      <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/255">
         <skos:prefLabel xml:lang="it">Tabella</skos:prefLabel>
@@ -6701,35 +6063,20 @@
         <skos:scopeNote xml:lang="it">tavola con decreto di ospitalit</skos:scopeNote>
         <skos:scopeNote xml:lang="en">hospitability tablet</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR112578"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/268">
         <skos:prefLabel xml:lang="la">Tabula, immunitatis</skos:prefLabel>
         <skos:scopeNote xml:lang="it">tavola con concessione di immunitda pagamenti</skos:scopeNote>
         <skos:scopeNote xml:lang="en">tax exemption tablet</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR029528"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+      <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/269">
         <skos:prefLabel xml:lang="la">Tabula, lusus</skos:prefLabel>
         <skos:scopeNote xml:lang="en">game board</skos:scopeNote>
         <skos:scopeNote xml:lang="it">tavoliere da gioco</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR100539"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/270">
@@ -6748,11 +6095,6 @@
                 <skos:prefLabel xml:lang="fr">Etiquette</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR015440"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/271">
@@ -6761,22 +6103,12 @@
         <skos:scopeNote xml:lang="it">tavola con annotazione di controllo sulle
             monete</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR106297"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/272">
         <skos:prefLabel xml:lang="la">Tabula, patronatus</skos:prefLabel>
         <skos:scopeNote xml:lang="it">tavola con decreto di patronato</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR073953"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1933">
@@ -6814,19 +6146,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3018">
                 <skos:prefLabel xml:lang="de">Tafel</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000224"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=plancha&amp;rec=3702"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000011"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -6941,14 +6260,6 @@
                 rdf:about="http://eda-bea.es/pub/record_card_2.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=T%C3%A9sera&amp;rec=6487"
             />
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022828"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR071664"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/278">
@@ -6977,11 +6288,6 @@
             edificio</skos:scopeNote>
         <skos:scopeNote xml:lang="en">token assigned for building’s unveiling</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR105056"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/277">
@@ -7000,11 +6306,6 @@
         <skos:scopeNote xml:lang="it">gettone per assistere a spettacoli</skos:scopeNote>
         <skos:scopeNote xml:lang="en">token to be presented at shows</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR080877"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1937">
@@ -7059,12 +6360,7 @@
                 <skos:prefLabel xml:lang="de">Schatzhaus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR072031"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
+<skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300006050"/>
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
@@ -7116,12 +6412,7 @@
         <skos:altLabel xml:lang="ar">ناقوس</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/1171"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR115100"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1945">
         <skos:prefLabel xml:lang="en">Toichobate</skos:prefLabel>
@@ -7205,11 +6496,6 @@
                 <skos:prefLabel xml:lang="de">Stütze</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR016323"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/352">
@@ -7288,12 +6574,7 @@
                 <skos:prefLabel xml:lang="de">Rohr</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR032698"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1950">
         <skos:prefLabel xml:lang="en">Tumulus</skos:prefLabel>
@@ -7363,19 +6644,6 @@
                 <skos:prefLabel xml:lang="de">Urne</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030376"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000168"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=urna&amp;rec=2772"
-            />
-        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/51">
@@ -7427,12 +6695,7 @@
                 <skos:prefLabel xml:lang="de">Behälter</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR015693"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/306">
         <skos:prefLabel xml:lang="la">Vas, culina</skos:prefLabel>
@@ -7450,12 +6713,7 @@
                 <skos:prefLabel xml:lang="de">Kochgefäß</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR092155"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+          <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/307">
         <skos:prefLabel xml:lang="la">Vas, mensa</skos:prefLabel>
@@ -7480,12 +6738,7 @@
                 <skos:prefLabel xml:lang="fr">Gobelet</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR015438"
-            />
-        </skos:exactMatch>
-        <dct:created>2013-10-01 22:44:21</dct:created>
+       <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/74">
         <skos:prefLabel xml:lang="en">Vexillation Fort</skos:prefLabel>
@@ -7596,14 +6849,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3200">
                 <skos:prefLabel xml:lang="de">Waffe</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD024427"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR123445"
-            />
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -7807,14 +7052,6 @@
         <skos:exactMatch>
             <skos:Concept
                 rdf:about="http://eda-bea.es/pub/record_card_2.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=ladrillo&amp;rec=4297"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD024098"/>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR015716"
             />
         </skos:exactMatch>
         <skos:exactMatch>
