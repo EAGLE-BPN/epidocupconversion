@@ -23,14 +23,11 @@
                         <xsl:value-of select="regex-group(1)"/>
                     </xsl:matching-substring>            
                     <xsl:non-matching-substring>
-                        <xsl:analyze-string select="." regex="((\w+)\s*\w*)(,|:)\s((\w*\*?)\s*\w*\s*\w*)">
-                            <xsl:matching-substring> 
-                                <xsl:value-of select="regex-group(1)"/>   <!--  if the toponym is before the , or : needs to be regex-group(1) if it is after, regex-group(4) -->               
-                            </xsl:matching-substring>            
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
+                        <xsl:choose>
+                            <xsl:when test="matches(.,'((\w+)\s*\w*),\s((\w*\*?)\s*\w*\s*\w*)')"><xsl:value-of select="substring-before(.,',')"/></xsl:when>
+                            <xsl:when test="matches(.,'((\w+)\s*\w*):\s((\w*\*?)\s*\w*\s*\w*)')"><xsl:value-of select="substring-before(.,':')"/></xsl:when>
+                            <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+                        </xsl:choose>
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:variable>
