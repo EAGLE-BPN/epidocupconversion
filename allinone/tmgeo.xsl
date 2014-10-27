@@ -52,7 +52,7 @@
         <xsl:copy>
             <xsl:copy-of select="@*[not(local-name()='ref')]"/>
             <xsl:attribute name="ref">
-            <xsl:value-of select="concat('www.trismegistos.org/place/',format-number(number($voc_term),'000000'))"/>
+                <xsl:value-of select="concat('http://www.trismegistos.org/place/',format-number(number($voc_term),'000000'))"/>
             </xsl:attribute>
             <xsl:value-of select="."/>
         </xsl:copy>
