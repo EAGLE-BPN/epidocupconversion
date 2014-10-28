@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns="http://www.tei-c.org/ns/1.0">
+   <skos:ConceptScheme rdf:about="http://www.eagle-network.eu/voc/writing/">EAGLE Vocabulary - Writing<dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE BPN)</dc:creator>
+      <dc:contributor/>
+      <dc:publisher/>
+      <dc:rights/>
+      <dc:subject/>
+      <dc:description rdf:about="http//:www.eagle-network.eu/resources/vocabularies/writing/.html"/>
+      <dc:date>2014-10-28+01:00</dc:date>
+      <dct:modified>2014-10-28+01:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/6">
+        <skos:prefLabel xml:lang="la">Litteris Applicitis</skos:prefLabel>
+        <skos:altLabel xml:lang="it">applicate</skos:altLabel>
+        <skos:altLabel xml:lang="en">applied</skos:altLabel>
+        <skos:altLabel xml:lang="de">aufgesetzt</skos:altLabel>
+        <skos:altLabel xml:lang="fr">lettres appliquées</skos:altLabel>
+        <skos:altLabel xml:lang="la">Litt. App.</skos:altLabel>
+        <skos:altLabel xml:lang="la">litterae aureae (fastened with dowels)</skos:altLabel>
+        <skos:altLabel xml:lang="el">με γράμματα προσαρμοσμένα επικλινή</skos:altLabel>
+        <skos:altLabel xml:lang="ar">مطبق</skos:altLabel>
+        <skos:scopeNote xml:lang="en">metal letters applied</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">lettere metalliche applicate. Si riferisce a scritte
+            realizzate attraverso lettere metalliche applicate alla superficie del supporto
+            dell’epigrafe. Nel caso specifico della lamina aurea ci si riferisce a quelle lettere
+            realizzate attraverso apposizione di lamine auree alla superficie del vetro. La lamina
+            veniva poi graffita ed eliminata salvo nelle parti costituenti la scritta che poteva
+            essere sigillata da un secondo strato di vetro (Silvia Evangelisti).</skos:scopeNote>
+        <skos:historyNote xml:lang="en">EDR103378</skos:historyNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/41">
+                <skos:prefLabel xml:lang="de">litterae aureae (von außen
+                    eingedübelt)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-08-26 11:34:26</dct:created>
+    </skos:Concept>
+</rdf:RDF>

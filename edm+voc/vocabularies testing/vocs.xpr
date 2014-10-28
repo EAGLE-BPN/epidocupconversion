@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="15.2">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="vocs.xpr">
+        <file name="eagle-vocabulary-dating-criteria.rdf"/>
+        <file name="eagle-vocabulary-decoration.rdf"/>
+        <file name="eagle-vocabulary-material.rdf"/>
+        <file name="eagle-vocabulary-object-type.rdf"/>
+        <file name="eagle-vocabulary-state-of-preservation.rdf"/>
+        <file name="eagle-vocabulary-type-of-inscription.rdf"/>
+        <file name="eagle-vocabulary-writing.rdf"/>
+    </projectTree>
+</project>

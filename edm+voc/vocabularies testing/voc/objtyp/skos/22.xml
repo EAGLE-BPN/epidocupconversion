@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns="http://www.tei-c.org/ns/1.0">
+   <skos:ConceptScheme rdf:about="http://www.eagle-network.eu/voc/objtyp/">EAGLE Vocabulary - Object type<dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE BPN)</dc:creator>
+      <dc:contributor/>
+      <dc:publisher/>
+      <dc:rights/>
+      <dc:subject/>
+      <dc:description rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp/.html"/>
+      <dc:date>2014-10-28+01:00</dc:date>
+      <dct:modified>2014-10-28+01:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/22">
+        <skos:prefLabel xml:lang="la">Ampulla</skos:prefLabel>
+        <skos:altLabel xml:lang="en">bar</skos:altLabel>
+        <skos:altLabel xml:lang="it">borraccia</skos:altLabel>
+        <skos:altLabel xml:lang="es">Botella</skos:altLabel>
+        <skos:altLabel xml:lang="it">bottiglia</skos:altLabel>
+        <skos:altLabel xml:lang="en">Bottle</skos:altLabel>
+        <skos:altLabel xml:lang="fr">fiole</skos:altLabel>
+        <skos:altLabel xml:lang="de">Flasche</skos:altLabel>
+        <skos:altLabel xml:lang="en">flask</skos:altLabel>
+        <skos:altLabel xml:lang="el">αγγείο</skos:altLabel>
+        <skos:altLabel xml:lang="el">λήκυθος</skos:altLabel>
+        <skos:altLabel xml:lang="ru">лекиф</skos:altLabel>
+        <skos:altLabel xml:lang="ar">قارورة</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1251">
+                <skos:prefLabel xml:lang="de">Barren</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1253">
+                <skos:prefLabel xml:lang="fr">Bouteille</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7063">
+                <skos:prefLabel xml:lang="de">Barre</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4628">
+                <skos:prefLabel xml:lang="de">Flasche</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
+</rdf:RDF>

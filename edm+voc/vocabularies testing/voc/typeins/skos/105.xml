@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns="http://www.tei-c.org/ns/1.0">
+   <skos:ConceptScheme rdf:about="http://www.eagle-network.eu/voc/typeins/">EAGLE Vocabulary - Type of Inscription<dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE BPN)</dc:creator>
+      <dc:contributor/>
+      <dc:publisher/>
+      <dc:rights/>
+      <dc:subject/>
+      <dc:description rdf:about="http//:www.eagle-network.eu/resources/vocabularies/typeins/.html"/>
+      <dc:date>2014-10-28+01:00</dc:date>
+      <dct:modified>2014-10-28+01:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/105">
+        <skos:prefLabel xml:lang="la">tit. in artis operib. inscr.</skos:prefLabel>
+        <skos:altLabel xml:lang="de">(Künstler-)Signatur</skos:altLabel>
+        <skos:altLabel xml:lang="en">caption or signature</skos:altLabel>
+        <skos:altLabel xml:lang="it">firme di artisti, didascalie</skos:altLabel>
+        <skos:altLabel xml:lang="fr">légende</skos:altLabel>
+        <skos:altLabel xml:lang="es">Marca de propiedad</skos:altLabel>
+        <skos:altLabel xml:lang="en">Owner / artist inscription</skos:altLabel>
+        <skos:altLabel xml:lang="en">Owner's sign</skos:altLabel>
+        <skos:altLabel xml:lang="hu">tulajdonos felirat</skos:altLabel>
+        <skos:altLabel xml:lang="el">κεφαλίδα, λεζάντα</skos:altLabel>
+        <skos:altLabel xml:lang="ar">تعليق مختزل أو توقيع</skos:altLabel>
+        <skos:scopeNote xml:lang="en">any type of text embedded in, or otherwise associated with, a
+            work of art</skos:scopeNote>
+        <skos:scopeNote xml:lang="de"> Nennung des Besitzers, des Herstellers, des Kstlers oder der
+            Werkstatt; Name im Nominativ (sc. "fecit"), im Genitivus Possessivus oder gelegentlich
+            im Akkusativ. Prvermerk. Auch bei Angabe von Produktionsort oder -datum;
+            Augenarztstempel (sofern der produzierende Arzt mitgenannt wird). Nicht
+            beiSitzinschrift. </skos:scopeNote>
+        <skos:historyNote xml:lang="la"> P(ubli) Lur[i] Hedyla[li] (AE 1967, 0071b) ex officina
+            Examples HD060557</skos:historyNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/104"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/110"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/311">
+                <skos:prefLabel xml:lang="de">Besitzer-/Herstellerinschrift</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/314">
+                <skos:prefLabel xml:lang="de">Besitzerinschrift</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/313">
+                <skos:prefLabel xml:lang="fr">Marque de propriété</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/310">
+                <skos:prefLabel xml:lang="la">tit. didascalicus</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+            <dct:created>2013-08-01 12:27:53</dct:created>
+        <dct:modified>2013-08-20 15:09:38</dct:modified>
+    </skos:Concept>
+</rdf:RDF>

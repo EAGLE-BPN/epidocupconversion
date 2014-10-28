@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns="http://www.tei-c.org/ns/1.0">
+   <skos:ConceptScheme rdf:about="http://www.eagle-network.eu/voc/typeins/">EAGLE Vocabulary - Type of Inscription<dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE BPN)</dc:creator>
+      <dc:contributor/>
+      <dc:publisher/>
+      <dc:rights/>
+      <dc:subject/>
+      <dc:description rdf:about="http//:www.eagle-network.eu/resources/vocabularies/typeins/.html"/>
+      <dc:date>2014-10-28+01:00</dc:date>
+      <dct:modified>2014-10-28+01:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/96">
+        <skos:prefLabel xml:lang="la">term. non sep.</skos:prefLabel>
+        <skos:altLabel xml:lang="fr">borne</skos:altLabel>
+        <skos:altLabel xml:lang="en">Boundary inscription</skos:altLabel>
+        <skos:altLabel xml:lang="en">Border delimitation</skos:altLabel>
+        <skos:altLabel xml:lang="en">boundary marker</skos:altLabel>
+        <skos:altLabel xml:lang="en">Boundary stone</skos:altLabel>
+        <skos:altLabel xml:lang="en">boundary text</skos:altLabel>
+        <skos:altLabel xml:lang="en">boundary</skos:altLabel>
+        <skos:altLabel xml:lang="la">cippus</skos:altLabel>
+        <skos:altLabel xml:lang="it">cippo terminale, cippo di centuriazione,
+            miliario</skos:altLabel>
+        <skos:altLabel xml:lang="hu">határjelölő felirat</skos:altLabel>
+        <skos:altLabel xml:lang="el">οριοθετική επιγραφή</skos:altLabel>
+        <skos:altLabel xml:lang="ar">نص الحدود ، وحجر الميل</skos:altLabel>
+        <skos:scopeNote xml:lang="de"> Grenzangaben aller Art; itinera privata. Auch bei Grabcippi,
+            falls nicht mit einer Grabinschriftversehen (vgl. Cippus im Feld "Inschrifttrer"). Nicht
+            bei Streckenangaben (s. Meilenstein). </skos:scopeNote>
+        <skos:scopeNote xml:lang="it">any type of text defining space (including centurial markers
+            and milestones)</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">qualsiasi tipo di iscrizione avente lo scopo di definire lo
+            spazio (compresi cippi di centuriazione e miliari)</skos:scopeNote>
+        <skos:historyNote xml:lang="en"> fines posuit (AE 1985, 0730) Iter precarium Examples: </skos:historyNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/97"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/98"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/99"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/100"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/101"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/95"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/102"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/293">
+                <skos:prefLabel xml:lang="de">Grenzmarkierung</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/289">
+                <skos:prefLabel xml:lang="de">Grenzstein</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/290">
+                <skos:prefLabel xml:lang="es">Mojon</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-08-01 12:27:53</dct:created>
+        <dct:modified>2013-08-26 10:23:49</dct:modified>
+    </skos:Concept>
+</rdf:RDF>

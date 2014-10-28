@@ -44,7 +44,7 @@
         </xsl:variable>
 
 <!--skos-->
-    <xsl:variable name="filenameskos" select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.rdf')"/>
+    <xsl:variable name="filenameskos" select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.xml')"/>
         <xsl:result-document href="{$filenameskos}" format="xml">
             <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
                 <skos:ConceptScheme rdf:about="{$url}">
@@ -84,7 +84,7 @@
         <p> <a href="http//:www.eagle-network.eu/advanced-search">Click here to see all inscriptions which have a relation to this term</a></p>
         <p><a href="{concat($url,'.html')}">Back to Index</a></p>
         <p><a href="{concat('http//:www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'), '.html')}">Back to Intro</a></p>
-        
+        <p><a href="{concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.xml')}">See SKOS version</a></p>
     </xsl:result-document>
 </xsl:for-each>
 

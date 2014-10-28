@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns="http://www.tei-c.org/ns/1.0">
+   <skos:ConceptScheme rdf:about="http://www.eagle-network.eu/voc/objtyp/">EAGLE Vocabulary - Object type<dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE BPN)</dc:creator>
+      <dc:contributor/>
+      <dc:publisher/>
+      <dc:rights/>
+      <dc:subject/>
+      <dc:description rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp/.html"/>
+      <dc:date>2014-10-28+01:00</dc:date>
+      <dct:modified>2014-10-28+01:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/33">
+        <skos:prefLabel xml:lang="de">Votivaltar</skos:prefLabel>
+        <skos:altLabel xml:lang="fr">autel votif</skos:altLabel>
+        <skos:altLabel xml:lang="la">ara, votum</skos:altLabel>
+        <skos:altLabel xml:lang="en">Dedication Stone</skos:altLabel>
+        <skos:altLabel xml:lang="hu">fogadalmi oltár</skos:altLabel>
+        <skos:altLabel xml:lang="en">Votive altar</skos:altLabel>
+        <skos:altLabel xml:lang="de">Weihaltar</skos:altLabel>
+        <skos:scopeNote xml:lang="fr">Un autel votif se composent en gal d’un socle (plinthe), d’un
+            det d’un couronnement formpar une corniche, surmont d’une cimaise.Nous avons
+            certainement affaire un autel votif si dans la cimaise est prent un focus qui sert aux
+            sacrifices et aux libations. Le focus peut manquer, mais, si l’on trouve au sommet des
+            trace de feu, il s’agit toujours d’un autel. La cimaise peut re dor de pulvini. Une
+            autre marque d’un autel sont les reprentations sur les faces latales d’une patera et
+            d’un urceus, qui ne peuvent servir qu’aux rituels votifs. Enfin, l’inscription me peut
+            priser qu’il s’agit d’un autel. (prof. Ioan Piso)</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1277">
+                <skos:prefLabel xml:lang="es">Altar votivo</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8687">
+                <skos:prefLabel xml:lang="de">Votivaltar</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
+</rdf:RDF>
