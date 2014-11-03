@@ -5,7 +5,16 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0" 
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="tei rdf skos">
-    
+
+    <xsl:template match="tei:material[not(node())]">
+<material xml:lang="en">
+<xsl:attribute name="ref">
+        <xsl:text>http://www.eagle-network.eu/voc/material/lod/138</xsl:text>
+    </xsl:attribute>
+<xsl:text>unknown</xsl:text>
+</material>
+</xsl:template>    
+
     <xsl:template match="tei:material">
         <xsl:param name="materialURI" tunnel="yes"/>
         <xsl:variable name="noquestion">
