@@ -32,7 +32,7 @@
                 <select>
                     <xsl:for-each select="//skos:prefLabel[@xml:lang='la']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -40,7 +40,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='la']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -50,7 +50,7 @@
 <select>
                         <xsl:for-each select="//skos:prefLabel[@xml:lang='en']">
                             <xsl:sort order="ascending"/>
-                            <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                            <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
 </xsl:attribute><xsl:value-of select="."/></a></option>
 </xsl:for-each>
                     </select></p>
@@ -58,7 +58,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='en']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -67,7 +67,7 @@
                 <select>
                     <xsl:for-each select="//skos:prefLabel[@xml:lang='de']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -75,7 +75,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='de']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p> 
@@ -84,7 +84,7 @@
                 <select>
                     <xsl:for-each select="//skos:prefLabel[@xml:lang='it']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -92,7 +92,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='it']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -101,7 +101,7 @@
                 <select>
                     <xsl:for-each select="//skos:prefLabel[@xml:lang='fr']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -109,7 +109,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='fr']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -118,7 +118,7 @@
                 <select>
                     <xsl:for-each select="//skos:prefLabel[@xml:lang='es']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -126,7 +126,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='es']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -135,7 +135,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='hu']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -144,7 +144,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='el']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -153,7 +153,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='ar']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -162,7 +162,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='ru']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
@@ -171,7 +171,7 @@
                 <select>
                     <xsl:for-each select="//skos:altLabel[@xml:lang='tr']">
                         <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
                         </xsl:attribute><xsl:value-of select="."/></a></option>
                     </xsl:for-each>
                 </select></p>
