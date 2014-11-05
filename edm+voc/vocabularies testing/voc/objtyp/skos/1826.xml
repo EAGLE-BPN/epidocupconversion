@@ -17,7 +17,7 @@
       <dct:modified>2014-11-05+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1826">
-        <skos:prefLabel xml:lang="en">Abaton</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Abaton</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7922">
