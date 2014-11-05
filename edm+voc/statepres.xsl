@@ -29,7 +29,7 @@
             <xsl:copy-of select="@*[not(local-name()='ref')]"/>
             <xsl:if test="text()">
                 <xsl:variable name="voc_term">
-                    <xsl:value-of select="document('eagle-vocabulary-state-of-preservation.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
+                    <xsl:value-of select="document('eagle-vocabulary-state-of-preservation.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept[not(ancestor::skos:exactMatch) or not(@rdf:about[contains(.,'archwort')])]/@rdf:about"/>
                         
                     <xsl:value-of select="document('eagle-vocabulary-state-of-preservation.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/>
                     </xsl:variable>

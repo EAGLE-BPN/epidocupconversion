@@ -21,17 +21,168 @@
     <xsl:template match="/">
         <xsl:variable name="filenameindex" select="concat('voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')"/>
         <xsl:result-document href="{$filenameindex}" format="html">
-        <table>
+
+        
             <head>
                <meta charset="UTF-8"/>
                 <h1><xsl:value-of select="$title"/></h1>
             </head>
+            <h3>Terms in Latin</h3>
+            <p>Preferred
+                <select>
+                    <xsl:for-each select="//skos:prefLabel[@xml:lang='la']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <p>Alternative
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='la']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+ <h3>Terms in English</h3>
+
+            <p>Preferred
+<select>
+                        <xsl:for-each select="//skos:prefLabel[@xml:lang='en']">
+                            <xsl:sort order="ascending"/>
+                            <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+</xsl:attribute><xsl:value-of select="."/></a></option>
+</xsl:for-each>
+                    </select></p>
+            <p>Alternative
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='en']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <h3>Terms in German</h3>
+            <p>Preferred
+                <select>
+                    <xsl:for-each select="//skos:prefLabel[@xml:lang='de']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <p>Alternative
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='de']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p> 
+            <h3>Terms in Italian</h3>
+            <p>Preferred
+                <select>
+                    <xsl:for-each select="//skos:prefLabel[@xml:lang='it']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <p>Alternative
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='it']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <h3>Terms in French</h3>
+            <p>Preferred
+                <select>
+                    <xsl:for-each select="//skos:prefLabel[@xml:lang='fr']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <p>Alternative
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='fr']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <h3>Terms in Spanish</h3>
+            <p>Preferred
+                <select>
+                    <xsl:for-each select="//skos:prefLabel[@xml:lang='es']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <p>Alternative
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='es']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <h3>Terms in Hungarian</h3>
+            <p>
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='hu']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <h3>Terms in Greek</h3>
+            <p>
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='el']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <h3>Terms in Arabic</h3>
+            <p>
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='ar']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <h3>Terms in Bulgarian</h3>
+            <p>
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='ru']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
+            <h3>Terms in Turkish</h3>
+            <p>
+                <select>
+                    <xsl:for-each select="//skos:altLabel[@xml:lang='tr']">
+                        <xsl:sort order="ascending"/>
+                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::skosConcept/@rdf:about"/>
+                        </xsl:attribute><xsl:value-of select="."/></a></option>
+                    </xsl:for-each>
+                </select></p>
             <body>
-                <tr>
+                <table>
+<tr>
                     <xsl:apply-templates mode="a"/>
                 </tr>
+</table>
             </body>
-        </table>
+        
         </xsl:result-document>
     </xsl:template>
 

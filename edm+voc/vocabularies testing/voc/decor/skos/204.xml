@@ -13,8 +13,8 @@
       <dc:rights/>
       <dc:subject/>
       <dc:description rdf:about="http//:www.eagle-network.eu/resources/vocabularies/decor/.html"/>
-      <dc:date>2014-10-28+01:00</dc:date>
-      <dct:modified>2014-10-28+01:00</dct:modified>
+      <dc:date>2014-11-05+01:00</dc:date>
+      <dct:modified>2014-11-05+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/204">
         <skos:prefLabel xml:lang="de">Mars;Ares</skos:prefLabel>

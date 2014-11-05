@@ -13,8 +13,8 @@
       <dc:rights/>
       <dc:subject/>
       <dc:description rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp/.html"/>
-      <dc:date>2014-10-28+01:00</dc:date>
-      <dct:modified>2014-10-28+01:00</dct:modified>
+      <dc:date>2014-11-05+01:00</dc:date>
+      <dct:modified>2014-11-05+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/17">
         <skos:prefLabel xml:lang="la">Amphora</skos:prefLabel>
