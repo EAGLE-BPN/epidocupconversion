@@ -7,7 +7,7 @@
 	<!--this file is first applied to EDH-TM.htm and looks at other files namedly-->
 
 
-	<xsl:output indent="yes"/>
+	<xsl:output indent="yes" method="html"/>
 	<xsl:template match="/">
 		<xsl:variable name="tmlistedh">
 			<xsl:variable name="tm">
@@ -263,6 +263,46 @@
 						<td/>
 						<!--no matches possible with edb-->
 
+						<td/>
+						<!--no matches possible with rib-->
+					</tr>
+				</xsl:for-each>
+				<!--evaluates all the tm ids in LSA which are not in edh list and prints in the table in the correct position		-->
+				<xsl:for-each select="document('lsa-tm.xml')//tm[not(. = $tmlistedh) and matches(.,'\d\d\d\d\d\d')]">
+					<xsl:variable name="tmnumber">
+						<xsl:for-each select=".">
+							<xsl:choose>
+								<xsl:when test="contains(.,',')">
+									<xsl:value-of select="substring-before(.,',')"/>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:value-of select="."/>
+								</xsl:otherwise>
+							</xsl:choose>
+						</xsl:for-each>
+					</xsl:variable>
+					<xsl:variable name="lsa" select="preceding-sibling::*"/>
+					<tr>
+						<td>
+							<xsl:value-of select="$tmnumber"/>
+						</td>
+						<td/>
+						<!--matches accounted for starting from EDH-->
+						<td/>
+						<!--hispep possible match unknown-->
+						<td>
+							<xsl:value-of select="$lsa"/>
+						</td>
+						<td/>
+						<!--lupa possible match unknown-->
+						<td/>
+						<!--no matches possible with irt-->
+						<td/>
+						<!--no matches possible with edr-->
+						
+						<td/>
+						<!--no matches possible with edb-->
+						
 						<td/>
 						<!--no matches possible with rib-->
 					</tr>
