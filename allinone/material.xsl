@@ -39,8 +39,8 @@
             <xsl:if test="text()">
                 <xsl:variable name="voc_term">         
                     <xsl:choose>
-                        <xsl:when test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:prefLabel[lower-case(.)=lower-case(normalize-space($noquestion))]/parent::skos:Concept[not(parent::skos:exactMatch[contains(skos:Concept/@rdf:about,'archwort')])]/@rdf:about">
-                            <xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:prefLabel[lower-case(.)=lower-case(normalize-space($noquestion))]/parent::skos:Concept/@rdf:about"/>
+                        <xsl:when test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:prefLabel[lower-case(.)=lower-case(normalize-space($noquestion))]">
+                            <xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:prefLabel[lower-case(.)=lower-case(normalize-space($noquestion))]/parent::skos:Concept[not(ancestor::skos:exactMatch) or not(@rdf:about[contains(.,'archwort')])]/@rdf:about"/>
                             <xsl:value-of select="$seq[1]"/>
                         </xsl:when>
                     <xsl:otherwise>
