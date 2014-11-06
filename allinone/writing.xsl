@@ -7,7 +7,43 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="tei rdf skos">
 
-    <!--   GIVES PROBLEMS!!! probably due to vocabulary file -->
+    <!--where no information is given in the field writing in an epidoc file the corresponding url of the unknown term is inserted and the text according to the language.-->
+    
+
+    <xsl:template match="tei:rs[@type='execution'][not(node())]">
+        <rs type="execution">
+            <xsl:attribute name="ref">
+                <xsl:text>http://www.eagle-network.eu/voc/writing/lod/21</xsl:text>
+            </xsl:attribute>
+<xsl:choose>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='en']">
+                    <xsl:text>unknown</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='it']">
+                    <xsl:text>sconosciuto</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='la']">
+                    <xsl:text>Ignoratur</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='fr']">
+                    <xsl:text>Inconnu</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='de']">
+                    <xsl:text>unbestimmt</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='es']">
+                    <xsl:text>Desconocido</xsl:text>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="xml:lang">en</xsl:attribute>
+                    <xsl:text>unknown</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+        </rs>
+    </xsl:template>
+
+    <!--in here the matching to the vocabulary string is performed, where a ? or other punctuation is present this is ignored for the purpose of matching -->
+    
     <xsl:template match="tei:rs[@type='execution']">
         <xsl:variable name="noquestion">
             <xsl:analyze-string select="." regex="(\w+)\?">

@@ -8,16 +8,13 @@
     exclude-result-prefixes="#all"
     >  
     
-    <xsl:template match="tei:placeName[not(node())]">
-        <placeName/>
-    </xsl:template>
+    <xsl:template match="//tei:placeName[not(node())]"/>
 
-    
-    
     <xsl:template match="tei:origPlace">
-        
-        <xsl:for-each select="tei:placeName">
+<origPlace>
+<xsl:for-each select="./tei:placeName">
             <xsl:variable name="noquestion">
+<!--in this variable all the punctuation is removed from the initial string for the purpose of matching: only what is before a ? or a , or a : is evaluated. if only ? is present, all the string before is evaluated-->
                 <xsl:analyze-string select="." regex="(\w+)\?">
                     <xsl:matching-substring>
                         <xsl:value-of select="regex-group(1)"/>
@@ -31,11 +28,13 @@
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:variable>
-            <xsl:variable name="voc_term">  <!---->       
+            <xsl:variable name="voc_term">  
+
+<!--this part checks in the dump from Trismegistos Geo for the corresponding string, and if found saves the corresponding ID-->       
                 <xsl:choose> 
                     <xsl:when test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
                     [contains(lower-case(.), lower-case($noquestion))]">
-                    <xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
+                        <xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/TMGeoIDToponyms.XML')//f:RESULTSET/f:ROW/f:COL[2]/f:DATA
                         [contains(lower-case(.), lower-case($noquestion))]/parent::f:COL/preceding-sibling::f:COL/f:DATA"/>
                         <xsl:value-of select="$seq[1]"/>
                     </xsl:when>
@@ -48,12 +47,19 @@
             </xsl:variable>
         <xsl:copy>
             <xsl:copy-of select="@*[not(local-name()='ref')]"/>
-            <xsl:attribute name="ref">
-                <xsl:value-of select="concat('http://www.trismegistos.org/place/',format-number(number($voc_term),'000000'))"/>
+
+<!--this part checks that the result of the matching is fine, if it is not a valid number it does not create the attribute with the uri, if it is it does-->
+<xsl:variable name="tmnumber">
+    <xsl:value-of select="format-number(number($voc_term),'000000')"/>
+</xsl:variable>
+            <xsl:if test="not($tmnumber = 'NaN')">
+<xsl:attribute name="ref">
+                <xsl:value-of select="concat('http://www.trismegistos.org/place/',$tmnumber)"/>
             </xsl:attribute>
+</xsl:if>
             <xsl:value-of select="."/>
         </xsl:copy>
 </xsl:for-each>
-    
+</origPlace>    
     </xsl:template>
 </xsl:stylesheet>

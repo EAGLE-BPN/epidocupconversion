@@ -6,9 +6,57 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="tei rdf skos">
     
+    <!--where no information is given in the field decoration in an epidoc file the corresponding url of the unknown term is inserted and the text according to the language.-->
+    <xsl:template match="tei:rs[@type='decoration'][not(node())]">
+        <rs type="decoration">
+            <xsl:attribute name="ref">
+                <xsl:text>http://www.eagle-network.eu/voc/decor/lod/1000</xsl:text>
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='en']">
+                    <xsl:text>no decoration</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='it']">
+                     <xsl:text>nessuna decorazione</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='de']">
+                   <xsl:text>nein</xsl:text>
+                </xsl:when>
+                <!--if no language is specified the english term is entered with the xml:lang attribute to specify the language of that info-->
+                <xsl:otherwise>
+                    <xsl:attribute name="xml:lang">en</xsl:attribute>
+                    <xsl:text>no decoration</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+        </rs>
+    </xsl:template>
+
     <xsl:template match="tei:rs[@type='decoration']">
 <!--        <xsl:param name="decoURI" tunnel="yes"/>-->
-        <xsl:variable name="noquestion">
+
+<xsl:choose>
+<!--EDH uses often only J or N, so all these are dealt without going down the line of checking in the vocabularies -->
+<xsl:when test="ancestor::tei:teiHeader//tei:title[contains(.,'HD')]">
+    <xsl:choose>
+        <xsl:when test="contains(.,'J')">
+            <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+        </xsl:when>
+        <xsl:when test="contains(.,'N')">
+            <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">Nein</rs>
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:attribute name="ref">
+                <xsl:text>http://www.eagle-network.eu/voc/decor/lod/1000</xsl:text>
+            </xsl:attribute>
+            <xsl:text>nein</xsl:text>
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:when>
+    <xsl:otherwise> 
+
+        <!--in here the matching to the vocabulary string is performed, where a ? or other punctuation is present this is ignored for the purpose of matching -->
+        
+<xsl:variable name="noquestion">
             <xsl:analyze-string select="." regex="(\w+\s*\w*\s*)\?">
                 <xsl:matching-substring>
                     <xsl:value-of select="regex-group(1)"/>
@@ -47,7 +95,7 @@
                 </xsl:if>
             </xsl:if>
             <xsl:apply-templates/>
-        </xsl:copy>
+        </xsl:copy></xsl:otherwise></xsl:choose>
     </xsl:template>
     
 </xsl:stylesheet>

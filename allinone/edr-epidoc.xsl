@@ -7,6 +7,8 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="#all">
     
+<xsl:output indent="yes" method="xml"/>
+
     <xsl:template match="@* | node()">
         <xsl:copy copy-namespaces="yes">
             <xsl:apply-templates select="@* | node()"/>

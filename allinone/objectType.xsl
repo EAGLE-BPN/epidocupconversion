@@ -6,6 +6,42 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="tei rdf skos">
     
+    <!--where no information is given in the field objectType in an epidoc file the corresponding url of the unknown term is inserted and the text according to the language.-->
+    
+    <xsl:template match="tei:objectType[not(node())]">
+        <objectType>
+            <xsl:attribute name="ref">
+                <xsl:text>http://www.eagle-network.eu/voc/objtyp/lod/2</xsl:text>
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='en']">
+                    <xsl:text>unknown</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='it']">
+                    <xsl:text>sconosciuto</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='la']">
+                    <xsl:text>ignoratur</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='de']">
+                    <xsl:text>unbestimmt</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='es']">
+                    <xsl:text>Desconocido</xsl:text>
+                </xsl:when>
+                <xsl:when test="ancestor::tei:TEI[@xml:lang='fr']">
+                    <xsl:text>Inconnu</xsl:text>
+                </xsl:when>
+                <!--if no language is specified the english term is entered with the xml:lang attribute to specify the language of that info-->
+                
+<xsl:otherwise>
+<xsl:attribute name="xml:lang">en</xsl:attribute>
+ <xsl:text>unknown</xsl:text>
+</xsl:otherwise>
+            </xsl:choose>
+        </objectType>
+    </xsl:template>
+
     <xsl:template match="tei:objectType">
         <xsl:variable name="noquestion">
             <xsl:analyze-string select="." regex="(\w+\s*\w*\s*)\?">

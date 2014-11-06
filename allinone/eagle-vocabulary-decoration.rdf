@@ -16,6 +16,18 @@
         <dct:modified>2014-05-07 16:37:21</dct:modified>
         <dc:language>en</dc:language>
     </skos:ConceptScheme>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/1000">
+        <skos:altLabel xml:lang="it">nessuna decorazione</skos:altLabel>
+        <skos:altLabel xml:lang="en">no decoration</skos:altLabel>
+        <skos:altLabel xml:lang="de">nein</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+</skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/2000">
+        <skos:altLabel xml:lang="it">si</skos:altLabel>
+        <skos:altLabel xml:lang="en">yes</skos:altLabel>
+        <skos:altLabel xml:lang="de">ja</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+    </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/16">
         <skos:prefLabel xml:lang="es">Abrazo</skos:prefLabel>
         <skos:altLabel xml:lang="hu">ölelés</skos:altLabel>

@@ -119,8 +119,8 @@
         <dct:created>2013-08-21 08:52:19</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/74">
-        <skos:prefLabel xml:lang="en">beginning of eight century</skos:prefLabel>
-        <skos:scopeNote>origDate notBefore="XXXX" notAfter="XXXX"</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">beginning of eight century BC</skos:prefLabel>
+        <skos:scopeNote>origDate notBefore="-0799" notAfter="-0700"</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
         <dct:created>2013-08-21 08:55:46</dct:created>
@@ -690,7 +690,7 @@
         <dct:created>2013-08-21 08:55:46</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/79">
-        <skos:prefLabel xml:lang="en">second half of eight century</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">second half of eight century BC</skos:prefLabel>
         <skos:scopeNote>origDate notBefore="-0749" notAfter="-0700"</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
