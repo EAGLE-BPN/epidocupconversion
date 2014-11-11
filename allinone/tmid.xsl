@@ -12,7 +12,7 @@
         <idno>
             <xsl:variable select="//tei:title" name="tm"/>
             <xsl:attribute name="type">TM</xsl:attribute>
-            <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/edh-tm.htm')//td[preceding-sibling::td[lower-case(.) = lower-case($tm)]]"/>
+            <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/edh-tm.htm')//td[preceding-sibling::td[lower-case(.) = lower-case(substring-before($tm,','))]]"/>
 </idno>
         <idno>
             <xsl:attribute name="type">localID</xsl:attribute>
