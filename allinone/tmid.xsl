@@ -10,9 +10,18 @@
     <xsl:template match="//tei:idno[@type='URI'][not(node())]">
         
         <idno>
-            <xsl:variable select="//tei:title" name="tm"/>
+            <xsl:variable name="tm">
+<xsl:choose>
+    <xsl:when test="contains(//tei:title,',')">
+        <xsl:value-of select="substring-before(//tei:title,',')"/>
+</xsl:when>
+<xsl:otherwise>
+    <xsl:value-of select="//tei:title"/>
+</xsl:otherwise>
+</xsl:choose>
+</xsl:variable>
             <xsl:attribute name="type">TM</xsl:attribute>
-            <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/edh-tm.htm')//td[preceding-sibling::td[lower-case(.) = lower-case(substring-before($tm,','))]]"/>
+            <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/edh-tm.htm')//td[preceding-sibling::td[lower-case(.) = lower-case($tm)]]"/>
 </idno>
         <idno>
             <xsl:attribute name="type">localID</xsl:attribute>
