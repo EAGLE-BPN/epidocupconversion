@@ -21,7 +21,17 @@
 </xsl:choose>
 </xsl:variable>
             <xsl:attribute name="type">TM</xsl:attribute>
-            <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/edh-tm.htm')//td[preceding-sibling::td[lower-case(.) = lower-case($tm)]]"/>
+          <xsl:variable name="tminsert">
+<xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/edh-tm.htm')//td[preceding-sibling::td[lower-case(.) = lower-case($tm)]]"/>
+</xsl:variable>
+            <xsl:choose>
+                <xsl:when test="contains($tminsert,',')">
+                    <xsl:value-of select="substring-before($tminsert,',')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$tminsert"/>
+                </xsl:otherwise>
+            </xsl:choose>
 </idno>
         <idno>
             <xsl:attribute name="type">localID</xsl:attribute>
