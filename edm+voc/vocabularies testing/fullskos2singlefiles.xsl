@@ -3,14 +3,12 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:dct="http://purl.org/dc/terms/" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
-    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc"
-
->
+    xmlns:dc="http://purl.org/dc/elements/1.1/" exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
 
 
-<!--USE THIS TO GENERATE SKOS AND HTML VIEW FOR WEB SITE NOT SURE HOW TO ACTIVATE LINKS-->
-   
-<xsl:output method="xml" indent="yes" name="xml"/>
+    <!--USE THIS TO GENERATE SKOS AND HTML VIEW FOR WEB SITE NOT SURE HOW TO ACTIVATE LINKS-->
+
+    <xsl:output method="xml" indent="yes" name="xml"/>
     <xsl:output method="html" indent="yes" name="html"/>
     <xsl:output omit-xml-declaration="yes" indent="yes"/>
 
@@ -20,246 +18,490 @@
     <!--index-->
 
     <xsl:template match="/">
-        <xsl:variable name="filenameindex" select="concat('voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')"/>
+        <xsl:variable name="filenameindex"
+            select="concat('voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')"/>
         <xsl:result-document href="{$filenameindex}" format="html">
 
-        
-            <head>
-               <meta charset="UTF-8"/>
-                <h1><xsl:value-of select="$title"/></h1>
-            </head>
-            <h3>Terms in Latin</h3>
-            <p>Preferred
-                <select>
-                    <xsl:for-each select="//skos:prefLabel[@xml:lang='la']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <p>Alternative
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='la']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
- <h3>Terms in English</h3>
+            <html>
+                <head>
+                    <!--
+               <meta charset="UTF-8"/>-->
 
-            <p>Preferred
-<select>
-                        <xsl:for-each select="//skos:prefLabel[@xml:lang='en']">
-                            <xsl:sort order="ascending"/>
-                            <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-</xsl:attribute><xsl:value-of select="."/></a></option>
-</xsl:for-each>
-                    </select></p>
-            <p>Alternative
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='en']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <h3>Terms in German</h3>
-            <p>Preferred
-                <select>
-                    <xsl:for-each select="//skos:prefLabel[@xml:lang='de']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <p>Alternative
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='de']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p> 
-            <h3>Terms in Italian</h3>
-            <p>Preferred
-                <select>
-                    <xsl:for-each select="//skos:prefLabel[@xml:lang='it']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <p>Alternative
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='it']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <h3>Terms in French</h3>
-            <p>Preferred
-                <select>
-                    <xsl:for-each select="//skos:prefLabel[@xml:lang='fr']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <p>Alternative
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='fr']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <h3>Terms in Spanish</h3>
-            <p>Preferred
-                <select>
-                    <xsl:for-each select="//skos:prefLabel[@xml:lang='es']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <p>Alternative
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='es']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <h3>Terms in Hungarian</h3>
-            <p>
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='hu']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <h3>Terms in Greek</h3>
-            <p>
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='el']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <h3>Terms in Arabic</h3>
-            <p>
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='ar']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <h3>Terms in Bulgarian</h3>
-            <p>
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='ru']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <h3>Terms in Turkish</h3>
-            <p>
-                <select>
-                    <xsl:for-each select="//skos:altLabel[@xml:lang='tr']">
-                        <xsl:sort order="ascending"/>
-                        <option><a><xsl:attribute name="href"><xsl:value-of select="parent::node()/@rdf:about"/>
-                        </xsl:attribute><xsl:value-of select="."/></a></option>
-                    </xsl:for-each>
-                </select></p>
-            <body>
-                <table>
-<tr>
-                    <xsl:apply-templates mode="a"/>
-                </tr>
-</table>
-            </body>
-        
+                    <style type="text/css">
+                        .list{
+                        	display:none;
+                        }</style>
+                    <script type="text/javascript" src="http://code.jquery.com/jquery.js"/>
+                    <!--java for language selection-->
+                    <script type="text/javascript">  
+                    $(document).ready(function(){
+                    $("select").change(function(){
+                    $( "select option:selected").each(function(){
+                    if($(this).attr("value")=="la"){
+                    $(".list").hide();
+                    $(".la").show();
+                    }
+                    if($(this).attr("value")=="it"){
+                    $(".list").hide();
+                    $(".it").show();
+                    }
+                    if($(this).attr("value")=="de"){
+                    $(".list").hide();
+                    $(".de").show();
+                    }
+                    if($(this).attr("value")=="en"){
+                    $(".list").hide();
+                    $(".en").show();
+                    }
+                    if($(this).attr("value")=="fr"){
+                    $(".list").hide();
+                    $(".fr").show();
+                    }
+                    if($(this).attr("value")=="es"){
+                    $(".list").hide();
+                    $(".es").show();
+                    }
+                    if($(this).attr("value")=="hu"){
+                    $(".list").hide();
+                    $(".hu").show();
+                    }
+                    if($(this).attr("value")=="el"){
+                    $(".list").hide();
+                    $(".el").show();
+                    }
+                    if($(this).attr("value")=="others"){
+                    $(".list").hide();
+                    $(".others").show();
+                    }
+                    
+                    if($(this).attr("value")=="ALL"){
+                    $(".list").hide();
+                    $(".ALL").show();
+                    }
+                    });
+                    }).change();
+                    });
+                </script>
+                    <!--java for select and go to url-->
+                    <SCRIPT TYPE="text/javascript"> function dropdown(mySel) { var myWin, myVal; myVal =
+                        mySel.options[mySel.selectedIndex].value; if(myVal) { if(mySel.form.target)myWin =
+                        parent[mySel.form.target]; else myWin = window; if (! myWin) return true; myWin.location =
+                        myVal; } return false; } // </SCRIPT>
+                    <h1>
+                        <xsl:value-of select="$title"/>
+                    </h1>
+                </head>
+                <body>
+                    <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list of terms in
+                        this vocabulary.</p>
+                    <div>
+                        <select>
+                            <option>Choose Language</option>
+                            <option value="ALL">Show all terms</option>
+                            <option value="la">Latin</option>
+                            <option value="de">German</option>
+                            <option value="it">Italian</option>
+                            <option value="fr">French</option>
+                            <option value="es">Spanish</option>
+                            <option value="en">English</option>
+                            <option value="hu">Hungarian</option>
+                            <option value="gr">Greek</option>
+                            <option value="others">Others</option>
+
+                        </select>
+                    </div>
+
+                    <div class="la list">
+                        <h3>Terms in Latin</h3>
+                        <p>Preferred <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:prefLabel[@xml:lang='la']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                        <p>Alternative <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='la']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                    </div>
+                    <div class="en list">
+                        <h3>Terms in English</h3>
+
+                        <p>Preferred <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:prefLabel[@xml:lang='en']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                        <p>Alternative <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='en']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                    </div>
+                    <div class="de list">
+                        <h3>Terms in German</h3>
+                        <p>Preferred <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:prefLabel[@xml:lang='de']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT>
+                            </FORM></p>
+                        <p>Alternative <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='de']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                    </div>
+                    <div class="it list">
+                        <h3>Terms in Italian</h3>
+                        <p>Preferred <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:prefLabel[@xml:lang='it']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                        <p>Alternative <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='it']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                    </div>
+                    <div class="fr list">
+                        <h3>Terms in French</h3>
+                        <p>Preferred <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:prefLabel[@xml:lang='fr']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                        <p>Alternative <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='fr']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                    </div>
+                    <div class="es list">
+                        <h3>Terms in Spanish</h3>
+                        <p>Preferred <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:prefLabel[@xml:lang='es']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                        <p>Alternative <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='es']">
+                                        <xsl:sort order="ascending"/>
+                                        <option><xsl:attribute name="value"><xsl:value-of
+                                                    select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute><xsl:value-of select="."/></option>
+                                    </xsl:for-each>
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT></FORM></p>
+                    </div>
+                    <div class="hu list">
+                        <h3>Terms in Hungarian</h3>
+                        <p>
+                            <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='hu']">
+                                        <xsl:sort order="ascending"/>
+                                        <option>
+                                            <xsl:attribute name="value">
+                                                <xsl:value-of select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="."/>
+                                        </option>
+                                    </xsl:for-each>
+
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT>
+                            </FORM>
+                        </p>
+                    </div>
+                    <div class="el list">
+                        <h3>Terms in Greek</h3>
+                        <p>
+                            <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='el']">
+                                        <xsl:sort order="ascending"/>
+                                        <option>
+                                            <xsl:attribute name="value">
+                                                <xsl:value-of select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="."/>
+                                        </option>
+                                    </xsl:for-each>
+
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT>
+                            </FORM>
+                        </p>
+                    </div>
+                    <div class="others list">
+                        <h3>Terms in Arabic</h3>
+                        <p>
+                            <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='ar']">
+                                        <xsl:sort order="ascending"/>
+                                        <option>
+                                            <xsl:attribute name="value">
+                                                <xsl:value-of select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="."/>
+                                        </option>
+                                    </xsl:for-each>
+
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT>
+                            </FORM>
+                        </p>
+                        <h3>Terms in Bulgarian</h3>
+                        <p>
+                            <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='ru']">
+                                        <xsl:sort order="ascending"/>
+                                        <option>
+                                            <xsl:attribute name="value">
+                                                <xsl:value-of select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="."/>
+                                        </option>
+                                    </xsl:for-each>
+
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT>
+                            </FORM>
+                        </p>
+                        <h3>Terms in Turkish</h3>
+                        <p>
+                            <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)">
+                                <SELECT NAME="gourl">
+                                    <OPTION VALUE="">Choose...</OPTION>
+                                    <xsl:for-each select="//skos:altLabel[@xml:lang='tr']">
+                                        <xsl:sort order="ascending"/>
+                                        <option>
+                                            <xsl:attribute name="value">
+                                                <xsl:value-of select="parent::node()/@rdf:about"/>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="."/>
+                                        </option>
+                                    </xsl:for-each>
+
+                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                </SELECT>
+                            </FORM>
+                        </p>
+                    </div>
+                    <div class="ALL list">
+                        <table>
+                            <tr>
+                                <xsl:apply-templates mode="a"/>
+                                <!--main terms-->
+                            </tr>
+                            <!-- <tr>
+                                <xsl:apply-templates mode="c"/> <!-\-exactMatch-\->
+                            </tr>-->
+                        </table>
+                    </div>
+                </body>
+            </html>
+
         </xsl:result-document>
     </xsl:template>
 
     <xsl:template match="skos:Concept" mode="a">
 
-<!--single files-->
-<xsl:for-each select=".">
-        <xsl:variable name="id">
+        <!--single files-->
+        <xsl:for-each select=".">
+            <xsl:variable name="id">
                 <xsl:value-of select="substring-after(@rdf:about, 'lod/')"/>
-        </xsl:variable>
+            </xsl:variable>
 
-<!--skos-->
-    <xsl:variable name="filenameskos" select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.xml')"/>
-        <xsl:result-document href="{$filenameskos}" format="xml">
-            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-                <skos:ConceptScheme rdf:about="{$url}">
-                    <xsl:value-of select="$title"/>
-                    <dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE BPN)</dc:creator>
-                    <dc:contributor/>
-                    <dc:publisher/>
-                    <dc:rights/>
-                    <dc:subject/>
-                    <dc:description>
-                        <xsl:attribute name="rdf:about">
-                            <xsl:value-of select="concat('http//:www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'), '.html')"/>
-                        </xsl:attribute>
-                    </dc:description>
-                    <dc:date><xsl:value-of select="current-date()"/></dc:date>
-                    <dct:modified><xsl:value-of select="current-date()"/></dct:modified>
-                </skos:ConceptScheme>
-<xsl:copy-of select="."/>
-            </rdf:RDF>
-        </xsl:result-document>
+            <!--skos-->
+            <xsl:variable name="filenameskos"
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.xml')"/>
+            <xsl:result-document href="{$filenameskos}" format="xml">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                    xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dct="http://purl.org/dc/terms/"
+                    xmlns:dc="http://purl.org/dc/elements/1.1/">
+                    <skos:ConceptScheme rdf:about="{$url}">
+                        <xsl:value-of select="$title"/>
+                        <dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                            BPN)</dc:creator>
+                        <dc:contributor/>
+                        <dc:publisher/>
+                        <dc:rights/>
+                        <dc:subject/>
+                        <dc:description>
+                            <xsl:attribute name="rdf:about">
+                                <xsl:value-of
+                                    select="concat('http//:www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'), '.html')"
+                                />
+                            </xsl:attribute>
+                        </dc:description>
+                        <dc:date>
+                            <xsl:value-of select="current-date()"/>
+                        </dc:date>
+                        <dct:modified>
+                            <xsl:value-of select="current-date()"/>
+                        </dct:modified>
+                    </skos:ConceptScheme>
+                    <xsl:copy-of select="."/>
+                </rdf:RDF>
+            </xsl:result-document>
 
-<!--html-->
-    <xsl:variable name="filenamehtml" select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
-    <xsl:result-document href="{$filenamehtml}" format="html">
-        
-            <head>
-                <meta charset="UTF-8"/>
-                <h1><xsl:value-of select="$title"/></h1>
-            </head>
-            <body>
-<table>
-                <tr>
-                    <xsl:apply-templates mode="b"/>
-                </tr>
-           </table> 
-                  
-        
-        <p><a href="http://www.eagle-network.eu/advanced-search">Click here to see all inscriptions which have a relation to this term</a></p>
-        <p><a href="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}">Back to Index</a></p>
-        <p><a href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}">Back to Intro</a></p>
-        <p><a href="{concat($url,'skos/',$id,'.xml')}">See SKOS version</a></p>
-            </body>     
-</xsl:result-document>
-</xsl:for-each>
+            <!--html-->
+            <xsl:variable name="filenamehtml"
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
+            <xsl:result-document href="{$filenamehtml}" format="html">
+                <html>
+                    <head>
+                        <meta charset="UTF-8"/>
+                        <h1>
+                            <xsl:value-of select="$title"/>
+                        </h1>
+                    </head>
+                    <body>
+                        <table>
+                            <tr>
+                                <xsl:apply-templates mode="b"/>
+                            </tr>
+                            <!-- apply templates for each file -->
+                        </table>
 
 
-<xsl:variable name="x" select="@rdf:about"/>
+                        <p>
+                            <a href="http://www.eagle-network.eu/advanced-search">Click here to see all inscriptions
+                                which have a relation to this term</a>
+                        </p>
+                        <p>
+                            <a
+                                href="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}"
+                                >Back to Index</a>
+                        </p>
+                        <p>
+                            <a
+                                href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
+                                >Back to Intro</a>
+                        </p>
+                        <p>
+                            <a href="{concat($url,'skos/',$id,'.xml')}">See SKOS version</a>
+                        </p>
+                    </body>
+                </html>
+            </xsl:result-document>
+        </xsl:for-each>
+
+        <!--main table contents-->
+        <xsl:variable name="x" select="@rdf:about"/>
         <xsl:apply-templates mode="b"/>
-        <tr><td></td><td>Definition</td>
-        <td>
-            <xsl:value-of
-                select="//skos:Concept[@rdf:about=$x]/skos:closeMatch/skos:Concept/@rdf:about"
-            />
-        </td>
-        <td/></tr>
+        <xsl:if test="//skos:Concept[@rdf:about=$x]/skos:closeMatch/skos:Concept">
+            <tr>
+                <td/>
+                <td>External definition</td>
+                <td>
+                    <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:closeMatch/skos:Concept/@rdf:about"/>
+                </td>
+                <td/>
+            </tr>
+        </xsl:if>
     </xsl:template>
-
-
-
     <xsl:template match="skos:prefLabel" mode="b">
         <tr>
             <td>
-                <a><xsl:attribute name="href"><xsl:value-of select="parent::skos:Concept/@rdf:about"/></xsl:attribute><h2><xsl:value-of select="."/></h2></a>
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="parent::skos:Concept/@rdf:about"/>
+                    </xsl:attribute>
+                    <h2>
+                        <xsl:value-of select="."/>
+                    </h2>
+                </a>
             </td>
             <td/>
             <td/>
@@ -310,6 +552,7 @@
             </tr>
         </xsl:for-each>
     </xsl:template>
+
     <xsl:template match="skos:exactMatch" mode="b">
         <xsl:for-each select=".">
             <tr>
@@ -329,6 +572,7 @@
             </tr>
         </xsl:for-each>
     </xsl:template>
+
     <xsl:template match="skos:altLabel" mode="b">
         <xsl:for-each select=".">
             <tr>
@@ -343,27 +587,43 @@
             </tr>
         </xsl:for-each>
     </xsl:template>
+
     <xsl:template match="skos:related" mode="b">
         <xsl:for-each select=".">
-            <xsl:variable name="x"><xsl:value-of select="./@rdf:resource"/></xsl:variable>
+            <xsl:variable name="x">
+                <xsl:value-of select="./@rdf:resource"/>
+            </xsl:variable>
             <tr>
                 <td/>
                 <td>Related term</td>
                 <td>
-                    <a><xsl:attribute name="href"><xsl:value-of select="@rdf:resource"/></xsl:attribute><xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/></a>
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="@rdf:resource"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/>
+                    </a>
                 </td>
                 <td/>
             </tr>
         </xsl:for-each>
     </xsl:template>
+
     <xsl:template match="skos:broader" mode="b">
         <xsl:for-each select=".">
-            <xsl:variable name="x"><xsl:value-of select="./@rdf:resource"/></xsl:variable>
+            <xsl:variable name="x">
+                <xsl:value-of select="./@rdf:resource"/>
+            </xsl:variable>
             <tr>
                 <td/>
                 <td>Contained in</td>
                 <td>
-                    <a><xsl:attribute name="href"><xsl:value-of select="@rdf:resource"/></xsl:attribute><xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/></a>
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="@rdf:resource"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/>
+                    </a>
                 </td>
                 <td/>
             </tr>
@@ -371,12 +631,19 @@
     </xsl:template>
     <xsl:template match="skos:narrower" mode="b">
         <xsl:for-each select=".">
-            <xsl:variable name="x"><xsl:value-of select="./@rdf:resource"/></xsl:variable>
+            <xsl:variable name="x">
+                <xsl:value-of select="./@rdf:resource"/>
+            </xsl:variable>
             <tr>
                 <td/>
                 <td>Includes</td>
                 <td>
-                    <a><xsl:attribute name="href"><xsl:value-of select="@rdf:resource"/></xsl:attribute><xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/></a>
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="@rdf:resource"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/>
+                    </a>
                 </td>
                 <td/>
             </tr>
@@ -403,4 +670,118 @@
         </tr>
     </xsl:template>
 
+    <!--   <xsl:template match="skos:Concept[parent::skos:exactMatch]" mode="c">
+        <!-\-single files-\->
+        <xsl:for-each select=".">
+            <xsl:variable name="id">
+                <xsl:value-of select="substring-after(@rdf:about, 'lod/')"/>
+            </xsl:variable>
+            
+            <!-\-skos-\->
+            <xsl:variable name="filenameskos"
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.xml')"/>
+            <xsl:result-document href="{$filenameskos}" format="xml">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                    xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dct="http://purl.org/dc/terms/"
+                    xmlns:dc="http://purl.org/dc/elements/1.1/">
+                    <skos:ConceptScheme rdf:about="{$url}">
+                        <xsl:value-of select="$title"/>
+                        <dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                            BPN)</dc:creator>
+                        <dc:contributor/>
+                        <dc:publisher/>
+                        <dc:rights/>
+                        <dc:subject/>
+                        <dc:description>
+                            <xsl:attribute name="rdf:about">
+                                <xsl:value-of
+                                    select="concat('http//:www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'), '.html')"
+                                />
+                            </xsl:attribute>
+                        </dc:description>
+                        <dc:date>
+                            <xsl:value-of select="current-date()"/>
+                        </dc:date>
+                        <dct:modified>
+                            <xsl:value-of select="current-date()"/>
+                        </dct:modified>
+                    </skos:ConceptScheme>
+                    <xsl:copy-of select="."/>
+                </rdf:RDF>
+            </xsl:result-document>
+            
+            <!-\-html-\->
+            <xsl:variable name="filenamehtml"
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
+            <xsl:result-document href="{$filenamehtml}" format="html">
+                <html>
+                    <head>
+                        <meta charset="UTF-8"/>
+                        <h1>
+                            <xsl:value-of select="$title"/>
+                        </h1>
+                    </head>
+                    <body>
+                        <table>
+                            <tr>
+                                <td>
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="parent::skos:Concept/@rdf:about"/>
+                                        </xsl:attribute>
+                                        <h2>
+                                            <xsl:value-of select="."/>
+                                        </h2>
+                                    </a>
+                                </td>
+                                <td/>
+                                <td/>
+                                <td>
+                                    <xsl:value-of select="@xml:lang"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> Equal to: </td>
+                                <td>
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="ancestor::skos:Concept/@rdf:about"/>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="ancestor::skos:Concept/skos:prefLabel"/>
+                                    </a>
+                                </td>
+                                <td/>
+                                <td>
+                                    <xsl:value-of select="@xml:lang"/>
+                                </td>
+                            </tr>
+                            
+                        </table>
+                        
+                        
+                        <p>
+                            <a href="http://www.eagle-network.eu/advanced-search">Click here to see all inscriptions
+                                which have a relation to this term</a>
+                        </p>
+                        <p>
+                            <a
+                                href="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}"
+                                >Back to Index</a>
+                        </p>
+                        <p>
+                            <a
+                                href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
+                                >Back to Intro</a>
+                        </p>
+                        <p>
+                            <a href="{concat($url,'skos/',$id,'.xml')}">See SKOS version</a>
+                        </p>
+                    </body>
+                </html>
+            </xsl:result-document>
+        </xsl:for-each>
+        
+    </xsl:template>
+ -->
 </xsl:stylesheet>
