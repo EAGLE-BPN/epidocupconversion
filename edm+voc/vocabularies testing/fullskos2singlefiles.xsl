@@ -90,10 +90,34 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         mySel.options[mySel.selectedIndex].value; if(myVal) { if(mySel.form.target)myWin =
                         parent[mySel.form.target]; else myWin = window; if (! myWin) return true; myWin.location =
                         myVal; } return false; } // </SCRIPT>
-                    <h1>
-                        <xsl:value-of select="$title"/>
-                    </h1>
+                    <style>
+                        table {
+                        table-layout: fixed;
+                        width: 100%;
+                        border-collapse: collapse;
+                        }
+                        tr{
+                        border-bottom: 1px solid #ccc;
+                        }
+                        td,  th {
+                        font-size: 1em;
+                        padding: 3px 7px 2px 7px;
+                        width: 100%;
+                        }
+                        
+                        th {
+                        font-size: 1.1em;
+                        text-align: left;
+                        padding-top: 5px;
+                        padding-bottom: 4px;
+                        }
+                        
+                    </style>                   
+ <title><xsl:value-of select="substring-after($title, '- ')"/></title>
                 </head>
+                <h1>
+                    <xsl:value-of select="$title"/>
+                </h1>
                 <body style="margin:8;padding:8">
                     <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list of terms in
                         this vocabulary. Equivalent terms are shown in the tematres instance and in each main concept description.</p>
@@ -383,6 +407,12 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
 <!--add condition to show hierarchical tree when the vocabulary is hierarcical (material and dates)-->
                         <table>
                             <tr>
+                                <th>preferred label</th>
+                                <th>relation</th>
+                                <th>term</th>
+                                <th>language</th>
+                            </tr>
+                            <tr>
                                 <xsl:apply-templates mode="a"/>
                                 <!--main terms-->
                             </tr>
@@ -477,15 +507,45 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                     <head>
                         <meta charset="UTF-8"/>
                         <link rel="stylesheet" href="http://www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css" />
-                        <h1>
-                            <xsl:value-of select="$title"/>
-                        </h1>
+                        <title><xsl:value-of select="skos:prefLabel"/></title>
+                        <style>
+                            table {
+                            table-layout: fixed;
+                            width: 100%;
+                            border-collapse: collapse;
+                            }
+                            tr{
+                            border-bottom: 1px solid #ccc;
+                            }
+                            
+                            td,  th {
+                            font-size: 1em;
+                            padding: 3px 7px 2px 7px;
+                            width: 100%;
+                            }
+                            
+                            th {
+                            font-size: 1.1em;
+                            text-align: left;
+                            padding-top: 5px;
+                            padding-bottom: 4px;
+                            }
+                            
+                        </style>
                     </head>
                     <body style="margin:8;padding:8">
+                        <h1><xsl:value-of select="skos:prefLabel"/></h1>
+                        <p>
+                            <xsl:value-of select="$title"/>
+                        </p>
                         <table>
                             <tr>
-                                <xsl:apply-templates mode="b"/>
+                                <th>preferred label</th>
+                                <th>relation</th>
+                                <th>term</th>
+                                <th>language</th>
                             </tr>
+                            <xsl:apply-templates mode="b"/>
                             <!-- apply templates for each file -->
                         </table>
 
