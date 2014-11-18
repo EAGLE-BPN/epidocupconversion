@@ -3,7 +3,8 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:dct="http://purl.org/dc/terms/" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
-    xmlns:dc="http://purl.org/dc/elements/1.1/" exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
 
 
     <!--USE THIS TO GENERATE SKOS AND HTML VIEW FOR WEB SITE NOT SURE HOW TO ACTIVATE LINKS-->
@@ -22,13 +23,13 @@
             select="concat('voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.rdf')"/>
         <xsl:variable name="filenameindex"
             select="concat('voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')"/>
-        <xsl:result-document href="{$filenameindex}" format="html">
+        <xsl:result-document href="{$filenameindex}" format="html" exclude-result-prefixes="#all" omit-xml-declaration="yes">
 
             <html>
                 <head>
                     <!--
                <meta charset="UTF-8"/>-->
-
+                    <link rel="stylesheet" href="http://www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css" />
                     <style type="text/css">
                         .list{
                         	display:none;
@@ -93,7 +94,7 @@
                         <xsl:value-of select="$title"/>
                     </h1>
                 </head>
-                <body>
+                <body style="margin:8;padding:8">
                     <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list of terms in
                         this vocabulary. Equivalent terms are shown in the tematres instance and in each main concept description.</p>
                     <div>
@@ -415,11 +416,11 @@
         </xsl:copy>
     </xsl:template>
     <xsl:template match="//@*[contains(., 'eagle') and contains(.,'lod')]" mode="skosuris">
-        <xsl:attribute name="rdf:{local-name()}"><xsl:value-of select="concat(replace(., 'lod', 'skos'), '.xml')"/>
+        <xsl:attribute name="rdf:{local-name()}"><xsl:value-of select="concat(replace(., 'lod', 'skos'), '.rdf')"/>
 </xsl:attribute>
     </xsl:template>
     <xsl:template match="//@*[contains(., 'eagle') and contains(.,'lod')]" mode="skosurissinglefile">
-        <xsl:attribute name="rdf:{local-name()}"><xsl:value-of select="concat(replace(., 'lod', 'skos'), '.xml')"/>
+        <xsl:attribute name="rdf:{local-name()}"><xsl:value-of select="concat(replace(., 'lod', 'skos'), '.rdf')"/>
         </xsl:attribute>
     </xsl:template>
 
@@ -433,7 +434,7 @@
 
             <!--skos-->
             <xsl:variable name="filenameskos"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.xml')"/>
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.rdf')"/>
             <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes" exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -460,12 +461,11 @@
                         <dct:modified>
                             <xsl:value-of select="current-date()"/>
                         </dct:modified>
-                    </skos:ConceptScheme><!--
-                    -->
-                    <xsl:copy><xsl:copy-of select="@*"/><xsl:attribute name="rdf:about">
-                        <xsl:value-of select="concat(replace(@rdf:about, 'lod', 'skos'), '.xml')"/>
+                    </skos:ConceptScheme>
+                    <xsl:copy><xsl:attribute name="rdf:about">
+                        <xsl:value-of select="concat(replace(@rdf:about, 'lod', 'skos'), '.rdf')"/>
                     </xsl:attribute><xsl:apply-templates mode="skosuris"/></xsl:copy>
-                    <!--                    -->
+                    
                 </rdf:RDF>
             </xsl:result-document>
 
@@ -476,11 +476,12 @@
                 <html>
                     <head>
                         <meta charset="UTF-8"/>
+                        <link rel="stylesheet" href="http://www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css" />
                         <h1>
                             <xsl:value-of select="$title"/>
                         </h1>
                     </head>
-                    <body>
+                    <body style="margin:8;padding:8">
                         <table>
                             <tr>
                                 <xsl:apply-templates mode="b"/>
@@ -503,7 +504,7 @@
                                 >Back to Intro</a>
                         </p>
                         <p>
-                            <a href="{concat($url,'skos/',$id,'.xml')}">See SKOS version</a>
+                            <a href="{concat($url,'skos/',$id,'.rdf')}">See SKOS version</a>
                         </p>
                     </body>
                 </html>
