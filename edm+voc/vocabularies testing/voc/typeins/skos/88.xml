@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                        rdf:about="http://www.eagle-network.eu/voc/typeins/">EAGLE Vocabulary - Type of Inscription<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
@@ -8,35 +7,35 @@
       <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
-                      rdf:about="http//:www.eagle-network.eu/resources/vocabularies/typeins/.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-11-12+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-11-12+02:00</dct:modified>
+                      rdf:about="http//:www.eagle-network.eu/resources/vocabularies/typeins.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-11-18+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-11-18+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="http://www.eagle-network.eu/voc/typeins/lod/88">
+                 rdf:about="http://www.eagle-network.eu/voc/typeins/skos/88.xml">
         <skos:prefLabel xml:lang="la">tit. dedicatorius</skos:prefLabel>
         <skos:altLabel xml:lang="es">Dédicatoria de monumento</skos:altLabel>
         <skos:altLabel xml:lang="en">Dedicatory</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/86"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/89"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/83"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/86.xml"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/89.xml"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/83.xml"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/267">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/skos/267.xml">
                 <skos:prefLabel xml:lang="fr">Dédicace de monument</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/266">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/skos/266.xml">
                 <skos:prefLabel xml:lang="es">Dedicatoria</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/268">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/skos/268.xml">
                 <skos:prefLabel xml:lang="de">Einweihung</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>

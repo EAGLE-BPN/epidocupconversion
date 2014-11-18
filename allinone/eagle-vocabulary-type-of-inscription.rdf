@@ -115,9 +115,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/116">
         <skos:prefLabel xml:lang="de">Assignationsinschrift</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://cil.bbaw.de/test06/bilder/datenbank/PH0008101.jpg"/>
-        </skos:exactMatch>
+        
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-15 17:01:56</dct:modified>
     </skos:Concept>

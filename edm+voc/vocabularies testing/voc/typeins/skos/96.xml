@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                        rdf:about="http://www.eagle-network.eu/voc/typeins/">EAGLE Vocabulary - Type of Inscription<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
@@ -8,16 +7,16 @@
       <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
-                      rdf:about="http//:www.eagle-network.eu/resources/vocabularies/typeins/.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-11-12+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-11-12+02:00</dct:modified>
+                      rdf:about="http//:www.eagle-network.eu/resources/vocabularies/typeins.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-11-18+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-11-18+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="http://www.eagle-network.eu/voc/typeins/lod/96">
+                 rdf:about="http://www.eagle-network.eu/voc/typeins/skos/96.xml">
         <skos:prefLabel xml:lang="la">term. non sep.</skos:prefLabel>
         <skos:altLabel xml:lang="fr">borne</skos:altLabel>
         <skos:altLabel xml:lang="en">Boundary inscription</skos:altLabel>
@@ -41,25 +40,25 @@
             spazio (compresi cippi di centuriazione e miliari)</skos:scopeNote>
         <skos:historyNote xml:lang="en"> fines posuit (AE 1985, 0730) Iter precarium Examples: </skos:historyNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/97"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/98"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/99"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/100"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/101"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/95"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/102"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/97.xml"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/98.xml"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/99.xml"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/100.xml"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/101.xml"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/95.xml"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/102.xml"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/293">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/skos/293.xml">
                 <skos:prefLabel xml:lang="de">Grenzmarkierung</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/289">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/skos/289.xml">
                 <skos:prefLabel xml:lang="de">Grenzstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/290">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/skos/290.xml">
                 <skos:prefLabel xml:lang="es">Mojon</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>

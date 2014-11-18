@@ -1,0 +1,54 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                       rdf:about="http://www.eagle-network.eu/voc/writing/">EAGLE Vocabulary - Writing<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                            BPN)</dc:creator>
+      <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
+                      rdf:about="http//:www.eagle-network.eu/resources/vocabularies/writing.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-11-18+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-11-18+01:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+                 xmlns:dct="http://purl.org/dc/terms/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 rdf:about="http://www.eagle-network.eu/voc/writing/skos/1.rdf">
+        <skos:prefLabel xml:lang="la">Scalpro</skos:prefLabel>
+        <skos:altLabel xml:lang="en">chiselled</skos:altLabel>
+        <skos:altLabel xml:lang="es">cincelado</skos:altLabel>
+        <skos:altLabel xml:lang="de">geritzt / ziselliert</skos:altLabel>
+        <skos:altLabel xml:lang="it">incisa a scalpello</skos:altLabel>
+        <skos:altLabel xml:lang="fr">incisé</skos:altLabel>
+        <skos:altLabel xml:lang="en">incised</skos:altLabel>
+        <skos:altLabel xml:lang="en">inscribed</skos:altLabel>
+        <skos:altLabel xml:lang="hu">vésett</skos:altLabel>
+        <skos:altLabel xml:lang="el">σμιλεμένo</skos:altLabel>
+        <skos:altLabel xml:lang="ar">المنقوش</skos:altLabel>
+        <skos:scopeNote xml:lang="en">carved with chisel</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">incise a scalpello, scrittura a solchi. Si riferisce a quelle
+            scritte realizzate a scalpello mediante l’incisione di solchi (Silvia
+            Evangelisti).</skos:scopeNote>
+        <skos:historyNote xml:lang="en">EDR000079</skos:historyNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/115.rdf">
+                <skos:prefLabel xml:lang="en">Chisel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/113.rdf">
+                <skos:prefLabel xml:lang="de">eingemeißelt</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/114.rdf">
+                <skos:prefLabel xml:lang="la">Insculptus</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+       <dct:created>2013-08-23 16:45:39</dct:created>
+    </skos:Concept>
+</rdf:RDF>

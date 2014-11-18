@@ -1,0 +1,67 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                       rdf:about="http://www.eagle-network.eu/voc/typeins/">EAGLE Vocabulary - Type of Inscription<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                            BPN)</dc:creator>
+      <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
+                      rdf:about="http//:www.eagle-network.eu/resources/vocabularies/typeins.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-11-18+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-11-18+01:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+                 xmlns:dct="http://purl.org/dc/terms/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 rdf:about="http://www.eagle-network.eu/voc/typeins/skos/1.rdf">
+        <skos:prefLabel xml:lang="la">Fasti, Leges, Acta</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Calendario, elenco di magistrati, legge, senatoconsulto,
+            costituzione imperiale, editto, decreto, atti di collegio</skos:altLabel>
+        <skos:altLabel xml:lang="de">Fasten / Verzeichnisse,</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Fastes, lois, actes</skos:altLabel>
+        <skos:altLabel xml:lang="de">Gesetze, Akten</skos:altLabel>
+        <skos:altLabel xml:lang="en">Official text</skos:altLabel>
+        <skos:altLabel xml:lang="el">επίσημο έγγραφο</skos:altLabel>
+        <skos:altLabel xml:lang="ar">النص الرسمي</skos:altLabel>
+        <skos:scopeNote xml:lang="en">calendars, edicts of magistrates, every type of legislative
+            document (laws, decrees of the senate, imperial constitutions, edicts, decrees, acts of
+            collegia)</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">it. calendari, elenchi di magistrati, ogni tipo di documento
+            legislativo (leggi, senatoconsulti, costituzioni imperiali, editti, decreti, atti di
+            collegi, ecc.)</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/12.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/46.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/13.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/15.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/16.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/17.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/18.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/19.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/20.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/2.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/23.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/24.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/3.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/4.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/5.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/49.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/40.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/41.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/42.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/44.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/45.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/108.rdf"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR003059"/>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000674"/>
+        </skos:exactMatch>
+        <dct:created>2013-08-01 12:27:53</dct:created>
+        <dct:modified>2013-08-20 11:45:21</dct:modified>
+    </skos:Concept>
+</rdf:RDF>

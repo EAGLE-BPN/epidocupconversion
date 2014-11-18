@@ -400,8 +400,27 @@
 
         </xsl:result-document>
         <xsl:result-document href="{$fullskosfile}" format="xml">
-<xsl:copy-of select="@*|node()"/>
+<xsl:apply-templates mode="skosuris"/>
 </xsl:result-document>
+    </xsl:template>
+
+    <xsl:template match="@*|node()" mode="skosuris">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()" mode="skosuris"/>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:template match="@*|node()" mode="skosurissinglefile">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()" mode="skosurissinglefile"/>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:template match="//@*[contains(., 'eagle') and contains(.,'lod')]" mode="skosuris">
+        <xsl:attribute name="rdf:{local-name()}"><xsl:value-of select="concat(replace(., 'lod', 'skos'), '.xml')"/>
+</xsl:attribute>
+    </xsl:template>
+    <xsl:template match="//@*[contains(., 'eagle') and contains(.,'lod')]" mode="skosurissinglefile">
+        <xsl:attribute name="rdf:{local-name()}"><xsl:value-of select="concat(replace(., 'lod', 'skos'), '.xml')"/>
+        </xsl:attribute>
     </xsl:template>
 
     <xsl:template match="skos:Concept" mode="a">
@@ -415,7 +434,7 @@
             <!--skos-->
             <xsl:variable name="filenameskos"
                 select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.xml')"/>
-            <xsl:result-document href="{$filenameskos}" format="xml">
+            <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes" exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                     xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dct="http://purl.org/dc/terms/"
@@ -431,7 +450,7 @@
                         <dc:description>
                             <xsl:attribute name="rdf:about">
                                 <xsl:value-of
-                                    select="concat('http//:www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'), '.html')"
+                                    select="concat('http//:www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
                                 />
                             </xsl:attribute>
                         </dc:description>
@@ -441,8 +460,12 @@
                         <dct:modified>
                             <xsl:value-of select="current-date()"/>
                         </dct:modified>
-                    </skos:ConceptScheme>
-                    <xsl:copy-of select="."/>
+                    </skos:ConceptScheme><!--
+                    -->
+                    <xsl:copy><xsl:copy-of select="@*"/><xsl:attribute name="rdf:about">
+                        <xsl:value-of select="concat(replace(@rdf:about, 'lod', 'skos'), '.xml')"/>
+                    </xsl:attribute><xsl:apply-templates mode="skosuris"/></xsl:copy>
+                    <!--                    -->
                 </rdf:RDF>
             </xsl:result-document>
 
@@ -467,8 +490,7 @@
 
 
                         <p>
-                            <a href="http://www.eagle-network.eu/advanced-search">Click here to see all inscriptions
-                                which have a relation to this term</a>
+                            <a href="http://www.eagle-network.eu/advanced-search">Search for this term on the EAGLE Advanced Search</a>
                         </p>
                         <p>
                             <a

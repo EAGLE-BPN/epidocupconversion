@@ -1,0 +1,41 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                       rdf:about="http://www.eagle-network.eu/voc/writing/">EAGLE Vocabulary - Writing<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                            BPN)</dc:creator>
+      <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
+                      rdf:about="http//:www.eagle-network.eu/resources/vocabularies/writing.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-11-18+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-11-18+01:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+                 xmlns:dct="http://purl.org/dc/terms/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 rdf:about="http://www.eagle-network.eu/voc/writing/skos/14.rdf">
+        <skos:prefLabel xml:lang="la">Stilo</skos:prefLabel>
+        <skos:altLabel xml:lang="de">geritzt / in weiches Material</skos:altLabel>
+        <skos:altLabel xml:lang="it">incisa su materia morbida</skos:altLabel>
+        <skos:altLabel xml:lang="en">inscribed on a soft surface</skos:altLabel>
+        <skos:altLabel xml:lang="fr">inscrit sur une surface tendre</skos:altLabel>
+        <skos:altLabel xml:lang="el">επιγεγραμμένο, εγχάρακτο πάνω σε μαλακή
+            επιφάνεια</skos:altLabel>
+        <skos:altLabel xml:lang="ar">منقوش على سطح ناعم</skos:altLabel>
+        <skos:scopeNote xml:lang="en">cut on soft material (soft clay, fresh mortar,
+            wax)</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">incise su materiale morbida (argilla prima della cottura,
+            malta fresca, cera)</skos:scopeNote>
+        <skos:historyNote xml:lang="en">EDR029531</skos:historyNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/132.rdf">
+                <skos:prefLabel xml:lang="it">Exaratus</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-08-26 11:38:59</dct:created>
+    </skos:Concept>
+</rdf:RDF>
