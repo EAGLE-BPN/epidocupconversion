@@ -12,9 +12,17 @@
 <xsl:template match="//tei:provenance">
 <provenance type="found">
 <xsl:copy-of select="@*|node()"/>
-<xsl:copy-of select="ancestor::tei:TEI//tei:settlement/tei:placeName"/>
+
+<xsl:copy-of select="ancestor::tei:TEI//tei:settlement/tei:placeName[not(@*[local-name()='modern'])]"/>
+
+<xsl:copy>
 <xsl:copy-of select="ancestor::tei:TEI//tei:region/tei:placeName"/>
+    <xsl:attribute name="type">modern_region</xsl:attribute>
+</xsl:copy>
+<xsl:copy>
 <xsl:copy-of select="ancestor::tei:TEI//tei:country/tei:placeName"/>
+    <xsl:attribute name="type">modernCountry</xsl:attribute>
+</xsl:copy>
 </provenance>
 </xsl:template>
 <!--removes from msIdentifier unwanted info-->
