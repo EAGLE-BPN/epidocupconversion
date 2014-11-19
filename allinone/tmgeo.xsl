@@ -11,9 +11,9 @@
 <xsl:template match="//tei:provenance">
 <provenance type="found">
 <xsl:copy-of select="@*|node()"/>
-    <placeName type="modernFindspot"><xsl:copy-of select="ancestor::*//tei:settlement/tei:placeName"/></placeName>
-    <placeName type="modernRegion"><xsl:copy-of select="ancestor::*//tei:region/tei:placeName"/></placeName>
-    <placeName type="modernCountry"><xsl:copy-of select="ancestor::*//tei:country/tei:placeName"/></placeName>
+    <placeName type="modernFindspot"><xsl:copy-of select="ancestor::tei:TEI//tei:settlement/tei:placeName"/></placeName>
+    <placeName type="modernRegion"><xsl:copy-of select="ancestor::tei:TEI//tei:region/tei:placeName"/></placeName>
+    <placeName type="modernCountry"><xsl:copy-of select="ancestor::tei:TEI//tei:country/tei:placeName"/></placeName>
 </provenance>
 </xsl:template>
     
