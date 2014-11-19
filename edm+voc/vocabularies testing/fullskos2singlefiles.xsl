@@ -613,12 +613,12 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         <xsl:when test="contains($url, 'material')">
                             <xsl:text>material=</xsl:text>
                         </xsl:when>
-                        <xsl:when test="contains($url, 'objtyp')">
+                      <!--  <xsl:when test="contains($url, 'objtyp')">
                             <xsl:text>inschrifttraeger=</xsl:text>
                         </xsl:when>
                         <xsl:when test="contains($url, 'writing')">
                             <xsl:text>palSchreibtechnik=</xsl:text>
-                        </xsl:when>
+                        </xsl:when>-->
                     </xsl:choose>
                 </xsl:variable>
                 
@@ -726,13 +726,13 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                             <xsl:when test="contains($url, 'material')">
                                 <xsl:text>material=</xsl:text>
                             </xsl:when>
-                            <xsl:when test="contains($url, 'objtyp')">
+<!--                            <xsl:when test="contains($url, 'objtyp')">
                                 <xsl:text>inschrifttraeger=</xsl:text>
                             </xsl:when>
                             <xsl:when test="contains($url, 'writing')">
                                 <xsl:text>palSchreibtechnik=</xsl:text>
                             </xsl:when>
-                        </xsl:choose>
+-->                        </xsl:choose>
                     </xsl:variable>
                     
                     <xsl:if test="@xml:lang='de' and contains($edhvocs, '=')">
