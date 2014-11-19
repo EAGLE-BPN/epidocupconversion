@@ -26,6 +26,13 @@
                         <xsl:text>]</xsl:text>
                     </xsl:matching-substring>
                     <xsl:non-matching-substring>
+                        <!--     [\-\-\- dedicaverunt?] -->
+                        <xsl:analyze-string select="." regex="\[(\-\-\-)(\s(\w*)\?)\]">
+                            <xsl:matching-substring>
+                                <xsl:text>[3][</xsl:text><xsl:value-of select="regex-group(2)"/><xsl:text>]</xsl:text>
+                            </xsl:matching-substring>
+                            <xsl:non-matching-substring>
+                                
                 <!--     [dedicaverunt? \-\-\- Iu] -->
                 <xsl:analyze-string select="." regex="\[((.*)\?)(\s(\-\-\-)\s)(.*)\]">
                     <xsl:matching-substring>
@@ -236,6 +243,9 @@
                         
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
+                        
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:non-matching-substring>
