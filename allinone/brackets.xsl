@@ -152,7 +152,7 @@
                                                                                 <xsl:analyze-string select="." regex="(\$\])\s(\w)">
                                                                                     <xsl:matching-substring>
                                                                                         <xsl:value-of select="regex-group(1)"/>
-                                                                                        <xsl:text> / </xsl:text>
+                                                                                        <xsl:text> / [3]</xsl:text>
                                                                                         <xsl:value-of select="regex-group(2)"/>
                                                                                     </xsl:matching-substring>
                                                                                     <xsl:non-matching-substring>
