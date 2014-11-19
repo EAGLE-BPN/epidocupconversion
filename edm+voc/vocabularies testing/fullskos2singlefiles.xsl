@@ -117,7 +117,7 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                 </head>
                
                 <body style="margin:8;padding:8">
-                    <script src="../header.js"></script>
+                    <script src="header.js"></script>
                     <h1 class="page_title">
                         <xsl:value-of select="$title"/>
                     </h1>
@@ -429,7 +429,7 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                     <p>
                         <a href="{concat('http://www.eagle-network.eu/',$fullskosfile)}">See SKOS version</a>
                     </p>
-                        <script src="../footer.js"></script>
+                        <script src="footer.js"></script>
                         
                     </div>
                 </body>
@@ -540,7 +540,7 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         </style>
                     </head>
                     <body style="margin:8;padding:8">
-                        <script src="../../../header.js"></script>
+                        <script src="../../header.js"></script>
                      
                         <h1 class="page_title"><xsl:value-of select="skos:prefLabel"/></h1>
                         <div class="post-content">
@@ -576,7 +576,7 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                             <a href="{concat($url,'skos/',$id,'.rdf')}">See SKOS version</a>
                         </p> 
 
-                        <script src="../../../footer.js"></script>
+                        <script src="../../footer.js"></script>
                         </div>
                     </body>
                 </html>
@@ -608,22 +608,23 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         <xsl:value-of select="."/>
                     </h2>
                 </a>
-                <xsl:if test="@xml:lang='de'">
+                <xsl:variable name="edhvocs">
+                    <xsl:choose>
+                        <xsl:when test="contains($url, 'material')">
+                            <xsl:text>material=</xsl:text>
+                        </xsl:when>
+                        <xsl:when test="contains($url, 'objtyp')">
+                            <xsl:text>inschrifttraeger=</xsl:text>
+                        </xsl:when>
+                        <xsl:when test="contains($url, 'writing')">
+                            <xsl:text>palSchreibtechnik=</xsl:text>
+                        </xsl:when>
+                    </xsl:choose>
+                </xsl:variable>
+                
+                <xsl:if test="@xml:lang='de' and contains($edhvocs, '=')">
                     <xsl:text> (</xsl:text>
                     <a>
-<xsl:variable name="edhvocs">
-<xsl:choose>
-    <xsl:when test="contains($url, 'material')">
-<xsl:text>material=</xsl:text>
-    </xsl:when>
-    <xsl:when test="contains($url, 'objtyp')">
-        <xsl:text>inschrifttraeger=</xsl:text>
-    </xsl:when>
-    <xsl:when test="contains($url, 'writing')">
-        <xsl:text>palSchreibtechnik=</xsl:text>
-    </xsl:when>
-</xsl:choose>
-</xsl:variable>
                         <xsl:attribute name="href">
                             <xsl:value-of select="concat('http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?',$edhvocs,.)"/>
                         </xsl:attribute>
@@ -720,6 +721,30 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                 <td>Translated term</td>
                 <td>
                     <xsl:value-of select="."/>
+                    <xsl:variable name="edhvocs">
+                        <xsl:choose>
+                            <xsl:when test="contains($url, 'material')">
+                                <xsl:text>material=</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="contains($url, 'objtyp')">
+                                <xsl:text>inschrifttraeger=</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="contains($url, 'writing')">
+                                <xsl:text>palSchreibtechnik=</xsl:text>
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:variable>
+                    
+                    <xsl:if test="@xml:lang='de' and contains($edhvocs, '=')">
+                        <xsl:text> (</xsl:text>
+                        <a>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="concat('http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?',$edhvocs,.)"/>
+                            </xsl:attribute>
+                            Search this term in EDH
+                        </a>
+                        <xsl:text>)</xsl:text>
+                    </xsl:if>
                 </td>
                 <td>
                     <xsl:value-of select="@xml:lang"/>
