@@ -55,7 +55,7 @@
                                     </xsl:matching-substring>
 <!--[xxxx \-\-\-]-->
                                     <xsl:non-matching-substring>
-                                        <xsl:analyze-string select="." regex="\[([a-zA-Z]+)(\s?)(\-\-\-)\]"><!---->
+                                        <xsl:analyze-string select="." regex="\[([a-zA-Z]+)(\s?)(\-\-\-)\]">
                                             <xsl:matching-substring>
                                                 <xsl:text>[</xsl:text>
                                                 <xsl:value-of select="regex-group(1)"/>
@@ -63,7 +63,7 @@
                                             </xsl:matching-substring>
                                             <xsl:non-matching-substring>
       <!--[\-\-\- xxxx]-->
-                                                    <xsl:analyze-string select="." regex="\[(\-\-\-)(\s?)([a-zA-Z]+)\]"><!---->
+                                                    <xsl:analyze-string select="." regex="\[(\-\-\-)(\s?)([a-zA-Z]+)\]">
                                                         <xsl:matching-substring>
                                                             <xsl:text>[3][</xsl:text>
                                                             <xsl:value-of select="regex-group(3)"/>
@@ -163,7 +163,6 @@
                                                                                                 <xsl:value-of select="regex-group(2)"/>
                                                                                             </xsl:matching-substring>
                                                                                             <xsl:non-matching-substring>
-                                                                                        -->
                                                                                         <xsl:analyze-string select="." regex="(\$\])(\w)">
                                                                                             <xsl:matching-substring>
                                                                                                 <xsl:value-of select="regex-group(1)"/>
