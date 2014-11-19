@@ -115,10 +115,13 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                     </style>                   
  <title><xsl:value-of select="substring-after($title, '- ')"/></title>
                 </head>
-                <h1>
-                    <xsl:value-of select="$title"/>
-                </h1>
+               
                 <body style="margin:8;padding:8">
+                    <script src="../header.js"></script>
+                    <h1 class="page_title">
+                        <xsl:value-of select="$title"/>
+                    </h1>
+                    <div class="post-content">
                     <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list of terms in
                         this vocabulary. Equivalent terms are shown in the tematres instance and in each main concept description.</p>
                     <div>
@@ -426,6 +429,9 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                     <p>
                         <a href="{concat('http://www.eagle-network.eu/',$fullskosfile)}">See SKOS version</a>
                     </p>
+                        <script src="../footer.js"></script>
+                        
+                    </div>
                 </body>
             </html>
 
@@ -534,7 +540,10 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         </style>
                     </head>
                     <body style="margin:8;padding:8">
-                        <h1><xsl:value-of select="skos:prefLabel"/></h1>
+                        <script src="../../../header.js"></script>
+                     
+                        <h1 class="page_title"><xsl:value-of select="skos:prefLabel"/></h1>
+                        <div class="post-content">
                         <p>
                             <xsl:value-of select="$title"/>
                         </p>
@@ -565,7 +574,10 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         </p>
                         <p>
                             <a href="{concat($url,'skos/',$id,'.rdf')}">See SKOS version</a>
-                        </p>
+                        </p> 
+
+                        <script src="../../../footer.js"></script>
+                        </div>
                     </body>
                 </html>
             </xsl:result-document>
@@ -596,6 +608,30 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         <xsl:value-of select="."/>
                     </h2>
                 </a>
+                <xsl:if test="@xml:lang='de'">
+                    <xsl:text> (</xsl:text>
+                    <a>
+<xsl:variable name="edhvocs">
+<xsl:choose>
+    <xsl:when test="contains($url, 'material')">
+<xsl:text>material=</xsl:text>
+    </xsl:when>
+    <xsl:when test="contains($url, 'objtyp')">
+        <xsl:text>inschrifttraeger=</xsl:text>
+    </xsl:when>
+    <xsl:when test="contains($url, 'writing')">
+        <xsl:text>palSchreibtechnik=</xsl:text>
+    </xsl:when>
+</xsl:choose>
+</xsl:variable>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?',$edhvocs,.)"/>
+                        </xsl:attribute>
+                        Search this term in EDH
+                    </a>
+                    <xsl:text>)</xsl:text>
+                </xsl:if>
+<!-- if in de search in Heidelberg database but needs to take into account vocabulary type-->
             </td>
             <td/>
             <td/>
@@ -659,6 +695,16 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         </xsl:attribute>
                         <xsl:value-of select="skos:Concept/skos:prefLabel"/>
                     </a>
+                    <xsl:if test="contains(skos:Concept/@rdf:about,'dainst')">
+                        <xsl:text> (</xsl:text>
+                        <a>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="concat('http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=',skos:Concept/skos:prefLabel)"/>
+                            </xsl:attribute>
+                            Search this term in Arachne
+                        </a>
+                        <xsl:text>)</xsl:text>
+                    </xsl:if>
                 </td>
                 <td>
                     <xsl:value-of select="skos:Concept/skos:prefLabel/@xml:lang"/>
@@ -698,7 +744,7 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/>
                     </a>
                 </td>
-                <td/>
+                <td><xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel/@xml:lang"/></td>
             </tr>
         </xsl:for-each>
     </xsl:template>
@@ -719,7 +765,7 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/>
                     </a>
                 </td>
-                <td/>
+                <td><xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel/@xml:lang"/></td>
             </tr>
         </xsl:for-each>
     </xsl:template>
@@ -739,7 +785,7 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/>
                     </a>
                 </td>
-                <td/>
+                <td><xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel/@xml:lang"/></td>
             </tr>
         </xsl:for-each>
     </xsl:template>
