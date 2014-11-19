@@ -8,30 +8,35 @@
     exclude-result-prefixes="#all"
     >  
     
-<!--copies info wrongly placed in conservation to the modernfindspot-->
-<xsl:template match="//tei:provenance">
-<provenance type="found">
-<xsl:copy-of select="@*|node()"/>
-
-<xsl:copy-of select="ancestor::tei:TEI//tei:settlement/tei:placeName[not(@*[local-name()='modern'])]"/>
-
-<xsl:copy>
-<xsl:copy-of select="ancestor::tei:TEI//tei:region/tei:placeName"/>
-    <xsl:attribute name="type">modern_region</xsl:attribute>
-</xsl:copy>
-<xsl:copy>
-<xsl:copy-of select="ancestor::tei:TEI//tei:country/tei:placeName"/>
-    <xsl:attribute name="type">modernCountry</xsl:attribute>
-</xsl:copy>
-</provenance>
-</xsl:template>
-<!--removes from msIdentifier unwanted info-->
-
+    <!--copies info wrongly placed in conservation to the modernfindspot-->
+    <xsl:template match="//tei:provenance">
+        <provenance type="found">
+            <xsl:copy-of select="@*|node()"/>
+            
+            <xsl:copy-of select="ancestor::tei:TEI//tei:settlement/tei:placeName[not(@*[local-name()='modern'])]"/>
+            <placeName type="modern_region">
+                <xsl:attribute name="ref">
+                    <xsl:value-of select="ancestor::tei:TEI//tei:region/tei:placeName/@ref"/>
+                </xsl:attribute>
+                <xsl:value-of select="ancestor::tei:TEI//tei:region/tei:placeName"/>
+            </placeName>
+            
+            <placeName type="modernCountry">
+                <xsl:attribute name="ref">
+                    <xsl:value-of select="ancestor::tei:TEI//tei:country/tei:placeName/@ref"/>
+                </xsl:attribute>
+                <xsl:value-of select="ancestor::tei:TEI//tei:country/tei:placeName"/>
+            </placeName>
+        </provenance>
+    </xsl:template>
+    <!--removes from msIdentifier unwanted info-->
+    
+    
     <xsl:template match="tei:country"/>
     <xsl:template match="tei:settlement"/>
     <xsl:template match="tei:region"/>
-
-
+    
+    
     <xsl:template match="//tei:placeName[not(node())]"/>
 
     <xsl:template match="tei:origPlace">
