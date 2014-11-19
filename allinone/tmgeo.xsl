@@ -8,15 +8,22 @@
     exclude-result-prefixes="#all"
     >  
     
+<!--copies info wrongly placed in conservation to the modernfindspot-->
 <xsl:template match="//tei:provenance">
 <provenance type="found">
 <xsl:copy-of select="@*|node()"/>
 <xsl:copy-of select="ancestor::tei:TEI//tei:settlement/tei:placeName"/>
-    <placeName type="modernRegion"><xsl:copy-of select="ancestor::tei:TEI//tei:region/tei:placeName"/></placeName>
-    <placeName type="modernCountry"><xsl:copy-of select="ancestor::tei:TEI//tei:country/tei:placeName"/></placeName>
+<xsl:copy-of select="ancestor::tei:TEI//tei:region/tei:placeName"/>
+<xsl:copy-of select="ancestor::tei:TEI//tei:country/tei:placeName"/>
 </provenance>
 </xsl:template>
-    
+<!--removes from msIdentifier unwanted info-->
+
+    <xsl:template match="tei:country"/>
+    <xsl:template match="tei:settlement"/>
+    <xsl:template match="tei:region"/>
+
+
     <xsl:template match="//tei:placeName[not(node())]"/>
 
     <xsl:template match="tei:origPlace">
