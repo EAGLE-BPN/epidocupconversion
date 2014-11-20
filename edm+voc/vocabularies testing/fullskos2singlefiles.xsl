@@ -122,8 +122,25 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                         <xsl:value-of select="$title"/>
                     </h1>
                     <div class="post-content">
+                        
+                        <p>General data about this vocabulary:</p>
+                        <table>
+                            <tr>
+                                <td>Languages attested</td><td><xsl:for-each select="distinct-values(//@xml:lang)"><xsl:value-of select="."/><xsl:if test="not(position() = last())"><xsl:text>, </xsl:text></xsl:if></xsl:for-each>
+                                </td>
+                            </tr>    
+                            <tr><td>Total number of terms</td><td><xsl:value-of select="count(//skos:Concept)"/></td></tr>
+<tr><td>Total number of preferred labels</td><td><xsl:value-of select="count(//skos:prefLabel)"/></td></tr>
+                            <tr><td>Total number of translated terms</td><td><xsl:value-of select="count(//skos:altLabel)"/></td></tr>
+                            <tr><td>Total number of equivalent and aligned terms</td><td><xsl:value-of select="count(//skos:Concept[parent::skos:exactMatch])"/></td></tr>
+                            <tr><td>Total number of related terms</td><td><xsl:value-of select="count(//skos:related)"/></td></tr>
+                            <tr><td>Total number of definitions</td><td><xsl:value-of select="count(//skos:scopeNote)"/></td></tr>
+                            
+                        </table>
+
                     <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list of terms in
                         this vocabulary. Equivalent terms are shown in the tematres instance and in each main concept description.</p>
+
                     <div>
                         <select>
                             <option>Choose Language</option>
@@ -417,10 +434,7 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
                             </tr>
                             <tr>
                                 <xsl:apply-templates mode="a"/>
-                                <!--main terms-->
-                            </tr>
-                            <tr>
-                                <xsl:apply-templates mode="d"/>
+                                
                                 <!--main terms-->
                             </tr>
                         </table>
@@ -443,6 +457,7 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
         <xsl:result-document href="{$fullskosfile}" format="xml">
 <xsl:apply-templates mode="skosuris"/>
 </xsl:result-document>
+        <xsl:apply-templates mode="d"/>
     </xsl:template>
 
     <xsl:template match="@*|node()" mode="skosuris">
@@ -464,155 +479,6 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
         </xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="skos:Concept[parent::skos:exactMatch and contains(./@rdf:about, 'eagle')]" mode="d">
-        
-        <!--single files-->
-        <xsl:for-each select=".">
-            <xsl:variable name="id">
-                <xsl:value-of select="substring-after(@rdf:about, 'lod/')"/>
-            </xsl:variable>
-            
-            <!--skos-->
-<!--            <xsl:variable name="filenameskos"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.rdf')"/>
-            <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes" exclude-result-prefixes="#all">
-                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-                    xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dct="http://purl.org/dc/terms/"
-                    xmlns:dc="http://purl.org/dc/elements/1.1/">
-                    <skos:ConceptScheme rdf:about="{$url}">
-                        <xsl:value-of select="$title"/>
-                        <dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
-                            BPN)</dc:creator>
-                        <dc:contributor/>
-                        <dc:publisher/>
-                        <dc:rights/>
-                        <dc:subject/>
-                        <dc:description>
-                            <xsl:attribute name="rdf:about">
-                                <xsl:value-of
-                                    select="concat('http//:www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
-                                />
-                            </xsl:attribute>
-                        </dc:description>
-                        <dc:date>
-                            <xsl:value-of select="current-date()"/>
-                        </dc:date>
-                        <dct:modified>
-                            <xsl:value-of select="current-date()"/>
-                        </dct:modified>
-                    </skos:ConceptScheme>
-                    <xsl:copy><xsl:attribute name="rdf:about">
-                        <xsl:value-of select="concat(replace(@rdf:about, 'lod', 'skos'), '.rdf')"/>
-                    </xsl:attribute><xsl:apply-templates mode="skosuris"/></xsl:copy>
-                    
-                </rdf:RDF>
-            </xsl:result-document>-->
-            
-            <!--html-->
-            <xsl:variable name="filenamehtml"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
-            <xsl:result-document href="{$filenamehtml}" format="html">
-                <html>
-                    <head>
-                        <meta charset="UTF-8"/>
-                        <link rel="stylesheet" href="http://www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css" />
-                        <title><xsl:value-of select="skos:prefLabel"/></title>
-                        <style>
-                            table {
-                            table-layout: fixed;
-                            width: 100%;
-                            border-collapse: collapse;
-                            }
-                            tr{
-                            border-bottom: 1px solid #ccc;
-                            }
-                            
-                            td,  th {
-                            font-size: 1em;
-                            padding: 3px 7px 2px 7px;
-                            width: 100%;
-                            }
-                            
-                            th {
-                            font-size: 1.1em;
-                            text-align: left;
-                            padding-top: 5px;
-                            padding-bottom: 4px;
-                            }
-                            
-                        </style>
-                    </head>
-                    <body style="margin:8;padding:8">
-                        <script src="../../header.js"></script>
-                        
-                        <h1 class="page_title"><xsl:value-of select="skos:prefLabel"/></h1>
-                        <div class="post-content">
-                            <p>
-                                <xsl:value-of select="$title"/>
-                            </p>
-                            <table>
-                                <tr>
-                                    <th>preferred label</th>
-                                    <th>relation</th>
-                                    <th>term</th>
-                                    <th>language</th>
-                                </tr>
-                                <xsl:apply-templates mode="b"/>
-                                <tr>
-                                    <td>Equivalent</td>
-                                    <td>USE</td>
-                                    <td>
-                                        <a>
-                                            <xsl:attribute name="href">
-                                                <xsl:value-of select="./ancestor::skos:Concept/@rdf:about"/>
-                                            </xsl:attribute>
-                                            <xsl:value-of select="./ancestor::skos:Concept/skos:prefLabel"/></a>
-                                    </td>
-                                </tr>
-                                <!-- apply templates for each file -->
-                            </table>
-                            
-                            
-                            <p>
-                                <a href="http://www.eagle-network.eu/advanced-search">Search for this term on the EAGLE Advanced Search</a>
-                            </p>
-                            <p>
-                                <a
-                                    href="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}"
-                                    >Back to Index</a>
-                            </p>
-                            <p>
-                                <a
-                                    href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
-                                    >Back to Intro</a>
-                            </p>
-                            <p>
-                                <a href="{concat($url,'skos/',$id,'.rdf')}">See SKOS version</a>
-                            </p> 
-                            
-                            <script src="../../footer.js"></script>
-                        </div>
-                    </body>
-                </html>
-            </xsl:result-document>
-        </xsl:for-each>
-        
-        <!--main table contents-->
-        <xsl:variable name="x" select="@rdf:about"/>
-        <xsl:apply-templates mode="b"/>
-        <xsl:if test="//skos:Concept[@rdf:about=$x]/skos:closeMatch/skos:Concept">
-            <tr>
-                <td/>
-                <td>External definition</td>
-                <td>
-                    <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:closeMatch/skos:Concept/@rdf:about"/>
-                </td>
-                <td/>
-            </tr>
-        </xsl:if>
-    </xsl:template>
-    
     <xsl:template match="skos:Concept" mode="a">
 
         <!--single files-->
@@ -967,7 +833,169 @@ exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
             </tr>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="dct:created" mode="b">
+    
+    
+    <!--this creates entries for those Cocnept which are exact matches from TARGET VOCABULARIES in TEMATRES-->
+    <xsl:template match="skos:Concept[parent::skos:exactMatch and contains(./@rdf:about, 'eagle')]" mode="d">
+        
+        <!--single files-->
+        <xsl:for-each select=".">
+            <xsl:variable name="id">
+                <xsl:value-of select="substring-after(@rdf:about, 'lod/')"/>
+            </xsl:variable>
+            
+            <!--skos of these concept is just for tree completeness scope the url from the html points to their main concept
+however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM NO SURE !!!! require an independent representation. 
+
+ -->
+            <xsl:variable name="filenameskos"
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.rdf')"/>
+            <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes" exclude-result-prefixes="#all">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                    xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dct="http://purl.org/dc/terms/"
+                    xmlns:dc="http://purl.org/dc/elements/1.1/">
+                    <skos:ConceptScheme rdf:about="{$url}">
+                        <xsl:value-of select="$title"/>
+                        <dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                            BPN)</dc:creator>
+                        <dc:contributor/>
+                        <dc:publisher/>
+                        <dc:rights/>
+                        <dc:subject/>
+                        <dc:description>
+                            <xsl:attribute name="rdf:about">
+                                <xsl:value-of
+                                    select="concat('http//:www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
+                                />
+                            </xsl:attribute>
+                        </dc:description>
+                        <dc:date>
+                            <xsl:value-of select="current-date()"/>
+                        </dc:date>
+                        <dct:modified>
+                            <xsl:value-of select="current-date()"/>
+                        </dct:modified>
+                    </skos:ConceptScheme>
+                    <xsl:copy><xsl:attribute name="rdf:about">
+                        <xsl:value-of select="concat(replace(@rdf:about, 'lod', 'skos'), '.rdf')"/>
+                    </xsl:attribute><xsl:apply-templates mode="skosuris"/></xsl:copy>
+                    
+                </rdf:RDF>
+            </xsl:result-document>
+            
+            <!--html-->
+            <xsl:variable name="filenamehtml"
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
+            <xsl:result-document href="{$filenamehtml}" format="html">
+                <html>
+                    <head>
+                        <meta charset="UTF-8"/>
+                        <link rel="stylesheet" href="http://www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css" />
+                        <title><xsl:value-of select="skos:prefLabel"/></title>
+                        <style>
+                            table {
+                            table-layout: fixed;
+                            width: 100%;
+                            border-collapse: collapse;
+                            }
+                            tr{
+                            border-bottom: 1px solid #ccc;
+                            }
+                            
+                            td,  th {
+                            font-size: 1em;
+                            padding: 3px 7px 2px 7px;
+                            width: 100%;
+                            }
+                            
+                            th {
+                            font-size: 1.1em;
+                            text-align: left;
+                            padding-top: 5px;
+                            padding-bottom: 4px;
+                            }
+                            
+                        </style>
+                    </head>
+                    <body style="margin:8;padding:8">
+                        <script src="../../header.js"></script>
+                        
+                        <h1 class="page_title"><xsl:value-of select="skos:prefLabel"/></h1>
+                        <div class="post-content">
+                            <p>
+                                <xsl:value-of select="$title"/>
+                            </p>
+                            <table>
+                                <tr>
+                                    <th>preferred label</th>
+                                    <th>relation</th>
+                                    <th>term</th>
+                                    <th>language</th>
+                                </tr>
+                                <xsl:apply-templates mode="b"/>
+                                <tr>
+                                    <td>Equivalent</td>
+                                    <td>USE</td>
+                                    <td>
+                                        <a>
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of select="./ancestor::skos:Concept/@rdf:about"/>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="./ancestor::skos:Concept/skos:prefLabel"/></a>
+                                    </td>
+                                </tr>
+                                <!-- apply templates for each file -->
+                            </table>
+                            
+                            
+                            <p>
+                                <a href="http://www.eagle-network.eu/advanced-search">Search for this term on the EAGLE Advanced Search</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}"
+                                    >Back to Index</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
+                                    >Back to Intro</a>
+                            </p>
+                            <p>
+                                <xsl:variable name="idmain">
+                                    <xsl:value-of select="substring-after(ancestor::skos:Concept/@rdf:about, 'lod/')"/>
+                                    
+                                </xsl:variable>
+                                <a href="{concat($url,'skos/',$idmain,'.rdf')}">See SKOS version (of the equivalent term)</a>
+                            </p> 
+                            <p>
+                                <a href="{concat($url,'skos/',$id,'.rdf')}">See SKOS version of this term</a>
+                            </p> 
+                            <script src="../../footer.js"></script>
+                        </div>
+                    </body>
+                </html>
+            </xsl:result-document>
+        </xsl:for-each>
+        
+        <!--main table contents-->
+        <xsl:variable name="x" select="@rdf:about"/>
+        <xsl:apply-templates mode="b"/>
+        <xsl:if test="//skos:Concept[@rdf:about=$x]/skos:closeMatch/skos:Concept">
+            <tr>
+                <td/>
+                <td>External definition</td>
+                <td>
+                    <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:closeMatch/skos:Concept/@rdf:about"/>
+                </td>
+                <td/>
+            </tr>
+        </xsl:if>
+    </xsl:template>
+    
+
+<xsl:template match="dct:created" mode="b">
         <tr>
             <td/>
             <td>Created</td>
