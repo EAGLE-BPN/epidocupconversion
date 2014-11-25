@@ -103,16 +103,16 @@ edhtagged url of each Bibliographic Database Heidelberg entry in which an inscri
 					</xsl:copy>
 				</xsl:when>
 				<!--corpora-->
-				<xsl:when test="contains($corporaabkurz, substring-before(., ' '))">
+				<xsl:when test="contains($corporaabkurz, substring-before(normalize-space(.), ' '))">
 					<xsl:copy>
 						<xsl:copy-of select="@*|node()"/>
 						<xsl:variable name="ref">
 							<xsl:choose>
 								<xsl:when test="contains(.,';')">
-									<xsl:value-of select="substring-before(replace(.,',',''),';')"/>
+									<xsl:value-of select="normalize-space(substring-before(replace(.,',',''),';'))"/>
 								</xsl:when>
 								<xsl:otherwise>
-									<xsl:value-of select="substring-before(replace(.,',',''),'.')"/>
+									<xsl:value-of select="normalize-space(substring-before(replace(.,',',''),'.'))"/>
 								</xsl:otherwise>
 							</xsl:choose>
 						</xsl:variable>
