@@ -40,7 +40,7 @@ edhtagged url of each Bibliographic Database Heidelberg entry in which an inscri
 	<xsl:template match="tei:bibl">
 		<xsl:for-each select=".">
 			<xsl:choose>
-				<xsl:when test="starts-with(.,'CIL')">
+				<xsl:when test="starts-with(normalize-space(.),'CIL')">
 					<xsl:copy>
 						<xsl:copy-of select="@*|node()"/>
 						<xsl:variable name="cil">
@@ -70,7 +70,7 @@ edhtagged url of each Bibliographic Database Heidelberg entry in which an inscri
 					</xsl:copy>
 				</xsl:when>
 				<!--this should point at the AE corresponding unit with a EDH BIBLIO ENTRY REF AND the Zotero exportable reference: lookup required-->
-				<xsl:when test="starts-with(.,'AE')">
+				<xsl:when test="starts-with(normalize-space(.),'AE')">
 					<xsl:copy>
 						<xsl:copy-of select="@*|node()"/>
 						<xsl:variable name="ae">
@@ -87,11 +87,11 @@ edhtagged url of each Bibliographic Database Heidelberg entry in which an inscri
 							select="document('https://raw.githubusercontent.com/EAGLE-BPN/EpiBib/master/exports/allbibliontology.rdf')//bibo:uri[following-sibling::z:extra[contains(.,$ae)]]"/>
 						<ptr type="zoterotaglink"
 							target="{concat('https://www.zotero.org/groups/eagleepigraphicbibliography/items/tag/',$ae)}"/>
-						<ptr type="edh" target="{$edhuri}"/>
+						<xsl:if test="$edhuri !=''"><ptr type="edh" target="{$edhuri}"/>
 						<ptr type="zotero"
 							target="{document('https://raw.githubusercontent.com/EAGLE-BPN/EpiBib/master/exports/allbibliontology.rdf')//z:UserItem[res:resource/@rdf:resource = $edhuri]/@rdf:about}"/>
 
-
+</xsl:if>
 						<xsl:for-each
 							select="document('https://raw.githubusercontent.com/EAGLE-BPN/EpiBib/master/exports/allbibliontology.rdf')//z:UserItem[descendant::ctag:label[. = $ae]]/@rdf:about">
 							<ptr type="zoterotagged"
