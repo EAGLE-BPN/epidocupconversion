@@ -30,11 +30,11 @@ edhtagged url of each Bibliographic Database Heidelberg entry in which an inscri
 
 	<xsl:variable name="corporaabkurz">
 		<xsl:sequence
-			select="document('corporaabkurz.html')//html:td[position()=1 and not(contains(normalize-space(.),'CIL'))]/text()"
+			select="document('https://raw.githubusercontent.com/EAGLE-BPN/EpiBib/master/corporaabkurz.html')//html:td[position()=1 and not(contains(normalize-space(.),'CIL'))]/text()"
 		/>
 	</xsl:variable>
 	<xsl:variable name="Zeitschriftenabkurz">
-		<xsl:sequence select="document('zeitsabkurz.html')//html:td[position()=1]"/>
+		<xsl:sequence select="document('https://raw.githubusercontent.com/EAGLE-BPN/EpiBib/master/zeitsabkurz.html')//html:td[position()=1]"/>
 	</xsl:variable>
 	<!--insert links to tags in zotero bibliography-->
 	<xsl:template match="tei:bibl">
@@ -175,17 +175,19 @@ edhtagged url of each Bibliographic Database Heidelberg entry in which an inscri
 						<xsl:variable name="edhuri"
 							select="document('https://raw.githubusercontent.com/EAGLE-BPN/EpiBib/master/exports/allbibliontology.rdf')//bibo:uri[
 							following-sibling::dcterms:isPartOf//dcterms:date = $year 
+							and following-sibling::dcterms:isPartOf//bibo:issue = $issue
 							and (preceding-sibling::bibo:shortTitle = $shorttitle 
-							or following-sibling::dcterms:isPartOf//dcterms:title = $shorttitle 
-							and following-sibling::dcterms:isPartOf//bibo:issue = $issue)
-							and parent::*/following-sibling::foaf:Person/foaf:surname = $author
+								or following-sibling::dcterms:isPartOf//dcterms:title = $shorttitle)
 							and preceding-sibling::bibo:pages = $pages 
+							and (preceding-sibling::bibo:shortTitle = $shorttitle 
+								or following-sibling::dcterms:isPartOf//dcterms:title = $shorttitle)
+								and parent::*/following-sibling::foaf:Person/foaf:surname = $author
 							]"/>
 						
-						<!--						or  -->
+					<xsl:if test="$edhuri !=''">
 						<ptr type="edh" target="{$edhuri}"/>
 						<ptr type="zotero"
-							target="{document('https://raw.githubusercontent.com/EAGLE-BPN/EpiBib/master/exports/allbibliontology.rdf')//z:UserItem[res:resource/@rdf:resource = $edhuri]/@rdf:about}"/>
+							target="{document('https://raw.githubusercontent.com/EAGLE-BPN/EpiBib/master/exports/allbibliontology.rdf')//z:UserItem[res:resource/@rdf:resource = $edhuri]/@rdf:about}"/></xsl:if>
 
 					</xsl:copy>
 				</xsl:when>
