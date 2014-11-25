@@ -46,10 +46,10 @@ edhtagged url of each Bibliographic Database Heidelberg entry in which an inscri
 						<xsl:variable name="cil">
 							<xsl:choose>
 								<xsl:when test="contains(.,';')">
-									<xsl:value-of select="substring-before(replace(.,',',''),';')"/>
+									<xsl:value-of select="normalize-space(substring-before(replace(.,',',''),';'))"/>
 								</xsl:when>
 								<xsl:otherwise>
-									<xsl:value-of select="substring-before(replace(.,',',''),'.')"/>
+									<xsl:value-of select="normalize-space(substring-before(replace(.,',',''),'.'))"/>
 								</xsl:otherwise>
 							</xsl:choose>
 						</xsl:variable>
@@ -76,10 +76,10 @@ edhtagged url of each Bibliographic Database Heidelberg entry in which an inscri
 						<xsl:variable name="ae">
 							<xsl:choose>
 								<xsl:when test="contains(.,';')">
-									<xsl:value-of select="substring-before(replace(.,',',''),';')"/>
+									<xsl:value-of select="normalize-space(substring-before(replace(.,',',''),';'))"/>
 								</xsl:when>
 								<xsl:otherwise>
-									<xsl:value-of select="substring-before(replace(.,',',''),'.')"/>
+									<xsl:value-of select="normalize-space(substring-before(replace(.,',',''),'.'))"/>
 								</xsl:otherwise>
 							</xsl:choose>
 						</xsl:variable>
