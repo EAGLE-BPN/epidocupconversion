@@ -40,6 +40,21 @@
                     $(".list").hide();
                     $(".el").show();
                     }
+                    
+                    if($(this).attr("value")=="ar"){
+                    $(".list").hide();
+                    $(".ar").show();
+                    }
+                    
+                    if($(this).attr("value")=="tr"){
+                    $(".list").hide();
+                    $(".tr").show();
+                    }
+                    
+                    if($(this).attr("value")=="ru"){
+                    $(".list").hide();
+                    $(".ru").show();
+                    }
                     if($(this).attr("value")=="others"){
                     $(".list").hide();
                     $(".others").show();
@@ -56,28 +71,26 @@
                         mySel.options[mySel.selectedIndex].value; if(myVal) { if(mySel.form.target)myWin =
                         parent[mySel.form.target]; else myWin = window; if (! myWin) return true; myWin.location =
                         myVal; } return false; } // </SCRIPT><style>
-                        table {
-                        table-layout: fixed;
-                        width: 100%;
-                        border-collapse: collapse;
+                        table{
+                        	table-layout:fixed;
+                        	width:100%;
+                        	border-collapse:collapse;
                         }
                         tr{
-                        border-bottom: 1px solid #ccc;
+                        	border-bottom:1px solid #ccc;
                         }
-                        td,  th {
-                        font-size: 1em;
-                        padding: 3px 7px 2px 7px;
-                        width: 100%;
+                        td,
+                        th{
+                        	font-size:1em;
+                        	padding:3px 7px 2px 7px;
+                        	width:100%;
                         }
-                        
-                        th {
-                        font-size: 1.1em;
-                        text-align: left;
-                        padding-top: 5px;
-                        padding-bottom: 4px;
-                        }
-                        
-                    </style><title>Dating Criteria</title>
+                        th{
+                        	font-size:1.1em;
+                        	text-align:left;
+                        	padding-top:5px;
+                        	padding-bottom:4px;
+                        }</style><title>Dating Criteria</title>
    </head>
    <body style="margin:8;padding:8"><script src="header.js"></script><h1 class="page_title">EAGLE Vocabulary - Dating Criteria</h1>
       <div class="post-content">
@@ -113,11 +126,12 @@
             </tr>
          </table>
          <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list
-            of terms in
-            this vocabulary. Equivalent terms are shown in the tematres instance and in each main
+            of terms
+            in this vocabulary. Equivalent terms are shown in the tematres instance and in each
+            main
             concept description.
          </p>
-         <div><select>
+         <div size="20"><select>
                <option>Choose Language</option>
                <option value="ALL">Show all terms</option>
                <option value="la">Latin</option>
@@ -128,7 +142,127 @@
                <option value="en">English</option>
                <option value="hu">Hungarian</option>
                <option value="gr">Greek</option>
-               <option value="others">Others</option></select></div>
+               <option value="ar">Arabic</option>
+               <option value="ru">Bulgarian</option>
+               <option value="tr">Turkish</option>
+               <option value="others">Others</option></select><FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                  <OPTION VALUE="">Browse all preferred Labels alphabetically</OPTION>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/10">Aceramic Neolithic</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/23">Adrianea (c. 117-138 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/9">Akrotiri-Aetokremmos</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/24">Anarquía (c. 235-284 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/25">Antigüedad Tardía (S. IV-VI)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/26">Antoniniana (c.138-192 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/52">Antoninisch-Severisch</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/27">Antonino Pío (138-161 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/17">Archaic</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/28">Augustea (c. 27 a.C-14 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/29">Aureliano (270-275 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/30">Bajoimperial (ss. IV- V d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/31">Caracala (211-217 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/32">Carino (c. 283-285 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/11">Ceramic Neolithic</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/12">Chalcolithic</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/18">Classical</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/33">Claudiana (c. 41-54 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/34">Constantiniana (c. 307-337 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/35">Cristiana primitiva (S. I-III)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/36">Decio (249-251 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/37">Domitiana (c. 81-96 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/13">Early Bronze Age</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/21">Early Christian</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/106">Fifth century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/87">Fifth century BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/38">Filipo el Árabe (244-249 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/39">Flavia (c. 69-96 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/105">Fourth century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/88">Fourth century BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/57">Frühmittelalterlich</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/40">Galieno (c. 253-268 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/16">Geometric</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/41">Gordiano III (238-244 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/19">Hellenistic</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/42">Herenio Etrusco (251 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/100">I-II AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/101">I-III AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/102">I-IV AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/43">Julio-Claudia (c. 27 a.C.-68 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/15">Late Bronze Age</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/44">Licinio (308-324 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/45">Marco Aurelio (161-180 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/46">Maximiano Hercúleo (286-305 y 307-308)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/47">Maximino el Tracio (235-238 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/14">Middle Bronze Age</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/48">Neroniana (c. 54-68 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/49">Nerva</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/50">Numeriano (c. 283-284 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/67">Prähistorisch</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/51">Póstumo</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/20">Roman</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/53">Severiana (c. 193-235 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/54">Severisch-Soldatenkaiser</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/107">Sixth century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/55">Teodosiana (c. 379-395 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/56">Tetrarquía (c. 284-306 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/62">Tiberiana (c. 14-37 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/63">Tito (71-81 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/58">Trajanea (c. 98-117 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/59">Trajanisch-Hadrianisch</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/60">Trajanisch-Soldatenkaiser</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/64">Treboniano Galo (c. 251-253 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/83">VIII or VII century</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/84">VIII-V BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/82">VIII-VI BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/81">VIII-VII BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/65">Valeriano (253-260 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/61">Vespasiana (c. 69-79 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/66">Victorino (268-270 d.C.)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/113">Visigoda (c. 400-711)</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/68">Vorrömisch</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/4">after</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/3">before</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/74">beginning of eight century</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/93">beginning of first century</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/72">centuries</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/1">date suggested</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/75">early eight century B.C.</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/94">early first century</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/109">eight century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/73">eight century BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/112">eleventh century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/80">end of eight century B.C.</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/99">end of first century</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/2">exact</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/92">first century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/91">first century BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/78">first half of eight century BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/97">first half of first century</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/71">hellenistisch</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/77">late eight century BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/96">late first century</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/76">mid eight century BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/95">mid first century</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/110">ninth century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/7">not earlier than</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/8">periods</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/22">reign of emperors</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/69">republikanisch</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/103">second century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/90">second century BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/79">second half of eight century</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/98">second half of first century</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/85">seventh century BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/108">seventy century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/5">shortly after</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/6">shortly before</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/86">sixth century BC</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/70">spätrepublikanisch</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/111">tenth century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/104">third century AD</option>
+                  <option value="http://www.eagle-network.eu/voc/dates/lod/89">third century BC</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                  <OPTION VALUE="">Browse all alternative Labels alphabetically</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+         </div>
          <div class="la list">
             <h3>Terms in Latin</h3>
             <p>Preferred 
@@ -316,6 +450,27 @@
          </div>
          <div class="el list">
             <h3>Terms in Greek</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="ar list">
+            <h3>Terms in Arabic</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="tr list">
+            <h3>Terms in Turkish</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="ru list">
+            <h3>Terms in Bulgarian</h3>
             <p>
                <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
                      <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>

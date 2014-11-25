@@ -40,6 +40,21 @@
                     $(".list").hide();
                     $(".el").show();
                     }
+                    
+                    if($(this).attr("value")=="ar"){
+                    $(".list").hide();
+                    $(".ar").show();
+                    }
+                    
+                    if($(this).attr("value")=="tr"){
+                    $(".list").hide();
+                    $(".tr").show();
+                    }
+                    
+                    if($(this).attr("value")=="ru"){
+                    $(".list").hide();
+                    $(".ru").show();
+                    }
                     if($(this).attr("value")=="others"){
                     $(".list").hide();
                     $(".others").show();
@@ -56,28 +71,26 @@
                         mySel.options[mySel.selectedIndex].value; if(myVal) { if(mySel.form.target)myWin =
                         parent[mySel.form.target]; else myWin = window; if (! myWin) return true; myWin.location =
                         myVal; } return false; } // </SCRIPT><style>
-                        table {
-                        table-layout: fixed;
-                        width: 100%;
-                        border-collapse: collapse;
+                        table{
+                        	table-layout:fixed;
+                        	width:100%;
+                        	border-collapse:collapse;
                         }
                         tr{
-                        border-bottom: 1px solid #ccc;
+                        	border-bottom:1px solid #ccc;
                         }
-                        td,  th {
-                        font-size: 1em;
-                        padding: 3px 7px 2px 7px;
-                        width: 100%;
+                        td,
+                        th{
+                        	font-size:1em;
+                        	padding:3px 7px 2px 7px;
+                        	width:100%;
                         }
-                        
-                        th {
-                        font-size: 1.1em;
-                        text-align: left;
-                        padding-top: 5px;
-                        padding-bottom: 4px;
-                        }
-                        
-                    </style><title>Type of Inscription</title>
+                        th{
+                        	font-size:1.1em;
+                        	text-align:left;
+                        	padding-top:5px;
+                        	padding-bottom:4px;
+                        }</style><title>Type of Inscription</title>
    </head>
    <body style="margin:8;padding:8"><script src="header.js"></script><h1 class="page_title">EAGLE Vocabulary - Type of Inscription</h1>
       <div class="post-content">
@@ -113,11 +126,12 @@
             </tr>
          </table>
          <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list
-            of terms in
-            this vocabulary. Equivalent terms are shown in the tematres instance and in each main
+            of terms
+            in this vocabulary. Equivalent terms are shown in the tematres instance and in each
+            main
             concept description.
          </p>
-         <div><select>
+         <div size="20"><select>
                <option>Choose Language</option>
                <option value="ALL">Show all terms</option>
                <option value="la">Latin</option>
@@ -128,7 +142,422 @@
                <option value="en">English</option>
                <option value="hu">Hungarian</option>
                <option value="gr">Greek</option>
-               <option value="others">Others</option></select></div>
+               <option value="ar">Arabic</option>
+               <option value="ru">Bulgarian</option>
+               <option value="tr">Turkish</option>
+               <option value="others">Others</option></select><FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                  <OPTION VALUE="">Browse all preferred Labels alphabetically</OPTION>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/243">Acclamatio</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/75">Acclamation d'éphèbes</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/74">Acclamation de divinité</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/51">Acte d'affranchissement</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/132">Acuerdo de Hospitalidad</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/113">Adnuntiatio</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/73">Akklamation</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/112">Alphabet</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/52">Amende</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/141">Anepígrafa</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/78">Apostrophe</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/116">Assignationsinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/115">Aufschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/128">Avertissement</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">Bauinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/109">Beischrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/314">Besitzerinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/97">Borne de cadastration</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/98">Borne de praedium</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/99">Borne de sanctuaire</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/100">Borne frontière</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/101">Borne funéraire</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/306">Borne routière</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/54">Cachet d’oculiste</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/48">Cadastre</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/163">Calendrier</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/106">Cetera</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/383">Christian</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/55">Citation littéraire</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/57">Compte de paiement</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/56">Compte d’achat</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/12">Constitution</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/375">Contract</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/61">Contrat de travail</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/62">Contrat de vente</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/58">Contrat d’adjudication</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/59">Contrat d’arbitrage</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/46">Convention de droit local</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/208">Convention de droit privé</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/13">Convention internationale</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/81">Cultual</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/266">Dedicatoria</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/76">Defixio</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/272">Diploma militar</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/273">Diplôme militaire</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/357">Document</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/21">Document administratif</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/358">Documento administrativo</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/11">Donation</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/63">Donation testamentaire</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/144">Doubt</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/14">Déclaration de naissance</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/15">Décret d'association</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/16">Décret de cité</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/17">Décret de communauté</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/18">Décret du préteur</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/19">Décret impérial</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/20">Décret provincial</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/267">Dédicace de monument</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/89">Dédicace de statue</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/83">Dédicace votive</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/22">Edicto</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/268">Einweihung</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/70">Elogium</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/283">Epitafio / sepulcral</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/93">Epitaphe métrique</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/118">Estampilla</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/145">Evergética</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/2">Fasti</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/1">Fasti, Leges, Acta</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/50">Fideicomiso</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/23">Fondation</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/64">Formule de bienvenue</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/385">Gameboard text</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/85">Gebet</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/155">Gesetz / Juridischer Text</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/137">Glande, chumbo</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/127">Grafito</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/293">Grenzmarkierung</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/289">Grenzstein</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/95">Gromática</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/53">Herma</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/213">Hermen-Inschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/103">Hito terminal</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/240">Hommage</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/72">Hommage impériale</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">Honorific inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/233">Honorífica</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/24">Horologion</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/65">Hymne</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/143">Ignoratur</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/77">Imprécation</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/104">Inscripción de propiedad</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/376">Inscription funéraire ou votive</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/377">Inscription votive et de construction</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/378">Inscription votive ou honorifique</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/136">Instrumentum</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/67">Inventaire d'enfournement</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/66">Inventaire de production</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/25">Inventaire de sanctuaire</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/117">Itinerario</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/354">Iura Sepulcrorum</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/3">Kalender</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/71">Kommemorativinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/4">Law / legal text</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/29">Lettre de l’administration impériale</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/30">Lettre de l’empereur</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/31">Lettre de souverain</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/28">Lettre à l’empereur</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/393">Libyan</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/331">Liste</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/32">Liste de magistrats</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/33">Liste de prêtres</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/34">Liste de sacrifices</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/154">Loi</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/6">Loi coloniale</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/8">Loi de cité</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/7">Loi d’association</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/9">Loi municipale</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/10">Loi sacrée</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/388">Lybian</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/214">Légende de buste</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/26">Légende de relief</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/188">Légende de statue</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/366">Magic</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/120">Marque de balle</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/121">Marque de carrière</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/122">Marque de douanes</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/123">Marque de poids</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/313">Marque de propriété</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/124">Marque de registre</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/125">Marque de volume</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/126">Marque du négociant</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/119">Marque d’atelier</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/394">Mason's marks</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/307">Meilenstein-Inschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/35">Mention du produit</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/305">Miliario</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/107">Militar</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/290">Mojon</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/140">Monogramme</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/265">Monumental</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/138">Mosaico</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/36">Nom de rue</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/37">Numéro d’ordre</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/90">Obras publicas</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/365">Place marker</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/389">Posthumous</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/38">Prescription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/39">Prix de concours</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/49">Rechtliche Verfügung, privat</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/5">Rechtliche Verfügung, öffentlich</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/43">Rescript</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/68">Reçu</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/40">Règle</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/41">Règlement</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/42">Réglement d’irrigation</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/79">Sacer</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/44">Senatus consultum</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/45">Sentencia</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/110">Signature de l’artisan</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/374">Signature d´artiste</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/333">Signature d’artiste</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/111">Sitzinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/27">Statue inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/129">Tabula patronatus</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/47">Terminatio agrorum</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/130">Tessera</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/133">Tessera hospitalis</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/131">Tessera nummularia</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/135">Texte turistique</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/134">Texte érotique</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/139">Titulus Pictus</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/368">Verse</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/108">Verzeichnis</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/82">Votiv- / Kultinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/369">agonistic / ludic</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/381">apotropaic</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/382">benefaction</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/361">calender</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/356">centural stone</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/370">graffito</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/386">greeting</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/371">groma</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/232">honorarius</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/373">honorific statue</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/114">imperial</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/387">invocation</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/362">list</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ. priv.que</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/359">private document</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/360">public document</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/390">quarry-mark</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/379">self-disolving declaration</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/380">street sign</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">term. non sep.</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/84">tit. a viatore scriptus devotionis causa</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/264">tit. apparatus</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/88">tit. dedicatorius</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/310">tit. didascalicus</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/231">tit. honorarius</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">tit. in artis operib. inscr.</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/391">title</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/392">water-pipe</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/183">Édit</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/284">Épitaphe</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                  <OPTION VALUE="">Browse all alternative Labels alphabetically</OPTION>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">(Künstler-)Signatur</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/73">Acclamation</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/73">Aclamación</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/74">Aclamación a la divinidad</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/75">Aclamación a los efebos</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/51">Acta de manumisión</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/78">Apóstrofe</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">Bauinschrift, öffentlich und privat</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">Border delimitation</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">Boundary inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">Boundary stone</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">Building / dedicatory inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">Building inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/3">Calendar</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/3">Calendario</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/1">Calendario, elenco di magistrati, legge, senatoconsulto,
+                     costituzione imperiale, editto, decreto, atti di collegio
+                  </option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/29">Carta de la administración imperial</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/31">Carta de un rey</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/30">Carta del emperador</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/28">Carta el emperador</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/48">Catastro</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/12">Constitución</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/58">Contrato de adjudicación</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/59">Contrato de arbitraje</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/61">Contrato de trabajo</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/62">Contrato de venta</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/46">Convención de derecho local</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/49">Convención de derecho privado</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/13">Convención internacional</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/56">Cuenta de compra</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/57">Cuenta de pago</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/384">Decree</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/15">Decreto de una asociación</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/16">Decreto de una ciuitas</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/17">Decreto de una comunidad</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/18">Decreto del pretor</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/19">Decreto imperial</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/20">Decreto provincial</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/83">Dedicatoria votiva</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/88">Dedicatory</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/21">Documento administrativo</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/11">Donación</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/63">Donación testamentaria</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/89">Dédicatoria de estatua</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/88">Dédicatoria de monumento</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/93">Epitaphe métrico</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/118">Estampille tégulaire</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/1">Fasten / Verzeichnisse,</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/1">Fastes, lois, actes</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/50">Fideicommisum</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/110">Firma del artesano</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/115">Firma del artista</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/80">Fogadalmi felirat</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/23">Fundación</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/64">Fórmula de bienvenida</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/4">Gesetz</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/1">Gesetze, Akten</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/65">Himno</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/70">Homenaje</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/72">Homenaje imperial</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">Honorific</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/85">Ima</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/77">Imprecación</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">Inscription de construction</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/92">Inscription funéraire</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/376">Inscription funéraire ou votive fragmentaire</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/92">Inscription probablement funéraire</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/136">Inscription sur instrumentum</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">Inscriptions sur un bâtiment public ou privé</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/81">Kultinschrift</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/4">Ley</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/4">Ley / jurídica</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/6">Ley colonial</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/7">Ley de asociación</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/8">Ley de una ciuitas</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/9">Ley municipal</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/10">Ley sacra</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/26">Leyenda de relieve</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/53">Leyenda de un retrato</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/27">Leyenda de una estatua</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/32">Lista de magistrados</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/33">Lista de sacerdotes</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/34">Lista de sacrificios</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/362">Liste</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">Marca de propiedad</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/35">Mención del producto</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/102">Milestone</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/91">Military diploma</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/97">Mojón de cadastración</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/100">Mojón de frontera</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/98">Mojón de praedium</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/99">Mojón de santuario</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/101">Mojón funerario</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/52">Multa</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/3">Naptár</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/36">Nombre de calle</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/37">Numéro de orden</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/1">Official text</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">Owner / artist inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">Owner's sign</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/14">Partida de nacimiento</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/85">Prayer</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/39">Premio de un concurso</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/38">Prescripción</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/5">Public legal inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/68">Recibo</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/66">Registro de producción</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/25">Registro de santurario</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/67">Registro de un horno</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/40">Regla</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/41">Reglamento</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/42">Reglamento de irrigación</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/24">Reloj</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/43">Rescripto</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/115">Sculptor's signature</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/54">Sello de oculista</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/92">Sepulchral inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/76">Tabula defixionis</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/63">Testamentary</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/83">Votive</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/106">altro tipo</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/106">andere</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/106">autres</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">borne</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">boundary</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">boundary marker</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">boundary text</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">building</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">building / honorific inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">building text</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">caption or signature</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">cippo terminale, cippo di centuriazione,
+                     miliario
+                  </option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">cippus</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/115">címke</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/79">dedica</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/79">dedication</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">firme di artisti, didascalie</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/92">funerary</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/92">funerary inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">határjelölő felirat</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">honorary</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">honorary inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">honorific monument</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">honorific statue</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">honours</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/114">imperial titulature</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/79">inscripción religiosa</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">inscription honorifique</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">inscription honorifique</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/372">inscription votive</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">iscrizione edilizia</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">iscrizione onoraria</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/91">katonai diploma</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/144">kérdéses</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/109">label</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/108">list</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">légende</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/143">meghatározhatatlan</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/140">monogram</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/102">mérföldkő</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/106">other</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/106">otros</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/79">religious</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/118">stamp</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/92">sírfelirat</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/79">texte religieux</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/79">texte religieux</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">titulus honorarius</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">tulajdonos felirat</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/378">votive / honorific inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/83">votive inscription</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">építési felirat</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/111">ülésfelirat</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/1">επίσημο έγγραφο</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">επιτοίχια επιγραφή, σε επιφάνεια δημοσίου ή ιδιωτικού
+                     κτηρίου
+                  </option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/79">θρησκευτική, λατρευτική</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">κεφαλίδα, λεζάντα</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">οριοθετική επιγραφή</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">τιμητική επιγραφη</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/106">أخرى</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/1">النص الرسمي</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/86">بناء النص</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/105">تعليق مختزل أو توقيع</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/79">ديني</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/69">فخري</option>
+                  <option value="http://www.eagle-network.eu/voc/typeins/lod/96">نص الحدود ، وحجر الميل</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+         </div>
          <div class="la list">
             <h3>Terms in Latin</h3>
             <p>Preferred 
@@ -608,6 +1037,34 @@
                      <option value="http://www.eagle-network.eu/voc/typeins/lod/105">κεφαλίδα, λεζάντα</option>
                      <option value="http://www.eagle-network.eu/voc/typeins/lod/96">οριοθετική επιγραφή</option>
                      <option value="http://www.eagle-network.eu/voc/typeins/lod/69">τιμητική επιγραφη</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="ar list">
+            <h3>Terms in Arabic</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION>
+                     <option value="http://www.eagle-network.eu/voc/typeins/lod/106">أخرى</option>
+                     <option value="http://www.eagle-network.eu/voc/typeins/lod/1">النص الرسمي</option>
+                     <option value="http://www.eagle-network.eu/voc/typeins/lod/86">بناء النص</option>
+                     <option value="http://www.eagle-network.eu/voc/typeins/lod/105">تعليق مختزل أو توقيع</option>
+                     <option value="http://www.eagle-network.eu/voc/typeins/lod/79">ديني</option>
+                     <option value="http://www.eagle-network.eu/voc/typeins/lod/69">فخري</option>
+                     <option value="http://www.eagle-network.eu/voc/typeins/lod/96">نص الحدود ، وحجر الميل</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="tr list">
+            <h3>Terms in Turkish</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="ru list">
+            <h3>Terms in Bulgarian</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
             </p>
          </div>
          <div class="others list">

@@ -40,6 +40,21 @@
                     $(".list").hide();
                     $(".el").show();
                     }
+                    
+                    if($(this).attr("value")=="ar"){
+                    $(".list").hide();
+                    $(".ar").show();
+                    }
+                    
+                    if($(this).attr("value")=="tr"){
+                    $(".list").hide();
+                    $(".tr").show();
+                    }
+                    
+                    if($(this).attr("value")=="ru"){
+                    $(".list").hide();
+                    $(".ru").show();
+                    }
                     if($(this).attr("value")=="others"){
                     $(".list").hide();
                     $(".others").show();
@@ -56,28 +71,26 @@
                         mySel.options[mySel.selectedIndex].value; if(myVal) { if(mySel.form.target)myWin =
                         parent[mySel.form.target]; else myWin = window; if (! myWin) return true; myWin.location =
                         myVal; } return false; } // </SCRIPT><style>
-                        table {
-                        table-layout: fixed;
-                        width: 100%;
-                        border-collapse: collapse;
+                        table{
+                        	table-layout:fixed;
+                        	width:100%;
+                        	border-collapse:collapse;
                         }
                         tr{
-                        border-bottom: 1px solid #ccc;
+                        	border-bottom:1px solid #ccc;
                         }
-                        td,  th {
-                        font-size: 1em;
-                        padding: 3px 7px 2px 7px;
-                        width: 100%;
+                        td,
+                        th{
+                        	font-size:1em;
+                        	padding:3px 7px 2px 7px;
+                        	width:100%;
                         }
-                        
-                        th {
-                        font-size: 1.1em;
-                        text-align: left;
-                        padding-top: 5px;
-                        padding-bottom: 4px;
-                        }
-                        
-                    </style><title>Decoration</title>
+                        th{
+                        	font-size:1.1em;
+                        	text-align:left;
+                        	padding-top:5px;
+                        	padding-bottom:4px;
+                        }</style><title>Decoration</title>
    </head>
    <body style="margin:8;padding:8"><script src="header.js"></script><h1 class="page_title">EAGLE Vocabulary - Decoration</h1>
       <div class="post-content">
@@ -113,11 +126,12 @@
             </tr>
          </table>
          <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list
-            of terms in
-            this vocabulary. Equivalent terms are shown in the tematres instance and in each main
+            of terms
+            in this vocabulary. Equivalent terms are shown in the tematres instance and in each
+            main
             concept description.
          </p>
-         <div><select>
+         <div size="20"><select>
                <option>Choose Language</option>
                <option value="ALL">Show all terms</option>
                <option value="la">Latin</option>
@@ -128,7 +142,889 @@
                <option value="en">English</option>
                <option value="hu">Hungarian</option>
                <option value="gr">Greek</option>
-               <option value="others">Others</option></select></div>
+               <option value="ar">Arabic</option>
+               <option value="ru">Bulgarian</option>
+               <option value="tr">Turkish</option>
+               <option value="others">Others</option></select><FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                  <OPTION VALUE="">Browse all preferred Labels alphabetically</OPTION>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/16">Abrazo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/592">Acanthe</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/15">Acanto</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/593">Accolade</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/17">Achilles</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/594">Acrotère</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/18">Acrótera</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/595">Adler</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1391">Adlerfibel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/19">Adonis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/20">Aigle</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/21">Akanthus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/22">Aktäon; Aktaion</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/23">Alkestis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/2">Alpha et Omega</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/44">Altar</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1407">Altar</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4116">Amphitheater</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/596">Amphithéâtre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/25">Ancla</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/597">Ancre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/564">Andromeda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/24">Anfiteatro</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/28">Animal</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/29">Aphrodite; Venus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/30">Apollo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/566">Apollon</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/352">Apollón; Apollo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/78">Arado</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/31">Arbol</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/598">Arbre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/600">Arc</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/602">Architecture</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/603">Architrave</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/32">Arco</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/36">Ariadne</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/601">Arkaden</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=113">Arkadenmauer</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/38">Arma</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/605">Arme</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/33">Arquitectura</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/34">Arquitrave</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/37">Artemis; Diana</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/604">Arête de poisson</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/807">Aschenkiste</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3696">Aschenurne</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/39">Ascia</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/40">Asklepios; Asclepius; Aesculap</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/608">Astragal</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4797">Astragal</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/607">Astragale</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/41">Astrágalo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/42">Athena; Minerva</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/361">Athéné; Minerva</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/43">Attis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/609">Autel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/45">Bacchus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/46">Balteus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/47">Banda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/611">Bandeau</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/49">Barco</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/48">Basa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/612">Base</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/614">Bateau</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/599">Baum</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1492">Baum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/149">Bellota</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1541">Blatt</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/685">Blatt, Blattwerk</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/691">Blüte</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1552">Blüte</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/52">Bogenzwickel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/57">Bolsa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/58">Botón</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/619">Boucles d’oreille</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/620">Bouclier</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/622">Bouquet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/623">Bourse</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/624">Bouton</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/618">Boîte</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/625">Bracelet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/626">Bras</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/60">Brazo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/61">Brustschmuck</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/62">Bucráneo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/627">Bucrâne</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/51">Buey</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/629">Bukranien, Bukephalien</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3667">Bukranienaltar</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/628">Bukranion</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/63">Bulla</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=313">Bullauge</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/630">Burin</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/631">Buste</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/65">Busto</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1477">Bär</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/615">Bélier</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/617">Bœuf</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/80">Caballo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/311">Cabeza</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/73">Cadena</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/633">Cadre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/67">Caduceo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/634">Caducée</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/53">Caja</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/68">Calo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/569">Calo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/636">Canthare</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/50">Carnero</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/77">Carreta</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/76">Carro</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/637">Carrée</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/71">Casco</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/638">Casque</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/141">Cenefa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/639">Cervidé</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/229">Cesta</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/75">Chaflán</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/641">Chaise</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/642">Chanfrein</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/643">Char</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/645">Charrette</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/646">Charrue</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/647">Chat</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/640">Chaîne</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/648">Cheval</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/81">Chiton</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/113">Cima</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/99">Cimacio</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/64">Cincel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/273">Cinta</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/649">Circle</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/83">Circo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/650">Cirque</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/84">Ciste</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/85">Clipeus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/652">Coffret</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/87">Cofre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/89">Concha</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/653">Coq</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/654">Coquille</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/86">Corazón</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/656">Corbeau</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/216">Cordero</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/657">Corne de l’abondance</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/659">Corniche</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/92">Cornisa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/93">Corona</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/94">Corona cívica</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/95">Corona de laurel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/660">Couronne</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/662">Couronne civique</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/663">Couronne de laurier</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/664">Couteau</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/98">Creciente</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/571">Creusa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/97">Creusa;Kreusa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/665">Croissant</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/3">Crux Decussata</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/4">Crux Gammata</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/5">Crux Immissa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/589">Crux Quadrata</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/70">Cuadrado</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/96">Cuchillo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/91">Cuerno de la abundancia</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/90">Cuervo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/666">Cymaise</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/69">Cántaro</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/72">Cérvido</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/82">Círculo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/651">Cœur</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/572">Daedalus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/101">Dardos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/667">Dards</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/668">Dauphin</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/103">Decoración compleja</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/102">Delfín</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/670">Demi-cercle</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/1">Desunt</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/105">Dextrarum iunctio</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/106">Diener</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/189">Dintel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/107">Dioskuren</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/574">Dipti</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/108">Diptychon</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/112">Divinidad</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/671">Divinité</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/109">Dolichenus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/110">Doppelknopffibel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/111">Dosenortband</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/672">Doucine</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/669">Décor complexe</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7648">Eierstab</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/115">Einheimische Frau</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/576">Endymion</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/674">Enfant</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/118">Entablamiento</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/675">Entablement</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/119">Epona</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/121">Eroten</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/114">Escama</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/280">Escena de banquete</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/281">Escena de caza</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/283">Escena de sacrificio</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/282">Escena familiar</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/285">Escena funeraria</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/286">Escena militar</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/287">Escena mitológica</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/288">Escena religiosa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/284">Escena triunfale</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/289">Escocia</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/120">Escuadra</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/55">Escudo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/147">Espada</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/211">Espejo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/35">Espina de pescado</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/321">Espiral</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/122">Estandarte</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/123">Estrella</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/304">Estrígile</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/305">Esvástica</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/124">Exedra</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/680">Exèdre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/125">Falera</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/681">Femme</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/682">Feston</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/127">Festón</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/684">Feuille</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/129">Fibel</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1785">Fibel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/130">Figura humana</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/686">Figure humaine</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/687">Filet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/131">Filete</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/688">Flamme</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/133">Flecha</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/690">Fleur</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/692">Fleuron</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/693">Fleuve</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/134">Flor</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/135">Florón</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/689">Flèche</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/137">Flügelfibel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/138">Fortuna</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/694">Foudre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/695">Foyer</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/696">Frise</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/697">Fronton</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/142">Frontón</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7571">Frucht</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/700">Frucht, Früchte</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/699">Fruit</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/143">Fruto</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/658">Füllhorn</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7606">Füllhorn</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/88">Gallo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/144">Ganymed</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/427">Ganymédes</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/79">Gato</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/145">Genius</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/701">Gerbe</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/698">Giebel; Giebelzwickel</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7636">Girlande</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/683">Girlanden</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/702">Glaive</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/704">Gland</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/148">Gorgoneion</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7607">Gorgoneion</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3728">Grabvase</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/705">Grappe</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/152">Greca</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/151">Greif</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1965">Greif</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/707">Greifen</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/708">Guillochis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/709">Guirlande</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/153">Guirnalda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/632">Halbfigur</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/154">Haube</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/583">Hector</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/155">Hedera</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/156">Hekate</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/158">Helena</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/159">Hephaistos; Vulcanus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/160">Herakles;Hercules</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/712">Hermès</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/440">Hermés; Mercur</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/163">Heros</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/713">Hexagone</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/164">Hexágono</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/188">Hiedra</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/165">Hippokamp; Seepferd</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/444">Hippolytos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/140">Hogar</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/128">Hoja</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/167">Horuslocke</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/223">Huevo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/168">Hygeia</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/162">Héra; Iuno</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/169">Ikarus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/714">Instrument de musique</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/170">Instrumento de música</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/171">Iphigenie</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/275">Jabalí</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/172">Jahreszeit</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/329">Jarrón</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/587">Jupiter; Juppiter; Zeus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/174">Kannelur</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2159">Kannelur</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/175">Kapitell</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=564">Kapitell</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/176">Kentaur</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/177">Kerberos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/635">Kerykeion; Heroldstab; Caduceus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/178">Kline</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2220">Kline</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/179">Kniefibel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/180">Kompositkapitell</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/181">Korinthisches Kapitell</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3454">Kranz</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/661">Kranz, Kränze</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/590">Kreuz</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2267">Kreuz</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/457">Kybele;Magna Mater;Mater Deum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/716">Languette</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/184">Latobius</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/185">Leda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/183">Lengüeta</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/186">Librarius</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/187">Lictor</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/717">Lierre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/718">Linteau</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/719">Liseré</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/191">Listel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/132">Llama</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/192">Lorica</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/721">Losange</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/195">Luna</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/720">Lune</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/196">Lunula</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/193">Löwe</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1182">Löwenkopfwasserspeier</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/723">Main</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/197">Mano</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/203">Mappa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/66">Marco</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/204">Mars;Ares</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/205">Marsyas</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/724">Marteau</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/198">Martillo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/726">Masken</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/725">Masque</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/200">Meandro</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/206">Medea</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/207">Medusa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/208">Meerwesen</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/209">Menelaos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/306">Mesa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/210">Minotaurus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/730">Miroir</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/212">Mithras</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/215">Moldura</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/214">Molduración</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/213">Moneda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/731">Monnais</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/591">Monogr. Christi</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/8">Monogr. Christi Decussatum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/13">Monogr. Christi cum Alpha et Omega</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/9">Monogr. Christi in crucem transl. cum A e O</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/10">Monogr. Christi in crucem translatum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/12">Monogr. Christi radiatum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/11">Monogr. Christi radiatum cum Alpha et Omega</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/7">Monogr. Ἰη(σοῦς)</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/732">Mouluration</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/733">Moulure</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/734">Mouton</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/126">Mujer</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4728">Muschel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/655">Muscheln</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/715">Musikinstrument</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/199">Máscara</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/728">Mäanderband</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/202">Mänade</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/727">Méandre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/729">Médaillon</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/217">Nemesis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/218">Nereide</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/735">Niche</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/219">Nicho</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/808">Niken, Victoria</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/736">Nische</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=264">Nische</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/117">Niño</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/220">Nudo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/737">Nœud</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/739">Oiseau</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7614">Opferschale</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/222">Orpheus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/225">Oso</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/741">Ours</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/742">Ovale</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/226">Ovalo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/227">Ovas</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/234">Paenula</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/228">Palma</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/744">Palme</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7582">Palmette</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/745">Palmetten</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/235">Pan; Faun</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/746">Panier</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/236">Panzer</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2549">Panzer</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/810">Patera;Opferschale</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/747">Patère</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/246">Pedestal</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/749">Peigne</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/231">Peine</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/232">Peltae</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/751">Peltenschild</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/237">Pelzhut</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/54">Pendientes</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/752">Pentagone</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/233">Pentágono</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/238">Peplos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/239">Perla</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/753">Perle</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/240">Perseus</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2567">Pferd</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/243">Phalera</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/244">Phrygische Mütze</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/242">Phädra; Phaidra</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/245">Pie</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/755">Pied</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/248">Pilar</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=486">Pilaster</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/247">Pilastra</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/757">Pilastre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/758">Pilier</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/249">Pilum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/750">Pinienzapfen</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/760">Pinienzapfen</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7574">Pinienzapfen</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/756">Piédestal</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/252">Piña</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/250">Polos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/251">Polyptychon</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/759">Pomme de pin</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/255">Poseidon; Neptun</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/256">Priamos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/257">Prisionero</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/761">Prisonnier</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/258">Pteryges</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/253">Puerta</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/59">Pulsera</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/762">Puluinus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/259">Pyramidenstumpf</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/224">Pájaro</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/230">Pátera</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/754">Pétale</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/241">Pétalo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/261">Queue d'aronde</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/262">Rahmenfeld</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/763">Rais</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/146">Rama</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/56">Ramo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/263">Raya</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/139">Rayo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/764">Rectangle</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/264">Rectángulo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/265">Regla graduada</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/254">Retrato</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/190">Ribete</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/792">Riefeln/Strigiles</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7464">Riefelung</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/766">Rinceaux</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/267">Ringschnalle</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/268">Rolle</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7107">Rolle</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/194">Rombo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/269">Roseta</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/767">Rosette</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7593">Rosette</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/768">Rosetten</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/270">Rostra</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/769">Rostre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/770">Roue</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/771">Roue radiée</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/772">Ruban</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/271">Rueda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/272">Rueda radiada</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/765">Règle graduée</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/136">Río</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/266">Róleo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/274">Sagum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/773">Sanglier</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/774">Sarment</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/277">Sarmiento</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/276">Satyr</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/279">Scheibenfibel</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2759">Scheibenfibel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/621">Schild</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2771">Schild</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/788">Schlange</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2786">Schlange</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/290">Schreibtafel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/703">Schwert</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/786">Scotie</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/775">Scène de banquet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/777">Scène de chasse</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/778">Scène de famille</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/779">Scène de sacrifice</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/781">Scène de triomphe</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/813">Scène funéraire</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/783">Scène militaire</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/784">Scène mythologique</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/785">Scène religieuse</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/291">Seitenwange</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/722">Selene</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/292">Sella curulis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/104">Semicírculo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/293">Serapis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/787">Serpent</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/294">Serpiente</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/74">Silla</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/295">Silvanus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/296">Sirene</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/613">Sockel</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=66">Sockel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/297">Sockelbild</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/298">Soffitte</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/300">Sol</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/299">Soldado</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/789">Soldat</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/790">Soleil</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/301">Sphinx</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7623">Sphinx</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2920">Spirale</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2971">Stern</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/679">Sterne</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7603">Stierschädel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/302">Stilus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/791">Strigile</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/793">Svastika</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/303">Syrinx</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/278">Säule</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=479">Säule</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/794">Table</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/307">Tabula Ansata</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/315">Tallo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/795">Taureau</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/312">Teatro</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/797">Tempel</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3034">Tempel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/796">Temple</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/310">Templo</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4068">Theater</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/313">Theseus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/314">Thyrsosstab</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/799">Théâtre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/800">Tige</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3055">Tisch</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/316">Toga</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/317">Toga contabulata</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/318">Tomba</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/801">Tombeau</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/320">Toque</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/812">Tore</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/309">Toro</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/811">Toro (archit)</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/802">Torques</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/803">Torsade</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/776">Totenmahl</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/780">Totenopfer</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/706">Traube</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6042">Traubeneiche</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/322">Trenza</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/804">Tresse</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/323">Triton</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/324">Tropaion</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/326">Tunica</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/805">Tympan</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/806">Tympanon</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/308">Tänien</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/798">Tête</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/325">Tímpano</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/327">Urceus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/328">Urna</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/814">Urne</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3125">Urne</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/150">Uva</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/330">Vexillum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/331">Victoria</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3172">Vogel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/332">Volumen</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3178">Volumen</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/333">Voluta</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/809">Volute</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3179">Volute</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=616">Volutenpolster</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/260">Volutenpolster;Pulvinus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/740">Vögel</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3200">Waffe</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/606">Waffen</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/644">Wagen</option>
+                  <option value="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3203">Wagen</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/616">Widderkopf</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/334">Zigzag</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/335">Zwiebelknopffibel</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/14">chi-rho</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/6">cross</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/711">edera</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/710">ivy leaf</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/201">medallion</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/743">oves</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/531">sella curulis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/498">talpazat</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/27">Äneas</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/673">Écaille</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/676">Équerre</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/677">Étendard</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/678">Étoile</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/221">Ödipus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/738">Œuf</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                  <OPTION VALUE="">Browse all alternative Labels alphabetically</OPTION>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/21">Acanthus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/17">Achilles</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/22">Actaeon</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/19">Adónis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/27">Aeneas</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/27">Aeneas</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/17">Akhilleus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/22">Aktaión</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/23">Alcestis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/564">Androméda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/564">Androméda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/3">András-kereszt</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/29">Aphrodité; Venus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/30">Apollon</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/30">Apollón; Apollo</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/36">Ariadné</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/40">Asklépios</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/84">Cist</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/572">Daedalus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/572">Daidalos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/45">Dionysos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/45">Dionysus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/107">Dioskures</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/107">Dioskurosok</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/109">Dolichenus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/576">Endymion</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/119">Epona</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/138">Fortuna</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/145">Genius</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/148">Gorgoneiion</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/148">Gorgó-fő</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/151">Griffin</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/156">Hecate</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/156">Hekaté</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/583">Hektor</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/583">Hektór</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/158">Helen</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/158">Heléna</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/162">Hera; Juno</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/160">Hercules</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/440">Herma</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/444">Hippolytos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/168">Hygieia</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/160">Héraklés; Hercules</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/169">Icarus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/169">Ikaros</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/171">Iphigeneia</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/587">Jupiter</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/587">Jupiter; Iuppiter; Zeus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/178">Kline</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/457">Kybelé; Magna Mater; Mater Deum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/195">Luna; Seléné</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/185">Léda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/204">Mars; Árés</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/205">Marsyas</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/200">Meandros</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/202">Menád</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/210">Minótauros</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/206">Médea</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/218">Néreidák</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/221">Oidipus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/242">Phaedra</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/255">Poseidón; Neptunus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/235">Pán; Faun</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/276">Satyros</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/293">Serapis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/289">Skócia</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/313">Théseus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/323">Tritón</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/15">akanthus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/15">akanthus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/21">akanthus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/18">akrotérion</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/2">alpha és ómega</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/24">amfiteátrum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/34">architráv</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/41">astragalos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/306">asztal</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/95">babérkoszorú</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/115">bennszülött nő</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/309">bika</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/188">borostyán</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/62">bukranion; ökörfej</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/216">bárány</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/91">bőségszaru</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/67">caduceus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/334">cikk-cakk</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/83">circus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/282">családjelenet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/321">csigavonal; spirális</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/123">csillag</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/56">csokor</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/220">csomó</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/113">csúcs</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/102">delfin</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/53">doboz; láda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/78">eke</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/130">emberalak</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/57">erszény</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/31">fa</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/38">fegyver</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/311">fej</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/154">fejkötő</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/252">fenyőtoboz</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/129">fibula</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/257">fogoly</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/136">folyó</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/244">fríg sapka</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/104">félköríves</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/231">fésű</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/54">fülbevaló</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/219">fülke</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/153">girland</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/58">gomb</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/117">gyermek</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/239">gyöngy</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/284">győzelmi jelenet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/335">hagymafejes fibula</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/279">hagymafibula</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/49">hajó</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/280">halotti tor; bankett jelenet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/35">halszálka</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/170">hangszer</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/165">hippocampus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/90">holló</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/163">héros</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/112">istenség</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/2000">ja</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/89">kagyló</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/88">kakas</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/198">kalapács</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/174">kanellúra</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/69">kantharos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/253">kapu</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/147">kard</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/60">karkötő</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/59">karkötő</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/299">katonai jelenet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/1000">kein</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/6">kereszt</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/66">keret</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/262">keretes mező</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/271">kerék</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/14">khi-ró</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/81">khitón</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/178">kliné</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/180">kompozit oszlopfő</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/77">kordé</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/181">korinthosi oszlopfő</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/50">kos</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/229">kosár</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/96">kés</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/110">kétgombos fibula</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/197">kéz</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/294">kígyó</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/82">kör</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/128">levél</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/48">lábazat</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/297">lábazatfestmény</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/246">lábfej</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/245">lábfej</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/87">láda</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/132">láng</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/80">ló</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/79">macska</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/224">madár</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/199">maszk</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/152">meandervonal</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/201">medallion</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/225">medve</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/61">melldísz</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/65">mellszobor</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/287">mitológiai jelenet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/300">nap</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/1000">non presente</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/1000">not present</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/133">nyílvessző</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/126">nő</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/291">oldalfal</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/44">oltár</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/142">oromzat</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/193">oroszlán</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/248">oszlop</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/278">oszlop</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/175">oszlopfő</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/226">ovális</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/55">pajzs</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/230">patera</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/232">pelta</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/233">pentagon; ötszög</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/125">phalera</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/247">pilaszter</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/254">portré</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/258">pteryges</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/228">pálma</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/236">páncél</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/92">párkány</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/213">pénz</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/298">rekeszes mennyezet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/135">rozetta</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/269">rozetta</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/274">sagum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/2000">si</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/304">strigilis</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/272">sugaras kerék</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/139">sugár</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/305">svasztika; horogkereszt</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/273">szalg</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/76">szekér</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/301">szfinx</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/241">szirom</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/296">szirén</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/315">szár</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/137">szárnyas fibula</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/74">szék</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/86">szív</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/150">szőlő</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/277">szőlővessző</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/318">sír</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/215">tagozat</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/312">teatrum; színház</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/285">temetési jelenet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/310">templom</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/208">tengeri lény</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/143">termés</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/316">toga</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/223">tojás</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/320">torques</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/811">torus</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/324">tropaeum</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/325">tympanon</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/264">téglalap formájú</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/179">térdfibula</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/211">tükör</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/140">tűzhely</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/275">vadkan</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/281">vadászjelenet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/288">vallási jelenet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/134">virág</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/329">váza</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/64">véső</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/2000">yes</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/146">ág</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/283">áldozati jelenet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/28">állat</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/33">épitészet</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/172">évszak</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/290">írótábla</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/51">ökör</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/16">ölelés</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/103">összetett díszítés</option>
+                  <option value="http://www.eagle-network.eu/voc/decor/lod/47">öv</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+         </div>
          <div class="la list">
             <h3>Terms in Latin</h3>
             <p>Preferred 
@@ -1079,6 +1975,27 @@
                      <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
             </p>
          </div>
+         <div class="ar list">
+            <h3>Terms in Arabic</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="tr list">
+            <h3>Terms in Turkish</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="ru list">
+            <h3>Terms in Bulgarian</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
          <div class="others list">
             <h3>Terms in Arabic</h3>
             <p>
@@ -1348,10 +2265,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1391">Adlerfibel</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Adlerfibel">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1391">Adlerfibel</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Adlerfibel"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -1511,10 +2425,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1407">Altar</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Altar">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1407">Altar</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Altar"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -1642,10 +2553,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4116">Amphitheater</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Amphitheater">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4116">Amphitheater</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Amphitheater"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -1852,10 +2760,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1492">Baum</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Baum">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1492">Baum</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Baum"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -1894,10 +2799,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=113">Arkadenmauer</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Arkadenmauer">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=113">Arkadenmauer</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Arkadenmauer"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -1968,10 +2870,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3200">Waffe</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Waffe">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3200">Waffe</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Waffe"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -2149,10 +3048,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4797">Astragal</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Astragal">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4797">Astragal</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Astragal"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -2373,10 +3269,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=66">Sockel</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Sockel">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=66">Sockel</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Sockel"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -2593,10 +3486,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3667">Bukranienaltar</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Bukranienaltar">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3667">Bukranienaltar</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Bukranienaltar"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -2653,10 +3543,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=313">Bullauge</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Bullauge">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=313">Bullauge</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Bullauge"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -2734,10 +3621,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2567">Pferd</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Pferd">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2567">Pferd</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Pferd"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -3050,10 +3934,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3203">Wagen</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Wagen">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3203">Wagen</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Wagen"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -3548,10 +4429,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4728">Muschel</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Muschel">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4728">Muschel</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Muschel"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -3686,10 +4564,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3454">Kranz</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kranz">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3454">Kranz</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kranz"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -3874,10 +4749,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2267">Kreuz</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kreuz">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2267">Kreuz</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kreuz"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -4062,10 +4934,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7606">Füllhorn</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=F%C3%BCllhorn">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7606">Füllhorn</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=F%C3%BCllhorn"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -5006,10 +5875,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2771">Schild</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Schild">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2771">Schild</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Schild"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -5151,10 +6017,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2920">Spirale</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Spirale">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2920">Spirale</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Spirale"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -5225,10 +6088,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2971">Stern</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Stern">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2971">Stern</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Stern"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -5274,10 +6134,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7464">Riefelung</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Riefelung">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7464">Riefelung</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Riefelung"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -5398,10 +6255,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7636">Girlande</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Girlande">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7636">Girlande</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Girlande"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -5433,10 +6287,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1785">Fibel</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Fibel">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1785">Fibel</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Fibel"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -5571,10 +6422,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1552">Blüte</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Bl%C3%BCte">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1552">Blüte</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Bl%C3%BCte"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -5741,10 +6589,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7571">Frucht</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Frucht">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7571">Frucht</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Frucht"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -5908,10 +6753,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7607">Gorgoneion</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Gorgoneion">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7607">Gorgoneion</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Gorgoneion"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -5982,10 +6824,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1965">Greif</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Greif">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1965">Greif</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Greif"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -6494,10 +7333,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1541">Blatt</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Blatt">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1541">Blatt</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Blatt"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -6757,10 +7593,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3728">Grabvase</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Grabvase">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3728">Grabvase</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Grabvase"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -6824,10 +7657,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2159">Kannelur</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kannelur">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2159">Kannelur</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kannelur"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -6859,10 +7689,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=564">Kapitell</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kapitell">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=564">Kapitell</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kapitell"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -6937,10 +7764,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2220">Kline</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kline">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2220">Kline</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kline"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -7244,10 +8068,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1182">Löwenkopfwasserspeier</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=L%C3%B6wenkopfwasserspeier">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1182">Löwenkopfwasserspeier</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=L%C3%B6wenkopfwasserspeier"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -7728,10 +8549,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3055">Tisch</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Tisch">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3055">Tisch</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Tisch"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -8110,10 +8928,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=264">Nische</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Nische">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=264">Nische</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Nische"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -8259,10 +9074,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1477">Bär</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=B%C3%A4r">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1477">Bär</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=B%C3%A4r"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -8326,10 +9138,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7648">Eierstab</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Eierstab">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7648">Eierstab</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Eierstab"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -8393,10 +9202,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3172">Vogel</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Vogel">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3172">Vogel</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Vogel"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -8442,10 +9248,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7582">Palmette</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Palmette">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7582">Palmette</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Palmette"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -8502,10 +9305,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2549">Panzer</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Panzer">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2549">Panzer</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Panzer"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -8551,10 +9351,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7614">Opferschale</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Opferschale">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7614">Opferschale</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Opferschale"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -9017,10 +9814,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=486">Pilaster</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Pilaster">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=486">Pilaster</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Pilaster"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -9084,10 +9878,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7574">Pinienzapfen</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Pinienzapfen">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7574">Pinienzapfen</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Pinienzapfen"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -9669,10 +10460,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7107">Rolle</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Rolle">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7107">Rolle</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Rolle"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -9743,10 +10531,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7593">Rosette</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Rosette">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7593">Rosette</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Rosette"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -9949,10 +10734,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=479">Säule</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=S%C3%A4ule">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=479">Säule</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=S%C3%A4ule"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -9984,10 +10766,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2759">Scheibenfibel</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Scheibenfibel">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2759">Scheibenfibel</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Scheibenfibel"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -10176,10 +10955,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2786">Schlange</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Schlange">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2786">Schlange</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Schlange"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -10400,10 +11176,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7623">Sphinx</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Sphinx">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7623">Sphinx</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Sphinx"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -10564,10 +11337,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4068">Theater</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Theater">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4068">Theater</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Theater"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -10613,10 +11383,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3034">Tempel</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Tempel">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3034">Tempel</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Tempel"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -10844,10 +11611,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7603">Stierschädel</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Stiersch%C3%A4del">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7603">Stierschädel</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Stiersch%C3%A4del"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -11029,20 +11793,14 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3696">Aschenurne</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Aschenurne">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3696">Aschenurne</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Aschenurne"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3125">Urne</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Urne">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3125">Urne</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Urne"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -11088,10 +11846,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6042">Traubeneiche</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Traubeneiche">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6042">Traubeneiche</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Traubeneiche"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -11159,10 +11914,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3178">Volumen</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Volumen">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3178">Volumen</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Volumen"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -11194,10 +11946,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3179">Volute</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Volute">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3179">Volute</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Volute"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   
@@ -11229,10 +11978,7 @@
                   <tr>
                      <td></td>
                      <td>Same as</td>
-                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=616">Volutenpolster</a> (<a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Volutenpolster">
-                           Search this term in Arachne
-                           </a>)
-                     </td>
+                     <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=616">Volutenpolster</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Volutenpolster"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
                      <td>de</td>
                   </tr>
                   

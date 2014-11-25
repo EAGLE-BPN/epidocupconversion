@@ -40,6 +40,21 @@
                     $(".list").hide();
                     $(".el").show();
                     }
+                    
+                    if($(this).attr("value")=="ar"){
+                    $(".list").hide();
+                    $(".ar").show();
+                    }
+                    
+                    if($(this).attr("value")=="tr"){
+                    $(".list").hide();
+                    $(".tr").show();
+                    }
+                    
+                    if($(this).attr("value")=="ru"){
+                    $(".list").hide();
+                    $(".ru").show();
+                    }
                     if($(this).attr("value")=="others"){
                     $(".list").hide();
                     $(".others").show();
@@ -56,28 +71,26 @@
                         mySel.options[mySel.selectedIndex].value; if(myVal) { if(mySel.form.target)myWin =
                         parent[mySel.form.target]; else myWin = window; if (! myWin) return true; myWin.location =
                         myVal; } return false; } // </SCRIPT><style>
-                        table {
-                        table-layout: fixed;
-                        width: 100%;
-                        border-collapse: collapse;
+                        table{
+                        	table-layout:fixed;
+                        	width:100%;
+                        	border-collapse:collapse;
                         }
                         tr{
-                        border-bottom: 1px solid #ccc;
+                        	border-bottom:1px solid #ccc;
                         }
-                        td,  th {
-                        font-size: 1em;
-                        padding: 3px 7px 2px 7px;
-                        width: 100%;
+                        td,
+                        th{
+                        	font-size:1em;
+                        	padding:3px 7px 2px 7px;
+                        	width:100%;
                         }
-                        
-                        th {
-                        font-size: 1.1em;
-                        text-align: left;
-                        padding-top: 5px;
-                        padding-bottom: 4px;
-                        }
-                        
-                    </style><title>State of preservation</title>
+                        th{
+                        	font-size:1.1em;
+                        	text-align:left;
+                        	padding-top:5px;
+                        	padding-bottom:4px;
+                        }</style><title>State of preservation</title>
    </head>
    <body style="margin:8;padding:8"><script src="header.js"></script><h1 class="page_title">EAGLE Vocabulary - State of preservation</h1>
       <div class="post-content">
@@ -113,11 +126,12 @@
             </tr>
          </table>
          <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list
-            of terms in
-            this vocabulary. Equivalent terms are shown in the tematres instance and in each main
+            of terms
+            in this vocabulary. Equivalent terms are shown in the tematres instance and in each
+            main
             concept description.
          </p>
-         <div><select>
+         <div size="20"><select>
                <option>Choose Language</option>
                <option value="ALL">Show all terms</option>
                <option value="la">Latin</option>
@@ -128,7 +142,41 @@
                <option value="en">English</option>
                <option value="hu">Hungarian</option>
                <option value="gr">Greek</option>
-               <option value="others">Others</option></select></div>
+               <option value="ar">Arabic</option>
+               <option value="ru">Bulgarian</option>
+               <option value="tr">Turkish</option>
+               <option value="others">Others</option></select><FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                  <OPTION VALUE="">Browse all preferred Labels alphabetically</OPTION>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/4">Broken</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/2">Complete</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/1">Good</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/5">Incomplete</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/9">Lost</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/3">Probably complete</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/24">contigous</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/16">fragmentiert, Fragment(e)</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/23">intact</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/10">lost but recorded</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/25">non-contigous</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/12">stark bestoßen</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/6">tit. fragmenta inter se coniuncta</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/7">tit. fragmenta inter se non coniuncta</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/8">tit. fragmenta partim tantum inter se
+                     coniuncta
+                  </option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/15">tit. fragmentum</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/13">tit. integer</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/11">tit. mutilum</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/14">vollständig</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                  <OPTION VALUE="">Browse all alternative Labels alphabetically</OPTION>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/1">bueno</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/2">completa</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/5">incompleta</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/9">perdido</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/4">rota</option>
+                  <option value="http://www.eagle-network.eu/voc/statepreserv/lod/9">verschollen</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+         </div>
          <div class="la list">
             <h3>Terms in Latin</h3>
             <p>Preferred 
@@ -231,6 +279,27 @@
          </div>
          <div class="el list">
             <h3>Terms in Greek</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="ar list">
+            <h3>Terms in Arabic</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="tr list">
+            <h3>Terms in Turkish</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="ru list">
+            <h3>Terms in Bulgarian</h3>
             <p>
                <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
                      <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>

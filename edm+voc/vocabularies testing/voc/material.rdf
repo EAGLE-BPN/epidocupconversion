@@ -1284,7 +1284,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/306.rdf">
         <skos:prefLabel xml:lang="de">Korund</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Korund</skos:prefLabel>
+        <skos:altLabel xml:lang="hu">Korund</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104.rdf"/>
         <skos:exactMatch>
@@ -2211,7 +2211,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/97.rdf">
         <skos:prefLabel xml:lang="de">Sardonyx</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Sardonyx</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Sardonyx</skos:altLabel>
         <skos:altLabel xml:lang="fr">Sardonice</skos:altLabel>
         <skos:altLabel xml:lang="es">Sardónice</skos:altLabel>
         <skos:altLabel xml:lang="hu">szardonix</skos:altLabel>

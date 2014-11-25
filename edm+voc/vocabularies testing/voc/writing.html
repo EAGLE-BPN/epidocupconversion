@@ -40,6 +40,21 @@
                     $(".list").hide();
                     $(".el").show();
                     }
+                    
+                    if($(this).attr("value")=="ar"){
+                    $(".list").hide();
+                    $(".ar").show();
+                    }
+                    
+                    if($(this).attr("value")=="tr"){
+                    $(".list").hide();
+                    $(".tr").show();
+                    }
+                    
+                    if($(this).attr("value")=="ru"){
+                    $(".list").hide();
+                    $(".ru").show();
+                    }
                     if($(this).attr("value")=="others"){
                     $(".list").hide();
                     $(".others").show();
@@ -56,28 +71,26 @@
                         mySel.options[mySel.selectedIndex].value; if(myVal) { if(mySel.form.target)myWin =
                         parent[mySel.form.target]; else myWin = window; if (! myWin) return true; myWin.location =
                         myVal; } return false; } // </SCRIPT><style>
-                        table {
-                        table-layout: fixed;
-                        width: 100%;
-                        border-collapse: collapse;
+                        table{
+                        	table-layout:fixed;
+                        	width:100%;
+                        	border-collapse:collapse;
                         }
                         tr{
-                        border-bottom: 1px solid #ccc;
+                        	border-bottom:1px solid #ccc;
                         }
-                        td,  th {
-                        font-size: 1em;
-                        padding: 3px 7px 2px 7px;
-                        width: 100%;
+                        td,
+                        th{
+                        	font-size:1em;
+                        	padding:3px 7px 2px 7px;
+                        	width:100%;
                         }
-                        
-                        th {
-                        font-size: 1.1em;
-                        text-align: left;
-                        padding-top: 5px;
-                        padding-bottom: 4px;
-                        }
-                        
-                    </style><title>Writing</title>
+                        th{
+                        	font-size:1.1em;
+                        	text-align:left;
+                        	padding-top:5px;
+                        	padding-bottom:4px;
+                        }</style><title>Writing</title>
    </head>
    <body style="margin:8;padding:8"><script src="header.js"></script><h1 class="page_title">EAGLE Vocabulary - Writing</h1>
       <div class="post-content">
@@ -113,11 +126,12 @@
             </tr>
          </table>
          <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list
-            of terms in
-            this vocabulary. Equivalent terms are shown in the tematres instance and in each main
+            of terms
+            in this vocabulary. Equivalent terms are shown in the tematres instance and in each
+            main
             concept description.
          </p>
-         <div><select>
+         <div size="20"><select>
                <option>Choose Language</option>
                <option value="ALL">Show all terms</option>
                <option value="la">Latin</option>
@@ -128,7 +142,205 @@
                <option value="en">English</option>
                <option value="hu">Hungarian</option>
                <option value="gr">Greek</option>
-               <option value="others">Others</option></select></div>
+               <option value="ar">Arabic</option>
+               <option value="ru">Bulgarian</option>
+               <option value="tr">Turkish</option>
+               <option value="others">Others</option></select><FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                  <OPTION VALUE="">Browse all preferred Labels alphabetically</OPTION>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/2">Atramento</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/3">Caelo</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/18">Carbone</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/163">Carbone scriptus</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/20">Cetera</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/115">Chisel</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/4">Crustis</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/34">Crustis scriptus</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/12">Eingemeißelt mit Farbresten</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/44">Embossed</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/132">Exaratus</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/96">Gemalt / Dipinto</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/88">Geritzt / Graffito</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/21">Ignoratur</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/114">Insculptus</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/5">Litteris Ageminatis</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/36">Litteris Alveolatis</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/6">Litteris Applicitis</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/7">Litteris Eminentis</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/9">Litteris Scariphatis</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/8">Litteris ex Forma</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/152">Mosaik</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/10">Pictura</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/97">Pictus</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/11">Punctim</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/69">Reversus impressione scriptus</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">Scalpro</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/89">Scariphatus</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/13">Signaculo</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/165">Signaculo Candente</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/125">Signaculo scriptus</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/14">Stilo</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/15">Terebro</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/16">Tessellis</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/153">Tessellis scriptus</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/17">Typo</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/161">Typo scriptus</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/19">Undetermined</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/168">carved</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/113">eingemeißelt</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/23">eingraviert</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/167">etched (with a sharp point)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/78">ex forma</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/145">gepunzt</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/77">gestempelt</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/166">impressed</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/170">in points (chasing)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/174">in points (repouss)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/173">in relief (cut)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/169">in troughs</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/38">litterae aureae (in
+                     Buchstabenbettungen)
+                  </option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/41">litterae aureae (von außen
+                     eingedübelt)
+                  </option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/172">molded</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/164">non liquet</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/171">protruding</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/175">with brush</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                  <OPTION VALUE="">Browse all alternative Labels alphabetically</OPTION>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/96">Dipinto</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/96">Gemalt</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/88">Geritzt</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/88">Graffito</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/4">Inlaid or embossed</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/5">Lettere ageminate</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/5">Litt. Agem.</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/36">Litt. Alv.</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/6">Litt. App.</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/9">Litt. scariph.</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/3">a bulino</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/2">a inchiostro</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/8">a matrice</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/11">a punti incisi</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/17">a punzone</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/7">a rilievo</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/15">a traforo</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/8">als Abdruck</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/16">als Mosaik</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/6">applicate</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/6">applied</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/6">aufgesetzt</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/8">bélyegzett</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/36">channelled</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">cincelado</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/4">con pezzetti</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/5">damascened</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/5">damasquinage</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/10">dipinta</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/15">durchlöchert</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/20">egyéb</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/2">encré</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/3">engraved</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/7">erhaben</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/10">festett / dipinto</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/14">geritzt / in weiches Material</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">geritzt / ziselliert</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/3">grabado</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/9">graffiti su superficie dura</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/9">graffiti sur surface dure</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/3">gravé</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/13">impressa</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/36">in Bettungen</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">incisa a scalpello</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/14">incisa su materia morbida</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">incised</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">incisé</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/4">incrusté</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/2">inked</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/4">inkrustiert</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/4">inkrusztáció</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">inscribed</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/14">inscribed on a soft surface</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/14">inscrit sur une surface tendre</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/21">ismeretlen</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/3">kivésett</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/36">lettere alveolate</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/6">lettres appliquées</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/36">lettres creusées</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/7">lettres en relief</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/8">lettres moulées</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/8">litt. ex forma</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/6">litterae aureae (fastened with dowels)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/36">litterae aureae (in letter beds)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/19">meghatározhatatlan</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/2">mit Tinte</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/8">moulded</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/16">mozaik</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/16">musiva</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/10">painted</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/10">painted / Dipinto</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/10">peint</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/15">perforated or bored</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/15">perforé, percé, troué</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/10">pintado</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/11">pointillé</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/11">poncolt</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/11">punched</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/4">realzado</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/7">relevación</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/7">relief</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/2">s tintom</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/9">scratched</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/9">scratched / Graffito</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/8">stamped</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/5">tauschiert</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/16">tesselle, tessère</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/16">tesserae (mosaic)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/13">timbré, cacheté</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/15">trébelt</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">vésett</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/12">vésett (festék nyomaival)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/3">έκτυπο, σκαλισμένο</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/4">ένθετο, ψηφοθετημένο (μαρκετερί)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/13">αποτυπωμένο, σταμπωτό</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/14">επιγεγραμμένο, εγχάρακτο πάνω σε μαλακή
+                     επιφάνεια
+                  </option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/10">ζωγραφισμένo, ιστορημένo</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/5">με ένθετα γράμματα δαμασκηνής τεχνοτροπίας</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/9">με γράμματα εγχάρακτα (σκαριφήματα)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/8">με γράμματα εκτυπωμένα (σχηματοποιημένα δια της
+                     πίεσης)
+                  </option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/36">με γράμματα ελαφρώς κοίλα</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/7">με γράμματα προεξέχοντα</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/6">με γράμματα προσαρμοσμένα επικλινή</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/2">με μελάνη</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">σμιλεμένo</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/11">σχηματισμένo με ακίδα, δια της κέντησης</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/15">τρυπητό, διάτρυτο</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/16">ψηφιδωτό</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/9">граффито</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/10">дипинто</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/1">المنقوش</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/36">حروف بقنوات</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/8">حروف مصبوبة</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/15">مثقب أو محف</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/2">محبر</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/11">محفر</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/13">مختوم</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/9">مخدش</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/6">مطبق</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/4">مطعم أونقش بارز</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/10">مطلي</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/5">مقصب</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/16">مكعبات (فسيفساء)</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/3">منقوش</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/14">منقوش على سطح ناعم</option>
+                  <option value="http://www.eagle-network.eu/voc/writing/lod/7">نحت بارز</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+         </div>
          <div class="la list">
             <h3>Terms in Latin</h3>
             <p>Preferred 
@@ -378,6 +590,44 @@
                      <option value="http://www.eagle-network.eu/voc/writing/lod/11">σχηματισμένo με ακίδα, δια της κέντησης</option>
                      <option value="http://www.eagle-network.eu/voc/writing/lod/15">τρυπητό, διάτρυτο</option>
                      <option value="http://www.eagle-network.eu/voc/writing/lod/16">ψηφιδωτό</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="ar list">
+            <h3>Terms in Arabic</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/1">المنقوش</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/36">حروف بقنوات</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/8">حروف مصبوبة</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/15">مثقب أو محف</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/2">محبر</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/11">محفر</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/13">مختوم</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/9">مخدش</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/6">مطبق</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/4">مطعم أونقش بارز</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/10">مطلي</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/5">مقصب</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/16">مكعبات (فسيفساء)</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/3">منقوش</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/14">منقوش على سطح ناعم</option>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/7">نحت بارز</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="tr list">
+            <h3>Terms in Turkish</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
+         <div class="ru list">
+            <h3>Terms in Bulgarian</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION>
+                     <option value="http://www.eagle-network.eu/voc/writing/lod/9">граффито</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
             </p>
          </div>
          <div class="others list">
