@@ -12,6 +12,9 @@
         </xsl:copy>
     </xsl:template>
     
+    <!--inserts links to tags in zotero bibliography-->
+    <xsl:include href="zoterobibliolinks.xsl"/>
+
     <!--inserts trismegistos id-->
         <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/tmid.xsl"/>
     
