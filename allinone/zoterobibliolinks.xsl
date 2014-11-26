@@ -38,6 +38,7 @@ edhtagged url of each Bibliographic Database Heidelberg entry in which an inscri
 	</xsl:variable>
 	<!--insert links to tags in zotero bibliography-->
 	<xsl:template match="tei:bibl">
+
 		<xsl:for-each select=".">
 			<xsl:choose>
 				<xsl:when test="starts-with(normalize-space(.),'CIL')">
