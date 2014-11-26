@@ -192,8 +192,12 @@ edhtagged url of each Bibliographic Database Heidelberg entry in which an inscri
 					</xsl:copy>
 				</xsl:when>
 
-
-
+<xsl:otherwise>
+<xsl:copy>
+	<xsl:copy-of select="@*|node()"/>
+</xsl:copy>
+</xsl:otherwise>
+				
 			</xsl:choose>
 		</xsl:for-each>
 	</xsl:template>
