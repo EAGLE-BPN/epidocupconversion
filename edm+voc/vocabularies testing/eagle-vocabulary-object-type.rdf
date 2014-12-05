@@ -2924,6 +2924,7 @@
         <skos:prefLabel xml:lang="de">Grabaltar</skos:prefLabel>
         <skos:altLabel xml:lang="en">altar, funerary</skos:altLabel>
         <skos:altLabel xml:lang="de">Altar, Grab</skos:altLabel>
+        <skos:altLabel xml:lang="es">Altar, Funerario</skos:altLabel>
         <skos:altLabel xml:lang="it">ara sepolcrale</skos:altLabel>
         <skos:altLabel xml:lang="la">ara, sepulcrum</skos:altLabel>
         <skos:altLabel xml:lang="fr">autel, tombeau</skos:altLabel>
