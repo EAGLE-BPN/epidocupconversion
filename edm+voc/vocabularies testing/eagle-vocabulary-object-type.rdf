@@ -91,6 +91,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/15">
         <skos:prefLabel xml:lang="la">Aes, fragmentum</skos:prefLabel>
+        <skos:altLabel xml:lang="es">bronce, fragmento</skos:altLabel>
         <skos:altLabel xml:lang="hu">bronz töredék</skos:altLabel>
         <skos:scopeNote xml:lang="it">Frammento di un oggetto in bronzo di natura non meglio specificata</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
