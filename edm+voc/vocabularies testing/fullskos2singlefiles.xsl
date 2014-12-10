@@ -832,18 +832,18 @@
         </xsl:for-each>
 
         <!--main table contents-->
-        <xsl:variable name="x" select="@rdf:about"/>
         <xsl:apply-templates mode="b"/>
-        <xsl:if test="//skos:Concept[@rdf:about=$x]/skos:closeMatch/skos:Concept">
-            <tr>
-                <td/>
-                <td>External definition</td>
-                <td>
-                    <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:closeMatch/skos:Concept/@rdf:about"/>
-                </td>
-                <td/>
-            </tr>
-        </xsl:if>
+       
+    </xsl:template>
+    <xsl:template match="skos:Concept/skos:closeMatch/skos:Concept[contains(@rdf:about,'chc.sbg.ac.at')]" mode="b">
+        <tr>
+            <td/>
+            <td>External definition</td>
+            <td>
+                <a href="{@rdf:about}"><xsl:value-of select="parent::*/preceding-sibling::skos:prefLabel"/></a>
+            </td>
+            <td/>
+        </tr>
     </xsl:template>
     <xsl:template match="skos:prefLabel" mode="b">
         <tr>

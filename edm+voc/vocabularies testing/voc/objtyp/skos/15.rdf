@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-11-25Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-11-25Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-12-10Z</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-12-10Z</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -18,7 +18,9 @@
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
                  rdf:about="http://www.eagle-network.eu/voc/objtyp/skos/15.rdf">
         <skos:prefLabel xml:lang="la">Aes, fragmentum</skos:prefLabel>
+        <skos:altLabel xml:lang="es">bronce, fragmento</skos:altLabel>
         <skos:altLabel xml:lang="hu">bronz töredék</skos:altLabel>
+        <skos:scopeNote xml:lang="it">Frammento di un oggetto in bronzo di natura non meglio specificata</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/skos/1232.rdf">

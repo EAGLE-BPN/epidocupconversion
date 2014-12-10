@@ -46,6 +46,7 @@
         <skos:prefLabel xml:lang="es">Acanto</skos:prefLabel>
         <skos:altLabel xml:lang="de">akanthus</skos:altLabel>
         <skos:altLabel xml:lang="hu">akanthus</skos:altLabel>
+        <skos:scopeNote xml:lang="it">Foglia della pianta di acanto</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/skos/592.rdf">
