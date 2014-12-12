@@ -18,6 +18,7 @@
     </skos:ConceptScheme>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1826">
         <skos:prefLabel xml:lang="en">Abaton</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Stätten der Kultausübung, die der Öffentlichkeit nicht zugänglich sind. Teilweise gleichbedeutend mit Adyton</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7922">
