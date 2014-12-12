@@ -130,6 +130,21 @@
                     <title>
                         <xsl:value-of select="substring-after($title, '- ')"/>
                     </title>
+
+                    <script type="text/javascript">
+                        
+                        var _gaq = _gaq || [];
+                        _gaq.push(['_setAccount', 'UA-25697327-3']);
+                        _gaq.push(['_setDomainName', 'eagle-network.eu']);
+                        _gaq.push(['_trackPageview']);
+                        
+                        (function() {
+                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                        })();
+                        
+                    </script>
                 </head>
 
                 <body style="margin:8;padding:8">
@@ -725,6 +740,20 @@
                             ul#searches li{
                             	display:inline;
                             }</style>
+                        <script type="text/javascript">
+                            
+                            var _gaq = _gaq || [];
+                            _gaq.push(['_setAccount', 'UA-25697327-3']);
+                            _gaq.push(['_setDomainName', 'eagle-network.eu']);
+                            _gaq.push(['_trackPageview']);
+                            
+                            (function() {
+                            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                            })();
+                            
+                        </script>
                     </head>
                     <body style="margin:8;padding:8">
                         <script src="../../header.js"/>
@@ -939,7 +968,13 @@
                         <xsl:attribute name="href">
                             <xsl:value-of select="skos:Concept/@rdf:about"/>
                         </xsl:attribute>
-                        <xsl:value-of select="skos:Concept/skos:prefLabel"/>
+                        <xsl:choose>
+<xsl:when test="skos:Concept/skos:prefLabel"><xsl:value-of select="skos:Concept/skos:prefLabel"/>
+</xsl:when>
+<xsl:otherwise>
+    <xsl:value-of select="skos:Concept/@rdf:about"/>
+</xsl:otherwise>
+                        </xsl:choose>
                     </a>
 
                     <xsl:if test="contains(skos:Concept/@rdf:about,'dainst')">
@@ -956,7 +991,7 @@
                 
                 </td>
                 <td>
-                    <xsl:value-of select="skos:Concept/skos:prefLabel/@xml:lang"/>
+                    <xsl:if test="skos:Concept/skos:prefLabel"><xsl:value-of select="skos:Concept/skos:prefLabel/@xml:lang"/></xsl:if>
                 </td>
             </tr>
         </xsl:for-each>

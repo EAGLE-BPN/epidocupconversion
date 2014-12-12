@@ -745,7 +745,7 @@
         <skos:altLabel xml:lang="fr">urne funéraire</skos:altLabel>
         <skos:altLabel xml:lang="el">τεφροδόχος</skos:altLabel>
         <skos:altLabel xml:lang="ru">погребальная урна</skos:altLabel>
-        <skos:altLabel xml:lang="Ar">جرة رماد</skos:altLabel>
+        <skos:altLabel xml:lang="ar">جرة رماد</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/78"/>
         <skos:exactMatch>
@@ -5848,7 +5848,7 @@
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1771">
-                <skos:prefLabel xml:lang="en-GB">base for statue</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">base for statue</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
@@ -6896,7 +6896,7 @@
         <skos:prefLabel xml:lang="de">Wandmalerei</skos:prefLabel>
         <skos:altLabel xml:lang="hu">falfestmény</skos:altLabel>
         <skos:altLabel xml:lang="en">mural painting</skos:altLabel>
-        <skos:altLabel xml:lang="a">murus, cum pictura</skos:altLabel>
+        <skos:altLabel xml:lang="la">murus, cum pictura</skos:altLabel>
         <skos:altLabel xml:lang="de">Wandgemälde</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
@@ -7025,6 +7025,7 @@
         <skos:altLabel xml:lang="el">πλίνθος, τούβλο</skos:altLabel>
         <skos:altLabel xml:lang="ru">кирпич</skos:altLabel>
         <skos:altLabel xml:lang="ar">قرميد</skos:altLabel>
+        <skos:scopeNote xml:lang="es">Ladrillo, Record No. 4297, Estampilla</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/951"/>
         <skos:exactMatch>
@@ -7046,16 +7047,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1129">
                 <skos:prefLabel xml:lang="de">Ziegel</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1129">
-                <skos:prefLabel xml:lang="de">Ziegel</skos:prefLabel>
-            </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_2.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=ladrillo&amp;rec=4297"
-            />
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300010463"/>

@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-12-10Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-12-10Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-12-12Z</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-12-12Z</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -61,7 +61,7 @@
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/skos/1771.rdf">
-                <skos:prefLabel xml:lang="en-GB">base for statue</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">base for statue</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>

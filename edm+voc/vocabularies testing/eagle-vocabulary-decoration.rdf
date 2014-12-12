@@ -1726,7 +1726,7 @@
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/710">
-                <skos:prefLabel xml:lang="en-GB">ivy leaf</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">ivy leaf</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
