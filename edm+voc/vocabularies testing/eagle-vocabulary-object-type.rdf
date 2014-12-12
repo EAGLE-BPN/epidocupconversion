@@ -11,13 +11,14 @@
         <dc:publisher/>
         <dc:rights/>
         <dc:subject/>
-        <dc:description><![CDATA[  ]]></dc:description>
+        <dc:description><![CDATA[  ]]></dc:description>a
         <dc:date>0000-00-00</dc:date>
         <dct:modified>2014-08-20 15:19:03</dct:modified>
         <dc:language>en</dc:language>
     </skos:ConceptScheme>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1826">
         <skos:prefLabel xml:lang="en">Abaton</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">religiöse Stätten der Gottesanbetung, die der Öffentlichkeit nicht zugänglich sind. Teilweise gleichbedeutend mit Adyton</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7922">
