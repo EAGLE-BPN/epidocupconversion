@@ -484,7 +484,7 @@
                                                 <xsl:value-of select="."/>
                                             </option>
                                         </xsl:for-each>
-                                        
+
                                         <INPUT TYPE="SUBMIT" VALUE="Go"/>
                                     </SELECT>
                                 </FORM>
@@ -506,7 +506,7 @@
                                                 <xsl:value-of select="."/>
                                             </option>
                                         </xsl:for-each>
-                                        
+
                                         <INPUT TYPE="SUBMIT" VALUE="Go"/>
                                     </SELECT>
                                 </FORM>
@@ -528,7 +528,7 @@
                                                 <xsl:value-of select="."/>
                                             </option>
                                         </xsl:for-each>
-                                        
+
                                         <INPUT TYPE="SUBMIT" VALUE="Go"/>
                                     </SELECT>
                                 </FORM>
@@ -775,83 +775,91 @@
                                 <xsl:apply-templates mode="b"/>
                                 <!-- apply templates for each file -->
                             </table>
-<br/>
+                            <br/>
 
-<div>                            <ul id="searches">
-                                <li>Find out more about this term:</li>
-                                <li>
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://en.wikipedia.org/wiki/Special:Search?search=',skos:prefLabel,'&amp;fulltext')"
-                                            />
-                                        </xsl:attribute>
-                                        <img width="5%" height="5%"
-                                            src="http://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png"
-                                            title="{concat('Search ',skos:prefLabel,' in Wikipedia (EN)')}"/>
-                                    </a>
-                                </li>
+                            <div>
+                                <ul id="searches">
+                                    <li>Find out more about this term:</li>
+                                    <li>
+                                        <a>
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of
+                                                    select="concat('https://en.wikipedia.org/wiki/Special:Search?search=',skos:prefLabel,'&amp;fulltext')"
+                                                />
+                                            </xsl:attribute>
+                                            <img width="5%" height="5%"
+                                                src="http://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png"
+                                                title="{concat('Search ',skos:prefLabel,' in Wikipedia (EN)')}"/>
+                                        </a>
+                                    </li>
 
-                                <li>
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://www.wikidata.org/w/index.php?search=',skos:prefLabel,'&amp;fulltext')"
-                                            />
-                                        </xsl:attribute>
-                                        <img width="5%" height="5%"
-                                            src="http://smallbiztrends.com/wp-content/uploads/2013/05/wikidata-logo-660x462.jpg"
-                                            title="{concat('Search ',skos:prefLabel,' in Wikidata')}"/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a><xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://www.google.com/search?as_epq=',skos:prefLabel)"
-                                            />
-                                        </xsl:attribute>
-                                        <img width="5%" height="5%"
-                                            src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfCP45qJe_tXuHkkAjf3sqKj2BxX0RxjE_9DBlsLbaTpsrjCx1Kg"
-                                            title="{concat('Search ',skos:prefLabel,' in Google')}"/>
-</a>
-                                </li>
-                                <li>
-                                    <a><xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat(' http://scholar.google.com/scholar?lr=&amp;ie=UTF-8&amp;q=%22',skos:prefLabel,'%22&amp;btnG=Search&amp;oe=UTF-8')"
-                                            />
-                                        </xsl:attribute>
-                                        <img width="5%" height="5%"
-                                            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoe8OM0OJIpQtArLh2Qeo6N1ohL_nentoovO0nl6t1HzXpUxvWx6az_XbD"
-                                            title="{concat('Search ',skos:prefLabel,' in Google Scholar')}"/>
-</a>
-                                </li>
+                                    <li>
+                                        <a>
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of
+                                                    select="concat('https://www.wikidata.org/w/index.php?search=',skos:prefLabel,'&amp;fulltext')"
+                                                />
+                                            </xsl:attribute>
+                                            <img width="5%" height="5%"
+                                                src="http://smallbiztrends.com/wp-content/uploads/2013/05/wikidata-logo-660x462.jpg"
+                                                title="{concat('Search ',skos:prefLabel,' in Wikidata')}"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of
+                                                    select="concat('https://www.google.com/search?as_epq=',skos:prefLabel)"
+                                                />
+                                            </xsl:attribute>
+                                            <img width="5%" height="5%"
+                                                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfCP45qJe_tXuHkkAjf3sqKj2BxX0RxjE_9DBlsLbaTpsrjCx1Kg"
+                                                title="{concat('Search ',skos:prefLabel,' in Google')}"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of
+                                                    select="concat(' http://scholar.google.com/scholar?lr=&amp;ie=UTF-8&amp;q=%22',skos:prefLabel,'%22&amp;btnG=Search&amp;oe=UTF-8')"
+                                                />
+                                            </xsl:attribute>
+                                            <img width="5%" height="5%"
+                                                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoe8OM0OJIpQtArLh2Qeo6N1ohL_nentoovO0nl6t1HzXpUxvWx6az_XbD"
+                                                title="{concat('Search ',skos:prefLabel,' in Google Scholar')}"/>
+                                        </a>
+                                    </li>
 
 
-                                <li>
-                                    <a><xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://www.google.com/search?q=',skos:prefLabel,'&amp;gws_rd=ssl&amp;tbm=isch')"
-                                            />
-                                        </xsl:attribute>
-                                        <img width="5%" height="5%"
-                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacAaEn4nn0A4697mmGf1A2-OflYYCI4j7F2lNitilAF4gOvnGJDzZJlFk"
-                                            title="{concat('Search ',skos:prefLabel,' in Google Images')}"/>
-</a>
-                                </li>
-                            </ul>
-<br/>
-                            <form style="float:right" action="http://www.eagle-network.eu/advanced-search">
-                                <input type="submit" value="EAGLE Advanced Search"/>
-                            </form>
-                              <form style="float:left"
-                                    action="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}"
-                                    ><input type="submit" value="Back to Index"/></form>
-                           <form style="float:left"
-                                    action="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
-                               ><input type="submit" value="Back to Intro"/></form>
-                            <form style="float:right" action="{concat($url,'skos/',$id,'.rdf')}"><input type="submit" value="See SKOS version"/></form>                 
-</div>
+                                    <li>
+                                        <a>
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of
+                                                    select="concat('https://www.google.com/search?q=',skos:prefLabel,'&amp;gws_rd=ssl&amp;tbm=isch')"
+                                                />
+                                            </xsl:attribute>
+                                            <img width="5%" height="5%"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacAaEn4nn0A4697mmGf1A2-OflYYCI4j7F2lNitilAF4gOvnGJDzZJlFk"
+                                                title="{concat('Search ',skos:prefLabel,' in Google Images')}"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <br/>
+                                <form style="float:right" action="http://www.eagle-network.eu/advanced-search">
+                                    <input type="submit" value="EAGLE Advanced Search"/>
+                                </form>
+                                <form style="float:left"
+                                    action="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}">
+                                    <input type="submit" value="Back to Index"/>
+                                </form>
+                                <form style="float:left"
+                                    action="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}">
+                                    <input type="submit" value="Back to Intro"/>
+                                </form>
+                                <form style="float:right" action="{concat($url,'skos/',$id,'.rdf')}">
+                                    <input type="submit" value="See SKOS version"/>
+                                </form>
+                            </div>
 
                             <script src="../../footer.js"/>
                         </div>
@@ -862,14 +870,16 @@
 
         <!--main table contents-->
         <xsl:apply-templates mode="b"/>
-       
+
     </xsl:template>
     <xsl:template match="skos:Concept/skos:closeMatch/skos:Concept[contains(@rdf:about,'chc.sbg.ac.at')]" mode="b">
         <tr>
             <td/>
             <td>External definition</td>
             <td>
-                <a href="{@rdf:about}"><xsl:value-of select="parent::*/preceding-sibling::skos:prefLabel"/></a>
+                <a href="{@rdf:about}">
+                    <xsl:value-of select="parent::*/preceding-sibling::skos:prefLabel"/>
+                </a>
             </td>
             <td/>
         </tr>
@@ -904,8 +914,12 @@
                             <xsl:value-of
                                 select="concat('http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?',$edhvocs,.)"
                             />
-                        </xsl:attribute><img height="20%" width="20%" src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif" title="Search in EDH"/></a>
-                   </xsl:if>
+                        </xsl:attribute>
+                        <img height="20%" width="20%"
+                            src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif"
+                            title="Search in EDH"/>
+                    </a>
+                </xsl:if>
                 <!-- if in de search in Heidelberg database but needs to take into account vocabulary type-->
             </td>
             <td/>
@@ -917,16 +931,72 @@
     </xsl:template>
     <xsl:template match="skos:scopeNote" mode="b">
         <xsl:for-each select=".">
-            <tr>
-                <td/>
-                <td>Definition</td>
-                <td>
-                    <xsl:value-of select="."/>
-                </td>
-                <td>
-                    <xsl:value-of select="@xml:lang"/>
-                </td>
-            </tr>
+            <xsl:choose>
+                <xsl:when test="contains(.,'HD') or contains(.,'http') or contains(.,'EDR') or contains(.,'HEpOnline') or contains(.,'UEL')">
+                    <tr>
+                        <td/>
+                        <td>Examples</td>
+                        <td>
+                            <xsl:choose>
+                                <xsl:when test="contains(.,'http')">
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="."/>
+                                        </xsl:attribute>
+External Example
+                                    </a>
+                                </xsl:when>
+                                <xsl:when test="contains(.,'HD')">
+                                    <xsl:for-each select="tokenize(.,' ')"><a>
+<xsl:attribute name="href">
+                                            <xsl:value-of select="concat('http://edh-www.adw.uni-heidelberg.de/edh/inschrift/', .)"/>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="."/></a><br/></xsl:for-each>
+                                </xsl:when>
+                                <xsl:when test="contains(.,'EDR')">
+                                    <xsl:for-each select="tokenize(.,' ')"><a>
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="concat('http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=', .)"/>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="."/></a><br/></xsl:for-each>
+                                </xsl:when>
+                                <xsl:when test="contains(.,'UEL')">
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="concat('www.ubi-erat-lupa.org/monument.php?id=', substring-after(., 'UEL '))"/>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="."/></a>
+                                </xsl:when>
+                                <xsl:when test="contains(.,'HEpOnline')">
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="concat('http://eda-bea.es/pub/record_card_2.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=Acuerdo+de+Hospitalidad&amp;rec=', substring-after(.,'HEpOnline '))"/>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="."/></a>
+                                </xsl:when>
+<xsl:otherwise>
+    <xsl:value-of select="."/>
+</xsl:otherwise>
+                            </xsl:choose>
+                        </td>
+                        <td>
+                            <xsl:value-of select="@xml:lang"/>
+                        </td>
+                    </tr>
+                </xsl:when>
+                <xsl:otherwise>
+                    <tr>
+                        <td/>
+                        <td>Definition</td>
+                        <td>
+                            <xsl:value-of select="."/>
+                        </td>
+                        <td>
+                            <xsl:value-of select="@xml:lang"/>
+                        </td>
+                    </tr>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="skos:historyNote" mode="b">
@@ -969,29 +1039,35 @@
                             <xsl:value-of select="skos:Concept/@rdf:about"/>
                         </xsl:attribute>
                         <xsl:choose>
-<xsl:when test="skos:Concept/skos:prefLabel"><xsl:value-of select="skos:Concept/skos:prefLabel"/>
-</xsl:when>
-<xsl:otherwise>
-    <xsl:value-of select="skos:Concept/@rdf:about"/>
-</xsl:otherwise>
+                            <xsl:when test="skos:Concept/skos:prefLabel">
+                                <xsl:value-of select="skos:Concept/skos:prefLabel"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="skos:Concept/@rdf:about"/>
+                            </xsl:otherwise>
                         </xsl:choose>
                     </a>
 
                     <xsl:if test="contains(skos:Concept/@rdf:about,'dainst')">
-                        
+
                         <a>
                             <xsl:attribute name="href">
                                 <xsl:value-of
                                     select="concat('http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=',skos:Concept/skos:prefLabel)"
                                 />
                             </xsl:attribute>
-                            <img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"/>  </a>
-                      
+                            <img width="50%" height="50%"
+                                src="http://arachne.uni-koeln.de/template/images/logo_gross.gif"
+                                title="Search in Arachne"/>
+                        </a>
+
                     </xsl:if>
-                
+
                 </td>
                 <td>
-                    <xsl:if test="skos:Concept/skos:prefLabel"><xsl:value-of select="skos:Concept/skos:prefLabel/@xml:lang"/></xsl:if>
+                    <xsl:if test="skos:Concept/skos:prefLabel">
+                        <xsl:value-of select="skos:Concept/skos:prefLabel/@xml:lang"/>
+                    </xsl:if>
                 </td>
             </tr>
         </xsl:for-each>
@@ -1024,8 +1100,12 @@
                                 <xsl:value-of
                                     select="concat('http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?',$edhvocs,.)"
                                 />
-                            </xsl:attribute><img height="20%" width="20%" src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif" title="Search this term in EDH"/></a>
-             
+                            </xsl:attribute>
+                            <img height="20%" width="20%"
+                                src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif"
+                                title="Search this term in EDH"/>
+                        </a>
+
                     </xsl:if>
                 </td>
                 <td>

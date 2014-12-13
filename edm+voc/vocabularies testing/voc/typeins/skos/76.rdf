@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/typeins.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-12-12Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-12-12Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-12-13Z</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-12-13Z</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -20,8 +20,9 @@
         <skos:prefLabel xml:lang="la">Defixio</skos:prefLabel>
         <skos:altLabel xml:lang="la">Tabula defixionis</skos:altLabel>
         <skos:scopeNote xml:lang="de">Fluch, Verwschung.</skos:scopeNote>
-        <skos:scopeNote xml:lang="en">
-            http://commons.wikimedia.org/wiki/File:Opisthographic_defixio_Terme.jpg</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD001039 HD013929</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">HEpOnline 2436</skos:scopeNote>
+      <skos:scopeNote xml:lang="en">http://commons.wikimedia.org/wiki/File:Opisthographic_defixio_Terme.jpg</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/78.rdf"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/77.rdf"/>
