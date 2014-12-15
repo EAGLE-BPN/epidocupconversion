@@ -15,16 +15,18 @@
             
             <xsl:copy-of select="ancestor::tei:TEI//tei:settlement/tei:placeName[not(@*[local-name()='modern'])]"/>
             <placeName type="modern_region">
-                <xsl:attribute name="ref">
+                <xsl:if test="ancestor::tei:TEI//tei:region/tei:placeName/@ref"> <xsl:attribute name="ref">
                     <xsl:value-of select="ancestor::tei:TEI//tei:region/tei:placeName/@ref"/>
-                </xsl:attribute>
+                </xsl:attribute></xsl:if>
                 <xsl:value-of select="ancestor::tei:TEI//tei:region/tei:placeName"/>
             </placeName>
             
             <placeName type="modernCountry">
-                <xsl:attribute name="ref">
+                <xsl:if test="ancestor::tei:TEI//tei:country/tei:placeName/@ref">
+<xsl:attribute name="ref">
                     <xsl:value-of select="ancestor::tei:TEI//tei:country/tei:placeName/@ref"/>
                 </xsl:attribute>
+</xsl:if>
                 <xsl:value-of select="ancestor::tei:TEI//tei:country/tei:placeName"/>
             </placeName>
         </provenance>
@@ -32,9 +34,9 @@
     <!--removes from msIdentifier unwanted info-->
     
     
-    <xsl:template match="tei:country"/>
-    <xsl:template match="tei:settlement"/>
-    <xsl:template match="tei:region"/>
+    <xsl:template match="//tei:country"/>
+    <xsl:template match="//tei:settlement"/>
+    <xsl:template match="//tei:region"/>
     
     
     <xsl:template match="//tei:placeName[not(node())]"/>

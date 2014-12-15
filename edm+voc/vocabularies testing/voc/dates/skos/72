@@ -1,0 +1,64 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                       rdf:about="http://www.eagle-network.eu/voc/dates/">EAGLE Vocabulary - Dating Criteria<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                            BPN)</dc:creator>
+      <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
+                      rdf:about="http//:www.eagle-network.eu/resources/vocabularies/dates.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-12-15Z</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-12-15Z</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+                 xmlns:dct="http://purl.org/dc/terms/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 rdf:about="http://www.eagle-network.eu/voc/dates/skos/72">
+        <skos:prefLabel xml:lang="en">centuries</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/74"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/93"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/75"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/94"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/109"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/73"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/112"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/80"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/99"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/106"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/87"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/92"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/91"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/78"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/97"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/105"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/88"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/100"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/101"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/102"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/77"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/96"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/76"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/95"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/110"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/103"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/90"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/79"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/98"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/85"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/108"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/107"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/86"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/111"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/104"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/89"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/83"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/84"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/82"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/81"/>
+        <dct:created>2013-08-21 08:55:22</dct:created>
+    </skos:Concept>
+</rdf:RDF>

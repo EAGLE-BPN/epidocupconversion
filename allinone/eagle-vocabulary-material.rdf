@@ -819,7 +819,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/10">
         <skos:prefLabel xml:lang="fr">Gabbro</skos:prefLabel>
-        <skos:altLabel xml:lang="he">Gabbró</skos:altLabel>
+        <skos:altLabel xml:lang="hu">Gabbró</skos:altLabel>
         <skos:altLabel xml:lang="es">Gabro</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/8"/>
@@ -1161,7 +1161,7 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/78">
-        <skos:prefLabel xml:lang="De">Kalktuff</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kalktuff</skos:prefLabel>
         <skos:altLabel xml:lang="en">Calcareous Tuff</skos:altLabel>
         <skos:altLabel xml:lang="la">tofus</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>

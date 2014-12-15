@@ -61,13 +61,13 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/1">
         <skos:prefLabel xml:lang="en">Good</skos:prefLabel>
-        <skos:altLabel xml:lang="en">bueno</skos:altLabel>
+        <skos:altLabel xml:lang="es">bueno</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
         <dct:created>2013-10-02 00:41:34</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/5">
         <skos:prefLabel xml:lang="en">Incomplete</skos:prefLabel>
-        <skos:altLabel xml:lang="sp">incompleta</skos:altLabel>
+        <skos:altLabel xml:lang="es">incompleta</skos:altLabel>
         <skos:scopeNote xml:lang="it">Documento frammentario, di cui si conserva meno della
             metdell'intera iscrizione.</skos:scopeNote>
         <skos:historyNote xml:lang="it">Esempi: EDR000970 EDR000991</skos:historyNote>

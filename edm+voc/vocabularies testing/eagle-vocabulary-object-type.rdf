@@ -7123,7 +7123,14 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2013-10-20 11:44:21</dct:created>
     </skos:Concept>
-
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1961">
+        <skos:prefLabel xml:lang="la">Rostrum</skos:prefLabel>
+        <skos:altLabel xml:lang="el">ἔμβολον</skos:altLabel>
+        <skos:altLabel xml:lang="it">Rostro</skos:altLabel>
+        <skos:note xml:lang="en">See Prag, Journal of Roman Archaeology 27 (2014) Zotero link: https://www.zotero.org/eaglebpn/items/itemKey/CDEH347S</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2014-12-15 16:13:29</dct:created>
+    </skos:Concept>
 
 
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/322">

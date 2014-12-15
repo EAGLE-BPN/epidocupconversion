@@ -43,18 +43,17 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/132">
         <skos:prefLabel xml:lang="es">Acuerdo de Hospitalidad</skos:prefLabel>
+<skos:scopeNote xml:lang="es">HEpOnline 2866</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:36:06</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/113">
         <skos:prefLabel xml:lang="la">Adnuntiatio</skos:prefLabel>
-        <skos:scopeNote xml:lang="de"> Bekanntmachung; Ankdigung (z. B. vonmunera) Nichtrechtliche
+        <skos:scopeNote xml:lang="de">Bekanntmachung; Ankdigung (z. B. von munera) Nichtrechtliche
             Verfungen(s.Rechtliche Verfung, fentlich / privat) </skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD053407</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD053407"/>
-        </skos:exactMatch>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-15 16:56:04</dct:modified>
     </skos:Concept>
@@ -67,10 +66,10 @@
         <skos:prefLabel xml:lang="de">Akklamation</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Acclamation</skos:altLabel>
         <skos:altLabel xml:lang="es">Aclamación</skos:altLabel>
-        <skos:scopeNote xml:lang="de"> Ausrufe; Anrufungen. Wahlslogans, Glkwsche, Sinnsprhe. Nicht
-            beiDefixiooder Anrufungen an Gott (s.Gebet). </skos:scopeNote>
-        <skos:historyNote xml:lang="en">Examples: vivas; spes in Deo salvo episcopo Marciano
-            HD008112 HD018228</skos:historyNote>
+        <skos:scopeNote xml:lang="de">Ausrufe; Anrufungen. Wahlslogans, Glkwsche, Sinnsprhe. Nicht
+            bei Defixio oder Anrufungen an Gott (s.Gebet). </skos:scopeNote>
+        <skos:historyNote xml:lang="en">Examples: vivas; spes in Deo salvo episcopo Marciano</skos:historyNote>
+        <skos:scopeNote xml:lang="en">HD008112 HD018228 HD007473 HD058290</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/75"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/74"/>
@@ -88,7 +87,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/112">
         <skos:prefLabel xml:lang="fr">Alphabet</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
-         <dct:created>2013-08-01 12:27:53</dct:created>
+<skos:scopeNote xml:lang="de">UEL 6848</skos:scopeNote>         
+<dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:13:48</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/52">
@@ -101,7 +101,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/141">
         <skos:prefLabel xml:lang="es">Anepígrafa</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
-        <dct:created>2013-08-01 12:27:53</dct:created>
+<skos:scopeNote xml:lang="es">HEpOnline 6898</skos:scopeNote>        
+<dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:40:12</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/78">
@@ -114,9 +115,9 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/116">
         <skos:prefLabel xml:lang="de">Assignationsinschrift</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
-        
-        <dct:created>2013-08-01 12:27:53</dct:created>
+<skos:scopeNote xml:lang="de">http://cil.bbaw.de/test06/bilder/datenbank/PH0008101.jpg</skos:scopeNote>        
+<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+       <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-15 17:01:56</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/115">
@@ -127,8 +128,9 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/374">
-                <skos:prefLabel xml:lang="fr">Signature d´artiste</skos:prefLabel>
-            </skos:Concept>
+                <skos:prefLabel xml:lang="fr">Signature d'artiste</skos:prefLabel>
+<skos:scopeNote xml:lang="de">HD001827</skos:scopeNote>            
+</skos:Concept>
         </skos:exactMatch>
           <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:15:19</dct:modified>
@@ -158,8 +160,10 @@
             constructed or restored it</skos:scopeNote>
         <skos:scopeNote xml:lang="it">iscrizione apposta su edificio o altro da chi lo costruo lo
             restaur</skos:scopeNote>
-        <skos:scopeNote xml:lang="de">Auch bei wiederhergestellten Monumenten.</skos:scopeNote>
-        <skos:historyNote xml:lang="en">Examples: aedem cum signo fecit balneum restituit </skos:historyNote>
+<skos:scopeNote xml:lang="en">HD011387</skos:scopeNote>
+        <skos:scopeNote xml:lang="la">EDR092961</skos:scopeNote>        
+<skos:scopeNote xml:lang="de">Auch bei wiederhergestellten Monumenten.</skos:scopeNote>
+        <skos:historyNote xml:lang="en">Examples: "aedem cum signo fecit balneum restituit"</skos:historyNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/356"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/90"/>
@@ -190,7 +194,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/109">
         <skos:prefLabel xml:lang="de">Beischrift</skos:prefLabel>
         <skos:altLabel xml:lang="en">label</skos:altLabel>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+<skos:scopeNote xml:lang="de">HD036515</skos:scopeNote>        
+<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/333">
                 <skos:prefLabel xml:lang="fr">Signature d’artiste</skos:prefLabel>
@@ -362,7 +367,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/81">
         <skos:prefLabel xml:lang="es">Cultual</skos:prefLabel>
         <skos:altLabel xml:lang="de">Kultinschrift</skos:altLabel>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+<skos:scopeNote xml:lang="es">HEpOnline 5250</skos:scopeNote>        
+<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/80"/>
           <dct:created>2013-08-01 12:27:53</dct:created>
     </skos:Concept>
@@ -452,8 +458,9 @@
         <skos:prefLabel xml:lang="la">Defixio</skos:prefLabel>
         <skos:altLabel xml:lang="la">Tabula defixionis</skos:altLabel>
         <skos:scopeNote xml:lang="de">Fluch, Verwschung.</skos:scopeNote>
-        <skos:scopeNote xml:lang="en">
-            http://commons.wikimedia.org/wiki/File:Opisthographic_defixio_Terme.jpg</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD001039 HD013929</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">HEpOnline 2436</skos:scopeNote>
+<skos:scopeNote xml:lang="en">http://commons.wikimedia.org/wiki/File:Opisthographic_defixio_Terme.jpg</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/78"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/77"/>
@@ -520,8 +527,10 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/70">
         <skos:prefLabel xml:lang="la">Elogium</skos:prefLabel>
         <skos:altLabel xml:lang="es">Homenaje</skos:altLabel>
-        <skos:scopeNote xml:lang="de">Ehrung im Nominativ mit Tatenkatalog (vgl.
-            dagegenBeischrift,Ehreninschrift).</skos:scopeNote>
+<skos:scopeNote xml:lang="de">HD002919</skos:scopeNote>        
+<skos:scopeNote xml:lang="es">HEpOnline 9</skos:scopeNote>
+<skos:scopeNote xml:lang="de">Ehrung im Nominativ mit Tatenkatalog (vgl.
+            dagegen Beischrift, Ehreninschrift).</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/72"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/69"/>
@@ -544,13 +553,15 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/118">
         <skos:prefLabel xml:lang="es">Estampilla</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Estampille tégulaire</skos:altLabel>
-        <skos:altLabel xml:lang="en">stamp</skos:altLabel>
+        <skos:altLabel xml:lang="en">stamp</skos:altLabel>    
+<skos:scopeNote xml:lang="es">HEpOnline 50</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
          <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:26:07</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/145">
-        <skos:prefLabel xml:lang="es">Evergética</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Evergética</skos:prefLabel>    
+<skos:scopeNote xml:lang="es">HEpOnline 1946</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
              <dct:created>2013-08-20 12:04:41</dct:created>
     </skos:Concept>
@@ -580,6 +591,8 @@
         <skos:scopeNote xml:lang="it">it. calendari, elenchi di magistrati, ogni tipo di documento
             legislativo (leggi, senatoconsulti, costituzioni imperiali, editti, decreti, atti di
             collegi, ecc.)</skos:scopeNote>
+<skos:scopeNote xml:lang="de">HD000674</skos:scopeNote>
+<skos:scopeNote xml:lang="la">EDR003059</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/12"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/46"/>
@@ -603,21 +616,15 @@
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/44"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/45"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/108"/>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR003059"
-            />
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000674"/>
-        </skos:exactMatch>
+        
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 11:45:21</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/50">
         <skos:prefLabel xml:lang="es">Fideicomiso</skos:prefLabel>
         <skos:altLabel xml:lang="la">Fideicommisum</skos:altLabel>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+<skos:scopeNote>HEpOnline 17542</skos:scopeNote>        
+<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/5"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/49"/>
          <dct:created>2013-08-01 12:27:53</dct:created>
@@ -642,7 +649,8 @@
         <skos:prefLabel xml:lang="de">Gebet</skos:prefLabel>
         <skos:altLabel xml:lang="hu">Ima</skos:altLabel>
         <skos:altLabel xml:lang="en">Prayer</skos:altLabel>
-        <skos:scopeNote xml:lang="de">Anrufung an Gott (vgl. dagegenAkklamation).</skos:scopeNote>
+<skos:scopeNote xml:lang="de">HD029715</skos:scopeNote>        
+<skos:scopeNote xml:lang="de">Anrufung an Gott (vgl. dagegenAkklamation).</skos:scopeNote>
         <skos:historyNote xml:lang="de">Examples: C(h)ristus Deus Dei filius custodiat artefices(!) </skos:historyNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/80"/>
@@ -651,13 +659,15 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/137">
         <skos:prefLabel xml:lang="es">Glande, chumbo</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+<skos:scopeNote xml:lang="es">HEpOnline 3742</skos:scopeNote>        
+<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
          <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:38:44</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/370">
         <skos:prefLabel xml:lang="en">graffito</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <skos:scopeNote xml:lang="es">HEpOnline 76</skos:scopeNote>        
+<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
          <dct:created>2014-03-13 11:28:33</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/127">
@@ -729,8 +739,9 @@
         <skos:scopeNote xml:lang="en">text in honor of someone (excluding funerary)</skos:scopeNote>
         <skos:scopeNote xml:lang="it">it. iscrizione in onore di qualcuno (escluse le
             sepolcrali)</skos:scopeNote>
-        <skos:scopeNote xml:lang="de">Ehrung im Dativ (vgl.
-            dagegenBeischrift,Elogium).</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Ehrung im Dativ (vgl. dagegen Beischrift, Elogium).</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD000450</skos:scopeNote>
+        <skos:scopeNote xml:lang="la">EDR079521</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/355"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/70"/>
@@ -775,6 +786,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/143">
         <skos:prefLabel xml:lang="la">Ignoratur</skos:prefLabel>
         <skos:altLabel xml:lang="hu">meghatározhatatlan</skos:altLabel>
+        <skos:scopeNote xml:lang="la">EDR004927</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:21:43</dct:modified>
@@ -847,6 +859,8 @@
         <skos:altLabel xml:lang="hu">Naptár</skos:altLabel>
         <skos:scopeNote xml:lang="de"> Dauerkalendarium; Aufstellung aller Tage des Jahres mit
             Angabe von Markt- und Festtagen. Nicht Fasten oder Feriale (s.Verzeichnis). </skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD045018</skos:scopeNote>
+        <skos:scopeNote xml:lang="la">EDR078788</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/1"/>
         <skos:exactMatch>
@@ -868,6 +882,7 @@
         <skos:altLabel xml:lang="de">Gesetz</skos:altLabel>
         <skos:altLabel xml:lang="es">Ley</skos:altLabel>
         <skos:altLabel xml:lang="es">Ley / jurídica</skos:altLabel>
+        <skos:scopeNote xml:lang="es">HEpOnline 1755</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/183"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/1"/>
@@ -1055,7 +1070,9 @@
         <skos:prefLabel xml:lang="de">Meilen-/Leugenstein</skos:prefLabel>
         <skos:altLabel xml:lang="hu">mérföldkő</skos:altLabel>
         <skos:altLabel xml:lang="en">Milestone</skos:altLabel>
-        <skos:scopeNote xml:lang="de">Auch bei Entfernungsangabe in leugae.</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Auch bei Entfernungs angabe in leugae.</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD060883</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">HEpOnline 1881</skos:scopeNote>
         <skos:historyNote xml:lang="de">Leugenstein Examples: </skos:historyNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/96"/>
@@ -1095,6 +1112,8 @@
         <skos:prefLabel xml:lang="de">Militärdiplom</skos:prefLabel>
         <skos:altLabel xml:lang="hu">katonai diploma</skos:altLabel>
         <skos:altLabel xml:lang="en">Military diploma</skos:altLabel>
+        <skos:scopeNote xml:lang="de">HD014561</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">HEpOnline 6013</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/107"/>
         <skos:exactMatch>
@@ -1182,6 +1201,7 @@
         <skos:altLabel xml:lang="en">Public legal inscription</skos:altLabel>
         <skos:scopeNote xml:lang="de"> Seitens einer Institution oder einer Person in ihrer
             fentlichen Funktion. Auch Vertre und Vereinbarungen. </skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD033614</skos:scopeNote>
         <skos:historyNote xml:lang="de">Stadtrecht Senatus consultum </skos:historyNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/1"/>
@@ -1195,6 +1215,8 @@
         <skos:altLabel xml:lang="es">Convención de derecho privado</skos:altLabel>
         <skos:scopeNote xml:lang="de">Seitens einer Institution oder einer Person in ihrer
             fentlichen Funktion. Auch Vertre und Vereinbarungen. </skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD027831</skos:scopeNote>
+        <skos:scopeNote xml:lang="la">EDR076943</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/1"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/50"/>
@@ -1258,6 +1280,8 @@
         <skos:scopeNote xml:lang="en">Text for a divinity or similar, including dedications and or
             other religious texts, such as sacred laws</skos:scopeNote>
         <skos:scopeNote xml:lang="it">Iscrizione per divinito assimilabile</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD000052</skos:scopeNote>
+        <skos:scopeNote xml:lang="la">EDR001690</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/80"/>
          <dct:created>2013-08-01 12:27:53</dct:created>
@@ -1289,6 +1313,9 @@
         <skos:altLabel xml:lang="hu">sírfelirat</skos:altLabel>
         <skos:scopeNote xml:lang="de">Nicht bei Grabcippi, auf denen die Gre des Grabbezirks genannt
             ist (s.Grenzmarkierung).</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD002154</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">HEpOnline 35</skos:scopeNote>
+        <skos:scopeNote xml:lang="la">EDR000008</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/93"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/354"/>
@@ -1324,6 +1351,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/111">
         <skos:prefLabel xml:lang="de">Sitzinschrift</skos:prefLabel>
         <skos:altLabel xml:lang="hu">ülésfelirat</skos:altLabel>
+        <skos:scopeNote xml:lang="de">HD047007</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:12:59</dct:modified>
@@ -1370,6 +1398,8 @@
         <skos:scopeNote xml:lang="it">qualsiasi tipo di iscrizione avente lo scopo di definire lo
             spazio (compresi cippi di centuriazione e miliari)</skos:scopeNote>
         <skos:historyNote xml:lang="en"> fines posuit (AE 1985, 0730) Iter precarium Examples: </skos:historyNote>
+        <skos:scopeNote xml:lang="de">HD065913</skos:scopeNote>
+        <skos:scopeNote xml:lang="la">EDR075677</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/97"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/98"/>
@@ -1443,6 +1473,8 @@
         <skos:prefLabel xml:lang="la">tit. dedicatorius</skos:prefLabel>
         <skos:altLabel xml:lang="es">Dédicatoria de monumento</skos:altLabel>
         <skos:altLabel xml:lang="en">Dedicatory</skos:altLabel>
+        <skos:scopeNote xml:lang="de">HD000364</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">HEpOnline 573</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/86"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/89"/>
@@ -1486,6 +1518,8 @@
             beiSitzinschrift. </skos:scopeNote>
         <skos:historyNote xml:lang="la"> P(ubli) Lur[i] Hedyla[li] (AE 1967, 0071b) ex officina
             Examples HD060557</skos:historyNote>
+        <skos:scopeNote xml:lang="de">HD006115</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">HEpOnline 9526</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/104"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/110"/>
@@ -1531,6 +1565,7 @@
             Jahren sortiert; vgl. dagegenKalender); Kataster.</skos:scopeNote>
         <skos:historyNote xml:lang="de"> Verzeichnis von Streckenabschnitten (CIL 02 (2. Aufl.) 14,
             00038) Konsulliste Acta fratrum Arvalium </skos:historyNote>
+        <skos:scopeNote xml:lang="de">HD060750</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/2"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/1"/>
@@ -1660,6 +1695,8 @@
         <skos:prefLabel xml:lang="de">Weihinschrift</skos:prefLabel>
         <skos:altLabel xml:lang="hu">Fogadalmi felirat</skos:altLabel>
         <skos:scopeNote xml:lang="de">Weihung an eine Gottheit (vgl. dagegenGebet).</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">HD006024</skos:scopeNote>
+        <skos:scopeNote xml:lang="la">EDR078767</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/81"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/83"/>

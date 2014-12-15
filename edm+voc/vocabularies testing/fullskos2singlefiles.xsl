@@ -645,12 +645,12 @@
     </xsl:template>
     <xsl:template match="//@*[contains(., 'eagle') and contains(.,'lod')]" mode="skosuris">
         <xsl:attribute name="rdf:{local-name()}">
-            <xsl:value-of select="concat(replace(., 'lod', 'skos'), '.rdf')"/>
+            <xsl:value-of select="replace(., 'lod', 'skos')"/>
         </xsl:attribute>
     </xsl:template>
     <xsl:template match="//@*[contains(., 'eagle') and contains(.,'lod')]" mode="skosurissinglefile">
         <xsl:attribute name="rdf:{local-name()}">
-            <xsl:value-of select="concat(replace(., 'lod', 'skos'), '.rdf')"/>
+            <xsl:value-of select="replace(., 'lod', 'skos')"/>
         </xsl:attribute>
     </xsl:template>
 
@@ -664,7 +664,7 @@
 
             <!--skos-->
             <xsl:variable name="filenameskos"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.rdf')"/>
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id)"/>
             <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes"
                 exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -695,7 +695,7 @@
                     </skos:ConceptScheme>
                     <xsl:copy>
                         <xsl:attribute name="rdf:about">
-                            <xsl:value-of select="concat(replace(@rdf:about, 'lod', 'skos'), '.rdf')"/>
+                            <xsl:value-of select="replace(@rdf:about, 'lod', 'skos')"/>
                         </xsl:attribute>
                         <xsl:apply-templates mode="skosuris"/>
                     </xsl:copy>
@@ -856,7 +856,7 @@
                                     action="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}">
                                     <input type="submit" value="Back to Intro"/>
                                 </form>
-                                <form style="float:right" action="{concat($url,'skos/',$id,'.rdf')}">
+                                <form style="float:right" action="{concat($url,'skos/',$id)}">
                                     <input type="submit" value="See SKOS version"/>
                                 </form>
                             </div>
@@ -1019,8 +1019,15 @@ External Example
                 <td/>
                 <td>Bibliography</td>
                 <td>
-                    <xsl:value-of select="."/>
-                </td>
+                <xsl:choose>    <xsl:when test="contains(., 'Zotero link')">
+                    <xsl:value-of select="substring-before(., 'Zotero link:')"/>
+                        <a href="{substring-after(.,'Zotero link: ')}">
+                            See in Zotero
+                        </a>
+                    </xsl:when>
+                    
+                    <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+                </xsl:choose></td>
                 <td>
                     <xsl:value-of select="@xml:lang"/>
                 </td>
@@ -1198,7 +1205,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
 
  -->
             <xsl:variable name="filenameskos"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id,'.rdf')"/>
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id)"/>
             <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes"
                 exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -1229,7 +1236,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                     </skos:ConceptScheme>
                     <xsl:copy>
                         <xsl:attribute name="rdf:about">
-                            <xsl:value-of select="concat(replace(@rdf:about, 'lod', 'skos'), '.rdf')"/>
+                            <xsl:value-of select="replace(@rdf:about, 'lod', 'skos')"/>
                         </xsl:attribute>
                         <xsl:apply-templates mode="skosuris"/>
                     </xsl:copy>
@@ -1324,11 +1331,11 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                                     <xsl:value-of select="substring-after(ancestor::skos:Concept/@rdf:about, 'lod/')"/>
 
                                 </xsl:variable>
-                                <a href="{concat($url,'skos/',$idmain,'.rdf')}">See SKOS version (of the equivalent
+                                <a href="{concat($url,'skos/',$idmain)}">See SKOS version (of the equivalent
                                     term)</a>
                             </p>
                             <p>
-                                <a href="{concat($url,'skos/',$id,'.rdf')}">See SKOS version of this term</a>
+                                <a href="{concat($url,'skos/',$id)}">See SKOS version of this term</a>
                             </p>
                             <script src="../../footer.js"/>
                         </div>

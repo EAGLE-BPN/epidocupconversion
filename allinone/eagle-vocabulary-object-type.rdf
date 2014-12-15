@@ -18,6 +18,7 @@
     </skos:ConceptScheme>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1826">
         <skos:prefLabel xml:lang="en">Abaton</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Stätten der Kultausübung, die der Öffentlichkeit nicht zugänglich sind. Teilweise gleichbedeutend mit Adyton</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7922">
@@ -91,7 +92,9 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/15">
         <skos:prefLabel xml:lang="la">Aes, fragmentum</skos:prefLabel>
+        <skos:altLabel xml:lang="es">bronce, fragmento</skos:altLabel>
         <skos:altLabel xml:lang="hu">bronz töredék</skos:altLabel>
+        <skos:scopeNote xml:lang="it">Frammento di un oggetto in bronzo di natura non meglio specificata</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1232">
@@ -743,7 +746,7 @@
         <skos:altLabel xml:lang="fr">urne funéraire</skos:altLabel>
         <skos:altLabel xml:lang="el">τεφροδόχος</skos:altLabel>
         <skos:altLabel xml:lang="ru">погребальная урна</skos:altLabel>
-        <skos:altLabel xml:lang="Ar">جرة رماد</skos:altLabel>
+        <skos:altLabel xml:lang="ar">جرة رماد</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/78"/>
         <skos:exactMatch>
@@ -2922,6 +2925,7 @@
         <skos:prefLabel xml:lang="de">Grabaltar</skos:prefLabel>
         <skos:altLabel xml:lang="en">altar, funerary</skos:altLabel>
         <skos:altLabel xml:lang="de">Altar, Grab</skos:altLabel>
+        <skos:altLabel xml:lang="es">Altar, Funerario</skos:altLabel>
         <skos:altLabel xml:lang="it">ara sepolcrale</skos:altLabel>
         <skos:altLabel xml:lang="la">ara, sepulcrum</skos:altLabel>
         <skos:altLabel xml:lang="fr">autel, tombeau</skos:altLabel>
@@ -5845,7 +5849,7 @@
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1771">
-                <skos:prefLabel xml:lang="en-GB">base for statue</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">base for statue</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
@@ -6893,7 +6897,7 @@
         <skos:prefLabel xml:lang="de">Wandmalerei</skos:prefLabel>
         <skos:altLabel xml:lang="hu">falfestmény</skos:altLabel>
         <skos:altLabel xml:lang="en">mural painting</skos:altLabel>
-        <skos:altLabel xml:lang="a">murus, cum pictura</skos:altLabel>
+        <skos:altLabel xml:lang="la">murus, cum pictura</skos:altLabel>
         <skos:altLabel xml:lang="de">Wandgemälde</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
@@ -7022,6 +7026,7 @@
         <skos:altLabel xml:lang="el">πλίνθος, τούβλο</skos:altLabel>
         <skos:altLabel xml:lang="ru">кирпич</skos:altLabel>
         <skos:altLabel xml:lang="ar">قرميد</skos:altLabel>
+        <skos:scopeNote xml:lang="es">Ladrillo, Record No. 4297, Estampilla</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/951"/>
         <skos:exactMatch>
@@ -7043,16 +7048,6 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1129">
                 <skos:prefLabel xml:lang="de">Ziegel</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1129">
-                <skos:prefLabel xml:lang="de">Ziegel</skos:prefLabel>
-            </skos:Concept>
-        </skos:exactMatch>
-        <skos:exactMatch>
-            <skos:Concept
-                rdf:about="http://eda-bea.es/pub/record_card_2.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=ladrillo&amp;rec=4297"
-            />
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300010463"/>
@@ -7102,7 +7097,7 @@
     </skos:Concept>
 
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1958">
-        <skos:prefLabel xml:lang="en">  TS bowl</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">TS bowl</skos:prefLabel>
         <skos:altLabel xml:lang="en">TS bowl foot</skos:altLabel>
         <skos:altLabel xml:lang="en">TS foot fragment</skos:altLabel>
         <skos:altLabel xml:lang="en">TS fragment</skos:altLabel>
@@ -7128,7 +7123,14 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2013-10-20 11:44:21</dct:created>
     </skos:Concept>
-
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1961">
+        <skos:prefLabel xml:lang="la">Rostrum</skos:prefLabel>
+        <skos:altLabel xml:lang="el">ἔμβολον</skos:altLabel>
+        <skos:altLabel xml:lang="it">Rostro</skos:altLabel>
+        <skos:note xml:lang="en">See Prag, Journal of Roman Archaeology 27 (2014) Zotero link: https://www.zotero.org/eaglebpn/items/itemKey/CDEH347S</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2014-12-15 16:13:29</dct:created>
+    </skos:Concept>
 
 
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/322">

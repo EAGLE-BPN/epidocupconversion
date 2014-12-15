@@ -34,7 +34,7 @@
       <dct:created>2013-08-26 11:29:56</dct:created>
         <dct:modified>2013-08-26 11:30:28</dct:modified>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/3">
+      <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/3">
         <skos:prefLabel xml:lang="la">Caelo</skos:prefLabel>
         <skos:altLabel xml:lang="it">a bulino</skos:altLabel>
         <skos:altLabel xml:lang="en">engraved</skos:altLabel>
@@ -332,7 +332,7 @@
         <skos:altLabel xml:lang="fr">peint</skos:altLabel>
         <skos:altLabel xml:lang="es">pintado</skos:altLabel>
         <skos:altLabel xml:lang="el">ζωγραφισμένo, ιστορημένo</skos:altLabel>
-        <skos:altLabel xml:lang="re">дипинто</skos:altLabel>
+        <skos:altLabel xml:lang="ru">дипинто</skos:altLabel>
         <skos:altLabel xml:lang="ar">مطلي</skos:altLabel>
         <skos:scopeNote xml:lang="en">painted inscription</skos:scopeNote>
         <skos:scopeNote xml:lang="it">Iscrizione dipinta. Si riferisce a quelle iscrizioni che sono

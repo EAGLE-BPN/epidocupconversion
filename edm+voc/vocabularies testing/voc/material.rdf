@@ -16,12 +16,12 @@
         <dc:date>1998-11-30</dc:date>
         <dct:modified>2014-05-07 15:38:59</dct:modified>
         <dc:language>en</dc:language>
-        <skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
-        <skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/material/skos/138.rdf"/>
-        <skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/material/skos/107.rdf"/>
-        <skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/material/skos/1.rdf"/>
+        <skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
+        <skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/material/skos/138"/>
+        <skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/material/skos/107"/>
+        <skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/material/skos/1"/>
     </skos:ConceptScheme>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/2.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/2">
         <skos:prefLabel xml:lang="en">(Local) Stone</skos:prefLabel>
         <skos:altLabel xml:lang="tr">kamen</skos:altLabel>
         <skos:altLabel xml:lang="fi">kivi</skos:altLabel>
@@ -38,7 +38,7 @@
         <skos:altLabel xml:lang="bg">камък</skos:altLabel>
         <skos:altLabel xml:lang="ar">حجر</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8027">
                 <skos:prefLabel xml:lang="de">Gestein</skos:prefLabel>
@@ -46,17 +46,17 @@
         </skos:exactMatch>
         <dct:created>2013-08-20 17:25:29</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/735.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/735">
         <skos:prefLabel xml:lang="de">(vulkanische) Breccie</skos:prefLabel>
         <skos:altLabel xml:lang="es">Brecha (volcanic) breccia</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/28.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/28"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/36"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/30.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/30">
         <skos:prefLabel xml:lang="de">(vulkanischer) Tuff</skos:prefLabel>
         <skos:altLabel xml:lang="en">(volcanic) tuff</skos:altLabel>
       <skos:altLabel xml:lang="de">Tuff</skos:altLabel>
@@ -65,7 +65,7 @@
         <skos:altLabel xml:lang="fr">tuf volcanique</skos:altLabel>
         <skos:altLabel xml:lang="hu">tufa</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/28.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/28"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6303">
                 <skos:prefLabel xml:lang="de">Tuff</skos:prefLabel>
@@ -76,12 +76,12 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/88.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/88">
         <skos:prefLabel xml:lang="de">Achat</skos:prefLabel>
         <skos:altLabel xml:lang="hu">achát</skos:altLabel>
         <skos:altLabel xml:lang="en">Achat</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4718">
                 <skos:prefLabel xml:lang="de">Achat</skos:prefLabel>
@@ -92,13 +92,13 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/136.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/136">
         <skos:prefLabel xml:lang="en">Acrolithic</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/109.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/109">
         <skos:prefLabel xml:lang="la">aes</skos:prefLabel>
         <skos:altLabel xml:lang="es">bronce</skos:altLabel>
         <skos:altLabel xml:lang="hu">bronz</skos:altLabel>
@@ -112,8 +112,8 @@
         <skos:altLabel xml:lang="bg">бронз</skos:altLabel>
         <skos:altLabel xml:lang="ar">برونز</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/110.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/110"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1591">
                 <skos:prefLabel xml:lang="de">Bronze</skos:prefLabel>
@@ -121,11 +121,11 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/304.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/304">
         <skos:prefLabel xml:lang="de">Amethyst</skos:prefLabel>
         <skos:altLabel xml:lang="hu">ametiszt</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4762">
                 <skos:prefLabel xml:lang="de">Amethyst</skos:prefLabel>
@@ -133,45 +133,45 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:21:28</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/35.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/35">
         <skos:prefLabel xml:lang="de">Amphibolit</skos:prefLabel>
         <skos:altLabel xml:lang="hu">amfibol</skos:altLabel>
         <skos:altLabel xml:lang="en">amphibolite</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/39"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/43.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/43">
         <skos:prefLabel xml:lang="de">Amphibolit</skos:prefLabel>
         <skos:altLabel xml:lang="en">amphibolite</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/46"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/309.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/309">
         <skos:prefLabel xml:lang="de">anderes metall</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/107.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/109.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/111.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/113.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/114.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/108.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/116.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/107"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/109"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/111"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/113"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/114"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/108"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/116"/>
         <dct:created>2013-09-23 20:24:04</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/15.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/15">
         <skos:prefLabel xml:lang="de">Andesit</skos:prefLabel>
         <skos:altLabel xml:lang="en">Andesite</skos:altLabel>
         <skos:altLabel xml:lang="hu">Andezit</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4766">
                 <skos:prefLabel xml:lang="de">Andesit</skos:prefLabel>
@@ -182,45 +182,45 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/22.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/22">
         <skos:prefLabel xml:lang="de">Andesit-Porphyr</skos:prefLabel>
         <skos:altLabel xml:lang="hu">andezit-porfír</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/30"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/100.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/100">
         <skos:prefLabel xml:lang="de">Anhydrit</skos:prefLabel>
         <skos:altLabel xml:lang="hu">anhidrit</skos:altLabel>
         <skos:altLabel xml:lang="en">anhydrite-stone</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/99.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/99"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/66"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/7.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/7">
         <skos:prefLabel xml:lang="de">Aplit</skos:prefLabel>
         <skos:altLabel xml:lang="hu">gránitaplit</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/131.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/131">
         <skos:prefLabel xml:lang="es">Arcilla</skos:prefLabel>
         <skos:altLabel xml:lang="hu">agyag</skos:altLabel>
         <skos:altLabel xml:lang="fr">Argile</skos:altLabel>
         <skos:altLabel xml:lang="en">Clay</skos:altLabel>
         <skos:altLabel xml:lang="de">Ton</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/642.rdf"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/643.rdf"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/130.rdf"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/642"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/643"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/130"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3059">
                 <skos:prefLabel xml:lang="de">Ton</skos:prefLabel>
@@ -228,7 +228,7 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/128.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/128">
         <skos:prefLabel xml:lang="la">arenatum</skos:prefLabel>
         <skos:altLabel xml:lang="en">fresh mortar</skos:altLabel>
         <skos:altLabel xml:lang="tr">kireç</skos:altLabel>
@@ -241,10 +241,10 @@
         <skos:altLabel xml:lang="bg">хоросан</skos:altLabel>
         <skos:altLabel xml:lang="ar">ملاط طازج</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/115.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/115">
         <skos:prefLabel xml:lang="la">argentum</skos:prefLabel>
         <skos:altLabel xml:lang="fr">argent</skos:altLabel>
         <skos:altLabel xml:lang="es">argento</skos:altLabel>
@@ -259,7 +259,7 @@
         <skos:altLabel xml:lang="bg">сребро</skos:altLabel>
         <skos:altLabel xml:lang="ar">فضة</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/308.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/308"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2872">
                 <skos:prefLabel xml:lang="de">Silber</skos:prefLabel>
@@ -267,19 +267,19 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/3.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/3">
         <skos:prefLabel xml:lang="en">Artificial Rocks</skos:prefLabel>
         <skos:altLabel xml:lang="de">Kuenstliche Gesteine</skos:altLabel>
         <skos:altLabel xml:lang="hu">mesterséges kőzetek</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/4.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/4"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/5"/>
         </skos:closeMatch>
         <dct:created>2013-08-20 17:25:54</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/112.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/112">
         <skos:prefLabel xml:lang="la">aurum</skos:prefLabel>
         <skos:altLabel xml:lang="tr">altın</skos:altLabel>
         <skos:altLabel xml:lang="hu">arany</skos:altLabel>
@@ -292,7 +292,7 @@
         <skos:altLabel xml:lang="bg">злато</skos:altLabel>
         <skos:altLabel xml:lang="ar">ذهب</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/308.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/308"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1934">
                 <skos:prefLabel xml:lang="de">Gold</skos:prefLabel>
@@ -300,13 +300,13 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/16.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/16">
         <skos:prefLabel xml:lang="de">Basalt</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Basalte</skos:altLabel>
         <skos:altLabel xml:lang="es">Basalto</skos:altLabel>
         <skos:altLabel xml:lang="hu">Bazalt</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1481">
                 <skos:prefLabel xml:lang="de">Basalt</skos:prefLabel>
@@ -317,21 +317,21 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/23.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/23">
         <skos:prefLabel xml:lang="de">Basalt-Porphyr</skos:prefLabel>
         <skos:altLabel xml:lang="hu">bazalt-porfír</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/31"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/305.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/305">
         <skos:prefLabel xml:lang="de">Bergkristall</skos:prefLabel>
         <skos:altLabel xml:lang="hu">hegyikristály</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4790">
                 <skos:prefLabel xml:lang="de">Bergkristall</skos:prefLabel>
@@ -339,14 +339,14 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:21:28</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/119.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/119">
         <skos:prefLabel xml:lang="de">Bernstein</skos:prefLabel>
         <skos:altLabel xml:lang="es">Ambar</skos:altLabel>
         <skos:altLabel xml:lang="en">amber</skos:altLabel>
         <skos:altLabel xml:lang="fr">Ambre</skos:altLabel>
         <skos:altLabel xml:lang="hu">borostyánkő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1527">
                 <skos:prefLabel xml:lang="de">Bernstein</skos:prefLabel>
@@ -354,14 +354,14 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/31.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/31">
         <skos:prefLabel xml:lang="de">Bimsstein</skos:prefLabel>
         <skos:altLabel xml:lang="hu">habkő</skos:altLabel>
         <skos:altLabel xml:lang="es">Piedra pómez</skos:altLabel>
         <skos:altLabel xml:lang="fr">Pierre ponce</skos:altLabel>
         <skos:altLabel xml:lang="en">pumice</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/28.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/28"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6287">
                 <skos:prefLabel xml:lang="de">Bimsstein</skos:prefLabel>
@@ -372,19 +372,19 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/65.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/65">
         <skos:prefLabel xml:lang="de">Biogene Sedimente</skos:prefLabel>
         <skos:altLabel xml:lang="de">Biogene Sedimente</skos:altLabel>
         <skos:altLabel xml:lang="hu">biogenetikus üledékes kőzet</skos:altLabel>
         <skos:altLabel xml:lang="en">Biological sediments</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/67.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/66.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/68.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/67"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/66"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/68"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/124.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/124">
         <skos:prefLabel xml:lang="en">bone</skos:prefLabel>
         <skos:altLabel xml:lang="de">Bein</skos:altLabel>
         <skos:altLabel xml:lang="hu">csont</skos:altLabel>
@@ -392,7 +392,7 @@
         <skos:altLabel xml:lang="de">Knochen</skos:altLabel>
         <skos:altLabel xml:lang="fr">Os</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4799">
                 <skos:prefLabel xml:lang="de">Beinknochen</skos:prefLabel>
@@ -405,7 +405,7 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/73.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/73">
         <skos:prefLabel xml:lang="it">Breccie</skos:prefLabel>
         <skos:altLabel xml:lang="en">Breccia</skos:altLabel>
         <skos:altLabel xml:lang="hu">breccsa</skos:altLabel>
@@ -415,7 +415,7 @@
         <skos:altLabel xml:lang="en">Purple breccia</skos:altLabel>
         <skos:altLabel xml:lang="en">Yellow breccia</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6229">
                 <skos:prefLabel xml:lang="de">Breccia</skos:prefLabel>
@@ -426,25 +426,25 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/642.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/642">
         <skos:prefLabel xml:lang="en">Brick</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/131.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/131"/>
         <dct:created>2014-03-13 10:59:48</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/644.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/644">
         <skos:prefLabel xml:lang="en">Bronze, Copper Alloy</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/107.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/107"/>
         <dct:created>2014-03-13 11:05:00</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/110.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/110">
         <skos:prefLabel xml:lang="en">Bronze, gilded</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/109.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/109"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/133.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/133">
         <skos:prefLabel xml:lang="la">cera</skos:prefLabel>
         <skos:altLabel xml:lang="fr">cire</skos:altLabel>
         <skos:altLabel xml:lang="tr">mum</skos:altLabel>
@@ -457,7 +457,7 @@
         <skos:altLabel xml:lang="bg">восък</skos:altLabel>
         <skos:altLabel xml:lang="ar">شمعه</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3197">
                 <skos:prefLabel xml:lang="de">Wachs</skos:prefLabel>
@@ -465,13 +465,13 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/643.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/643">
         <skos:prefLabel xml:lang="en">ceramic (glazed)</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/131.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/131"/>
         <dct:created>2014-03-13 11:02:47</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/118.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/118">
         <skos:prefLabel xml:lang="la">ceterum</skos:prefLabel>
         <skos:altLabel xml:lang="it">altro</skos:altLabel>
         <skos:altLabel xml:lang="hu">egyéb</skos:altLabel>
@@ -479,55 +479,55 @@
         <skos:altLabel xml:lang="en">Other Materials / substances</skos:altLabel>
         <skos:altLabel xml:lang="de">Sonstige Materialen</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/136.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/131.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/128.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/119.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/124.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/133.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/135.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/130.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/120.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/121.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/311.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/313.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/125.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/314.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/123.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/321.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/134.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/129.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/319.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/320.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/315.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/317.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/126.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/127.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/132.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/122.rdf"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/136"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/131"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/128"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/119"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/124"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/133"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/135"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/130"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/120"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/121"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/311"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/313"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/125"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/314"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/123"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/321"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/134"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/129"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/319"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/320"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/315"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/317"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/126"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/127"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/132"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/122"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/106.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/106">
         <skos:prefLabel xml:lang="fr">Chaux</skos:prefLabel>
         <skos:altLabel xml:lang="es">Cal</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/69.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/69">
         <skos:prefLabel xml:lang="de">Chemische Sedimente</skos:prefLabel>
         <skos:altLabel xml:lang="en">Chemical sediments</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/70.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/71.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/70"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/71"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/298.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/298">
         <skos:prefLabel xml:lang="de">Chlorit</skos:prefLabel>
         <skos:altLabel xml:lang="hu">klorit</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8893">
                 <skos:prefLabel xml:lang="de">Chlorit</skos:prefLabel>
@@ -535,12 +535,12 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:16:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/135.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/135">
         <skos:prefLabel xml:lang="fr">Ciment</skos:prefLabel>
         <skos:altLabel xml:lang="hu">cement</skos:altLabel>
         <skos:altLabel xml:lang="es">Cimiento</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6332">
                 <skos:prefLabel xml:lang="de">Zement</skos:prefLabel>
@@ -548,7 +548,7 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/130.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/130">
         <skos:prefLabel xml:lang="la">creta</skos:prefLabel>
         <skos:altLabel xml:lang="it">ceramica</skos:altLabel>
         <skos:altLabel xml:lang="tr">çömlek</skos:altLabel>
@@ -565,8 +565,8 @@
         <skos:altLabel xml:lang="bg">теракота</skos:altLabel>
         <skos:altLabel xml:lang="ar">تيراكوتا</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/131.rdf"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/131"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2183">
                 <skos:prefLabel xml:lang="de">Keramik</skos:prefLabel>
@@ -579,17 +579,17 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/105.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/105">
         <skos:prefLabel xml:lang="fr">Cuir</skos:prefLabel>
         <skos:altLabel xml:lang="es">Piel</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/294.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/294">
         <skos:prefLabel xml:lang="de">Diabas</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4778">
                 <skos:prefLabel xml:lang="de">Diabas</skos:prefLabel>
@@ -597,13 +597,13 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:11:23</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/9.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/9">
         <skos:prefLabel xml:lang="de">Diorit</skos:prefLabel>
         <skos:altLabel xml:lang="es">Diorita</skos:altLabel>
         <skos:altLabel xml:lang="fr">Diorite</skos:altLabel>
         <skos:altLabel xml:lang="en">Diorite</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4787">
                 <skos:prefLabel xml:lang="de">Diorit</skos:prefLabel>
@@ -614,10 +614,10 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/295.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/295">
         <skos:prefLabel xml:lang="de">Dolerit</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6255">
                 <skos:prefLabel xml:lang="de">Dolerit</skos:prefLabel>
@@ -625,14 +625,14 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:11:23</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/59.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/59">
         <skos:prefLabel xml:lang="de">Dolomit</skos:prefLabel>
         <skos:altLabel xml:lang="es">Dolimita</skos:altLabel>
         <skos:altLabel xml:lang="fr">Dolimite</skos:altLabel>
         <skos:altLabel xml:lang="hu">dolomit</skos:altLabel>
         <skos:altLabel xml:lang="en">dolostone</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4720">
                 <skos:prefLabel xml:lang="de">Dolomit</skos:prefLabel>
@@ -643,12 +643,12 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/44.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/44">
         <skos:prefLabel xml:lang="de">Dolomit-Marmor</skos:prefLabel>
         <skos:altLabel xml:lang="hu">dolomit-márvány</skos:altLabel>
         <skos:altLabel xml:lang="en">dolomite-marble</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6246">
                 <skos:prefLabel xml:lang="de">Dolomitkalkstein</skos:prefLabel>
@@ -659,18 +659,18 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/352.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/352">
         <skos:prefLabel xml:lang="hu">durvaszemcsés kristályos kőzetek</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <dct:created>2014-01-29 22:04:07</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/308.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/308">
         <skos:prefLabel xml:lang="de">Edelmetall</skos:prefLabel>
         <skos:altLabel xml:lang="hu">nyers fém</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/107.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/115.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/112.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/107"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/115"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/112"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1684">
                 <skos:prefLabel xml:lang="de">Edelmetall</skos:prefLabel>
@@ -678,36 +678,36 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:23:26</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/288.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/288">
         <skos:prefLabel xml:lang="de">Edelstein</skos:prefLabel>
         <skos:altLabel xml:lang="hu">drágakő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/289.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/290.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/291.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/293.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/289"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/290"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/291"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/293"/>
         <dct:created>2013-09-23 20:09:18</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/36.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/36">
         <skos:prefLabel xml:lang="de">Eklogit</skos:prefLabel>
         <skos:altLabel xml:lang="en">eclogite</skos:altLabel>
         <skos:altLabel xml:lang="hu">eklogit</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/259"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/120.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/120">
         <skos:prefLabel xml:lang="de">Elfenbein</skos:prefLabel>
         <skos:altLabel xml:lang="hu">elefántcsont</skos:altLabel>
         <skos:altLabel xml:lang="fr">Ivoire</skos:altLabel>
         <skos:altLabel xml:lang="en">Ivory</skos:altLabel>
         <skos:altLabel xml:lang="es">Marfil</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1715">
                 <skos:prefLabel xml:lang="de">Elfenbein</skos:prefLabel>
@@ -715,60 +715,60 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/121.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/121">
         <skos:prefLabel xml:lang="de">Emaille</skos:prefLabel>
         <skos:altLabel xml:lang="hu">email</skos:altLabel>
         <skos:altLabel xml:lang="fr">Email</skos:altLabel>
         <skos:altLabel xml:lang="en">Enamel</skos:altLabel>
         <skos:altLabel xml:lang="es">Esmalte</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/311.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/311">
         <skos:prefLabel xml:lang="de">Fayence</skos:prefLabel>
         <skos:altLabel xml:lang="hu">fajansz</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <dct:created>2013-09-23 20:25:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/14.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/14">
         <skos:prefLabel xml:lang="de">Feinkörnige Kristallingesteine</skos:prefLabel>
         <skos:altLabel xml:lang="en">coarse-grained crystalline rocks</skos:altLabel>
         <skos:altLabel xml:lang="hu">finomszemcsés kristályos kőzetek</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/15.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/16.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/294.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/295.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/17.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/18.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/15"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/16"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/294"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/295"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/17"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/18"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/8"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/24.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/24">
         <skos:prefLabel xml:lang="de">Feldspat-Porphyr</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/28"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/17.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/17">
         <skos:prefLabel xml:lang="de">Felsit</skos:prefLabel>
         <skos:altLabel xml:lang="hu">felsite</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/24"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/111.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/111">
         <skos:prefLabel xml:lang="la">ferrum</skos:prefLabel>
         <skos:altLabel xml:lang="tr">demir</skos:altLabel>
         <skos:altLabel xml:lang="de">Eisen</skos:altLabel>
@@ -783,7 +783,7 @@
         <skos:altLabel xml:lang="bg">желязо</skos:altLabel>
         <skos:altLabel xml:lang="ar">حديد</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1707">
                 <skos:prefLabel xml:lang="de">Eisen</skos:prefLabel>
@@ -791,12 +791,12 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/86.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/86">
         <skos:prefLabel xml:lang="de">Feuerstein</skos:prefLabel>
         <skos:altLabel xml:lang="en">chert / flintstone</skos:altLabel>
         <skos:altLabel xml:lang="hu">kovakő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/85.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/85"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4721">
                 <skos:prefLabel xml:lang="de">Feuerstein</skos:prefLabel>
@@ -807,10 +807,10 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/299.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/299">
         <skos:prefLabel xml:lang="en">Fluorit</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6256">
                 <skos:prefLabel xml:lang="de">Fluorit</skos:prefLabel>
@@ -818,12 +818,12 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:16:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/10.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/10">
         <skos:prefLabel xml:lang="fr">Gabbro</skos:prefLabel>
         <skos:altLabel xml:lang="hu">Gabbró</skos:altLabel>
         <skos:altLabel xml:lang="es">Gabro</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4777">
                 <skos:prefLabel xml:lang="de">Gabbro</skos:prefLabel>
@@ -834,10 +834,10 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/300.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/300">
         <skos:prefLabel xml:lang="hu">Gagat</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1843">
                 <skos:prefLabel xml:lang="de">Gagat</skos:prefLabel>
@@ -845,14 +845,14 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:16:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/101.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/101">
         <skos:prefLabel xml:lang="de">Gips</skos:prefLabel>
         <skos:altLabel xml:lang="hu">gipsz</skos:altLabel>
         <skos:altLabel xml:lang="fr">Gypse</skos:altLabel>
         <skos:altLabel xml:lang="en">gypsum-stone</skos:altLabel>
         <skos:altLabel xml:lang="es">Yeso</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/99.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/99"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6265">
                 <skos:prefLabel xml:lang="de">Gips</skos:prefLabel>
@@ -863,23 +863,23 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/19.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/19">
         <skos:prefLabel xml:lang="de">Glasige magmatische Gesteine</skos:prefLabel>
         <skos:altLabel xml:lang="en">glassy igneous rocks</skos:altLabel>
         <skos:altLabel xml:lang="hu">üveges magmatikus kőzetek</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/20.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/20"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/9"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/289.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/289">
         <skos:prefLabel xml:lang="en">Glaspaste</skos:prefLabel>
         <skos:altLabel xml:lang="en">üvegpaszta</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/288.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/288"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1925">
                 <skos:prefLabel xml:lang="de">Glaspaste</skos:prefLabel>
@@ -887,13 +887,13 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:09:18</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/39.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/39">
         <skos:prefLabel xml:lang="de">Glimmerschiefer</skos:prefLabel>
         <skos:altLabel xml:lang="hu">csillámpala</skos:altLabel>
         <skos:altLabel xml:lang="fr">Mica</skos:altLabel>
         <skos:altLabel xml:lang="en">mica schist</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6295">
                 <skos:prefLabel xml:lang="de">Glimmerschiefer</skos:prefLabel>
@@ -904,12 +904,12 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/37.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/37">
         <skos:prefLabel xml:lang="es">Gneis</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Gneiss</skos:altLabel>
         <skos:altLabel xml:lang="hu">gneissz</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6258">
                 <skos:prefLabel xml:lang="de">Gneis</skos:prefLabel>
@@ -920,23 +920,23 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/45.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/45">
         <skos:prefLabel xml:lang="de">Gneis</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/38"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/301.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/301">
         <skos:prefLabel xml:lang="en">Granat</skos:prefLabel>
         <skos:altLabel xml:lang="hu">gránát</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <dct:created>2013-09-23 20:16:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/11.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/11">
         <skos:prefLabel xml:lang="de">Granit</skos:prefLabel>
         <skos:altLabel xml:lang="en">Granite</skos:altLabel>
         <skos:altLabel xml:lang="hu">gránit</skos:altLabel>
@@ -945,7 +945,7 @@
         <skos:altLabel xml:lang="en">red Egyptian granite</skos:altLabel>
         <skos:altLabel xml:lang="en">grey granite</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4776">
                 <skos:prefLabel xml:lang="de">Granit</skos:prefLabel>
@@ -956,30 +956,30 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/8.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/8">
         <skos:prefLabel xml:lang="de">Grobkörnige Kristallingesteine</skos:prefLabel>
         <skos:altLabel xml:lang="en">coarse-grained crystalline rocks</skos:altLabel>
         <skos:altLabel xml:lang="hu">durvaszemcsés kristályos kőzetek</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/9.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/10.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/11.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/12.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/13.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/9"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/10"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/11"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/12"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/13"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/6"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/90.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/90">
         <skos:prefLabel xml:lang="de">Hämatit</skos:prefLabel>
         <skos:altLabel xml:lang="en">Haematite</skos:altLabel>
         <skos:altLabel xml:lang="hu">hematit</skos:altLabel>
         <skos:altLabel xml:lang="es">Hematita</skos:altLabel>
         <skos:altLabel xml:lang="fr">Hématite</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4723">
                 <skos:prefLabel xml:lang="de">Hämatit</skos:prefLabel>
@@ -987,33 +987,33 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/91.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/91">
         <skos:prefLabel xml:lang="de">Heliotrop</skos:prefLabel>
         <skos:altLabel xml:lang="en">Heliotrope</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/38.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/38">
         <skos:prefLabel xml:lang="en">Hornfels</skos:prefLabel>
         <skos:altLabel xml:lang="hu">granoblasztos kristályos pala</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/40"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/46.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/46">
         <skos:prefLabel xml:lang="en">Hornfels</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/47"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/138.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/138">
         <skos:prefLabel xml:lang="la">ignoratur</skos:prefLabel>
         <skos:altLabel xml:lang="es">Desconocido</skos:altLabel>
         <skos:altLabel xml:lang="fr">Inconnu</skos:altLabel>
@@ -1022,33 +1022,33 @@
         <skos:altLabel xml:lang="en">unknown</skos:altLabel>
         <skos:altLabel xml:lang="en">?</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/137.rdf"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/137"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/5.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/5">
         <skos:prefLabel xml:lang="en">Indefinite</skos:prefLabel>
         <skos:altLabel xml:lang="de">Andere Gestein</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1"/>
         <dct:created>2013-08-20 17:26:42</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/137.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/137">
         <skos:prefLabel xml:lang="fr">Indéterminé</skos:prefLabel>
         <skos:altLabel xml:lang="en">indefinite</skos:altLabel>
         <skos:altLabel xml:lang="hu">meghatározhatatlan</skos:altLabel>
         <skos:altLabel xml:lang="de">unbestimmt</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/138.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/138"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/89.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/89">
         <skos:prefLabel xml:lang="de">Jaspis</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Jaspe</skos:altLabel>
         <skos:altLabel xml:lang="es">Jaspe</skos:altLabel>
         <skos:altLabel xml:lang="en">Jasper</skos:altLabel>
         <skos:altLabel xml:lang="hu">jáspis</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4767">
                 <skos:prefLabel xml:lang="de">Jaspis</skos:prefLabel>
@@ -1059,22 +1059,22 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/47.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/47">
         <skos:prefLabel xml:lang="de">Kalk-Marmor</skos:prefLabel>
         <skos:altLabel xml:lang="en">lime-marble</skos:altLabel>
         <skos:altLabel xml:lang="hu">mészkő-márvány</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/50"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/76.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/76">
         <skos:prefLabel xml:lang="de">Kalkmergel / Mergel</skos:prefLabel>
         <skos:altLabel xml:lang="en">Lime marl / marl</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6238">
                 <skos:prefLabel xml:lang="de">mergeliger Κalkstein</skos:prefLabel>
@@ -1087,14 +1087,14 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/57.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/57">
         <skos:prefLabel xml:lang="de">Kalksandstein</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Calcaire</skos:altLabel>
         <skos:altLabel xml:lang="en">calcareous sandstone</skos:altLabel>
         <skos:altLabel xml:lang="es">Caliza</skos:altLabel>
         <skos:altLabel xml:lang="hu">meszes homokkő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8883">
                 <skos:prefLabel xml:lang="de">Kalksandstein</skos:prefLabel>
@@ -1105,7 +1105,7 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/67.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/67">
         <skos:prefLabel xml:lang="de">Kalksinter</skos:prefLabel>
         <skos:altLabel xml:lang="en">calcareous sinter</skos:altLabel>
         <skos:altLabel xml:lang="es">Calcedonia</skos:altLabel>
@@ -1117,19 +1117,19 @@
         <skos:altLabel xml:lang="de">Kohlenkalk</skos:altLabel>
         <skos:altLabel xml:lang="en">Limestone</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/65.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/65"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/232"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/60.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/60">
         <skos:prefLabel xml:lang="de">Kalkstein</skos:prefLabel>
         <skos:altLabel xml:lang="en">limestone</skos:altLabel>
         <skos:altLabel xml:lang="hu">mészkő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/297.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/297"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2151">
                 <skos:prefLabel xml:lang="de">Kalkstein</skos:prefLabel>
@@ -1140,12 +1140,12 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/507.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/507">
         <skos:prefLabel xml:lang="de">Kalkstein/ Alabaster</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <dct:created>2014-01-29 23:36:11</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/77.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/77">
         <skos:prefLabel xml:lang="de">Kalkstein/ Alabaster</skos:prefLabel>
         <skos:altLabel xml:lang="de">Alabaster</skos:altLabel>
         <skos:altLabel xml:lang="es">Alabastro</skos:altLabel>
@@ -1153,7 +1153,7 @@
         <skos:altLabel xml:lang="fr">Albâtre</skos:altLabel>
         <skos:altLabel xml:lang="de">Calc-sinter / Alabaster</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1403">
                 <skos:prefLabel xml:lang="de">Alabaster</skos:prefLabel>
@@ -1161,12 +1161,12 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/78.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/78">
         <skos:prefLabel xml:lang="de">Kalktuff</skos:prefLabel>
         <skos:altLabel xml:lang="en">Calcareous Tuff</skos:altLabel>
         <skos:altLabel xml:lang="la">tofus</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6305">
                 <skos:prefLabel xml:lang="de">Kalktuff</skos:prefLabel>
@@ -1175,32 +1175,32 @@
         <dct:created>2013-08-26 16:54:50</dct:created>
         <dct:modified>2014-05-07 14:57:30</dct:modified>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/56.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/56">
         <skos:prefLabel xml:lang="de">Karbonatische Sedimentgesteine</skos:prefLabel>
         <skos:altLabel xml:lang="en">carbonate sedimentary rocks</skos:altLabel>
         <skos:altLabel xml:lang="hu">karbonátos üledékes kőzetek</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/65.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/69.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/59.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/57.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/60.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/58.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/61.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/62.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/63.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/64.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/65"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/69"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/59"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/57"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/60"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/58"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/61"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/62"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/63"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/64"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/12"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/92.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/92">
         <skos:prefLabel xml:lang="de">Karneol</skos:prefLabel>
         <skos:altLabel xml:lang="en">Carnelian</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4775">
                 <skos:prefLabel xml:lang="de">Karneol</skos:prefLabel>
@@ -1208,13 +1208,13 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/103.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/103">
         <skos:prefLabel xml:lang="de">Kieselige Sedimentgesteine</skos:prefLabel>
         <skos:altLabel xml:lang="hu">kovás üledékes kőzetek</skos:altLabel>
         <skos:altLabel xml:lang="en">siliciclastic sedimentary rocks</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/104.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/104"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6243">
                 <skos:prefLabel xml:lang="de">kieseliger Κalkstein</skos:prefLabel>
@@ -1225,26 +1225,26 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/72.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/72">
         <skos:prefLabel xml:lang="de">Klastische Sedimentgesteine</skos:prefLabel>
         <skos:altLabel xml:lang="en">Clastic sediments</skos:altLabel>
         <skos:altLabel xml:lang="hu">törmelékes üledékes kőzet</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/73.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/76.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/77.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/78.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/74.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/79.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/75.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/73"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/76"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/77"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/78"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/74"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/79"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/75"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/13"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
         <dct:modified>2014-01-29 22:16:28</dct:modified>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/74.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/74">
         <skos:prefLabel xml:lang="de">Konglomerat</skos:prefLabel>
         <skos:altLabel xml:lang="es">Conglomerado</skos:altLabel>
         <skos:altLabel xml:lang="fr">Conglomérat</skos:altLabel>
@@ -1252,7 +1252,7 @@
         <skos:altLabel xml:lang="fr">conglomérat calcareux</skos:altLabel>
         <skos:altLabel xml:lang="hu">kavicskövek / konglomerátumok</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6251">
                 <skos:prefLabel xml:lang="de">Konglomerat</skos:prefLabel>
@@ -1263,30 +1263,30 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/58.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/58">
         <skos:prefLabel xml:lang="de">Korallen-Kalkstein</skos:prefLabel>
         <skos:altLabel xml:lang="en">Coral-limestone</skos:altLabel>
         <skos:altLabel xml:lang="es">Cornaline</skos:altLabel>
         <skos:altLabel xml:lang="fr">Cornaline</skos:altLabel>
         <skos:altLabel xml:lang="hu">korallos mészkő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/55"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/307.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/307">
         <skos:prefLabel xml:lang="en">Kork</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104"/>
         <dct:created>2013-09-23 20:22:21</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/306.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/306">
         <skos:prefLabel xml:lang="de">Korund</skos:prefLabel>
         <skos:altLabel xml:lang="hu">Korund</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/104"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8884">
                 <skos:prefLabel xml:lang="de">Korund</skos:prefLabel>
@@ -1294,10 +1294,10 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:21:28</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/312.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/312">
         <skos:prefLabel xml:lang="de">Kunstmarmor</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8885">
                 <skos:prefLabel xml:lang="de">Kunstmarmor</skos:prefLabel>
@@ -1305,11 +1305,11 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:25:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/313.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/313">
         <skos:prefLabel xml:lang="de">Kunststoff</skos:prefLabel>
         <skos:altLabel xml:lang="hu">műanyag</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8887">
                 <skos:prefLabel xml:lang="de">Kunststoff</skos:prefLabel>
@@ -1317,15 +1317,15 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:25:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/113.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/113">
         <skos:prefLabel xml:lang="de">Kupfer</skos:prefLabel>
         <skos:altLabel xml:lang="es">Cobre</skos:altLabel>
         <skos:altLabel xml:lang="en">copper</skos:altLabel>
         <skos:altLabel xml:lang="it">rame</skos:altLabel>
         <skos:altLabel xml:lang="hu">vörösréz</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/310.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/310"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2289">
                 <skos:prefLabel xml:lang="de">Kupfer</skos:prefLabel>
@@ -1333,10 +1333,10 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/310.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/310">
         <skos:prefLabel xml:lang="de">Kupferniederschlag</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/113.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/113"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8890">
                 <skos:prefLabel xml:lang="de">Kupferniederschlag</skos:prefLabel>
@@ -1344,11 +1344,11 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:24:35</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/93.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/93">
         <skos:prefLabel xml:lang="de">Lapislazuli</skos:prefLabel>
         <skos:altLabel xml:lang="hu">lazúrkő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8891">
                 <skos:prefLabel xml:lang="de">Lapislazuli</skos:prefLabel>
@@ -1356,12 +1356,12 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/125.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/125">
         <skos:prefLabel xml:lang="de">Leder</skos:prefLabel>
         <skos:altLabel xml:lang="hu">bőr</skos:altLabel>
         <skos:altLabel xml:lang="en">Leder</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2325">
                 <skos:prefLabel xml:lang="de">Leder</skos:prefLabel>
@@ -1369,11 +1369,11 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/314.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/314">
         <skos:prefLabel xml:lang="de">Lehm</skos:prefLabel>
         <skos:altLabel xml:lang="hu">vájog</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2328">
                 <skos:prefLabel xml:lang="de">Lehm</skos:prefLabel>
@@ -1381,11 +1381,11 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:25:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/318.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/318">
         <skos:prefLabel xml:lang="de">Leinwand</skos:prefLabel>
         <skos:altLabel xml:lang="hu">lenvászon</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/317.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/317"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8895">
                 <skos:prefLabel xml:lang="de">Flachsfaser</skos:prefLabel>
@@ -1393,7 +1393,7 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:25:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/123.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/123">
         <skos:prefLabel xml:lang="la">lignum</skos:prefLabel>
         <skos:altLabel xml:lang="fr">bois</skos:altLabel>
         <skos:altLabel xml:lang="hr">drvo</skos:altLabel>
@@ -1408,7 +1408,7 @@
         <skos:altLabel xml:lang="bg">дърво</skos:altLabel>
         <skos:altLabel xml:lang="ar">خشب</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2084">
                 <skos:prefLabel xml:lang="de">Holz</skos:prefLabel>
@@ -1416,7 +1416,7 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/66.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/66">
         <skos:prefLabel xml:lang="en">Limestone</skos:prefLabel>
         <skos:altLabel xml:lang="en">brown limestone</skos:altLabel>
         <skos:altLabel xml:lang="en">brownish-grey limestone</skos:altLabel>
@@ -1437,16 +1437,16 @@
         <skos:altLabel xml:lang="en">yellowish limestone</skos:altLabel>
         <skos:altLabel xml:lang="en">yellowish-grey limestone</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/65.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/647.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/65"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/647"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/647.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/647">
       <skos:prefLabel xml:lang="en">limestone veined with quartz</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/66.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/66"/>
    </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/6.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/6">
         <skos:prefLabel xml:lang="de">MAGMATISCHE GESTEINE</skos:prefLabel>
         <skos:altLabel xml:lang="es">Igneas</skos:altLabel>
         <skos:altLabel xml:lang="en">Igneous Rocks</skos:altLabel>
@@ -1454,51 +1454,51 @@
         <skos:altLabel xml:lang="en">Magmatic Rocks</skos:altLabel>
         <skos:altLabel xml:lang="fr">Roches Ignées</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/7.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/14.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/19.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/8.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/21.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/28.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/7"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/14"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/19"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/8"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/21"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/28"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/3"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/34.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/34">
         <skos:prefLabel xml:lang="de">Magmatisches Ausgangsgestein</skos:prefLabel>
         <skos:altLabel xml:lang="en">igneous protolith</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/33.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/35.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/36.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/39.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/37.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/38.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/40.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/41.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/33"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/35"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/36"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/39"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/37"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/38"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/40"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/41"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/16"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/61.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/61">
         <skos:prefLabel xml:lang="en">Magnesit</skos:prefLabel>
         <skos:altLabel xml:lang="en">magnesite</skos:altLabel>
         <skos:altLabel xml:lang="hu">magnezit</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/68"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/94.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/94">
         <skos:prefLabel xml:lang="de">Magnetit</skos:prefLabel>
         <skos:altLabel xml:lang="en">Magnetite</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8897">
                 <skos:prefLabel xml:lang="de">Magnetit</skos:prefLabel>
@@ -1506,7 +1506,7 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/48.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/48">
         <skos:prefLabel xml:lang="de">Marmor</skos:prefLabel>
         <skos:altLabel xml:lang="en">marble</skos:altLabel>
         <skos:altLabel xml:lang="en">Marble (colour indefinite)</skos:altLabel>
@@ -1524,15 +1524,15 @@
         <skos:altLabel xml:lang="he">שיש</skos:altLabel>
         <skos:altLabel xml:lang="ar">رخام</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/49.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/353.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/359.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/363.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/361.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/358.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/648.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/49"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/353"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/359"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/363"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/361"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/358"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/648"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2383">
                 <skos:prefLabel xml:lang="de">Marmor</skos:prefLabel>
@@ -1543,138 +1543,138 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/50.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/50">
         <skos:prefLabel xml:lang="de">Marmor, geädert / farbig</skos:prefLabel>
         <skos:altLabel xml:lang="en">Marble, veined / coloured</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/49.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/312.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/366.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/365.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/364.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/362.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/360.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/357.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/356.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/355.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/354.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/49"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/312"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/366"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/365"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/364"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/362"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/360"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/357"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/356"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/355"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/354"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/49.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/49">
         <skos:prefLabel xml:lang="de">Marmor, weiß</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/366.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/366">
         <skos:prefLabel xml:lang="en">black marble</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/365.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/365">
         <skos:prefLabel xml:lang="en">yellow marble</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/364.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/364">
         <skos:prefLabel xml:lang="en">yellow and white marble</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/363.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/363">
         <skos:prefLabel xml:lang="en">White Pentelic marble</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/648.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/648">
         <skos:prefLabel xml:lang="en">Cipollino</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/362.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/362">
         <skos:prefLabel xml:lang="en">white marble</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/361.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/361">
         <skos:prefLabel xml:lang="en">Portasanta marble</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/360.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/360">
         <skos:prefLabel xml:lang="en">pink-grained white marble</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/359.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/359">
         <skos:prefLabel xml:lang="en">Numidian marble</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/358.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/358">
         <skos:prefLabel xml:lang="en">grey-flecked, white marble</skos:prefLabel>
         <skos:altLabel xml:lang="en">grey-flecked white</skos:altLabel>
         <skos:altLabel xml:lang="en">grey-flecked</skos:altLabel>
         <skos:altLabel xml:lang="fr">Marbre blanc à veines grises</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/357.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/357">
         <skos:prefLabel xml:lang="en">grey marble</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/356.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/356">
         <skos:prefLabel xml:lang="en">dark grey marble</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/355.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/355">
         <skos:prefLabel xml:lang="en">cream marble flecked with brown</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/354.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/354">
         <skos:prefLabel xml:lang="en">cream marble</skos:prefLabel>
         <skos:altLabel xml:lang="en">marble, cream mottled with grey and purple</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
 
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/353.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/353">
         <skos:prefLabel xml:lang="fr">Marbre de Prokonnesos</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/321.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/321">
         <skos:prefLabel xml:lang="de">Materialkombination</skos:prefLabel>
         <skos:altLabel xml:lang="hu">anyagkompozit</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <dct:created>2013-09-23 20:25:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/62.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/62">
         <skos:prefLabel xml:lang="de">Mergel</skos:prefLabel>
         <skos:altLabel xml:lang="hu">márga</skos:altLabel>
         <skos:altLabel xml:lang="en">marl</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2411">
                 <skos:prefLabel xml:lang="de">Mergel</skos:prefLabel>
@@ -1685,13 +1685,13 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/114.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/114">
         <skos:prefLabel xml:lang="de">Messing</skos:prefLabel>
         <skos:altLabel xml:lang="en">brass</skos:altLabel>
         <skos:altLabel xml:lang="es">Latón</skos:altLabel>
         <skos:altLabel xml:lang="hu">sárgaréz</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2414">
                 <skos:prefLabel xml:lang="de">Messing</skos:prefLabel>
@@ -1699,17 +1699,17 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/107.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/107">
         <skos:prefLabel xml:lang="en">Metal</skos:prefLabel>
         <skos:altLabel xml:lang="hu">fém</skos:altLabel>
         <skos:altLabel xml:lang="es">Metales</skos:altLabel>
         <skos:altLabel xml:lang="de">Metalle</skos:altLabel>
         <skos:altLabel xml:lang="fr">Métaux</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/644.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/309.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/308.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/117.rdf"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/644"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/309"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/308"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/117"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2416">
                 <skos:prefLabel xml:lang="de">Metall</skos:prefLabel>
@@ -1717,50 +1717,50 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/33.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/33">
         <skos:prefLabel xml:lang="de">METAMORPHE GESTEINE</skos:prefLabel>
         <skos:altLabel xml:lang="hu">metamorf kőzetek</skos:altLabel>
         <skos:altLabel xml:lang="es">Metamórficas</skos:altLabel>
         <skos:altLabel xml:lang="en">Metamorphic rocks</skos:altLabel>
         <skos:altLabel xml:lang="fr">Métamorphiques</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/34.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/34"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/4"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/87.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/87">
         <skos:prefLabel xml:lang="en">Minerale</skos:prefLabel>
         <skos:altLabel xml:lang="hu">ásványok</skos:altLabel>
         <skos:altLabel xml:lang="es">Minerales</skos:altLabel>
         <skos:altLabel xml:lang="fr">Minéraux</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/88.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/298.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/299.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/300.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/301.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/90.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/91.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/89.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/92.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/93.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/94.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/95.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/96.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/97.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/302.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/98.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/88"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/298"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/299"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/300"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/301"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/90"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/91"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/89"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/92"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/93"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/94"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/95"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/96"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/97"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/302"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/98"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/79.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/79">
         <skos:prefLabel xml:lang="de">Molasse</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6283">
                 <skos:prefLabel xml:lang="de">Molasse</skos:prefLabel>
@@ -1768,17 +1768,17 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/251.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/251">
         <skos:prefLabel xml:lang="de">mozaik</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <dct:created>2013-08-26 22:34:44</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/63.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/63">
         <skos:prefLabel xml:lang="de">Muschel-Kalkstein</skos:prefLabel>
         <skos:altLabel xml:lang="hu">kagylós mészkő</skos:altLabel>
         <skos:altLabel xml:lang="en">shell-limestone</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6247">
                 <skos:prefLabel xml:lang="de">Muschelkalkstein</skos:prefLabel>
@@ -1789,11 +1789,11 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/68.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/68">
         <skos:prefLabel xml:lang="de">Muschelkalk</skos:prefLabel>
         <skos:altLabel xml:lang="en">Shell limestone</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/65.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/65"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6247">
                 <skos:prefLabel xml:lang="de">Muschelkalk</skos:prefLabel>
@@ -1801,7 +1801,7 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/134.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/134">
         <skos:prefLabel xml:lang="la">musivum</skos:prefLabel>
         <skos:altLabel xml:lang="en">mosaic</skos:altLabel>
         <skos:altLabel xml:lang="it">mosaico</skos:altLabel>
@@ -1814,7 +1814,7 @@
         <skos:altLabel xml:lang="bg">мозайка</skos:altLabel>
         <skos:altLabel xml:lang="ar">فسيفساء</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2446">
                 <skos:prefLabel xml:lang="de">Mosaik</skos:prefLabel>
@@ -1822,45 +1822,45 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/81.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/81">
         <skos:prefLabel xml:lang="de">Nenfro</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/80.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/80"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/85.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/85">
         <skos:prefLabel xml:lang="de">Nicht Klastische silikatreiche
             Sedimentgesteine</skos:prefLabel>
         <skos:altLabel xml:lang="hu">nem cementálódott szilikátgazdag üledékes
             kőzetek</skos:altLabel>
         <skos:altLabel xml:lang="en">non clastic silica-rich sedimentary rocks</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/86.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/86"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/14"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/99.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/99">
         <skos:prefLabel xml:lang="de">Nicht-karbonatische Salze</skos:prefLabel>
         <skos:altLabel xml:lang="hu">nem karbonátos sók</skos:altLabel>
         <skos:altLabel xml:lang="en">non-carbonate salts</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/100.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/101.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/102.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/100"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/101"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/102"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/15"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/20.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/20">
         <skos:prefLabel xml:lang="en">Obsidian</skos:prefLabel>
         <skos:altLabel xml:lang="hu">obszidián</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/19.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/19"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4774">
                 <skos:prefLabel xml:lang="de">Obsidian</skos:prefLabel>
@@ -1871,13 +1871,13 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/95.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/95">
         <skos:prefLabel xml:lang="fr">Onyx</skos:prefLabel>
         <skos:altLabel xml:lang="es">Ónice</skos:altLabel>
         <skos:altLabel xml:lang="it">Onice</skos:altLabel>
         <skos:altLabel xml:lang="hu">ónix</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6222">
                 <skos:prefLabel xml:lang="de">Onyx</skos:prefLabel>
@@ -1885,13 +1885,13 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/70.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/70">
         <skos:prefLabel xml:lang="de">Ooid-Kalkstein</skos:prefLabel>
         <skos:altLabel xml:lang="en">ooid-limestone</skos:altLabel>
         <skos:altLabel xml:lang="en">Oolite</skos:altLabel>
         <skos:altLabel xml:lang="de">Oolith</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/69.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/69"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6248">
                 <skos:prefLabel xml:lang="de">oolithischer Rogenstein</skos:prefLabel>
@@ -1902,26 +1902,26 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/96.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/96">
         <skos:prefLabel xml:lang="en">Opal</skos:prefLabel>
         <skos:altLabel xml:lang="hu">opál</skos:altLabel>
         <skos:altLabel xml:lang="fr">Opale</skos:altLabel>
         <skos:altLabel xml:lang="es">Opalo</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/129.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/129">
         <skos:prefLabel xml:lang="la">opus latericium</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/319.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/319">
         <skos:prefLabel xml:lang="de">Papier</skos:prefLabel>
         <skos:altLabel xml:lang="hu">papír</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4729">
                 <skos:prefLabel xml:lang="de">Papier</skos:prefLabel>
@@ -1929,11 +1929,11 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:25:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/320.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/320">
         <skos:prefLabel xml:lang="en">Papyrus</skos:prefLabel>
         <skos:altLabel xml:lang="hu">papirusz</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8899">
                 <skos:prefLabel xml:lang="de">Papyrus</skos:prefLabel>
@@ -1941,10 +1941,10 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:25:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/82.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/82">
         <skos:prefLabel xml:lang="de">Peperin</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/80.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/80"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6286">
                 <skos:prefLabel xml:lang="de">Peperin</skos:prefLabel>
@@ -1952,28 +1952,28 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/12.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/12">
         <skos:prefLabel xml:lang="de">Peridodit</skos:prefLabel>
         <skos:altLabel xml:lang="hu">peridodite</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/21"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/102.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/102">
         <skos:prefLabel xml:lang="de">Phosphat</skos:prefLabel>
         <skos:altLabel xml:lang="hu">foszfát</skos:altLabel>
         <skos:altLabel xml:lang="en">phosphate</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/99.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/99"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/233"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/108.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/108">
         <skos:prefLabel xml:lang="la">plumbum</skos:prefLabel>
         <skos:altLabel xml:lang="de">Blei</skos:altLabel>
         <skos:altLabel xml:lang="tr">kurşun</skos:altLabel>
@@ -1988,7 +1988,7 @@
         <skos:altLabel xml:lang="bg">олово</skos:altLabel>
         <skos:altLabel xml:lang="ar">رصاص</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1546">
                 <skos:prefLabel xml:lang="de">Blei</skos:prefLabel>
@@ -1996,10 +1996,10 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/297.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/297">
         <skos:prefLabel xml:lang="en">Poros</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/60.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/60"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8900">
                 <skos:prefLabel xml:lang="de">Poros</skos:prefLabel>
@@ -2007,7 +2007,7 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:14:37</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/25.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/25">
         <skos:prefLabel xml:lang="de">Porphyr</skos:prefLabel>
         <skos:altLabel xml:lang="es">Pórfido</skos:altLabel>
         <skos:altLabel xml:lang="hu">porfír</skos:altLabel>
@@ -2015,7 +2015,7 @@
         <skos:altLabel xml:lang="fr">Porphyre</skos:altLabel>
         <skos:altLabel xml:lang="en">porphyry</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6288">
                 <skos:prefLabel xml:lang="de">Porphyr</skos:prefLabel>
@@ -2026,29 +2026,29 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/21.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/21">
         <skos:prefLabel xml:lang="de">Porphyrische (ungleichkörnige)
             Kristallingesteine</skos:prefLabel>
         <skos:altLabel xml:lang="hu">porfírikus kristályos kőzetek</skos:altLabel>
         <skos:altLabel xml:lang="en">porphyric (inequigranular) crystalline rocks</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/22.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/23.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/24.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/25.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/26.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/27.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/22"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/23"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/24"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/25"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/26"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/27"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/7"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/315.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/315">
         <skos:prefLabel xml:lang="de">Porzellan</skos:prefLabel>
         <skos:altLabel xml:lang="hu">porcelán</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4654">
                 <skos:prefLabel xml:lang="de">Porzellan</skos:prefLabel>
@@ -2056,29 +2056,29 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:25:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/80.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/80">
         <skos:prefLabel xml:lang="de">Pyroclastische Sedimente</skos:prefLabel>
         <skos:altLabel xml:lang="en">polyclastic sediments</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/81.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/82.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/83.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/84.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/55"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/81"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/82"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/83"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/84"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/28.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/28">
         <skos:prefLabel xml:lang="de">Pyroklastische Gesteine</skos:prefLabel>
         <skos:altLabel xml:lang="hu">piroklasztikus kőzetek</skos:altLabel>
         <skos:altLabel xml:lang="en">pyroclastic rocks</skos:altLabel>
         <skos:altLabel xml:lang="de">Vulkangestein</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/29.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/30.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/31.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/32.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/735.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/6"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/29"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/30"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/31"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/32"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/735"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8909">
                 <skos:prefLabel xml:lang="de">Vulkanit</skos:prefLabel>
@@ -2089,24 +2089,24 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/26.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/26">
         <skos:prefLabel xml:lang="de">Quarz-Porphyr</skos:prefLabel>
         <skos:altLabel xml:lang="hu">kvarc-porfír</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/27"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/51.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/51">
         <skos:prefLabel xml:lang="de">Quarzit</skos:prefLabel>
         <skos:altLabel xml:lang="es">Cuarcita</skos:altLabel>
         <skos:altLabel xml:lang="hu">kvarcit</skos:altLabel>
         <skos:altLabel xml:lang="en">Quartzite</skos:altLabel>
         <skos:altLabel xml:lang="fr">Quaztcite</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2623">
                 <skos:prefLabel xml:lang="de">Quarzit</skos:prefLabel>
@@ -2117,26 +2117,26 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/104.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/104">
         <skos:prefLabel xml:lang="fr">Quazt</skos:prefLabel>
         <skos:altLabel xml:lang="es">Cuarzo</skos:altLabel>
         <skos:altLabel xml:lang="en">quartz-sandstone</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/103.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/304.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/305.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/106.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/105.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/307.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/306.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/103"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/304"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/305"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/106"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/105"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/307"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/306"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/18.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/18">
         <skos:prefLabel xml:lang="de">Rhyolit</skos:prefLabel>
         <skos:altLabel xml:lang="en">rhyolite</skos:altLabel>
         <skos:altLabel xml:lang="hu">riolit</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/14"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4781">
                 <skos:prefLabel xml:lang="de">Rhyolit</skos:prefLabel>
@@ -2147,30 +2147,30 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/27.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/27">
         <skos:prefLabel xml:lang="de">Rhyolith-Porphyr</skos:prefLabel>
         <skos:altLabel xml:lang="en">rhyolite-porphyry</skos:altLabel>
         <skos:altLabel xml:lang="hu">riolit-porfír</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/29"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/1.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/1">
         <skos:prefLabel xml:lang="en">Rock</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/2.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/3.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/288.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/5.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/6.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/33.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/55.rdf"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/2"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/3"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/288"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/5"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/6"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/33"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/55"/>
         <dct:created>2013-08-20 17:25:18</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/75.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/75">
         <skos:prefLabel xml:lang="de">Sandstein</skos:prefLabel>
         <skos:altLabel xml:lang="es">Arenisca</skos:altLabel>
         <skos:altLabel xml:lang="fr">Grès</skos:altLabel>
@@ -2182,7 +2182,7 @@
         <skos:altLabel xml:lang="en">sand-stone</skos:altLabel>
         <skos:altLabel xml:lang="en">stuccoed sandstone</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2730">
                 <skos:prefLabel xml:lang="de">Sandstein</skos:prefLabel>
@@ -2193,15 +2193,15 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/502.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/502">
         <skos:prefLabel xml:lang="en">sandstone</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <dct:created>2014-01-29 23:32:37</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/290.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/290">
         <skos:prefLabel xml:lang="en">Saphir</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/288.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/288"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8901">
                 <skos:prefLabel xml:lang="de">Saphir</skos:prefLabel>
@@ -2209,24 +2209,24 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:09:18</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/97.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/97">
         <skos:prefLabel xml:lang="de">Sardonyx</skos:prefLabel>
         <skos:altLabel xml:lang="en">Sardonyx</skos:altLabel>
         <skos:altLabel xml:lang="fr">Sardonice</skos:altLabel>
         <skos:altLabel xml:lang="es">Sardónice</skos:altLabel>
         <skos:altLabel xml:lang="hu">szardonix</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/52.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/52">
         <skos:prefLabel xml:lang="de">Schiefer</skos:prefLabel>
         <skos:altLabel xml:lang="es">Esquisto / Pizarra</skos:altLabel>
         <skos:altLabel xml:lang="hu">Pala</skos:altLabel>
         <skos:altLabel xml:lang="en">schist</skos:altLabel>
         <skos:altLabel xml:lang="en">Slate</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2768">
                 <skos:prefLabel xml:lang="de">Schiefer</skos:prefLabel>
@@ -2237,7 +2237,7 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/32.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/32">
         <skos:prefLabel xml:lang="de">Schlacke</skos:prefLabel>
         <skos:altLabel xml:lang="es">Esquisto Scoria</skos:altLabel>
         <skos:altLabel xml:lang="es">Lumaquela</skos:altLabel>
@@ -2245,7 +2245,7 @@
         <skos:altLabel xml:lang="de">Schillkalk</skos:altLabel>
         <skos:altLabel xml:lang="fr">Schiste</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/28.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/28"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2779">
                 <skos:prefLabel xml:lang="de">Schlacke</skos:prefLabel>
@@ -2256,52 +2256,52 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/42.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/42">
         <skos:prefLabel xml:lang="de">Sedimentäres Ausgangsgestein</skos:prefLabel>
         <skos:altLabel xml:lang="en">sedimentary protolith</skos:altLabel>
         <skos:altLabel xml:lang="hu">vulkáni törmelékes üledék</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/33.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/43.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/44.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/45.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/46.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/47.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/48.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/51.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/52.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/53.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/54.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/33"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/43"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/44"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/45"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/46"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/47"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/51"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/52"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/53"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/54"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/17"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/55.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/55">
         <skos:prefLabel xml:lang="de">SEDIMENTGESTEINE</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Sedimentaires</skos:altLabel>
         <skos:altLabel xml:lang="es">Sedimentarias</skos:altLabel>
         <skos:altLabel xml:lang="en">SEDIMENTARY ROCKS</skos:altLabel>
         <skos:altLabel xml:lang="hu">üledékes kőzetek</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/103.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/72.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/85.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/99.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/80.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/1"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/103"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/85"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/99"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/80"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/2"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/302.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/302">
         <skos:prefLabel xml:lang="de">Sepiolith (Meerschaum)</skos:prefLabel>
         <skos:altLabel xml:lang="hu">tajték</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8902">
                 <skos:prefLabel xml:lang="de">Sepiolith</skos:prefLabel>
@@ -2309,22 +2309,22 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:16:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/40.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/40">
         <skos:prefLabel xml:lang="de">Serpentinit</skos:prefLabel>
         <skos:altLabel xml:lang="es">Serpentina</skos:altLabel>
         <skos:altLabel xml:lang="fr">Serpertine</skos:altLabel>
         <skos:altLabel xml:lang="en">szerpentin</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/42"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/53.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/53">
         <skos:prefLabel xml:lang="de">Silex</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2875">
                 <skos:prefLabel xml:lang="de">Silex</skos:prefLabel>
@@ -2332,11 +2332,11 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/291.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/291">
         <skos:prefLabel xml:lang="hu">Smaragd</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/288.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/292.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/288"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/292"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8904">
                 <skos:prefLabel xml:lang="de">Smaragd</skos:prefLabel>
@@ -2344,10 +2344,10 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:09:18</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/292.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/292">
         <skos:prefLabel xml:lang="de">Smaragdplasma</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/291.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/291"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8905">
                 <skos:prefLabel xml:lang="de">Smaragdplasma</skos:prefLabel>
@@ -2355,14 +2355,14 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:09:18</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/41.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/41">
         <skos:prefLabel xml:lang="de">Speckstein</skos:prefLabel>
         <skos:altLabel xml:lang="en">Soapstone</skos:altLabel>
         <skos:altLabel xml:lang="en">soapstone (talc-rock)</skos:altLabel>
         <skos:altLabel xml:lang="de">Steatit</skos:altLabel>
         <skos:altLabel xml:lang="hu">zsírkő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2905">
                 <skos:prefLabel xml:lang="de">Speckstein</skos:prefLabel>
@@ -2373,21 +2373,21 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/4.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/4">
         <skos:prefLabel xml:lang="de">Steinputz-Trockenmörtel</skos:prefLabel>
         <skos:altLabel xml:lang="hu">kőpor / rideg habarcs</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/3.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/3"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/258"/>
         </skos:closeMatch>
         <dct:created>2013-08-20 17:26:22</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/317.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/317">
         <skos:prefLabel xml:lang="de">Stoff</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/318.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/318"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2985">
                 <skos:prefLabel xml:lang="de">Stoff</skos:prefLabel>
@@ -2395,13 +2395,13 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:25:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/13.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/13">
         <skos:prefLabel xml:lang="de">Syenit</skos:prefLabel>
         <skos:altLabel xml:lang="es">Sienita</skos:altLabel>
         <skos:altLabel xml:lang="fr">Syenite</skos:altLabel>
         <skos:altLabel xml:lang="en">szienit</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6259">
                 <skos:prefLabel xml:lang="de">Syenit</skos:prefLabel>
@@ -2412,7 +2412,7 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/126.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/126">
         <skos:prefLabel xml:lang="la">tectorium</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Enduit peint</skos:altLabel>
         <skos:altLabel xml:lang="es">estuco</skos:altLabel>
@@ -2430,7 +2430,7 @@
         <skos:altLabel xml:lang="bg">щукатура, мазилка</skos:altLabel>
         <skos:altLabel xml:lang="ar">جص</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2617">
                 <skos:prefLabel xml:lang="de">Putz</skos:prefLabel>
@@ -2438,16 +2438,16 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/127.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/127">
         <skos:prefLabel xml:lang="la">tectorium induens sepulchrum</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/132.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/132">
         <skos:prefLabel xml:lang="es">Terra sigillata</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3040">
                 <skos:prefLabel xml:lang="de">Terra sigillata</skos:prefLabel>
@@ -2455,24 +2455,24 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/54.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/54">
         <skos:prefLabel xml:lang="de">Tonschiefer</skos:prefLabel>
         <skos:altLabel xml:lang="hu">agyagpala</skos:altLabel>
         <skos:altLabel xml:lang="fr">Ardoise</skos:altLabel>
         <skos:altLabel xml:lang="es">Pizarra</skos:altLabel>
         <skos:altLabel xml:lang="en">Slate</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/43"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/293.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/293">
         <skos:prefLabel xml:lang="de">Topas</skos:prefLabel>
         <skos:altLabel xml:lang="hu">topáz</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/288.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/288"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8906">
                 <skos:prefLabel xml:lang="de">Topas</skos:prefLabel>
@@ -2480,13 +2480,13 @@
         </skos:exactMatch>
         <dct:created>2013-09-23 20:09:18</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/83.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/83">
         <skos:prefLabel xml:lang="fr">Trachyte</skos:prefLabel>
         <skos:altLabel xml:lang="de">Trachyt</skos:altLabel>
         <skos:altLabel xml:lang="en">Trachyte</skos:altLabel>
         <skos:altLabel xml:lang="es">Tracita</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/80.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/80"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6298">
                 <skos:prefLabel xml:lang="de">Trachyt</skos:prefLabel>
@@ -2494,7 +2494,7 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/71.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/71">
         <skos:prefLabel xml:lang="de">Travertin Kalkstein</skos:prefLabel>
         <skos:altLabel xml:lang="de">Travertin</skos:altLabel>
         <skos:altLabel xml:lang="fr">Travertin</skos:altLabel>
@@ -2503,7 +2503,7 @@
         <skos:altLabel xml:lang="it">Travertino</skos:altLabel>
         <skos:altLabel xml:lang="es">Travertino</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/69.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/69"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6299">
                 <skos:prefLabel xml:lang="de">Travertin</skos:prefLabel>
@@ -2514,21 +2514,21 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/64.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/64">
         <skos:prefLabel xml:lang="de">Tuff Kalkstein</skos:prefLabel>
         <skos:altLabel xml:lang="en">tufa-limestone</skos:altLabel>
         <skos:altLabel xml:lang="hu">tufás mészkő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
         <skos:closeMatch>
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/58"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/117.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/117">
         <skos:prefLabel xml:lang="de">unbestimmt</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/107.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/107"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4536">
                 <skos:prefLabel xml:lang="de">unbestimmt</skos:prefLabel>
@@ -2536,12 +2536,12 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/604.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/604">
         <skos:prefLabel xml:lang="hu">üveg</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <dct:created>2014-01-30 06:38:41</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/122.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/122">
         <skos:prefLabel xml:lang="la">vitrum</skos:prefLabel>
         <skos:altLabel xml:lang="tr">cam</skos:altLabel>
         <skos:altLabel xml:lang="de">Glas</skos:altLabel>
@@ -2556,7 +2556,7 @@
         <skos:altLabel xml:lang="bg">стъкло</skos:altLabel>
         <skos:altLabel xml:lang="ar">زجاج</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/118"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1920">
                 <skos:prefLabel xml:lang="de">Glas</skos:prefLabel>
@@ -2564,18 +2564,18 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/98.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/98">
         <skos:prefLabel xml:lang="de">Vulkantuff</skos:prefLabel>
         <skos:altLabel xml:lang="en">Volcanic Tuff</skos:altLabel>
         <skos:altLabel xml:lang="hu">vulkáni tufa</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/87"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/84.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/84">
         <skos:prefLabel xml:lang="de">Vulkantuff</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/80.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/80"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6306">
                 <skos:prefLabel xml:lang="de">vulkanischer Tuff</skos:prefLabel>
@@ -2583,10 +2583,10 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/116.rdf">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/116">
         <skos:prefLabel xml:lang="de">Zinn</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309.rdf"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/309"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3308">
                 <skos:prefLabel xml:lang="de">Zinn</skos:prefLabel>
