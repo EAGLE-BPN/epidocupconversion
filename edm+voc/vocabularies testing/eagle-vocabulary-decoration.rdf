@@ -64,6 +64,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/18">
         <skos:prefLabel xml:lang="es">Acrótera</skos:prefLabel>
         <skos:altLabel xml:lang="hu">akrotérion</skos:altLabel>
+        <skos:altLabel xml:lang="it">acroterio</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/594">
@@ -111,12 +112,14 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/23">
         <skos:prefLabel xml:lang="de">Alkestis</skos:prefLabel>
         <skos:altLabel xml:lang="en">Alcestis</skos:altLabel>
+        <skos:altLabel xml:lang="it">Alcesti</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/2">
         <skos:prefLabel xml:lang="la">Alpha et Omega</skos:prefLabel>
         <skos:altLabel xml:lang="hu">alpha és ómega</skos:altLabel>
+        <skos:altLabel xml:lang="it">alfa e omega</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -157,12 +160,14 @@
         <skos:prefLabel xml:lang="de">Äneas</skos:prefLabel>
         <skos:altLabel xml:lang="en">Aeneas</skos:altLabel>
         <skos:altLabel xml:lang="hu">Aeneas</skos:altLabel>
+        <skos:altLabel xml:lang="it">Enea</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/24">
         <skos:prefLabel xml:lang="es">Anfiteatro</skos:prefLabel>
         <skos:altLabel xml:lang="hu">amfiteátrum</skos:altLabel>
+        <skos:altLabel xml:lang="it">anfiteatro</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/596">
@@ -303,6 +308,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/34">
         <skos:prefLabel xml:lang="es">Arquitrave</skos:prefLabel>
         <skos:altLabel xml:lang="hu">architráv</skos:altLabel>
+        <skos:altLabel xml:lang="it">architravve</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/603">
@@ -368,6 +374,7 @@
         <skos:prefLabel xml:lang="de">Bacchus</skos:prefLabel>
         <skos:altLabel xml:lang="de">Dionysos</skos:altLabel>
         <skos:altLabel xml:lang="en">Dionysus</skos:altLabel>
+        <skos:altLabel xml:lang="it">Dioniso</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
         <dct:modified>2014-02-03 22:50:08</dct:modified>
@@ -477,6 +484,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/62">
         <skos:prefLabel xml:lang="es">Bucráneo</skos:prefLabel>
         <skos:altLabel xml:lang="hu">bukranion; ökörfej</skos:altLabel>
+        <skos:altLabel xml:lang="it">bucranio</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/627">
