@@ -18,7 +18,7 @@
     </skos:ConceptScheme>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1826">
         <skos:prefLabel xml:lang="en">Abaton</skos:prefLabel>
-        <skos:scopeNote xml:lang="de">Stätten der Kultausübung, die der Öffentlichkeit nicht zugänglich sind. Teilweise gleichbedeutend mit Adyton</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Stätte der Kultausübung, die der Öffentlichkeit nicht zugänglich ist. Teilweise synonym mit Adyton verwendet</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7922">
@@ -29,6 +29,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1827">
         <skos:prefLabel xml:lang="en">Acanthus</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Pflanzengattung, deren Blattform als Ornament verbreitet ist</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1398">
@@ -42,6 +43,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1828">
         <skos:prefLabel xml:lang="en">Adytum / Adyton</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Ein der Tempelcella angeschlossener Rückraum, der nicht öffentlich zugänglich ist</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8475">
@@ -69,6 +71,7 @@
             dell’edificio</skos:scopeNote>
         <skos:scopeNote xml:lang="en">To describe any building (except funerary structures) on which
             a text is directly inscribed.</skos:scopeNote>
+            <skos:scopeNote xml:lang="de">Bauwerk, das Räume einschließt und ein Dach besitzt</skos:skopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1234">
