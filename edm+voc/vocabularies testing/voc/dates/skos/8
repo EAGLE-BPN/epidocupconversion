@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-12-15Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-12-15Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-01-13+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-01-13+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -17,27 +17,28 @@
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
                  rdf:about="http://www.eagle-network.eu/voc/dates/skos/8">
-        <skos:prefLabel xml:lang="en">periods</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/10"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/9"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/17"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/11"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/12"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/18"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/13"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/21"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/16"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/19"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/71"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/15"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/14"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/67"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/69"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/20"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/70"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/113"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/68"/>
-        <dct:created>2013-08-21 08:52:32</dct:created>
-    </skos:Concept>
+		    <skos:prefLabel xml:lang="en">periods</skos:prefLabel>
+		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/10"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/9"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/17"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/11"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/12"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/18"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/13"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/21"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/16"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/19"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/71"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/185"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/15"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/14"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/67"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/69"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/20"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/70"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/113"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/skos/68"/>
+		    <dct:created>2013-08-21 08:52:32</dct:created>
+	  </skos:Concept>
 </rdf:RDF>

@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2014-12-15Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2014-12-15Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-01-13+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-01-13+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -17,10 +17,14 @@
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
                  rdf:about="http://www.eagle-network.eu/voc/dates/skos/36">
-        <skos:prefLabel xml:lang="es">Decio (249-251 d.C.)</skos:prefLabel>
-        <skos:scopeNote>origDate notBefore="0249" notAfter="0251"</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/skos/22"/>
-        <dct:created>2013-08-21 08:54:24</dct:created>
-    </skos:Concept>
+		    <skos:prefLabel xml:lang="es">Decio</skos:prefLabel>
+		    <skos:scopeNote xml:lang="de">Sept./Okt. 249 - Juni 251</skos:scopeNote>
+      <skos:scopeNote>origDate notBefore="0249" notAfter="0251"</skos:scopeNote>
+        		<skos:scopeNote xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 204.</skos:scopeNote>
+		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/skos/24"/>
+		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/skos/22"/>
+		    <dct:created>2013-08-21 08:54:24</dct:created>
+		    <dct:modified>2014-03-12 11:05:41</dct:modified>
+	  </skos:Concept>
 </rdf:RDF>

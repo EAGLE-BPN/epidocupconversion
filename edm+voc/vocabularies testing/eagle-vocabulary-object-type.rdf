@@ -71,7 +71,7 @@
             dell’edificio</skos:scopeNote>
         <skos:scopeNote xml:lang="en">To describe any building (except funerary structures) on which
             a text is directly inscribed.</skos:scopeNote>
-            <skos:scopeNote xml:lang="de">Bauwerk, das Räume einschließt und ein Dach besitzt</skos:skopeNote>
+            <skos:scopeNote xml:lang="de">Bauwerk, das Räume einschließt und ein Dach besitzt</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1234">
