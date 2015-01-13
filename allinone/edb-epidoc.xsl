@@ -27,12 +27,10 @@
     <!--breaks brackets in unique meaning ones as much as possible preparing things for the next step-->
     <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/bracketsEDB.xsl"/>
 
-
 <!--  Takes all brackets sets and other diacritict and substitutes them with markup  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/upconversionEDB.xsl"/>    
+    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/upconversionEDB.xsl"/>   
     
     <!--  adds numbers to the marked up text-->
-    
     <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/insertnumbers.xsl"/>
     
 <!-- remove attributes inherited from template which contain sample urls. to be used until those can be usefully populated  -->
