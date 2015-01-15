@@ -97,6 +97,10 @@
                     $(".list").hide();
                     $(".ALL").show();
                     }
+                    if($(this).attr("value")=="hier"){
+                    $(".list").hide();
+                    $(".hier").show();
+                    }
                     });
                     }).change();
                     });
@@ -205,15 +209,19 @@
                             </tr>
 
                         </table>
-
-                        <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list of terms
-                            in this vocabulary. Equivalent terms are shown in the tematres instance and in each main
-                            concept description.</p>
-
+                       
+                        <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list of terms in this vocabulary.</p>
+                        <xsl:if test="contains($title, 'Dating') or contains($title, 'Material')">
+<p>You can also select SHOW HIERARCHICAL list to see the first three levels of the vocabulary's hierarchy.</p>
+</xsl:if>
+                        
                         <div size="20">
                             <select>
-                                <option>Choose Language</option>
+                                <option>Choose language or full display</option>
                                 <option value="ALL">Show all terms</option>
+                                <xsl:if test="//skos:hasTopConcept">
+<option value="hier">Show hierarchical list</option>
+                                </xsl:if>
                                 <option value="la">Latin</option>
                                 <option value="de">German</option>
                                 <option value="it">Italian</option>
@@ -229,8 +237,22 @@
                             </select>
                             <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)">
                                 <SELECT NAME="gourl">
-                                    <OPTION VALUE="">Browse all preferred Labels alphabetically</OPTION>
-                                    <xsl:for-each select="//skos:prefLabel">
+                                    <xsl:choose>
+<xsl:when test="contains($title, 'Dating')">
+    <OPTION VALUE="">Select from chronological list</OPTION>
+    <xsl:for-each select="//skos:Concept[not(@rdf:about = //skos:hasTopConcept/@rdf:resource)]">
+                                        <xsl:sort select="number(substring-before(skos:scopeNote[not(@xml:lang)], ' ;'))" order="ascending"/>
+                                        <option>
+                                            <xsl:attribute name="value">
+                                                <xsl:value-of select="@rdf:about"/>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="skos:prefLabel"/>
+                                        </option>
+                                    </xsl:for-each>
+</xsl:when>
+<xsl:otherwise>
+    <OPTION VALUE="">Select from all preferred labels alphabetically</OPTION>
+<xsl:for-each select="//skos:prefLabel">
                                         <xsl:sort order="ascending"/>
                                         <option>
                                             <xsl:attribute name="value">
@@ -238,13 +260,27 @@
                                             </xsl:attribute>
                                             <xsl:value-of select="."/>
                                         </option>
-                                    </xsl:for-each>
+                                    </xsl:for-each></xsl:otherwise></xsl:choose>
                                     <INPUT TYPE="SUBMIT" VALUE="Go"/>
                                 </SELECT>
                             </FORM>
                             <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)">
                                 <SELECT NAME="gourl">
-                                    <OPTION VALUE="">Browse all alternative Labels alphabetically</OPTION>
+<xsl:choose>
+    <xsl:when test="contains($title, 'Dating')">
+        <OPTION VALUE="">Select from all preferred labels alfabetically </OPTION>
+        <xsl:for-each select="//skos:prefLabel">
+            <xsl:sort order="ascending"/>
+            <option>
+                <xsl:attribute name="value">
+                    <xsl:value-of select="parent::node()/@rdf:about"/>
+                </xsl:attribute>
+                <xsl:value-of select="."/>
+            </option>
+        </xsl:for-each>
+    </xsl:when>
+<xsl:otherwise>                                    
+<OPTION VALUE="">Select from all alternative labels alphabetically</OPTION>
                                     <xsl:for-each select="//skos:altLabel">
                                         <xsl:sort order="ascending"/>
                                         <option>
@@ -254,12 +290,13 @@
                                             <xsl:value-of select="."/>
                                         </option>
                                     </xsl:for-each>
-                                    <INPUT TYPE="SUBMIT" VALUE="Go"/>
+</xsl:otherwise>
+</xsl:choose>                                    
+<INPUT TYPE="SUBMIT" VALUE="Go"/>
                                 </SELECT>
                             </FORM>
 
                         </div>
-
                         <div class="la list">
                             <h3>Terms in Latin</h3>
                             <p>Preferred <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
@@ -612,6 +649,28 @@
                                 </tr>
                             </table>
                         </div>
+
+<xsl:if test="//skos:hasTopConcept">
+                        <div class="hier list">
+                            <ul>
+                                <xsl:for-each select="//skos:Concept[@rdf:about = //skos:hasTopConcept/@rdf:resource]">
+                                    <li><a href="{@rdf:about}"><xsl:value-of select="skos:prefLabel"/></a></li>
+                                    <ul><xsl:for-each select="skos:narrower/@rdf:resource">
+                                        <xsl:variable name="value" select="."/>
+                                        <li><a href="{//skos:Concept[@rdf:about = $value]/@rdf:about}"><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel"/></a><xsl:text> (</xsl:text><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel/@xml:lang"/><xsl:text>)</xsl:text>
+                                            <xsl:if test="//skos:Concept[@rdf:about = $value]/skos:narrower">
+                                                <ul><xsl:for-each select="//skos:Concept[@rdf:about = $value]/skos:narrower/@rdf:resource">
+                                                    <xsl:variable name="value" select="."/>
+                                                    <li><a href="{.}"><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel"/></a><xsl:text> (</xsl:text><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel/@xml:lang"/><xsl:text>)</xsl:text></li>
+                                                </xsl:for-each>
+                                                </ul>
+                                            </xsl:if>
+                                        </li>
+                                    </xsl:for-each>
+                                    </ul>
+                                </xsl:for-each>
+                            </ul>
+                        </div></xsl:if>
                         <p>
                             <a
                                 href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"

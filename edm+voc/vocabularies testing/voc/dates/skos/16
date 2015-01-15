@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-01-13+01:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-01-13+01:00</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-01-15+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-01-15+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -18,6 +18,8 @@
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
                  rdf:about="http://www.eagle-network.eu/voc/dates/skos/16">
 		    <skos:prefLabel xml:lang="en">Geometric</skos:prefLabel>
+		    <skos:scopeNote/>
+      <!--CHECK-->
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/skos/8"/>
 		    <dct:created>2013-08-21 08:52:57</dct:created>

@@ -64,6 +64,10 @@
                     $(".list").hide();
                     $(".ALL").show();
                     }
+                    if($(this).attr("value")=="hier"){
+                    $(".list").hide();
+                    $(".hier").show();
+                    }
                     });
                     }).change();
                     });
@@ -138,13 +142,10 @@
             </tr>
          </table>
          <p>Choose a language to start navigating or select SHOW ALL TERMS to see the full list
-            of terms
-            in this vocabulary. Equivalent terms are shown in the tematres instance and in each
-            main
-            concept description.
+            of terms in this vocabulary.
          </p>
          <div size="20"><select>
-               <option>Choose Language</option>
+               <option>Choose language or full display</option>
                <option value="ALL">Show all terms</option>
                <option value="la">Latin</option>
                <option value="de">German</option>
@@ -158,7 +159,7 @@
                <option value="ru">Bulgarian</option>
                <option value="tr">Turkish</option>
                <option value="others">Others</option></select><FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
-                  <OPTION VALUE="">Browse all preferred Labels alphabetically</OPTION>
+                  <OPTION VALUE="">Select from all preferred labels alphabetically</OPTION>
                   <option value="http://www.eagle-network.eu/voc/statepreserv/lod/4">Broken</option>
                   <option value="http://www.eagle-network.eu/voc/statepreserv/lod/2">Complete</option>
                   <option value="http://www.eagle-network.eu/voc/statepreserv/lod/1">Good</option>
@@ -181,7 +182,7 @@
                   <option value="http://www.eagle-network.eu/voc/statepreserv/lod/11">tit. mutilum</option>
                   <option value="http://www.eagle-network.eu/voc/statepreserv/lod/14">vollständig</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
             <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
-                  <OPTION VALUE="">Browse all alternative Labels alphabetically</OPTION>
+                  <OPTION VALUE="">Select from all alternative labels alphabetically</OPTION>
                   <option value="http://www.eagle-network.eu/voc/statepreserv/lod/1">bueno</option>
                   <option value="http://www.eagle-network.eu/voc/statepreserv/lod/2">completa</option>
                   <option value="http://www.eagle-network.eu/voc/statepreserv/lod/5">incompleta</option>
