@@ -333,6 +333,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/167">
         <skos:prefLabel xml:lang="fr">Amulette</skos:prefLabel>
         <skos:altLabel xml:lang="it">Amuleto</skos:altLabel>
+        <skos:altLabel xml:lang="he">קמיע</skos:altLabel>
+        <skos:altLabel xml:lang="he">בולה</skos:altLabel>
         <skos:altLabel xml:lang="la">monile, amuletum</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
@@ -1276,6 +1278,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1806">
         <skos:prefLabel xml:lang="en">calender</skos:prefLabel>
+        
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2014-03-13 10:22:42</dct:created>
     </skos:Concept>
@@ -2279,6 +2282,7 @@
         <skos:altLabel xml:lang="en">jug</skos:altLabel>
         <skos:altLabel xml:lang="el">πίθος</skos:altLabel>
         <skos:altLabel xml:lang="ar">إبريق</skos:altLabel>
+        <skos:altLabel xml:lang="he">פכית</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1507">
@@ -2883,6 +2887,7 @@
         <skos:altLabel xml:lang="el">βάρος</skos:altLabel>
         <skos:altLabel xml:lang="ru">вес</skos:altLabel>
         <skos:altLabel xml:lang="ar">وزن</skos:altLabel>
+        <skos:altLabel xml:lang="he">משקולת</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1671">
@@ -4214,6 +4219,8 @@
         <skos:altLabel xml:lang="el">κόσμημα, δαχτυλίδι</skos:altLabel>
         <skos:altLabel xml:lang="ru">кольцо, перстень</skos:altLabel>
         <skos:altLabel xml:lang="ar">خاتم وسوار</skos:altLabel>
+        <skos:altLabel xml:lang="he">טבעת</skos:altLabel>
+        <skos:altLabel xml:lang="he">טבעת חותם</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1789">
@@ -5230,6 +5237,7 @@
         <skos:altLabel xml:lang="el">ανάγλυφο</skos:altLabel>
         <skos:altLabel xml:lang="ru">рельеф</skos:altLabel>
         <skos:altLabel xml:lang="ar">نحت بارز</skos:altLabel>
+        <skos:altLabel xml:lang="he">שבר תבליט קבר</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1264">
@@ -5540,6 +5548,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/429">
         <skos:prefLabel xml:lang="en">Shrine</skos:prefLabel>
+        <skos:altLabel xml:lang="he">שבר מעיטור של חפץ פולחני</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2819">
@@ -5876,6 +5885,7 @@
         <skos:prefLabel xml:lang="de">Statuette</skos:prefLabel>
         <skos:altLabel xml:lang="la">sigillum</skos:altLabel>
         <skos:altLabel xml:lang="hu">szobrocska</skos:altLabel>
+        <skos:altLabel xml:lang="he">פסלון</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1739">
@@ -5902,6 +5912,7 @@
         <skos:altLabel xml:lang="fr">Stèle funéraire fragmentaire</skos:altLabel>
         <skos:altLabel xml:lang="hu">sztélé</skos:altLabel>
         <skos:altLabel xml:lang="en">plaque / stela</skos:altLabel>
+        <skos:altLabel xml:lang="he">אסטלה</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1763">

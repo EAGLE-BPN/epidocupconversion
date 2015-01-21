@@ -74,6 +74,10 @@
                     $(".el").show();
                     }
                     
+                    if($(this).attr("value")=="he"){
+                    $(".list").hide();
+                    $(".he").show();
+                    }
                     if($(this).attr("value")=="ar"){
                     $(".list").hide();
                     $(".ar").show();
@@ -226,6 +230,7 @@
                                 <option value="de">German</option>
                                 <option value="it">Italian</option>
                                 <option value="fr">French</option>
+                                <option value="he">Hebrew</option>
                                 <option value="es">Spanish</option>
                                 <option value="en">English</option>
                                 <option value="hu">Hungarian</option>
@@ -478,6 +483,28 @@
                                             </option>
                                         </xsl:for-each>
 
+                                        <INPUT TYPE="SUBMIT" VALUE="Go"/>
+                                    </SELECT>
+                                </FORM>
+                            </p>
+                        </div>
+                        <div class="he list">
+                            <h3>Terms in Hebrew</h3>
+                            <p>
+                                <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST"
+                                    onSubmit="return dropdown(this.gourl)">
+                                    <SELECT NAME="gourl">
+                                        <OPTION VALUE="">Choose...</OPTION>
+                                        <xsl:for-each select="//skos:altLabel[@xml:lang='he']">
+                                            <xsl:sort order="ascending"/>
+                                            <option>
+                                                <xsl:attribute name="value">
+                                                    <xsl:value-of select="parent::node()/@rdf:about"/>
+                                                </xsl:attribute>
+                                                <xsl:value-of select="."/>
+                                            </option>
+                                        </xsl:for-each>
+                                        
                                         <INPUT TYPE="SUBMIT" VALUE="Go"/>
                                     </SELECT>
                                 </FORM>

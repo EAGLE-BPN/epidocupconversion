@@ -858,6 +858,7 @@
         <skos:altLabel xml:lang="en">Calendar</skos:altLabel>
         <skos:altLabel xml:lang="it">Calendario</skos:altLabel>
         <skos:altLabel xml:lang="hu">Naptár</skos:altLabel>
+        <skos:altLabel xml:lang="he">לוח שנה</skos:altLabel>
         <skos:scopeNote xml:lang="de"> Dauerkalendarium; Aufstellung aller Tage des Jahres mit
             Angabe von Markt- und Festtagen. Nicht Fasten oder Feriale (s.Verzeichnis). </skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD045018</skos:scopeNote>

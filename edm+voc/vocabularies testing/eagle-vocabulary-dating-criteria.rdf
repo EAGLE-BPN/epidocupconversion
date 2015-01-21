@@ -172,6 +172,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/354">
 		<skos:prefLabel xml:lang="en">Early Ptolemaic Period
 		</skos:prefLabel>
+		<skos:altLabel xml:lang="he">תקופה התלמית הקדומה</skos:altLabel>
 		<skos:scopeNote>-0323 ; -0031</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
@@ -1151,6 +1152,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/69">
 		<skos:prefLabel xml:lang="de">republikanisch</skos:prefLabel>
 		<skos:altLabel xml:lang="en">Early Roman Period</skos:altLabel>
+		<skos:altLabel xml:lang="he">תקופה הרומית הקדומה </skos:altLabel>
 		<skos:scopeNote>-0509 ; -0027</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
@@ -1158,6 +1160,7 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/20">
 		<skos:prefLabel xml:lang="en">Roman</skos:prefLabel>
+		<skos:altLabel xml:lang="he">התקופה הרומית</skos:altLabel>
 		<skos:scopeNote></skos:scopeNote><!--CHECK-->
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
@@ -1600,6 +1603,7 @@
 		<skos:altLabel xml:lang="en">mid eight century BC</skos:altLabel>
 		<skos:altLabel xml:lang="en">mid eight century BCE</skos:altLabel>
 		<skos:altLabel xml:lang="it">metà dell'ottavo secolo a.C.</skos:altLabel>
+		<skos:altLabel xml:lang="he">תקופת הברזל II,  אמצע המאה ה-8 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0774 ; -0725</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/73"/>
@@ -1675,6 +1679,7 @@
 		<skos:altLabel xml:lang="en">seventh century BC</skos:altLabel>
 		<skos:altLabel xml:lang="en">seventh century BCE</skos:altLabel>
 		<skos:altLabel xml:lang="it">settimo secolo a.C.</skos:altLabel>
+		<skos:altLabel xml:lang="he">תקופת הברזל II, המאה ה-7 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0699 ; -0600</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
@@ -1834,6 +1839,7 @@
 		<skos:altLabel xml:lang="en">sixth century BC</skos:altLabel>
 		<skos:altLabel xml:lang="en">sixth century BCE</skos:altLabel>
 		<skos:altLabel xml:lang="it">sesto secolo a.C.</skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-6 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0599 ; -0500</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
@@ -2153,6 +2159,7 @@
 		<skos:altLabel xml:lang="en">fourth century BC</skos:altLabel>
 		<skos:altLabel xml:lang="en">fourth century BCE</skos:altLabel>
 		<skos:altLabel xml:lang="it">quarto secolo a.C.</skos:altLabel>
+		<skos:altLabel xml:lang="he">התקופה הפרסית, המאה ה-4 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0399 ; -0300</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
@@ -2473,6 +2480,7 @@
 		<skos:altLabel xml:lang="en">second century BC</skos:altLabel>
 		<skos:altLabel xml:lang="en">second century BCE</skos:altLabel>
 		<skos:altLabel xml:lang="it">secondo secolo a.C.</skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-2 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0199 ; -0100</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
@@ -2632,6 +2640,7 @@
 		<skos:altLabel xml:lang="it">I a.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">first century BC</skos:altLabel>
 		<skos:altLabel xml:lang="en">first century BCE</skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-1 לפני הספירה</skos:altLabel>
 		<skos:altLabel xml:lang="it">primo secolo a.C.</skos:altLabel>
 		<skos:scopeNote>-0099 ; -0001</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -2792,6 +2801,7 @@
 		<skos:altLabel xml:lang="en">first century AD</skos:altLabel>
 		<skos:altLabel xml:lang="en">first century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">primo secolo d.C.</skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-1 לספירה</skos:altLabel>
 		<skos:scopeNote>0001 ; 0100</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
@@ -4079,6 +4089,7 @@
 		<skos:altLabel xml:lang="en">III BCE - II BCE</skos:altLabel>
 		<skos:altLabel xml:lang="en">3rd century BCE – 2nd century BCE
 		</skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-3 עד ה-2 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0299 ; -0100</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
@@ -4089,6 +4100,7 @@
 		<skos:altLabel xml:lang="en">I BCE - I CE</skos:altLabel>
 		<skos:altLabel xml:lang="en">1st century BCE – 1st century CE
 		</skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-1 לפני הספירה עד המאה ה-1 לספירה</skos:altLabel>	
 		<skos:scopeNote>-0099 ; 0100</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
@@ -4135,6 +4147,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/81">
 		<skos:prefLabel xml:lang="en">VIII-VII BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">8th–7th century BCE</skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-8 עד ה-7 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0799 ; -0600</skos:scopeNote>
 		
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -4158,6 +4171,7 @@
 		<skos:altLabel xml:lang="en">VII BCE - IV BCE</skos:altLabel>
 		<skos:altLabel xml:lang="en">7th century BCE – 4th century BCE
 		</skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-7 עד ה-4 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0699 ; -0300</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
@@ -4169,6 +4183,7 @@
 		<skos:altLabel xml:lang="en">VII BCE - V BCE</skos:altLabel>
 		<skos:altLabel xml:lang="en">7th century BCE – 5th century BCE
 		</skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-7 עד ה-5 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0699 ; -0400</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
@@ -4180,6 +4195,7 @@
 		<skos:altLabel xml:lang="en">VII BCE - VI BCE</skos:altLabel>
 		<skos:altLabel xml:lang="en">7th century BCE – 6th century BCE
 		</skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-7 עד ה-6 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0699 ; -0500</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>

@@ -41,6 +41,10 @@
                     $(".el").show();
                     }
                     
+                    if($(this).attr("value")=="he"){
+                    $(".list").hide();
+                    $(".he").show();
+                    }
                     if($(this).attr("value")=="ar"){
                     $(".list").hide();
                     $(".ar").show();
@@ -114,7 +118,7 @@
          <table>
             <tr>
                <td>Languages attested</td>
-               <td>en, de, la, fr, es, hu, el, ru, ar, it, tr, sp</td>
+               <td>en, de, la, fr, es, hu, el, ru, ar, it, tr, he, sp</td>
             </tr>
             <tr>
                <td>Total number of terms</td>
@@ -126,7 +130,7 @@
             </tr>
             <tr>
                <td>Total number of translated terms</td>
-               <td>1196</td>
+               <td>1206</td>
             </tr>
             <tr>
                <td>Total number of equivalent and aligned terms</td>
@@ -151,6 +155,7 @@
                <option value="de">German</option>
                <option value="it">Italian</option>
                <option value="fr">French</option>
+               <option value="he">Hebrew</option>
                <option value="es">Spanish</option>
                <option value="en">English</option>
                <option value="hu">Hungarian</option>
@@ -2347,6 +2352,16 @@
                   <option value="http://www.eagle-network.eu/voc/objtyp/lod/94">щит</option>
                   <option value="http://www.eagle-network.eu/voc/objtyp/lod/65">эхин</option>
                   <option value="http://www.eagle-network.eu/voc/objtyp/lod/27">якорь</option>
+                  <option value="http://www.eagle-network.eu/voc/objtyp/lod/250">אסטלה</option>
+                  <option value="http://www.eagle-network.eu/voc/objtyp/lod/167">בולה</option>
+                  <option value="http://www.eagle-network.eu/voc/objtyp/lod/168">טבעת</option>
+                  <option value="http://www.eagle-network.eu/voc/objtyp/lod/168">טבעת חותם</option>
+                  <option value="http://www.eagle-network.eu/voc/objtyp/lod/200">משקולת</option>
+                  <option value="http://www.eagle-network.eu/voc/objtyp/lod/116">פכית</option>
+                  <option value="http://www.eagle-network.eu/voc/objtyp/lod/237">פסלון</option>
+                  <option value="http://www.eagle-network.eu/voc/objtyp/lod/167">קמיע</option>
+                  <option value="http://www.eagle-network.eu/voc/objtyp/lod/429">שבר מעיטור של חפץ פולחני</option>
+                  <option value="http://www.eagle-network.eu/voc/objtyp/lod/24">שבר תבליט קבר</option>
                   <option value="http://www.eagle-network.eu/voc/objtyp/lod/253">أثاث</option>
                   <option value="http://www.eagle-network.eu/voc/objtyp/lod/140">أداء</option>
                   <option value="http://www.eagle-network.eu/voc/objtyp/lod/105">أسفل العمود</option>
@@ -4512,6 +4527,23 @@
                      <option value="http://www.eagle-network.eu/voc/objtyp/lod/162">örlőkő</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
             </p>
          </div>
+         <div class="he list">
+            <h3>Terms in Hebrew</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION>
+                     <option value="http://www.eagle-network.eu/voc/objtyp/lod/250">אסטלה</option>
+                     <option value="http://www.eagle-network.eu/voc/objtyp/lod/167">בולה</option>
+                     <option value="http://www.eagle-network.eu/voc/objtyp/lod/168">טבעת</option>
+                     <option value="http://www.eagle-network.eu/voc/objtyp/lod/168">טבעת חותם</option>
+                     <option value="http://www.eagle-network.eu/voc/objtyp/lod/200">משקולת</option>
+                     <option value="http://www.eagle-network.eu/voc/objtyp/lod/116">פכית</option>
+                     <option value="http://www.eagle-network.eu/voc/objtyp/lod/237">פסלון</option>
+                     <option value="http://www.eagle-network.eu/voc/objtyp/lod/167">קמיע</option>
+                     <option value="http://www.eagle-network.eu/voc/objtyp/lod/429">שבר מעיטור של חפץ פולחני</option>
+                     <option value="http://www.eagle-network.eu/voc/objtyp/lod/24">שבר תבליט קבר</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
          <div class="el list">
             <h3>Terms in Greek</h3>
             <p>
@@ -6055,6 +6087,20 @@
                      <td>Translated term</td>
                      <td>Amuleto</td>
                      <td>it</td>
+                  </tr>
+                  
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>קמיע</td>
+                     <td>he</td>
+                  </tr>
+                  
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>בולה</td>
+                     <td>he</td>
                   </tr>
                   
                   <tr>
@@ -9074,6 +9120,7 @@
                      <td></td>
                      <td>en</td>
                   </tr>
+                  
                   
                   
                   <tr>
@@ -12673,6 +12720,13 @@
                      <td>ar</td>
                   </tr>
                   
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>פכית</td>
+                     <td>he</td>
+                  </tr>
+                  
                   
                   <tr>
                      <td></td>
@@ -14531,6 +14585,13 @@
                      <td>Translated term</td>
                      <td>وزن</td>
                      <td>ar</td>
+                  </tr>
+                  
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>משקולת</td>
+                     <td>he</td>
                   </tr>
                   
                   
@@ -19240,6 +19301,20 @@
                      <td>ar</td>
                   </tr>
                   
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>טבעת</td>
+                     <td>he</td>
+                  </tr>
+                  
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>טבעת חותם</td>
+                     <td>he</td>
+                  </tr>
+                  
                   
                   <tr>
                      <td></td>
@@ -22442,6 +22517,13 @@
                      <td>ar</td>
                   </tr>
                   
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>שבר תבליט קבר</td>
+                     <td>he</td>
+                  </tr>
+                  
                   
                   <tr>
                      <td></td>
@@ -23519,6 +23601,13 @@
                      <td></td>
                      <td></td>
                      <td>en</td>
+                  </tr>
+                  
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>שבר מעיטור של חפץ פולחני</td>
+                     <td>he</td>
                   </tr>
                   
                   
@@ -24608,6 +24697,13 @@
                      <td>hu</td>
                   </tr>
                   
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>פסלון</td>
+                     <td>he</td>
+                  </tr>
+                  
                   
                   <tr>
                      <td></td>
@@ -24726,6 +24822,13 @@
                      <td>Translated term</td>
                      <td>plaque / stela</td>
                      <td>en</td>
+                  </tr>
+                  
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>אסטלה</td>
+                     <td>he</td>
                   </tr>
                   
                   

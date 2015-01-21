@@ -41,6 +41,10 @@
                     $(".el").show();
                     }
                     
+                    if($(this).attr("value")=="he"){
+                    $(".list").hide();
+                    $(".he").show();
+                    }
                     if($(this).attr("value")=="ar"){
                     $(".list").hide();
                     $(".ar").show();
@@ -114,7 +118,7 @@
          <table>
             <tr>
                <td>Languages attested</td>
-               <td>en, es, de, el, la, it</td>
+               <td>en, es, de, el, la, he, it</td>
             </tr>
             <tr>
                <td>Total number of terms</td>
@@ -126,7 +130,7 @@
             </tr>
             <tr>
                <td>Total number of translated terms</td>
-               <td>1020</td>
+               <td>1036</td>
             </tr>
             <tr>
                <td>Total number of equivalent and aligned terms</td>
@@ -155,6 +159,7 @@
                <option value="de">German</option>
                <option value="it">Italian</option>
                <option value="fr">French</option>
+               <option value="he">Hebrew</option>
                <option value="es">Spanish</option>
                <option value="en">English</option>
                <option value="hu">Hungarian</option>
@@ -2254,6 +2259,29 @@
                      <OPTION VALUE="">Choose...</OPTION><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
             </p>
          </div>
+         <div class="he list">
+            <h3>Terms in Hebrew</h3>
+            <p>
+               <FORM ACTION="../cgi-bin/redirect.pl" METHOD="POST" onSubmit="return dropdown(this.gourl)"><SELECT NAME="gourl">
+                     <OPTION VALUE="">Choose...</OPTION>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/92">המאה ה-1 לספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/91">המאה ה-1 לפני הספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/348">המאה ה-1 לפני הספירה עד המאה ה-1 לספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/90">המאה ה-2 לפני הספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/349">המאה ה-3 עד ה-2 לפני הספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/86">המאה ה-6 לפני הספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/351">המאה ה-7 עד ה-4 לפני הספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/352">המאה ה-7 עד ה-5 לפני הספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/353">המאה ה-7 עד ה-6 לפני הספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/81">המאה ה-8 עד ה-7 לפני הספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/88">התקופה הפרסית, המאה ה-4 לפני הספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/20">התקופה הרומית</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/69">תקופה הרומית הקדומה </option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/354">תקופה התלמית הקדומה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/76">תקופת הברזל II,  אמצע המאה ה-8 לפני הספירה</option>
+                     <option value="http://www.eagle-network.eu/voc/dates/lod/85">תקופת הברזל II, המאה ה-7 לפני הספירה</option><INPUT TYPE="SUBMIT" VALUE="Go"></SELECT></FORM>
+            </p>
+         </div>
          <div class="el list">
             <h3>Terms in Greek</h3>
             <p>
@@ -3158,6 +3186,13 @@
                      <td></td>
                      <td></td>
                      <td>en</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>תקופה התלמית הקדומה</td>
+                     <td>he</td>
                   </tr>
                   		
                   <tr>
@@ -8426,6 +8461,13 @@
                   		
                   <tr>
                      <td></td>
+                     <td>Translated term</td>
+                     <td>תקופה הרומית הקדומה </td>
+                     <td>he</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
                      <td>Definition</td>
                      <td>-0509 ; -0027</td>
                      <td></td>
@@ -8454,6 +8496,13 @@
                      <td></td>
                      <td></td>
                      <td>en</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>התקופה הרומית</td>
+                     <td>he</td>
                   </tr>
                   		
                   <tr>
@@ -10764,6 +10813,13 @@
                   		
                   <tr>
                      <td></td>
+                     <td>Translated term</td>
+                     <td>תקופת הברזל II,  אמצע המאה ה-8 לפני הספירה</td>
+                     <td>he</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
                      <td>Definition</td>
                      <td>-0774 ; -0725</td>
                      <td></td>
@@ -11165,6 +11221,13 @@
                      <td>Translated term</td>
                      <td>settimo secolo a.C.</td>
                      <td>it</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>תקופת הברזל II, המאה ה-7 לפני הספירה</td>
+                     <td>he</td>
                   </tr>
                   		
                   <tr>
@@ -12050,6 +12113,13 @@
                      <td>Translated term</td>
                      <td>sesto secolo a.C.</td>
                      <td>it</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>המאה ה-6 לפני הספירה</td>
+                     <td>he</td>
                   </tr>
                   		
                   <tr>
@@ -13821,6 +13891,13 @@
                      <td>Translated term</td>
                      <td>quarto secolo a.C.</td>
                      <td>it</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>התקופה הפרסית, המאה ה-4 לפני הספירה</td>
+                     <td>he</td>
                   </tr>
                   		
                   <tr>
@@ -15597,6 +15674,13 @@
                   		
                   <tr>
                      <td></td>
+                     <td>Translated term</td>
+                     <td>המאה ה-2 לפני הספירה</td>
+                     <td>he</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
                      <td>Definition</td>
                      <td>-0199 ; -0100</td>
                      <td></td>
@@ -16472,6 +16556,13 @@
                      <td>Translated term</td>
                      <td>first century BCE</td>
                      <td>en</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>המאה ה-1 לפני הספירה</td>
+                     <td>he</td>
                   </tr>
                   		
                   <tr>
@@ -17364,6 +17455,13 @@
                      <td>Translated term</td>
                      <td>primo secolo d.C.</td>
                      <td>it</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>המאה ה-1 לספירה</td>
+                     <td>he</td>
                   </tr>
                   		
                   <tr>
@@ -24506,6 +24604,13 @@
                   		
                   <tr>
                      <td></td>
+                     <td>Translated term</td>
+                     <td>המאה ה-3 עד ה-2 לפני הספירה</td>
+                     <td>he</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
                      <td>Definition</td>
                      <td>-0299 ; -0100</td>
                      <td></td>
@@ -24551,6 +24656,13 @@
                      </td>
                      <td>en</td>
                   </tr>
+                  		
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>המאה ה-1 לפני הספירה עד המאה ה-1 לספירה</td>
+                     <td>he</td>
+                  </tr>	
                   		
                   <tr>
                      <td></td>
@@ -24763,6 +24875,13 @@
                   		
                   <tr>
                      <td></td>
+                     <td>Translated term</td>
+                     <td>המאה ה-8 עד ה-7 לפני הספירה</td>
+                     <td>he</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
                      <td>Definition</td>
                      <td>-0799 ; -0600</td>
                      <td></td>
@@ -24862,6 +24981,13 @@
                   		
                   <tr>
                      <td></td>
+                     <td>Translated term</td>
+                     <td>המאה ה-7 עד ה-4 לפני הספירה</td>
+                     <td>he</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
                      <td>Definition</td>
                      <td>-0699 ; -0300</td>
                      <td></td>
@@ -24911,6 +25037,13 @@
                   		
                   <tr>
                      <td></td>
+                     <td>Translated term</td>
+                     <td>המאה ה-7 עד ה-5 לפני הספירה</td>
+                     <td>he</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
                      <td>Definition</td>
                      <td>-0699 ; -0400</td>
                      <td></td>
@@ -24956,6 +25089,13 @@
                         		
                      </td>
                      <td>en</td>
+                  </tr>
+                  		
+                  <tr>
+                     <td></td>
+                     <td>Translated term</td>
+                     <td>המאה ה-7 עד ה-6 לפני הספירה</td>
+                     <td>he</td>
                   </tr>
                   		
                   <tr>

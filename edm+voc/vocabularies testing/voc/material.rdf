@@ -58,7 +58,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/30">
         <skos:prefLabel xml:lang="de">(vulkanischer) Tuff</skos:prefLabel>
-        <skos:altLabel xml:lang="en">(volcanic) tuff</skos:altLabel>
+        <skos:altLabel xml:lang="de">CIL: Tuff, vulkanischer vor allem Peperin</skos:altLabel>        
+      <skos:altLabel xml:lang="en">(volcanic) tuff</skos:altLabel>
       <skos:altLabel xml:lang="de">Tuff</skos:altLabel>
         <skos:altLabel xml:lang="es">Toba</skos:altLabel>
         <skos:altLabel xml:lang="fr">Tuf</skos:altLabel>
