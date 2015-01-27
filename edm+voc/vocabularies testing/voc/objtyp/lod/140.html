@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,107 +48,111 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Instrumentum domesticum</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Object type</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/140">
-                     <h2>Instrumentum domesticum</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Domestic</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>instrumentum</td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>mobilier, outillage, matériel</td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>instrumentum ( lead ingot )</td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>strumento</td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>εργαλείο</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>инструмент, орудие</td>
-               <td>ru</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>أداء</td>
-               <td>ar</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1553">Gerät</a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1551">Instrumento doméstico</a></td>
-               <td>es</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=Instrumento+dom%C3%A9stico&amp;rec=20055">http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=Instrumento+dom%C3%A9stico&amp;rec=20055</a></td>
-               <td></td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-10-01 22:44:21</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/140">
+                        <h2>Instrumentum domesticum</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Domestic</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>instrumentum</td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>mobilier, outillage, matériel</td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>instrumentum ( lead ingot )</td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>strumento</td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>εργαλείο</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>инструмент, орудие</td>
+                  <td>ru</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>أداء</td>
+                  <td>ar</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1553">Gerät</a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1551">Instrumento doméstico</a></td>
+                  <td>es</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=Instrumento+dom%C3%A9stico&amp;rec=20055">http://eda-bea.es/pub/record_card_1.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=Instrumento+dom%C3%A9stico&amp;rec=20055</a></td>
+                  <td></td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-10-01 22:44:21</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

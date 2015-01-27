@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,100 +48,104 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Columna, imoscapus</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Object type</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/105">
-                     <h2>Columna, imoscapus</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>column shaft, lower</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>faccia inferiore di fusto di colonna</td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>imoscapo di colonna</td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>lower shaft</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>partie inférieure du fût d'une colonne</td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Placa</td>
-               <td>es</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>Säule, unterer Teil des Schaftes</td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>κατώτερο τμήμα κίονα</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>أسفل العمود</td>
-               <td>ar</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1483">Plaque</a></td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-10-01 22:44:21</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/105">
+                        <h2>Columna, imoscapus</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>column shaft, lower</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>faccia inferiore di fusto di colonna</td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>imoscapo di colonna</td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>lower shaft</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>partie inférieure du fût d'une colonne</td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Placa</td>
+                  <td>es</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>Säule, unterer Teil des Schaftes</td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>κατώτερο τμήμα κίονα</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>أسفل العمود</td>
+                  <td>ar</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1483">Plaque</a></td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-10-01 22:44:21</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

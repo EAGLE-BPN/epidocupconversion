@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,114 +48,118 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">cera</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Material</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/133">
-                     <h2>cera</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>cire</td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>mum</td>
-               <td>tr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>vaha</td>
-               <td>fi</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>viasz</td>
-               <td>hu</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>vosak</td>
-               <td>hr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Wachs<a href="http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?material=Wachs"><img height="20%" width="20%" src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif" title="Search this term in EDH"></a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>wax</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>κερί</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>восък</td>
-               <td>bg</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>شمعه</td>
-               <td>ar</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Contained in</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/118">ceterum</a></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3197">Wachs</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Wachs"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-08-26 16:54:50</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/133">
+                        <h2>cera</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>cire</td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>mum</td>
+                  <td>tr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>vaha</td>
+                  <td>fi</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>viasz</td>
+                  <td>hu</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>vosak</td>
+                  <td>hr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Wachs<a href="http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?material=Wachs"><img height="20%" width="20%" src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif" title="Search this term in EDH"></a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>wax</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>κερί</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>восък</td>
+                  <td>bg</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>شمعه</td>
+                  <td>ar</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Contained in</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/118">ceterum</a></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3197">Wachs</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Wachs"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-08-26 16:54:50</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

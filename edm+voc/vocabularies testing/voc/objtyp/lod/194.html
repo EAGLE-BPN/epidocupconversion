@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,114 +48,118 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Pilaster</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Object type</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/194">
-                     <h2>Pilaster</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>pila</td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>pilar</td>
-               <td>es</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>pilastro</td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>pilaszter</td>
-               <td>hu</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>pilier</td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>pillar</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>διακοσμητική στήλη</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>προσαρμοσμένη πάνω σε τοίχο</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>τετράγωνη</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>пилястр</td>
-               <td>ru</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>عمود مستطيل ذو تاج</td>
-               <td>ar</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://vocab.getty.edu/aat/300000953">http://vocab.getty.edu/aat/300000953</a></td>
-               <td></td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-10-01 22:44:21</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/194">
+                        <h2>Pilaster</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>pila</td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>pilar</td>
+                  <td>es</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>pilastro</td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>pilaszter</td>
+                  <td>hu</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>pilier</td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>pillar</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>διακοσμητική στήλη</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>προσαρμοσμένη πάνω σε τοίχο</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>τετράγωνη</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>пилястр</td>
+                  <td>ru</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>عمود مستطيل ذو تاج</td>
+                  <td>ar</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://vocab.getty.edu/aat/300000953">http://vocab.getty.edu/aat/300000953</a></td>
+                  <td></td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-10-01 22:44:21</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

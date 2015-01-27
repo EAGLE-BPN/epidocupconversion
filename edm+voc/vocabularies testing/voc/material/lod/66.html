@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,170 +48,174 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Limestone</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Material</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/66">
-                     <h2>Limestone</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>brown limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>brownish-grey limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>coarse grey limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>dark limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>fine brown limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>grey limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>grey and grey-brown limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>grey limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>grey brown limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>grey-brown limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>pink limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>pinkish brown limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>pitted grey limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>white limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>yellow limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>yellow-brown limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>yellowish limestone</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>yellowish-grey limestone</td>
-               <td>en</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Contained in</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/65">Biogene Sedimente</a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/647">limestone veined with quartz</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-08-26 16:54:50</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/66">
+                        <h2>Limestone</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>brown limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>brownish-grey limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>coarse grey limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>dark limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>fine brown limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>grey limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>grey and grey-brown limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>grey limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>grey brown limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>grey-brown limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>pink limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>pinkish brown limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>pitted grey limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>white limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>yellow limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>yellow-brown limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>yellowish limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>yellowish-grey limestone</td>
+                  <td>en</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Contained in</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/65">Biogene Sedimente</a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/647">limestone veined with quartz</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-08-26 16:54:50</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

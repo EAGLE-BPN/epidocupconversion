@@ -4,7 +4,7 @@
       <link rel="stylesheet" href="http://www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css"><style type="text/css">
                         .list{
                         	display:none;
-                        }</style><script type="text/javascript" src="http://code.jquery.com/jquery.js"></script><script type="text/javascript">  
+                        }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript">  
                     $(document).ready(function(){
                     $("select").change(function(){
                     $( "select option:selected").each(function(){
@@ -75,7 +75,13 @@
                     });
                     }).change();
                     });
-                </script><SCRIPT TYPE="text/javascript"> function dropdown(mySel) { var myWin, myVal; myVal =
+                 
+                </script><script type="text/javascript">
+    $(document).ready(function() 
+    { 
+    $("#FullList").tablesorter(); 
+    } 
+    );</script><SCRIPT TYPE="text/javascript"> function dropdown(mySel) { var myWin, myVal; myVal =
                         mySel.options[mySel.selectedIndex].value; if(myVal) { if(mySel.form.target)myWin =
                         parent[mySel.form.target]; else myWin = window; if (! myWin) return true; myWin.location =
                         myVal; } return false; } // </SCRIPT><style>
@@ -98,7 +104,9 @@
                         	text-align:left;
                         	padding-top:5px;
                         	padding-bottom:4px;
-                        }</style><title>State of preservation</title><script type="text/javascript">
+                        }
+
+</style><title>State of preservation</title><script type="text/javascript">
                         
                         var _gaq = _gaq || [];
                         _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -348,14 +356,16 @@
             </p>
          </div>
          <div class="ALL list">
-            <table>
-               <tr>
-                  <th>preferred label</th>
-                  <th>relation</th>
-                  <th>term</th>
-                  <th>language</th>
-               </tr>
-               <tr>
+            <table id="FullList" class="tablesorter">
+               <thead>
+                  <tr>
+                     <th>preferred label</th>
+                     <th>relation</th>
+                     <th>term</th>
+                     <th>language</th>
+                  </tr>
+               </thead>
+               <tbody>
                   
                   EAGLE Vocabulary - State of preservation
                   EAGLE Consortium
@@ -849,7 +859,7 @@
                   </tr>
                   
                   
-               </tr>
+               </tbody>
             </table>
          </div>
          <p><a href="http://www.eagle-network.eu/resources/vocabularies/statepreserv/">Back to Intro</a></p>

@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,30 +48,34 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Polos</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Decoration</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/decor/lod/250">
-                     <h2>Polos</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>de</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-10-02 01:02:39</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/decor/lod/250">
+                        <h2>Polos</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>de</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-10-02 01:02:39</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

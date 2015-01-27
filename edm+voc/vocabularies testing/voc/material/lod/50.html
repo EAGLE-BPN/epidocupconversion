@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,121 +48,125 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Marmor, geädert / farbig</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Material</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/50">
-                     <h2>Marmor, geädert / farbig</h2></a><a href="http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?material=Marmor, ge%C3%A4dert / farbig"><img height="20%" width="20%" src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif" title="Search in EDH"></a></td>
-               <td></td>
-               <td></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Marble, veined / coloured</td>
-               <td>en</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Contained in</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/48">Marmor</a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/49">Marmor, weiß</a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/312">Kunstmarmor</a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/366">black marble</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/365">yellow marble</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/364">yellow and white marble</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/362">white marble</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/360">pink-grained white marble</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/357">grey marble</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/356">dark grey marble</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/355">cream marble flecked with brown</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/354">cream marble</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-08-26 16:54:50</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/50">
+                        <h2>Marmor, geädert / farbig</h2></a><a href="http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?material=Marmor, ge%C3%A4dert / farbig"><img height="20%" width="20%" src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif" title="Search in EDH"></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Marble, veined / coloured</td>
+                  <td>en</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Contained in</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/48">Marmor</a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/49">Marmor, weiß</a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/312">Kunstmarmor</a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/366">black marble</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/365">yellow marble</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/364">yellow and white marble</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/362">white marble</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/360">pink-grained white marble</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/357">grey marble</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/356">dark grey marble</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/355">cream marble flecked with brown</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/354">cream marble</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-08-26 16:54:50</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

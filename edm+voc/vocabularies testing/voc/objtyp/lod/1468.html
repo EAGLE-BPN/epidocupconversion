@@ -23,31 +23,40 @@
                             	text-align:left;
                             	padding-top:5px;
                             	padding-bottom:4px;
-                            }</style></head>
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery.js"></script><script type="text/javascript" src="/tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script></head>
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Mojón (Término)</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Object type</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1468">
-                     <h2>Mojón (Término)</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>es</td>
-            </tr>
-            
-            <tr>
-               <td>Equivalent</td>
-               <td>USE</td>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/92">Cippus, terminus</a></td>
-            </tr>
+         <table id="ConceptList">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1468">
+                        <h2>Mojón (Término)</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>es</td>
+               </tr>
+               
+               <tr>
+                  <td>Equivalent</td>
+                  <td>USE</td>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/92">Cippus, terminus</a></td>
+               </tr>
+            </tbody>
          </table>
          <p><a href="http://www.eagle-network.eu/advanced-search">Search for this term on the EAGLE
                Advanced Search</a></p>

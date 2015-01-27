@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,119 +48,123 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Litteris Alveolatis</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Writing</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/writing/lod/36">
-                     <h2>Litteris Alveolatis</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>channelled</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>in Bettungen</td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>lettere alveolate</td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>lettres creusées</td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Litt. Alv.</td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>litterae aureae (in letter beds)</td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>με γράμματα ελαφρώς κοίλα</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>حروف بقنوات</td>
-               <td>ar</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>Alveolus Littering</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>Lettere Alveolate. Si riferisce a scritte realizzate ricavando
-                  nel supporto l’intera forma della lettera, che poteva poi venire riempita con materiale
-                  diverso da quello del supporto stesso. Solitamente le lettere alveolate erano riempite
-                  con metallo o paste colorate (Silvia Evangelisti).
-               </td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Notes</td>
-               <td>EDR029193</td>
-               <td>en</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://www.eagle-network.eu/voc/writing/lod/38">litterae aureae (in
-                     Buchstabenbettungen)</a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-08-26 13:40:09</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/writing/lod/36">
+                        <h2>Litteris Alveolatis</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>channelled</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>in Bettungen</td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>lettere alveolate</td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>lettres creusées</td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Litt. Alv.</td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>litterae aureae (in letter beds)</td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>με γράμματα ελαφρώς κοίλα</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>حروف بقنوات</td>
+                  <td>ar</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>Alveolus Littering</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>Lettere Alveolate. Si riferisce a scritte realizzate ricavando
+                     nel supporto l’intera forma della lettera, che poteva poi venire riempita con materiale
+                     diverso da quello del supporto stesso. Solitamente le lettere alveolate erano riempite
+                     con metallo o paste colorate (Silvia Evangelisti).
+                  </td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Notes</td>
+                  <td>EDR029193</td>
+                  <td>en</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://www.eagle-network.eu/voc/writing/lod/38">litterae aureae (in
+                        Buchstabenbettungen)</a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-08-26 13:40:09</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,120 +48,124 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Crustis</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Writing</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/writing/lod/4">
-                     <h2>Crustis</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>con pezzetti</td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>incrusté</td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>inkrustiert</td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>inkrusztáció</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Inlaid or embossed</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>realzado</td>
-               <td>sp</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>ένθετο, ψηφοθετημένο (μαρκετερί)</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>مطعم أونقش بارز</td>
-               <td>ar</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>Inscriptions realized with small pieces of marble, stone or
-                  other material, not mosaic tesserae
-               </td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>Si riferisce a quelle iscrizioni realizzate con pezzetti di
-                  vario materiale duro (pietra) che non siano tessere di mosaico. Da non confondere,
-                  appunto, con le iscrizioni realizzate con le tessere di mosaico (Silvia
-                  Evangelisti).
-               </td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Notes</td>
-               <td>EDR010609</td>
-               <td>en</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://www.eagle-network.eu/voc/writing/lod/34">Crustis scriptus</a></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-08-26 11:31:29</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/writing/lod/4">
+                        <h2>Crustis</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>con pezzetti</td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>incrusté</td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>inkrustiert</td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>inkrusztáció</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Inlaid or embossed</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>realzado</td>
+                  <td>sp</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>ένθετο, ψηφοθετημένο (μαρκετερί)</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>مطعم أونقش بارز</td>
+                  <td>ar</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>Inscriptions realized with small pieces of marble, stone or
+                     other material, not mosaic tesserae
+                  </td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>Si riferisce a quelle iscrizioni realizzate con pezzetti di
+                     vario materiale duro (pietra) che non siano tessere di mosaico. Da non confondere,
+                     appunto, con le iscrizioni realizzate con le tessere di mosaico (Silvia
+                     Evangelisti).
+                  </td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Notes</td>
+                  <td>EDR010609</td>
+                  <td>en</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://www.eagle-network.eu/voc/writing/lod/34">Crustis scriptus</a></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-08-26 11:31:29</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

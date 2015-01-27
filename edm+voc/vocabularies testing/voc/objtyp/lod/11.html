@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,127 +48,131 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Aedificium</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Object type</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/11">
-                     <h2>Aedificium</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>building</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>édifice</td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>edificio</td>
-               <td>es</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>építmény</td>
-               <td>hu</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Gebäude</td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>κτήριο</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>здание</td>
-               <td>ru</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>مبني</td>
-               <td>ar</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>qualsiasi opera edificata tranne sepulcrum. Segue
-                  specificazione (murus, turris, aquaeductus, cloaca, curia, basilica, aedes, porticus,
-                  arcus ecc.). S’intende che l’iscrizione scritta direttamente su parete
-                  dell’edificio
-               </td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>To describe any building (except funerary structures) on which
-                  a text is directly inscribed.
-               </td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>Bauwerk, das Räume einschließt und ein Dach besitzt</td>
-               <td>de</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1234">Monument/Architektur</a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1850">Gebäude</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Geb%C3%A4ude"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-10-01 22:44:21</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/11">
+                        <h2>Aedificium</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>building</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>édifice</td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>edificio</td>
+                  <td>es</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>építmény</td>
+                  <td>hu</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Gebäude</td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>κτήριο</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>здание</td>
+                  <td>ru</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>مبني</td>
+                  <td>ar</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>qualsiasi opera edificata tranne sepulcrum. Segue
+                     specificazione (murus, turris, aquaeductus, cloaca, curia, basilica, aedes, porticus,
+                     arcus ecc.). S’intende che l’iscrizione scritta direttamente su parete
+                     dell’edificio
+                  </td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>To describe any building (except funerary structures) on which
+                     a text is directly inscribed.
+                  </td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>Bauwerk, das Räume einschließt und ein Dach besitzt</td>
+                  <td>de</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1234">Monument/Architektur</a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1850">Gebäude</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Geb%C3%A4ude"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-10-01 22:44:21</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

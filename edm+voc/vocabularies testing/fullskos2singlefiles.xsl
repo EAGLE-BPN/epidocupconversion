@@ -35,7 +35,8 @@
                         .list{
                         	display:none;
                         }</style>
-                    <script type="text/javascript" src="http://code.jquery.com/jquery.js"/>
+                    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"/>
+                    <script type="text/javascript" src="../tablesorter-master/jquery.tablesorter.js"></script> 
                     <!--java for language selection-->
                     <script type="text/javascript">  
                     $(document).ready(function(){
@@ -108,7 +109,14 @@
                     });
                     }).change();
                     });
+                 
                 </script>
+<script type="text/javascript">
+    $(document).ready(function() 
+    { 
+    $("#FullList").tablesorter(); 
+    } 
+    );</script>
                     <!--java for select and go to url-->
                     <SCRIPT TYPE="text/javascript"> function dropdown(mySel) { var myWin, myVal; myVal =
                         mySel.options[mySel.selectedIndex].value; if(myVal) { if(mySel.form.target)myWin =
@@ -134,7 +142,9 @@
                         	text-align:left;
                         	padding-top:5px;
                         	padding-bottom:4px;
-                        }</style>
+                        }
+
+</style>
                     <title>
                         <xsl:value-of select="substring-after($title, '- ')"/>
                     </title>
@@ -662,18 +672,18 @@
                         </div>
                         <div class="ALL list">
                             <!--add condition to show hierarchical tree when the vocabulary is hierarcical (material and dates)-->
-                            <table>
-                                <tr>
+                            <table id="FullList" class="tablesorter">
+                                <thead><tr>
                                     <th>preferred label</th>
                                     <th>relation</th>
                                     <th>term</th>
                                     <th>language</th>
-                                </tr>
-                                <tr>
+                                </tr></thead>
+                               <tbody>
                                     <xsl:apply-templates mode="a"/>
 
                                     <!--main terms-->
-                                </tr>
+                                </tbody>
                             </table>
                         </div>
 
@@ -826,6 +836,16 @@
                             ul#searches li{
                             	display:inline;
                             }</style>
+                        
+                        
+                        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"/>
+                        <script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script>
+                        <script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script>
                         <script type="text/javascript">
                             
                             var _gaq = _gaq || [];
@@ -851,14 +871,14 @@
                             <p>
                                 <xsl:value-of select="$title"/>
                             </p>
-                            <table>
-                                <tr>
+                            <table id="ConceptList" class="tablesorter">
+                                <thead><tr>
                                     <th>preferred label</th>
                                     <th>relation</th>
                                     <th>term</th>
                                     <th>language</th>
-                                </tr>
-                                <xsl:apply-templates mode="b"/>
+                                </tr></thead>
+                                <tbody><xsl:apply-templates mode="b"/></tbody>
                                 <!-- apply templates for each file -->
                             </table>
                             <br/>
@@ -934,8 +954,7 @@
                                 <form style="float:right" action="http://www.eagle-network.eu/advanced-search">
                                     <input type="submit" value="EAGLE Advanced Search"/>
                                 </form>
-                                <form style="float:left"
-                                    action="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}">
+                                <form style="float:left" action="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}">
                                     <input type="submit" value="Back to Index"/>
                                 </form>
                                 <form style="float:left"
@@ -1363,6 +1382,14 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                             	padding-top:5px;
                             	padding-bottom:4px;
                             }</style>
+                        <script type="text/javascript" src="http://code.jquery.com/jquery.js"/>
+                        <script type="text/javascript" src="/tablesorter-master/jquery.tablesorter.js"></script>
+                        <script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script>
                     </head>
                     <body style="margin:8;padding:8">
                         <script src="../../header.js"/>
@@ -1374,14 +1401,14 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                             <p>
                                 <xsl:value-of select="$title"/>
                             </p>
-                            <table>
-                                <tr>
+                            <table id="ConceptList">
+                                <thead><tr>
                                     <th>preferred label</th>
                                     <th>relation</th>
                                     <th>term</th>
                                     <th>language</th>
-                                </tr>
-                                <xsl:apply-templates mode="b"/>
+                                </tr></thead>
+                               <tbody> <xsl:apply-templates mode="b"/>
                                 <tr>
                                     <td>Equivalent</td>
                                     <td>USE</td>
@@ -1394,7 +1421,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                                         </a>
                                     </td>
                                 </tr>
-                                <!-- apply templates for each file -->
+                              </tbody>  <!-- apply templates for each file -->
                             </table>
 
 

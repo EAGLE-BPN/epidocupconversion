@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,135 +48,139 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Diocletian</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Dating Criteria</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            		
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/159">
-                     <h2>Diocletian</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Diocletianus</td>
-               <td>la</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Diokletian</td>
-               <td>de</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Διοκλής</td>
-               <td>el</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Διοκλητιανός</td>
-               <td>el</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>20. Nov. 284 - 1. Mai 305</td>
-               <td>de</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>0284 ; 0305</td>
-               <td></td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>Full name: Gaius Aurelius Valerius Diocletianus Augustus</td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Bibliography</td>
-               <td>Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 266.</td>
-               <td>de</td>
-            </tr>
-            		
-            		
-            <tr>
-               <td></td>
-               <td>Related term</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/25">Antigüedad Tardía (S. IV-VI)</a></td>
-               <td>es</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Related term</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/30">Bajoimperial (ss. IV- V d.C.)</a></td>
-               <td>es</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Related term</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/160">Constantius I</a></td>
-               <td>es</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Related term</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/163">Galerius</a></td>
-               <td>de</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Related term</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/46">Maximiano Hercúleo</a></td>
-               <td>de</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Related term</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/56">Tetrarquía (c. 284-306 d.C.)</a></td>
-               <td>es</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Contained in</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/22">reign of emperors</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2014-03-12 11:37:54</td>
-               <td></td>
-            </tr>
-            	
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               		
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/159">
+                        <h2>Diocletian</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Diocletianus</td>
+                  <td>la</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Diokletian</td>
+                  <td>de</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Διοκλής</td>
+                  <td>el</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Διοκλητιανός</td>
+                  <td>el</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>20. Nov. 284 - 1. Mai 305</td>
+                  <td>de</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>0284 ; 0305</td>
+                  <td></td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>Full name: Gaius Aurelius Valerius Diocletianus Augustus</td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Bibliography</td>
+                  <td>Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 266.</td>
+                  <td>de</td>
+               </tr>
+               		
+               		
+               <tr>
+                  <td></td>
+                  <td>Related term</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/25">Antigüedad Tardía (S. IV-VI)</a></td>
+                  <td>es</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Related term</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/30">Bajoimperial (ss. IV- V d.C.)</a></td>
+                  <td>es</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Related term</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/160">Constantius I</a></td>
+                  <td>es</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Related term</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/163">Galerius</a></td>
+                  <td>de</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Related term</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/46">Maximiano Hercúleo</a></td>
+                  <td>de</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Related term</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/56">Tetrarquía (c. 284-306 d.C.)</a></td>
+                  <td>es</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Contained in</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/22">reign of emperors</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2014-03-12 11:37:54</td>
+                  <td></td>
+               </tr>
+               	
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

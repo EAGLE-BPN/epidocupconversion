@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,110 +48,114 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Atramento</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Writing</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/writing/lod/2">
-                     <h2>Atramento</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>a inchiostro</td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>encré</td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>inked</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>mit Tinte</td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>s tintom</td>
-               <td>hr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>με μελάνη</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>محبر</td>
-               <td>ar</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>In Ink</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>A inchiostro. Si riferisce a tutte quelle iscrizioni dipinte
-                  realizzate a inchiostro, da non confondere con quelle realizzate a pittura (Silvia
-                  Evangelisti).
-               </td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Notes</td>
-               <td>EDR080072</td>
-               <td>en</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-08-26 11:29:56</td>
-               <td></td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Modified</td>
-               <td>2013-08-26 11:30:28</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/writing/lod/2">
+                        <h2>Atramento</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>a inchiostro</td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>encré</td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>inked</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>mit Tinte</td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>s tintom</td>
+                  <td>hr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>με μελάνη</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>محبر</td>
+                  <td>ar</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>In Ink</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>A inchiostro. Si riferisce a tutte quelle iscrizioni dipinte
+                     realizzate a inchiostro, da non confondere con quelle realizzate a pittura (Silvia
+                     Evangelisti).
+                  </td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Notes</td>
+                  <td>EDR080072</td>
+                  <td>en</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-08-26 11:29:56</td>
+                  <td></td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Modified</td>
+                  <td>2013-08-26 11:30:28</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

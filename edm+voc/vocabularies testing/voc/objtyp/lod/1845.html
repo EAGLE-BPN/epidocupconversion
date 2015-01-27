@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,44 +48,48 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Archivolt</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Object type</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1845">
-                     <h2>Archivolt</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>en</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=817">Archivolte</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Archivolte"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://vocab.getty.edu/aat/300001152">http://vocab.getty.edu/aat/300001152</a></td>
-               <td></td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2014-06-12 14:32:01</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/objtyp/lod/1845">
+                        <h2>Archivolt</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>en</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=817">Archivolte</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Archivolte"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://vocab.getty.edu/aat/300001152">http://vocab.getty.edu/aat/300001152</a></td>
+                  <td></td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2014-06-12 14:32:01</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

@@ -17,7 +17,7 @@
         <dc:language>en</dc:language>
     </skos:ConceptScheme>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/75">
-        <skos:prefLabel xml:lang="it">Acclamation d&apos;éphèbes</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Acclamation d&apos;éphèbes</skos:prefLabel>
         <skos:altLabel xml:lang="es">Aclamación a los efebos</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/74"/>

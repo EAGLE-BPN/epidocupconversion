@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,96 +48,100 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Signaculo</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Writing</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/writing/lod/13">
-                     <h2>Signaculo</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>impressa</td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>timbré, cacheté</td>
-               <td>fr</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>αποτυπωμένο, σταμπωτό</td>
-               <td>el</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>مختوم</td>
-               <td>ar</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>impressed</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>impressa con sigillo. Si riferisce a quelle scritte realizzate
-                  con un signaculum (sigillo) che si differenzia dalla matrice perchcostituito da un
-                  solo
-                  elemento la cui superficie iscritta viene pressata su materiali cedevoli (argilla
-                  prima
-                  della cottura, ferro o piombo semifusi). Utilizzerei questa definizione anche per
-                  le
-                  impronte di epigrafi originariamente in altro materiale il cui negativo troviamo su
-                  intonaco o argilla o altro. Conierei definizione apposita (Silvia
-                  Evangelisti).
-               </td>
-               <td>it</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Related term</td>
-               <td><a href="http://www.eagle-network.eu/voc/writing/lod/166">impressed</a></td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://www.eagle-network.eu/voc/writing/lod/125">Signaculo scriptus</a></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-08-26 11:38:40</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/writing/lod/13">
+                        <h2>Signaculo</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>impressa</td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>timbré, cacheté</td>
+                  <td>fr</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>αποτυπωμένο, σταμπωτό</td>
+                  <td>el</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>مختوم</td>
+                  <td>ar</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>impressed</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>impressa con sigillo. Si riferisce a quelle scritte realizzate
+                     con un signaculum (sigillo) che si differenzia dalla matrice perchcostituito da un
+                     solo
+                     elemento la cui superficie iscritta viene pressata su materiali cedevoli (argilla
+                     prima
+                     della cottura, ferro o piombo semifusi). Utilizzerei questa definizione anche per
+                     le
+                     impronte di epigrafi originariamente in altro materiale il cui negativo troviamo su
+                     intonaco o argilla o altro. Conierei definizione apposita (Silvia
+                     Evangelisti).
+                  </td>
+                  <td>it</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Related term</td>
+                  <td><a href="http://www.eagle-network.eu/voc/writing/lod/166">impressed</a></td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://www.eagle-network.eu/voc/writing/lod/125">Signaculo scriptus</a></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-08-26 11:38:40</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

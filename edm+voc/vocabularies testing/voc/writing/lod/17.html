@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,76 +48,80 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Typo</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Writing</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/writing/lod/17">
-                     <h2>Typo</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>a punzone</td>
-               <td>it</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>with punch</td>
-               <td>en</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>A punzone. Si riferisce alle scritte realizzate a punzone
-                  ossia mediante l’uso di un punzone su materiale duro imprimendo un colpo con un mazzuolo
-                  o strumento similare. I marchi sono realizzati con signacula di vario materiale e
-                  dimensioni (alcuni hanno anche supposto l'uso di lettere mobili) recanti lettere
-                  rilevate o cave e quindi eviterei scalpro, mentre per quelli tracciati a "mano libera",
-                  come su alcuni tipi di lucerne o di anfore, userei stilo. Per le scritte realizzate
-                  usando le dita userei digito (nella bibliografia specifica, specie anglosassone, si
-                  trova spesso il termine litterae digitatae). Eviterei in quest'ultimo caso di usare
-                  stilo. Per quel che riguarda il vetro, oltre alle iscrizioni ex forma, le iscrizioni
-                  cosiddette graffite erano realizzate con strumenti molto simili a quelli impiegati
-                  per
-                  le gemme, in particolare si ricavava dapprima un solco con il trapano corrente e poi
-                  lo
-                  si allargava con un bulino. Per quanto riguara la lamina d'oro impiegherei il termine
-                  ex
-                  brattea aurea, dato che brattea il termine tecnico che indica proprio le sottilissime
-                  lamine d'oro impiegate non solo nei vetri ma anche nell'oreficeria (Silvia
-                  Evangelisti).
-               </td>
-               <td>it</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://www.eagle-network.eu/voc/writing/lod/161">Typo scriptus</a></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-08-26 11:39:37</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/writing/lod/17">
+                        <h2>Typo</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>a punzone</td>
+                  <td>it</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>with punch</td>
+                  <td>en</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>A punzone. Si riferisce alle scritte realizzate a punzone
+                     ossia mediante l’uso di un punzone su materiale duro imprimendo un colpo con un mazzuolo
+                     o strumento similare. I marchi sono realizzati con signacula di vario materiale e
+                     dimensioni (alcuni hanno anche supposto l'uso di lettere mobili) recanti lettere
+                     rilevate o cave e quindi eviterei scalpro, mentre per quelli tracciati a "mano libera",
+                     come su alcuni tipi di lucerne o di anfore, userei stilo. Per le scritte realizzate
+                     usando le dita userei digito (nella bibliografia specifica, specie anglosassone, si
+                     trova spesso il termine litterae digitatae). Eviterei in quest'ultimo caso di usare
+                     stilo. Per quel che riguarda il vetro, oltre alle iscrizioni ex forma, le iscrizioni
+                     cosiddette graffite erano realizzate con strumenti molto simili a quelli impiegati
+                     per
+                     le gemme, in particolare si ricavava dapprima un solco con il trapano corrente e poi
+                     lo
+                     si allargava con un bulino. Per quanto riguara la lamina d'oro impiegherei il termine
+                     ex
+                     brattea aurea, dato che brattea il termine tecnico che indica proprio le sottilissime
+                     lamine d'oro impiegate non solo nei vetri ma anche nell'oreficeria (Silvia
+                     Evangelisti).
+                  </td>
+                  <td>it</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://www.eagle-network.eu/voc/writing/lod/161">Typo scriptus</a></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-08-26 11:39:37</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

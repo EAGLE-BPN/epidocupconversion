@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,163 +48,167 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">VI BC</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Dating Criteria</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            		
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/86">
-                     <h2>VI BC</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>VI BCE</td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>VI a.C.</td>
-               <td>it</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>sixth century BC</td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>sixth century BCE</td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>sesto secolo a.C.</td>
-               <td>it</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>המאה ה-6 לפני הספירה</td>
-               <td>he</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>-0599 ; -0500</td>
-               <td></td>
-            </tr>
-            		
-            		
-            <tr>
-               <td></td>
-               <td>Contained in</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/72">centuries</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/217">beginning of VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/218">earlier VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/219">early VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/220">second quarter of VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/221">first half of VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/222">mid VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/223">second half of VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/224">third quarter of VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/225">late VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/226">later VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Includes</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/227">end of VI BC</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2015-01-15 01:00:00</td>
-               <td></td>
-            </tr>
-            	
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               		
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/86">
+                        <h2>VI BC</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>VI BCE</td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>VI a.C.</td>
+                  <td>it</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>sixth century BC</td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>sixth century BCE</td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>sesto secolo a.C.</td>
+                  <td>it</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>המאה ה-6 לפני הספירה</td>
+                  <td>he</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>-0599 ; -0500</td>
+                  <td></td>
+               </tr>
+               		
+               		
+               <tr>
+                  <td></td>
+                  <td>Contained in</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/72">centuries</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/217">beginning of VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/218">earlier VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/219">early VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/220">second quarter of VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/221">first half of VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/222">mid VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/223">second half of VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/224">third quarter of VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/225">late VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/226">later VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Includes</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/227">end of VI BC</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2015-01-15 01:00:00</td>
+                  <td></td>
+               </tr>
+               	
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,93 +48,97 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Caracala</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Dating Criteria</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            		
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/31">
-                     <h2>Caracala</h2></a></td>
-               <td></td>
-               <td></td>
-               <td>es</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>Caracalla</td>
-               <td>it</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>0211 ; 0217</td>
-               <td></td>
-            </tr>		
-            		
-            <tr>
-               <td></td>
-               <td>Definition</td>
-               <td>4. Febr. 211 - 8. April. 217</td>
-               <td>de</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Bibliography</td>
-               <td>Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 162.</td>
-               <td>de</td>
-            </tr>
-            		
-            		
-            <tr>
-               <td></td>
-               <td>Related term</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/52">Antoninisch-Severisch</a></td>
-               <td>de</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Related term</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/53">Severiana (c. 193-235 d.C.)</a></td>
-               <td>es</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Related term</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/54">Severisch-Soldatenkaiser</a></td>
-               <td>de</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Contained in</td>
-               <td><a href="http://www.eagle-network.eu/voc/dates/lod/22">reign of emperors</a></td>
-               <td>en</td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-08-21 08:54:24</td>
-               <td></td>
-            </tr>
-            		
-            <tr>
-               <td></td>
-               <td>Modified</td>
-               <td>2014-03-12 09:49:38</td>
-               <td></td>
-            </tr>
-            	
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               		
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/31">
+                        <h2>Caracala</h2></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>es</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>Caracalla</td>
+                  <td>it</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>0211 ; 0217</td>
+                  <td></td>
+               </tr>		
+               		
+               <tr>
+                  <td></td>
+                  <td>Definition</td>
+                  <td>4. Febr. 211 - 8. April. 217</td>
+                  <td>de</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Bibliography</td>
+                  <td>Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 162.</td>
+                  <td>de</td>
+               </tr>
+               		
+               		
+               <tr>
+                  <td></td>
+                  <td>Related term</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/52">Antoninisch-Severisch</a></td>
+                  <td>de</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Related term</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/53">Severiana (c. 193-235 d.C.)</a></td>
+                  <td>es</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Related term</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/54">Severisch-Soldatenkaiser</a></td>
+                  <td>de</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Contained in</td>
+                  <td><a href="http://www.eagle-network.eu/voc/dates/lod/22">reign of emperors</a></td>
+                  <td>en</td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-08-21 08:54:24</td>
+                  <td></td>
+               </tr>
+               		
+               <tr>
+                  <td></td>
+                  <td>Modified</td>
+                  <td>2014-03-12 09:49:38</td>
+                  <td></td>
+               </tr>
+               	
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>

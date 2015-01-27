@@ -26,7 +26,12 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript">
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            $(document).ready(function() 
+                            { 
+                            $("#ConceptList").tablesorter(); 
+                            } 
+                            );</script><script type="text/javascript">
                             
                             var _gaq = _gaq || [];
                             _gaq.push(['_setAccount', 'UA-25697327-3']);
@@ -43,51 +48,55 @@
    <body style="margin:8;padding:8"><script src="../../header.js"></script><h1 class="page_title">Kunststoff</h1>
       <div class="post-content">
          <p>EAGLE Vocabulary - Material</p>
-         <table>
-            <tr>
-               <th>preferred label</th>
-               <th>relation</th>
-               <th>term</th>
-               <th>language</th>
-            </tr>
-            
-            <tr>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/313">
-                     <h2>Kunststoff</h2></a><a href="http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?material=Kunststoff"><img height="20%" width="20%" src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif" title="Search in EDH"></a></td>
-               <td></td>
-               <td></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Translated term</td>
-               <td>műanyag</td>
-               <td>hu</td>
-            </tr>
-            
-            
-            <tr>
-               <td></td>
-               <td>Contained in</td>
-               <td><a href="http://www.eagle-network.eu/voc/material/lod/118">ceterum</a></td>
-               <td>la</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Same as</td>
-               <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8887">Kunststoff</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kunststoff"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
-               <td>de</td>
-            </tr>
-            
-            <tr>
-               <td></td>
-               <td>Created</td>
-               <td>2013-09-23 20:25:32</td>
-               <td></td>
-            </tr>
-            
+         <table id="ConceptList" class="tablesorter">
+            <thead>
+               <tr>
+                  <th>preferred label</th>
+                  <th>relation</th>
+                  <th>term</th>
+                  <th>language</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+               <tr>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/313">
+                        <h2>Kunststoff</h2></a><a href="http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?material=Kunststoff"><img height="20%" width="20%" src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif" title="Search in EDH"></a></td>
+                  <td></td>
+                  <td></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Translated term</td>
+                  <td>műanyag</td>
+                  <td>hu</td>
+               </tr>
+               
+               
+               <tr>
+                  <td></td>
+                  <td>Contained in</td>
+                  <td><a href="http://www.eagle-network.eu/voc/material/lod/118">ceterum</a></td>
+                  <td>la</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Same as</td>
+                  <td><a href="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8887">Kunststoff</a><a href="http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=Kunststoff"><img width="50%" height="50%" src="http://arachne.uni-koeln.de/template/images/logo_gross.gif" title="Search in Arachne"></a></td>
+                  <td>de</td>
+               </tr>
+               
+               <tr>
+                  <td></td>
+                  <td>Created</td>
+                  <td>2013-09-23 20:25:32</td>
+                  <td></td>
+               </tr>
+               
+            </tbody>
          </table><br><div>
             <ul id="searches">
                <li>Find out more about this term:</li>
