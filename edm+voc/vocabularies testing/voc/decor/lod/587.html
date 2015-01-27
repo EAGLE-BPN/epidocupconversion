@@ -26,10 +26,10 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.staticrow.min.js"></script><script type="text/javascript"> 
                             $(document).ready(function() 
                             { 
-                            $("#ConceptList").tablesorter(); 
+                            $("#ConceptList").tablesorter({ widgets: ['staticRow'] }); 
                             } 
                             );</script><script type="text/javascript">
                             
@@ -73,7 +73,7 @@
                   <td>hu</td>
                </tr>
                
-               <tr>
+               <tr class="static">
                   <td><a href="http://www.eagle-network.eu/voc/decor/lod/587">
                         <h2>Jupiter; Juppiter; Zeus</h2></a></td>
                   <td></td>

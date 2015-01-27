@@ -36,7 +36,6 @@
                         	display:none;
                         }</style>
                     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"/>
-                    <script type="text/javascript" src="../tablesorter-master/jquery.tablesorter.js"></script> 
                     <!--java for language selection-->
                     <script type="text/javascript">  
                     $(document).ready(function(){
@@ -672,7 +671,7 @@
                         </div>
                         <div class="ALL list">
                             <!--add condition to show hierarchical tree when the vocabulary is hierarcical (material and dates)-->
-                            <table id="FullList" class="tablesorter">
+                            <table id="FullList">
                                 <thead><tr>
                                     <th>preferred label</th>
                                     <th>relation</th>
@@ -840,10 +839,11 @@
                         
                         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"/>
                         <script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script>
+                        <script  type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.staticrow.min.js"></script>
                         <script type="text/javascript"> 
                             $(document).ready(function() 
                             { 
-                            $("#ConceptList").tablesorter(); 
+                            $("#ConceptList").tablesorter({ widgets: ['staticRow'] }); 
                             } 
                             );</script>
                         <script type="text/javascript">
@@ -882,7 +882,6 @@
                                 <!-- apply templates for each file -->
                             </table>
                             <br/>
-
                             <div>
                                 <ul id="searches">
                                     <li>Find out more about this term:</li>
@@ -990,7 +989,7 @@
         </tr>
     </xsl:template>
     <xsl:template match="skos:prefLabel" mode="b">
-        <tr>
+        <tr class="static">
             <td>
                 <a>
                     <xsl:attribute name="href">

@@ -26,10 +26,10 @@
                             }</style><style>
                             ul#searches li{
                             	display:inline;
-                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript"> 
+                            }</style><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script><script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.staticrow.min.js"></script><script type="text/javascript"> 
                             $(document).ready(function() 
                             { 
-                            $("#ConceptList").tablesorter(); 
+                            $("#ConceptList").tablesorter({ widgets: ['staticRow'] }); 
                             } 
                             );</script><script type="text/javascript">
                             
@@ -59,7 +59,7 @@
             </thead>
             <tbody>
                
-               <tr>
+               <tr class="static">
                   <td><a href="http://www.eagle-network.eu/voc/material/lod/77">
                         <h2>Kalkstein/ Alabaster</h2></a><a href="http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?material=Kalkstein/ Alabaster"><img height="20%" width="20%" src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif" title="Search in EDH"></a></td>
                   <td></td>
