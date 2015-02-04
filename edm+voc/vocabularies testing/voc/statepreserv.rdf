@@ -19,12 +19,18 @@
     </skos:ConceptScheme>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/4">
         <skos:prefLabel xml:lang="en">Broken</skos:prefLabel>
-        <skos:altLabel xml:lang="it">rota</skos:altLabel>
+        <skos:altLabel xml:lang="la">in transversum / in duas partes / in permultas partes fractus, a, um</skos:altLabel>
+        <skos:altLabel xml:lang="la">a dextra / a sinistra / infra / supra / a tergo fractus / imminutus / ad posteriorem usum abscisus</skos:altLabel>
+        <skos:altLabel xml:lang="de">quer / in zwei Teile / vielfach gebrochen</skos:altLabel>
+        <skos:altLabel xml:lang="de">rechts / links / unten / oben / hinten gebrochen / beschädigt / zur späteren Verwendung verkürzt</skos:altLabel>
+        <skos:altLabel xml:lang="es">rota</skos:altLabel>
+        <skos:altLabel xml:lang="it">danneggiata</skos:altLabel>
         <skos:scopeNote xml:lang="it">Documento mutilo, di cui si conserva pidella
             metdell'iscrizione completa.</skos:scopeNote>
-        <skos:historyNote xml:lang="it">Esempi: EDR000779 EDR000940</skos:historyNote>
+        <skos:scopeNote>EDR000779 EDR000940</skos:scopeNote>
         <skos:note xml:lang="it">I. Di Stefano Manzella, Il mestiere di Epigrafista, Roma 1987, p.
             169.</skos:note>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/12">
@@ -69,9 +75,13 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/5">
         <skos:prefLabel xml:lang="en">Incomplete</skos:prefLabel>
         <skos:altLabel xml:lang="es">incompleta</skos:altLabel>
+        <skos:altLabel xml:lang="la">desiderantur nonnullae particulae</skos:altLabel>
+        <skos:altLabel xml:lang="de">einige Teile fehlen</skos:altLabel>
+        <skos:altLabel xml:lang="la">restant fastigii et pulvinorum vestigia</skos:altLabel>
+        <skos:altLabel xml:lang="de">es gibt Spuren von Giebeldach und Polstern</skos:altLabel>
         <skos:scopeNote xml:lang="it">Documento frammentario, di cui si conserva meno della
             metdell'intera iscrizione.</skos:scopeNote>
-        <skos:historyNote xml:lang="it">Esempi: EDR000970 EDR000991</skos:historyNote>
+        <skos:scopeNote>EDR000970 EDR000991</skos:scopeNote>
         <skos:note xml:lang="it">I. Di Stefano Manzella, Il mestiere di Epigrafista, Roma 1987, p.
             169.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
@@ -113,7 +123,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/3">
         <skos:prefLabel xml:lang="en">Probably complete</skos:prefLabel>
         <skos:scopeNote xml:lang="it">Documento ipoteticamente integro.</skos:scopeNote>
-        <skos:historyNote xml:lang="it">Esempi: EDR123199 EDR123238 </skos:historyNote>
+        <skos:scopeNote>EDR123199 EDR123238 </skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
         <dct:created>2013-10-02 00:41:34</dct:created>
     </skos:Concept>
@@ -121,7 +131,7 @@
         <skos:prefLabel xml:lang="en">tit. fragmenta inter se coniuncta</skos:prefLabel>
         <skos:scopeNote xml:lang="it">Documento frammentario ricomposto da frammenti contigui,
             cioaventi in comune un tratto di area fratturata.</skos:scopeNote>
-        <skos:historyNote xml:lang="it">Esempi: EDR029193 EDR076862</skos:historyNote>
+        <skos:scopeNote>EDR029193 EDR076862</skos:scopeNote>
         <skos:note xml:lang="it">I. Di Stefano Manzella, Il mestiere di Epigrafista, Roma 1987, p.
             170.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
@@ -131,22 +141,102 @@
         <skos:prefLabel xml:lang="la">tit. fragmenta inter se non coniuncta</skos:prefLabel>
         <skos:scopeNote xml:lang="it">Documento frammentario ricomposto da frammenti non contigui,
             che non hanno in comune nessun tratto di area fratturata.</skos:scopeNote>
-        <skos:historyNote xml:lang="it">Esempi: EDR026227 EDR032752</skos:historyNote>
+        <skos:scopeNote>EDR026227 EDR032752</skos:scopeNote>
         <skos:note xml:lang="it">I. Di Stefano Manzella, Il mestiere di Epigrafista, Roma 1987, p.
             170.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
         <dct:created>2013-10-02 00:41:34</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/8">
-        <skos:prefLabel xml:lang="la">tit. fragmenta partim tantum inter se
-            coniuncta</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">tit. fragmenta partim tantum inter se coniuncta</skos:prefLabel>
+        <skos:altLabel xml:lang="la">fragmenta (ex parte) inter se coniuncta</skos:altLabel>
+        <skos:altLabel xml:lang="de">Fragmente, die (zum Teil) aneinander passen</skos:altLabel>
         <skos:scopeNote xml:lang="it">Documento frammentario ricomposto da frammenti solo
             parzialmente congiungibili tra loro.</skos:scopeNote>
-        <skos:historyNote xml:lang="it">Esempi: EDR029587 EDR071704</skos:historyNote>
+        <skos:scopeNote>EDR029587 EDR071704</skos:scopeNote>
         <skos:note xml:lang="it">I. Di Stefano Manzella, Il mestiere di Epigrafista, Roma 1987, p.
             170.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
         <dct:created>2013-10-02 00:41:34</dct:created>
         <dct:modified>2013-10-15 11:58:52</dct:modified>
     </skos:Concept>
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/26">
+        <skos:prefLabel xml:lang="la">nulla vestigia tituli discerni possunt</skos:prefLabel>
+        <skos:altLabel xml:lang="de">es sind keine Spuren einer Inschrift auszumachen</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2015-01-29 20:00:34</dct:created>
+        </skos:Concept>
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/27">
+        <skos:prefLabel xml:lang="la">de titulo nec vola nec vestigium</skos:prefLabel>
+        <skos:altLabel xml:lang="de">von der Inschrift gibt es keine Spur</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2015-01-29 20:00:34</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/28">
+        <skos:prefLabel xml:lang="la">nihil legi potest nisi vestigia infirmissima</skos:prefLabel>
+        <skos:altLabel xml:lang="de">es sind nur ganz schwache Spuren lesbar</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2015-01-29 20:00:34</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/29">
+        <skos:prefLabel xml:lang="la">titulus lapide scindendo periisse videtur</skos:prefLabel>
+        <skos:altLabel xml:lang="de">die Inschrift scheint durch das Zerschneiden des Steins verloren gegangen zu sein</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2015-01-29 20:00:34</dct:created>
+    </skos:Concept>
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/30">
+        <skos:prefLabel xml:lang="la">quo labore pars tituli deleta esse videtur</skos:prefLabel>
+        <skos:altLabel xml:lang="de">dabei scheint ein Teil der Inschrift zerstört worden zu sein</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2015-01-29 20:00:34</dct:created>
+    </skos:Concept>
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/31">
+        <skos:prefLabel xml:lang="la">..., quorum inscriptiones prae vetustate legi nequeunt</skos:prefLabel>
+        <skos:altLabel xml:lang="de">deren Inschriften können des Alters wegen nicht gelesen werden</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2015-01-29 20:00:34</dct:created>
+    </skos:Concept>
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/32">
+        <skos:prefLabel xml:lang="la">undique aratri vomere laesus</skos:prefLabel>
+        <skos:altLabel xml:lang="de">allseits von einer Pflugschar beschädigt</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2015-01-29 20:00:34</dct:created>
+    </skos:Concept>
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/33">
+        <skos:prefLabel xml:lang="la">parte antica supra a dextra mutilus / mutilatus / adesus</skos:prefLabel>
+        <skos:altLabel xml:lang="de">auf der Voderseite rechts beschädigt / beschädigt / angegriffen</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2015-01-29 20:00:34</dct:created>
+    </skos:Concept>
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/34">
+        <skos:prefLabel xml:lang="la">in fronte fracturis rimisque laesus</skos:prefLabel>
+        <skos:altLabel xml:lang="de">vorne durch Brüche und Risse beschädigt</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <dct:created>2015-01-29 20:00:34</dct:created>
+    </skos:Concept>
+    
 </rdf:RDF>

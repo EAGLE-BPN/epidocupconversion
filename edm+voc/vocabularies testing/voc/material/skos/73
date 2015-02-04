@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-01-27Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-01-27Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-04+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-04+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -25,6 +25,10 @@
         <skos:altLabel xml:lang="de">Brekzie</skos:altLabel>
         <skos:altLabel xml:lang="en">Purple breccia</skos:altLabel>
         <skos:altLabel xml:lang="en">Yellow breccia</skos:altLabel>
+        <skos:altLabel xml:lang="en">metalimestone breccia</skos:altLabel>
+            <skos:altLabel xml:lang="it">marmo africano, var. rosso</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Luculleum</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 45f. (Luculleum), 51 (Teos); Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 174; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 39; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 1; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 418-459; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 8, Harrell, James A., http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm , Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 1.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>

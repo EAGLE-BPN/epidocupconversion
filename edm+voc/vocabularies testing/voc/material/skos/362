@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-01-27Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-01-27Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-04+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-04+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -18,8 +18,12 @@
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
                  rdf:about="http://www.eagle-network.eu/voc/material/skos/362">
         <skos:prefLabel xml:lang="en">white marble</skos:prefLabel>
+        <skos:altLabel xml:lang="la">marmor Lunense / Luniense</skos:altLabel>
+        <skos:altLabel xml:lang="de">Marmor, Carrara (weiß)</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 39f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 265; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 38; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 660; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 95; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, <a href="http://www.geogruppen.no/pdf/roman-rock-marble.pdf"
+            target="_blank">online</a> (ohne Jahr), 1; Harrell, James A., http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm , Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr), I 14 a.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/49"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
 </rdf:RDF>

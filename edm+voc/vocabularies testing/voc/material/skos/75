@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-01-27Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-01-27Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-04+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-04+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -27,6 +27,9 @@
         <skos:altLabel xml:lang="en">grey sandstone</skos:altLabel>
         <skos:altLabel xml:lang="en">sand-stone</skos:altLabel>
         <skos:altLabel xml:lang="en">stuccoed sandstone</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis (h)arenarius</skos:altLabel>
+        <skos:altLabel xml:lang="la">(h)arenaceus lapis arenarius</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 62f.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 35; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 665-7.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>

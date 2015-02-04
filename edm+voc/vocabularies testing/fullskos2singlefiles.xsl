@@ -3,6 +3,7 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:dct="http://purl.org/dc/terms/" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+xmlns:gcse="uri:not-provided"
     xmlns:dc="http://purl.org/dc/elements/1.1/" exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
 
 
@@ -169,6 +170,7 @@
                     <h1 class="page_title">
                         <xsl:value-of select="$title"/>
                     </h1>
+                    
                     <div class="post-content">
 
                         <p>General data about this vocabulary:</p>
@@ -690,14 +692,14 @@
                         <div class="hier list">
                             <ul>
                                 <xsl:for-each select="//skos:Concept[@rdf:about = //skos:hasTopConcept/@rdf:resource]">
-                                    <li><a href="{@rdf:about}"><xsl:value-of select="skos:prefLabel"/></a></li>
+                                    <li><a href="{@rdf:about}" target="_blank"><xsl:value-of select="skos:prefLabel"/></a></li>
                                     <ul><xsl:for-each select="skos:narrower/@rdf:resource">
                                         <xsl:variable name="value" select="."/>
-                                        <li><a href="{//skos:Concept[@rdf:about = $value]/@rdf:about}"><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel"/></a><xsl:text> (</xsl:text><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel/@xml:lang"/><xsl:text>)</xsl:text>
+                                        <li><a href="{//skos:Concept[@rdf:about = $value]/@rdf:about}" target="_blank"><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel"/></a><xsl:text> (</xsl:text><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel/@xml:lang"/><xsl:text>)</xsl:text>
                                             <xsl:if test="//skos:Concept[@rdf:about = $value]/skos:narrower">
                                                 <ul><xsl:for-each select="//skos:Concept[@rdf:about = $value]/skos:narrower/@rdf:resource">
                                                     <xsl:variable name="value" select="."/>
-                                                    <li><a href="{.}"><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel"/></a><xsl:text> (</xsl:text><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel/@xml:lang"/><xsl:text>)</xsl:text></li>
+                                                    <li><a href="{.}" target="_blank"><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel"/></a><xsl:text> (</xsl:text><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel/@xml:lang"/><xsl:text>)</xsl:text></li>
                                                 </xsl:for-each>
                                                 </ul>
                                             </xsl:if>
@@ -707,14 +709,29 @@
                                 </xsl:for-each>
                             </ul>
                         </div></xsl:if>
-                        <p>
+<div>
+    <script>
+        (function() {
+        var cx = '004934001066682767631:ghj9p-xjqws';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
+    <p><gcse:searchbox-only></gcse:searchbox-only></p>
+</div>
+  <div>                      <p>
                             <a
-                                href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
-                                >Back to Intro</a>
+                                href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}" target="_blank">Back to Intro</a>
                         </p>
                         <p>
-                            <a href="{concat('http://www.eagle-network.eu/',$fullskosfile)}">See SKOS version</a>
+                            <a href="{concat('http://www.eagle-network.eu/',$fullskosfile)}" target="_blank">See SKOS version</a>
                         </p>
+  </div>                      
                         <script src="footer.js"/>
 
                     </div>
@@ -838,8 +855,8 @@
                         
                         
                         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"/>
-                        <script type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.js"></script>
-                        <script  type="text/javascript" src="../../../tablesorter-master/jquery.tablesorter.staticrow.min.js"></script>
+                        <script type="text/javascript" src="../../jquery.tablesorter.js"></script>
+                        <script  type="text/javascript" src="../../jquery.tablesorter.staticrow.min.js"></script>
                         <script type="text/javascript"> 
                             $(document).ready(function() 
                             { 
@@ -892,6 +909,7 @@
                                                     select="concat('https://en.wikipedia.org/wiki/Special:Search?search=',skos:prefLabel,'&amp;fulltext')"
                                                 />
                                             </xsl:attribute>
+<xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
                                                 src="http://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png"
                                                 title="{concat('Search ',skos:prefLabel,' in Wikipedia (EN)')}"/>
@@ -905,6 +923,8 @@
                                                     select="concat('https://www.wikidata.org/w/index.php?search=',skos:prefLabel,'&amp;fulltext')"
                                                 />
                                             </xsl:attribute>
+                                            
+                                            <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
                                                 src="http://smallbiztrends.com/wp-content/uploads/2013/05/wikidata-logo-660x462.jpg"
                                                 title="{concat('Search ',skos:prefLabel,' in Wikidata')}"/>
@@ -917,6 +937,8 @@
                                                     select="concat('https://www.google.com/search?as_epq=',skos:prefLabel)"
                                                 />
                                             </xsl:attribute>
+                                            
+                                            <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
                                                 src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfCP45qJe_tXuHkkAjf3sqKj2BxX0RxjE_9DBlsLbaTpsrjCx1Kg"
                                                 title="{concat('Search ',skos:prefLabel,' in Google')}"/>
@@ -929,6 +951,7 @@
                                                     select="concat(' http://scholar.google.com/scholar?lr=&amp;ie=UTF-8&amp;q=%22',skos:prefLabel,'%22&amp;btnG=Search&amp;oe=UTF-8')"
                                                 />
                                             </xsl:attribute>
+                                            <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
                                                 src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoe8OM0OJIpQtArLh2Qeo6N1ohL_nentoovO0nl6t1HzXpUxvWx6az_XbD"
                                                 title="{concat('Search ',skos:prefLabel,' in Google Scholar')}"/>
@@ -943,6 +966,7 @@
                                                     select="concat('https://www.google.com/search?q=',skos:prefLabel,'&amp;gws_rd=ssl&amp;tbm=isch')"
                                                 />
                                             </xsl:attribute>
+                                            <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
                                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacAaEn4nn0A4697mmGf1A2-OflYYCI4j7F2lNitilAF4gOvnGJDzZJlFk"
                                                 title="{concat('Search ',skos:prefLabel,' in Google Images')}"/>
@@ -974,14 +998,13 @@
 
         <!--main table contents-->
         <xsl:apply-templates mode="b"/>
-
     </xsl:template>
     <xsl:template match="skos:Concept/skos:closeMatch/skos:Concept[contains(@rdf:about,'chc.sbg.ac.at')]" mode="b">
         <tr>
             <td/>
             <td>External definition</td>
             <td>
-                <a href="{@rdf:about}">
+                <a href="{@rdf:about}" target="_blank">
                     <xsl:value-of select="parent::*/preceding-sibling::skos:prefLabel"/>
                 </a>
             </td>
@@ -995,6 +1018,7 @@
                     <xsl:attribute name="href">
                         <xsl:value-of select="parent::skos:Concept/@rdf:about"/>
                     </xsl:attribute>
+                    <xsl:attribute name="target">_blank</xsl:attribute>
                     <h2>
                         <xsl:value-of select="."/>
                     </h2>
@@ -1019,6 +1043,7 @@
                                 select="concat('http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?',$edhvocs,.)"
                             />
                         </xsl:attribute>
+                        <xsl:attribute name="target">_blank</xsl:attribute>
                         <img height="20%" width="20%"
                             src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif"
                             title="Search in EDH"/>
@@ -1028,7 +1053,7 @@
             </td>
             <td/>
             <td/>
-            <td>
+            <td scope="width:10%">
                 <xsl:value-of select="@xml:lang"/>
             </td>
         </tr>
@@ -1047,6 +1072,7 @@
                                         <xsl:attribute name="href">
                                             <xsl:value-of select="."/>
                                         </xsl:attribute>
+                                        <xsl:attribute name="target">_blank</xsl:attribute>
 External Example
                                     </a>
                                 </xsl:when>
@@ -1054,7 +1080,8 @@ External Example
                                     <xsl:for-each select="tokenize(.,' ')"><a>
 <xsl:attribute name="href">
                                             <xsl:value-of select="concat('http://edh-www.adw.uni-heidelberg.de/edh/inschrift/', .)"/>
-                                        </xsl:attribute>
+</xsl:attribute>
+                                        <xsl:attribute name="target">_blank</xsl:attribute>
                                         <xsl:value-of select="."/></a><br/></xsl:for-each>
                                 </xsl:when>
                                 <xsl:when test="contains(.,'EDR')">
@@ -1062,6 +1089,7 @@ External Example
                                         <xsl:attribute name="href">
                                             <xsl:value-of select="concat('http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=', .)"/>
                                         </xsl:attribute>
+                                        <xsl:attribute name="target">_blank</xsl:attribute>
                                         <xsl:value-of select="."/></a><br/></xsl:for-each>
                                 </xsl:when>
                                 <xsl:when test="contains(.,'UEL')">
@@ -1069,6 +1097,7 @@ External Example
                                         <xsl:attribute name="href">
                                             <xsl:value-of select="concat('www.ubi-erat-lupa.org/monument.php?id=', substring-after(., 'UEL '))"/>
                                         </xsl:attribute>
+                                        <xsl:attribute name="target">_blank</xsl:attribute>
                                         <xsl:value-of select="."/></a>
                                 </xsl:when>
                                 <xsl:when test="contains(.,'HEpOnline')">
@@ -1076,14 +1105,35 @@ External Example
                                         <xsl:attribute name="href">
                                             <xsl:value-of select="concat('http://eda-bea.es/pub/record_card_2.php?refpage=%2Fpub%2Fsearch_select.php&amp;quicksearch=Acuerdo+de+Hospitalidad&amp;rec=', substring-after(.,'HEpOnline '))"/>
                                         </xsl:attribute>
+                                        <xsl:attribute name="target">_blank</xsl:attribute>
                                         <xsl:value-of select="."/></a>
                                 </xsl:when>
-<xsl:otherwise>
+
+                                <xsl:otherwise>
     <xsl:value-of select="."/>
 </xsl:otherwise>
                             </xsl:choose>
                         </td>
+                        <td scope="width:10%">
+                            <xsl:value-of select="@xml:lang"/>
+                        </td>
+                    </tr>
+                </xsl:when>
+                <xsl:when test="contains(.,'CIL')">
+                    <tr>
+                        <td/>
+                        <td>Definition</td>
                         <td>
+                    <xsl:value-of select="substring-before(.,'CIL')"/>
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:text>http://cil.bbaw.de/cil_en/dateien/glossar.php</xsl:text>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">_blank</xsl:attribute>
+                        <xsl:text>CIL</xsl:text>    
+                    </a>
+</td>
+                        <td scope="width:10%">
                             <xsl:value-of select="@xml:lang"/>
                         </td>
                     </tr>
@@ -1095,7 +1145,7 @@ External Example
                         <td>
                             <xsl:value-of select="."/>
                         </td>
-                        <td>
+                        <td scope="width:10%">
                             <xsl:value-of select="@xml:lang"/>
                         </td>
                     </tr>
@@ -1111,7 +1161,7 @@ External Example
                 <td>
                     <xsl:value-of select="."/>
                 </td>
-                <td>
+                <td scope="width:10%">
                     <xsl:value-of select="@xml:lang"/>
                 </td>
             </tr>
@@ -1120,21 +1170,18 @@ External Example
     <xsl:template match="skos:note" mode="b">
         <xsl:for-each select=".">
             <tr>
-                <td/>
                 <td>Bibliography</td>
-                <td>
+                <td colspan="3">
                 <xsl:choose>    <xsl:when test="contains(., 'Zotero link')">
                     <xsl:value-of select="substring-before(., 'Zotero link:')"/>
-                        <a href="{substring-after(.,'Zotero link: ')}">
+                    <a href="{substring-after(.,'Zotero link: ')}" target="_blank">
                             See in Zotero
                         </a>
                     </xsl:when>
                     
                     <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
                 </xsl:choose></td>
-                <td>
-                    <xsl:value-of select="@xml:lang"/>
-                </td>
+               
             </tr>
         </xsl:for-each>
     </xsl:template>
@@ -1149,6 +1196,7 @@ External Example
                         <xsl:attribute name="href">
                             <xsl:value-of select="skos:Concept/@rdf:about"/>
                         </xsl:attribute>
+                        <xsl:attribute name="target">_blank</xsl:attribute>
                         <xsl:choose>
                             <xsl:when test="skos:Concept/skos:prefLabel">
                                 <xsl:value-of select="skos:Concept/skos:prefLabel"/>
@@ -1167,6 +1215,7 @@ External Example
                                     select="concat('http://arachne.uni-koeln.de/arachne/index.php?view[layout]=search_result_overview&amp;view[category]=overview&amp;search[constraints]=',skos:Concept/skos:prefLabel)"
                                 />
                             </xsl:attribute>
+                            <xsl:attribute name="target">_blank</xsl:attribute>
                             <img width="50%" height="50%"
                                 src="http://arachne.uni-koeln.de/template/images/logo_gross.gif"
                                 title="Search in Arachne"/>
@@ -1212,6 +1261,7 @@ External Example
                                     select="concat('http://edh-www.adw.uni-heidelberg.de/inschrift/erweiterteSuche?',$edhvocs,.)"
                                 />
                             </xsl:attribute>
+                            <xsl:attribute name="target">_blank</xsl:attribute>
                             <img height="20%" width="20%"
                                 src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif"
                                 title="Search this term in EDH"/>
@@ -1219,7 +1269,7 @@ External Example
 
                     </xsl:if>
                 </td>
-                <td>
+                <td scope="width:10%">
                     <xsl:value-of select="@xml:lang"/>
                 </td>
             </tr>
@@ -1239,6 +1289,7 @@ External Example
                         <xsl:attribute name="href">
                             <xsl:value-of select="@rdf:resource"/>
                         </xsl:attribute>
+                        <xsl:attribute name="target">_blank</xsl:attribute>
                         <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/>
                     </a>
                 </td>
@@ -1262,6 +1313,7 @@ External Example
                         <xsl:attribute name="href">
                             <xsl:value-of select="@rdf:resource"/>
                         </xsl:attribute>
+                        <xsl:attribute name="target">_blank</xsl:attribute>
                         <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/>
                     </a>
                 </td>
@@ -1284,6 +1336,7 @@ External Example
                         <xsl:attribute name="href">
                             <xsl:value-of select="@rdf:resource"/>
                         </xsl:attribute>
+                        <xsl:attribute name="target">_blank</xsl:attribute>
                         <xsl:value-of select="//skos:Concept[@rdf:about=$x]/skos:prefLabel"/>
                     </a>
                 </td>
@@ -1382,11 +1435,11 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                             	padding-bottom:4px;
                             }</style>
                         <script type="text/javascript" src="http://code.jquery.com/jquery.js"/>
-                        <script type="text/javascript" src="/tablesorter-master/jquery.tablesorter.js"></script>
+                        <script type="text/javascript" src="../../jquery.tablesorter.js"></script>
                         <script type="text/javascript"> 
                             $(document).ready(function() 
                             { 
-                            $("#ConceptList").tablesorter(); 
+                            $("#ConceptList").tablesorter({ widgets: ['staticRow'] }); 
                             } 
                             );</script>
                     </head>
@@ -1416,6 +1469,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                                             <xsl:attribute name="href">
                                                 <xsl:value-of select="./ancestor::skos:Concept/@rdf:about"/>
                                             </xsl:attribute>
+                                            <xsl:attribute name="target">_blank</xsl:attribute>
                                             <xsl:value-of select="./ancestor::skos:Concept/skos:prefLabel"/>
                                         </a>
                                     </td>
@@ -1425,29 +1479,28 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
 
 
                             <p>
-                                <a href="http://www.eagle-network.eu/advanced-search">Search for this term on the EAGLE
+                                <a href="http://www.eagle-network.eu/advanced-search" target="_blank">Search for this term on the EAGLE
                                     Advanced Search</a>
                             </p>
                             <p>
                                 <a
-                                    href="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}"
-                                    >Back to Index</a>
+                                    href="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}" target="_blank">Back to Index</a>
                             </p>
                             <p>
                                 <a
                                     href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
-                                    >Back to Intro</a>
+                                    target="_blank">Back to Intro</a>
                             </p>
                             <p>
                                 <xsl:variable name="idmain">
                                     <xsl:value-of select="substring-after(ancestor::skos:Concept/@rdf:about, 'lod/')"/>
 
                                 </xsl:variable>
-                                <a href="{concat($url,'skos/',$idmain)}">See SKOS version (of the equivalent
+                                <a href="{concat($url,'skos/',$idmain)}" target="_blank">See SKOS version (of the equivalent
                                     term)</a>
                             </p>
                             <p>
-                                <a href="{concat($url,'skos/',$id)}">See SKOS version of this term</a>
+                                <a href="{concat($url,'skos/',$id)}" target="_blank">See SKOS version of this term</a>
                             </p>
                             <script src="../../footer.js"/>
                         </div>
@@ -1473,7 +1526,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
 
 
     <xsl:template match="dct:created" mode="b">
-        <tr>
+        <tr class="static">
             <td/>
             <td>Created</td>
             <td>
@@ -1483,7 +1536,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
         </tr>
     </xsl:template>
     <xsl:template match="dct:modified" mode="b">
-        <tr>
+        <tr class="static">
             <td/>
             <td>Modified</td>
             <td>

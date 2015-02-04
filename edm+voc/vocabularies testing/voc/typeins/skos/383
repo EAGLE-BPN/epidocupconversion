@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/typeins.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-01-27Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-01-27Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-04+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-04+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -18,7 +18,10 @@
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
                  rdf:about="http://www.eagle-network.eu/voc/typeins/skos/383">
         <skos:prefLabel xml:lang="en">Christian</skos:prefLabel>
+        <skos:altLabel xml:lang="de">christliche Kultinschrift</skos:altLabel>
+      <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/skos/79"/>
         <dct:created>2014-10-18 00:06:27</dct:created>
     </skos:Concept>
 </rdf:RDF>

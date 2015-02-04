@@ -14,7 +14,6 @@
         <dc:description><![CDATA[  ]]></dc:description>
         <dc:date>2013-11-30</dc:date>
         <dct:modified>2014-03-20 12:04:21</dct:modified>
-        <dc:language>en</dc:language>
     </skos:ConceptScheme>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/75">
         <skos:prefLabel xml:lang="fr">Acclamation d&apos;éphèbes</skos:prefLabel>
@@ -51,7 +50,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/113">
         <skos:prefLabel xml:lang="la">Adnuntiatio</skos:prefLabel>
         <skos:scopeNote xml:lang="de">Bekanntmachung; Ankdigung (z. B. von munera) Nichtrechtliche
-            Verfungen(s.Rechtliche Verfung, fentlich / privat) </skos:scopeNote>
+            Verfungen (s.Rechtliche Verfung, fentlich / privat) </skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD053407</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
@@ -272,6 +271,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/106">
         <skos:prefLabel xml:lang="la">Cetera</skos:prefLabel>
+        <skos:altLabel xml:lang="la">titulus incerti generis</skos:altLabel>
+        <skos:altLabel xml:lang="de">Inschrift unbekannter Art</skos:altLabel>
         <skos:altLabel xml:lang="it">altro tipo</skos:altLabel>
         <skos:altLabel xml:lang="de">andere</skos:altLabel>
         <skos:altLabel xml:lang="fr">autres</skos:altLabel>
@@ -282,6 +283,7 @@
             categories</skos:scopeNote>
         <skos:scopeNote xml:lang="it">tutto ciche identificabile e non rientra in altri
             tipi</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:10:07</dct:modified>
@@ -457,6 +459,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/76">
         <skos:prefLabel xml:lang="la">Defixio</skos:prefLabel>
         <skos:altLabel xml:lang="la">Tabula defixionis</skos:altLabel>
+        <skos:altLabel xml:lang="de">Fluchtafel</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:scopeNote xml:lang="de">Fluch, Verwschung.</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD001039 HD013929</skos:scopeNote>
         <skos:scopeNote xml:lang="en">HEpOnline 2436</skos:scopeNote>
@@ -567,6 +571,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/2">
         <skos:prefLabel xml:lang="la">Fasti</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Fasten</skos:altLabel>
+        <skos:scopeNote>Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/361"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/1"/>
@@ -574,6 +580,18 @@
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/108"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:43:06</dct:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/395">
+        <skos:prefLabel xml:lang="la">Commentarii</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Protokolle</skos:altLabel>
+        <skos:scopeNote>Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/361"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/1"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/362"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/108"/>
+        <dct:created>2015-01-29 15:30:53</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/1">
         <skos:prefLabel xml:lang="la">Fasti, Leges, Acta</skos:prefLabel>
@@ -739,6 +757,8 @@
         <skos:scopeNote xml:lang="en">text in honor of someone (excluding funerary)</skos:scopeNote>
         <skos:scopeNote xml:lang="it">it. iscrizione in onore di qualcuno (escluse le
             sepolcrali)</skos:scopeNote>
+        <skos:scopeNote xml:lang="la">titulus honorarius (post mortem positus?)</skos:scopeNote>
+<skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:scopeNote xml:lang="de">Ehrung im Dativ (vgl. dagegen Beischrift, Elogium).</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD000450</skos:scopeNote>
         <skos:scopeNote xml:lang="la">EDR079521</skos:scopeNote>
@@ -883,6 +903,8 @@
         <skos:altLabel xml:lang="de">Gesetz</skos:altLabel>
         <skos:altLabel xml:lang="es">Ley</skos:altLabel>
         <skos:altLabel xml:lang="es">Ley / jurídica</skos:altLabel>
+        <skos:altLabel xml:lang="la">Lex</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:scopeNote xml:lang="es">HEpOnline 1755</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/183"/>
@@ -1071,6 +1093,9 @@
         <skos:prefLabel xml:lang="de">Meilen-/Leugenstein</skos:prefLabel>
         <skos:altLabel xml:lang="hu">mérföldkő</skos:altLabel>
         <skos:altLabel xml:lang="en">Milestone</skos:altLabel>
+        <skos:altLabel xml:lang="la">miliarium</skos:altLabel>
+        <skos:altLabel xml:lang="de">Meilenstein</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:scopeNote xml:lang="de">Auch bei Entfernungs angabe in leugae.</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD060883</skos:scopeNote>
         <skos:scopeNote xml:lang="es">HEpOnline 1881</skos:scopeNote>
@@ -1113,6 +1138,8 @@
         <skos:prefLabel xml:lang="de">Militärdiplom</skos:prefLabel>
         <skos:altLabel xml:lang="hu">katonai diploma</skos:altLabel>
         <skos:altLabel xml:lang="en">Military diploma</skos:altLabel>
+        <skos:altLabel xml:lang="la">diploma militare</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD014561</skos:scopeNote>
         <skos:scopeNote xml:lang="es">HEpOnline 6013</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
@@ -1159,10 +1186,21 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/90">
         <skos:prefLabel xml:lang="es">Obras publicas</skos:prefLabel>
+        <skos:altLabel xml:lang="la">titulus operis publici</skos:altLabel>
+<skos:altLabel xml:lang="de">Inschrift eines öffentlichen Gebäudes</skos:altLabel>
+<skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/86"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:45:19</dct:modified>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/397">
+        <skos:altLabel xml:lang="la">titulus operis privati</skos:altLabel>
+        <skos:altLabel xml:lang="de">Inschrift eines privaten Gebäudes</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/86"/>
+        <dct:created>2015-01-29 16:14:53</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/365">
         <skos:prefLabel xml:lang="en">Place marker</skos:prefLabel>
@@ -1270,6 +1308,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/79">
         <skos:prefLabel xml:lang="la">Sacer</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Sakralinschrift</skos:altLabel>
         <skos:altLabel xml:lang="it">dedica</skos:altLabel>
         <skos:altLabel xml:lang="it">dedication</skos:altLabel>
         <skos:altLabel xml:lang="es">inscripción religiosa</skos:altLabel>
@@ -1280,16 +1319,20 @@
         <skos:altLabel xml:lang="ar">ديني</skos:altLabel>
         <skos:scopeNote xml:lang="en">Text for a divinity or similar, including dedications and or
             other religious texts, such as sacred laws</skos:scopeNote>
+<skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:scopeNote xml:lang="it">Iscrizione per divinito assimilabile</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD000052</skos:scopeNote>
         <skos:scopeNote xml:lang="la">EDR001690</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/80"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/383"/>
          <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 14:29:59</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/44">
         <skos:prefLabel xml:lang="la">Senatus consultum</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Senatsbeschluss</skos:altLabel>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/1"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
@@ -1317,6 +1360,7 @@
         <skos:scopeNote xml:lang="de">HD002154</skos:scopeNote>
         <skos:scopeNote xml:lang="es">HEpOnline 35</skos:scopeNote>
         <skos:scopeNote xml:lang="la">EDR000008</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/93"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/354"/>
@@ -1372,12 +1416,15 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/129">
         <skos:prefLabel xml:lang="la">Tabula patronatus</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Patronatstafel</skos:altLabel>
+<skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:34:01</dct:modified>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/96">
         <skos:prefLabel xml:lang="la">term. non sep.</skos:prefLabel>
+        <skos:altLabel xml:lang="la">terminus</skos:altLabel>
         <skos:altLabel xml:lang="fr">borne</skos:altLabel>
         <skos:altLabel xml:lang="en">Boundary inscription</skos:altLabel>
         <skos:altLabel xml:lang="en">Border delimitation</skos:altLabel>
@@ -1401,6 +1448,7 @@
         <skos:historyNote xml:lang="en"> fines posuit (AE 1985, 0730) Iter precarium Examples: </skos:historyNote>
         <skos:scopeNote xml:lang="de">HD065913</skos:scopeNote>
         <skos:scopeNote xml:lang="la">EDR075677</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/97"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/98"/>
@@ -1441,6 +1489,8 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/133">
         <skos:prefLabel xml:lang="la">Tessera hospitalis</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Freundschaftstafel</skos:altLabel>
+<skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:36:29</dct:modified>
@@ -1629,7 +1679,10 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/383">
         <skos:prefLabel xml:lang="en">Christian</skos:prefLabel>
+        <skos:altLabel xml:lang="de">christliche Kultinschrift</skos:altLabel>
+<skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/79"/>
         <dct:created>2014-10-18 00:06:27</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/382">
@@ -1696,6 +1749,7 @@
         <skos:prefLabel xml:lang="de">Weihinschrift</skos:prefLabel>
         <skos:altLabel xml:lang="hu">Fogadalmi felirat</skos:altLabel>
         <skos:scopeNote xml:lang="de">Weihung an eine Gottheit (vgl. dagegenGebet).</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD006024</skos:scopeNote>
         <skos:scopeNote xml:lang="la">EDR078767</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
@@ -1705,6 +1759,7 @@
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/79"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/84"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/82"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/383"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 14:32:23</dct:modified>
     </skos:Concept>

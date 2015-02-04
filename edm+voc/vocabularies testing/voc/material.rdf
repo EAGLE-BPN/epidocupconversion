@@ -185,7 +185,15 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/22">
         <skos:prefLabel xml:lang="de">Andesit-Porphyr</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Porphyr, grüner</skos:altLabel>
+        <skos:altLabel xml:lang="de">Porphyr, roter</skos:altLabel>
         <skos:altLabel xml:lang="hu">andezit-porfír</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo porfido verde antico</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo porfido di Grecia</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo porfido serpentino</skos:altLabel>
+        <skos:altLabel xml:lang="la">Marmor Lacedaemonium</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo porfido rosso</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 18ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 122ff.; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 731-746; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 121; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 19, Harrell, James A., Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 20.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21"/>
         <skos:closeMatch>
@@ -217,6 +225,8 @@
         <skos:altLabel xml:lang="fr">Argile</skos:altLabel>
         <skos:altLabel xml:lang="en">Clay</skos:altLabel>
         <skos:altLabel xml:lang="de">Ton</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis cretaceus</skos:altLabel>
+        <skos:altLabel xml:lang="la">creta figularis</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/642"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/skos/643"/>
@@ -361,6 +371,9 @@
         <skos:altLabel xml:lang="es">Piedra pómez</skos:altLabel>
         <skos:altLabel xml:lang="fr">Pierre ponce</skos:altLabel>
         <skos:altLabel xml:lang="en">pumice</skos:altLabel>
+        <skos:altLabel xml:lang="la">pumex</skos:altLabel>
+        <skos:altLabel xml:lang="en">pumicestone</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Nissen, Heinrich, Pompeianische Studien zur Stdtekunde des Altertums, Leipzig 1877, 9; Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 65; Ginouvès  René et Martin, Roland, Dictionnaire méthodique, Rom 1985, ff. 40.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/28"/>
         <skos:exactMatch>
@@ -415,6 +428,10 @@
         <skos:altLabel xml:lang="de">Brekzie</skos:altLabel>
         <skos:altLabel xml:lang="en">Purple breccia</skos:altLabel>
         <skos:altLabel xml:lang="en">Yellow breccia</skos:altLabel>
+        <skos:altLabel xml:lang="en">metalimestone breccia</skos:altLabel>
+            <skos:altLabel xml:lang="it">marmo africano, var. rosso</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Luculleum</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 45f. (Luculleum), 51 (Teos); Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 174; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 39; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 1; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 418-459; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 8, Harrell, James A., http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm , Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 1.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>
@@ -823,6 +840,13 @@
         <skos:prefLabel xml:lang="fr">Gabbro</skos:prefLabel>
         <skos:altLabel xml:lang="hu">Gabbró</skos:altLabel>
         <skos:altLabel xml:lang="es">Gabro</skos:altLabel>
+        <skos:altLabel xml:lang="de">Serpentin</skos:altLabel>
+        <skos:altLabel xml:lang="it">(meta)gabbro</skos:altLabel>
+        <skos:altLabel xml:lang="it">gabbro dioritico</skos:altLabel>
+        <skos:altLabel xml:lang="it">granito verde della sedia di San Lorenzo</skos:altLabel>
+        <skos:altLabel xml:lang="it">granito verde della sedia di San Pietro</skos:altLabel>
+        <skos:altLabel xml:lang="en">ophytes</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 20; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 154ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 35 (Anm. 163), 41; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 804-806. 807-809; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 80f.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8"/>
         <skos:exactMatch>
@@ -945,6 +969,13 @@
         <skos:altLabel xml:lang="es">Granito</skos:altLabel>
         <skos:altLabel xml:lang="en">red Egyptian granite</skos:altLabel>
         <skos:altLabel xml:lang="en">grey granite</skos:altLabel>
+        <skos:altLabel xml:lang="it">granito violetto</skos:altLabel>
+        <skos:altLabel xml:lang="la">Marmor Claudianum</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Troadense</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis granatus</skos:altLabel>
+        <skos:altLabel xml:lang="la">Marmor Troadense</skos:altLabel>
+        <skos:altLabel xml:lang="de">Marmor der Troas (Granit)</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 11ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 145ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985ff. 35; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 749-815; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen),67-82.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8"/>
         <skos:exactMatch>
@@ -1090,10 +1121,12 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/57">
         <skos:prefLabel xml:lang="de">Kalksandstein</skos:prefLabel>
+        <skos:altLabel xml:lang="la">lapis calcarius</skos:altLabel>
         <skos:altLabel xml:lang="fr">Calcaire</skos:altLabel>
         <skos:altLabel xml:lang="en">calcareous sandstone</skos:altLabel>
         <skos:altLabel xml:lang="es">Caliza</skos:altLabel>
         <skos:altLabel xml:lang="hu">meszes homokkő</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 388-413.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
         <skos:exactMatch>
@@ -1166,6 +1199,7 @@
         <skos:prefLabel xml:lang="de">Kalktuff</skos:prefLabel>
         <skos:altLabel xml:lang="en">Calcareous Tuff</skos:altLabel>
         <skos:altLabel xml:lang="la">tofus</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Nissen, Heinrich, Pompeianische Studien zur Stdtekunde des Altertums, Leipzig 1877, 10ff.; Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 41ff., 57ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 42.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>
@@ -1520,10 +1554,13 @@
         <skos:altLabel xml:lang="tr">mermer</skos:altLabel>
         <skos:altLabel xml:lang="hr">mramor</skos:altLabel>
         <skos:altLabel xml:lang="la">tabula marmorea</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis marmoreus</skos:altLabel>
         <skos:altLabel xml:lang="el">μάρμαρο</skos:altLabel>
         <skos:altLabel xml:lang="bg">мрамор</skos:altLabel>
         <skos:altLabel xml:lang="he">שיש</skos:altLabel>
         <skos:altLabel xml:lang="ar">رخام</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Nissen, Heinrich, Pompeianische Studien zur Stdtekunde des Altertums, Leipzig 1877, 20; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 418-664; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, <a href="http://www.geogruppen.no/pdf/roman-rock-marble.pdf"
+            target="_blank">online</a> (ohne Jahr), passim.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
@@ -1534,6 +1571,17 @@
         <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/361"/>
         <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/358"/>
         <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/648"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/739"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/740"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/741"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/742"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/743"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/744"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/745"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/746"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/747"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/748"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/749"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2383">
                 <skos:prefLabel xml:lang="de">Marmor</skos:prefLabel>
@@ -1543,6 +1591,103 @@
             <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/49"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/739">
+        <skos:prefLabel xml:lang="de">Marmor Chium</skos:prefLabel>
+        <skos:altLabel xml:lang="it">marmo Portasanta</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Chium</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 172ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 38; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 460-507; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 125; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 7.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+   </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/740">
+        <skos:prefLabel xml:lang="de">Marmor Claudianum</skos:prefLabel>
+        <skos:altLabel xml:lang="it">granito del Foro</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis granatus, marmor Claudianum</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 12ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 148f.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 34; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 796-7; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 72; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 22, Harrell, James A., http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm , Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  E 6, EQ 18.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/741">
+        <skos:prefLabel xml:lang="de">Marmor, hymettischer</skos:prefLabel>
+        <skos:altLabel xml:lang="it">marmo Cipolla, marmo dell'Imetto, marmo Imezio</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Hymettium</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 29f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 263; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 653-4; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 96; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 4.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/742">
+        <skos:prefLabel xml:lang="de">Marmor, karystischer</skos:prefLabel>
+        <skos:altLabel xml:lang="en">chloritic marble</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo cipollino, marmo cipollino verde</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Carystium / Carysteum</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 48f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 181; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 33f.-38; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 566-579; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 56; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 6; Harrell, James A., Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 8.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/743">
+        <skos:prefLabel xml:lang="de">Marmor, parischer</skos:prefLabel>
+        <skos:altLabel xml:lang="la">marmor Parium</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo Pario</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 31ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 261f.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 656-7; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 97; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 2.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/744">
+        <skos:prefLabel xml:lang="de">Marmor, phrygischer</skos:prefLabel>
+        <skos:altLabel xml:lang="en">brecciated marble</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Docimenium</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Synnadicum</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Phrygium</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo Pavonazzetto</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 51f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen). 169ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 40; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen),600-620; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 109; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 11; Harrell, James A., Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 19.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/745">
+        <skos:prefLabel xml:lang="de">Marmor, prokonnesischer </skos:prefLabel>
+        <skos:altLabel xml:lang="en">brecciated marble</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Proconnesium</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Cyzicenum</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo Proconnesio</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo di Proconneso</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo Cipolla</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 36f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 263f.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 38; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 649-652; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 99; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 3, Harrell, James A., Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 16.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/746">
+        <skos:prefLabel xml:lang="de">Marmor, skyrischer</skos:prefLabel>
+        <skos:altLabel xml:lang="en">brecciated marble</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Scyreticum</skos:altLabel>
+        <skos:altLabel xml:lang="it">breccia di Sciro</skos:altLabel>
+        <skos:altLabel xml:lang="it">breccia di Settebassi</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 49; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 232ff.; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 273 -315/7; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 46; Harrell, James A., Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 7.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/747">
+        <skos:prefLabel xml:lang="de">Marmor, taenarischer (rot)</skos:prefLabel>
+        <skos:altLabel xml:lang="la">marmor Taenarium</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo rosso antico</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 43 und 47f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 187ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 38; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 596-599; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 126; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 9; Harrell, James A., Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 21.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/748">
+        <skos:prefLabel xml:lang="de">Marmor, taenarischer (schwarz)</skos:prefLabel>
+        <skos:altLabel xml:lang="la">marmor Taenarium nigrum</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 42ff.; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 539-543.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/749">
+        <skos:prefLabel xml:lang="de">Marmor von Thassos</skos:prefLabel>
+        <skos:altLabel xml:lang="la">marmor Thasium</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo di Taso</skos:altLabel>
+        <skos:note>Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 35f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 262; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 658-9; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 100; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 5.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/50">
         <skos:prefLabel xml:lang="de">Marmor, geädert / farbig</skos:prefLabel>
@@ -1560,22 +1705,32 @@
         <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/356"/>
         <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/355"/>
         <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/354"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/738"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/49">
         <skos:prefLabel xml:lang="de">Marmor, weiß</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/362"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/366">
         <skos:prefLabel xml:lang="en">black marble</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Marmor, schwarzer</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis marmoreus niger </skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo nero antico</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 192ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 39; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 539-543; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 101; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 18; Harrell, James A., Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 17.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/365">
         <skos:prefLabel xml:lang="en">yellow marble</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Marmor, numidischer</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Numidicum</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo giallo antico</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 54; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 166; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 38; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 508-538; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 65; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 12.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
@@ -1588,6 +1743,10 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/363">
         <skos:prefLabel xml:lang="en">White Pentelic marble</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Marmor, pentelischer</skos:altLabel>
+       <skos:altLabel xml:lang="la"> marmor Pentelicum</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo Pentelico</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 28; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 263; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 655; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 98; Harrell, James A., Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 15.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
@@ -1600,12 +1759,26 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/362">
         <skos:prefLabel xml:lang="en">white marble</skos:prefLabel>
+        <skos:altLabel xml:lang="la">marmor Lunense / Luniense</skos:altLabel>
+        <skos:altLabel xml:lang="de">Marmor, Carrara (weiß)</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 39f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 265; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 38; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 660; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 95; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, <a href="http://www.geogruppen.no/pdf/roman-rock-marble.pdf"
+            target="_blank">online</a> (ohne Jahr), 1; Harrell, James A., http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm , Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr), I 14 a.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/50"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/49"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/361">
         <skos:prefLabel xml:lang="en">Portasanta marble</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
+        <dct:created>2013-08-26 16:54:50</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/738">
+        <skos:prefLabel xml:lang="de">Marmor, Carrara (blau)</skos:prefLabel>
+        <skos:altLabel xml:lang="la">marmor Lunense / Luniense caesium</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo Bardiglio di Carrara</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 265; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen),634-641; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 13; Harrell, James A., http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm , Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr), I 14 b.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
@@ -1673,6 +1846,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/62">
         <skos:prefLabel xml:lang="de">Mergel</skos:prefLabel>
         <skos:altLabel xml:lang="hu">márga</skos:altLabel>
+        <skos:altLabel xml:lang="it">merga</skos:altLabel>
         <skos:altLabel xml:lang="en">marl</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/56"/>
@@ -1792,7 +1966,10 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/68">
         <skos:prefLabel xml:lang="de">Muschelkalk</skos:prefLabel>
+        <skos:altLabel xml:lang="la">lapis conchyliferus</skos:altLabel>
+        <skos:altLabel xml:lang="en">conchiferous limestone</skos:altLabel>
         <skos:altLabel xml:lang="en">Shell limestone</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 59; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 33-36.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/65"/>
         <skos:exactMatch>
@@ -1944,6 +2121,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/82">
         <skos:prefLabel xml:lang="de">Peperin</skos:prefLabel>
+        <skos:altLabel xml:lang="la">lapis albanus</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/80"/>
         <skos:exactMatch>
@@ -2015,6 +2193,8 @@
         <skos:altLabel xml:lang="es">Porfirio</skos:altLabel>
         <skos:altLabel xml:lang="fr">Porphyre</skos:altLabel>
         <skos:altLabel xml:lang="en">porphyry</skos:altLabel>
+        <skos:altLabel xml:lang="la">Marmor Lacedaemonium</skos:altLabel>
+        <skos:altLabel xml:lang="de">Marmor, thessalischer</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/21"/>
         <skos:exactMatch>
@@ -2182,6 +2362,9 @@
         <skos:altLabel xml:lang="en">grey sandstone</skos:altLabel>
         <skos:altLabel xml:lang="en">sand-stone</skos:altLabel>
         <skos:altLabel xml:lang="en">stuccoed sandstone</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis (h)arenarius</skos:altLabel>
+        <skos:altLabel xml:lang="la">(h)arenaceus lapis arenarius</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 62f.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 35; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 665-7.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/72"/>
         <skos:exactMatch>
@@ -2226,8 +2409,10 @@
         <skos:altLabel xml:lang="hu">Pala</skos:altLabel>
         <skos:altLabel xml:lang="en">schist</skos:altLabel>
         <skos:altLabel xml:lang="en">Slate</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis sectilis</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/736"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2768">
                 <skos:prefLabel xml:lang="de">Schiefer</skos:prefLabel>
@@ -2238,6 +2423,20 @@
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/736">
+        <skos:prefLabel xml:lang="de">Grauwacke</skos:prefLabel>        
+        <skos:altLabel xml:lang="de">Metagrauwacke</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis basanites</skos:altLabel>
+        <skos:altLabel xml:lang="it">pietra Bekhen</skos:altLabel>
+        <skos:altLabel xml:lang="it">scisto verde dell'Uadi Hammamat</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884. 23ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen). 111ff.; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 692; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen),110; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, <a href="http://www.geogruppen.no/pdf/roman-rock-marble.pdf"
+            target="_blank">online</a> (ohne Jahr), 24; Harrell, James A., http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm , Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  E 8, EQ 28a. (a); Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985ff. 31.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/52"/>
+        <dct:created>2015-01-29 21:31:50</dct:created>
+   </skos:Concept>
+
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/32">
         <skos:prefLabel xml:lang="de">Schlacke</skos:prefLabel>
         <skos:altLabel xml:lang="es">Esquisto Scoria</skos:altLabel>
@@ -2314,7 +2513,12 @@
         <skos:prefLabel xml:lang="de">Serpentinit</skos:prefLabel>
         <skos:altLabel xml:lang="es">Serpentina</skos:altLabel>
         <skos:altLabel xml:lang="fr">Serpertine</skos:altLabel>
-        <skos:altLabel xml:lang="en">szerpentin</skos:altLabel>
+        <skos:altLabel xml:lang="hu">szerpentin</skos:altLabel>
+        <skos:altLabel xml:lang="la">Marmor Thessalicum</skos:altLabel>
+        <skos:altLabel xml:lang="en">brecciated ophicalcite</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo verde antico</skos:altLabel>
+        <skos:altLabel xml:lang="it">serpentina</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 19ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 162ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 38; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 683-691; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 130; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 16, Harrell, James A., Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr),  I 22.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/34"/>
         <skos:closeMatch>
@@ -2324,8 +2528,12 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/53">
         <skos:prefLabel xml:lang="de">Silex</skos:prefLabel>
+        <skos:altLabel xml:lang="la">lapis molaris</skos:altLabel>
+        <skos:altLabel xml:lang="it">lava</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Nissen, Heinrich, Pompeianische Studien zur Stdtekunde des Altertums, Leipzig 1877, 5; Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 65; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 36.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
+        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/skos/737"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2875">
                 <skos:prefLabel xml:lang="de">Silex</skos:prefLabel>
@@ -2333,6 +2541,15 @@
         </skos:exactMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/737">
+        <skos:prefLabel xml:lang="de">Lavaschlacke</skos:prefLabel>
+        <skos:altLabel xml:lang="la">lapis molaris (fistulosus)</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Nissen, Heinrich, Pompeianische Studien zur Stdtekunde des Altertums, Leipzig 1877, 9; Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 65.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/53"/>
+        <dct:created>2015-01-29 21:43:50</dct:created>
+   </skos:Concept>
+
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/skos/291">
         <skos:prefLabel xml:lang="hu">Smaragd</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -2401,6 +2618,10 @@
         <skos:altLabel xml:lang="es">Sienita</skos:altLabel>
         <skos:altLabel xml:lang="fr">Syenite</skos:altLabel>
         <skos:altLabel xml:lang="en">szienit</skos:altLabel>
+        <skos:altLabel xml:lang="de">Hornblendegranit</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis granatus</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis Syenites</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 11ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 145ff.; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen),749 - 755; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 74; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 21; Harrell, James A., Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne Jahr), E 11.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/8"/>
         <skos:exactMatch>
@@ -2462,6 +2683,8 @@
         <skos:altLabel xml:lang="fr">Ardoise</skos:altLabel>
         <skos:altLabel xml:lang="es">Pizarra</skos:altLabel>
         <skos:altLabel xml:lang="en">Slate</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis sectilis cineraceus</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 41; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 416- 417.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/42"/>
         <skos:closeMatch>
@@ -2503,6 +2726,8 @@
         <skos:altLabel xml:lang="en">travertine-limestone</skos:altLabel>
         <skos:altLabel xml:lang="it">Travertino</skos:altLabel>
         <skos:altLabel xml:lang="es">Travertino</skos:altLabel>
+        <skos:altLabel xml:lang="la">lapis Tiburtinus</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Nissen, Heinrich, Pompeianische Studien zur Stdtekunde des Altertums, Leipzig 1877, 19f.; Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 57ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 42.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/skos/69"/>
         <skos:exactMatch>

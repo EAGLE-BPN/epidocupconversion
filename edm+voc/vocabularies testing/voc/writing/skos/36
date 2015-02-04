@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/writing.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-01-27Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-01-27Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-04+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-04+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -24,6 +24,7 @@
         <skos:altLabel xml:lang="fr">lettres creusées</skos:altLabel>
         <skos:altLabel xml:lang="la">Litt. Alv.</skos:altLabel>
         <skos:altLabel xml:lang="la">litterae aureae (in letter beds)</skos:altLabel>
+        <skos:altLabel xml:lang="la">Bronzebuchstaben, vergoldet</skos:altLabel>
         <skos:altLabel xml:lang="el">με γράμματα ελαφρώς κοίλα</skos:altLabel>
         <skos:altLabel xml:lang="ar">حروف بقنوات</skos:altLabel>
         <skos:scopeNote xml:lang="en">Alveolus Littering</skos:scopeNote>
@@ -31,7 +32,7 @@
             nel supporto l’intera forma della lettera, che poteva poi venire riempita con materiale
             diverso da quello del supporto stesso. Solitamente le lettere alveolate erano riempite
             con metallo o paste colorate (Silvia Evangelisti).</skos:scopeNote>
-        <skos:historyNote xml:lang="en">EDR029193</skos:historyNote>
+        <skos:scopeNote>EDR029193</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/38">

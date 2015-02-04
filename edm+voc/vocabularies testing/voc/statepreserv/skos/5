@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/statepreserv.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-01-27Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-01-27Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-04+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-04+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -19,9 +19,13 @@
                  rdf:about="http://www.eagle-network.eu/voc/statepreserv/skos/5">
         <skos:prefLabel xml:lang="en">Incomplete</skos:prefLabel>
         <skos:altLabel xml:lang="es">incompleta</skos:altLabel>
+        <skos:altLabel xml:lang="la">desiderantur nonnullae particulae</skos:altLabel>
+        <skos:altLabel xml:lang="de">einige Teile fehlen</skos:altLabel>
+        <skos:altLabel xml:lang="la">restant fastigii et pulvinorum vestigia</skos:altLabel>
+        <skos:altLabel xml:lang="de">es gibt Spuren von Giebeldach und Polstern</skos:altLabel>
         <skos:scopeNote xml:lang="it">Documento frammentario, di cui si conserva meno della
             metdell'intera iscrizione.</skos:scopeNote>
-        <skos:historyNote xml:lang="it">Esempi: EDR000970 EDR000991</skos:historyNote>
+        <skos:scopeNote>EDR000970 EDR000991</skos:scopeNote>
         <skos:note xml:lang="it">I. Di Stefano Manzella, Il mestiere di Epigrafista, Roma 1987, p.
             169.</skos:note>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
