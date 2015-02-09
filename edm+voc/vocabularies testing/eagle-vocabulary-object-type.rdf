@@ -324,6 +324,7 @@
         <skos:altLabel xml:lang="el">λήκυθος</skos:altLabel>
         <skos:altLabel xml:lang="ru">лекиф</skos:altLabel>
         <skos:altLabel xml:lang="ar">قارورة</skos:altLabel>
+        <skos:scopeNote xml:lang="de">Verschließbares Behältnis mit schmalem Hals und kleiner Öffnung für Transport oder Aufbewahrung von Flüssigkeiten oder Feststoffen</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1251">
@@ -345,6 +346,9 @@
                 <skos:prefLabel xml:lang="de">Flasche</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300045627"/>
+        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/167">
@@ -353,11 +357,15 @@
         <skos:altLabel xml:lang="he">קמיע</skos:altLabel>
         <skos:altLabel xml:lang="he">בולה</skos:altLabel>
         <skos:altLabel xml:lang="la">monile, amuletum</skos:altLabel>
+        <skos:scopeNote xml:lang="de">Kleiner tragbarer Gegenstand, dem glückbringende oder apotropäische Kräfte zugeschrieben werden</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1414">
                 <skos:prefLabel xml:lang="de">Amulett</skos:prefLabel>
             </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300266585"/>
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
@@ -381,6 +389,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1834">
         <skos:prefLabel xml:lang="en">Anathyrosis</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Nicht vollständig geglättete Lagerfläche von Steinblöcken</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6987">
@@ -424,6 +433,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1837">
         <skos:prefLabel xml:lang="en">Angle contraction</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Zur Auflösung des dorischen Eckkonfliktes verjüngte Interkolumnia an den Ecken des Tempels</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=456">
@@ -434,6 +444,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1838">
         <skos:prefLabel xml:lang="en">Anta capitel</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Kapitellförmiger oberer Abschluss einer Ante</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7797">
@@ -444,6 +455,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1839">
         <skos:prefLabel xml:lang="en">Ante</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Verlängerung einer Gebäudewand zu einer vorgezogenen Mauerzunge</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=492">
@@ -458,6 +470,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1840">
         <skos:prefLabel xml:lang="en">Antechamber</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Raum im Eingangsbereich eines Gebäude, der zu den anderen Räumlichkeiten führt</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3888">
@@ -477,6 +490,7 @@
         <skos:altLabel xml:lang="el">ακρωτήριο</skos:altLabel>
         <skos:altLabel xml:lang="el">πρόπηγμα</skos:altLabel>
         <skos:altLabel xml:lang="ar">مشربية سقف</skos:altLabel>
+        <skos:scopeNote xml:lang="de">Verzierter Stirnziegel eines Daches, häufig in Form einer Palmette</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1141">
@@ -490,6 +504,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1841">
         <skos:prefLabel xml:lang="en">Anthemion</skos:prefLabel>
+         <skos:scopeNote xml:lang="de">Ornament aus Palmette und Lotosblüte, das auf der Giebelspitze angebracht ist</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1144">
