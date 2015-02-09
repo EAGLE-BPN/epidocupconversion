@@ -14,13 +14,13 @@
             <xsl:attribute name="type">TM</xsl:attribute>
             <xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/EDR-TM.htm')//td[preceding-sibling::td[lower-case(.) = lower-case($tm)]]"/>
 </idno>
-        <idno>
+        <!--<idno>
             <xsl:attribute name="type">localID</xsl:attribute>
             <xsl:value-of select="//tei:title"/>
-        </idno>
+        </idno>-->
     </xsl:template>
     
-    <xsl:template match="//tei:idno[@type='URI'][text()[contains(.,'http://www.trismegistos.org/text/')]]">
+    <!--<xsl:template match="//tei:idno[@type='URI'][text()[contains(.,'http://www.trismegistos.org/text/')]]">
         <idno>
             <xsl:attribute name="type">TM</xsl:attribute>
             <xsl:value-of select="substring-after(., 'http://www.trismegistos.org/text/')"/>
@@ -29,6 +29,6 @@
             <xsl:attribute name="type">localID</xsl:attribute>
             <xsl:value-of select="//tei:title"/>
         </idno>
-    </xsl:template>
+    </xsl:template>-->
     
 </xsl:stylesheet>
