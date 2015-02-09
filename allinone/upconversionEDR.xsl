@@ -1061,7 +1061,7 @@
                                                             <xsl:non-matching-substring>
 <!-- suppl cert low internal [bene?]-->
                                                             <!--WORKS ONLY FOR ONE-->
-                                                            <xsl:analyze-string select="." regex="(\[(.*?)\?\])">
+                                                            <xsl:analyze-string select="." regex="(\[([^\[\]]*?)\?\])">
                                                             <xsl:matching-substring>
                                                             <supplied reason="lost" cert="low">
                                                             <xsl:value-of select="regex-group(2)"/>
@@ -1069,7 +1069,7 @@
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
     <!--suppl cert low general [da]?-->
-                                                            <xsl:analyze-string select="." regex="\[(.*)\]\(\?\)">
+                                                                <xsl:analyze-string select="." regex="\[([^\[\]]*)\]\(\?\)">
                                                             <xsl:matching-substring>
                                                             <supplied reason="lost" cert="low">
                                                             <xsl:value-of select="regex-group(1)"/>
