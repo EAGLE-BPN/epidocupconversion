@@ -82,6 +82,9 @@
                 <skos:prefLabel xml:lang="de">Gebäude</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300004792"/>
+        </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1829">
@@ -139,6 +142,7 @@
         <skos:prefLabel xml:lang="en">Akroter</skos:prefLabel>
         <skos:altLabel xml:lang="en">Acroterium</skos:altLabel>
         <skos:altLabel xml:lang="en">akrotérion</skos:altLabel>
+         <skos:scopeNote xml:lang="de">Verzierung am First oder den Ecken eines Tempelgiebels</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1212">
@@ -168,6 +172,7 @@
         <skos:altLabel xml:lang="ru">алтарь</skos:altLabel>
         <skos:altLabel xml:lang="ar">مذبح</skos:altLabel>
         <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Stätte der Kultausübung, in der Antike meist außerhalb des Tempels, an der Opferriten vollzogen werden können</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1407">
@@ -189,6 +194,7 @@
         <skos:altLabel xml:lang="en">statue base / altar</skos:altLabel>
         <skos:altLabel xml:lang="en">Altar or statue base</skos:altLabel>
         <skos:altLabel xml:lang="fr">Autel ou base de statue</skos:altLabel>
+        <skos:scopeNote xml:lang="de">Grundplatte, die der Stabilisierung z.B. einer Statue oder eines Altars dient</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1407">
@@ -216,6 +222,9 @@
                 <skos:prefLabel xml:lang="de">Bekrönung</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:closeMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300001656"/>
+        </skos:closeMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1831">
@@ -228,6 +237,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1832">
         <skos:prefLabel xml:lang="en">Amphiprostyle</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Variante eines prostylen Tempels, die auch auf der Rückseite eine Säulenstellung hat</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3646">
@@ -244,6 +254,7 @@
         <skos:altLabel xml:lang="es">amfiteátrum</skos:altLabel>
         <skos:altLabel xml:lang="la">amphitheatrum</skos:altLabel>
         <skos:altLabel xml:lang="it">Anfiteatro</skos:altLabel>
+        <skos:scopeNote xml:lang="de">Theater mit kreisförmig oder halbkreisförmig um die Arena angelegten Sitzreihen</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4116">
@@ -282,6 +293,7 @@
 <skos:altLabel xml:lang="en">lid</skos:altLabel>
         <skos:altLabel xml:lang="es">Tape de anfora</skos:altLabel>
         <skos:altLabel xml:lang="it">tappo d’anfora</skos:altLabel>
+        <skos:scopeNote xml:lang="de">Verschluss zum Abdecken eines Gefäßes</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1247">
@@ -292,6 +304,9 @@
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1628">
                 <skos:prefLabel xml:lang="de">Deckel</skos:prefLabel>
             </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300045712"/>
         </skos:exactMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
