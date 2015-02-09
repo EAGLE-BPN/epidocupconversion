@@ -206,6 +206,9 @@
                 <skos:prefLabel xml:lang="de">Basis</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:closeMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300001656"/>
+        </skos:closeMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/31">
@@ -222,9 +225,6 @@
                 <skos:prefLabel xml:lang="de">Bekrönung</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        <skos:closeMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300001656"/>
-        </skos:closeMatch>
         <dct:created>2013-10-01 22:44:21</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1831">
