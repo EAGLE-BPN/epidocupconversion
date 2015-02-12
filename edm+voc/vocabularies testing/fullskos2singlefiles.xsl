@@ -1362,7 +1362,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
 
  -->
             <xsl:variable name="filenameskos"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id)"/>
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.rdf')"/>
             <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes"
                 exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
