@@ -1066,5 +1066,7 @@
                                 </xsl:analyze-string>
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
+                                                  </xsl:non-matching-substring>
+                                                  </xsl:analyze-string>
     </xsl:template>
 </xsl:stylesheet>
