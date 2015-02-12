@@ -1496,7 +1496,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                                     <xsl:value-of select="substring-after(ancestor::skos:Concept/@rdf:about, 'lod/')"/>
 
                                 </xsl:variable>
-                                <a href="{concat($url,'skos/',$idmain)}" target="_blank">See SKOS version (of the equivalent
+                                <a href="{concat($url,'lod/',$idmain,'.rdf')}" target="_blank">See SKOS version (of the equivalent
                                     term)</a>
                             </p>
                             <p>
