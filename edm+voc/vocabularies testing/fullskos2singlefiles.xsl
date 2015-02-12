@@ -1500,7 +1500,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                                     term)</a>
                             </p>
                             <p>
-                                <a href="{concat($url,'skos/',$id)}" target="_blank">See SKOS version of this term</a>
+                                <a href="{concat($url,'lod/',$id,'.rdf')}" target="_blank">See SKOS version of this term</a>
                             </p>
                             <script src="../../footer.js"/>
                         </div>
