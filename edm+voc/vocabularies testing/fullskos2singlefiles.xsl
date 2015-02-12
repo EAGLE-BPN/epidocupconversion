@@ -740,12 +740,12 @@ xmlns:gcse="uri:not-provided"
 
         </xsl:result-document>
         <xsl:result-document href="{$fullskosfile}" format="xml">
-            <xsl:apply-templates mode="skosuris"/>
+           <xsl:copy-of select="."/>
         </xsl:result-document>
         <xsl:apply-templates mode="d"/>
     </xsl:template>
 
-    <xsl:template match="@*|node()" mode="skosuris">
+    <!--<xsl:template match="@*|node()" mode="skosuris">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()" mode="skosuris"/>
         </xsl:copy>
@@ -764,7 +764,7 @@ xmlns:gcse="uri:not-provided"
         <xsl:attribute name="rdf:{local-name()}">
             <xsl:value-of select="replace(., 'lod', 'skos')"/>
         </xsl:attribute>
-    </xsl:template>
+    </xsl:template>-->
 
     <xsl:template match="skos:Concept" mode="a">
 
@@ -776,7 +776,7 @@ xmlns:gcse="uri:not-provided"
 
             <!--skos-->
             <xsl:variable name="filenameskos"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/skos/',$id)"/>
+                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.rdf')"/>
             <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes"
                 exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -807,9 +807,9 @@ xmlns:gcse="uri:not-provided"
                     </skos:ConceptScheme>
                     <xsl:copy>
                         <xsl:attribute name="rdf:about">
-                            <xsl:value-of select="replace(@rdf:about, 'lod', 'skos')"/>
-                        </xsl:attribute>
-                        <xsl:apply-templates mode="skosuris"/>
+                            <xsl:value-of select="."/>
+                        </xsl:attribute><!--
+                        <xsl:apply-templates mode="skosuris"/>-->
                     </xsl:copy>
 
                 </rdf:RDF>
@@ -984,7 +984,7 @@ xmlns:gcse="uri:not-provided"
                                     action="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}">
                                     <input type="submit" value="Back to Intro"/>
                                 </form>
-                                <form style="float:right" action="{concat($url,'skos/',$id)}">
+                                <form style="float:right" action="{concat($url,'lod/',$id,'.rdf')}">
                                     <input type="submit" value="See SKOS version"/>
                                 </form>
                             </div>

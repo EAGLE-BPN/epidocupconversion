@@ -1,0 +1,20 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                       rdf:about="http://www.eagle-network.eu/voc/writing/">EAGLE Vocabulary - Writing<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                            BPN)</dc:creator>
+      <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+      <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
+                      rdf:about="http//:www.eagle-network.eu/resources/vocabularies/writing.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-12+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-12+01:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+                 xmlns:dct="http://purl.org/dc/terms/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 rdf:about="&#xA;        Litteris ex Forma&#xA;        a matrice&#xA;        als Abdruck&#xA;        bélyegzett&#xA;        lettres moulées&#xA;        litt. ex forma&#xA;        moulded&#xA;        stamped&#xA;        με γράμματα εκτυπωμένα (σχηματοποιημένα δια της&#xA;            πίεσης)&#xA;        حروف مصبوبة&#xA;        stamped&#xA;        Lettere impresse con una matrice. Si riferisce a scritte&#xA;            realizzate tramite una matrice composta da due parti (valvae) che aderendo l’una&#xA;            all’altra creano cavitinterne dentro cui viene versato il metallo liquefatto. Va&#xA;            utilizzato, quindi per quegli oggetti in cui l’epigrafe nello stampo per l’oggetto&#xA;            stesso e che sono solo di metallo. Le fistulae e le glandes rientrano in questa&#xA;            categoria (Silvia Evangelisti).&#xA;        EDR015716&#xA;        &#xA;        &#xA;            &#xA;                ex forma&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                gestempelt&#xA;            &#xA;        &#xA;        2013-08-26 11:35:33&#xA;    "/>
+</rdf:RDF>

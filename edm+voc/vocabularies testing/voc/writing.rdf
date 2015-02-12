@@ -16,7 +16,7 @@
         <dc:date>2015-01-29</dc:date>
         <dct:modified>2014-05-15 13:55:41</dct:modified>
     </skos:ConceptScheme>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/2">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/2">
         <skos:prefLabel xml:lang="la">Atramento</skos:prefLabel>
         <skos:altLabel xml:lang="it">a inchiostro</skos:altLabel>
         <skos:altLabel xml:lang="fr">encré</skos:altLabel>
@@ -34,7 +34,7 @@
       <dct:created>2013-08-26 11:29:56</dct:created>
         <dct:modified>2013-08-26 11:30:28</dct:modified>
     </skos:Concept>
-      <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/3">
+      <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/3">
         <skos:prefLabel xml:lang="la">Caelo</skos:prefLabel>
         <skos:altLabel xml:lang="it">a bulino</skos:altLabel>
         <skos:altLabel xml:lang="en">engraved</skos:altLabel>
@@ -50,33 +50,33 @@
         <skos:scopeNote>EDR004986</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/23">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/23">
                 <skos:prefLabel xml:lang="de">eingraviert</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
        <dct:created>2013-08-26 11:31:00</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/18">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/18">
         <skos:prefLabel xml:lang="la">Carbone</skos:prefLabel>
         <skos:scopeNote xml:lang="en">realized with coal</skos:scopeNote>
         <skos:scopeNote xml:lang="it">A carbone. Si riferisce a quelle iscrizioni tracciate col
             carbone, solitamente su intonaci o muri (Silvia Evangelisti).</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/163">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/163">
                 <skos:prefLabel xml:lang="it">Carbone scriptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-08-26 11:39:47</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/168">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/168">
         <skos:prefLabel xml:lang="en">carved</skos:prefLabel>
         <skos:altLabel xml:lang="la">accurate incisae et concinne ordinatae</skos:altLabel>
         <skos:altLabel xml:lang="de">sorgsam eingeschnitten und gleichmäßig angeordnet</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2014-03-19 09:22:36</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/20">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/20">
         <skos:prefLabel xml:lang="la">Cetera</skos:prefLabel>
         <skos:altLabel xml:lang="hu">egyéb</skos:altLabel>
         <skos:scopeNote xml:lang="en">other</skos:scopeNote>
@@ -84,7 +84,7 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2013-08-26 11:40:47</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/4">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/4">
         <skos:prefLabel xml:lang="la">Crustis</skos:prefLabel>
         <skos:altLabel xml:lang="it">con pezzetti</skos:altLabel>
         <skos:altLabel xml:lang="fr">incrusté</skos:altLabel>
@@ -103,13 +103,13 @@
         <skos:scopeNote>EDR010609</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/34">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/34">
                 <skos:prefLabel xml:lang="la">Crustis scriptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-08-26 11:31:29</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/12">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/12">
         <skos:prefLabel xml:lang="de">Eingemeißelt mit Farbresten</skos:prefLabel>
         <skos:altLabel xml:lang="hu">vésett (festék nyomaival)</skos:altLabel>
         <skos:scopeNote xml:lang="en">applies to inscriptions on stone remnants (usually red) of
@@ -117,56 +117,56 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2013-08-26 11:38:21</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/44">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/44">
         <skos:prefLabel xml:lang="en">Embossed</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2013-08-26 14:20:04</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/167">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/167">
         <skos:prefLabel xml:lang="en">etched (with a sharp point)</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2014-03-19 09:22:15</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/21">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/21">
         <skos:prefLabel xml:lang="la">Ignoratur</skos:prefLabel>
         <skos:altLabel xml:lang="hu">ismeretlen</skos:altLabel>
         <skos:scopeNote xml:lang="en">Unknown</skos:scopeNote>
         <skos:scopeNote xml:lang="it">sconosciuto</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/164">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/164">
                 <skos:prefLabel xml:lang="la">non liquet</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-08-26 11:40:59</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/166">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/166">
         <skos:prefLabel xml:lang="en">impressed</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/writing/skos/13"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/writing/lod/13"/>
         <dct:created>2014-03-19 09:20:23</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/170">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/170">
         <skos:prefLabel xml:lang="en">in points (chasing)</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2014-03-19 09:23:32</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/174">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/174">
         <skos:prefLabel xml:lang="en">in points (repouss)</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2014-03-19 09:25:33</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/173">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/173">
         <skos:prefLabel xml:lang="en">in relief (cut)</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2014-03-19 09:24:58</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/169">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/169">
         <skos:prefLabel xml:lang="en">in troughs</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2014-03-19 09:23:05</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/5">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/5">
         <skos:prefLabel xml:lang="la">Litteris Ageminatis</skos:prefLabel>
         <skos:altLabel xml:lang="en">damascened</skos:altLabel>
         <skos:altLabel xml:lang="fr">damasquinage</skos:altLabel>
@@ -185,7 +185,7 @@
         <dct:created>2013-08-26 11:31:44</dct:created>
         <dct:modified>2013-08-26 11:33:06</dct:modified>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/36">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/36">
         <skos:prefLabel xml:lang="la">Litteris Alveolatis</skos:prefLabel>
         <skos:altLabel xml:lang="en">channelled</skos:altLabel>
         <skos:altLabel xml:lang="de">in Bettungen</skos:altLabel>
@@ -204,14 +204,14 @@
         <skos:scopeNote>EDR029193</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/38">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/38">
                 <skos:prefLabel xml:lang="de">litterae aureae (in
                     Buchstabenbettungen)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-08-26 13:40:09</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/6">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/6">
         <skos:prefLabel xml:lang="la">Litteris Applicitis</skos:prefLabel>
         <skos:altLabel xml:lang="it">applicate</skos:altLabel>
         <skos:altLabel xml:lang="en">applied</skos:altLabel>
@@ -231,14 +231,14 @@
         <skos:scopeNote>EDR103378</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/41">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/41">
                 <skos:prefLabel xml:lang="de">litterae aureae (von außen
                     eingedübelt)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-08-26 11:34:26</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/7">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/7">
         <skos:prefLabel xml:lang="la">Litteris Eminentis</skos:prefLabel>
         <skos:altLabel xml:lang="it">a rilievo</skos:altLabel>
         <skos:altLabel xml:lang="de">erhaben</skos:altLabel>
@@ -252,13 +252,13 @@
         <skos:scopeNote>EDR115514</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/69">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/69">
                 <skos:prefLabel xml:lang="la">Reversus impressione scriptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
        <dct:created>2013-08-26 11:35:08</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/8">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/8">
         <skos:prefLabel xml:lang="la">Litteris ex Forma</skos:prefLabel>
         <skos:altLabel xml:lang="it">a matrice</skos:altLabel>
         <skos:altLabel xml:lang="de">als Abdruck</skos:altLabel>
@@ -280,18 +280,18 @@
         <skos:scopeNote>EDR015716</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/78">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/78">
                 <skos:prefLabel xml:lang="la">ex forma</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/77">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/77">
                 <skos:prefLabel xml:lang="de">gestempelt</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-08-26 11:35:33</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/9">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/9">
         <skos:prefLabel xml:lang="la">Litteris Scariphatis</skos:prefLabel>
         <skos:altLabel xml:lang="de">geritzt</skos:altLabel>
         <skos:altLabel xml:lang="la">titulus scarifatus</skos:altLabel>        
@@ -311,25 +311,25 @@
         <skos:scopeNote>EDR000146</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/88">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/88">
                 <skos:prefLabel xml:lang="de">Geritzt / Graffito</skos:prefLabel>
             <skos:altLabel xml:lang="it">Graffito</skos:altLabel>
                 <skos:altLabel xml:lang="de">Geritzt</skos:altLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/89">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/89">
                 <skos:prefLabel xml:lang="la">Scariphatus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
        <dct:created>2013-08-26 11:36:00</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/172">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/172">
         <skos:prefLabel xml:lang="en">molded</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2014-03-19 09:24:35</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/10">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/10">
         <skos:prefLabel xml:lang="la">Pictura</skos:prefLabel>
         <skos:altLabel xml:lang="la">titulus pictus</skos:altLabel>
         <skos:altLabel xml:lang="it">dipinta</skos:altLabel>
@@ -350,25 +350,25 @@
         <skos:scopeNote>EDR005156</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/96">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/96">
                 <skos:prefLabel xml:lang="de">Gemalt / Dipinto</skos:prefLabel>
             <skos:altLabel xml:lang="it">Dipinto</skos:altLabel>
                 <skos:altLabel xml:lang="de">Gemalt</skos:altLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/97">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/97">
                 <skos:prefLabel xml:lang="la">Pictus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-08-26 11:36:25</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/171">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/171">
         <skos:prefLabel xml:lang="en">protruding</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2014-03-19 09:24:07</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/11">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/11">
         <skos:prefLabel xml:lang="la">Punctim</skos:prefLabel>
         <skos:altLabel xml:lang="it">a punti incisi</skos:altLabel>
         <skos:altLabel xml:lang="fr">pointillé</skos:altLabel>
@@ -381,13 +381,13 @@
         <skos:scopeNote>EDR071974</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/145">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/145">
                 <skos:prefLabel xml:lang="de">gepunzt</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
           <dct:created>2013-08-26 11:36:33</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/1">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/1">
         <skos:prefLabel xml:lang="la">Scalpro</skos:prefLabel>
         <skos:altLabel xml:lang="en">chiselled</skos:altLabel>
         <skos:altLabel xml:lang="es">cincelado</skos:altLabel>
@@ -406,23 +406,23 @@
         <skos:scopeNote>EDR000079</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/115">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/115">
                 <skos:prefLabel xml:lang="en">Chisel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/113">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/113">
                 <skos:prefLabel xml:lang="de">eingemeißelt</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/114">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/114">
                 <skos:prefLabel xml:lang="la">Insculptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
        <dct:created>2013-08-23 16:45:39</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/13">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/13">
         <skos:prefLabel xml:lang="la">Signaculo</skos:prefLabel>
         <skos:altLabel xml:lang="it">impressa</skos:altLabel>
         <skos:altLabel xml:lang="fr">timbré, cacheté</skos:altLabel>
@@ -437,15 +437,15 @@
             intonaco o argilla o altro. Conierei definizione apposita (Silvia
             Evangelisti).</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/writing/skos/166"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/writing/lod/166"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/125">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/125">
                 <skos:prefLabel xml:lang="la">Signaculo scriptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-08-26 11:38:40</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/165">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/165">
         <skos:prefLabel xml:lang="en">Signaculo Candente</skos:prefLabel>
         <skos:scopeNote xml:lang="it">Si riferisce a quelle scritte realizzate con un signaculum
             arroventato su materiali come il cuoio o il legno, oppure su esseri viventi (animali e
@@ -458,7 +458,7 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2014-02-04 19:04:30</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/14">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/14">
         <skos:prefLabel xml:lang="la">Stilo</skos:prefLabel>
         <skos:altLabel xml:lang="de">geritzt / in weiches Material</skos:altLabel>
         <skos:altLabel xml:lang="it">incisa su materia morbida</skos:altLabel>
@@ -474,13 +474,13 @@
         <skos:scopeNote>EDR029531</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/132">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/132">
                 <skos:prefLabel xml:lang="it">Exaratus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-08-26 11:38:59</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/15">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/15">
         <skos:prefLabel xml:lang="la">Terebro</skos:prefLabel>
         <skos:altLabel xml:lang="it">a traforo</skos:altLabel>
         <skos:altLabel xml:lang="de">durchlöchert</skos:altLabel>
@@ -496,7 +496,7 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2013-08-26 11:39:15</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/16">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/16">
         <skos:prefLabel xml:lang="la">Tessellis</skos:prefLabel>
         <skos:altLabel xml:lang="de">als Mosaik</skos:altLabel>
         <skos:altLabel xml:lang="hu">mozaik</skos:altLabel>
@@ -516,18 +516,18 @@
         <skos:scopeNote>EDR000939</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/152">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/152">
                 <skos:prefLabel xml:lang="de">Mosaik</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/153">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/153">
                 <skos:prefLabel xml:lang="la">Tessellis scriptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
        <dct:created>2013-08-26 11:39:23</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/17">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/17">
         <skos:prefLabel xml:lang="la">Typo</skos:prefLabel>
         <skos:altLabel xml:lang="it">a punzone</skos:altLabel>
         <skos:scopeNote xml:lang="en">with punch</skos:scopeNote>
@@ -548,26 +548,26 @@
             Evangelisti).</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/161">
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/161">
                 <skos:prefLabel xml:lang="la">Typo scriptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-08-26 11:39:37</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/19">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/19">
         <skos:prefLabel xml:lang="en">Undetermined</skos:prefLabel>
         <skos:altLabel xml:lang="hu">meghatározhatatlan</skos:altLabel>
         <skos:scopeNote xml:lang="en">Undetermined Writing</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2013-08-26 11:40:34</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/175">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/175">
         <skos:prefLabel xml:lang="en">with brush</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2014-03-19 09:26:05</dct:created>
     </skos:Concept>
 
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/176">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/176">
         <skos:prefLabel xml:lang="la">minio depictae</skos:prefLabel>
         <skos:altLabel xml:lang="de">mit Mennige ausgemalt</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
@@ -575,7 +575,7 @@
         <dct:created>2015-01-29 20:40:47</dct:created>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/177">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/177">
         <skos:prefLabel xml:lang="la">compresse scriptae</skos:prefLabel>
         <skos:altLabel xml:lang="de">eng geschrieben</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
@@ -583,7 +583,7 @@
         <dct:created>2015-01-29 20:40:47</dct:created>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/178">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/178">
         <skos:prefLabel xml:lang="la">rusticae neglegentissime insculptae</skos:prefLabel>
         <skos:altLabel xml:lang="de">kunstlos und sehr nachlässig gemeißelt</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
@@ -591,7 +591,7 @@
         <dct:created>2015-01-29 20:40:47</dct:created>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/179">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/179">
         <skos:prefLabel xml:lang="la">accurate (minus accurate) / affabre insculptae / scalptae</skos:prefLabel>
         <skos:altLabel xml:lang="de">sorgfältig (weniger sorgfältig) / kunstfertig herausgemeißelt</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
@@ -599,7 +599,7 @@
         <dct:created>2015-01-29 20:40:47</dct:created>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/180">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/180">
         <skos:prefLabel xml:lang="la">tempore recentiore colore nigro tinctae</skos:prefLabel>
         <skos:altLabel xml:lang="de">in jüngerer Zeit mit schwarzer Farbe ausgemalt</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
@@ -607,7 +607,7 @@
         <dct:created>2015-01-29 20:40:47</dct:created>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/181">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/181">
         <skos:prefLabel xml:lang="la">decrescentes / accrescentes</skos:prefLabel>
         <skos:altLabel xml:lang="de">kleiner / größer werdend</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
@@ -615,7 +615,7 @@
         <dct:created>2015-01-29 20:40:47</dct:created>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/182">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/182">
         <skos:prefLabel xml:lang="la">littera supra eminens reliquis maior</skos:prefLabel>
         <skos:altLabel xml:lang="de">oben herausragend, größer als die übrigen</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
@@ -623,7 +623,7 @@
         <dct:created>2015-01-29 20:40:47</dct:created>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/183">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/183">
         <skos:prefLabel xml:lang="la">erasae, in litura repositae</skos:prefLabel>
         <skos:altLabel xml:lang="de">getilgt, wieder kenntlich gemacht</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
@@ -631,7 +631,7 @@
         <dct:created>2015-01-29 20:40:47</dct:created>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/184">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/184">
         <skos:prefLabel xml:lang="la">valde detritae, partim umore deletae, musco circumlitae</skos:prefLabel>
         <skos:altLabel xml:lang="de">stark abgerieben, teilweise durch Feuchtigkeit zerstört und bemost</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
@@ -639,7 +639,7 @@
         <dct:created>2015-01-29 20:40:47</dct:created>
     </skos:Concept>
     
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/185">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/185">
         <skos:prefLabel xml:lang="la">plane evanuerunt</skos:prefLabel>
         <skos:altLabel xml:lang="de">völlig verschwunden</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
@@ -648,7 +648,7 @@
     </skos:Concept>
     
     
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/skos/186">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/186">
         <skos:prefLabel xml:lang="la">Titulus incisus est litteris velocibus.</skos:prefLabel>
         <skos:altLabel xml:lang="de">Die Inschrift ist mit flüchtigen Buchstaben eingemeißelt.</skos:altLabel>
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
