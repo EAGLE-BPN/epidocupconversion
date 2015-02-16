@@ -13,7 +13,7 @@
     </xsl:template>
     
     <!--inserts links to tags in zotero bibliography-->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/zoterobibliolinks.xsl"/>
+<!--    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/zoterobibliolinks.xsl"/>-->
 
     <!--inserts trismegistos id-->
         <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/tmid.xsl"/>
