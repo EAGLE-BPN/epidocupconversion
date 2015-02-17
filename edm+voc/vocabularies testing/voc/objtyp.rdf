@@ -7333,30 +7333,30 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2013-12-03 11:17:12</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1970'">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1970">
         <skos:prefLabel xml:lang="en">ossuary</skos:prefLabel>
         <skos:altLabel xml:lang="it">ossario</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2013-12-03 11:17:12</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1971'">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1971">
         <skos:prefLabel xml:lang="en">revetment</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2013-12-03 11:17:12</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1972'">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1972">
         <skos:prefLabel xml:lang="en">statue base capital</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/57"/>
         <dct:created>2015-17-02 10:17:12</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1973'">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1973">
         <skos:prefLabel xml:lang="en">statue plinth</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/57"/>
         <dct:created>2015-17-02 10:17:12</dct:created>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1974'">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1974">
         <skos:prefLabel xml:lang="en">statue base shaft</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/57"/>
