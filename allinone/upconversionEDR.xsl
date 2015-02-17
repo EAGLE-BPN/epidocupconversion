@@ -1329,19 +1329,19 @@
                                                             <xsl:matching-substring>
                                                             <xsl:text>-</xsl:text>
                                                             </xsl:matching-substring>
-                                                            <xsl:non-matching-substring>
+                                                            <!--<xsl:non-matching-substring>
                                                             <xsl:analyze-string regex="\?" select=".">
                                                             <xsl:matching-substring>
                                                             <xsl:attribute name="cert">
                                                             <xsl:text>low</xsl:text>
                                                             </xsl:attribute>
                                                             </xsl:matching-substring>
-                                                            <xsl:non-matching-substring>
+                                                            --><xsl:non-matching-substring>
                                                             <xsl:value-of select="."/>
                                                             </xsl:non-matching-substring>
                                                             </xsl:analyze-string>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
+<!--                                                            </xsl:non-matching-substring>
+                                                            </xsl:analyze-string>-->
                                                             </ex>
                                                             <xsl:value-of select=" regex-group(3)"/>
                                                             </expan>

@@ -31,7 +31,7 @@
         </rs>
     </xsl:template>
 
-    <xsl:template match="tei:rs[@type='decoration']">
+    <xsl:template match="tei:rs[@type='decoration'][text()]">
 <!--        <xsl:param name="decoURI" tunnel="yes"/>-->
 
 <xsl:choose>
