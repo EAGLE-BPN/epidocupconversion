@@ -8,13 +8,13 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-12+01:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-12+01:00</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Aedificium&#xA;        building&#xA;        édifice&#xA;        edificio&#xA;        építmény&#xA;        Gebäude&#xA;        κτήριο&#xA;        здание&#xA;        مبني&#xA;        qualsiasi opera edificata tranne sepulcrum. Segue&#xA;            specificazione (murus, turris, aquaeductus, cloaca, curia, basilica, aedes, porticus,&#xA;            arcus ecc.). S’intende che l’iscrizione scritta direttamente su parete&#xA;            dell’edificio&#xA;        To describe any building (except funerary structures) on which&#xA;            a text is directly inscribed.&#xA;            Bauwerk, das Räume einschließt und ein Dach besitzt&#xA;        &#xA;        &#xA;            &#xA;                Monument/Architektur&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                Gebäude&#xA;            &#xA;        &#xA;        &#xA;            &#xA;        &#xA;        2013-10-01 22:44:21&#xA;    "/>
+                 rdf:about="&#xA;        Aedificium&#xA;        building&#xA;        édifice&#xA;        edificio&#xA;        építmény&#xA;        Gebäude&#xA;        κτήριο&#xA;        здание&#xA;        مبني&#xA;        qualsiasi opera edificata tranne sepulcrum. Segue&#xA;            specificazione (murus, turris, aquaeductus, cloaca, curia, basilica, aedes, porticus,&#xA;            arcus ecc.). S’intende che l’iscrizione scritta direttamente su parete&#xA;            dell’edificio&#xA;        To describe any building (except funerary structures) on which&#xA;            a text is directly inscribed.&#xA;        Bauwerk, das Räume einschließt und ein Dach&#xA;            besitzt&#xA;        &#xA;        &#xA;            &#xA;                Monument/Architektur&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                Gebäude&#xA;            &#xA;        &#xA;        &#xA;            &#xA;        &#xA;        2013-10-01 22:44:21&#xA;    "/>
 </rdf:RDF>

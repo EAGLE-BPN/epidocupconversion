@@ -8,13 +8,13 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-12+01:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-12+01:00</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Marmor von Thassos&#xA;        marmor Thasium&#xA;        marmo di Taso&#xA;        Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 35f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 262; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 658-9; Borghini, Gabriele, Marmi Antichi  1, Rom 2001 (mit Abbildungen), 100; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne Jahr), 5.&#xA;        &#xA;        &#xA;    "/>
+                 rdf:about="&#xA;        Marmor von Thassos&#xA;        marmor Thasium&#xA;        marmo di Taso&#xA;        Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 35f.; Gnoli, Raniero,&#xA;            Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 262; Ginouvès René et Martin Roland,&#xA;            Dictionnaire méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im&#xA;            Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 658-9; Borghini, Gabriele, Marmi&#xA;            Antichi 1, Rom 2001 (mit Abbildungen), 100; Provan, Donald, Roman Rock. Marble and other&#xA;            decorative rock in the Roman World, online (ohne Jahr), 5.&#xA;        &#xA;        &#xA;    "/>
 </rdf:RDF>

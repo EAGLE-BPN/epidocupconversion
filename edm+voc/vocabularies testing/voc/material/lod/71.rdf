@@ -8,13 +8,13 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-12+01:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-12+01:00</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Travertin Kalkstein&#xA;        Travertin&#xA;        Travertin&#xA;        Travertine&#xA;        travertine-limestone&#xA;        Travertino&#xA;        Travertino&#xA;        lapis Tiburtinus&#xA;        Bibliography by Anne Glock (CIL): Nissen, Heinrich, Pompeianische Studien zur Stdtekunde des Altertums, Leipzig 1877, 19f.; Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 57ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 42.&#xA;        &#xA;        &#xA;        &#xA;            &#xA;                Travertin&#xA;            &#xA;        &#xA;        &#xA;            &#xA;        &#xA;        2013-08-26 16:54:50&#xA;    "/>
+                 rdf:about="&#xA;        Travertin Kalkstein&#xA;        Travertin&#xA;        Travertin&#xA;        Travertine&#xA;        travertine-limestone&#xA;        Travertino&#xA;        Travertino&#xA;        lapis Tiburtinus&#xA;        Bibliography by Anne Glock (CIL): Nissen, Heinrich, Pompeianische Studien zur&#xA;            Stdtekunde des Altertums, Leipzig 1877, 19f.; Blümner, Hugo, Terminologie und&#xA;            Technologie, Leipzig 1884, 57ff.; Ginouvès René et Martin Roland, Dictionnaire&#xA;            méthodique, Rom 1985, 42.&#xA;        &#xA;        &#xA;        &#xA;            &#xA;                Travertin&#xA;            &#xA;        &#xA;        &#xA;            &#xA;        &#xA;        2013-08-26 16:54:50&#xA;    "/>
 </rdf:RDF>
