@@ -23,7 +23,7 @@
     <!--    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/maketitledr.xsl"/>-->
         
 <!--  adds in specific elements a @ref with the corresponding url from the EAGLE Tematres Vocabularies -->
-    <xsl:include href="popwithvoc.xsl"/>
+    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/popwithvoc.xsl"/>
     
 <!--    breaks up sections and call templates to normalize ()[] and to convert in epidoc -->
     <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/textstructureEDR.xsl"/>
