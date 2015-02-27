@@ -8,13 +8,24 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;&#x9;&#x9;early VIII AD&#xA;&#x9;&#x9;early VIII CE&#xA;&#x9;&#x9;primi anni del VIII d.C.&#xA;&#x9;&#x9;early eighth century AD&#xA;&#x9;&#x9;early eighth century CE&#xA;&#x9;&#x9;primi anni dell'ottavo secolo d.C.&#xA;&#x9;&#x9;0701 ; 0725&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;2015-01-15 01:00:00&#xA;&#x9;"/>
+                 rdf:about="http://www.eagle-network.eu/voc/dates/lod/340">
+		    <skos:prefLabel xml:lang="en">early VIII AD</skos:prefLabel>
+		    <skos:altLabel xml:lang="en">early VIII CE</skos:altLabel>
+		    <skos:altLabel xml:lang="it">primi anni del VIII d.C.</skos:altLabel>
+		    <skos:altLabel xml:lang="en">early eighth century AD</skos:altLabel>
+		    <skos:altLabel xml:lang="en">early eighth century CE</skos:altLabel>
+		    <skos:altLabel xml:lang="it">primi anni dell'ottavo secolo d.C.</skos:altLabel>
+		    <skos:scopeNote>0701 ; 0725</skos:scopeNote>
+		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/109"/>
+		    <dct:created>2015-01-15 01:00:00</dct:created>
+	  </skos:Concept>
 </rdf:RDF>

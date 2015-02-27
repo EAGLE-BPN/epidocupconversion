@@ -8,13 +8,28 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/writing.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Terebro&#xA;        a traforo&#xA;        durchlöchert&#xA;        perforated or bored&#xA;        perforé, percé, troué&#xA;        trébelt&#xA;        τρυπητό, διάτρυτο&#xA;        مثقب أو محف&#xA;        perforated&#xA;        A traforo. Si riferisce a tutte quelle scritte realizzate nel&#xA;            materiale stesso del supporto eliminando ogni parte dello stesso che non sia lettera o&#xA;            elementi decorativi o cornici della stessa (Silvia Evangelisti).&#xA;        &#xA;        2013-08-26 11:39:15&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/writing/lod/15">
+        <skos:prefLabel xml:lang="la">Terebro</skos:prefLabel>
+        <skos:altLabel xml:lang="it">a traforo</skos:altLabel>
+        <skos:altLabel xml:lang="de">durchlöchert</skos:altLabel>
+        <skos:altLabel xml:lang="en">perforated or bored</skos:altLabel>
+        <skos:altLabel xml:lang="fr">perforé, percé, troué</skos:altLabel>
+        <skos:altLabel xml:lang="hu">trébelt</skos:altLabel>
+        <skos:altLabel xml:lang="el">τρυπητό, διάτρυτο</skos:altLabel>
+        <skos:altLabel xml:lang="ar">مثقب أو محف</skos:altLabel>
+        <skos:scopeNote xml:lang="en">perforated</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">A traforo. Si riferisce a tutte quelle scritte realizzate nel
+            materiale stesso del supporto eliminando ogni parte dello stesso che non sia lettera o
+            elementi decorativi o cornici della stessa (Silvia Evangelisti).</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
+        <dct:created>2013-08-26 11:39:15</dct:created>
+    </skos:Concept>
 </rdf:RDF>

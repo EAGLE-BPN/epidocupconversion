@@ -8,13 +8,34 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/writing.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Caelo&#xA;        a bulino&#xA;        engraved&#xA;        grabado&#xA;        gravé&#xA;        kivésett&#xA;        έκτυπο, σκαλισμένο&#xA;        منقوش&#xA;        engraved with burin&#xA;        Inciso con bulino. Si riferisce a quelle iscrizioni incise a&#xA;            bulino su metallo. Il bulino lo strumento che sostituisce lo scalpello per l’incisione&#xA;            sui metalli (Silvia Evangelisti).&#xA;        EDR004986&#xA;        &#xA;        &#xA;            &#xA;                eingraviert&#xA;            &#xA;        &#xA;       2013-08-26 11:31:00&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/writing/lod/3">
+        <skos:prefLabel xml:lang="la">Caelo</skos:prefLabel>
+        <skos:altLabel xml:lang="it">a bulino</skos:altLabel>
+        <skos:altLabel xml:lang="en">engraved</skos:altLabel>
+        <skos:altLabel xml:lang="es">grabado</skos:altLabel>
+        <skos:altLabel xml:lang="fr">gravé</skos:altLabel>
+        <skos:altLabel xml:lang="hu">kivésett</skos:altLabel>
+        <skos:altLabel xml:lang="el">έκτυπο, σκαλισμένο</skos:altLabel>
+        <skos:altLabel xml:lang="ar">منقوش</skos:altLabel>
+        <skos:scopeNote xml:lang="en">engraved with burin</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Inciso con bulino. Si riferisce a quelle iscrizioni incise a
+            bulino su metallo. Il bulino lo strumento che sostituisce lo scalpello per l’incisione
+            sui metalli (Silvia Evangelisti).</skos:scopeNote>
+        <skos:scopeNote>EDR004986</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/23">
+                <skos:prefLabel xml:lang="de">eingraviert</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+       <dct:created>2013-08-26 11:31:00</dct:created>
+    </skos:Concept>
 </rdf:RDF>

@@ -8,13 +8,31 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Columna, imoscapus&#xA;        column shaft, lower&#xA;        faccia inferiore di fusto di colonna&#xA;        imoscapo di colonna&#xA;        lower shaft&#xA;        partie inférieure du fût d'une colonne&#xA;        Placa&#xA;        Säule, unterer Teil des Schaftes&#xA;        κατώτερο τμήμα κίονα&#xA;        أسفل العمود&#xA;        &#xA;        &#xA;            &#xA;                Plaque&#xA;            &#xA;        &#xA;        2013-10-01 22:44:21&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/105">
+        <skos:prefLabel xml:lang="la">Columna, imoscapus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">column shaft, lower</skos:altLabel>
+        <skos:scopeNote xml:lang="it">faccia inferiore di fusto di colonna</skos:scopeNote>
+        <skos:altLabel xml:lang="it">imoscapo di colonna</skos:altLabel>
+        <skos:altLabel xml:lang="en">lower shaft</skos:altLabel>
+        <skos:scopeNote xml:lang="fr">partie inférieure du fût d'une colonne</skos:scopeNote>
+        <skos:altLabel xml:lang="es">Placa</skos:altLabel>
+        <skos:scopeNote xml:lang="de">Säule, unterer Teil des Schaftes</skos:scopeNote>
+        <skos:altLabel xml:lang="el">κατώτερο τμήμα κίονα</skos:altLabel>
+        <skos:altLabel xml:lang="ar">أسفل العمود</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1483">
+                <skos:prefLabel xml:lang="fr">Plaque</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
 </rdf:RDF>

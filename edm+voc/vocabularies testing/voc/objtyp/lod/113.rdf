@@ -8,13 +8,34 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Cupa, lamina&#xA;        barrel stave&#xA;        doga di botte&#xA;        lame de tonneau&#xA;        stave&#xA;        Tonne, Daube&#xA;        έλασμα σκύφου&#xA;        ألواح البرميل&#xA;        &#xA;        &#xA;            &#xA;                Fistula aquaria&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                Daube&#xA;            &#xA;        &#xA;        2013-10-01 22:44:21&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/113">
+        <skos:prefLabel xml:lang="la">Cupa, lamina</skos:prefLabel>
+        <skos:altLabel xml:lang="en">barrel stave</skos:altLabel>
+        <skos:altLabel xml:lang="it">doga di botte</skos:altLabel>
+        <skos:altLabel xml:lang="fr">lame de tonneau</skos:altLabel>
+        <skos:altLabel xml:lang="en">stave</skos:altLabel>
+        <skos:altLabel xml:lang="de">Tonne, Daube</skos:altLabel>
+        <skos:altLabel xml:lang="el">έλασμα σκύφου</skos:altLabel>
+        <skos:altLabel xml:lang="ar">ألواح البرميل</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1499">
+                <skos:prefLabel xml:lang="fr">Fistula aquaria</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1626">
+                <skos:prefLabel xml:lang="de">Daube</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
 </rdf:RDF>

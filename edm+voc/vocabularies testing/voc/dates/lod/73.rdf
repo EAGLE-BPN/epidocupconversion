@@ -8,13 +8,35 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;&#x9;&#x9;VIII BC&#xA;&#x9;&#x9;VIII BCE&#xA;&#x9;&#x9;VIII a.C.&#xA;&#x9;&#x9;eight century BC&#xA;&#x9;&#x9;eight century BCE&#xA;&#x9;&#x9;ottavo secolo a.C.&#xA;&#x9;&#x9;-0799 ; -0700&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;2015-01-15 01:00:00&#xA;&#x9;"/>
+                 rdf:about="http://www.eagle-network.eu/voc/dates/lod/73">
+		    <skos:prefLabel xml:lang="en">VIII BC</skos:prefLabel>
+		    <skos:altLabel xml:lang="en">VIII BCE</skos:altLabel>
+		    <skos:altLabel xml:lang="it">VIII a.C.</skos:altLabel>
+		    <skos:altLabel xml:lang="en">eight century BC</skos:altLabel>
+		    <skos:altLabel xml:lang="en">eight century BCE</skos:altLabel>
+		    <skos:altLabel xml:lang="it">ottavo secolo a.C.</skos:altLabel>
+		    <skos:scopeNote>-0799 ; -0700</skos:scopeNote>
+		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/74"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/200"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/201"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/202"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/78"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/76"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/79"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/203"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/77"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/204"/>
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/205"/>
+		    <dct:created>2015-01-15 01:00:00</dct:created>
+	  </skos:Concept>
 </rdf:RDF>

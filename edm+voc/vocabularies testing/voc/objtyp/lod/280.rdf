@@ -8,13 +8,24 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Tessera, monumentum&#xA;        tessera, for building inauguration&#xA;        αβακίσκος, κύβος που δίδεται κατά τα εγκαίνια ενός&#xA;            κτηρίου&#xA;        قطعة مكعبة، لافتتاح مبنى&#xA;        gettone distribuito in occasione di inaugurazione di&#xA;            edificio&#xA;        token assigned for building’s unveiling&#xA;        &#xA;        2013-10-01 22:44:21&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/280">
+        <skos:prefLabel xml:lang="la">Tessera, monumentum</skos:prefLabel>
+        <skos:altLabel xml:lang="en">tessera, for building inauguration</skos:altLabel>
+        <skos:altLabel xml:lang="el">αβακίσκος, κύβος που δίδεται κατά τα εγκαίνια ενός
+            κτηρίου</skos:altLabel>
+        <skos:altLabel xml:lang="ar">قطعة مكعبة، لافتتاح مبنى</skos:altLabel>
+        <skos:scopeNote xml:lang="it">gettone distribuito in occasione di inaugurazione di
+            edificio</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">token assigned for building’s unveiling</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
 </rdf:RDF>

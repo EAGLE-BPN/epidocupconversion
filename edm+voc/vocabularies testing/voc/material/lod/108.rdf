@@ -8,13 +8,35 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        plumbum&#xA;        Blei&#xA;        kurşun&#xA;        lead&#xA;        lyijy&#xA;        ólom&#xA;        olovo&#xA;        piombo&#xA;        plomb&#xA;        plomo&#xA;        μόλυβδος&#xA;        олово&#xA;        رصاص&#xA;        &#xA;        &#xA;        &#xA;            &#xA;                Blei&#xA;            &#xA;        &#xA;        2013-08-26 16:54:50&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/material/lod/108">
+        <skos:prefLabel xml:lang="la">plumbum</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Blei</skos:altLabel>
+        <skos:altLabel xml:lang="tr">kurşun</skos:altLabel>
+        <skos:altLabel xml:lang="en">lead</skos:altLabel>
+        <skos:altLabel xml:lang="fi">lyijy</skos:altLabel>
+        <skos:altLabel xml:lang="hu">ólom</skos:altLabel>
+        <skos:altLabel xml:lang="hr">olovo</skos:altLabel>
+        <skos:altLabel xml:lang="it">piombo</skos:altLabel>
+        <skos:altLabel xml:lang="fr">plomb</skos:altLabel>
+        <skos:altLabel xml:lang="es">plomo</skos:altLabel>
+        <skos:altLabel xml:lang="el">μόλυβδος</skos:altLabel>
+        <skos:altLabel xml:lang="bg">олово</skos:altLabel>
+        <skos:altLabel xml:lang="ar">رصاص</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/309"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1546">
+                <skos:prefLabel xml:lang="de">Blei</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-08-26 16:54:50</dct:created>
+    </skos:Concept>
 </rdf:RDF>

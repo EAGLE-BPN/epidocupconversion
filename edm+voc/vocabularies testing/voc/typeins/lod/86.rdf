@@ -8,13 +8,67 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/typeins.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Bauinschrift&#xA;        Bauinschrift, öffentlich und privat&#xA;        Building / dedicatory inscription&#xA;        Building dedication&#xA;        building / honorific inscription&#xA;        Building inscription&#xA;        Inscription de construction&#xA;        building text&#xA;        Building restoration&#xA;        restoration&#xA;        restoration works&#xA;        building&#xA;        építési felirat&#xA;        Inscriptions sur un bâtiment public ou privé&#xA;        iscrizione edilizia&#xA;        επιτοίχια επιγραφή, σε επιφάνεια δημοσίου ή ιδιωτικού&#xA;            κτηρίου&#xA;        بناء النص&#xA;        text posted on a structure (public or private), indicating who&#xA;            constructed or restored it&#xA;        iscrizione apposta su edificio o altro da chi lo costruo lo&#xA;            restaur&#xA;        HD011387&#xA;        EDR092961&#xA;        Auch bei wiederhergestellten Monumenten.&#xA;        Examples: &#34;aedem cum signo fecit balneum&#xA;            restituit&#34;&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;            &#xA;                Bau-/Stifterinschrift&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                Monumental&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                oper. publ. priv.que&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                tit. apparatus&#xA;            &#xA;        &#xA;        2013-08-01 12:27:53&#xA;        2013-08-26 09:29:25&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/typeins/lod/86">
+        <skos:prefLabel xml:lang="de">Bauinschrift</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Bauinschrift, öffentlich und privat</skos:altLabel>
+        <skos:altLabel xml:lang="en">Building / dedicatory inscription</skos:altLabel>
+        <skos:altLabel xml:lang="en">Building dedication</skos:altLabel>
+        <skos:altLabel xml:lang="en">building / honorific inscription</skos:altLabel>
+        <skos:altLabel xml:lang="en">Building inscription</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Inscription de construction</skos:altLabel>
+        <skos:altLabel xml:lang="en">building text</skos:altLabel>
+        <skos:altLabel xml:lang="en">Building restoration</skos:altLabel>
+        <skos:altLabel xml:lang="en">restoration</skos:altLabel>
+        <skos:altLabel xml:lang="en">restoration works</skos:altLabel>
+        <skos:altLabel xml:lang="en">building</skos:altLabel>
+        <skos:altLabel xml:lang="hu">építési felirat</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Inscriptions sur un bâtiment public ou privé</skos:altLabel>
+        <skos:altLabel xml:lang="it">iscrizione edilizia</skos:altLabel>
+        <skos:altLabel xml:lang="el">επιτοίχια επιγραφή, σε επιφάνεια δημοσίου ή ιδιωτικού
+            κτηρίου</skos:altLabel>
+        <skos:altLabel xml:lang="ar">بناء النص</skos:altLabel>
+        <skos:scopeNote xml:lang="en">text posted on a structure (public or private), indicating who
+            constructed or restored it</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">iscrizione apposta su edificio o altro da chi lo costruo lo
+            restaur</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">HD011387</skos:scopeNote>
+        <skos:scopeNote xml:lang="la">EDR092961</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Auch bei wiederhergestellten Monumenten.</skos:scopeNote>
+        <skos:historyNote xml:lang="en">Examples: "aedem cum signo fecit balneum
+            restituit"</skos:historyNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/356"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/90"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/88"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/261">
+                <skos:prefLabel xml:lang="de">Bau-/Stifterinschrift</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/265">
+                <skos:prefLabel xml:lang="es">Monumental</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/263">
+                <skos:prefLabel xml:lang="la">oper. publ. priv.que</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/264">
+                <skos:prefLabel xml:lang="la">tit. apparatus</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-08-01 12:27:53</dct:created>
+        <dct:modified>2013-08-26 09:29:25</dct:modified>
+    </skos:Concept>
 </rdf:RDF>

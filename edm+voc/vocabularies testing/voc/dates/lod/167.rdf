@@ -8,13 +8,27 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;&#x9;&#x9;Julian&#xA;&#x9;&#x9;Giuliano&#xA;&#x9;&#x9;Iulianus&#xA;&#x9;&#x9;Ἰουλιανός&#xA;&#x9;&#x9;ca. Febr. 360 - 26./27. Juni 363&#xA;&#x9;&#x9;0360 ; 0363&#xA;&#x9;&#x9;Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 323.&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#xA;&#x9;&#x9;2014-03-12 12:02:20&#xA;&#x9;"/>
+                 rdf:about="http://www.eagle-network.eu/voc/dates/lod/167">
+		    <skos:prefLabel xml:lang="de">Julian</skos:prefLabel>
+		    <skos:altLabel xml:lang="it">Giuliano</skos:altLabel>
+		    <skos:altLabel xml:lang="la">Iulianus</skos:altLabel>
+		    <skos:altLabel xml:lang="el">Ἰουλιανός</skos:altLabel>
+		    <skos:scopeNote xml:lang="de">ca. Febr. 360 - 26./27. Juni 363</skos:scopeNote>
+		    <skos:scopeNote>0360 ; 0363</skos:scopeNote>
+		    <skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 323.</skos:note>
+		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/25"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/30"/>
+		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
+	
+		    <dct:created>2014-03-12 12:02:20</dct:created>
+	  </skos:Concept>
 </rdf:RDF>

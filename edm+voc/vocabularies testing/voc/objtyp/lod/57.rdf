@@ -8,13 +8,70 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Statue base&#xA;        base (piedistallo) di statua onoraria&#xA;        base de statue&#xA;        Base de statue impériale&#xA;        Base de statue impériale, fragment&#xA;        Fragmentary statue base&#xA;        Base de statue, le dé&#xA;        base, statue&#xA;        basis, statua&#xA;        basis statuae&#xA;        Basis, Statue&#xA;        heykel kaidesi&#xA;        Statuenbasis&#xA;        szobortalapzat&#xA;        βάση αγάλματος&#xA;        база, постамент, пьедестал&#xA;        قاعدة ، تمثال&#xA;        En gal, les bases de statues (basis/piestal) se composent d’un&#xA;            socle (plinthe), d’un det d’un couronnement. Les statues sont fixs l’aide de mortaises.&#xA;            D’autre part, une statue pouvait se soutenir par son propre poids, sans avoir besoin de&#xA;            mortaises, surout une statue d’un Iupiter tronans. Nous avons certainement affaire une&#xA;            base de statue votive si le couronnement porte des traces de mortaises, qui servaient&#xA;            fixe la statue. (prof. Ioan Piso)&#xA;        Les statues honorifiques sont faites en bronze et sont igs dans des&#xA;            espaces publiques, comme, par exemple dans un forum, devant un temple, dans une&#xA;            basilique ou dans un macellum. Parfois les statues des empereurs vivants aient exuts en&#xA;            marbre, matiau rervaux divinit et aux dunts, en raison de la position intermiaire occup&#xA;            par l’empereur, entre les humains et les divinit. Les ents honorifiques sont donns par&#xA;            le texte de l’inscription honorifique: le nom du personnage, sa carrie, sa fonction, ses&#xA;            mites et la personne ou l’institution qui ont igla statue. Le type de statue est donnpar&#xA;            le texte ou par les dimensions du couronnement. C’est ainsi que l’on peut distinguer&#xA;            entre les bases de statua pedestris, de statua equestris, de statua tronans, de biga, de&#xA;            quadriga ou de seiugum. Des exemples pour l’identification de ces types de statues&#xA;            peuvent re trouv chez I. Piso, Le forum vetus de Sarmizegetusa I, Bucarest&#xA;            2006.&#xA;        Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2&#xA;            and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL&#xA;        &#xA;        &#xA;        &#xA;        &#xA;            &#xA;                Base de estatua&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                base for statue&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                Basis&#xA;            &#xA;        &#xA;        2013-10-01 22:44:21&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/57">
+        <skos:prefLabel xml:lang="en">Statue base</skos:prefLabel>
+        <skos:altLabel xml:lang="it">base (piedistallo) di statua onoraria</skos:altLabel>
+        <skos:altLabel xml:lang="fr">base de statue</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Base de statue impériale</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Base de statue impériale, fragment</skos:altLabel>
+        <skos:altLabel xml:lang="en">Fragmentary statue base</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Base de statue, le dé</skos:altLabel>
+        <skos:altLabel xml:lang="en">base, statue</skos:altLabel>
+        <skos:altLabel xml:lang="la">basis, statua</skos:altLabel>
+        <skos:altLabel xml:lang="la">basis statuae</skos:altLabel>
+        <skos:altLabel xml:lang="en">Basis, Statue</skos:altLabel>
+        <skos:altLabel xml:lang="tr">heykel kaidesi</skos:altLabel>
+        <skos:altLabel xml:lang="de">Statuenbasis</skos:altLabel>
+        <skos:altLabel xml:lang="hu">szobortalapzat</skos:altLabel>
+        <skos:altLabel xml:lang="el">βάση αγάλματος</skos:altLabel>
+        <skos:altLabel xml:lang="ru">база, постамент, пьедестал</skos:altLabel>
+        <skos:altLabel xml:lang="ar">قاعدة ، تمثال</skos:altLabel>
+        <skos:scopeNote xml:lang="fr">En gal, les bases de statues (basis/piestal) se composent d’un
+            socle (plinthe), d’un det d’un couronnement. Les statues sont fixs l’aide de mortaises.
+            D’autre part, une statue pouvait se soutenir par son propre poids, sans avoir besoin de
+            mortaises, surout une statue d’un Iupiter tronans. Nous avons certainement affaire une
+            base de statue votive si le couronnement porte des traces de mortaises, qui servaient
+            fixe la statue. (prof. Ioan Piso)</skos:scopeNote>
+        <skos:note xml:lang="fr">Les statues honorifiques sont faites en bronze et sont igs dans des
+            espaces publiques, comme, par exemple dans un forum, devant un temple, dans une
+            basilique ou dans un macellum. Parfois les statues des empereurs vivants aient exuts en
+            marbre, matiau rervaux divinit et aux dunts, en raison de la position intermiaire occup
+            par l’empereur, entre les humains et les divinit. Les ents honorifiques sont donns par
+            le texte de l’inscription honorifique: le nom du personnage, sa carrie, sa fonction, ses
+            mites et la personne ou l’institution qui ont igla statue. Le type de statue est donnpar
+            le texte ou par les dimensions du couronnement. C’est ainsi que l’on peut distinguer
+            entre les bases de statua pedestris, de statua equestris, de statua tronans, de biga, de
+            quadriga ou de seiugum. Des exemples pour l’identification de ces types de statues
+            peuvent re trouv chez I. Piso, Le forum vetus de Sarmizegetusa I, Bucarest
+            2006.</skos:note>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2
+            and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/1773"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/1772"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1342">
+                <skos:prefLabel xml:lang="es">Base de estatua</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1771">
+                <skos:prefLabel xml:lang="en">base for statue</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1484">
+                <skos:prefLabel xml:lang="de">Basis</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
 </rdf:RDF>

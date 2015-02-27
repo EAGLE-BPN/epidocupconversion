@@ -8,13 +8,33 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Antefix&#xA;        antefissa&#xA;        antéfixe&#xA;        antefixum&#xA;        ακρωτήριο&#xA;        πρόπηγμα&#xA;        مشربية سقف&#xA;        Verzierter Stirnziegel eines Daches, häufig in Form einer&#xA;            Palmette&#xA;        &#xA;        &#xA;            &#xA;                Antefix&#xA;            &#xA;        &#xA;        &#xA;            &#xA;        &#xA;        2013-10-01 22:44:21&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/28">
+        <skos:prefLabel xml:lang="en">Antefix</skos:prefLabel>
+        <skos:altLabel xml:lang="it">antefissa</skos:altLabel>
+        <skos:altLabel xml:lang="fr">antéfixe</skos:altLabel>
+        <skos:altLabel xml:lang="la">antefixum</skos:altLabel>
+        <skos:altLabel xml:lang="el">ακρωτήριο</skos:altLabel>
+        <skos:altLabel xml:lang="el">πρόπηγμα</skos:altLabel>
+        <skos:altLabel xml:lang="ar">مشربية سقف</skos:altLabel>
+        <skos:scopeNote xml:lang="de">Verzierter Stirnziegel eines Daches, häufig in Form einer
+            Palmette</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1141">
+                <skos:prefLabel xml:lang="de">Antefix</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300002217"/>
+        </skos:exactMatch>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
 </rdf:RDF>

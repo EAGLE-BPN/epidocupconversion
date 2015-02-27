@@ -8,13 +8,31 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;&#x9;&#x9;Constantine I&#xA;&#x9;&#x9;Constantine the Great&#xA;&#x9;&#x9;Costantino I&#xA;&#x9;&#x9;Costantino il Grande&#xA;&#x9;&#x9;Konstantin der Große&#xA;&#x9;&#x9;Konstantin I.&#xA;&#x9;&#x9;Κωνσταντῖνος ὁ Μέγας&#xA;&#x9;&#x9;25. Juli 306 - 22. Mai 337&#xA;&#x9;&#x9;0306 ; 0337&#xA;&#x9;&#x9;Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 298.&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;2014-03-12 11:49:04&#xA;&#x9;&#x9;2014-03-27 13:58:18&#xA;&#x9;"/>
+                 rdf:about="http://www.eagle-network.eu/voc/dates/lod/161">
+		    <skos:prefLabel xml:lang="en">Constantine I</skos:prefLabel>
+		    <skos:altLabel xml:lang="en">Constantine the Great</skos:altLabel>
+		    <skos:altLabel xml:lang="it">Costantino I</skos:altLabel>
+		    <skos:altLabel xml:lang="it">Costantino il Grande</skos:altLabel>
+		    <skos:altLabel xml:lang="de">Konstantin der Große</skos:altLabel>
+		    <skos:altLabel xml:lang="de">Konstantin I.</skos:altLabel>
+		    <skos:altLabel xml:lang="el">Κωνσταντῖνος ὁ Μέγας</skos:altLabel>
+		    <skos:scopeNote xml:lang="de">25. Juli 306 - 22. Mai 337</skos:scopeNote>
+		    <skos:scopeNote>0306 ; 0337</skos:scopeNote>
+		    <skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 298.</skos:note>
+		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/25"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/30"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/34"/>
+		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
+		    <dct:created>2014-03-12 11:49:04</dct:created>
+		    <dct:modified>2014-03-27 13:58:18</dct:modified>
+	  </skos:Concept>
 </rdf:RDF>

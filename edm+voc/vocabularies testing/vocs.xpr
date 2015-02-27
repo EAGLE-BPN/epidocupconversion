@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="15.2">
+<project version="14.2">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="15.2" xml:space="preserve">
+            <serialized version="14.2" xml:space="preserve">
                 <map>
                     <entry>
                         <String>validation.scenarios</String>
@@ -21,5 +21,6 @@
         <file name="eagle-vocabulary-state-of-preservation.rdf"/>
         <file name="eagle-vocabulary-type-of-inscription.rdf"/>
         <file name="eagle-vocabulary-writing.rdf"/>
+        <file name="fullskos2singlefiles.xsl"/>
     </projectTree>
 </project>

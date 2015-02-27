@@ -8,13 +8,39 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Roca&#xA;        Felsen&#xA;        parete rocciosa&#xA;        paroi rocheuse&#xA;        Roca natural&#xA;        rock&#xA;        rock face&#xA;        rupes&#xA;        szikla&#xA;        λίθος&#xA;        πέτρα&#xA;        صخرة&#xA;        &#xA;        &#xA;        &#xA;            &#xA;                Rocher brut&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                Fels&#xA;            &#xA;        &#xA;        2013-10-01 22:44:21&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/211">
+        <skos:prefLabel xml:lang="es">Roca</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Felsen</skos:altLabel>
+        <skos:altLabel xml:lang="it">parete rocciosa</skos:altLabel>
+        <skos:altLabel xml:lang="fr">paroi rocheuse</skos:altLabel>
+        <skos:altLabel xml:lang="es">Roca natural</skos:altLabel>
+        <skos:altLabel xml:lang="en">rock</skos:altLabel>
+        <skos:altLabel xml:lang="en">rock face</skos:altLabel>
+        <skos:altLabel xml:lang="la">rupes</skos:altLabel>
+        <skos:altLabel xml:lang="hu">szikla</skos:altLabel>
+        <skos:altLabel xml:lang="el">λίθος</skos:altLabel>
+        <skos:altLabel xml:lang="el">πέτρα</skos:altLabel>
+        <skos:altLabel xml:lang="ar">صخرة</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/210"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1695">
+                <skos:prefLabel xml:lang="fr">Rocher brut</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1775">
+                <skos:prefLabel xml:lang="de">Fels</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
 </rdf:RDF>

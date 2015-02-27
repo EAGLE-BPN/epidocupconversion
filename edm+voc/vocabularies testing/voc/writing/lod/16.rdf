@@ -8,13 +8,43 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/writing.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Tessellis&#xA;        als Mosaik&#xA;        mozaik&#xA;        musiva&#xA;        tesselle, tessère&#xA;        tesserae (mosaic)&#xA;        ψηφιδωτό&#xA;        مكعبات (فسيفساء)&#xA;        opere musivo ex tessellis albis compositae&#xA;        aus weißen Mosaiksteinchen        &#xA;mosaic&#xA;        Musiva. Si riferisce alle scritte realizzate con tessere di&#xA;            mosaico. Da non confondere con le scritte realizzate con altro tipo di pezzetti di&#xA;            pietra o marmo non costituenti tesserae, vd. crustis (Silvia&#xA;            Evangelisti).&#xA;        Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL&#xA;        EDR000939&#xA;        &#xA;        &#xA;            &#xA;                Mosaik&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                Tessellis scriptus&#xA;            &#xA;        &#xA;       2013-08-26 11:39:23&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/writing/lod/16">
+        <skos:prefLabel xml:lang="la">Tessellis</skos:prefLabel>
+        <skos:altLabel xml:lang="de">als Mosaik</skos:altLabel>
+        <skos:altLabel xml:lang="hu">mozaik</skos:altLabel>
+        <skos:altLabel xml:lang="it">musiva</skos:altLabel>
+        <skos:altLabel xml:lang="fr">tesselle, tessère</skos:altLabel>
+        <skos:altLabel xml:lang="la">tesserae (mosaic)</skos:altLabel>
+        <skos:altLabel xml:lang="el">ψηφιδωτό</skos:altLabel>
+        <skos:altLabel xml:lang="ar">مكعبات (فسيفساء)</skos:altLabel>
+        <skos:altLabel xml:lang="la">opere musivo ex tessellis albis compositae</skos:altLabel>
+        <skos:altLabel xml:lang="de">aus weißen Mosaiksteinchen</skos:altLabel>        
+      <skos:scopeNote xml:lang="en">mosaic</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Musiva. Si riferisce alle scritte realizzate con tessere di
+            mosaico. Da non confondere con le scritte realizzate con altro tipo di pezzetti di
+            pietra o marmo non costituenti tesserae, vd. crustis (Silvia
+            Evangelisti).</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:scopeNote>EDR000939</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/152">
+                <skos:prefLabel xml:lang="de">Mosaik</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/153">
+                <skos:prefLabel xml:lang="la">Tessellis scriptus</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+       <dct:created>2013-08-26 11:39:23</dct:created>
+    </skos:Concept>
 </rdf:RDF>

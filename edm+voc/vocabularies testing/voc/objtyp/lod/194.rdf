@@ -8,13 +8,31 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Pilaster&#xA;        pila&#xA;        pilar&#xA;        pilastro&#xA;        pilaszter&#xA;        pilier&#xA;        pillar&#xA;        διακοσμητική στήλη&#xA;        προσαρμοσμένη πάνω σε τοίχο&#xA;        τετράγωνη&#xA;        пилястр&#xA;        عمود مستطيل ذو تاج&#xA;        &#xA;        &#xA;            &#xA;        &#xA;        2013-10-01 22:44:21&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/194">
+        <skos:prefLabel xml:lang="de">Pilaster</skos:prefLabel>
+        <skos:altLabel xml:lang="la">pila</skos:altLabel>
+        <skos:altLabel xml:lang="es">pilar</skos:altLabel>
+        <skos:altLabel xml:lang="it">pilastro</skos:altLabel>
+        <skos:altLabel xml:lang="hu">pilaszter</skos:altLabel>
+        <skos:altLabel xml:lang="fr">pilier</skos:altLabel>
+        <skos:altLabel xml:lang="en">pillar</skos:altLabel>
+        <skos:altLabel xml:lang="el">διακοσμητική στήλη</skos:altLabel>
+        <skos:altLabel xml:lang="el">προσαρμοσμένη πάνω σε τοίχο</skos:altLabel>
+        <skos:altLabel xml:lang="el">τετράγωνη</skos:altLabel>
+        <skos:altLabel xml:lang="ru">пилястр</skos:altLabel>
+        <skos:altLabel xml:lang="ar">عمود مستطيل ذو تاج</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300000953"/>
+        </skos:exactMatch>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
 </rdf:RDF>

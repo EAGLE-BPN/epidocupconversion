@@ -8,13 +8,34 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Monile, torques&#xA;        collana&#xA;        necklace, torque&#xA;        Schmuck, Torques&#xA;        torque, collier&#xA;        κόσμημα, περιδέραιο&#xA;        ожерелье&#xA;        قلادة مفتولة وغير مقفلة النهاية&#xA;        &#xA;        &#xA;            &#xA;                Collier&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                Halsschmuck&#xA;            &#xA;        &#xA;        2013-10-01 22:44:21&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/174">
+        <skos:prefLabel xml:lang="la">Monile, torques</skos:prefLabel>
+        <skos:altLabel xml:lang="it">collana</skos:altLabel>
+        <skos:altLabel xml:lang="en">necklace, torque</skos:altLabel>
+        <skos:altLabel xml:lang="de">Schmuck, Torques</skos:altLabel>
+        <skos:altLabel xml:lang="fr">torque, collier</skos:altLabel>
+        <skos:altLabel xml:lang="el">κόσμημα, περιδέραιο</skos:altLabel>
+        <skos:altLabel xml:lang="ru">ожерелье</skos:altLabel>
+        <skos:altLabel xml:lang="ar">قلادة مفتولة وغير مقفلة النهاية</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/objtyp/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/1617">
+                <skos:prefLabel xml:lang="fr">Collier</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2016">
+                <skos:prefLabel xml:lang="de">Halsschmuck</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-10-01 22:44:21</dct:created>
+    </skos:Concept>
 </rdf:RDF>

@@ -805,12 +805,7 @@ xmlns:gcse="uri:not-provided"
                             <xsl:value-of select="current-date()"/>
                         </dct:modified>
                     </skos:ConceptScheme>
-                    <xsl:copy>
-                        <xsl:attribute name="rdf:about">
-                            <xsl:value-of select="."/>
-                        </xsl:attribute><!--
-                        <xsl:apply-templates mode="skosuris"/>-->
-                    </xsl:copy>
+                    <xsl:copy-of select="."/>
 
                 </rdf:RDF>
             </xsl:result-document>

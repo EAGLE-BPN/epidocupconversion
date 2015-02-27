@@ -8,13 +8,32 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;&#x9;&#x9;Diocletian&#xA;&#x9;&#x9;Diocletianus&#xA;&#x9;&#x9;Diokletian&#xA;&#x9;&#x9;Διοκλής&#xA;&#x9;&#x9;Διοκλητιανός&#xA;&#x9;&#x9;20. Nov. 284 - 1. Mai 305&#xA;&#x9;&#x9;0284 ; 0305&#xA;&#x9;&#x9;Full name: Gaius Aurelius Valerius Diocletianus Augustus&#xA;&#x9;&#x9;Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 266.&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;2014-03-12 11:37:54&#xA;&#x9;"/>
+                 rdf:about="http://www.eagle-network.eu/voc/dates/lod/159">
+		    <skos:prefLabel xml:lang="en">Diocletian</skos:prefLabel>
+		    <skos:altLabel xml:lang="la">Diocletianus</skos:altLabel>
+		    <skos:altLabel xml:lang="de">Diokletian</skos:altLabel>
+		    <skos:altLabel xml:lang="el">Διοκλής</skos:altLabel>
+		    <skos:altLabel xml:lang="el">Διοκλητιανός</skos:altLabel>
+		    <skos:scopeNote xml:lang="de">20. Nov. 284 - 1. Mai 305</skos:scopeNote>
+		    <skos:scopeNote>0284 ; 0305</skos:scopeNote>
+		    <skos:scopeNote xml:lang="en">Full name: Gaius Aurelius Valerius Diocletianus Augustus</skos:scopeNote>
+		    <skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 266.</skos:note>
+		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/25"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/30"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/160"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/163"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/46"/>
+		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/56"/>
+		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
+		    <dct:created>2014-03-12 11:37:54</dct:created>
+	  </skos:Concept>
 </rdf:RDF>

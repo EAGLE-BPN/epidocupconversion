@@ -8,13 +8,35 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        vitrum&#xA;        cam&#xA;        Glas&#xA;        glass&#xA;        lasi&#xA;        staklo&#xA;        üveg&#xA;        verre&#xA;        vetro&#xA;        vidrio&#xA;        γυαλί&#xA;        стъкло&#xA;        زجاج&#xA;        &#xA;        &#xA;        &#xA;            &#xA;                Glas&#xA;            &#xA;        &#xA;        2013-08-26 16:54:50&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/material/lod/122">
+        <skos:prefLabel xml:lang="la">vitrum</skos:prefLabel>
+        <skos:altLabel xml:lang="tr">cam</skos:altLabel>
+        <skos:altLabel xml:lang="de">Glas</skos:altLabel>
+        <skos:altLabel xml:lang="en">glass</skos:altLabel>
+        <skos:altLabel xml:lang="fi">lasi</skos:altLabel>
+        <skos:altLabel xml:lang="hr">staklo</skos:altLabel>
+        <skos:altLabel xml:lang="hu">üveg</skos:altLabel>
+        <skos:altLabel xml:lang="fr">verre</skos:altLabel>
+        <skos:altLabel xml:lang="it">vetro</skos:altLabel>
+        <skos:altLabel xml:lang="es">vidrio</skos:altLabel>
+        <skos:altLabel xml:lang="el">γυαλί</skos:altLabel>
+        <skos:altLabel xml:lang="bg">стъкло</skos:altLabel>
+        <skos:altLabel xml:lang="ar">زجاج</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/118"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1920">
+                <skos:prefLabel xml:lang="de">Glas</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-08-26 16:54:50</dct:created>
+    </skos:Concept>
 </rdf:RDF>

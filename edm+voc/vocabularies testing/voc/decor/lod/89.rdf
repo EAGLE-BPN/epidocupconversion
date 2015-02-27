@@ -8,13 +8,33 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/decor.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Concha&#xA;        kagyló&#xA;        &#xA;        &#xA;            &#xA;                Coquille&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                Muscheln&#xA;            &#xA;        &#xA;        &#xA;            &#xA;                Muschel&#xA;            &#xA;        &#xA;        2013-10-02 01:02:39&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/decor/lod/89">
+        <skos:prefLabel xml:lang="es">Concha</skos:prefLabel>
+        <skos:altLabel xml:lang="hu">kagyló</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/654">
+                <skos:prefLabel xml:lang="fr">Coquille</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/655">
+                <skos:prefLabel xml:lang="de">Muscheln</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4728">
+                <skos:prefLabel xml:lang="de">Muschel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-10-02 01:02:39</dct:created>
+    </skos:Concept>
 </rdf:RDF>

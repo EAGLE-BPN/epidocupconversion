@@ -8,13 +8,35 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        argentum&#xA;        argent&#xA;        argento&#xA;        ezüst&#xA;        gümüş&#xA;        hopea&#xA;        plata&#xA;        Silber&#xA;        silver&#xA;        srebro&#xA;        ασήμι/άργυρος&#xA;        сребро&#xA;        فضة&#xA;        &#xA;        &#xA;        &#xA;            &#xA;                Silber&#xA;            &#xA;        &#xA;        2013-08-26 16:54:50&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/material/lod/115">
+        <skos:prefLabel xml:lang="la">argentum</skos:prefLabel>
+        <skos:altLabel xml:lang="fr">argent</skos:altLabel>
+        <skos:altLabel xml:lang="es">argento</skos:altLabel>
+        <skos:altLabel xml:lang="hu">ezüst</skos:altLabel>
+        <skos:altLabel xml:lang="tr">gümüş</skos:altLabel>
+        <skos:altLabel xml:lang="fi">hopea</skos:altLabel>
+        <skos:altLabel xml:lang="es">plata</skos:altLabel>
+        <skos:altLabel xml:lang="de">Silber</skos:altLabel>
+        <skos:altLabel xml:lang="en">silver</skos:altLabel>
+        <skos:altLabel xml:lang="hr">srebro</skos:altLabel>
+        <skos:altLabel xml:lang="el">ασήμι/άργυρος</skos:altLabel>
+        <skos:altLabel xml:lang="bg">сребро</skos:altLabel>
+        <skos:altLabel xml:lang="ar">فضة</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/308"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2872">
+                <skos:prefLabel xml:lang="de">Silber</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-08-26 16:54:50</dct:created>
+    </skos:Concept>
 </rdf:RDF>

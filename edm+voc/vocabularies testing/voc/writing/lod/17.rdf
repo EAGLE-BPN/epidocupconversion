@@ -8,13 +8,39 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/writing.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Typo&#xA;        a punzone&#xA;        with punch&#xA;        A punzone. Si riferisce alle scritte realizzate a punzone&#xA;            ossia mediante l’uso di un punzone su materiale duro imprimendo un colpo con un mazzuolo&#xA;            o strumento similare. I marchi sono realizzati con signacula di vario materiale e&#xA;            dimensioni (alcuni hanno anche supposto l'uso di lettere mobili) recanti lettere&#xA;            rilevate o cave e quindi eviterei scalpro, mentre per quelli tracciati a &#34;mano libera&#34;,&#xA;            come su alcuni tipi di lucerne o di anfore, userei stilo. Per le scritte realizzate&#xA;            usando le dita userei digito (nella bibliografia specifica, specie anglosassone, si&#xA;            trova spesso il termine litterae digitatae). Eviterei in quest'ultimo caso di usare&#xA;            stilo. Per quel che riguarda il vetro, oltre alle iscrizioni ex forma, le iscrizioni&#xA;            cosiddette graffite erano realizzate con strumenti molto simili a quelli impiegati per&#xA;            le gemme, in particolare si ricavava dapprima un solco con il trapano corrente e poi lo&#xA;            si allargava con un bulino. Per quanto riguara la lamina d'oro impiegherei il termine ex&#xA;            brattea aurea, dato che brattea il termine tecnico che indica proprio le sottilissime&#xA;            lamine d'oro impiegate non solo nei vetri ma anche nell'oreficeria (Silvia&#xA;            Evangelisti).&#xA;        &#xA;        &#xA;            &#xA;                Typo scriptus&#xA;            &#xA;        &#xA;        2013-08-26 11:39:37&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/writing/lod/17">
+        <skos:prefLabel xml:lang="la">Typo</skos:prefLabel>
+        <skos:altLabel xml:lang="it">a punzone</skos:altLabel>
+        <skos:scopeNote xml:lang="en">with punch</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">A punzone. Si riferisce alle scritte realizzate a punzone
+            ossia mediante l’uso di un punzone su materiale duro imprimendo un colpo con un mazzuolo
+            o strumento similare. I marchi sono realizzati con signacula di vario materiale e
+            dimensioni (alcuni hanno anche supposto l'uso di lettere mobili) recanti lettere
+            rilevate o cave e quindi eviterei scalpro, mentre per quelli tracciati a "mano libera",
+            come su alcuni tipi di lucerne o di anfore, userei stilo. Per le scritte realizzate
+            usando le dita userei digito (nella bibliografia specifica, specie anglosassone, si
+            trova spesso il termine litterae digitatae). Eviterei in quest'ultimo caso di usare
+            stilo. Per quel che riguarda il vetro, oltre alle iscrizioni ex forma, le iscrizioni
+            cosiddette graffite erano realizzate con strumenti molto simili a quelli impiegati per
+            le gemme, in particolare si ricavava dapprima un solco con il trapano corrente e poi lo
+            si allargava con un bulino. Per quanto riguara la lamina d'oro impiegherei il termine ex
+            brattea aurea, dato che brattea il termine tecnico che indica proprio le sottilissime
+            lamine d'oro impiegate non solo nei vetri ma anche nell'oreficeria (Silvia
+            Evangelisti).</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/161">
+                <skos:prefLabel xml:lang="la">Typo scriptus</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <dct:created>2013-08-26 11:39:37</dct:created>
+    </skos:Concept>
 </rdf:RDF>

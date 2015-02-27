@@ -8,13 +8,30 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/writing.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Atramento&#xA;        a inchiostro&#xA;        encré&#xA;        inked&#xA;        mit Tinte&#xA;        s tintom&#xA;        με μελάνη&#xA;        محبر&#xA;        In Ink&#xA;        A inchiostro. Si riferisce a tutte quelle iscrizioni dipinte&#xA;            realizzate a inchiostro, da non confondere con quelle realizzate a pittura (Silvia&#xA;            Evangelisti).&#xA;        EDR080072&#xA;        &#xA;      2013-08-26 11:29:56&#xA;        2013-08-26 11:30:28&#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/writing/lod/2">
+        <skos:prefLabel xml:lang="la">Atramento</skos:prefLabel>
+        <skos:altLabel xml:lang="it">a inchiostro</skos:altLabel>
+        <skos:altLabel xml:lang="fr">encré</skos:altLabel>
+        <skos:altLabel xml:lang="en">inked</skos:altLabel>
+        <skos:altLabel xml:lang="de">mit Tinte</skos:altLabel>
+        <skos:altLabel xml:lang="hr">s tintom</skos:altLabel>
+        <skos:altLabel xml:lang="el">με μελάνη</skos:altLabel>
+        <skos:altLabel xml:lang="ar">محبر</skos:altLabel>
+        <skos:scopeNote xml:lang="en">In Ink</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">A inchiostro. Si riferisce a tutte quelle iscrizioni dipinte
+            realizzate a inchiostro, da non confondere con quelle realizzate a pittura (Silvia
+            Evangelisti).</skos:scopeNote>
+        <skos:scopeNote>EDR080072</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
+      <dct:created>2013-08-26 11:29:56</dct:created>
+        <dct:modified>2013-08-26 11:30:28</dct:modified>
+    </skos:Concept>
 </rdf:RDF>

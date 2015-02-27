@@ -8,13 +8,25 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:about="http//:www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-17Z</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-17Z</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="&#xA;        Marmor Chium&#xA;        marmo Portasanta&#xA;        marmor Chium&#xA;        Bibliography by Anne Glock (CIL): Gnoli, Raniero, Marmora Romana, Rom 1971, 1988&#xA;            (mit Abbildungen), 172ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom&#xA;            1985, 38; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit&#xA;            Abbildungen), 460-507; Borghini, Gabriele, Marmi Antichi 1, Rom 2001 (mit Abbildungen),&#xA;            125; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World,&#xA;            online (ohne Jahr), 7.&#xA;        &#xA;        &#xA;    "/>
+                 rdf:about="http://www.eagle-network.eu/voc/material/lod/739">
+        <skos:prefLabel xml:lang="de">Marmor Chium</skos:prefLabel>
+        <skos:altLabel xml:lang="it">marmo Portasanta</skos:altLabel>
+        <skos:altLabel xml:lang="la">marmor Chium</skos:altLabel>
+        <skos:note>Bibliography by Anne Glock (CIL): Gnoli, Raniero, Marmora Romana, Rom 1971, 1988
+            (mit Abbildungen), 172ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom
+            1985, 38; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit
+            Abbildungen), 460-507; Borghini, Gabriele, Marmi Antichi 1, Rom 2001 (mit Abbildungen),
+            125; Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World,
+            online (ohne Jahr), 7.</skos:note>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/48"/>
+    </skos:Concept>
 </rdf:RDF>
