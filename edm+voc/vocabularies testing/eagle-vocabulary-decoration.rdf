@@ -736,7 +736,7 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/591">
-                <skos:prefLabel xml:lang="it">Monogr. Christi</skos:prefLabel> 
+                <skos:prefLabel xml:lang="la">Monogr. Christi</skos:prefLabel> 
         <skos:scopeNote xml:lang="it">Monogramma composto dalle lettere iniziali del nome greco di Cristo (Χριστὸς), chi e rho, intrecciate
                     </skos:scopeNote>
             </skos:Concept>
@@ -960,7 +960,7 @@
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/5"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/589">
-                <skos:prefLabel xml:lang="it">Crux Quadrata</skos:prefLabel>
+                <skos:prefLabel xml:lang="la">Crux Quadrata</skos:prefLabel>
                 <skos:scopeNote xml:lang="it">Croce formata da bracci di uguale misura che si intersecano ad angolo retto</skos:scopeNote>
             </skos:Concept>
         </skos:exactMatch>
