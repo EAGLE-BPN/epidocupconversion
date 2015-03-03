@@ -736,6 +736,8 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/591">
                 <skos:prefLabel xml:lang="it">Monogr. Christi</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Monogramma composto dalle lettere iniziali del nome greco di Cristo, chi e rho, intrecciate
+                    </skos:scopeNote>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
