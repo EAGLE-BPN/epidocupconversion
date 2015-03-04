@@ -792,9 +792,9 @@ xmlns:gcse="uri:not-provided"
                         <dc:rights/>
                         <dc:subject/>
                         <dc:description>
-                            <xsl:attribute name="rdf:about">
+                            <xsl:attribute name="rdf:resource">
                                 <xsl:value-of
-                                    select="concat('http//:www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
+                                    select="concat('http://www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
                                 />
                             </xsl:attribute>
                         </dc:description>
@@ -1373,9 +1373,9 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                         <dc:rights/>
                         <dc:subject/>
                         <dc:description>
-                            <xsl:attribute name="rdf:about">
+                            <xsl:attribute name="rdf:resource">
                                 <xsl:value-of
-                                    select="concat('http//:www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
+                                    select="concat('http://www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
                                 />
                             </xsl:attribute>
                         </dc:description>

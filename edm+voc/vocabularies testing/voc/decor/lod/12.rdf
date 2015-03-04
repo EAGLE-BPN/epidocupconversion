@@ -7,9 +7,9 @@
       <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
-                      rdf:about="http//:www.eagle-network.eu/resources/vocabularies/decor.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-02-27+01:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-02-27+01:00</dct:modified>
+                      rdf:resource="http://www.eagle-network.eu/resources/vocabularies/decor.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-03-04+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-03-04+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -18,7 +18,10 @@
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
                  rdf:about="http://www.eagle-network.eu/voc/decor/lod/12">
         <skos:prefLabel xml:lang="la">Monogr. Christi radiatum</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
-        <dct:created>2013-10-02 01:02:39</dct:created>
+        <skos:scopeNote xml:lang="it">Monogramma composto dalla intersezione di un monogramma Christi e di un monogramma Christi in crucem translatum</skos:scopeNote>
+             <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+                <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/10"/>
+                   <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/591"/>
+             <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
 </rdf:RDF>

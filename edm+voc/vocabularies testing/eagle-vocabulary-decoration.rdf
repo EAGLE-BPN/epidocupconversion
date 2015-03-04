@@ -2324,7 +2324,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/7">
         <skos:prefLabel xml:lang="la">Monogr. Ἰη(σοῦς)</skos:prefLabel>
-         <skos:scopeNote xml:lang="it">Monogramma composto dalle lettere iniziali del nome greco di Gesù (Ἰησοῦς), iota ed eta, intrecciate
+         <skos:scopeNote xml:lang="it">Monogramma composto dalle lettere iniziali del nome greco di Gesù (Ἰησοῦς), iota ed eta, intrecciate</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
