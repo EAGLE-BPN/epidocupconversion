@@ -9,13 +9,13 @@
     <xsl:template name="breakbrackets">
         <xsl:param name="textToBeProcessed" tunnel="yes"/>
         <!-- splits [fortasse? bene? merenti?] in  [fortasse?][bene?][merenti?]      -->
-        <xsl:analyze-string select="$textToBeProcessed" regex="\[((.*)\?)((.*)\?)((.*)\?)\]">
+        <xsl:analyze-string select="$textToBeProcessed" regex="\[((\w+)\?)((\w+)\?)((\w+)\?)\]">
             <xsl:matching-substring>
                 <xsl:text>[</xsl:text><xsl:value-of select="regex-group(1)"
-                /><xsl:text>][</xsl:text><xsl:value-of select="regex-group(3)"/>][<xsl:value-of
-                    select="regex-group(5)"/><xsl:text>]</xsl:text>
+                /><xsl:text> ?][</xsl:text><xsl:value-of select="regex-group(3)"/> ?][<xsl:value-of
+                    select="regex-group(5)"/><xsl:text> ?]</xsl:text>
             </xsl:matching-substring>
-            <xsl:non-matching-substring>
+           <xsl:non-matching-substring>
                 <!-- splits [bene? merenti?] in  [bene?][merenti?]    can be improved with tokenize?  -->
                 <xsl:analyze-string select="." regex="(\[((\w+)\?)\s*((\w+)\?)\])">
                     <xsl:matching-substring>

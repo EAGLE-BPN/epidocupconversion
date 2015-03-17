@@ -20,7 +20,7 @@
     <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/tmidEDR.xsl"/>
     
     <!--  Create descriptive Title required from Europeana from Object Type and Inscription Type  -->
-    <!--    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/maketitledr.xsl"/>-->
+    <!--    <xsl:include href="maketitledr.xsl"/>-->
         
 <!--  adds in specific elements a @ref with the corresponding url from the EAGLE Tematres Vocabularies -->
     <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/popwithvoc.xsl"/>
@@ -41,6 +41,6 @@
     
 <!-- remove attributes inherited from template which contain sample urls. to be used until those can be usefully populated  -->
     
-    <!--   <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/cleaner.xsl"/>-->
+    <!--   <xsl:include href="cleaner.xsl"/>-->
     
 </xsl:stylesheet>

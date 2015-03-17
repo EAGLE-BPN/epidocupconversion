@@ -14,11 +14,11 @@
             </xsl:matching-substring>
     <xsl:non-matching-substring>
             <!-- splits [fortasse? bene? merenti?] in  [fortasse?][bene?][merenti?]      -->
-            <xsl:analyze-string select="$textToBeProcessed" regex="\[((.*)\?)((.*)\?)((.*)\?)\]">
+        <xsl:analyze-string select="$textToBeProcessed" regex="\[((\w+)\?)((\w+)\?)((\w+)\?)\]">
             <xsl:matching-substring>
                 <xsl:text>[</xsl:text><xsl:value-of select="regex-group(1)"
-                /><xsl:text>][</xsl:text><xsl:value-of select="regex-group(3)"/>][<xsl:value-of
-                    select="regex-group(5)"/><xsl:text>]</xsl:text>
+                /><xsl:text> ?][</xsl:text><xsl:value-of select="regex-group(3)"/> ?][<xsl:value-of
+                    select="regex-group(5)"/><xsl:text> ?]</xsl:text>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
                 <!-- splits [bene? merenti?] in  [bene?][merenti?]    can be improved with tokenize?  -->
@@ -99,7 +99,7 @@
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
                                 <!--     [\-\-\- p(edes) ] -->
-                                <xsl:analyze-string select="." regex="\[\-\s*\-\s*\-([-A-Za-z]+\([A-Za-z]+\))\]">
+                                <xsl:analyze-string select="." regex="\[\-\s*\-\s*\-([A-Za-z]+\([A-Za-z]+\))\]">
                                     <xsl:matching-substring>
                                         <xsl:text>[3][</xsl:text><xsl:value-of select="regex-group(1)"
                                         /><!--<xsl:value-of select="regex-group(4)"/>--><xsl:text>]</xsl:text>
