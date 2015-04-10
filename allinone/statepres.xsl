@@ -41,7 +41,7 @@
 
     <!--in here the matching to the vocabulary string is performed, where a ? or other punctuation is present this is ignored for the purpose of matching -->
     
-    <xsl:template match="tei:rs[@type='statPreserv']">
+    <xsl:template match="tei:rs[@type='statPreserv'][node()]">
         <!--        <xsl:param name="statpreservURI" tunnel="yes"/>-->
         <xsl:variable name="noquestion">
             <xsl:analyze-string select="." regex="(\w+\s*\w*\s*)\?">
