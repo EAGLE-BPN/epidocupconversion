@@ -166,16 +166,7 @@
                                                             <xsl:analyze-string select="regex-group(1)"
                                                             regex="((\w&#803;)+)">
                                                             <xsl:matching-substring>
-                                                            <unclear>
-                                                            <xsl:variable name="underdot">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:variable>
-                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                            <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
-                                                            </unclear>
+                                                           <xsl:call-template name="unclear"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                             <xsl:value-of select="."/>
@@ -206,16 +197,7 @@
                                                             <xsl:analyze-string select="regex-group(1)"
                                                             regex="((\w&#803;)+)">
                                                             <xsl:matching-substring>
-                                                            <unclear>
-                                                            <xsl:variable name="underdot">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:variable>
-                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                            <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
-                                                            </unclear>
+                                                                <xsl:call-template name="unclear"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                             <xsl:value-of select="."/>
@@ -255,16 +237,7 @@
                                                             <xsl:analyze-string select="regex-group(1)"
                                                             regex="((\w&#803;)+)">
                                                             <xsl:matching-substring>
-                                                            <unclear>
-                                                            <xsl:variable name="underdot">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:variable>
-                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                            <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
-                                                            </unclear>
+                                                                <xsl:call-template name="unclear"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                             <xsl:value-of select="."/>
@@ -297,16 +270,7 @@
      <!--unclear &#803; -->
                                                             <xsl:analyze-string select="." regex="((\w&#803;)+)">
                                                             <xsl:matching-substring>
-                                                            <unclear>
-                                                            <xsl:variable name="underdot">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:variable>
-                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                            <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
-                                                            </unclear>
+                                                                <xsl:call-template name="unclear"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                             <xsl:analyze-string select="." regex="\-\-\-|\[\-\-\-\]">
@@ -356,16 +320,7 @@
                                                             <xsl:analyze-string select="regex-group(1)"
                                                             regex="((\w&#803;)+)">
                                                             <xsl:matching-substring>
-                                                            <unclear>
-                                                            <xsl:variable name="underdot">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:variable>
-                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                            <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
-                                                            </unclear>
+                                                                <xsl:call-template name="unclear"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                             <xsl:value-of select="."/>
@@ -396,16 +351,7 @@
                                                             <xsl:analyze-string select="regex-group(1)"
                                                             regex="((\w&#803;)+)">
                                                             <xsl:matching-substring>
-                                                            <unclear>
-                                                            <xsl:variable name="underdot">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:variable>
-                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                            <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
-                                                            </unclear>
+                                                                <xsl:call-template name="unclear"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                             <xsl:value-of select="."/>
@@ -445,16 +391,7 @@
                                                             <xsl:analyze-string select="regex-group(1)"
                                                             regex="((\w&#803;)+)">
                                                             <xsl:matching-substring>
-                                                            <unclear>
-                                                            <xsl:variable name="underdot">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:variable>
-                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                            <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
-                                                            </unclear>
+                                                                <xsl:call-template name="unclear"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                             <xsl:value-of select="."/>
@@ -598,36 +535,11 @@
 <abbr>
     <xsl:analyze-string select="substring(regex-group(1), 1, 2)" regex="((\w&#803;)+)">
         <xsl:matching-substring>
-            <unclear>
-                <xsl:variable name="underdot">
-                    <xsl:value-of select="regex-group(1)"/>
-                </xsl:variable>
-                <xsl:analyze-string select="$underdot" regex="&#803;">
-                    <xsl:non-matching-substring>
-                        <xsl:value-of select="."/>
-                    </xsl:non-matching-substring>
-                </xsl:analyze-string>
-            </unclear>
+<xsl:call-template name="unclear"/>
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 <am>
@@ -646,23 +558,7 @@
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 </am>
@@ -680,24 +576,8 @@
             </unclear>
         </xsl:matching-substring>
         <xsl:non-matching-substring>
-            <!--previously read &#818; -->gap
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <!--previously read &#818; -->
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 <am>
@@ -716,23 +596,7 @@
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 </am></abbr><ex><xsl:value-of select="substring(substring-before(regex-group(2), ' '), 3)"/></ex>
@@ -856,23 +720,7 @@
                         </xsl:matching-substring>
                         <xsl:non-matching-substring>
                             <!--previously read &#818; -->
-                            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                <xsl:matching-substring>
-                                    <supplied reason="undefined" evidence="previouseditor">
-                                        <xsl:variable name="underline">
-                                            <xsl:value-of select="regex-group(1)"/>
-                                        </xsl:variable>
-                                        <xsl:analyze-string select="$underline" regex="&#818;">
-                                            <xsl:non-matching-substring>
-                                                <xsl:value-of select="."/>
-                                            </xsl:non-matching-substring>
-                                        </xsl:analyze-string>
-                                    </supplied>
-                                </xsl:matching-substring>
-                                <xsl:non-matching-substring>
-                                    <xsl:value-of select="."/>
-                                </xsl:non-matching-substring>
-                            </xsl:analyze-string>
+                            <xsl:call-template name="previouseditor"/>
                         </xsl:non-matching-substring>
                     </xsl:analyze-string>
                     
@@ -892,23 +740,7 @@
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
                                 <!--previously read &#818; -->
-                                <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                    <xsl:matching-substring>
-                                        <supplied reason="undefined" evidence="previouseditor">
-                                            <xsl:variable name="underline">
-                                                <xsl:value-of select="regex-group(1)"/>
-                                            </xsl:variable>
-                                            <xsl:analyze-string select="$underline" regex="&#818;">
-                                                <xsl:non-matching-substring>
-                                                    <xsl:value-of select="."/>
-                                                </xsl:non-matching-substring>
-                                            </xsl:analyze-string>
-                                        </supplied>
-                                    </xsl:matching-substring>
-                                    <xsl:non-matching-substring>
-                                        <xsl:value-of select="."/>
-                                    </xsl:non-matching-substring>
-                                </xsl:analyze-string>
+                                <xsl:call-template name="previouseditor"/>
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
 </am>
@@ -947,23 +779,7 @@
                                                                                 </xsl:matching-substring>
                                                                                 <xsl:non-matching-substring>
                                                                                     <!--previously read &#818; -->
-                                                                                    <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                                                                        <xsl:matching-substring>
-                                                                                            <supplied reason="undefined" evidence="previouseditor">
-                                                                                                <xsl:variable name="underline">
-                                                                                                    <xsl:value-of select="regex-group(1)"/>
-                                                                                                </xsl:variable>
-                                                                                                <xsl:analyze-string select="$underline" regex="&#818;">
-                                                                                                    <xsl:non-matching-substring>
-                                                                                                        <xsl:value-of select="."/>
-                                                                                                    </xsl:non-matching-substring>
-                                                                                                </xsl:analyze-string>
-                                                                                            </supplied>
-                                                                                        </xsl:matching-substring>
-                                                                                        <xsl:non-matching-substring>
-                                                                                            <xsl:value-of select="."/>
-                                                                                        </xsl:non-matching-substring>
-                                                                                    </xsl:analyze-string>
+                                                                                    <xsl:call-template name="previouseditor"/>
                                                                                 </xsl:non-matching-substring>
                                                                             </xsl:analyze-string>
                                                                             
@@ -983,23 +799,7 @@
                                                                                 </xsl:matching-substring>
                                                                                 <xsl:non-matching-substring>
                                                                                     <!--previously read &#818; -->
-                                                                                    <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                                                                        <xsl:matching-substring>
-                                                                                            <supplied reason="undefined" evidence="previouseditor">
-                                                                                                <xsl:variable name="underline">
-                                                                                                    <xsl:value-of select="regex-group(1)"/>
-                                                                                                </xsl:variable>
-                                                                                                <xsl:analyze-string select="$underline" regex="&#818;">
-                                                                                                    <xsl:non-matching-substring>
-                                                                                                        <xsl:value-of select="."/>
-                                                                                                    </xsl:non-matching-substring>
-                                                                                                </xsl:analyze-string>
-                                                                                            </supplied>
-                                                                                        </xsl:matching-substring>
-                                                                                        <xsl:non-matching-substring>
-                                                                                            <xsl:value-of select="."/>
-                                                                                        </xsl:non-matching-substring>
-                                                                                    </xsl:analyze-string>
+                                                                                    <xsl:call-template name="previouseditor"/>
                                                                                 </xsl:non-matching-substring>
                                                                             </xsl:analyze-string></am>
                                                                         </abbr>
@@ -1226,16 +1026,7 @@
                                                             <xsl:analyze-string select="regex-group(1)"
                                                             regex="((\w&#803;)+)">
                                                             <xsl:matching-substring>
-                                                            <unclear>
-                                                            <xsl:variable name="underdot">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:variable>
-                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                            <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
-                                                            </unclear>
+                                                                <xsl:call-template name="unclear"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                             <xsl:value-of select="."/>
@@ -1266,16 +1057,7 @@
                                                             <xsl:analyze-string select="regex-group(3)"
                                                             regex="((\w&#803;)+)">
                                                             <xsl:matching-substring>
-                                                            <unclear>
-                                                            <xsl:variable name="underdot">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:variable>
-                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                            <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
-                                                            </unclear>
+                                                                <xsl:call-template name="unclear"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                             <xsl:value-of select="."/>
@@ -1315,16 +1097,7 @@
                                                             <xsl:analyze-string select="regex-group(1)"
                                                             regex="((\w&#803;)+)">
                                                             <xsl:matching-substring>
-                                                            <unclear>
-                                                            <xsl:variable name="underdot">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:variable>
-                                                            <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                            <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
-                                                            </unclear>
+                                                                <xsl:call-template name="unclear"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                             <xsl:value-of select="."/>
@@ -1516,23 +1289,7 @@
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 <am>
@@ -1551,23 +1308,7 @@
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 </am>
@@ -1586,23 +1327,7 @@
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 <am>
@@ -1621,23 +1346,7 @@
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 </am></abbr><ex><xsl:value-of select="substring(substring-before(regex-group(2), ' '), 3)"/></ex>
@@ -1761,23 +1470,7 @@
                         </xsl:matching-substring>
                         <xsl:non-matching-substring>
                             <!--previously read &#818; -->
-                            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                <xsl:matching-substring>
-                                    <supplied reason="undefined" evidence="previouseditor">
-                                        <xsl:variable name="underline">
-                                            <xsl:value-of select="regex-group(1)"/>
-                                        </xsl:variable>
-                                        <xsl:analyze-string select="$underline" regex="&#818;">
-                                            <xsl:non-matching-substring>
-                                                <xsl:value-of select="."/>
-                                            </xsl:non-matching-substring>
-                                        </xsl:analyze-string>
-                                    </supplied>
-                                </xsl:matching-substring>
-                                <xsl:non-matching-substring>
-                                    <xsl:value-of select="."/>
-                                </xsl:non-matching-substring>
-                            </xsl:analyze-string>
+                            <xsl:call-template name="previouseditor"/>
                         </xsl:non-matching-substring>
                     </xsl:analyze-string>
                     
@@ -1797,23 +1490,7 @@
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
                                 <!--previously read &#818; -->
-                                <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                    <xsl:matching-substring>
-                                        <supplied reason="undefined" evidence="previouseditor">
-                                            <xsl:variable name="underline">
-                                                <xsl:value-of select="regex-group(1)"/>
-                                            </xsl:variable>
-                                            <xsl:analyze-string select="$underline" regex="&#818;">
-                                                <xsl:non-matching-substring>
-                                                    <xsl:value-of select="."/>
-                                                </xsl:non-matching-substring>
-                                            </xsl:analyze-string>
-                                        </supplied>
-                                    </xsl:matching-substring>
-                                    <xsl:non-matching-substring>
-                                        <xsl:value-of select="."/>
-                                    </xsl:non-matching-substring>
-                                </xsl:analyze-string>
+                                <xsl:call-template name="previouseditor"/>
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
 </am>
@@ -1852,23 +1529,7 @@
                                                                                 </xsl:matching-substring>
                                                                                 <xsl:non-matching-substring>
                                                                                     <!--previously read &#818; -->
-                                                                                    <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                                                                        <xsl:matching-substring>
-                                                                                            <supplied reason="undefined" evidence="previouseditor">
-                                                                                                <xsl:variable name="underline">
-                                                                                                    <xsl:value-of select="regex-group(1)"/>
-                                                                                                </xsl:variable>
-                                                                                                <xsl:analyze-string select="$underline" regex="&#818;">
-                                                                                                    <xsl:non-matching-substring>
-                                                                                                        <xsl:value-of select="."/>
-                                                                                                    </xsl:non-matching-substring>
-                                                                                                </xsl:analyze-string>
-                                                                                            </supplied>
-                                                                                        </xsl:matching-substring>
-                                                                                        <xsl:non-matching-substring>
-                                                                                            <xsl:value-of select="."/>
-                                                                                        </xsl:non-matching-substring>
-                                                                                    </xsl:analyze-string>
+                                                                                    <xsl:call-template name="previouseditor"/>
                                                                                 </xsl:non-matching-substring>
                                                                             </xsl:analyze-string>
                                                                             
@@ -1888,23 +1549,7 @@
                                                                                 </xsl:matching-substring>
                                                                                 <xsl:non-matching-substring>
                                                                                     <!--previously read &#818; -->
-                                                                                    <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                                                                        <xsl:matching-substring>
-                                                                                            <supplied reason="undefined" evidence="previouseditor">
-                                                                                                <xsl:variable name="underline">
-                                                                                                    <xsl:value-of select="regex-group(1)"/>
-                                                                                                </xsl:variable>
-                                                                                                <xsl:analyze-string select="$underline" regex="&#818;">
-                                                                                                    <xsl:non-matching-substring>
-                                                                                                        <xsl:value-of select="."/>
-                                                                                                    </xsl:non-matching-substring>
-                                                                                                </xsl:analyze-string>
-                                                                                            </supplied>
-                                                                                        </xsl:matching-substring>
-                                                                                        <xsl:non-matching-substring>
-                                                                                            <xsl:value-of select="."/>
-                                                                                        </xsl:non-matching-substring>
-                                                                                    </xsl:analyze-string>
+                                                                                    <xsl:call-template name="previouseditor"/>
                                                                                 </xsl:non-matching-substring>
                                                                             </xsl:analyze-string></am>
                                                                         </abbr>
@@ -2145,23 +1790,7 @@
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 <am>
@@ -2180,23 +1809,7 @@
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 </am>
@@ -2215,23 +1828,7 @@
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 <am>
@@ -2250,23 +1847,7 @@
         </xsl:matching-substring>
         <xsl:non-matching-substring>
             <!--previously read &#818; -->
-            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                <xsl:matching-substring>
-                    <supplied reason="undefined" evidence="previouseditor">
-                        <xsl:variable name="underline">
-                            <xsl:value-of select="regex-group(1)"/>
-                        </xsl:variable>
-                        <xsl:analyze-string select="$underline" regex="&#818;">
-                            <xsl:non-matching-substring>
-                                <xsl:value-of select="."/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </supplied>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:value-of select="."/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
+            <xsl:call-template name="previouseditor"/>
         </xsl:non-matching-substring>
     </xsl:analyze-string>
 </am></abbr><ex><xsl:value-of select="substring(substring-before(regex-group(2), ' '), 3)"/></ex>
@@ -2390,23 +1971,7 @@
                         </xsl:matching-substring>
                         <xsl:non-matching-substring>
                             <!--previously read &#818; -->
-                            <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                <xsl:matching-substring>
-                                    <supplied reason="undefined" evidence="previouseditor">
-                                        <xsl:variable name="underline">
-                                            <xsl:value-of select="regex-group(1)"/>
-                                        </xsl:variable>
-                                        <xsl:analyze-string select="$underline" regex="&#818;">
-                                            <xsl:non-matching-substring>
-                                                <xsl:value-of select="."/>
-                                            </xsl:non-matching-substring>
-                                        </xsl:analyze-string>
-                                    </supplied>
-                                </xsl:matching-substring>
-                                <xsl:non-matching-substring>
-                                    <xsl:value-of select="."/>
-                                </xsl:non-matching-substring>
-                            </xsl:analyze-string>
+                            <xsl:call-template name="previouseditor"/>
                         </xsl:non-matching-substring>
                     </xsl:analyze-string>
                     
@@ -2426,23 +1991,7 @@
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
                                 <!--previously read &#818; -->
-                                <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                    <xsl:matching-substring>
-                                        <supplied reason="undefined" evidence="previouseditor">
-                                            <xsl:variable name="underline">
-                                                <xsl:value-of select="regex-group(1)"/>
-                                            </xsl:variable>
-                                            <xsl:analyze-string select="$underline" regex="&#818;">
-                                                <xsl:non-matching-substring>
-                                                    <xsl:value-of select="."/>
-                                                </xsl:non-matching-substring>
-                                            </xsl:analyze-string>
-                                        </supplied>
-                                    </xsl:matching-substring>
-                                    <xsl:non-matching-substring>
-                                        <xsl:value-of select="."/>
-                                    </xsl:non-matching-substring>
-                                </xsl:analyze-string>
+                                <xsl:call-template name="previouseditor"/>
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
 </am>
@@ -2481,23 +2030,7 @@
                                                                                 </xsl:matching-substring>
                                                                                 <xsl:non-matching-substring>
                                                                                     <!--previously read &#818; -->
-                                                                                    <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                                                                        <xsl:matching-substring>
-                                                                                            <supplied reason="undefined" evidence="previouseditor">
-                                                                                                <xsl:variable name="underline">
-                                                                                                    <xsl:value-of select="regex-group(1)"/>
-                                                                                                </xsl:variable>
-                                                                                                <xsl:analyze-string select="$underline" regex="&#818;">
-                                                                                                    <xsl:non-matching-substring>
-                                                                                                        <xsl:value-of select="."/>
-                                                                                                    </xsl:non-matching-substring>
-                                                                                                </xsl:analyze-string>
-                                                                                            </supplied>
-                                                                                        </xsl:matching-substring>
-                                                                                        <xsl:non-matching-substring>
-                                                                                            <xsl:value-of select="."/>
-                                                                                        </xsl:non-matching-substring>
-                                                                                    </xsl:analyze-string>
+                                                                                    <xsl:call-template name="previouseditor"/>
                                                                                 </xsl:non-matching-substring>
                                                                             </xsl:analyze-string>
                                                                             
@@ -2517,23 +2050,7 @@
                                                                                 </xsl:matching-substring>
                                                                                 <xsl:non-matching-substring>
                                                                                     <!--previously read &#818; -->
-                                                                                    <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                                                                        <xsl:matching-substring>
-                                                                                            <supplied reason="undefined" evidence="previouseditor">
-                                                                                                <xsl:variable name="underline">
-                                                                                                    <xsl:value-of select="regex-group(1)"/>
-                                                                                                </xsl:variable>
-                                                                                                <xsl:analyze-string select="$underline" regex="&#818;">
-                                                                                                    <xsl:non-matching-substring>
-                                                                                                        <xsl:value-of select="."/>
-                                                                                                    </xsl:non-matching-substring>
-                                                                                                </xsl:analyze-string>
-                                                                                            </supplied>
-                                                                                        </xsl:matching-substring>
-                                                                                        <xsl:non-matching-substring>
-                                                                                            <xsl:value-of select="."/>
-                                                                                        </xsl:non-matching-substring>
-                                                                                    </xsl:analyze-string>
+                                                                                    <xsl:call-template name="previouseditor"/>
                                                                                 </xsl:non-matching-substring>
                                                                             </xsl:analyze-string></am>
                                                                         </abbr>
@@ -2702,37 +2219,12 @@
                                                                         <!--unclear &#803; -->
                                                                         <xsl:analyze-string select="." regex="((\w&#803;)+)">
                                                                             <xsl:matching-substring>
-                                                                                <unclear>
-                                                                                    <xsl:variable name="underdot">
-                                                                                        <xsl:value-of select="regex-group(1)"/>
-                                                                                    </xsl:variable>
-                                                                                    <xsl:analyze-string select="$underdot" regex="&#803;">
-                                                                                        <xsl:non-matching-substring>
-                                                                                            <xsl:value-of select="."/>
-                                                                                        </xsl:non-matching-substring>
-                                                                                    </xsl:analyze-string>
-                                                                                </unclear>
+                                                                                <xsl:call-template name="unclear"/>
                                                                             </xsl:matching-substring>
                                                                             <xsl:non-matching-substring>
           <!--previously read &#818; -->
-                                                                                <xsl:analyze-string select="." regex="((\w&#818;)+)">
-                                                                                    <xsl:matching-substring>
-                                                                                        <supplied reason="undefined" evidence="previouseditor">
-                                                                                            <xsl:variable name="underline">
-                                                                                                <xsl:value-of select="regex-group(1)"/>
-                                                                                            </xsl:variable>
-                                                                                            <xsl:analyze-string select="$underline" regex="&#818;">
-                                                                                                <xsl:non-matching-substring>
-                                                                                                    <xsl:value-of select="."/>
-                                                                                                </xsl:non-matching-substring>
-                                                                                            </xsl:analyze-string>
-                                                                                        </supplied>
-                                                                                    </xsl:matching-substring>
-                                                                                    <xsl:non-matching-substring>
-                                                            <xsl:value-of select="."/>
-
-                                                            </xsl:non-matching-substring>
-                                                            </xsl:analyze-string>
+                                                                                        <xsl:call-template name="previouseditor"/>
+                                                          
                                                             </xsl:non-matching-substring>
                                                             </xsl:analyze-string>
                                                                 
@@ -2830,6 +2322,39 @@
         </xsl:analyze-string>
     </xsl:template>
 
+<xsl:template name="previouseditor">
+    <xsl:analyze-string select="." regex="((\w&#818;)+)">
+        <xsl:matching-substring>
+            <supplied reason="undefined" evidence="previouseditor">
+                <xsl:variable name="underline">
+                    <xsl:value-of select="regex-group(1)"/>
+                </xsl:variable>
+                <xsl:analyze-string select="$underline" regex="&#818;">
+                    <xsl:non-matching-substring>
+                        <xsl:value-of select="."/>
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
+            </supplied>
+        </xsl:matching-substring>
+        <xsl:non-matching-substring>
+            <xsl:value-of select="."/>
+        </xsl:non-matching-substring>
+    </xsl:analyze-string>
+</xsl:template>
+    
+    <xsl:template name="unclear">
+        <unclear>
+            <xsl:variable name="underdot">
+                <xsl:value-of select="regex-group(1)"/>
+            </xsl:variable>
+            <xsl:analyze-string select="$underdot" regex="&#803;">
+                <xsl:non-matching-substring>
+                    <xsl:value-of select="."/>
+                </xsl:non-matching-substring>
+            </xsl:analyze-string>
+        </unclear>
+    </xsl:template>
+    
 </xsl:stylesheet>
 <!--
    OK (x 1)      &#12296;  &#12297;     〈 〉
@@ -2913,3 +2438,4 @@ ok    &#803; underdot
     ............
     
     -->
+
