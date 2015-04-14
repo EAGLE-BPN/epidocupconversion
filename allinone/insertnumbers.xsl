@@ -14,6 +14,9 @@
 </xsl:template>   
 
 <xsl:template match="tei:div[@type='edition']">       
+    <xsl:comment>
+<xsl:value-of select="."/>
+                            </xsl:comment>
     <xsl:variable name="nonumber">
         <xsl:call-template name="edition"/>
     </xsl:variable>  

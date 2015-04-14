@@ -8,7 +8,7 @@
     exclude-result-prefixes="tei rdf skos xsd">
     
 
-    
+    <!--called by insertnumbers.xsl -->
     <xsl:template name="edition">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
@@ -19,6 +19,7 @@
                     <xsl:for-each select="tokenize(., '(&#12296;):(in latere intuentibus sinistro|in latere intuentibus dextro|in epystilio|in ipsa aedicula|in una linea|in parte aversa|in fgr.\s\w*\s*|in columna\s\w*\s*)(&#12297;)')">
                        
                         <div n="{position()}" type="textpart">
+                            
                             <!--<xsl:if test="not(position()=1)">
         <xsl:attribute name="subtype">
             <xsl:variable name="sections">
