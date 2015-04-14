@@ -1200,7 +1200,7 @@
                                                                             <corr><xsl:value-of select="regex-group(3)"/></corr></choice>
                                                                         
                                                                     </xsl:matching-substring>                                                            <xsl:non-matching-substring>
-                                                                        <!--        ((:crux))            -->
+                            <!--        ((:crux))            -->
                                                                         <xsl:analyze-string select="." regex="\(\(:(\w*)\)\)">
                                                                             <xsl:matching-substring>
                                                                                 <g>
@@ -1210,15 +1210,25 @@
                                                                                 </g>
                                                                             </xsl:matching-substring>
                                                                             <xsl:non-matching-substring>
-                                                                                <!--        ((abc))            -->
+                              <!--        ((abc))            -->
                                                                                 <xsl:analyze-string select="." regex="\(\((\w*)\)\)">
                                                                                     <xsl:matching-substring>
-                                                                                        <g>
+                                                                                        <!--repeats value into g-->
+                                                                                        <xsl:choose>
+                                                                                            <xsl:when test="contains(.,'&#818;')">
+                                                                                                <supplied reason="undefined" evidence="previouseditor">
+                                                                                                    <g>
+                                                                                                <xsl:attribute name="type">
+                                                                                                    <xsl:value-of select="replace(regex-group(1),'&#818;','')"/>
+                                                                                                </xsl:attribute>
+                                                                                                        <xsl:value-of select="replace(regex-group(1),'&#818;','')"/>
+                                                                                            </g></supplied></xsl:when>
+                                                                                            <xsl:otherwise><g>
                                                                                             <xsl:attribute name="type">
                                                                                                 <xsl:value-of select="regex-group(1)"/>
                                                                                             </xsl:attribute>
                                                                                             <xsl:value-of select="regex-group(1)"/>
-                                                                                        </g>
+                                                                                        </g></xsl:otherwise></xsl:choose>
                                                                                     </xsl:matching-substring>
                                                                                     <xsl:non-matching-substring>
                                                                                         
@@ -1694,13 +1704,22 @@
                                                             <xsl:non-matching-substring>
   <!--        ((abc))            -->
                                                             <xsl:analyze-string select="." regex="\(\((\w*)\)\)">
-                                                            <xsl:matching-substring>
-                                                            <g>
-                                                            <xsl:attribute name="type">
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </xsl:attribute>
-                                                            <xsl:value-of select="regex-group(1)"/>
-                                                            </g>
+                                                                <xsl:matching-substring>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="contains(.,'&#818;')">
+                                                                            <supplied reason="undefined" evidence="previouseditor">
+                                                                                <g>
+                                                                                    <xsl:attribute name="type">
+                                                                                        <xsl:value-of select="replace(regex-group(1),'&#818;','')"/>
+                                                                                    </xsl:attribute>
+                                                                                    <xsl:value-of select="replace(regex-group(1),'&#818;','')"/>
+                                                                                </g></supplied></xsl:when>
+                                                                        <xsl:otherwise><g>
+                                                                            <xsl:attribute name="type">
+                                                                                <xsl:value-of select="regex-group(1)"/>
+                                                                            </xsl:attribute>
+                                                                            <xsl:value-of select="regex-group(1)"/>
+                                                                        </g></xsl:otherwise></xsl:choose>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
                                                                 
@@ -2168,12 +2187,7 @@
                                                             
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
-      <!--free standing (?)-->
-                                                            <xsl:analyze-string select="." regex="\(*\?\)*">
-                                                            <xsl:matching-substring>
-                                                            <certainty match="preceding-sibling::node()" locus="value"/>
-                                                            </xsl:matching-substring>
-                                                            <xsl:non-matching-substring>
+
      <!--ligature   ̂   -->
                                                             <xsl:analyze-string select="." regex="((\ŵ)+\w)">
                                                             <xsl:matching-substring>
@@ -2182,29 +2196,35 @@
                                                             </hi>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
-    <!--match roman numerals -->
-                                                            <!--    <xsl:analyze-string select="."
-                                                                                          regex="(M{{1,4}}(CM|CD|D?C{{0,3}})(XC|XL|L?X{{0,3}})(IX|IV|V?I{{0,3}})|M{{0,4}}(CM|C?D|D?C{{1,3}})(XC|XL|L?X{{0,3}})(IX|IV|V?I{{0,3}})|M{{0,4}}(CM|CD|D?C{{0,3}})(XC|X?L|L?X{{1,3}})(IX|IV|V?I{{0,3}})|M{{0,4}}(CM|CD|D?C{{0,3}})(XC|XL|L?X{{0,3}})(IX|I?V|V?I{{1,3}}))
-                                                                                          ">
-                                                                                          <xsl:matching-substring>
-                                                                                              <num type="roman">
-                                                                                                  <xsl:value-of select="regex-group(1)"/>
-                                                                                              </num>
-                                                                                          </xsl:matching-substring>
-                                                                                          <xsl:non-matching-substring>-->
-                                                            <!--close non matchings-->
  <!--abbr ex-->
-                                                                <xsl:analyze-string select="." regex="([A-Za-z0-9]+)\((.*)\)([A-Za-z0-9]+)*">
+                                                                <xsl:analyze-string select="." regex="([A-Za-z0-9&#818;]+)\(([A-Za-z0-9\s\?]*)\)([A-Za-z0-9&#818;]+)*">
                                                                     <xsl:matching-substring>
                                                                         <expan>
                                                                            <abbr>
-                                                                            <xsl:value-of select=" regex-group(1)"/>
+                                                                               <xsl:analyze-string select="regex-group(1)"
+                                                                                   regex="((\w&#803;)+)">
+                                                                                   <xsl:matching-substring>
+                                                                                       <xsl:call-template name="unclear"/>
+                                                                                   </xsl:matching-substring>
+                                                                                   <xsl:non-matching-substring>
+                                                                                       <xsl:call-template name="previouseditor"/>
+                                                                                   </xsl:non-matching-substring>
+                                                                               </xsl:analyze-string>
                                                                         </abbr>
                                                                                 <ex>
                                                                                     <xsl:value-of select=" regex-group(2)"/>
                                                                                 </ex>
 <xsl:if test="regex-group(3)">
-    <abbr><xsl:value-of select=" regex-group(3)"/></abbr>
+    <abbr>
+        <xsl:analyze-string select="regex-group(3)"
+            regex="((\w&#803;)+)">
+            <xsl:matching-substring>
+                <xsl:call-template name="unclear"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:call-template name="previouseditor"/>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string></abbr>
 </xsl:if>
                                                                         </expan>
                                                                     </xsl:matching-substring>
@@ -2215,7 +2235,12 @@
        <expan><ex><xsl:value-of select="regex-group(1)"/></ex></expan>
     </xsl:matching-substring>
     <xsl:non-matching-substring>
-    
+        <!--free standing (?)-->
+        <xsl:analyze-string select="." regex="\(*\?\)*">
+            <xsl:matching-substring>
+                <certainty match="preceding-sibling::node()" locus="value"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
                                                                         <!--unclear &#803; -->
                                                                         <xsl:analyze-string select="." regex="((\w&#803;)+)">
                                                                             <xsl:matching-substring>
