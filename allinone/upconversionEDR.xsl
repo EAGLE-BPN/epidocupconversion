@@ -90,8 +90,14 @@
                                                                             </gap>
                                                                     </xsl:matching-substring>
                                                                     <xsl:non-matching-substring>
+              <!--      gap precise number                               -->
+                                                                        <xsl:analyze-string select="." regex="\[\+(\d)\+\]">
+                                                                            <xsl:matching-substring>
+                                                                                <gap reason="lost" quantity="{regex-group(1)}" unit="character"/>
+                                                                            </xsl:matching-substring>
+                                                                            <xsl:non-matching-substring>
      <!--     unprecise characters number gap                                  -->
-                                                                <xsl:analyze-string select="." regex="\[\-(\d)\?\-\]">
+                                                                <xsl:analyze-string select="." regex="\[\+(\d)\?\+\]">
                                                                     <xsl:matching-substring>
                                                                         <gap reason="lost" quantity="{regex-group(1)}" unit="character" precision="low"/>
                                                                     </xsl:matching-substring>
@@ -674,7 +680,7 @@
             </unclear>
         </xsl:matching-substring>
         <xsl:non-matching-substring>
-            <!--previously read &#818; -->
+            <!--previously read &#818; -->gap
             <xsl:analyze-string select="." regex="((\w&#818;)+)">
                 <xsl:matching-substring>
                     <supplied reason="undefined" evidence="previouseditor">
@@ -1194,6 +1200,7 @@
                                                             <gap reason="lost" extent="unknown" unit="character"/>
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>
+                                                                
        <!--      gap 2 char                                  -->
                                                             <xsl:analyze-string select="." regex="\[(2)\]|\[\-\s*\-\]">
                                                             <xsl:matching-substring>
@@ -2814,7 +2821,9 @@
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:non-matching-substring>
-                </xsl:analyze-string>
+                                </xsl:analyze-string>
+                            </xsl:non-matching-substring>
+                        </xsl:analyze-string>
             </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:non-matching-substring>
