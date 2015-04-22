@@ -100,7 +100,7 @@
                                                             </xsl:matching-substring>
                                                             <xsl:non-matching-substring>                                                
 <!--     [p(edes) \-\-\-] -->
-                                                                <xsl:analyze-string select="." regex="\[([-A-Za-z,\s]+\([A-Za-z,\s]+\))\s\-\s*\-\s*\-\]">
+                                                                <xsl:analyze-string select="." regex="\[([-A-Za-z,\s]+\([A-Za-z,\s]+\)),*\s\-\s*\-\s*\-\]">
                             <xsl:matching-substring>
                                 <xsl:text>[</xsl:text><xsl:value-of select="regex-group(1)"
                                 /><xsl:text> ][3]</xsl:text>
@@ -122,7 +122,7 @@
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
                                 <!--    splits [ert gap] in [ert][gap] -->
-                                <xsl:analyze-string select="." regex="\[([a-zA-Z,\s]+)\s+(\-\s*\-\s*\-)\]">
+                                <xsl:analyze-string select="." regex="\[([a-zA-Z,\s]+)[,]*\s+(\-\s*\-\s*\-)\]">
                                     <xsl:matching-substring>
                                         <xsl:text>[</xsl:text>
                                         <xsl:value-of select="regex-group(1)"/>
@@ -138,7 +138,7 @@
                                             </xsl:matching-substring>
                                             <xsl:non-matching-substring>
                                                 <!--    splits [ert gap] in [ert][gap] -->
-                                                <xsl:analyze-string select="." regex="\[([a-zA-Z\s]+)(\-\s*\-\s*\-)\]">
+                                                <xsl:analyze-string select="." regex="\[([a-zA-Z\s]+)[,]*(\-\s*\-\s*\-)\]">
                                                     <xsl:matching-substring>
                                                         <xsl:text>[</xsl:text>
                                                         <xsl:value-of select="regex-group(1)"/>
@@ -166,7 +166,7 @@
                                                     <xsl:non-matching-substring>
                                                         <!--     splits [\-\- B \-\-] in [2][B][2]                   -->
                                                         <xsl:analyze-string select="."
-                                                            regex="\[(\-\s*\-)\s+([a-zA-Z\s]+)\s+(\-\s*\-)\]">
+                                                            regex="\[(\-\s*\-)\s+([a-zA-Z,\s]+)[,]*\s+(\-\s*\-)\]">
                                                             <xsl:matching-substring>
                                                                 <xsl:text>[2][</xsl:text>
                                                                 <xsl:value-of select="regex-group(2)"/>
@@ -175,7 +175,7 @@
                                                             <xsl:non-matching-substring>
                                                         <!--     splits [- B -] in [1][B][1]                   -->
                                                         <xsl:analyze-string select="."
-                                                            regex="\[(\-)\s+([a-zA-Z\s]+)\s+(\-)\]">
+                                                            regex="\[(\-)\s+([a-zA-Z,\s]+)\s+(\-)\]">
                                                             <xsl:matching-substring>
                                                                 <xsl:text>[1][</xsl:text>
                                                                 <xsl:value-of select="regex-group(2)"/>
@@ -184,7 +184,7 @@
                                                             <xsl:non-matching-substring>
                                                         <!--     splits [- B] in [1][B]                   -->
                                                         <xsl:analyze-string select="."
-                                                            regex="\[(\-)\s+([a-zA-Z\s]+)\]">
+                                                            regex="\[(\-)\s+([a-zA-Z,\s]+)\]">
                                                             <xsl:matching-substring>
                                                                 <xsl:text>[1][</xsl:text>
                                                                 <xsl:value-of select="regex-group(2)"/>
@@ -193,7 +193,7 @@
                                                             <xsl:non-matching-substring>
                                                                 <!--     splits [- - - B] in [3][B]                   -->
                                                                 <xsl:analyze-string select="."
-                                                                    regex="\[(\-\-\-)\s+([a-zA-Z\s]+)\]">
+                                                                    regex="\[(\-\-\-)\s+([a-zA-Z,\s]+)\]">
                                                                     <xsl:matching-substring>
                                                                         <xsl:text>[3][</xsl:text>
                                                                         <xsl:value-of select="regex-group(2)"/>
@@ -202,7 +202,7 @@
                                                                     <xsl:non-matching-substring>
                                                                         <!--     splits [B - - -] in [B][3]                   -->
                                                                         <xsl:analyze-string select="."
-                                                                            regex="\[([a-zA-Z\s]+)\s+(\-\-\-)\]">
+                                                                            regex="\[([a-zA-Z,\s]+)\s+(\-\-\-)\]">
                                                                             <xsl:matching-substring>
                                                                                 <xsl:text>[</xsl:text>
                                                                                 <xsl:value-of select="regex-group(1)"/>
