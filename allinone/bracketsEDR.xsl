@@ -58,6 +58,15 @@
                             select="regex-group(5)"/><xsl:text>]</xsl:text>
                     </xsl:matching-substring>
                     <xsl:non-matching-substring>
+                        <!--\[(\s*(\-\s*\-\s*\-,*)\s*)(([a-zA-Z,\-\(\)\s]*))(\s(\-\s*\-\s*\-,*)\s)([a-zA-Z,\-\(\)\s]*)\]-->
+                        <xsl:analyze-string select="." regex="\[(([a-zA-Z,\s]*))(\s(\-\s*\-\s*\-)\s)([a-zA-Z,\s]*)\]">
+                            <xsl:matching-substring>
+                                <xsl:text>[3][</xsl:text><xsl:value-of select="regex-group(3)"
+                                /><xsl:text>][3][</xsl:text><xsl:value-of
+                                    select="regex-group(7)"/><xsl:text>]</xsl:text>
+                            </xsl:matching-substring>
+                            <xsl:non-matching-substring>
+                                
                         <!--     [dedicaverunt \-\-\- Iu] -->
                         <xsl:analyze-string select="." regex="\[(([a-zA-Z,\s]*))(\s(\-\s*\-\s*\-)\s)([a-zA-Z,\s]*)\]">
                             <xsl:matching-substring>
@@ -261,6 +270,9 @@
                                 </xsl:analyze-string>
                             </xsl:non-matching-substring>
                                 </xsl:analyze-string>
+                                
+                            </xsl:non-matching-substring>
+                                                                </xsl:analyze-string>
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
                                                                 
