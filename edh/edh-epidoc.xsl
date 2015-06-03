@@ -13,31 +13,31 @@
     </xsl:template>
     
     <!--inserts links to tags in zotero bibliography-->
-<!--    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/zoterobibliolinks.xsl"/>-->
+<!--    <xsl:include href="zoterobibliolinks.xsl"/>-->
 
     <!--inserts trismegistos id-->
-        <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/tmid.xsl"/>
+        <xsl:include href="tmid.xsl"/>
     
     <!--  Create descriptive Title required from Europeana from Object Type and Inscription Type  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/maketitle.xsl"/>
+    <xsl:include href="maketitle.xsl"/>
         
 <!--  adds in specific elements a @ref with the corresponding url from the EAGLE Tematres Vocabularies -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/popwithvoc.xsl"/>
+    <xsl:include href="popwithvoc.xsl"/>
     
     <!--fotos distinctions-->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/foto.xsl"/>
+    <xsl:include href="foto.xsl"/>
     
 <!--    breaks up sections and call templates to normalize ()[] and to convert in epidoc -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/textstructure.xsl"/>
+    <xsl:include href="textstructure.xsl"/>
     
     <!--breaks brackets in unique meaning ones as much as possible preparing things for the next step-->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/brackets.xsl"/>
+    <xsl:include href="brackets.xsl"/>
 
 <!--  Takes all brackets sets and other diacritict and substitutes them with markup  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/upconversion.xsl"/>    
+    <xsl:include href="upconversion.xsl"/>    
     
     <!--  adds numbers to the marked up text-->
     
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/insertnumbers.xsl"/>
+    <xsl:include href="insertnumbers.xsl"/>
         
 </xsl:stylesheet>

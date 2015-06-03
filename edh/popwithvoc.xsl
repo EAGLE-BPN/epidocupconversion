@@ -8,27 +8,27 @@
     
     
     <!-- Object Type   -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/objectType.xsl"/>
+    <xsl:include href="objectType.xsl"/>
     
     <!-- Material   -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/material.xsl"/>
+    <xsl:include href="material.xsl"/>
     
     <!--  Type of Inscription  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/instype.xsl"/>
+    <xsl:include href="instype.xsl"/>
     
     <!--  Writing  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/writing.xsl"/>
+    <xsl:include href="writing.xsl"/>
     
     <!--  Dating Criteria -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/dates.xsl"/>
+    <xsl:include href="dates.xsl"/>
     
     <!--  Decoration  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/deco.xsl"/>
+    <xsl:include href="deco.xsl"/>
     
     <!--  state preservation  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/statepres.xsl"/>    
+    <xsl:include href="statepres.xsl"/>    
     
 <!--    TMGeo ID-->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/tmgeo.xsl"/>
+    <xsl:include href="tmgeo.xsl"/>
     
 </xsl:stylesheet>

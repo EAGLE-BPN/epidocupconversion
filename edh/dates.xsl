@@ -65,14 +65,14 @@ if the template on which the transformation runs has been modified this is never
                 <xsl:variable name="voc_term">
                     <xsl:choose>
                         <xsl:when
-                            test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-dating-criteria.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept[not(parent::skos:exactMatch[contains(skos:Concept/@rdf:about,'archwort')])]/@rdf:about">
+                            test="document('eagle-vocabulary-dating-criteria.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept[not(parent::skos:exactMatch[contains(skos:Concept/@rdf:about,'archwort')])]/@rdf:about">
                             <xsl:variable name="seq"
-                                select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-dating-criteria.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept/@rdf:about"/>
+                                select="document('eagle-vocabulary-dating-criteria.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept/@rdf:about"/>
                             <xsl:value-of select="$seq[1]"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:variable name="seq"
-                                select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-dating-criteria.rdf')//skos:altLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept/@rdf:about"/>
+                                select="document('eagle-vocabulary-dating-criteria.rdf')//skos:altLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept/@rdf:about"/>
                             <xsl:value-of select="$seq[1]"/>
                             <!--this is not very clever but gives at least coherent results and one value only when vocabularies have many possible...-->
                         </xsl:otherwise>
@@ -87,14 +87,14 @@ if the template on which the transformation runs has been modified this is never
                     <xsl:variable name="skopeNote">
                         <xsl:choose>
                             <xsl:when
-                                test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-dating-criteria.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept[not(parent::skos:exactMatch[contains(skos:Concept/@rdf:about,'archwort')])]/skos:scopeNote">
+                                test="document('eagle-vocabulary-dating-criteria.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept[not(parent::skos:exactMatch[contains(skos:Concept/@rdf:about,'archwort')])]/skos:scopeNote">
                                 <xsl:value-of
-                                    select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-dating-criteria.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept[not(parent::skos:exactMatch[contains(skos:Concept/@rdf:about,'archwort')])]/skos:scopeNote"
+                                    select="document('eagle-vocabulary-dating-criteria.rdf')//skos:prefLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept[not(parent::skos:exactMatch[contains(skos:Concept/@rdf:about,'archwort')])]/skos:scopeNote"
                                 />
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:value-of
-                                    select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-dating-criteria.rdf')//skos:altLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept/skos:scopeNote"
+                                    select="document('eagle-vocabulary-dating-criteria.rdf')//skos:altLabel[lower-case(normalize-space(.))=lower-case(normalize-space(normalize-space($noquestion)))]/parent::skos:Concept/skos:scopeNote"
                                 />
                             </xsl:otherwise>
                         </xsl:choose>

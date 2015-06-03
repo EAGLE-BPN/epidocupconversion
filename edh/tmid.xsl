@@ -22,7 +22,7 @@
 </xsl:variable>
             <xsl:attribute name="type">TM</xsl:attribute>
           <xsl:variable name="tminsert">
-<xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/edh-tm.htm')//td[preceding-sibling::td[lower-case(.) = lower-case($tm)]]"/>
+<xsl:value-of select="document('edh-tm.htm')//td[preceding-sibling::td[lower-case(.) = lower-case($tm)]]"/>
 </xsl:variable>
             <xsl:choose>
                 <xsl:when test="contains($tminsert,',')">
