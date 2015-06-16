@@ -45,7 +45,8 @@ and insert it in a epidoc template compliant with EAGLE definition
             <publicationStmt>
                 <authority>Ubi Erat Lupa</authority>
                 <idno type="URI"><xsl:value-of select="current()/url"/></idno>
-                <idno type="TM"/>
+<idno type="localID"><xsl:value-of select="$id"/></idno>
+<idno type="TM"><xsl:value-of select="document('tabledisambiguations.html')//tr[td[position()=5]= $id]/td[position()=1]"/></idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
 This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
@@ -83,7 +84,7 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
                         --><xsl:value-of select="$seq[1]"/><!--this is not very clever but gives at least coherent results and one value only when vocabularies have many possible...--><!--
                     --></xsl:otherwise></xsl:choose></xsl:variable><xsl:if test="$voc_term!=''"><xsl:attribute name="ref"><xsl:value-of select="$voc_term"/></xsl:attribute></xsl:if><xsl:value-of select="normalize-space(current()//monumentType)"/><!--
 --></objectType>
-<material><xsl:variable name="noquestion"><xsl:analyze-string select="normalize-space(current()//material)" regex="(\w+)\?"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/><!--
+<material><xsl:variable name="noquestion"><xsl:analyze-string select="substring-after(normalize-space(current()//material), '/ ')" regex="(\w+)\?"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/><!--
 --></xsl:matching-substring><xsl:non-matching-substring><xsl:analyze-string select="." regex="(\w+),\s(\w*)"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring><!--            
                     --><xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring></xsl:analyze-string></xsl:non-matching-substring></xsl:analyze-string></xsl:variable><!--
                 --><xsl:variable name="voc_term"><xsl:choose><!--
@@ -299,7 +300,7 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
                         
                     </xsl:for-each>
 
-                    <xsl:result-document href="index" format="xml">
+                    <xsl:result-document href="index.xml" format="xml">
                         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
                             <teiHeader>
                                 <fileDesc>
