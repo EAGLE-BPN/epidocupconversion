@@ -7,8 +7,9 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
     xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:f="http://www.filemaker.com/fmpxmlresult"
-    exclude-result-prefixes="f tei skos rdf text table office xs xsl"
+    exclude-result-prefixes="#all"
     version="2.0">
 <!--    
     THIS XSL IS DESIGNED TO TAKE DATA FROM 
@@ -21,17 +22,20 @@ and insert it in a epidoc template compliant with EAGLE definition
         FOR SOME REASON I DID NOT UNDERSTAND THIS TRANSFORMATION GENERATES xmlns="" in each <lb> which need to be removed afterwords.-->
    
     
- <xsl:template match="/">  
-        
-
-     <lupa>
-     <lupamonumentsonly>
-         <xsl:for-each select="//monument[not(inscription)]"><xsl:copy-of select="."/></xsl:for-each>
-     </lupamonumentsonly>
-     
-        <lupainscriptions>
-            <xsl:for-each select="//monument[inscription]">
-           
+                <xsl:output method="text"/>
+                <xsl:output method="html" indent="yes" name="html"/>
+                <xsl:output method="xml" indent="yes" name="xml"/>
+                <xsl:output omit-xml-declaration="yes" indent="yes"/>
+                
+                <xsl:template match="/">
+                    <xsl:for-each select="//monument[inscription]">
+                        <xsl:variable name="id">
+                            <xsl:value-of select="id"/>
+                        </xsl:variable>
+                        <xsl:variable name="filename" select="concat('text/',$id,'.xml')"/>
+                        
+                        <xsl:result-document href="{$filename}" format="xml">
+       
             <TEI xml:space="preserve" xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -68,18 +72,29 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
                         <objectDesc>
                             <supportDesc>
                                 <support>
-<objectType><xsl:variable name="noquestion"><xsl:analyze-string 
-                                            select="normalize-space(current()//objectType)" 
-                                            regex="(\*\s*\w*)\?"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring><xsl:non-matching-substring><xsl:analyze-string select="." regex="(\w+),\s(\w*)"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring><xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring></xsl:analyze-string></xsl:non-matching-substring></xsl:analyze-string></xsl:variable><!--
-                                             --><xsl:variable name="voc_term"><!--add https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/ in front of file name for absolute path
-                                    --><xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-object-type.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/><xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-object-type.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/></xsl:variable><!--
-                                         --><xsl:if test="$voc_term!=''"><xsl:attribute name="ref"><xsl:value-of select="$voc_term"/></xsl:attribute></xsl:if><xsl:value-of select="normalize-space(current()//objectType)"/></objectType>
-                             <!--       <material><xsl:variable name="noquestion"><xsl:analyze-string 
-                                        select="normalize-space(TD[position()=15])" 
-                                        regex="(\w+\s*\w*)\?"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring><xsl:non-matching-substring><xsl:analyze-string select="." regex="(\w+),\s(\w*)"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring><xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring></xsl:analyze-string></xsl:non-matching-substring></xsl:analyze-string></xsl:variable><!-\-
-                                        -\-><xsl:variable name="voc_term"><!-\-add https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/ in front of file name for absolute path
-                                    -\-><xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/><xsl:value-of select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/></xsl:variable><!-\-
-                                         -\-><xsl:if test="$voc_term!=''"><xsl:attribute name="ref"><xsl:value-of select="$voc_term"/></xsl:attribute></xsl:if><xsl:value-of select="normalize-space(TD[position()=15])"/></material>
+<objectType><xsl:variable name="noquestion"><xsl:analyze-string select="normalize-space(current()//monumentType)" regex="(\w+)\?"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/><!--
+--></xsl:matching-substring><xsl:non-matching-substring><xsl:analyze-string select="." regex="(\w+),\s(\w*)"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring><!--            
+                    --><xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring></xsl:analyze-string></xsl:non-matching-substring></xsl:analyze-string></xsl:variable><!--
+                --><xsl:variable name="voc_term"><xsl:choose><!--
+                        --><xsl:when test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-object-type.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept[not(parent::skos:exactMatch[contains(skos:Concept/@rdf:about,'archwort')])]/@rdf:about"><!--
+                            --><xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-object-type.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/><!--
+                            --><xsl:value-of select="$seq[1]"/></xsl:when><xsl:otherwise><!--
+                        --><xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-object-type.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/><!--
+                        --><xsl:value-of select="$seq[1]"/><!--this is not very clever but gives at least coherent results and one value only when vocabularies have many possible...--><!--
+                    --></xsl:otherwise></xsl:choose></xsl:variable><xsl:if test="$voc_term!=''"><xsl:attribute name="ref"><xsl:value-of select="$voc_term"/></xsl:attribute></xsl:if><xsl:value-of select="normalize-space(current()//monumentType)"/><!--
+--></objectType>
+<material><xsl:variable name="noquestion"><xsl:analyze-string select="normalize-space(current()//material)" regex="(\w+)\?"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/><!--
+--></xsl:matching-substring><xsl:non-matching-substring><xsl:analyze-string select="." regex="(\w+),\s(\w*)"><xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring><!--            
+                    --><xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring></xsl:analyze-string></xsl:non-matching-substring></xsl:analyze-string></xsl:variable><!--
+                --><xsl:variable name="voc_term"><xsl:choose><!--
+                        --><xsl:when test="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept[not(parent::skos:exactMatch[contains(skos:Concept/@rdf:about,'archwort')])]/@rdf:about"><!--
+                            --><xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:prefLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/><!--
+                            --><xsl:value-of select="$seq[1]"/></xsl:when><xsl:otherwise><!--
+                        --><xsl:variable name="seq" select="document('https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/eagle-vocabulary-material.rdf')//skos:altLabel[lower-case(.)=lower-case($noquestion)]/parent::skos:Concept/@rdf:about"/><!--
+                        --><xsl:value-of select="$seq[1]"/><!--this is not very clever but gives at least coherent results and one value only when vocabularies have many possible...--><!--
+                    --></xsl:otherwise></xsl:choose></xsl:variable><xsl:if test="$voc_term!=''"><xsl:attribute name="ref"><xsl:value-of select="$voc_term"/></xsl:attribute></xsl:if><xsl:value-of select="normalize-space(current()//material)"/><!--
+--></material>
+                             <!--       
                                     <p/>
                                     <dimensions unit="cm">
                                         <height><xsl:variable name="s" as="xs:string*"><xsl:analyze-string select="normalize-space(TD[position()=16])" regex="(\d+(.|,)?\d+?)"><xsl:matching-substring><xsl:sequence select="regex-group(1)"/></xsl:matching-substring></xsl:analyze-string></xsl:variable><xsl:attribute name="atMost"><xsl:value-of select="$s[1]"/></xsl:attribute><xsl:if test="$s[2]"><xsl:attribute name="atLeast"><xsl:value-of select="$s[2]"/></xsl:attribute></xsl:if><xsl:value-of select="$s[1]"/><xsl:if test="$s[2]"><xsl:text>; </xsl:text><xsl:value-of select="$s[2]"/></xsl:if></height>
@@ -279,12 +294,55 @@ This file is licensed under the Creative Commons Attribution-NonCommercial-Share
     </text>
 </TEI>
 
+                        </xsl:result-document>
 
-        </xsl:for-each>
-        </lupainscriptions>
-     </lupa>
-    </xsl:template>
-    
+                        
+                    </xsl:for-each>
+
+                    <xsl:result-document href="index" format="xml">
+                        <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+                            <teiHeader>
+                                <fileDesc>
+                                    <titleStmt>
+                                        <title>Inscriptions of Ubi Erat Lupa</title>
+                                    </titleStmt>
+                                    <publicationStmt>
+                                        <authority>Ubi Erat Lupa</authority>
+                                    </publicationStmt>
+                                    <sourceDesc>
+                                        <p>Ubi Erat Lupa</p>
+                                    </sourceDesc>
+                                </fileDesc>
+                                <revisionDesc>
+                                    <change when="{current-date()}" who="pietroliuzzo"> Created from dump</change>
+                                </revisionDesc>
+                            </teiHeader>
+                            <text>
+                                <body>
+                                    <div xml:id="index">
+                                        <ab>
+                                            <title>Inscriptions</title>
+                                            <list>
+                                                <xsl:for-each select="/monument[inscription]">
+                                                    <xsl:variable name="id">
+                                                        <xsl:value-of select="current()/id"/>
+                                                    </xsl:variable>
+                                                    
+                                                    <item 
+                                                        xml:id="{$id}" 
+                                                        corresp="{concat('text/',$id)}">
+                                                    </item>
+                                                </xsl:for-each>
+                                            </list>
+                                        </ab>
+                                    </div>
+                                </body>
+                            </text>
+                        </TEI>
+                    </xsl:result-document>
+                    
+
+                </xsl:template>
     
     <!--breaks brackets in unique meaning ones as much as possible preparing things for the next step-->
     <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/brackets.xsl"/>

@@ -607,6 +607,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/objtyp/lod/35">
         <skos:prefLabel xml:lang="de">Architekturteil</skos:prefLabel>
+         <skos:altLabel xml:lang="la">Architectonica pars</skos:altLabel>
         <skos:altLabel xml:lang="es">architectura</skos:altLabel>
         <skos:altLabel xml:lang="en">Architectural Element</skos:altLabel>
         <skos:altLabel xml:lang="en">Architectural member</skos:altLabel>

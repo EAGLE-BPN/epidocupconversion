@@ -16,14 +16,14 @@
         <dct:modified>2014-05-07 16:37:21</dct:modified>
         <dc:language>en</dc:language>
     </skos:ConceptScheme>
-    
+
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/1000">
         <skos:altLabel xml:lang="it">non presente</skos:altLabel>
         <skos:altLabel xml:lang="en">not present</skos:altLabel>
         <skos:altLabel xml:lang="de">kein</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
     </skos:Concept>
-    
+
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/2000">
         <skos:altLabel xml:lang="it">si</skos:altLabel>
         <skos:altLabel xml:lang="en">yes</skos:altLabel>
@@ -120,6 +120,8 @@
         <skos:prefLabel xml:lang="la">Alpha et Omega</skos:prefLabel>
         <skos:altLabel xml:lang="hu">alpha és ómega</skos:altLabel>
         <skos:altLabel xml:lang="it">alfa e omega</skos:altLabel>
+        <skos:scopeNote xml:lang="it">Lettere greche alpha et omega, utilizzate in senso
+            apocalittico, ad indicare il principio e la fine (Ap. 21,6; 22,13)</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -188,13 +190,13 @@
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/351">
-       
+
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2014-02-01 17:33:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/29">
         <skos:prefLabel xml:lang="de">Aphrodite; Venus</skos:prefLabel>
- <skos:altLabel xml:lang="hu">Aphrodité; Venus</skos:altLabel>
+        <skos:altLabel xml:lang="hu">Aphrodité; Venus</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -308,7 +310,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/34">
         <skos:prefLabel xml:lang="es">Arquitrave</skos:prefLabel>
         <skos:altLabel xml:lang="hu">architráv</skos:altLabel>
-        <skos:altLabel xml:lang="it">architravve</skos:altLabel>
+        <skos:altLabel xml:lang="it">architrave</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/603">
@@ -735,7 +737,9 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/591">
-                <skos:prefLabel xml:lang="it">Monogr. Christi</skos:prefLabel>
+                <skos:prefLabel xml:lang="la">Monogr. Christi</skos:prefLabel>
+                <skos:scopeNote xml:lang="it">Monogramma composto dalle lettere iniziali del nome
+                    greco di Cristo (Χριστὸς), chi e rho, intrecciate </skos:scopeNote>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -957,7 +961,9 @@
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/5"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/589">
-                <skos:prefLabel xml:lang="it">Crux Quadrata</skos:prefLabel>
+                <skos:prefLabel xml:lang="la">Crux Quadrata</skos:prefLabel>
+                <skos:scopeNote xml:lang="it">Croce formata da bracci di uguale misura che si
+                    intersecano ad angolo retto</skos:scopeNote>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
@@ -975,18 +981,25 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/3">
         <skos:prefLabel xml:lang="la">Crux Decussata</skos:prefLabel>
         <skos:altLabel xml:lang="hu">András-kereszt</skos:altLabel>
+        <skos:scopeNote xml:lang="it">Croce formata da bracci di uguale misura, posti diagonalmente
+            che si intersecano ad X</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/6"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/4">
         <skos:prefLabel xml:lang="la">Crux Gammata</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Croce formata da bracci terminanti con la forma della lettera
+            greca gamma, anche detta croce uncinata o svastica</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/6"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/5">
         <skos:prefLabel xml:lang="la">Crux Immissa</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Croce formata da due segmenti di diversa misura che si
+            intersecano ad angolo retto, in cui il segmento minore è circa a tre quarti del segmento
+            maggiore.</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/6"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -1046,7 +1059,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/572">
         <skos:prefLabel xml:lang="en">Daedalus</skos:prefLabel>
-<skos:altLabel xml:lang="de">Daedalus</skos:altLabel>
+        <skos:altLabel xml:lang="de">Daedalus</skos:altLabel>
         <skos:altLabel xml:lang="hu">Daidalos</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2014-02-01 17:35:06</dct:created>
@@ -1138,7 +1151,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/109">
         <skos:prefLabel xml:lang="en">Dolichenus</skos:prefLabel>
-<skos:altLabel xml:lang="de">Dolichenus</skos:altLabel>
+        <skos:altLabel xml:lang="de">Dolichenus</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -1161,7 +1174,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/576">
         <skos:prefLabel xml:lang="de">Endymion</skos:prefLabel>
-<skos:altLabel xml:lang="en">Endymion</skos:altLabel>
+        <skos:altLabel xml:lang="en">Endymion</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2014-02-01 17:35:06</dct:created>
     </skos:Concept>
@@ -1177,7 +1190,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/119">
         <skos:prefLabel xml:lang="de">Epona</skos:prefLabel>
-<skos:altLabel xml:lang="en">Epona</skos:altLabel>
+        <skos:altLabel xml:lang="en">Epona</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2014-02-01 17:35:06</dct:created>
     </skos:Concept>
@@ -1940,7 +1953,7 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2014-02-01 17:35:06</dct:created>
     </skos:Concept>
-<skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/174">
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/174">
         <skos:prefLabel xml:lang="de">Kannelur</skos:prefLabel>
         <skos:altLabel xml:lang="hu">kanellúra</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
@@ -2015,7 +2028,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/185">
         <skos:prefLabel xml:lang="de">Leda</skos:prefLabel>
-<skos:altLabel xml:lang="hu">Léda</skos:altLabel>
+        <skos:altLabel xml:lang="hu">Léda</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -2133,7 +2146,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/205">
         <skos:prefLabel xml:lang="de">Marsyas</skos:prefLabel>
-<skos:altLabel xml:lang="hu">Marsyas</skos:altLabel>
+        <skos:altLabel xml:lang="hu">Marsyas</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -2274,36 +2287,62 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/13">
         <skos:prefLabel xml:lang="la">Monogr. Christi cum Alpha et Omega</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Monogramma composto dalle lettere iniziali del nome greco di
+            Cristo, chi e rho, intrecciate associato alle lettere greche alpha e omega, ad indicare
+            il principio e la fine secondo la simbologia apocalittica, (Ap. 1, 8; 21,6;
+            22,13)</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/8">
         <skos:prefLabel xml:lang="la">Monogr. Christi Decussatum</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Monogramma composto dalle iniziali dei nomi greci Gesù
+            (Ἰησοῦς) e Cristo (Χριστὸς), iota e rho, intrecciate </skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/9">
         <skos:prefLabel xml:lang="la">Monogr. Christi in crucem transl. cum A e O</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Monogramma composto dalle lettere iniziali del nome greco di
+            Cristo (Χριστὸς), chi e rho, con il chi ruotato in modo che un'asta si sovrapponga
+            completamente all'asta del rho formando una croce greca associato alle lettere greche
+            alpha e omega, ad indicare il principio e la fine secondo la simbologia apocalittica,
+            (Ap. 21,6; 22,13)</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/10">
         <skos:prefLabel xml:lang="la">Monogr. Christi in crucem translatum</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Monogramma composto dalle lettere iniziali del nome greco di
+            Cristo (Χριστὸς), chi e rho, con il chi ruotato in modo che un'asta si sovrapponga
+            all'asta del rho formando una croce greca</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/12">
         <skos:prefLabel xml:lang="la">Monogr. Christi radiatum</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Monogramma composto dalla intersezione di un monogramma
+            Christi e di un monogramma Christi in crucem translatum</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/10"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/591"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/11">
         <skos:prefLabel xml:lang="la">Monogr. Christi radiatum cum Alpha et Omega</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Monogramma composto dalla intersezione di un monogramma
+            Christi e di un monogramma Christi in crucem translatum, associato alle lettere greche
+            alpha e omega, ad indicare il principio e la fine secondo la simbologia apocalittica,
+            (Ap. 21,6; 22,13)</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/10"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/decor/lod/591"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/7">
         <skos:prefLabel xml:lang="la">Monogr. Ἰη(σοῦς)</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Monogramma composto dalle lettere iniziali del nome greco di
+            Gesù (Ἰησοῦς), iota ed eta, intrecciate</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -2723,7 +2762,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/258">
         <skos:prefLabel xml:lang="de">Pteryges</skos:prefLabel>
-<skos:altLabel xml:lang="hu">pteryges</skos:altLabel>
+        <skos:altLabel xml:lang="hu">pteryges</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -2941,7 +2980,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/274">
         <skos:prefLabel xml:lang="de">Sagum</skos:prefLabel>
-   <skos:altLabel xml:lang="en">sagum</skos:altLabel>
+        <skos:altLabel xml:lang="en">sagum</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -3019,7 +3058,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/293">
         <skos:prefLabel xml:lang="de">Serapis</skos:prefLabel>
-<skos:altLabel xml:lang="en">Serapis</skos:altLabel>
+        <skos:altLabel xml:lang="en">Serapis</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
@@ -3413,6 +3452,11 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/335">
         <skos:prefLabel xml:lang="de">Zwiebelknopffibel</skos:prefLabel>
         <skos:altLabel xml:lang="hu">hagymafejes fibula</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <dct:created>2013-10-02 01:02:39</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/815">
+        <skos:prefLabel xml:lang="la">crux immissa cum alpha et omega</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
