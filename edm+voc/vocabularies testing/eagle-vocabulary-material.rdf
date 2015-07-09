@@ -27,7 +27,7 @@
         <skos:altLabel xml:lang="hu">kő</skos:altLabel>
         <skos:altLabel xml:lang="la">lapis</skos:altLabel>
         <skos:altLabel xml:lang="es">piedra</skos:altLabel>
-        <skos:altLabel xml:lang="fr">pierre</skos:altLabel>
+        <skos:altLabel xml:lang="fr">pierre locale</skos:altLabel>
         <skos:altLabel xml:lang="fr">grit-stone</skos:altLabel>
         <skos:altLabel xml:lang="it">pietra</skos:altLabel>
         <skos:altLabel xml:lang="de">Stein</skos:altLabel>
@@ -48,6 +48,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/735">
         <skos:prefLabel xml:lang="de">(vulkanische) Breccie</skos:prefLabel>
         <skos:altLabel xml:lang="es">Brecha (volcanic) breccia</skos:altLabel>
+        <skos:altLabel xml:lang="it">breccia (vulcanica)</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/28"/>
         <skos:closeMatch>
@@ -62,6 +63,7 @@
         <skos:altLabel xml:lang="de">Tuff</skos:altLabel>
         <skos:altLabel xml:lang="es">Toba</skos:altLabel>
         <skos:altLabel xml:lang="fr">Tuf</skos:altLabel>
+        <skos:altLabel xml:lang="it">Tufo</skos:altLabel>
         <skos:altLabel xml:lang="fr">tuf volcanique</skos:altLabel>
         <skos:altLabel xml:lang="hu">tufa</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -104,6 +106,7 @@
         <skos:altLabel xml:lang="hu">bronz</skos:altLabel>
         <skos:altLabel xml:lang="de">Bronze</skos:altLabel>
         <skos:altLabel xml:lang="fr">Bronze</skos:altLabel>
+        <skos:altLabel xml:lang="it">bronzo</skos:altLabel>
         <skos:altLabel xml:lang="it">bronzo, rame</skos:altLabel>
         <skos:altLabel xml:lang="hr">mjed</skos:altLabel>
         <skos:altLabel xml:lang="fi">pronssi</skos:altLabel>
@@ -186,6 +189,7 @@
         <skos:prefLabel xml:lang="de">Andesit-Porphyr</skos:prefLabel>
         <skos:altLabel xml:lang="de">Porphyr, grüner</skos:altLabel>
         <skos:altLabel xml:lang="de">Porphyr, roter</skos:altLabel>
+        <skos:altLabel xml:lang="it">Porfido rosso</skos:altLabel>
         <skos:altLabel xml:lang="hu">andezit-porfír</skos:altLabel>
         <skos:altLabel xml:lang="it">marmo porfido verde antico</skos:altLabel>
         <skos:altLabel xml:lang="it">marmo porfido di Grecia</skos:altLabel>
@@ -228,6 +232,7 @@
         <skos:prefLabel xml:lang="es">Arcilla</skos:prefLabel>
         <skos:altLabel xml:lang="hu">agyag</skos:altLabel>
         <skos:altLabel xml:lang="fr">Argile</skos:altLabel>
+        <skos:altLabel xml:lang="it">Argilla</skos:altLabel>
         <skos:altLabel xml:lang="en">Clay</skos:altLabel>
         <skos:altLabel xml:lang="de">Ton</skos:altLabel>
         <skos:altLabel xml:lang="la">lapis cretaceus</skos:altLabel>
@@ -264,6 +269,7 @@
         <skos:prefLabel xml:lang="la">argentum</skos:prefLabel>
         <skos:altLabel xml:lang="fr">argent</skos:altLabel>
         <skos:altLabel xml:lang="es">argento</skos:altLabel>
+        <skos:altLabel xml:lang="it">argento</skos:altLabel>
         <skos:altLabel xml:lang="hu">ezüst</skos:altLabel>
         <skos:altLabel xml:lang="tr">gümüş</skos:altLabel>
         <skos:altLabel xml:lang="fi">hopea</skos:altLabel>
@@ -320,6 +326,7 @@
         <skos:prefLabel xml:lang="de">Basalt</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Basalte</skos:altLabel>
         <skos:altLabel xml:lang="es">Basalto</skos:altLabel>
+        <skos:altLabel xml:lang="it">Basalto</skos:altLabel>
         <skos:altLabel xml:lang="hu">Bazalt</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/14"/>
@@ -360,6 +367,7 @@
         <skos:altLabel xml:lang="es">Ambar</skos:altLabel>
         <skos:altLabel xml:lang="en">amber</skos:altLabel>
         <skos:altLabel xml:lang="fr">Ambre</skos:altLabel>
+        <skos:altLabel xml:lang="it">Ambra</skos:altLabel>
         <skos:altLabel xml:lang="hu">borostyánkő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/118"/>
@@ -375,6 +383,7 @@
         <skos:altLabel xml:lang="hu">habkő</skos:altLabel>
         <skos:altLabel xml:lang="es">Piedra pómez</skos:altLabel>
         <skos:altLabel xml:lang="fr">Pierre ponce</skos:altLabel>
+        <skos:altLabel xml:lang="it">Pietra pomice</skos:altLabel>
         <skos:altLabel xml:lang="en">pumice</skos:altLabel>
         <skos:altLabel xml:lang="la">pumex</skos:altLabel>
         <skos:altLabel xml:lang="en">pumicestone</skos:altLabel>
@@ -413,6 +422,7 @@
         <skos:altLabel xml:lang="es">Hueso</skos:altLabel>
         <skos:altLabel xml:lang="de">Knochen</skos:altLabel>
         <skos:altLabel xml:lang="fr">Os</skos:altLabel>
+        <skos:altLabel xml:lang="it">Osso</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
@@ -592,6 +602,7 @@
         <skos:altLabel xml:lang="es">teracota</skos:altLabel>
         <skos:altLabel xml:lang="hr">terakota</skos:altLabel>
         <skos:altLabel xml:lang="it">terracotta</skos:altLabel>
+        <skos:altLabel xml:lang="it">creta</skos:altLabel>
         <skos:altLabel xml:lang="fi">terrakotta</skos:altLabel>
         <skos:altLabel xml:lang="fr">terre cuite</skos:altLabel>
         <skos:altLabel xml:lang="fr">Céramique</skos:altLabel>
@@ -715,6 +726,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/288">
         <skos:prefLabel xml:lang="de">Edelstein</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Pietra preziosa</skos:altLabel>
         <skos:altLabel xml:lang="hu">drágakő</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/1"/>
@@ -739,6 +751,7 @@
         <skos:prefLabel xml:lang="de">Elfenbein</skos:prefLabel>
         <skos:altLabel xml:lang="hu">elefántcsont</skos:altLabel>
         <skos:altLabel xml:lang="fr">Ivoire</skos:altLabel>
+        <skos:altLabel xml:lang="it">Avorio</skos:altLabel>
         <skos:altLabel xml:lang="en">Ivory</skos:altLabel>
         <skos:altLabel xml:lang="es">Marfil</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -859,6 +872,7 @@
         <skos:altLabel xml:lang="es">Gabro</skos:altLabel>
         <skos:altLabel xml:lang="de">Serpentin</skos:altLabel>
         <skos:altLabel xml:lang="it">(meta)gabbro</skos:altLabel>
+        <skos:altLabel xml:lang="it">gabbro</skos:altLabel>
         <skos:altLabel xml:lang="it">gabbro dioritico</skos:altLabel>
         <skos:altLabel xml:lang="it">granito verde della sedia di San Lorenzo</skos:altLabel>
         <skos:altLabel xml:lang="it">granito verde della sedia di San Pietro</skos:altLabel>
@@ -991,6 +1005,7 @@
         <skos:altLabel xml:lang="es">Granito</skos:altLabel>
         <skos:altLabel xml:lang="en">red Egyptian granite</skos:altLabel>
         <skos:altLabel xml:lang="en">grey granite</skos:altLabel>
+        <skos:altLabel xml:lang="it">granito</skos:altLabel>
         <skos:altLabel xml:lang="it">granito violetto</skos:altLabel>
         <skos:altLabel xml:lang="la">Marmor Claudianum</skos:altLabel>
         <skos:altLabel xml:lang="la">marmor Troadense</skos:altLabel>
@@ -1150,6 +1165,8 @@
         <skos:prefLabel xml:lang="de">Kalksandstein</skos:prefLabel>
         <skos:altLabel xml:lang="la">lapis calcarius</skos:altLabel>
         <skos:altLabel xml:lang="fr">Calcaire</skos:altLabel>
+        <skos:altLabel xml:lang="it">Calcare grigio</skos:altLabel>
+        <skos:altLabel xml:lang="it">Calcare</skos:altLabel>
         <skos:altLabel xml:lang="en">calcareous sandstone</skos:altLabel>
         <skos:altLabel xml:lang="es">Caliza</skos:altLabel>
         <skos:altLabel xml:lang="hu">meszes homokkő</skos:altLabel>
@@ -1211,6 +1228,7 @@
         <skos:prefLabel xml:lang="de">Kalkstein/ Alabaster</skos:prefLabel>
         <skos:altLabel xml:lang="de">Alabaster</skos:altLabel>
         <skos:altLabel xml:lang="es">Alabastro</skos:altLabel>
+        <skos:altLabel xml:lang="it">Alabastro</skos:altLabel>
         <skos:altLabel xml:lang="hu">alabástrom</skos:altLabel>
         <skos:altLabel xml:lang="fr">Albâtre</skos:altLabel>
         <skos:altLabel xml:lang="de">Calc-sinter / Alabaster</skos:altLabel>
@@ -1386,8 +1404,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/113">
         <skos:prefLabel xml:lang="de">Kupfer</skos:prefLabel>
         <skos:altLabel xml:lang="es">Cobre</skos:altLabel>
-        <skos:altLabel xml:lang="en">copper</skos:altLabel>
-        <skos:altLabel xml:lang="it">rame</skos:altLabel>
+        <skos:altLabel xml:lang="en">Copper</skos:altLabel>
+        <skos:altLabel xml:lang="it">Rame</skos:altLabel>
         <skos:altLabel xml:lang="hu">vörösréz</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/309"/>
@@ -1631,6 +1649,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/739">
         <skos:prefLabel xml:lang="de">Marmor Chium</skos:prefLabel>
         <skos:altLabel xml:lang="it">marmo Portasanta</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo di Chio</skos:altLabel>
         <skos:altLabel xml:lang="la">marmor Chium</skos:altLabel>
         <skos:note>Bibliography by Anne Glock (CIL): Gnoli, Raniero, Marmora Romana, Rom 1971, 1988
             (mit Abbildungen), 172ff.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom
@@ -1660,7 +1679,9 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/741">
         <skos:prefLabel xml:lang="de">Marmor, hymettischer</skos:prefLabel>
-        <skos:altLabel xml:lang="it">marmo Cipolla, marmo dell'Imetto, marmo Imezio</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo Cipolla</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo dell'Imetto</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo Imezio</skos:altLabel>
         <skos:altLabel xml:lang="la">marmor Hymettium</skos:altLabel>
         <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie,
             Leipzig 1884, 29f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen),
@@ -1692,6 +1713,7 @@
         <skos:prefLabel xml:lang="de">Marmor, parischer</skos:prefLabel>
         <skos:altLabel xml:lang="la">marmor Parium</skos:altLabel>
         <skos:altLabel xml:lang="it">marmo Pario</skos:altLabel>
+        <skos:altLabel xml:lang="it">Marmo di Paro</skos:altLabel>
         <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie,
             Leipzig 1884, 31ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen),
             261f.; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 37; Mielsch,
@@ -1705,6 +1727,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/744">
         <skos:prefLabel xml:lang="de">Marmor, phrygischer</skos:prefLabel>
         <skos:altLabel xml:lang="en">brecciated marble</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo frigio</skos:altLabel>
         <skos:altLabel xml:lang="la">marmor Docimenium</skos:altLabel>
         <skos:altLabel xml:lang="la">marmor Synnadicum</skos:altLabel>
         <skos:altLabel xml:lang="la">marmor Phrygium</skos:altLabel>
@@ -1744,6 +1767,7 @@
         <skos:altLabel xml:lang="en">brecciated marble</skos:altLabel>
         <skos:altLabel xml:lang="la">marmor Scyreticum</skos:altLabel>
         <skos:altLabel xml:lang="it">breccia di Sciro</skos:altLabel>
+        <skos:altLabel xml:lang="it">Marmo di Sciro</skos:altLabel>
         <skos:altLabel xml:lang="it">breccia di Settebassi</skos:altLabel>
         <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie,
             Leipzig 1884, 49; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen),
@@ -1757,6 +1781,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/747">
         <skos:prefLabel xml:lang="de">Marmor, taenarischer (rot)</skos:prefLabel>
         <skos:altLabel xml:lang="la">marmor Taenarium</skos:altLabel>
+        <skos:altLabel xml:lang="it">Marmo di Tenaro rosso</skos:altLabel>
         <skos:altLabel xml:lang="it">marmo rosso antico</skos:altLabel>
         <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie,
             Leipzig 1884, 43 und 47f.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit
@@ -1771,6 +1796,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/748">
         <skos:prefLabel xml:lang="de">Marmor, taenarischer (schwarz)</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Marmo di Tenaro nero</skos:altLabel>
         <skos:altLabel xml:lang="la">marmor Taenarium nigrum</skos:altLabel>
         <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie,
             Leipzig 1884, 42ff.; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin,
@@ -1781,7 +1807,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/749">
         <skos:prefLabel xml:lang="de">Marmor von Thassos</skos:prefLabel>
         <skos:altLabel xml:lang="la">marmor Thasium</skos:altLabel>
-        <skos:altLabel xml:lang="it">marmo di Taso</skos:altLabel>
+        <skos:altLabel xml:lang="it">Marmo di Taso</skos:altLabel>
         <skos:note>Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 35f.; Gnoli, Raniero,
             Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 262; Ginouvès René et Martin Roland,
             Dictionnaire méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im
@@ -1812,6 +1838,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/49">
         <skos:prefLabel xml:lang="de">Marmor, weiß</skos:prefLabel>
+        <skos:altLabel xml:lang="it">marmo bianco</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/50"/>
         <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/362"/>
@@ -1859,7 +1886,8 @@
         <skos:prefLabel xml:lang="en">White Pentelic marble</skos:prefLabel>
         <skos:altLabel xml:lang="de">Marmor, pentelischer</skos:altLabel>
         <skos:altLabel xml:lang="la"> marmor Pentelicum</skos:altLabel>
-        <skos:altLabel xml:lang="it">marmo Pentelico</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo pentelico</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo bianco pentelico</skos:altLabel>
         <skos:note>Bibliography by Anne Glock (CIL): Blümner, Hugo, Terminologie und Technologie,
             Leipzig 1884, 28; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 263;
             Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit
@@ -1872,6 +1900,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/648">
         <skos:prefLabel xml:lang="en">Cipollino</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Cipollino</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
@@ -1925,6 +1954,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/359">
         <skos:prefLabel xml:lang="en">Numidian marble</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Marmo numidico</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
@@ -1933,6 +1963,8 @@
         <skos:prefLabel xml:lang="en">grey-flecked, white marble</skos:prefLabel>
         <skos:altLabel xml:lang="en">grey-flecked white</skos:altLabel>
         <skos:altLabel xml:lang="en">grey-flecked</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo grigio</skos:altLabel>
+        <skos:altLabel xml:lang="it">marmo di Caristo</skos:altLabel>
         <skos:altLabel xml:lang="fr">Marbre blanc à veines grises</skos:altLabel>
         <skos:altLabel xml:lang="en">grey and white marble</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -1984,6 +2016,7 @@
 
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/353">
         <skos:prefLabel xml:lang="fr">Marbre de Prokonnesos</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Marmo di Proconneso</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/48"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
@@ -2015,6 +2048,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/114">
         <skos:prefLabel xml:lang="de">Messing</skos:prefLabel>
         <skos:altLabel xml:lang="en">brass</skos:altLabel>
+        <skos:altLabel xml:lang="it">Ottone</skos:altLabel>
         <skos:altLabel xml:lang="es">Latón</skos:altLabel>
         <skos:altLabel xml:lang="hu">sárgaréz</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
@@ -2031,6 +2065,7 @@
         <skos:altLabel xml:lang="hu">fém</skos:altLabel>
         <skos:altLabel xml:lang="es">Metales</skos:altLabel>
         <skos:altLabel xml:lang="de">Metalle</skos:altLabel>
+        <skos:altLabel xml:lang="it">Metallo</skos:altLabel>
         <skos:altLabel xml:lang="fr">Métaux</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/material/lod/644"/>
@@ -2190,6 +2225,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/20">
         <skos:prefLabel xml:lang="en">Obsidian</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Ossidiana</skos:altLabel>
         <skos:altLabel xml:lang="hu">obszidián</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/19"/>
@@ -2245,6 +2281,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/129">
         <skos:prefLabel xml:lang="la">opus latericium</skos:prefLabel>
+        <skos:altLabel xml:lang="it">laterizio</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/118"/>
         <dct:created>2013-08-26 16:54:50</dct:created>
@@ -2455,6 +2492,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/104">
         <skos:prefLabel xml:lang="fr">Quazt</skos:prefLabel>
         <skos:altLabel xml:lang="es">Cuarzo</skos:altLabel>
+        <skos:altLabel xml:lang="it">Quarzo</skos:altLabel>
         <skos:altLabel xml:lang="en">quartz-sandstone</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/103"/>
@@ -2495,6 +2533,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/1">
         <skos:prefLabel xml:lang="en">Rock</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Pietra</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/2"/>
         <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/3"/>
@@ -2510,6 +2549,7 @@
         <skos:altLabel xml:lang="es">Arenisca</skos:altLabel>
         <skos:altLabel xml:lang="fr">Grès</skos:altLabel>
         <skos:altLabel xml:lang="hu">homokkő</skos:altLabel>
+        <skos:altLabel xml:lang="it">arenaria</skos:altLabel>
         <skos:altLabel xml:lang="en">sandstone</skos:altLabel>
         <skos:altLabel xml:lang="en">brown sand-stone</skos:altLabel>
         <skos:altLabel xml:lang="en">green sandstone</skos:altLabel>
@@ -2610,6 +2650,7 @@
         <skos:altLabel xml:lang="hu">Salak</skos:altLabel>
         <skos:altLabel xml:lang="de">Schillkalk</skos:altLabel>
         <skos:altLabel xml:lang="fr">Schiste</skos:altLabel>
+        <skos:altLabel xml:lang="it">Scisto</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/28"/>
         <skos:exactMatch>
@@ -2794,6 +2835,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/13">
         <skos:prefLabel xml:lang="de">Syenit</skos:prefLabel>
         <skos:altLabel xml:lang="es">Sienita</skos:altLabel>
+        <skos:altLabel xml:lang="it">Sienite</skos:altLabel>
         <skos:altLabel xml:lang="fr">Syenite</skos:altLabel>
         <skos:altLabel xml:lang="en">szienit</skos:altLabel>
         <skos:altLabel xml:lang="de">Hornblendegranit</skos:altLabel>
@@ -2853,6 +2895,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/material/lod/132">
         <skos:prefLabel xml:lang="es">Terra sigillata</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Terra sigillata</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
@@ -2866,6 +2909,7 @@
         <skos:prefLabel xml:lang="de">Tonschiefer</skos:prefLabel>
         <skos:altLabel xml:lang="hu">agyagpala</skos:altLabel>
         <skos:altLabel xml:lang="fr">Ardoise</skos:altLabel>
+        <skos:altLabel xml:lang="it">Ardesia</skos:altLabel>
         <skos:altLabel xml:lang="es">Pizarra</skos:altLabel>
         <skos:altLabel xml:lang="en">Slate</skos:altLabel>
         <skos:altLabel xml:lang="la">lapis sectilis cineraceus</skos:altLabel>
@@ -2895,6 +2939,7 @@
         <skos:prefLabel xml:lang="fr">Trachyte</skos:prefLabel>
         <skos:altLabel xml:lang="de">Trachyt</skos:altLabel>
         <skos:altLabel xml:lang="en">Trachyte</skos:altLabel>
+        <skos:altLabel xml:lang="it">Trachite</skos:altLabel>
         <skos:altLabel xml:lang="es">Tracita</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/80"/>

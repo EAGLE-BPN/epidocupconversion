@@ -19,6 +19,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/75">
         <skos:prefLabel xml:lang="fr">Acclamation d'éphèbes</skos:prefLabel>
         <skos:altLabel xml:lang="es">Aclamación a los efebos</skos:altLabel>
+        <skos:altLabel xml:lang="it">Iscrizione di efebo</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/74"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/73"/>
@@ -37,6 +38,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/51">
         <skos:prefLabel xml:lang="fr">Acte d'affranchissement</skos:prefLabel>
         <skos:altLabel xml:lang="es">Acta de manumisión</skos:altLabel>
+        <skos:altLabel xml:lang="es">Atto di manumissione</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-15 16:53:25</dct:modified>
@@ -127,6 +129,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/115">
         <skos:prefLabel xml:lang="de">Aufschrift</skos:prefLabel>
         <skos:altLabel xml:lang="hu">címke</skos:altLabel>
+        <skos:altLabel xml:lang="it">Epigrafe di artista, firma</skos:altLabel>
         <skos:altLabel xml:lang="es">Firma del artista</skos:altLabel>
         <skos:altLabel xml:lang="en">Sculptor's signature</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
@@ -330,6 +333,7 @@
 
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/375">
         <skos:prefLabel xml:lang="es">Contract</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Diritto privato. Contratto</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2014-10-15 23:52:53</dct:created>
     </skos:Concept>
@@ -357,6 +361,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/59">
         <skos:prefLabel xml:lang="fr">Contrat d’arbitrage</skos:prefLabel>
         <skos:altLabel xml:lang="es">Contrato de arbitraje</skos:altLabel>
+        <skos:altLabel xml:lang="it">Arbitrato</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 13:57:43</dct:modified>
@@ -464,6 +469,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/83">
         <skos:prefLabel xml:lang="fr">Dédicace votive</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Dedica votiva</skos:altLabel>
         <skos:altLabel xml:lang="es">Dedicatoria votiva</skos:altLabel>
         <skos:altLabel xml:lang="en">Votive</skos:altLabel>
         <skos:altLabel xml:lang="en">votive inscription</skos:altLabel>
@@ -471,6 +477,8 @@
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/88"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/372"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/80"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/407"/>
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/408"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:22:35</dct:modified>
     </skos:Concept>
@@ -516,6 +524,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/11">
         <skos:prefLabel xml:lang="fr">Donation</skos:prefLabel>
         <skos:altLabel xml:lang="es">Donación</skos:altLabel>
+        <skos:altLabel xml:lang="it">Diritto privato. Donazione</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 12:05:37</dct:modified>
@@ -525,6 +534,7 @@
         <skos:altLabel xml:lang="es">Donación testamentaria</skos:altLabel>
         <skos:altLabel xml:lang="en">Testamentary</skos:altLabel>
         <skos:altLabel xml:lang="en">Testament</skos:altLabel>
+        <skos:altLabel xml:lang="it">Diritto privato. Testamento</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 14:00:10</dct:modified>
@@ -537,6 +547,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/22">
         <skos:prefLabel xml:lang="fr">Édit</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Editto</skos:altLabel>
         <skos:altLabel xml:lang="es">Edicto</skos:altLabel>
         <skos:altLabel xml:lang="en">Edict</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
@@ -547,11 +558,14 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/70">
         <skos:prefLabel xml:lang="la">Elogium</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Dedica onoraria pubblica</skos:altLabel>
         <skos:altLabel xml:lang="es">Homenaje</skos:altLabel>
         <skos:scopeNote xml:lang="de">HD002919</skos:scopeNote>
         <skos:scopeNote xml:lang="es">HEpOnline 9</skos:scopeNote>
         <skos:scopeNote xml:lang="de">Ehrung im Nominativ mit Tatenkatalog (vgl. dagegen Beischrift,
             Ehreninschrift).</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">"offerte a nome di città, di gruppi (magistrati, soldati, associazioni); da singoli individui con funzione 'pubblica': comandanti, magistrati.
+            "</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/72"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/69"/>
@@ -614,8 +628,14 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/1">
         <skos:prefLabel xml:lang="la">Fasti, Leges, Acta</skos:prefLabel>
-        <skos:altLabel xml:lang="it">Calendario, elenco di magistrati, legge, senatoconsulto,
-            costituzione imperiale, editto, decreto, atti di collegio</skos:altLabel>
+        <skos:altLabel xml:lang="it">Calendario</skos:altLabel>        
+      <skos:altLabel xml:lang="it">elenco di magistrati</skos:altLabel>
+        <skos:altLabel xml:lang="it">legge</skos:altLabel>
+        <skos:altLabel xml:lang="it">senatoconsulto</skos:altLabel>
+        <skos:altLabel xml:lang="it">costituzione imperiale</skos:altLabel>
+        <skos:altLabel xml:lang="it">editto</skos:altLabel>
+        <skos:altLabel xml:lang="it">decreto</skos:altLabel>
+        <skos:altLabel xml:lang="it">atti di collegio</skos:altLabel>
         <skos:altLabel xml:lang="de">Fasten / Verzeichnisse,</skos:altLabel>
         <skos:altLabel xml:lang="fr">Fastes, lois, actes</skos:altLabel>
         <skos:altLabel xml:lang="de">Gesetze, Akten</skos:altLabel>
@@ -698,6 +718,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/137">
         <skos:prefLabel xml:lang="es">Glande, chumbo</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Instrumentum publicum, ghianda missile</skos:altLabel>
         <skos:scopeNote xml:lang="es">HEpOnline 3742</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
@@ -781,6 +802,7 @@
         <skos:altLabel xml:lang="en">inscription honorifique</skos:altLabel>
         <skos:altLabel xml:lang="fr">inscription honorifique</skos:altLabel>
         <skos:altLabel xml:lang="it">iscrizione onoraria</skos:altLabel>
+        <skos:altLabel xml:lang="it">dedica onoraria</skos:altLabel>
         <skos:altLabel xml:lang="la">titulus honorarius</skos:altLabel>
         <skos:altLabel xml:lang="el">τιμητική επιγραφη</skos:altLabel>
         <skos:altLabel xml:lang="ar">فخري</skos:altLabel>
@@ -792,6 +814,7 @@
             and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:scopeNote xml:lang="de">Ehrung im Dativ (vgl. dagegen Beischrift,
             Elogium).</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">iscrizioni che tributano doni o/o onori a esseri umani (a differenza delle dediche votive, rivolte agli dei).</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD000450</skos:scopeNote>
         <skos:scopeNote xml:lang="la">EDR079521</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
@@ -880,6 +903,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/66">
         <skos:prefLabel xml:lang="fr">Inventaire de production</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Inventario</skos:altLabel>
         <skos:altLabel xml:lang="es">Registro de producción</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
@@ -926,6 +950,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/71">
         <skos:prefLabel xml:lang="de">Kommemorativinschrift</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Titulus memorialis</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 14:15:14</dct:modified>
@@ -935,6 +960,7 @@
         <skos:altLabel xml:lang="en">legal text</skos:altLabel>
         <skos:altLabel xml:lang="en">Law / legal text</skos:altLabel>
         <skos:altLabel xml:lang="en">regulation</skos:altLabel>
+        <skos:altLabel xml:lang="it">Legge</skos:altLabel>
         <skos:altLabel xml:lang="de">Gesetz</skos:altLabel>
         <skos:altLabel xml:lang="es">Ley</skos:altLabel>
         <skos:altLabel xml:lang="es">Ley / jurídica</skos:altLabel>
@@ -1010,6 +1036,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/33">
         <skos:prefLabel xml:lang="fr">Liste de prêtres</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Catalogo di sacerdoti e loro collaboratori</skos:altLabel>
         <skos:altLabel xml:lang="es">Lista de sacerdotes</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/108"/>
@@ -1059,6 +1086,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/10">
         <skos:prefLabel xml:lang="fr">Loi sacrée</skos:prefLabel>
         <skos:altLabel xml:lang="es">Ley sacra</skos:altLabel>
+      <skos:altLabel xml:lang="it">Legge sacra</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/4"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
@@ -1272,6 +1300,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/5">
         <skos:prefLabel xml:lang="de">Rechtliche Verfügung, öffentlich</skos:prefLabel>
         <skos:altLabel xml:lang="en">Public legal inscription</skos:altLabel>
+        <skos:altLabel xml:lang="it">Rendiconto</skos:altLabel>
         <skos:scopeNote xml:lang="de"> Seitens einer Institution oder einer Person in ihrer
             fentlichen Funktion. Auch Vertre und Vereinbarungen. </skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD033614</skos:scopeNote>
@@ -1348,6 +1377,7 @@
         <skos:altLabel xml:lang="en">statue dedication</skos:altLabel>
         <skos:altLabel xml:lang="es">inscripción religiosa</skos:altLabel>
         <skos:altLabel xml:lang="en">religious</skos:altLabel>
+        <skos:altLabel xml:lang="it">Inno sacro</skos:altLabel>
         <skos:altLabel xml:lang="en">texte religieux</skos:altLabel>
         <skos:altLabel xml:lang="fr">texte religieux</skos:altLabel>
         <skos:altLabel xml:lang="el">θρησκευτική, λατρευτική</skos:altLabel>
@@ -1387,6 +1417,9 @@
         <skos:prefLabel xml:lang="la">Sepulcralis</skos:prefLabel>
         <skos:altLabel xml:lang="en">Epitaph</skos:altLabel>
         <skos:altLabel xml:lang="en">funerary</skos:altLabel>
+        <skos:altLabel xml:lang="it">epigrafe sepolcrale</skos:altLabel>
+        <skos:altLabel xml:lang="it">epigrafe sepolcrale pubblica</skos:altLabel>
+        <skos:altLabel xml:lang="it">epigrafe sepolcrale privata</skos:altLabel>
         <skos:altLabel xml:lang="en">funerary inscription</skos:altLabel>
         <skos:altLabel xml:lang="en">Funerary verse</skos:altLabel>
         <skos:altLabel xml:lang="en">Gladiator memorial</skos:altLabel>
@@ -1402,6 +1435,7 @@
         <skos:scopeNote xml:lang="la">EDR000008</skos:scopeNote>
         <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2
             and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Sono anch'esse epigrafi dedicatorie, ma si rivolgono né a dei né a viventi, ma ai defunti. L'onore della sepoltura può essere a cura dello stato, o di uno degli organismi (ad esempio la tribù) che dello stato fanno parte.  </skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/93"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/354"/>
@@ -1477,8 +1511,9 @@
         <skos:altLabel xml:lang="en">boundary text</skos:altLabel>
         <skos:altLabel xml:lang="en">boundary</skos:altLabel>
         <skos:altLabel xml:lang="la">cippus</skos:altLabel>
-        <skos:altLabel xml:lang="it">cippo terminale, cippo di centuriazione,
-            miliario</skos:altLabel>
+        <skos:altLabel xml:lang="it">cippo terminale</skos:altLabel>
+        <skos:altLabel xml:lang="it">cippo di centuriazione</skos:altLabel>
+        <skos:altLabel xml:lang="it">miliario</skos:altLabel>
         <skos:altLabel xml:lang="hu">határjelölő felirat</skos:altLabel>
         <skos:altLabel xml:lang="el">οριοθετική επιγραφή</skos:altLabel>
         <skos:altLabel xml:lang="ar">نص الحدود ، وحجر الميل</skos:altLabel>
@@ -1744,7 +1779,12 @@
     </skos:Concept>
     
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/402">
-        <skos:prefLabel xml:lang="en">Letter</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Lettera</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Epistola</skos:altLabel>
+        <skos:altLabel xml:lang="it">Epistola ufficiale</skos:altLabel>
+        <skos:altLabel xml:lang="it">Epistola privata</skos:altLabel>
+        <skos:altLabel xml:lang="en">Letter</skos:altLabel>
+        <skos:scopeNote xml:lang="it">Rispetto all'epistola privata: conta l'entità che emette, solitamente un sovrano</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2014-10-18 00:06:27</dct:created>
     </skos:Concept>
@@ -1815,6 +1855,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/400">
         <skos:prefLabel xml:lang="en">Foundation</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Fondazione</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2014-10-18 00:06:27</dct:created>
     </skos:Concept>
@@ -1844,4 +1885,215 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 14:32:23</dct:modified>
     </skos:Concept>
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/406">
+        <skos:prefLabel xml:lang="it">Diagramma</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">editto del sovrano, in età ellenistica</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/407">
+        <skos:prefLabel xml:lang="it">Dedica votiva, coregica</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Guarducci II 176-188 le distingue dalle altre dediche pubbliche: perché espressione di una specifica istituzione greca, la coregia, e legate a fenomeni altrettanto tipici del mondo greco, l’organizzazione di agoni pubblici. Anche i testi hanno una speciale organizzazione, che varia leggermente nel tempo, e sono spesso legati ad una specifica tipologia di offerta.</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/83"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/408">
+        <skos:prefLabel xml:lang="it">Dedica votiva pubblica</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Guarducci II 127-147: dotata di ‘carattere ufficiale’: accompagna spesso offerte più rilevanti, è promossa da sovrani/magistrati/comunità/collettività di magistrati, soldati associazioni varie.</skos:scopeNote>        
+      <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        
+        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/83"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/409">
+        <skos:prefLabel xml:lang="it">Giuramento</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">la formula di giuramento può comparire anche in altre tipologie (decreto etc.), ma talvolta è l'unico contenuto sopravvissuto</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/410">
+        <skos:prefLabel xml:lang="it">Rendiconto di magistrati</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Possono o meno contenere inventari, essere straordinari o periodici; sono redatti da collegi di magistrati, o da commissioni elette allo scopo (Guarducci II, 189-190)</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/411">
+        <skos:prefLabel xml:lang="it">Rendiconto di soprastanti alle opere pubbliche</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Più specifico del Rendiconto di magistrati, si limita ai rendiconti presentati dagli epistati in Atene, per i lavori pubblici; anche logisti, poleti, curatori della flotta; ellenotami con le liste delle sessagesime dei tributi (benché possa esserci dubbio, si tratta di somme destinate alla divinità); </skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/413">
+        <skos:prefLabel xml:lang="it">Rendiconto di tesorieri e curatori di santuari</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Rendiconti redatti da tesorieri che hanno in custodia i beni di santuari, e rendono conto di quanto ricevono, prestano etc.</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/412">
+        <skos:prefLabel xml:lang="it">Lista di tributi</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/414">
+        <skos:prefLabel xml:lang="it">Inventario della pubblica amministrazione</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">inventari (spesso sono presenti nei rendiconti, ma possono sussistere anche autonomamente) sono elenchi di oggetti o beni posti sotto la responsabilità di singoli magistrati, o di collegi, che ne registrano entrate e uscite.</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/415">
+        <skos:prefLabel xml:lang="it">Catalogo di magistrati e altri funzionari pubblici</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">specializzazione della categoria Catalogo di Magistrati, per includere tipologie varie di magistrati, eponimi o meno, eletti o altrimenti designati (compresi giudici, anche le donne che tessono il peplo della dea ad Atene etc) (Guarducci II 335-336)</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/416">
+        <skos:prefLabel xml:lang="it">Catalogo di prosseni</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Non si tratta propriamente né di magistrati né in senso ampio di 'ufficiali', ma di autorevoli esponenti di una città scelti autonomamente da una polis straniera per rappresentare i suoi interessi. Si tratta comunque sempre di cataloghi.</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/417">
+        <skos:prefLabel xml:lang="it">Catalogo di teorodochi</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Si tratta di magistrati ma peculiari nel mondo antico, e con compiti che coinvolgono l'ospitalità -nella propria casa- e l'assistenza all'interno del loro paese ai teori, inviati dalle varie città in rappresentanza per le varie feste. Variano anche per disposizione e combinazione dei contenuti Guarducci II 350-351</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/418">
+        <skos:prefLabel xml:lang="it">Catalogo di partecipanti agli agoni pubblici</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">L'occasione e il contesto determinano questa tipologia, non tanto la forma del documento (che comunque presenta peculiarità e variazioni): sono liste di partecipanti ai vari agoni, con indicazione di circostanze, premi e simili (Guarducci II 358-380)</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/419">
+        <skos:prefLabel xml:lang="it">Catalogo di efebi</skos:prefLabel>
+        <skos:scopeNote xml:lang="it">Liste redatte dal demo, sottoposte a revisione e approvazione da parte del consiglio, e quindi pubblicate, datate con l'arconte eponimo (Guarducci II, 383-384)</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/420">
+        <skos:prefLabel xml:lang="it">Trattato</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/421">
+        <skos:prefLabel xml:lang="it">Dedica votiva privata</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/422">
+        <skos:prefLabel xml:lang="it">Dedica onoraria privata</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/423">
+        <skos:prefLabel xml:lang="it">Proscìnema</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/424">
+        <skos:prefLabel xml:lang="it">Benedizione</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/425">
+        <skos:prefLabel xml:lang="it">Cippo terminale (horos) privato</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/426">
+        <skos:prefLabel xml:lang="it">Iscrizione di scolaro</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/427">
+        <skos:prefLabel xml:lang="it">Epigrafe di artista, esplicativa</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/428">
+        <skos:prefLabel xml:lang="it">Epigrafe di artista, augurio</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/429">
+        <skos:prefLabel xml:lang="it">Oracolo</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/430">
+        <skos:prefLabel xml:lang="it">Sanatio</skos:prefLabel>
+      <skos:scopeNote xml:lang="it">Lista di guarigioni miracolose</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/431">
+        <skos:prefLabel xml:lang="it">Dedica di sacerdoti</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/432">
+        <skos:prefLabel xml:lang="it">Laminetta 'orfica'</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-06-30 00:06:27</dct:created>
+    </skos:Concept>    
+    
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/433">
+        <skos:prefLabel xml:lang="it">Iscrizione di efebo</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-07-09 00:10:27</dct:created>
+    </skos:Concept>    
+
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/434">
+        <skos:prefLabel xml:lang="it">Ara (maledizione)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
+        <dct:created>2015-07-09 00:10:27</dct:created>
+    </skos:Concept>    
+
 </rdf:RDF>

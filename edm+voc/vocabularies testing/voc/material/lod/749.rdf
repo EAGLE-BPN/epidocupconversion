@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:resource="http://www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-03-17+01:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-03-17+01:00</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-07-09+02:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-07-09+02:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -19,7 +19,7 @@
                  rdf:about="http://www.eagle-network.eu/voc/material/lod/749">
         <skos:prefLabel xml:lang="de">Marmor von Thassos</skos:prefLabel>
         <skos:altLabel xml:lang="la">marmor Thasium</skos:altLabel>
-        <skos:altLabel xml:lang="it">marmo di Taso</skos:altLabel>
+        <skos:altLabel xml:lang="it">Marmo di Taso</skos:altLabel>
         <skos:note>Blümner, Hugo, Terminologie und Technologie, Leipzig 1884, 35f.; Gnoli, Raniero,
             Marmora Romana, Rom 1971, 1988 (mit Abbildungen), 262; Ginouvès René et Martin Roland,
             Dictionnaire méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im

@@ -46,7 +46,12 @@
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		    <dct:created>2014-03-12 11:08:44</dct:created>
 	  </skos:Concept>
-	
+	  <!--<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/4">
+		<skos:prefLabel xml:lang="en">after</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/1"/>
+		<dct:created>2013-08-21 08:52:19</dct:created>
+	</skos:Concept>-->
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/9">
 		    <skos:prefLabel xml:lang="el">Akrotiri-Aetokremmos</skos:prefLabel>
 		    <skos:scopeNote>-9999 ; -9001</skos:scopeNote>
@@ -237,7 +242,12 @@
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		    <dct:created>2014-03-12 11:02:24</dct:created>
 	  </skos:Concept>
-	
+	  <!--<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/3">
+		<skos:prefLabel xml:lang="en">before</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/1"/>
+		<dct:created>2013-08-21 08:52:19</dct:created>
+	</skos:Concept>-->
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/138">
 		    <skos:prefLabel xml:lang="es">Caligula</skos:prefLabel>
 		    <skos:scopeNote xml:lang="de">18. März 37 - 24. Jan. 41</skos:scopeNote>
@@ -439,7 +449,17 @@
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		    <dct:created>2013-08-21 08:54:24</dct:created>
 	  </skos:Concept>
-	
+	  <!--<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/1">
+		<skos:prefLabel xml:lang="en">date suggested</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/4"/>
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/3"/>
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/2"/>
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/7"/>
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/5"/>
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/6"/>
+		<dct:created>2013-08-21 08:51:57</dct:created>
+	</skos:Concept>-->
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/36">
 		    <skos:prefLabel xml:lang="es">Decio</skos:prefLabel>
 		    <skos:scopeNote xml:lang="de">Sept./Okt. 249 - Juni 251</skos:scopeNote>
@@ -504,6 +524,7 @@
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/13">
 		    <skos:prefLabel xml:lang="en">Early Bronze Age</skos:prefLabel>
       <skos:scopeNote/>
+      <!--CHECK-->
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		    <dct:created>2013-08-21 08:52:57</dct:created>
@@ -527,7 +548,12 @@
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		    <dct:created>2014-03-12 10:05:59</dct:created>
 	  </skos:Concept>
-	
+	  <!--<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/2">
+		<skos:prefLabel xml:lang="en">exact</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/1"/>
+		<dct:created>2013-08-21 08:52:19</dct:created>
+	</skos:Concept>-->
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/38">
 		    <skos:prefLabel xml:lang="es">Filipo el Árabe</skos:prefLabel>
 		    <skos:scopeNote xml:lang="de">Anf. 244 - Sept./Okt. 249</skos:scopeNote>
@@ -566,6 +592,7 @@
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/57">
 		    <skos:prefLabel xml:lang="de">Frühmittelalterlich</skos:prefLabel>
 		    <skos:scopeNote/>
+      <!--CHECK-->
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		    <dct:created>2013-08-21 08:54:24</dct:created>
@@ -609,6 +636,7 @@
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/16">
 		    <skos:prefLabel xml:lang="en">Geometric</skos:prefLabel>
 		    <skos:scopeNote/>
+      <!--CHECK-->
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		    <dct:created>2013-08-21 08:52:57</dct:created>
@@ -877,6 +905,7 @@
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/14">
 		    <skos:prefLabel xml:lang="en">Middle Bronze Age</skos:prefLabel>
 		    <skos:scopeNote/>
+      <!--CHECK-->
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		    <dct:created>2013-08-21 08:52:57</dct:created>
@@ -909,7 +938,12 @@
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		    <dct:created>2013-08-21 08:54:24</dct:created>
 	  </skos:Concept>
-	
+	  <!--<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/7">
+		<skos:prefLabel xml:lang="en">not earlier than</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/1"/>
+		<dct:created>2013-08-21 08:52:19</dct:created>
+	</skos:Concept>-->
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/50">
 		    <skos:prefLabel xml:lang="de">Numeriano</skos:prefLabel>
 		    <skos:scopeNote xml:lang="de">Juli/Aug. [?] 283 - Nov. 284</skos:scopeNote>
@@ -985,6 +1019,7 @@
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/67">
 		    <skos:prefLabel xml:lang="de">Prähistorisch</skos:prefLabel>
 		    <skos:scopeNote/>
+      <!--CHECK-->
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		    <dct:created>2013-08-21 08:55:04</dct:created>
@@ -1135,6 +1170,7 @@
 		    <skos:prefLabel xml:lang="en">Roman</skos:prefLabel>
 		    <skos:altLabel xml:lang="he">התקופה הרומית</skos:altLabel>
 		    <skos:scopeNote/>
+      <!--CHECK-->
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		    <dct:created>2013-08-21 08:52:57</dct:created>
@@ -1166,6 +1202,7 @@
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/54">
 		    <skos:prefLabel xml:lang="de">Severisch-Soldatenkaiser</skos:prefLabel>
 		    <skos:scopeNote>0200 ; 0350</skos:scopeNote> 
+      <!--CHECK-->
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/31"/>
 		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/134"/>
@@ -1196,11 +1233,22 @@
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		    <dct:created>2014-03-12 11:54:32</dct:created>
 	  </skos:Concept>
-	
-	
+	  <!--<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/5">
+		<skos:prefLabel xml:lang="en">shortly after</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/1"/>
+		<dct:created>2013-08-21 08:52:19</dct:created>
+	</skos:Concept>-->
+	  <!--<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/6">
+		<skos:prefLabel xml:lang="en">shortly before</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/1"/>
+		<dct:created>2013-08-21 08:52:19</dct:created>
+	</skos:Concept>-->
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/70">
 		    <skos:prefLabel xml:lang="de">spätrepublikanisch</skos:prefLabel>
 		    <skos:scopeNote>-0146 ; -0027</skos:scopeNote>
+      <!--CHECK-->
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		    <dct:created>2013-08-21 08:55:04</dct:created>
@@ -1420,6 +1468,7 @@
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/68">
 		    <skos:prefLabel xml:lang="de">Vorrömisch</skos:prefLabel>
 		    <skos:scopeNote/>
+      <!--CHECK-->
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		    <dct:created>2013-08-21 08:55:04</dct:created>
@@ -1440,30 +1489,55 @@
 		    <skos:prefLabel xml:lang="en">centuries</skos:prefLabel>
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/73"/>
+      <!--VIII BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/85"/>
+      <!--VII BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/86"/>
+      <!--VI BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/87"/>
+      <!--V BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/88"/>
+      <!--IV BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/89"/>
+      <!--III BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/90"/>
+      <!--II BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/91"/>
+      <!--I BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/92"/>
+      <!--I AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/103"/>
+      <!--II AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/114"/>
+      <!--III AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/105"/>
+      <!--IV AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/106"/>
+      <!--V AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/107"/>
+      <!--VI AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/108"/>
+      <!--VII AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/109"/>
-		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/349"/>				
-      <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/348"/>		
+      <!--VIII AD-->
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/349"/>
+      <!--III BC - II BC-->				
+      <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/348"/>
+      <!--I AD - I BC-->		
       <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/100"/>
+      <!--I-II AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/101"/>
+      <!--I-III AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/102"/>
+      <!--I-IV AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/83"/>
+      <!--VIII or VII-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/84"/>
+      <!--VIII-V BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/82"/>
+      <!--VIII-VI BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/81"/>
+      <!--VIII-VII BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/350"/>
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/351"/>
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/352"/>
@@ -1474,7 +1548,7 @@
 
 
 
-
+   <!--VIII BC-->
 
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/73">
 		    <skos:prefLabel xml:lang="en">VIII BC</skos:prefLabel>
@@ -1487,16 +1561,27 @@
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/74"/>
+      <!--beginning of 10-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/200"/>
+      <!--earlier 15-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/201"/>
+      <!--early 25-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/202"/>
+      <!--second quarter of 25-50-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/78"/>
+      <!--first half 0-50-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/76"/>
+      <!--mid 25-75-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/79"/>
+      <!--second half 50-100-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/203"/>
+      <!--third quarter of 75-50-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/77"/>
+      <!--late 75-100-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/204"/>
+      <!--later 85-100-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/205"/>
+      <!--end of 90-100-->
 		    <dct:created>2015-01-15 01:00:00</dct:created>
 	  </skos:Concept>
    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/74">
@@ -1633,7 +1718,7 @@
 		    <dct:created>2015-01-15 01:00:00</dct:created>
 	  </skos:Concept>
 
-
+   <!--VII BC-->
 	
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/85">
 		    <skos:prefLabel xml:lang="en">VII BC</skos:prefLabel>
@@ -1793,7 +1878,7 @@
 	  </skos:Concept>
 
 
-
+   <!--VI BC-->
 	
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/86">
 		    <skos:prefLabel xml:lang="en">VI BC</skos:prefLabel>
@@ -1953,7 +2038,7 @@
 	  </skos:Concept>
 	
 	
-
+   <!--V BC-->
 	
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/87">
 		    <skos:prefLabel xml:lang="en">V BC</skos:prefLabel>
@@ -2113,7 +2198,7 @@
 	
 	
 	
-
+   <!-- IV BC-->
 	
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/88">
 		    <skos:prefLabel xml:lang="en">IV BC</skos:prefLabel>
@@ -2274,7 +2359,7 @@
 	
 	
 
-
+   <!--III BC-->
 
 
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/89">
@@ -2434,7 +2519,7 @@
 	  </skos:Concept>
 	
 	
-
+   <!--II BC-->
 	
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/90">
 		    <skos:prefLabel xml:lang="en">II BC</skos:prefLabel>
@@ -2595,7 +2680,7 @@
 	
 	
 
-
+   <!--I BC-->
 	
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/91">
 		    <skos:prefLabel xml:lang="en">I BC</skos:prefLabel>
@@ -2756,7 +2841,7 @@
 	
 	
 
-
+   <!--I AD-->
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/92">
 		    <skos:prefLabel xml:lang="en">I AD</skos:prefLabel>
 		    <skos:altLabel xml:lang="en">I CE</skos:altLabel>
@@ -2916,7 +3001,7 @@
 	  </skos:Concept>
 
 
-
+   <!--II AD-->
 	
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/103">
 		    <skos:prefLabel xml:lang="en">II AD</skos:prefLabel>
@@ -3075,7 +3160,7 @@
 		    <dct:created>2015-01-15 01:00:00</dct:created>
 	  </skos:Concept>
 
-
+   <!--III AD-->
 
 
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/114">
@@ -3236,7 +3321,7 @@
 	  </skos:Concept>
 
 
-
+   <!--IV AD-->
 	
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/105">
 		    <skos:prefLabel xml:lang="en">IV AD</skos:prefLabel>
@@ -3397,7 +3482,7 @@
 		    <dct:created>2015-01-15 01:00:00</dct:created>
 	  </skos:Concept>
 
-
+   <!--V AD-->
 	
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/106">
 		    <skos:prefLabel xml:lang="en">V AD</skos:prefLabel>
@@ -3558,7 +3643,7 @@
 
 
 
-
+   <!--VI AD-->
 
 
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/107">
@@ -3718,7 +3803,7 @@
 		    <dct:created>2015-01-15 01:00:00</dct:created>
 	  </skos:Concept>
 
-
+   <!--VII AD-->
 
 
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/108">
@@ -3878,7 +3963,7 @@
 		    <dct:created>2015-01-15 01:00:00</dct:created>
 	  </skos:Concept>
 
-
+   <!--VIII AD-->
 
 
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/109">
@@ -4040,7 +4125,11 @@
 
 
 
-
+   <!--
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-->
 
 
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/349">

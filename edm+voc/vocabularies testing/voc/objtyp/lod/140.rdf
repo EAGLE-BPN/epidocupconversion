@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:resource="http://www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-03-17+01:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-03-17+01:00</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-07-09+02:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-07-09+02:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -24,6 +24,9 @@
         <skos:altLabel xml:lang="fr">mobilier, outillage, matériel</skos:altLabel>
         <skos:altLabel xml:lang="fr">instrumentum ( lead ingot )</skos:altLabel>
         <skos:altLabel xml:lang="it">strumento</skos:altLabel>
+        <skos:altLabel xml:lang="it">Epigrafe della casa</skos:altLabel>
+        <skos:altLabel xml:lang="it">Epigrafe degli oggetti domestici</skos:altLabel>
+        <skos:altLabel xml:lang="it">Epigrafe degli oggetti personali</skos:altLabel>
         <skos:altLabel xml:lang="el">εργαλείο</skos:altLabel>
         <skos:altLabel xml:lang="ru">инструмент, орудие</skos:altLabel>
         <skos:altLabel xml:lang="ar">أداء</skos:altLabel>

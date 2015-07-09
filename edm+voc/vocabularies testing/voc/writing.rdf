@@ -312,9 +312,9 @@
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/writing/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/88">
-                <skos:prefLabel xml:lang="de">Geritzt / Graffito</skos:prefLabel>
+                <skos:prefLabel xml:lang="de">Geritzt</skos:prefLabel>
             <skos:altLabel xml:lang="it">Graffito</skos:altLabel>
-                <skos:altLabel xml:lang="de">Geritzt</skos:altLabel>
+                <skos:altLabel xml:lang="de">Geritzt / Graffito</skos:altLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>

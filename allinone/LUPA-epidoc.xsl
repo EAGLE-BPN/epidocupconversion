@@ -17,9 +17,7 @@
 and insert it in a epidoc template compliant with EAGLE definition
     -->
     
-    
-<!--   PROBLEM:
-        FOR SOME REASON I DID NOT UNDERSTAND THIS TRANSFORMATION GENERATES xmlns="" in each <lb> which need to be removed afterwords.-->
+ 
    
     
                 <xsl:output method="text"/>
