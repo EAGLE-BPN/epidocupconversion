@@ -25,6 +25,11 @@
 		    <skos:scopeNote>-9000 ; -5200</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
+		    <skos:exactMatch>
+			      <skos:Concept rdf:about="http://n2t.net/ark:/99152/p0njrb4m4w7">
+				        <skos:prefLabel xml:lang="en">Aceramic Neolithic</skos:prefLabel>
+         </skos:Concept>
+		    </skos:exactMatch>
 		    <dct:created>2013-08-21 08:52:57</dct:created>
 	  </skos:Concept>
 	  <skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/23">

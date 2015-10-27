@@ -16,12 +16,17 @@
 		<skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
 		<skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<skos:hasTopConcept rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
-		</skos:ConceptScheme>
+	</skos:ConceptScheme>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/10">
 		<skos:prefLabel xml:lang="en">Aceramic Neolithic</skos:prefLabel>
 		<skos:scopeNote>-9000 ; -5200</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
+		<skos:exactMatch>
+			<skos:Concept rdf:about="http://n2t.net/ark:/99152/p0njrb4m4w7">
+				<skos:prefLabel xml:lang="en">Aceramic Neolithic</skos:prefLabel>
+			</skos:Concept>
+		</skos:exactMatch>
 		<dct:created>2013-08-21 08:52:57</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/23">
@@ -31,6 +36,11 @@
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/129"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
+		<skos:exactMatch>
+			<skos:Concept rdf:about="http://n2t.net/ark:/99152/p077pzfwxfr">
+				<skos:prefLabel xml:lang="en">Hadrianic</skos:prefLabel>
+			</skos:Concept>
+		</skos:exactMatch>
 		<dct:created>2013-08-21 08:54:24</dct:created>
 		<dct:modified>2014-03-12 09:20:39</dct:modified>
 	</skos:Concept>
@@ -52,14 +62,14 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/9">
 		<skos:prefLabel xml:lang="el">Akrotiri-Aetokremmos</skos:prefLabel>
 		<skos:scopeNote>-9999 ; -9001</skos:scopeNote>
-        		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/24">
 		<skos:prefLabel xml:lang="es">Anarquía (c. 235-284 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0235 ; 0284</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/29"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/36"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/38"/>
@@ -87,7 +97,7 @@
 		<skos:prefLabel xml:lang="es">Antigüedad Tardía (S. IV-VI)</skos:prefLabel>
 		<skos:altLabel xml:lang="en">Late Antiquity</skos:altLabel>
 		<skos:altLabel xml:lang="de">Spätantike</skos:altLabel>
-<skos:scopeNote>0301 ; 0700</skos:scopeNote>
+		<skos:scopeNote>0301 ; 0700</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/181"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/175"/>
@@ -120,7 +130,7 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/52">
 		<skos:prefLabel xml:lang="de">Antoninisch-Severisch</skos:prefLabel>
-<skos:scopeNote>0150 ; 0300</skos:scopeNote>
+		<skos:scopeNote>0150 ; 0300</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/27"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/31"/>
@@ -138,7 +148,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/27">
 		<skos:prefLabel xml:lang="es">Antonino Pío</skos:prefLabel>
 		<skos:scopeNote>0138 ; 0161</skos:scopeNote>
-        		<skos:scopeNote xml:lang="de">10. Juli 138 - 7. März 161</skos:scopeNote>
+		<skos:scopeNote xml:lang="de">10. Juli 138 - 7. März 161</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 134.</skos:note>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/26"/>
@@ -164,14 +174,13 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/17">
 		<skos:prefLabel xml:lang="en">Archaic</skos:prefLabel>
 		<skos:scopeNote>-0750 ; -0480</skos:scopeNote>
-        		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
 	</skos:Concept>
-	
+
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/354">
-		<skos:prefLabel xml:lang="en">Early Ptolemaic Period
-		</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Early Ptolemaic Period </skos:prefLabel>
 		<skos:altLabel xml:lang="he">תקופה התלמית הקדומה</skos:altLabel>
 		<skos:scopeNote>-0323 ; -0031</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -181,7 +190,7 @@
 
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/28">
 		<skos:prefLabel xml:lang="es">Augustea (c. 27 a.C-14 d.C.)</skos:prefLabel>
-        		<skos:scopeNote>-0027 ; -0014</skos:scopeNote>		
+		<skos:scopeNote>-0027 ; -0014</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/136"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
@@ -190,7 +199,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/136">
 		<skos:prefLabel xml:lang="es">Augustus</skos:prefLabel>
 		<skos:scopeNote xml:lang="de">16. Jan. 27 v. Chr. - 19. Aug. 14 n. Chr.</skos:scopeNote>
-<skos:scopeNote>-0027 ; 0014</skos:scopeNote>
+		<skos:scopeNote>-0027 ; 0014</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 61.</skos:note>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/28"/>
@@ -200,7 +209,7 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/29">
 		<skos:prefLabel xml:lang="es">Aureliano</skos:prefLabel>
-       		<skos:scopeNote>0270 ; 0275</skos:scopeNote>
+		<skos:scopeNote>0270 ; 0275</skos:scopeNote>
 		<skos:scopeNote xml:lang="de">Sept. 270 - Sept./Okt. 275</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 234.</skos:note>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -212,7 +221,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/30">
 		<skos:prefLabel xml:lang="es">Bajoimperial (ss. IV- V d.C.)</skos:prefLabel>
 		<skos:scopeNote>0300 ; 0476</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/181"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/175"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/126"/>
@@ -234,7 +243,7 @@
 		<skos:prefLabel xml:lang="es">Balbinus</skos:prefLabel>
 		<skos:scopeNote xml:lang="de">Jan./Febr. [?] - Mai [?] 238</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 193.</skos:note>
-<skos:scopeNote>0238 ; 0238</skos:scopeNote>
+		<skos:scopeNote>0238 ; 0238</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2014-03-12 11:02:24</dct:created>
@@ -257,7 +266,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/31">
 		<skos:prefLabel xml:lang="es">Caracala</skos:prefLabel>
 		<skos:altLabel xml:lang="it">Caracalla</skos:altLabel>
-		<skos:scopeNote>0211 ; 0217</skos:scopeNote>		
+		<skos:scopeNote>0211 ; 0217</skos:scopeNote>
 		<skos:scopeNote xml:lang="de">4. Febr. 211 - 8. April. 217</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 162.</skos:note>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -272,7 +281,7 @@
 		<skos:prefLabel xml:lang="es">Carino (c. 283-285 d.C.)</skos:prefLabel>
 		<skos:scopeNote xml:lang="de">Frjahr 283 - Aug./Sept. 285</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 261.</skos:note>
-        		<skos:scopeNote>0283 ; 0285</skos:scopeNote>
+		<skos:scopeNote>0283 ; 0285</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -290,28 +299,28 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/11">
 		<skos:prefLabel xml:lang="en">Ceramic Neolithic</skos:prefLabel>
 		<skos:scopeNote>-5000 ; -3900</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/12">
 		<skos:prefLabel xml:lang="en">Chalcolithic</skos:prefLabel>
 		<skos:scopeNote>-3900 ; -2500</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/18">
 		<skos:prefLabel xml:lang="en">Classical</skos:prefLabel>
 		<skos:scopeNote>-0480 ; -0310</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/33">
 		<skos:prefLabel xml:lang="es">Claudiana (c. 41-54 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0041 ; 0054</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/139"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -401,7 +410,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/34">
 		<skos:prefLabel xml:lang="es">Constantiniana (c. 307-337 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0307 ; 0337</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/161"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -441,8 +450,8 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/35">
 		<skos:prefLabel xml:lang="es">Cristiana primitiva (S. I-III)</skos:prefLabel>
-        <skos:scopeNote>0001 ; 0300</skos:scopeNote>		
-<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:scopeNote>0001 ; 0300</skos:scopeNote>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
 	</skos:Concept>
@@ -460,8 +469,8 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/36">
 		<skos:prefLabel xml:lang="es">Decio</skos:prefLabel>
 		<skos:scopeNote xml:lang="de">Sept./Okt. 249 - Juni 251</skos:scopeNote>
-<skos:scopeNote>0249 ; 0251</skos:scopeNote>
-        		<skos:scopeNote xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 204.</skos:scopeNote>
+		<skos:scopeNote>0249 ; 0251</skos:scopeNote>
+		<skos:scopeNote xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 204.</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/24"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
@@ -512,7 +521,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/37">
 		<skos:prefLabel xml:lang="es">Domitiana (c. 81-96 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0081 ; 0096</skos:scopeNote>
-                            <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/145"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/39"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
@@ -520,7 +529,8 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/13">
 		<skos:prefLabel xml:lang="en">Early Bronze Age</skos:prefLabel>
-<skos:scopeNote></skos:scopeNote><!--CHECK-->
+		<skos:scopeNote/>
+		<!--CHECK-->
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
@@ -528,7 +538,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/21">
 		<skos:prefLabel xml:lang="en">Early Christian</skos:prefLabel>
 		<skos:scopeNote>0330 ; 0699</skos:scopeNote>
-                            <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
 	</skos:Concept>
@@ -554,8 +564,8 @@
 		<skos:prefLabel xml:lang="es">Filipo el Árabe</skos:prefLabel>
 		<skos:scopeNote xml:lang="de">Anf. 244 - Sept./Okt. 249</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 198.</skos:note>
-                            <skos:scopeNote>0244 ; 0249</skos:scopeNote>
-                            <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:scopeNote>0244 ; 0249</skos:scopeNote>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/24"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -564,7 +574,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/39">
 		<skos:prefLabel xml:lang="es">Flavia (c. 69-96 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0069 ; 0096</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/145"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/37"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/141"/>
@@ -587,7 +597,8 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/57">
 		<skos:prefLabel xml:lang="de">Frühmittelalterlich</skos:prefLabel>
-		<skos:scopeNote></skos:scopeNote><!--CHECK-->
+		<skos:scopeNote/>
+		<!--CHECK-->
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -621,8 +632,8 @@
 		<skos:prefLabel xml:lang="de">Galieno</skos:prefLabel>
 		<skos:scopeNote xml:lang="de">Sept./Okt. 253 - ca. Sept. 268</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 218.</skos:note>
-<skos:scopeNote>0253 ; 0268</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:scopeNote>0253 ; 0268</skos:scopeNote>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/24"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -630,7 +641,8 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/16">
 		<skos:prefLabel xml:lang="en">Geometric</skos:prefLabel>
-		<skos:scopeNote></skos:scopeNote><!--CHECK-->
+		<skos:scopeNote/>
+		<!--CHECK-->
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
@@ -726,7 +738,7 @@
 		<skos:altLabel xml:lang="en">Jovianus</skos:altLabel>
 		<skos:altLabel xml:lang="el">Ἰοβιανός</skos:altLabel>
 		<skos:scopeNote xml:lang="de">27. Juni 363 - 17.Febr. 364</skos:scopeNote>
-		<skos:scopeNote>0363 ; 0364</skos:scopeNote>	
+		<skos:scopeNote>0363 ; 0364</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 326.</skos:note>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
@@ -744,13 +756,13 @@
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/25"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/30"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
-	
+
 		<dct:created>2014-03-12 12:02:20</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/43">
 		<skos:prefLabel xml:lang="es">Julio-Claudia (c. 27 a.C.-68 d.C.)</skos:prefLabel>
 		<skos:scopeNote>-0027 ; 0068</skos:scopeNote>
-                            <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/136"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/139"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/140"/>
@@ -778,7 +790,7 @@
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/25"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/30"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
-		
+
 		<dct:created>2014-03-27 11:13:04</dct:created>
 	</skos:Concept>
 
@@ -793,7 +805,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/15">
 		<skos:prefLabel xml:lang="en">Late Bronze Age</skos:prefLabel>
 		<skos:scopeNote>-1600 ; -1050</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
 	</skos:Concept>
@@ -813,8 +825,8 @@
 		<skos:prefLabel xml:lang="de">Licinio</skos:prefLabel>
 		<skos:scopeNote xml:lang="de">11. Nov. 308 - 19. Sept. 324</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 294.</skos:note>
-<skos:scopeNote>0308 ; 0324</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:scopeNote>0308 ; 0324</skos:scopeNote>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
 		<dct:modified>2014-03-12 11:57:03</dct:modified>
@@ -865,8 +877,8 @@
 		<skos:prefLabel xml:lang="de">Maximiano Hercúleo</skos:prefLabel>
 		<skos:scopeNote xml:lang="de">Okt./Dez. 285 - ca. Juli 310</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 272.</skos:note>
-		<skos:scopeNote>0308 ; 0324</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:scopeNote>0285 ; 0310</skos:scopeNote>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/160"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/159"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/163"/>
@@ -881,7 +893,7 @@
 		<skos:scopeNote xml:lang="de">Febr./März 235 - Mitte April [?] 238</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 183.</skos:note>
 		<skos:scopeNote>0235 ; 0238</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/24"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -898,7 +910,8 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/14">
 		<skos:prefLabel xml:lang="en">Middle Bronze Age</skos:prefLabel>
-		<skos:scopeNote></skos:scopeNote><!--CHECK-->
+		<skos:scopeNote/>
+		<!--CHECK-->
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
@@ -917,7 +930,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/48">
 		<skos:prefLabel xml:lang="es">Neroniana (c. 54-68 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0054 ; 0068</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/140"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -927,7 +940,7 @@
 		<skos:scopeNote xml:lang="de">18.Sept.96-27. [?] Jan.98</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 120.</skos:note>
 		<skos:scopeNote>0096 ; 0098</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
 	</skos:Concept>
@@ -942,7 +955,7 @@
 		<skos:scopeNote xml:lang="de">Juli/Aug. [?] 283 - Nov. 284</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 260.</skos:note>
 		<skos:scopeNote>0283 ; 0284</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/24"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -998,20 +1011,21 @@
 		<skos:scopeNote>0602 ; 0610</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
-		
+
 		<dct:created>2014-03-27 11:29:57</dct:created>
 		<dct:modified>2014-03-27 11:35:17</dct:modified>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/51">
 		<skos:prefLabel xml:lang="es">Póstumo</skos:prefLabel>
 		<skos:scopeNote>0260 ; 0267</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/67">
 		<skos:prefLabel xml:lang="de">Prähistorisch</skos:prefLabel>
-		<skos:scopeNote></skos:scopeNote><!--CHECK-->
+		<skos:scopeNote/>
+		<!--CHECK-->
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:55:04</dct:created>
@@ -1161,7 +1175,8 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/20">
 		<skos:prefLabel xml:lang="en">Roman</skos:prefLabel>
 		<skos:altLabel xml:lang="he">התקופה הרומית</skos:altLabel>
-		<skos:scopeNote></skos:scopeNote><!--CHECK-->
+		<skos:scopeNote/>
+		<!--CHECK-->
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:52:57</dct:created>
@@ -1181,7 +1196,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/53">
 		<skos:prefLabel xml:lang="es">Severiana (c. 193-235 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0193 ; 0235</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/31"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/134"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/133"/>
@@ -1192,7 +1207,8 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/54">
 		<skos:prefLabel xml:lang="de">Severisch-Soldatenkaiser</skos:prefLabel>
-		<skos:scopeNote>0200 ; 0350</skos:scopeNote> <!--CHECK-->
+		<skos:scopeNote>0200 ; 0350</skos:scopeNote>
+		<!--CHECK-->
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/31"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/134"/>
@@ -1237,7 +1253,8 @@
 	</skos:Concept>-->
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/70">
 		<skos:prefLabel xml:lang="de">spätrepublikanisch</skos:prefLabel>
-		<skos:scopeNote>-0146 ; -0027</skos:scopeNote><!--CHECK-->
+		<skos:scopeNote>-0146 ; -0027</skos:scopeNote>
+		<!--CHECK-->
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:55:04</dct:created>
@@ -1254,7 +1271,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/55">
 		<skos:prefLabel xml:lang="es">Teodosiana (c. 379-395 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0379 ; 0395</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/171"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/176"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/173"/>
@@ -1264,7 +1281,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/56">
 		<skos:prefLabel xml:lang="es">Tetrarquía (c. 284-306 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0284 ; 0306</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/160"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/159"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/163"/>
@@ -1287,7 +1304,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/62">
 		<skos:prefLabel xml:lang="es">Tiberiana (c. 14-37 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0014 ; 0037</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/137"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -1308,7 +1325,7 @@
 		<skos:scopeNote xml:lang="de">24. Juni 79 - 13. Sept. 81</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 111.</skos:note>
 		<skos:scopeNote>0071 ; 0081</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/39"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -1329,7 +1346,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/58">
 		<skos:prefLabel xml:lang="es">Trajanea (c. 98-117 d.C.)</skos:prefLabel>
 		<skos:scopeNote>0098 ; 0117</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/146"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -1356,7 +1373,7 @@
 		<skos:scopeNote xml:lang="de">Juni [?] 251 - Aug. [?] 253</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 209.</skos:note>
 		<skos:scopeNote>0251 ; 0253</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/24"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -1406,7 +1423,7 @@
 		<skos:scopeNote xml:lang="de">Juni/Aug. 253 - Juni [?] 260</skos:scopeNote>
 		<skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 214.</skos:note>
 		<skos:scopeNote>0253 ; 0260</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/24"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -1424,8 +1441,8 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/61">
 		<skos:prefLabel xml:lang="es">Vespasiana (c. 69-79 d.C.)</skos:prefLabel>
-		 <skos:scopeNote>0069 ; 0079</skos:scopeNote>
-       <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:scopeNote>0069 ; 0079</skos:scopeNote>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/39"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		<dct:created>2013-08-21 08:54:24</dct:created>
@@ -1440,7 +1457,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/113">
 		<skos:prefLabel xml:lang="es">Visigoda (c. 400-711)</skos:prefLabel>
 		<skos:scopeNote>0400 ; 0711</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 09:41:57</dct:created>
 	</skos:Concept>
@@ -1456,7 +1473,8 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/68">
 		<skos:prefLabel xml:lang="de">Vorrömisch</skos:prefLabel>
-		<skos:scopeNote></skos:scopeNote><!--CHECK-->
+		<skos:scopeNote/>
+		<!--CHECK-->
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/8"/>
 		<dct:created>2013-08-21 08:55:04</dct:created>
@@ -1476,42 +1494,67 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/72">
 		<skos:prefLabel xml:lang="en">centuries</skos:prefLabel>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/73"/><!--VIII BC-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/85"/><!--VII BC-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/86"/><!--VI BC-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/87"/><!--V BC-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/88"/><!--IV BC-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/89"/><!--III BC-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/90"/><!--II BC-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/91"/><!--I BC-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/92"/><!--I AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/103"/><!--II AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/114"/><!--III AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/105"/><!--IV AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/106"/><!--V AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/107"/><!--VI AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/108"/><!--VII AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/109"/><!--VIII AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/349"/><!--III BC - II BC-->				
-<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/348"/><!--I AD - I BC-->		
-<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/100"/><!--I-II AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/101"/><!--I-III AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/102"/><!--I-IV AD-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/83"/><!--VIII or VII-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/84"/><!--VIII-V BC-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/82"/><!--VIII-VI BC-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/81"/><!--VIII-VII BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/73"/>
+		<!--VIII BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/85"/>
+		<!--VII BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/86"/>
+		<!--VI BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/87"/>
+		<!--V BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/88"/>
+		<!--IV BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/89"/>
+		<!--III BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/90"/>
+		<!--II BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/91"/>
+		<!--I BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/92"/>
+		<!--I AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/103"/>
+		<!--II AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/114"/>
+		<!--III AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/105"/>
+		<!--IV AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/106"/>
+		<!--V AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/107"/>
+		<!--VI AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/108"/>
+		<!--VII AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/109"/>
+		<!--VIII AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/349"/>
+		<!--III BC - II BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/348"/>
+		<!--I AD - I BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/100"/>
+		<!--I-II AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/101"/>
+		<!--I-III AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/102"/>
+		<!--I-IV AD-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/83"/>
+		<!--VIII or VII-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/84"/>
+		<!--VIII-V BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/82"/>
+		<!--VIII-VI BC-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/81"/>
+		<!--VIII-VII BC-->
 		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/350"/>
 		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/351"/>
 		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/352"/>
 		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/353"/>
 		<dct:created>2013-08-21 08:55:22</dct:created>
 	</skos:Concept>
-	
 
 
 
-<!--VIII BC-->
+
+	<!--VIII BC-->
 
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/73">
 		<skos:prefLabel xml:lang="en">VIII BC</skos:prefLabel>
@@ -1523,29 +1566,40 @@
 		<skos:scopeNote>-0799 ; -0700</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/74"/><!--beginning of 10-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/200"/><!--earlier 15-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/201"/><!--early 25-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/202"/><!--second quarter of 25-50-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/78"/><!--first half 0-50-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/76"/><!--mid 25-75-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/79"/><!--second half 50-100-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/203"/><!--third quarter of 75-50-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/77"/><!--late 75-100-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/204"/><!--later 85-100-->
-		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/205"/><!--end of 90-100-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/74"/>
+		<!--beginning of 10-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/200"/>
+		<!--earlier 15-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/201"/>
+		<!--early 25-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/202"/>
+		<!--second quarter of 25-50-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/78"/>
+		<!--first half 0-50-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/76"/>
+		<!--mid 25-75-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/79"/>
+		<!--second half 50-100-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/203"/>
+		<!--third quarter of 75-50-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/77"/>
+		<!--late 75-100-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/204"/>
+		<!--later 85-100-->
+		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/205"/>
+		<!--end of 90-100-->
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
-<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/74">
-	<skos:prefLabel xml:lang="en">beginning of VIII BC</skos:prefLabel>
-	<skos:altLabel xml:lang="en">beginning of VIII BCE</skos:altLabel>
-	<skos:altLabel xml:lang="it">inizio del VIII a.C.</skos:altLabel>
-	<skos:altLabel xml:lang="en">beginning of eighth century BC</skos:altLabel>
-	<skos:altLabel xml:lang="en">beginning of eighth century BCE</skos:altLabel>
-	<skos:altLabel xml:lang="it">inizio dell'ottavo secolo a.C.</skos:altLabel>
+	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/74">
+		<skos:prefLabel xml:lang="en">beginning of VIII BC</skos:prefLabel>
+		<skos:altLabel xml:lang="en">beginning of VIII BCE</skos:altLabel>
+		<skos:altLabel xml:lang="it">inizio del VIII a.C.</skos:altLabel>
+		<skos:altLabel xml:lang="en">beginning of eighth century BC</skos:altLabel>
+		<skos:altLabel xml:lang="en">beginning of eighth century BCE</skos:altLabel>
+		<skos:altLabel xml:lang="it">inizio dell'ottavo secolo a.C.</skos:altLabel>
 		<skos:scopeNote>-0799 ; -0790</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
-        		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/73"/>
+		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/73"/>
 		<dct:created>2013-08-21 08:55:46</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/200">
@@ -1603,7 +1657,7 @@
 		<skos:altLabel xml:lang="en">mid eight century BC</skos:altLabel>
 		<skos:altLabel xml:lang="en">mid eight century BCE</skos:altLabel>
 		<skos:altLabel xml:lang="it">metà dell'ottavo secolo a.C.</skos:altLabel>
-		<skos:altLabel xml:lang="he">תקופת הברזל II,  אמצע המאה ה-8 לפני הספירה</skos:altLabel>
+		<skos:altLabel xml:lang="he">תקופת הברזל II, אמצע המאה ה-8 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0774 ; -0725</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/73"/>
@@ -1670,8 +1724,8 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 
-<!--VII BC-->
-	
+	<!--VII BC-->
+
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/85">
 		<skos:prefLabel xml:lang="en">VII BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">VII BCE</skos:altLabel>
@@ -1694,7 +1748,7 @@
 		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/214"/>
 		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/215"/>
 		<skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/216"/>
-	<dct:created>2015-01-15 01:00:00</dct:created>
+		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/206">
 		<skos:prefLabel xml:lang="en">beginning of VII BC</skos:prefLabel>
@@ -1830,8 +1884,8 @@
 	</skos:Concept>
 
 
-<!--VI BC-->
-	
+	<!--VI BC-->
+
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/86">
 		<skos:prefLabel xml:lang="en">VI BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">VI BCE</skos:altLabel>
@@ -1894,7 +1948,7 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/220">
 		<skos:prefLabel xml:lang="en">second quarter of VI BC</skos:prefLabel>
-		<skos:altLabel xml:lang="en">second quarter of  VI BCE</skos:altLabel>
+		<skos:altLabel xml:lang="en">second quarter of VI BCE</skos:altLabel>
 		<skos:altLabel xml:lang="it">secondo quarto del VI a.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">second quarter of the sixth century BC</skos:altLabel>
 		<skos:altLabel xml:lang="en">second quarter of the sixth century BCE</skos:altLabel>
@@ -1988,10 +2042,10 @@
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/86"/>
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
-	
-	
-<!--V BC-->
-	
+
+
+	<!--V BC-->
+
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/87">
 		<skos:prefLabel xml:lang="en">V BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">V BCE</skos:altLabel>
@@ -2147,11 +2201,11 @@
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/87"/>
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
-	
-	
-	
-<!-- IV BC-->
-	
+
+
+
+	<!-- IV BC-->
+
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/88">
 		<skos:prefLabel xml:lang="en">IV BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">IV BCE</skos:altLabel>
@@ -2308,10 +2362,10 @@
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/88"/>
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
-	
-	
 
-<!--III BC-->
+
+
+	<!--III BC-->
 
 
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/89">
@@ -2469,10 +2523,10 @@
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/89"/>
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
-	
-	
-<!--II BC-->
-	
+
+
+	<!--II BC-->
+
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/90">
 		<skos:prefLabel xml:lang="en">II BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">II BCE</skos:altLabel>
@@ -2629,11 +2683,11 @@
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/90"/>
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
-	
-	
 
-<!--I BC-->
-	
+
+
+	<!--I BC-->
+
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/91">
 		<skos:prefLabel xml:lang="en">I BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">I BCE</skos:altLabel>
@@ -2760,7 +2814,7 @@
 		<skos:altLabel xml:lang="it">tardo I a.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">late first century BC</skos:altLabel>
 		<skos:altLabel xml:lang="en">late first century BCE</skos:altLabel>
-		<skos:altLabel xml:lang="it">tardo  primo secolo a.C.</skos:altLabel>
+		<skos:altLabel xml:lang="it">tardo primo secolo a.C.</skos:altLabel>
 		<skos:scopeNote>-0024 ; -0001</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/91"/>
@@ -2790,10 +2844,10 @@
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/91"/>
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
-	
-	
 
-<!--I AD-->
+
+
+	<!--I AD-->
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/92">
 		<skos:prefLabel xml:lang="en">I AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">I CE</skos:altLabel>
@@ -2821,7 +2875,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/93">
 		<skos:prefLabel xml:lang="en">beginning of I AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">beginning of I CE</skos:altLabel>
-		<skos:altLabel xml:lang="it">inizio del  I d.C.</skos:altLabel>
+		<skos:altLabel xml:lang="it">inizio del I d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">beginning of first century AD</skos:altLabel>
 		<skos:altLabel xml:lang="en">beginning of first century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">inizio del primo secolo d.C.</skos:altLabel>
@@ -2855,7 +2909,7 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/284">
-		<skos:prefLabel xml:lang="en">second quarter of  I AD</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">second quarter of I AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">second quarter of I CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">secondo quarto del I d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">second quarter of the first century AD</skos:altLabel>
@@ -2867,7 +2921,7 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/97">
-		<skos:prefLabel xml:lang="en">first half of  I AD</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">first half of I AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">first half of I CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">prima metà del I d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">first half of the first century AD</skos:altLabel>
@@ -2879,8 +2933,8 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/95">
-		<skos:prefLabel xml:lang="en">mid  I AD</skos:prefLabel>
-		<skos:altLabel xml:lang="en">mid  I CE</skos:altLabel>
+		<skos:prefLabel xml:lang="en">mid I AD</skos:prefLabel>
+		<skos:altLabel xml:lang="en">mid I CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">metà del I d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">mid first century AD</skos:altLabel>
 		<skos:altLabel xml:lang="en">mid first century CE</skos:altLabel>
@@ -2891,9 +2945,9 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/98">
-		<skos:prefLabel xml:lang="en">second half of  I AD</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">second half of I AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">second half of I CE</skos:altLabel>
-		<skos:altLabel xml:lang="it">seconda metà  I d.C.</skos:altLabel>
+		<skos:altLabel xml:lang="it">seconda metà I d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">second half of the first century AD</skos:altLabel>
 		<skos:altLabel xml:lang="en">second half of the first century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">seconda metà del primo secolo d.C.</skos:altLabel>
@@ -2903,8 +2957,8 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/285">
-		<skos:prefLabel xml:lang="en">third quarter of  I AD</skos:prefLabel>
-		<skos:altLabel xml:lang="en">third quarter of  I CE</skos:altLabel>
+		<skos:prefLabel xml:lang="en">third quarter of I AD</skos:prefLabel>
+		<skos:altLabel xml:lang="en">third quarter of I CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">terzo quarto I d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">third quarter of the first century AD</skos:altLabel>
 		<skos:altLabel xml:lang="en">third quarter of the first century CE</skos:altLabel>
@@ -2918,8 +2972,8 @@
 		<skos:prefLabel xml:lang="en">late I AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">late I CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">tardo I d.C.</skos:altLabel>
-		<skos:altLabel xml:lang="en">late  first century AD</skos:altLabel>
-		<skos:altLabel xml:lang="en">late  first century CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">late first century AD</skos:altLabel>
+		<skos:altLabel xml:lang="en">late first century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">tardo primo secolo d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultimo quarto del primo secolo d.C.</skos:altLabel>
 		<skos:scopeNote>0076 ; 0100</skos:scopeNote>
@@ -2928,11 +2982,11 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/286">
-		<skos:prefLabel xml:lang="en">later  I AD</skos:prefLabel>
-		<skos:altLabel xml:lang="en">later  I CE</skos:altLabel>
+		<skos:prefLabel xml:lang="en">later I AD</skos:prefLabel>
+		<skos:altLabel xml:lang="en">later I CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del I d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">later first century AD</skos:altLabel>
-		<skos:altLabel xml:lang="en">later  first century CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">later first century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del primo secolo d.C.</skos:altLabel>
 		<skos:scopeNote>0086 ; 0100</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -2940,7 +2994,7 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/99">
-		<skos:prefLabel xml:lang="en">end of  I AD</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">end of I AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">end of I CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">fine del I d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">end of first century AD</skos:altLabel>
@@ -2953,8 +3007,8 @@
 	</skos:Concept>
 
 
-<!--II AD-->
-	
+	<!--II AD-->
+
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/103">
 		<skos:prefLabel xml:lang="en">II AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">II CE</skos:altLabel>
@@ -2981,7 +3035,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/287">
 		<skos:prefLabel xml:lang="en">beginning of II AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">beginning of II CE</skos:altLabel>
-		<skos:altLabel xml:lang="it">inizio del  II d.C.</skos:altLabel>
+		<skos:altLabel xml:lang="it">inizio del II d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">beginning of second century AD</skos:altLabel>
 		<skos:altLabel xml:lang="en">beginning of second century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">inizio del secondo secolo d.C.</skos:altLabel>
@@ -3004,7 +3058,7 @@
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/289">
 		<skos:prefLabel xml:lang="en">early II AD</skos:prefLabel>
-		<skos:altLabel xml:lang="en">early  II CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">early II CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">primi anni del II d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">early second century AD</skos:altLabel>
 		<skos:altLabel xml:lang="en">early second century CE</skos:altLabel>
@@ -3027,7 +3081,7 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/291">
-		<skos:prefLabel xml:lang="en">first half of  II AD</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">first half of II AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">first half of II CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">prima metà del II d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">first half of the second century AD</skos:altLabel>
@@ -3092,7 +3146,7 @@
 		<skos:altLabel xml:lang="en">later II CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del II d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">later second century AD</skos:altLabel>
-		<skos:altLabel xml:lang="en">later  second century CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">later second century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del secondo secolo d.C.</skos:altLabel>
 		<skos:scopeNote>0186 ; 0200</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -3112,7 +3166,7 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 
-<!--III AD-->
+	<!--III AD-->
 
 
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/114">
@@ -3252,7 +3306,7 @@
 		<skos:altLabel xml:lang="en">later III CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del III d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">later third century AD</skos:altLabel>
-		<skos:altLabel xml:lang="en">later  third century CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">later third century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del terzo secolo d.C.</skos:altLabel>
 		<skos:scopeNote>0286 ; 0300</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -3273,8 +3327,8 @@
 	</skos:Concept>
 
 
-<!--IV AD-->
-	
+	<!--IV AD-->
+
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/105">
 		<skos:prefLabel xml:lang="en">IV AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">IV CE</skos:altLabel>
@@ -3301,7 +3355,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/304">
 		<skos:prefLabel xml:lang="en">beginning of IV AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">beginning of IV CE</skos:altLabel>
-		<skos:altLabel xml:lang="it">inizio del  IV d.C.</skos:altLabel>
+		<skos:altLabel xml:lang="it">inizio del IV d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">beginning of fourth century AD</skos:altLabel>
 		<skos:altLabel xml:lang="en">beginning of fourth century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">inizio del quarto secolo d.C.</skos:altLabel>
@@ -3335,7 +3389,7 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/305">
-		<skos:prefLabel xml:lang="en">second quarter of  IV AD</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">second quarter of IV AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">second quarter of IV CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">secondo quarto del IV d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">second quarter of the fourth century AD</skos:altLabel>
@@ -3373,7 +3427,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/307">
 		<skos:prefLabel xml:lang="en">second half of IV AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">second half of IV CE</skos:altLabel>
-		<skos:altLabel xml:lang="it">seconda metà  IV d.C.</skos:altLabel>
+		<skos:altLabel xml:lang="it">seconda metà IV d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">second half of the fourth century AD</skos:altLabel>
 		<skos:altLabel xml:lang="en">second half of the fourth century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">seconda metà del quarto secolo d.C.</skos:altLabel>
@@ -3398,12 +3452,13 @@
 		<skos:prefLabel xml:lang="en">late IV AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">late IV CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">tardo IV d.C.</skos:altLabel>
-		<skos:altLabel xml:lang="en">late  fourth century AD</skos:altLabel>
-		<skos:altLabel xml:lang="en">late  fourth century CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">late fourth century AD</skos:altLabel>
+		<skos:altLabel xml:lang="en">late fourth century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">tardo quarto secolo d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultimo quarto del quarto secolo d.C.</skos:altLabel>
 		<skos:scopeNote>0376 ; 0400</skos:scopeNote>
-		<skos:scopeNote xml:lang="en">In LSA this term denotes the last third of the fourth century. It is used when no exact date within the period denoted can be given.</skos:scopeNote>
+		<skos:scopeNote xml:lang="en">In LSA this term denotes the last third of the fourth century. It is used when no
+			exact date within the period denoted can be given.</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/105"/>
 		<dct:created>2015-01-15 01:00:00</dct:created>
@@ -3413,10 +3468,11 @@
 		<skos:altLabel xml:lang="en">later IV CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del IV d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">later fourth century AD</skos:altLabel>
-		<skos:altLabel xml:lang="en">later  fourth century CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">later fourth century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del quarto secolo d.C.</skos:altLabel>
 		<skos:scopeNote>0386 ; 0400</skos:scopeNote>
-		<skos:scopeNote xml:lang="en">In LSA this term denotes the second half of the fourth century AD. It is used when no exact date within the period denoted can be given</skos:scopeNote>
+		<skos:scopeNote xml:lang="en">In LSA this term denotes the second half of the fourth century AD. It is used when
+			no exact date within the period denoted can be given</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/105"/>
 		<dct:created>2015-01-15 01:00:00</dct:created>
@@ -3434,8 +3490,8 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 
-<!--V AD-->
-	
+	<!--V AD-->
+
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/106">
 		<skos:prefLabel xml:lang="en">V AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">V CE</skos:altLabel>
@@ -3595,7 +3651,7 @@
 
 
 
-<!--VI AD-->
+	<!--VI AD-->
 
 
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/107">
@@ -3755,7 +3811,7 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 
-<!--VII AD-->
+	<!--VII AD-->
 
 
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/108">
@@ -3881,8 +3937,8 @@
 		<skos:prefLabel xml:lang="en">late VII AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">late VII CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">tardo VII d.C.</skos:altLabel>
-		<skos:altLabel xml:lang="en">late  seventh century AD</skos:altLabel>
-		<skos:altLabel xml:lang="en">late  seventh century CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">late seventh century AD</skos:altLabel>
+		<skos:altLabel xml:lang="en">late seventh century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">tardo settimo secolo d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultimo quarto del settimo secolo d.C.</skos:altLabel>
 		<skos:scopeNote>0676 ; 0700</skos:scopeNote>
@@ -3895,7 +3951,7 @@
 		<skos:altLabel xml:lang="en">later VII CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del VII d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">later seventh century AD</skos:altLabel>
-		<skos:altLabel xml:lang="en">later  seventh century CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">later seventh century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del settimo secolo d.C.</skos:altLabel>
 		<skos:scopeNote>0686 ; 0700</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -3915,7 +3971,7 @@
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
 
-<!--VIII AD-->
+	<!--VIII AD-->
 
 
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/109">
@@ -4055,7 +4111,7 @@
 		<skos:altLabel xml:lang="en">later VIII CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte del VIII d.C.</skos:altLabel>
 		<skos:altLabel xml:lang="en">later eighth century AD</skos:altLabel>
-		<skos:altLabel xml:lang="en">later  eighth century CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">later eighth century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">ultima parte dell'ottavo secolo d.C.</skos:altLabel>
 		<skos:scopeNote>0786 ; 0800</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -4077,7 +4133,7 @@
 
 
 
-<!--
+	<!--
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -4087,8 +4143,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/349">
 		<skos:prefLabel xml:lang="en">III BC - II BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">III BCE - II BCE</skos:altLabel>
-		<skos:altLabel xml:lang="en">3rd century BCE – 2nd century BCE
-		</skos:altLabel>
+		<skos:altLabel xml:lang="en">3rd century BCE – 2nd century BCE </skos:altLabel>
 		<skos:altLabel xml:lang="he">המאה ה-3 עד ה-2 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0299 ; -0100</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -4098,19 +4153,18 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/348">
 		<skos:prefLabel xml:lang="en">I BC - I AD</skos:prefLabel>
 		<skos:altLabel xml:lang="en">I BCE - I CE</skos:altLabel>
-		<skos:altLabel xml:lang="en">1st century BCE – 1st century CE
-		</skos:altLabel>
-		<skos:altLabel xml:lang="he">המאה ה-1 לפני הספירה עד המאה ה-1 לספירה</skos:altLabel>	
+		<skos:altLabel xml:lang="en">1st century BCE – 1st century CE </skos:altLabel>
+		<skos:altLabel xml:lang="he">המאה ה-1 לפני הספירה עד המאה ה-1 לספירה</skos:altLabel>
 		<skos:scopeNote>-0099 ; 0100</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
 		<dct:created>2013-08-21 08:56:10</dct:created>
 	</skos:Concept>
-<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/100">
+	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/100">
 		<skos:prefLabel xml:lang="en">I-II AD</skos:prefLabel>
-	<skos:altLabel xml:lang="en">1st–2nd century CE</skos:altLabel>
+		<skos:altLabel xml:lang="en">1st–2nd century CE</skos:altLabel>
 		<skos:scopeNote>0001 ; 0200</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
 		<dct:created>2013-08-21 08:56:10</dct:created>
 	</skos:Concept>
@@ -4149,7 +4203,7 @@
 		<skos:altLabel xml:lang="en">8th–7th century BCE</skos:altLabel>
 		<skos:altLabel xml:lang="he">המאה ה-8 עד ה-7 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0799 ; -0600</skos:scopeNote>
-		
+
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
 		<dct:created>2013-08-21 08:55:46</dct:created>
@@ -4158,8 +4212,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/350">
 		<skos:prefLabel xml:lang="en">VII BC - IV BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">VII BCE - IV BCE</skos:altLabel>
-		<skos:altLabel xml:lang="en">7th century BCE – 4th century BCE
-		</skos:altLabel>
+		<skos:altLabel xml:lang="en">7th century BCE – 4th century BCE </skos:altLabel>
 		<skos:scopeNote>-0699 ; -0300</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
@@ -4169,8 +4222,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/351">
 		<skos:prefLabel xml:lang="en">VII BC - IV BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">VII BCE - IV BCE</skos:altLabel>
-		<skos:altLabel xml:lang="en">7th century BCE – 4th century BCE
-		</skos:altLabel>
+		<skos:altLabel xml:lang="en">7th century BCE – 4th century BCE </skos:altLabel>
 		<skos:altLabel xml:lang="he">המאה ה-7 עד ה-4 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0699 ; -0300</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -4181,8 +4233,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/352">
 		<skos:prefLabel xml:lang="en">VII BC - V BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">VII BCE - V BCE</skos:altLabel>
-		<skos:altLabel xml:lang="en">7th century BCE – 5th century BCE
-		</skos:altLabel>
+		<skos:altLabel xml:lang="en">7th century BCE – 5th century BCE </skos:altLabel>
 		<skos:altLabel xml:lang="he">המאה ה-7 עד ה-5 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0699 ; -0400</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -4193,8 +4244,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/353">
 		<skos:prefLabel xml:lang="en">VII BC - VI BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">VII BCE - VI BCE</skos:altLabel>
-		<skos:altLabel xml:lang="en">7th century BCE – 6th century BCE
-		</skos:altLabel>
+		<skos:altLabel xml:lang="en">7th century BCE – 6th century BCE </skos:altLabel>
 		<skos:altLabel xml:lang="he">המאה ה-7 עד ה-6 לפני הספירה</skos:altLabel>
 		<skos:scopeNote>-0699 ; -0500</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
@@ -4205,8 +4255,7 @@
 	<skos:Concept rdf:about="http://www.eagle-network.eu/voc/dates/lod/355">
 		<skos:prefLabel xml:lang="en">late VII BC - early VI BC</skos:prefLabel>
 		<skos:altLabel xml:lang="en">late VII BCE - early VI BCE</skos:altLabel>
-		<skos:altLabel xml:lang="en">late 7th century BCE – early 6th century BCE
-		</skos:altLabel>
+		<skos:altLabel xml:lang="en">late 7th century BCE – early 6th century BCE </skos:altLabel>
 		<skos:scopeNote>-0624 ; -0575</skos:scopeNote>
 		<skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		<skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>
