@@ -13,7 +13,8 @@
         <provenance type="found">
             <xsl:copy-of select="@*|node()"/>
             
-            <xsl:copy-of select="ancestor::tei:TEI//tei:settlement/tei:placeName[not(@*[local-name()='modern'])]"/>
+<!--       commented out to sort EDR double placeName problem
+     <xsl:copy-of select="ancestor::tei:TEI//tei:settlement/tei:placeName[not(@*[local-name()='modern'])]"/>-->
             <placeName type="modern_region">
                 <xsl:if test="ancestor::tei:TEI//tei:region/tei:placeName/@ref"> <xsl:attribute name="ref">
                     <xsl:value-of select="ancestor::tei:TEI//tei:region/tei:placeName/@ref"/>
