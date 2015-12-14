@@ -12,6 +12,7 @@ document.write('\
 		</div>\
 	  </div>\
 	  </div>\
+	  </div>\
 <footer class="clearfix" id="main_footer">\
             <div class="halfcol sitefirm">\
                 <p>Co-founded by <a target="_blank" href="http://ec.europa.eu/index_en.htm">European Commission</a>, <a target="_blank" href="http://ec.europa.eu/cip/index_en.htm">Competitiveness and Innovation Framework Programme</a>,<br>in the frame of the <a target="_blank" href="http://www.europeana.eu/">Europeana</a> Initiative, with the participation of <a target="_blank" href="http://www.wikimedia.it/">Wikimedia Italia</a></p>\
