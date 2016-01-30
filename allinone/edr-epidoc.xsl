@@ -29,11 +29,11 @@
     <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/textstructureEDR.xsl"/>
     
     <!--breaks brackets in unique meaning ones as much as possible preparing things for the next step-->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/bracketsEDR.xsl"/>
+    <xsl:include href="bracketsEDR.xsl"/>
 
 
 <!--  Takes all brackets sets and other diacritict and substitutes them with markup  -->
-    <xsl:include href="https://raw.githubusercontent.com/EAGLE-BPN/epidocupconversion/master/allinone/upconversionEDR.xsl"/>    
+    <xsl:include href="upconversionEDR.xsl"/>    
     
     <!--  adds numbers to the marked up text-->
     
