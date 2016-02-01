@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:resource="http://www.eagle-network.eu/resources/vocabularies/typeins.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-07-09+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-07-09+02:00</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2016-02-01+01:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2016-02-01+01:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -20,7 +20,7 @@
         <skos:prefLabel xml:lang="de">Akklamation</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Acclamation</skos:altLabel>
         <skos:altLabel xml:lang="es">Aclamación</skos:altLabel>
-        <skos:scopeNote xml:lang="de">Ausrufe; Anrufungen. Wahlslogans, Glkwsche, Sinnsprhe. Nicht
+        <skos:scopeNote xml:lang="de">Ausrufe; Anrufungen. Wahlslogans, Glückwünsche, Sinnsprüche. Nicht
             bei Defixio oder Anrufungen an Gott (s.Gebet). </skos:scopeNote>
         <skos:historyNote xml:lang="en">Examples: vivas; spes in Deo salvo episcopo
             Marciano</skos:historyNote>

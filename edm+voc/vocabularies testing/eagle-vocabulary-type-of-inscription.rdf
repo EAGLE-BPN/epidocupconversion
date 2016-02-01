@@ -52,8 +52,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/113">
         <skos:prefLabel xml:lang="la">Adnuntiatio</skos:prefLabel>
         <skos:altLabel xml:lang="la">munera</skos:altLabel>
-        <skos:scopeNote xml:lang="de">Bekanntmachung; Ankdigung (z. B. von munera) Nichtrechtliche
-            Verfungen (s.Rechtliche Verfung, öffentlich / privat) </skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Bekanntmachung; Ankündigung (z. B. von munera) Nicht Rechtliche
+            Verfügungen (s.Rechtliche Verfügung, öffentlich / privat) </skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD053407</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
@@ -70,7 +70,7 @@
         <skos:prefLabel xml:lang="de">Akklamation</skos:prefLabel>
         <skos:altLabel xml:lang="fr">Acclamation</skos:altLabel>
         <skos:altLabel xml:lang="es">Aclamación</skos:altLabel>
-        <skos:scopeNote xml:lang="de">Ausrufe; Anrufungen. Wahlslogans, Glkwsche, Sinnsprhe. Nicht
+        <skos:scopeNote xml:lang="de">Ausrufe; Anrufungen. Wahlslogans, Glückwünsche, Sinnsprüche. Nicht
             bei Defixio oder Anrufungen an Gott (s.Gebet). </skos:scopeNote>
         <skos:historyNote xml:lang="en">Examples: vivas; spes in Deo salvo episcopo
             Marciano</skos:historyNote>
@@ -122,6 +122,7 @@
         <skos:prefLabel xml:lang="de">Assignationsinschrift</skos:prefLabel>
         <skos:scopeNote xml:lang="de"
             >http://cil.bbaw.de/test06/bilder/datenbank/PH0008101.jpg</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Zuweisung von Aufstellungsplätzen und Land</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-15 17:01:56</dct:modified>
@@ -132,6 +133,12 @@
         <skos:altLabel xml:lang="it">Epigrafe di artista, firma</skos:altLabel>
         <skos:altLabel xml:lang="es">Firma del artista</skos:altLabel>
         <skos:altLabel xml:lang="en">Sculptor's signature</skos:altLabel>
+        <skos:scopeNote xml:lang="de">Kennzeichnung des Gegenstands / Inhalts;
+            für den Gebrauch notwendige Beschriftung
+            (z.B. bei Ladenschildern, tabulae lusoriae, Sonnenuhren).
+            Notizen, Kritzeleien, offensichtliche Schreibübungen
+            (müssen nicht originär mit dem Gegenstand zu tun haben).
+            Nicht Akklamation, Beischrift, Besitzer- / Herstellerinschrift, Defixio, Gebet, Sitzinschrift.</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/374">
@@ -207,6 +214,9 @@
         <skos:prefLabel xml:lang="de">Beischrift</skos:prefLabel>
         <skos:altLabel xml:lang="en">label</skos:altLabel>
         <skos:scopeNote xml:lang="de">HD036515</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Kennzeichnung einer figürlichen Darstellung
+            (kommt z.B. bei Graffiti, Mosaiken, Reliefs, Hermen oder Statuen vor).
+            Nicht bei ehrendem Charakter (s. Elogium, Ehreninschrift).</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/333">
@@ -489,7 +499,7 @@
         <skos:altLabel xml:lang="de">Fluchtafel</skos:altLabel>
         <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2
             and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
-        <skos:scopeNote xml:lang="de">Fluch, Verwschung.</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Fluch, Verwünschung.</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD001039 HD013929</skos:scopeNote>
         <skos:scopeNote xml:lang="en">HEpOnline 2436</skos:scopeNote>
         <skos:scopeNote xml:lang="en"
@@ -552,7 +562,6 @@
         <skos:altLabel xml:lang="es">Edicto</skos:altLabel>
         <skos:altLabel xml:lang="en">Edict</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
-        <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/22"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/4"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-21 11:24:47</dct:modified>
@@ -1201,6 +1210,7 @@
         <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2
             and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD014561</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Auch privat ausgestellte tabulae honestae missionis.</skos:scopeNote>
         <skos:scopeNote xml:lang="es">HEpOnline 6013</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="http://www.eagle-network.eu/voc/typeins/lod/107"/>
@@ -1302,8 +1312,8 @@
         <skos:prefLabel xml:lang="de">Rechtliche Verfügung, öffentlich</skos:prefLabel>
         <skos:altLabel xml:lang="en">Public legal inscription</skos:altLabel>
         <skos:altLabel xml:lang="it">Rendiconto</skos:altLabel>
-        <skos:scopeNote xml:lang="de"> Seitens einer Institution oder einer Person in ihrer
-            fentlichen Funktion. Auch Vertre und Vereinbarungen. </skos:scopeNote>
+        <skos:scopeNote xml:lang="de"> Seitens einer Institution oder einer Person in ihrer öffentlichen Funktion.
+            Auch Verträge und Vereinbarungen.</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD033614</skos:scopeNote>
         <skos:historyNote xml:lang="de">Stadtrecht Senatus consultum </skos:historyNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
@@ -1316,8 +1326,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/49">
         <skos:prefLabel xml:lang="de">Rechtliche Verfügung, privat</skos:prefLabel>
         <skos:altLabel xml:lang="es">Convención de derecho privado</skos:altLabel>
-        <skos:scopeNote xml:lang="de">Seitens einer Institution oder einer Person in ihrer
-            fentlichen Funktion. Auch Vertre und Vereinbarungen. </skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Seitens einer Privatperson und in privaten Belangen.
+            Auch Verträge und Vereinbarungen.</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD027831</skos:scopeNote>
         <skos:scopeNote xml:lang="la">EDR076943</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/typeins/"/>
@@ -1429,8 +1439,7 @@
         <skos:altLabel xml:lang="de">Grabinschrift</skos:altLabel>
         <skos:altLabel xml:lang="en">Sepulchral inscription</skos:altLabel>
         <skos:altLabel xml:lang="hu">sírfelirat</skos:altLabel>
-        <skos:scopeNote xml:lang="de">Nicht bei Grabcippi, auf denen die Gre des Grabbezirks genannt
-            ist (s.Grenzmarkierung).</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">Nicht bei Grabcippi, auf denen die Größe des Grabbezirks genannt ist (s. Grenzmarkierung)</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD002154</skos:scopeNote>
         <skos:scopeNote xml:lang="es">HEpOnline 35</skos:scopeNote>
         <skos:scopeNote xml:lang="la">EDR000008</skos:scopeNote>
@@ -1541,6 +1550,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/293">
                 <skos:prefLabel xml:lang="de">Grenzmarkierung</skos:prefLabel>
+                <skos:scopeNote xml:lang="de">Grenzangaben aller Art;
+                    itinera privata.
+                    Auch bei Grabcippi, falls nicht mit einer Grabinschrift versehen
+                    (vgl. Cippus im Feld "Inschriftträger").
+                    Nicht bei Streckenangaben (s. Meilenstein).</skos:scopeNote>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
@@ -1659,6 +1673,12 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/typeins/lod/311">
                 <skos:prefLabel xml:lang="de">Besitzer-/Herstellerinschrift</skos:prefLabel>
+                <skos:scopeNote xml:lang="de">Nennung des Besitzers, des Herstellers, des Künstlers oder der Werkstatt;
+                    Name im Nominativ (sc. "fecit"), im Genitivus Possessivus oder gelegentlich im Akkusativ.
+                    Prüfvermerk.
+                    Auch bei Angabe von Produktionsort oder -datum;
+                    Augenarztstempel (sofern der produzierende Arzt mitgenannt wird).
+                    Nicht bei Sitzinschrift.</skos:scopeNote>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
