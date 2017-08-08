@@ -13,7 +13,7 @@
         <dc:subject/>
         <dc:description><![CDATA[  ]]></dc:description>
         <dc:date>0000-00-00</dc:date>
-        <dct:modified>2014-05-07 16:37:21</dct:modified>
+        <dct:modified>2017-08-08 16:37:21</dct:modified>
         <dc:language>en</dc:language>
     </skos:ConceptScheme>
 
@@ -188,9 +188,18 @@
         <skos:altLabel xml:lang="hu">állat</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300249395">
+                <skos:prefLabel>Animalia (kingdom)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/3053">
+                <skos:prefLabel>tier</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/351">
-
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2014-02-01 17:33:39</dct:created>
     </skos:Concept>
@@ -231,6 +240,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/31">
         <skos:prefLabel xml:lang="es">Arbol</skos:prefLabel>
         <skos:altLabel xml:lang="hu">fa</skos:altLabel>
+        <skos:altLabel xml:lang="la">arbor</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/598">
@@ -245,6 +255,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1492">
                 <skos:prefLabel xml:lang="de">Baum</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300132410">
+                <skos:prefLabel>trees</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -703,9 +718,16 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/72">
         <skos:prefLabel xml:lang="es">Cérvido</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:altLabel xml:lang="en">deer</skos:altLabel>
+        <skos:altLabel xml:lang="la">cervus</skos:altLabel>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/639">
                 <skos:prefLabel xml:lang="fr">Cervidé</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250308">
+                <skos:prefLabel>Cervidae (family)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -807,14 +829,27 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/82">
         <skos:prefLabel xml:lang="es">Círculo</skos:prefLabel>
         <skos:altLabel xml:lang="hu">kör</skos:altLabel>
+        <skos:prefLabel xml:lang="la">circulus</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/649">
                 <skos:prefLabel xml:lang="fr">Circle</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300055627">
+                <skos:prefLabel>circles (plane figures)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2266">
+                <skos:prefLabel xml:lang="de">Kreis</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
     </skos:Concept>
+
+
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/84">
         <skos:prefLabel xml:lang="de">Ciste</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cist</skos:altLabel>
@@ -1558,6 +1593,8 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/134">
         <skos:prefLabel xml:lang="es">Flor</skos:prefLabel>
         <skos:altLabel xml:lang="hu">virág</skos:altLabel>
+        <skos:altLabel xml:lang="la">flora</skos:altLabel>
+        <skos:altLabel xml:lang="en">flower</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/691">
@@ -1572,6 +1609,11 @@
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1552">
                 <skos:prefLabel xml:lang="de">Blüte</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300264247">
+                <skos:prefLabel>flower (plant material)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -2493,6 +2535,7 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/228">
         <skos:prefLabel xml:lang="es">Palma</skos:prefLabel>
         <skos:altLabel xml:lang="hu">pálma</skos:altLabel>
+        <skos:altLabel xml:lang="en">palm</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/744">
@@ -2503,6 +2546,11 @@
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/745">
                 <skos:prefLabel xml:lang="de">Palmetten</skos:prefLabel>
             </skos:Concept>
+            <skos:exactMatch>
+                <skos:Concept rdf:about="http://vocab.getty.edu/aat/300375395">
+                    <skos:prefLabel>Aracaceae (family)</skos:prefLabel>
+                </skos:Concept>
+            </skos:exactMatch>
         </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7582">
@@ -3459,5 +3507,241 @@
         <skos:prefLabel xml:lang="la">crux immissa cum alpha et omega</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/900">
+        <skos:prefLabel xml:lang="la">cervus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">deer</skos:altLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250308">
+                <skos:prefLabel>Cervidae (family)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/901">
+        <skos:prefLabel xml:lang="la">navis</skos:prefLabel>
+        <skos:altLabel xml:lang="en">boats</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">boat</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300178749">
+                <skos:prefLabel>boats</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/902">
+        <skos:prefLabel xml:lang="la">herma</skos:prefLabel>
+        <skos:altLabel xml:lang="en">busts</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">bust</skos:hiddenLabel>
+        <skos:related xml:lang="en">heads</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300047457">
+                <skos:prefLabel>busts (figures)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/8608">
+                <skos:prefLabel>Büste</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>people</skos:broader>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/903">
+        <skos:prefLabel xml:lang="la">homo</skos:prefLabel>
+        <skos:altLabel xml:lang="en">people</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">human</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">person</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300024979">
+                <skos:prefLabel>people (agents)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/3173">
+                <skos:prefLabel>Volk</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/904">
+        <skos:prefLabel xml:lang="la">femina</skos:prefLabel>
+        <skos:altLabel xml:lang="en">women</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">female, woman, girl</skos:hiddenLabel>
+        <skos:related xml:lang="en">men</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300025943">
+                <skos:prefLabel>women (female humans)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/1817">
+                <skos:prefLabel>frau</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="https://www.eagle-network.eu/voc/decor/lod/126.html">
+                <skos:prefLabel>mujer</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/905">
+        <skos:prefLabel xml:lang="la">vir</skos:prefLabel>
+        <skos:altLabel xml:lang="en">men</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">man, male</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">male</skos:hiddenLabel>
+        <skos:related xml:lang="en">women</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300025928">
+                <skos:prefLabel>men (male humans)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2376">
+                <skos:prefLabel>mann</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/906">
+        <skos:prefLabel xml:lang="la">caput</skos:prefLabel>
+        <skos:altLabel xml:lang="en">heads</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">head</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">face</skos:hiddenLabel>
+        <skos:related xml:lang="en">busts</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300375054">
+                <skos:prefLabel>heads (animal components)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/907">
+        <skos:prefLabel xml:lang="la">gladiator</skos:prefLabel>
+        <skos:altLabel xml:lang="en">gladiators</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">gladiator</skos:hiddenLabel>
+        <skos:related xml:lang="en">helmets</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300258488">
+                <skos:prefLabel>gladiators</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/908">
+        <skos:prefLabel xml:lang="la">galea</skos:prefLabel>
+        <skos:altLabel xml:lang="en">helmets</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">helmet</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">hat</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300036794">
+                <skos:prefLabel>helmets (protective wear)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/909">
+        <skos:prefLabel xml:lang="la">athleta</skos:prefLabel>
+        <skos:altLabel xml:lang="en">gladiator fight</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">gladiatorial games</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">gladiatorial contest</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300379177">
+                <skos:prefLabel>gladiatorial games</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/910">
+        <skos:prefLabel xml:lang="la">canis</skos:prefLabel>
+        <skos:altLabel xml:lang="en">dogs</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">dog</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300265714">
+                <skos:prefLabel>canis (genus)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2112">
+                <skos:prefLabel>hund</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/911">
+        <skos:prefLabel xml:lang="la">venatio</skos:prefLabel>
+        <skos:altLabel xml:lang="en">hunting</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">hunt</skos:hiddenLabel>
+        <skos:related xml:lang="en">dogs</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300239666">
+                <skos:prefLabel>hunting</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/912">
+        <skos:prefLabel xml:lang="la">eroticus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">erotic scene</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">erotic image</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300028882">
+                <skos:prefLabel>erotica</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/913">
+        <skos:prefLabel xml:lang="la">camelus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">camels</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">camel</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250139">
+                <skos:prefLabel>camelus (genus)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2152">
+                <skos:prefLabel>kamel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/914">
+        <skos:prefLabel xml:lang="la">gallus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">chicken</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">rooster</skos:hiddenLabel>
+        <skos:closeMatch>
+            <skos:Concept rdf:about="https://www.eagle-network.eu/voc/decor/lod/653.html"
+                >gallo</skos:Concept>
+        </skos:closeMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250037">
+                <skos:prefLabel>gallus gallus (species)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2109">
+                <skos:prefLabel>huhn</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>animal</skos:broader>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/915">
+        <skos:prefLabel xml:lang="la">columna</skos:prefLabel>
+        <skos:altLabel xml:lang="en">columns</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">column</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300001571">
+                <skos:prefLabel>columns (architectural elements)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/479">
+                <skos:prefLabel>Säule</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/916">
+        <skos:prefLabel xml:lang="la">planta</skos:prefLabel>
+        <skos:altLabel xml:lang="en">plants</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">plant</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300132360">
+                <skos:prefLabel>Plantae (kingdom)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2568">
+                <skos:prefLabel>Pflanze</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
     </skos:Concept>
 </rdf:RDF>
