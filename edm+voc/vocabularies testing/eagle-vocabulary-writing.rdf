@@ -238,7 +238,7 @@
         <dct:created>2013-08-26 11:34:26</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/writing/lod/7">
-        <skos:prefLabel xml:lang="la">Litteris Eminentis</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Litteris Eminentibus</skos:prefLabel>
         <skos:altLabel xml:lang="it">a rilievo</skos:altLabel>
         <skos:altLabel xml:lang="de">erhaben</skos:altLabel>
         <skos:altLabel xml:lang="fr">lettres en relief</skos:altLabel>
