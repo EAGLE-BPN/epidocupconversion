@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:resource="http://www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-07-20+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-07-20+02:00</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-05+02:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-05+02:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -19,9 +19,8 @@
                  rdf:about="http://www.eagle-network.eu/voc/dates/lod/348">
 		    <skos:prefLabel xml:lang="en">I BC - I AD</skos:prefLabel>
 		    <skos:altLabel xml:lang="en">I BCE - I CE</skos:altLabel>
-		    <skos:altLabel xml:lang="en">1st century BCE – 1st century CE
-		</skos:altLabel>
-		    <skos:altLabel xml:lang="he">המאה ה-1 לפני הספירה עד המאה ה-1 לספירה</skos:altLabel>	
+		    <skos:altLabel xml:lang="en">1st century BCE – 1st century CE </skos:altLabel>
+		    <skos:altLabel xml:lang="he">המאה ה-1 לפני הספירה עד המאה ה-1 לספירה</skos:altLabel>
 		    <skos:scopeNote>-0099 ; 0100</skos:scopeNote>
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/72"/>

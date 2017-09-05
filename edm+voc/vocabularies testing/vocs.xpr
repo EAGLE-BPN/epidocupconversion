@@ -10,6 +10,96 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>eagle-vocabulary-writing.rdf</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>eagle-vocabulary-type-of-inscription</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>eagle-vocabulary-state-of-preservation.rdf</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>eagle-vocabulary-type-of-inscription</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>eagle-vocabulary-object-type.rdf</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>eagle-vocabulary-type-of-inscription</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>eagle-vocabulary-material.rdf</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>eagle-vocabulary-type-of-inscription</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>eagle-vocabulary-decoration.rdf</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>eagle-vocabulary-type-of-inscription</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>eagle-vocabulary-dating-criteria.rdf</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>eagle-vocabulary-type-of-inscription</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>eagle-vocabulary-type-of-inscription.rdf</String>
                                 </field>
                                 <field name="scenarioIds">

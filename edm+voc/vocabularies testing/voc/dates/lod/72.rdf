@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:resource="http://www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-07-20+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-07-20+02:00</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-05+02:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-05+02:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -20,55 +20,55 @@
 		    <skos:prefLabel xml:lang="en">centuries</skos:prefLabel>
 		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/73"/>
-      <!--VIII BC-->
+		    <!--VIII BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/85"/>
-      <!--VII BC-->
+		    <!--VII BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/86"/>
-      <!--VI BC-->
+		    <!--VI BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/87"/>
-      <!--V BC-->
+		    <!--V BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/88"/>
-      <!--IV BC-->
+		    <!--IV BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/89"/>
-      <!--III BC-->
+		    <!--III BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/90"/>
-      <!--II BC-->
+		    <!--II BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/91"/>
-      <!--I BC-->
+		    <!--I BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/92"/>
-      <!--I AD-->
+		    <!--I AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/103"/>
-      <!--II AD-->
+		    <!--II AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/114"/>
-      <!--III AD-->
+		    <!--III AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/105"/>
-      <!--IV AD-->
+		    <!--IV AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/106"/>
-      <!--V AD-->
+		    <!--V AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/107"/>
-      <!--VI AD-->
+		    <!--VI AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/108"/>
-      <!--VII AD-->
+		    <!--VII AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/109"/>
-      <!--VIII AD-->
+		    <!--VIII AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/349"/>
-      <!--III BC - II BC-->				
-      <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/348"/>
-      <!--I AD - I BC-->		
-      <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/100"/>
-      <!--I-II AD-->
+		    <!--III BC - II BC-->
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/348"/>
+		    <!--I AD - I BC-->
+		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/100"/>
+		    <!--I-II AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/101"/>
-      <!--I-III AD-->
+		    <!--I-III AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/102"/>
-      <!--I-IV AD-->
+		    <!--I-IV AD-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/83"/>
-      <!--VIII or VII-->
+		    <!--VIII or VII-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/84"/>
-      <!--VIII-V BC-->
+		    <!--VIII-V BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/82"/>
-      <!--VIII-VI BC-->
+		    <!--VIII-VI BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/81"/>
-      <!--VIII-VII BC-->
+		    <!--VIII-VII BC-->
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/350"/>
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/351"/>
 		    <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/dates/lod/352"/>

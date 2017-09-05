@@ -8,8 +8,8 @@
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
                       rdf:resource="http://www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2015-07-20+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2015-07-20+02:00</dct:modified>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-05+02:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-05+02:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -19,7 +19,7 @@
                  rdf:about="http://www.eagle-network.eu/voc/dates/lod/61">
 		    <skos:prefLabel xml:lang="es">Vespasiana (c. 69-79 d.C.)</skos:prefLabel>
 		    <skos:scopeNote>0069 ; 0079</skos:scopeNote>
-       <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
+		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
 		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/39"/>
 		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
 		    <dct:created>2013-08-21 08:54:24</dct:created>
