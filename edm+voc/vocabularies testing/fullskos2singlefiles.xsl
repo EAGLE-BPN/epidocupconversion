@@ -20,9 +20,9 @@ xmlns:gcse="uri:not-provided"
 
     <xsl:template match="/">
         <xsl:variable name="fullskosfile"
-            select="concat('voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.rdf')"/>
+            select="concat('voc/',substring-before(substring-after($url, 'https://www.eagle-network.eu/voc/'),'/'),'.rdf')"/>
         <xsl:variable name="filenameindex"
-            select="concat('voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')"/>
+            select="concat('voc/',substring-before(substring-after($url, 'https://www.eagle-network.eu/voc/'),'/'),'.html')"/>
         <xsl:result-document href="{$filenameindex}" format="html" exclude-result-prefixes="#all"
             omit-xml-declaration="yes">
 
@@ -726,10 +726,10 @@ xmlns:gcse="uri:not-provided"
 </div>
   <div>                      <p>
                             <a
-                                href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}" target="_blank">Back to Intro</a>
+                                href="{concat('https://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}" target="_blank">Back to Intro</a>
                         </p>
                         <p>
-                            <a href="{concat('http://www.eagle-network.eu/',$fullskosfile)}" target="_blank">See SKOS version</a>
+                            <a href="{concat('https://www.eagle-network.eu/',$fullskosfile)}" target="_blank">See SKOS version</a>
                         </p>
   </div>                      
                         <script src="footer.js"/>
@@ -776,7 +776,7 @@ xmlns:gcse="uri:not-provided"
 
             <!--skos-->
             <xsl:variable name="filenameskos"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.rdf')"/>
+                select="concat(substring-after($url, 'https://www.eagle-network.eu/'),'/lod/',$id,'.rdf')"/>
             <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes"
                 exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -794,7 +794,7 @@ xmlns:gcse="uri:not-provided"
                         <dc:description>
                             <xsl:attribute name="rdf:resource">
                                 <xsl:value-of
-                                    select="concat('http://www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
+                                    select="concat('https://www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
                                 />
                             </xsl:attribute>
                         </dc:description>
@@ -812,7 +812,7 @@ xmlns:gcse="uri:not-provided"
 
             <!--html-->
             <xsl:variable name="filenamehtml"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
+                select="concat(substring-after($url, 'https://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
             <xsl:result-document href="{$filenamehtml}" format="html">
                 <html>
                     <head>
@@ -972,11 +972,11 @@ xmlns:gcse="uri:not-provided"
                                 <form style="float:right" action="//www.eagle-network.eu/advanced-search">
                                     <input type="submit" value="EAGLE Advanced Search"/>
                                 </form>
-                                <form style="float:left" action="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}">
+                                <form style="float:left" action="{concat('https://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'https://www.eagle-network.eu/voc/'),'/'),'.html')}">
                                     <input type="submit" value="Back to Index"/>
                                 </form>
                                 <form style="float:left"
-                                    action="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}">
+                                    action="{concat('https://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}">
                                     <input type="submit" value="Back to Intro"/>
                                 </form>
                                 <form style="float:right" action="{concat($url,'lod/',$id,'.rdf')}">
@@ -1357,7 +1357,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
 
  -->
             <xsl:variable name="filenameskos"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.rdf')"/>
+                select="concat(substring-after($url, 'https://www.eagle-network.eu/'),'/lod/',$id,'.rdf')"/>
             <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes"
                 exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -1375,7 +1375,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                         <dc:description>
                             <xsl:attribute name="rdf:resource">
                                 <xsl:value-of
-                                    select="concat('http://www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
+                                    select="concat('https://www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
                                 />
                             </xsl:attribute>
                         </dc:description>
@@ -1398,7 +1398,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
 
             <!--html-->
             <xsl:variable name="filenamehtml"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
+                select="concat(substring-after($url, 'https://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
             <xsl:result-document href="{$filenamehtml}" format="html">
                 <html>
                     <head>
@@ -1479,11 +1479,11 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                             </p>
                             <p>
                                 <a
-                                    href="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}" target="_blank">Back to Index</a>
+                                    href="{concat('https://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}" target="_blank">Back to Index</a>
                             </p>
                             <p>
                                 <a
-                                    href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
+                                    href="{concat('https://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
                                     target="_blank">Back to Intro</a>
                             </p>
                             <p>
