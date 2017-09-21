@@ -1,30 +1,30 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-                       rdf:about="http://www.eagle-network.eu/voc/dates/">EAGLE Vocabulary - Dating Criteria<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                       rdf:about="https://www.eagle-network.eu/voc/dates/">EAGLE Vocabulary - Dating Criteria<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
                             BPN)</dc:creator>
       <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
-                      rdf:resource="http://www.eagle-network.eu/resources/vocabularies/dates.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-05+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-05+02:00</dct:modified>
+                      rdf:resource="https://www.eagle-network.eu/resources/vocabularies/dates.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-21+02:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-21+02:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="http://www.eagle-network.eu/voc/dates/lod/145">
+                 rdf:about="https://www.eagle-network.eu/voc/dates/lod/145">
 		    <skos:prefLabel xml:lang="de">Domitian</skos:prefLabel>
 		    <skos:scopeNote xml:lang="de">14. Sept. 81 - 18. Sept. 96</skos:scopeNote>
 		    <skos:scopeNote>0081 ; 0096</skos:scopeNote>
 		    <skos:note xml:lang="de">Kienast, Dietmar. Römische Kaisertabelle, Darmstadt 2011: 115.</skos:note>
-		    <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/dates/"/>
-		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/37"/>
-		    <skos:related rdf:resource="http://www.eagle-network.eu/voc/dates/lod/39"/>
-		    <skos:broader rdf:resource="http://www.eagle-network.eu/voc/dates/lod/22"/>
+		    <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/dates/"/>
+		    <skos:related rdf:resource="https://www.eagle-network.eu/voc/dates/lod/37"/>
+		    <skos:related rdf:resource="https://www.eagle-network.eu/voc/dates/lod/39"/>
+		    <skos:broader rdf:resource="https://www.eagle-network.eu/voc/dates/lod/22"/>
 		    <dct:created>2014-03-12 10:41:11</dct:created>
 	  </skos:Concept>
 </rdf:RDF>

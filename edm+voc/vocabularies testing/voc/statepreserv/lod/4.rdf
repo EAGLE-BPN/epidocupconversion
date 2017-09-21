@@ -1,22 +1,22 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-                       rdf:about="http://www.eagle-network.eu/voc/statepreserv/">EAGLE Vocabulary - State of preservation<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                       rdf:about="https://www.eagle-network.eu/voc/statepreserv/">EAGLE Vocabulary - State of preservation<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
                             BPN)</dc:creator>
       <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
-                      rdf:resource="http://www.eagle-network.eu/resources/vocabularies/statepreserv.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-05+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-05+02:00</dct:modified>
+                      rdf:resource="https://www.eagle-network.eu/resources/vocabularies/statepreserv.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-21+02:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-21+02:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/4">
+                 rdf:about="https://www.eagle-network.eu/voc/statepreserv/lod/4">
         <skos:prefLabel xml:lang="en">Broken</skos:prefLabel>
         <skos:altLabel xml:lang="la">in transversum / in duas partes / in permultas partes fractus, a, um</skos:altLabel>
         <skos:altLabel xml:lang="la">a dextra / a sinistra / infra / supra / a tergo fractus / imminutus / ad posteriorem usum abscisus</skos:altLabel>
@@ -30,14 +30,14 @@
         <skos:note xml:lang="it">I. Di Stefano Manzella, Il mestiere di Epigrafista, Roma 1987, p.
             169.</skos:note>
         <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/statepreserv/"/>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/12">
+            <skos:Concept rdf:about="https://www.eagle-network.eu/voc/statepreserv/lod/12">
                 <skos:prefLabel xml:lang="de">stark bestoßen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://www.eagle-network.eu/voc/statepreserv/lod/11">
+            <skos:Concept rdf:about="https://www.eagle-network.eu/voc/statepreserv/lod/11">
                 <skos:prefLabel xml:lang="la">tit. mutilum</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>

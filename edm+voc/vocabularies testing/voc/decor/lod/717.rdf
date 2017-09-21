@@ -1,22 +1,22 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-                       rdf:about="http://www.eagle-network.eu/voc/decor/">EAGLE Vocabulary - Decoration<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                       rdf:about="https://www.eagle-network.eu/voc/decor/">EAGLE Vocabulary - Decoration<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
                             BPN)</dc:creator>
       <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
-                      rdf:resource="http://www.eagle-network.eu/resources/vocabularies/decor.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-05+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-05+02:00</dct:modified>
+                      rdf:resource="https://www.eagle-network.eu/resources/vocabularies/decor.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-21+02:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-21+02:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="http://www.eagle-network.eu/voc/decor/skos/717">
+                 rdf:about="https://www.eagle-network.eu/voc/decor/skos/717">
                 Lierre
             </skos:Concept>
 </rdf:RDF>

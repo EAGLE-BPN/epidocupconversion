@@ -1,22 +1,22 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-                       rdf:about="http://www.eagle-network.eu/voc/material/">EAGLE Vocabulary - Material<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                       rdf:about="https://www.eagle-network.eu/voc/material/">EAGLE Vocabulary - Material<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
                             BPN)</dc:creator>
       <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
-                      rdf:resource="http://www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-05+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-05+02:00</dct:modified>
+                      rdf:resource="https://www.eagle-network.eu/resources/vocabularies/material.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-21+02:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-21+02:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="http://www.eagle-network.eu/voc/material/lod/736">
+                 rdf:about="https://www.eagle-network.eu/voc/material/lod/736">
         <skos:prefLabel xml:lang="de">Grauwacke</skos:prefLabel>
         <skos:altLabel xml:lang="de">Metagrauwacke</skos:altLabel>
         <skos:altLabel xml:lang="la">lapis basanites</skos:altLabel>
@@ -26,15 +26,14 @@
             Leipzig 1884. 23ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen).
             111ff.; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit
             Abbildungen), 692; Borghini, Gabriele, Marmi Antichi 1, Rom 2001 (mit Abbildungen),110;
-            Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, <a href="//www.geogruppen.no/pdf/roman-rock-marble.pdf"
-            target="_blank">online</a>
+            Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, <a href="//www.geogruppen.no/pdf/roman-rock-marble.pdf" target="_blank">online</a>
             (ohne Jahr), 24; Harrell, James A.,
             http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
             Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne
             Jahr), E 8, EQ 28a. (a); Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom
             1985ff. 31.</skos:note>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/52"/>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/52"/>
         <dct:created>2015-01-29 21:31:50</dct:created>
     </skos:Concept>
 </rdf:RDF>

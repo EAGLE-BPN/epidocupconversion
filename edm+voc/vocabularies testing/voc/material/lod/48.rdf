@@ -1,22 +1,22 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-                       rdf:about="http://www.eagle-network.eu/voc/material/">EAGLE Vocabulary - Material<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                       rdf:about="https://www.eagle-network.eu/voc/material/">EAGLE Vocabulary - Material<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
                             BPN)</dc:creator>
       <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/"/>
       <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/"
-                      rdf:resource="http://www.eagle-network.eu/resources/vocabularies/material.html"/>
-      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-05+02:00</dc:date>
-      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-05+02:00</dct:modified>
+                      rdf:resource="https://www.eagle-network.eu/resources/vocabularies/material.html"/>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2017-09-21+02:00</dc:date>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2017-09-21+02:00</dct:modified>
    </skos:ConceptScheme>
    <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                  xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
                  xmlns:dct="http://purl.org/dc/terms/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                 rdf:about="http://www.eagle-network.eu/voc/material/lod/48">
+                 rdf:about="https://www.eagle-network.eu/voc/material/lod/48">
         <skos:prefLabel xml:lang="de">Marmor</skos:prefLabel>
         <skos:altLabel xml:lang="en">marble</skos:altLabel>
         <skos:altLabel xml:lang="en">Marble (colour indefinite)</skos:altLabel>
@@ -38,30 +38,29 @@
             Stdtekunde des Altertums, Leipzig 1877, 20; Ginouvès René et Martin Roland, Dictionnaire
             méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin,
             Berlin 1985 (mit Abbildungen), 418-664; Provan, Donald, Roman Rock. Marble and other
-            decorative rock in the Roman World, <a href="//www.geogruppen.no/pdf/roman-rock-marble.pdf"
-            target="_blank">online</a>
+            decorative rock in the Roman World, <a href="//www.geogruppen.no/pdf/roman-rock-marble.pdf" target="_blank">online</a>
             (ohne Jahr), passim.</skos:note>
-        <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/material/"/>
-        <skos:broader rdf:resource="http://www.eagle-network.eu/voc/material/lod/42"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/50"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/49"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/353"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/359"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/363"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/361"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/358"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/648"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/739"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/740"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/741"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/742"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/743"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/744"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/745"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/746"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/747"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/748"/>
-        <skos:narrower rdf:resource="http://www.eagle-network.eu/voc/material/lod/749"/>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
+        <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/50"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/49"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/353"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/359"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/363"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/361"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/358"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/648"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/739"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/740"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/741"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/742"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/743"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/744"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/745"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/746"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/747"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/748"/>
+        <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/749"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2383">
                 <skos:prefLabel xml:lang="de">Marmor</skos:prefLabel>
