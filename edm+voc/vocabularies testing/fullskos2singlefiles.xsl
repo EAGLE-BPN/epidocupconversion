@@ -20,9 +20,9 @@ xmlns:gcse="uri:not-provided"
 
     <xsl:template match="/">
         <xsl:variable name="fullskosfile"
-            select="concat('voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.rdf')"/>
+            select="concat('voc/',substring-before(substring-after($url, 'https://www.eagle-network.eu/voc/'),'/'),'.rdf')"/>
         <xsl:variable name="filenameindex"
-            select="concat('voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')"/>
+            select="concat('voc/',substring-before(substring-after($url, 'https://www.eagle-network.eu/voc/'),'/'),'.html')"/>
         <xsl:result-document href="{$filenameindex}" format="html" exclude-result-prefixes="#all"
             omit-xml-declaration="yes">
 
@@ -30,13 +30,13 @@ xmlns:gcse="uri:not-provided"
                 <head>
                     <!--
                <meta charset="UTF-8"/>-->
-                    <link rel="stylesheet" href="http://www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css"
+                    <link rel="stylesheet" href="//www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css"
                         type="text/css"/>
                     <style type="text/css">
                         .list{
                         	display:none;
                         }</style>
-                    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"/>
+                    <script type="text/javascript" src="//code.jquery.com/jquery-latest.js"/>
                     <!--java for language selection-->
                     <script type="text/javascript">  
                     $(document).ready(function(){
@@ -726,10 +726,10 @@ xmlns:gcse="uri:not-provided"
 </div>
   <div>                      <p>
                             <a
-                                href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}" target="_blank">Back to Intro</a>
+                                href="{concat('https://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}" target="_blank">Back to Intro</a>
                         </p>
                         <p>
-                            <a href="{concat('http://www.eagle-network.eu/',$fullskosfile)}" target="_blank">See SKOS version</a>
+                            <a href="{concat('https://www.eagle-network.eu/',$fullskosfile)}" target="_blank">See SKOS version</a>
                         </p>
   </div>                      
                         <script src="footer.js"/>
@@ -776,7 +776,7 @@ xmlns:gcse="uri:not-provided"
 
             <!--skos-->
             <xsl:variable name="filenameskos"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.rdf')"/>
+                select="concat(substring-after($url, 'https://www.eagle-network.eu/'),'/lod/',$id,'.rdf')"/>
             <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes"
                 exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -794,7 +794,7 @@ xmlns:gcse="uri:not-provided"
                         <dc:description>
                             <xsl:attribute name="rdf:resource">
                                 <xsl:value-of
-                                    select="concat('http://www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
+                                    select="concat('https://www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
                                 />
                             </xsl:attribute>
                         </dc:description>
@@ -812,13 +812,13 @@ xmlns:gcse="uri:not-provided"
 
             <!--html-->
             <xsl:variable name="filenamehtml"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
+                select="concat(substring-after($url, 'https://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
             <xsl:result-document href="{$filenamehtml}" format="html">
                 <html>
                     <head>
                         <meta charset="UTF-8"/>
                         <link rel="stylesheet"
-                            href="http://www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css"/>
+                            href="//www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css"/>
                         <title>
                             <xsl:value-of select="skos:prefLabel"/>
                         </title>
@@ -849,7 +849,7 @@ xmlns:gcse="uri:not-provided"
                             }</style>
                         
                         
-                        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"/>
+                        <script type="text/javascript" src="//code.jquery.com/jquery-latest.js"/>
                         <script type="text/javascript" src="../../jquery.tablesorter.js"></script>
                         <script  type="text/javascript" src="../../jquery.tablesorter.staticrow.min.js"></script>
                         <script type="text/javascript"> 
@@ -906,7 +906,7 @@ xmlns:gcse="uri:not-provided"
                                             </xsl:attribute>
 <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
-                                                src="http://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png"
+                                                src="//upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png"
                                                 title="{concat('Search ',skos:prefLabel,' in Wikipedia (EN)')}"/>
                                         </a>
                                     </li>
@@ -921,7 +921,7 @@ xmlns:gcse="uri:not-provided"
                                             
                                             <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
-                                                src="http://smallbiztrends.com/wp-content/uploads/2013/05/wikidata-logo-660x462.jpg"
+                                                src="//smallbiztrends.com/wp-content/uploads/2013/05/wikidata-logo-660x462.jpg"
                                                 title="{concat('Search ',skos:prefLabel,' in Wikidata')}"/>
                                         </a>
                                     </li>
@@ -969,14 +969,14 @@ xmlns:gcse="uri:not-provided"
                                     </li>
                                 </ul>
                                 <br/>
-                                <form style="float:right" action="http://www.eagle-network.eu/advanced-search">
+                                <form style="float:right" action="//www.eagle-network.eu/advanced-search">
                                     <input type="submit" value="EAGLE Advanced Search"/>
                                 </form>
-                                <form style="float:left" action="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}">
+                                <form style="float:left" action="{concat('https://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'https://www.eagle-network.eu/voc/'),'/'),'.html')}">
                                     <input type="submit" value="Back to Index"/>
                                 </form>
                                 <form style="float:left"
-                                    action="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}">
+                                    action="{concat('https://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}">
                                     <input type="submit" value="Back to Intro"/>
                                 </form>
                                 <form style="float:right" action="{concat($url,'lod/',$id,'.rdf')}">
@@ -1040,7 +1040,7 @@ xmlns:gcse="uri:not-provided"
                         </xsl:attribute>
                         <xsl:attribute name="target">_blank</xsl:attribute>
                         <img height="20%" width="20%"
-                            src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif"
+                            src="//www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif"
                             title="Search in EDH"/>
                     </a>
                 </xsl:if>
@@ -1212,7 +1212,7 @@ External Example
                             </xsl:attribute>
                             <xsl:attribute name="target">_blank</xsl:attribute>
                             <img width="50%" height="50%"
-                                src="http://arachne.uni-koeln.de/template/images/logo_gross.gif"
+                                src="//arachne.uni-koeln.de/template/images/logo_gross.gif"
                                 title="Search in Arachne"/>
                         </a>
 
@@ -1258,7 +1258,7 @@ External Example
                             </xsl:attribute>
                             <xsl:attribute name="target">_blank</xsl:attribute>
                             <img height="20%" width="20%"
-                                src="http://www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif"
+                                src="//www.eagle-network.eu/wp-content/uploads/2013/06/edh-300x300.gif"
                                 title="Search this term in EDH"/>
                         </a>
 
@@ -1357,7 +1357,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
 
  -->
             <xsl:variable name="filenameskos"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.rdf')"/>
+                select="concat(substring-after($url, 'https://www.eagle-network.eu/'),'/lod/',$id,'.rdf')"/>
             <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes"
                 exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -1375,7 +1375,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                         <dc:description>
                             <xsl:attribute name="rdf:resource">
                                 <xsl:value-of
-                                    select="concat('http://www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
+                                    select="concat('https://www.eagle-network.eu/resources/vocabularies/', substring-before(substring-after($url, 'voc/'), '/'), '.html')"
                                 />
                             </xsl:attribute>
                         </dc:description>
@@ -1398,13 +1398,13 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
 
             <!--html-->
             <xsl:variable name="filenamehtml"
-                select="concat(substring-after($url, 'http://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
+                select="concat(substring-after($url, 'https://www.eagle-network.eu/'),'/lod/',$id,'.html')"/>
             <xsl:result-document href="{$filenamehtml}" format="html">
                 <html>
                     <head>
                         <meta charset="UTF-8"/>
                         <link rel="stylesheet"
-                            href="http://www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css"/>
+                            href="//www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css"/>
                         <title>
                             <xsl:value-of select="skos:prefLabel"/>
                         </title>
@@ -1429,7 +1429,7 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
                             	padding-top:5px;
                             	padding-bottom:4px;
                             }</style>
-                        <script type="text/javascript" src="http://code.jquery.com/jquery.js"/>
+                        <script type="text/javascript" src="//code.jquery.com/jquery.js"/>
                         <script type="text/javascript" src="../../jquery.tablesorter.js"></script>
                         <script type="text/javascript"> 
                             $(document).ready(function() 
@@ -1474,16 +1474,16 @@ however, since in the rdf tree they have their uri the skos tree MIGHT !!! I AM 
 
 
                             <p>
-                                <a href="http://www.eagle-network.eu/advanced-search" target="_blank">Search for this term on the EAGLE
+                                <a href="//www.eagle-network.eu/advanced-search" target="_blank">Search for this term on the EAGLE
                                     Advanced Search</a>
                             </p>
                             <p>
                                 <a
-                                    href="{concat('http://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}" target="_blank">Back to Index</a>
+                                    href="{concat('https://www.eagle-network.eu/voc/',substring-before(substring-after($url, 'http://www.eagle-network.eu/voc/'),'/'),'.html')}" target="_blank">Back to Index</a>
                             </p>
                             <p>
                                 <a
-                                    href="{concat('http://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
+                                    href="{concat('https://www.eagle-network.eu/resources/vocabularies/', substring-after($url, 'voc/'))}"
                                     target="_blank">Back to Intro</a>
                             </p>
                             <p>
