@@ -4130,8 +4130,32 @@
 		<skos:broader rdf:resource="https://www.eagle-network.eu/voc/dates/lod/109"/>
 		<dct:created>2015-01-15 01:00:00</dct:created>
 	</skos:Concept>
-
-
+	<skos:Concept rdf:about="https://www.eagle-network.eu/voc/dates/lod/110">
+		<skos:prefLabel xml:lang="en">IX AD</skos:prefLabel>
+		<skos:altLabel xml:lang="en">IX CE</skos:altLabel>
+		<skos:altLabel xml:lang="it">IX d.C.</skos:altLabel>
+		<skos:altLabel xml:lang="en">ninth century AD</skos:altLabel>
+		<skos:altLabel xml:lang="en">ninth century CE</skos:altLabel>
+		<skos:altLabel xml:lang="it">nono secolo d.C.</skos:altLabel>
+		<skos:scopeNote>0801 ; 0900</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="https://www.eagle-network.eu/voc/dates/lod/111">
+                <skos:prefLabel xml:lang="en">X AD</skos:prefLabel>
+		<skos:altLabel xml:lang="en">X CE</skos:altLabel>
+		<skos:altLabel xml:lang="it">X d.C.</skos:altLabel>
+		<skos:altLabel xml:lang="en">tenth century AD</skos:altLabel>
+		<skos:altLabel xml:lang="en">tenth century CE</skos:altLabel>
+		<skos:altLabel xml:lang="it">decimo secolo d.C.</skos:altLabel>
+		<skos:scopeNote>0901 ; 1000</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="https://www.eagle-network.eu/voc/dates/lod/112">
+                <skos:prefLabel xml:lang="en">XI AD</skos:prefLabel>
+		<skos:altLabel xml:lang="en">XI CE</skos:altLabel>
+		<skos:altLabel xml:lang="it">XI d.C.</skos:altLabel>
+		<skos:altLabel xml:lang="en">eleventh century AD</skos:altLabel>
+		<skos:altLabel xml:lang="en">eleventh century CE</skos:altLabel>
+		<skos:altLabel xml:lang="it">undicesimo secolo d.C.</skos:altLabel>
+		<skos:scopeNote>1001 ; 1100</skos:scopeNote>
 
 	<!--
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
