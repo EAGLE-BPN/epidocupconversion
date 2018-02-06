@@ -4364,7 +4364,7 @@
         <skos:altLabel xml:lang="it">braccialetto</skos:altLabel>
         <skos:altLabel xml:lang="en">bracelet</skos:altLabel>
         <skos:altLabel xml:lang="en">bracelet, armband</skos:altLabel>
-        <skos:altLabel xml:lang="sp">Brazalete</skos:altLabel>
+        <skos:altLabel xml:lang="es">Brazalete</skos:altLabel>
         <skos:altLabel xml:lang="de">Schmuck, Armreif</skos:altLabel>
         <skos:altLabel xml:lang="el">κόσμημα, βραχιόλι</skos:altLabel>
         <skos:altLabel xml:lang="ru">браслет</skos:altLabel>
@@ -5056,7 +5056,7 @@
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/objtyp/lod/44">
         <skos:prefLabel xml:lang="fr">Pointe de fl̬che</skos:prefLabel>
         <skos:altLabel xml:lang="la">arma, sagitta</skos:altLabel>
-        <skos:altLabel xml:lang="sp">Punta de flecha</skos:altLabel>
+        <skos:altLabel xml:lang="es">Punta de flecha</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/objtyp/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2566">
