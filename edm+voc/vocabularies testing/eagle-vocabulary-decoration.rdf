@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
     xmlns:skos="https://www.w3.org/2004/02/skos/core#"
     xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
@@ -2546,12 +2546,12 @@
             <skos:Concept rdf:about="https://www.eagle-network.eu/voc/decor/lod/745">
                 <skos:prefLabel xml:lang="de">Palmetten</skos:prefLabel>
             </skos:Concept>
+        </skos:exactMatch>
             <skos:exactMatch>
                 <skos:Concept rdf:about="https://vocab.getty.edu/aat/300375395">
                     <skos:prefLabel>Aracaceae (family)</skos:prefLabel>
                 </skos:Concept>
             </skos:exactMatch>
-        </skos:exactMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7582">
                 <skos:prefLabel xml:lang="de">Palmette</skos:prefLabel>
@@ -3699,8 +3699,8 @@
         <skos:altLabel xml:lang="en">chicken</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">rooster</skos:hiddenLabel>
         <skos:closeMatch>
-            <skos:Concept rdf:about="https://www.eagle-network.eu/voc/decor/lod/653.html"
-                >gallo</skos:Concept>
+            <skos:Concept rdf:about="https://www.eagle-network.eu/voc/decor/lod/653.html">
+                <skos:prefLabel>gallo</skos:prefLabel></skos:Concept>
         </skos:closeMatch>
         <skos:exactMatch>
             <skos:Concept rdf:about="https://vocab.getty.edu/aat/300250037">

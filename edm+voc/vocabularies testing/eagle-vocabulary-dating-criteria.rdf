@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
 	xmlns:skos="https://www.w3.org/2004/02/skos/core#" xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
 	xmlns:dct="https://purl.org/dc/terms/" xmlns:dc="https://purl.org/dc/elements/1.1/">
 	<skos:ConceptScheme rdf:about="https://www.eagle-network.eu/voc/dates/">
@@ -4156,7 +4156,7 @@
 		<skos:altLabel xml:lang="en">eleventh century CE</skos:altLabel>
 		<skos:altLabel xml:lang="it">undicesimo secolo d.C.</skos:altLabel>
 		<skos:scopeNote>1001 ; 1100</skos:scopeNote>
-
+	</skos:Concept>
 	<!--
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
