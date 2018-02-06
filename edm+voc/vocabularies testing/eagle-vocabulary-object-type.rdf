@@ -3,7 +3,8 @@
     xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
     xmlns:skos="https://www.w3.org/2004/02/skos/core#"
     xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
-    xmlns:dct="https://purl.org/dc/terms/" xmlns:dc="https://purl.org/dc/elements/1.1/">
+    xmlns:dct="https://purl.org/dc/terms/" 
+    xmlns:dc="https://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://www.eagle-network.eu/voc/objtyp/">
         <dc:title>EAGLE Vocabulary - Object type</dc:title>
         <dc:creator>EAGLE Consortium</dc:creator>

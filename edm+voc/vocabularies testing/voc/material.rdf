@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
-         xmlns:dct="http://purl.org/dc/terms/"
-         xmlns:dc="http://purl.org/dc/elements/1.1/">
+         xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+         xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="https://purl.org/dc/terms/"
+         xmlns:dc="https://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://www.eagle-network.eu/voc/material/">
         <dc:title>EAGLE Vocabulary - Material</dc:title>
         <dc:creator>EAGLE Consortium</dc:creator>
@@ -40,7 +40,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/1"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8027">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8027">
                 <skos:prefLabel xml:lang="de">Gestein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -53,7 +53,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/28"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/36"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/36"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -70,12 +70,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/28"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6303">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6303">
                 <skos:prefLabel xml:lang="de">Tuff</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/35"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/35"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -86,12 +86,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4718">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4718">
                 <skos:prefLabel xml:lang="de">Achat</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/234"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/234"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -119,7 +119,7 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/309"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/110"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1591">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1591">
                 <skos:prefLabel xml:lang="de">Bronze</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -131,7 +131,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/104"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4762">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4762">
                 <skos:prefLabel xml:lang="de">Amethyst</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -144,7 +144,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/34"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/39"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/39"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -154,7 +154,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/46"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/46"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -177,12 +177,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/14"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4766">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4766">
                 <skos:prefLabel xml:lang="de">Andesit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/23"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/23"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -207,7 +207,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/21"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/30"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/30"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -218,7 +218,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/99"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/66"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/66"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -244,7 +244,7 @@
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/material/lod/130"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3059">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3059">
                 <skos:prefLabel xml:lang="de">Ton</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -284,7 +284,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/308"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2872">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2872">
                 <skos:prefLabel xml:lang="de">Silber</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -298,7 +298,7 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/1"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/4"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/5"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/5"/>
         </skos:closeMatch>
         <dct:created>2013-08-20 17:25:54</dct:created>
     </skos:Concept>
@@ -317,7 +317,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/308"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1934">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1934">
                 <skos:prefLabel xml:lang="de">Gold</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -332,12 +332,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/14"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1481">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1481">
                 <skos:prefLabel xml:lang="de">Basalt</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/25"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/25"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -347,7 +347,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/21"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/31"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/31"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -357,7 +357,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/104"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4790">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4790">
                 <skos:prefLabel xml:lang="de">Bergkristall</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -373,7 +373,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1527">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1527">
                 <skos:prefLabel xml:lang="de">Bernstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -395,12 +395,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/28"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6287">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6287">
                 <skos:prefLabel xml:lang="de">Bimsstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/33"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/33"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -427,12 +427,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4799">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4799">
                 <skos:prefLabel xml:lang="de">Beinknochen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2230">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2230">
                 <skos:prefLabel xml:lang="de">Knochen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -457,18 +457,18 @@
             Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit
             Abbildungen), 418-459; Provan, Donald, Roman Rock. Marble and other decorative rock in
             the Roman World, online (ohne Jahr), 8, Harrell, James A.,
-            http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
+            https://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
             Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne
             Jahr), I 1.</skos:note>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/72"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6229">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6229">
                 <skos:prefLabel xml:lang="de">Breccia</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/61"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/61"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -505,7 +505,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3197">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3197">
                 <skos:prefLabel xml:lang="de">Wachs</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -575,7 +575,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8893">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8893">
                 <skos:prefLabel xml:lang="de">Chlorit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -588,7 +588,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6332">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6332">
                 <skos:prefLabel xml:lang="de">Zement</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -615,12 +615,12 @@
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/material/lod/131"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2183">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2183">
                 <skos:prefLabel xml:lang="de">Keramik</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3059">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3059">
                 <skos:prefLabel xml:lang="de">Ton</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -638,7 +638,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/14"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4778">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4778">
                 <skos:prefLabel xml:lang="de">Diabas</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -652,12 +652,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/8"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4787">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4787">
                 <skos:prefLabel xml:lang="de">Diorit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/19"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/19"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -666,7 +666,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/14"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6255">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6255">
                 <skos:prefLabel xml:lang="de">Dolerit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -681,12 +681,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/56"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4720">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4720">
                 <skos:prefLabel xml:lang="de">Dolomit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/59"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/59"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -697,12 +697,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6246">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6246">
                 <skos:prefLabel xml:lang="de">Dolomitkalkstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/51"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/51"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -719,7 +719,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/115"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/112"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1684">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1684">
                 <skos:prefLabel xml:lang="de">Edelmetall</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -744,7 +744,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/34"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/259"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/259"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -758,7 +758,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1715">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1715">
                 <skos:prefLabel xml:lang="de">Elfenbein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -794,7 +794,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/17"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/18"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/8"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/8"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -803,7 +803,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/21"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/28"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/28"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -813,7 +813,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/14"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/24"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/24"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -834,7 +834,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/309"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1707">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1707">
                 <skos:prefLabel xml:lang="de">Eisen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -847,12 +847,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/85"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4721">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4721">
                 <skos:prefLabel xml:lang="de">Feuerstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/63"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/63"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -861,7 +861,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6256">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6256">
                 <skos:prefLabel xml:lang="de">Fluorit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -887,12 +887,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/8"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4777">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4777">
                 <skos:prefLabel xml:lang="de">Gabbro</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/20"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/20"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -901,7 +901,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1843">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1843">
                 <skos:prefLabel xml:lang="de">Gagat</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -916,12 +916,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/99"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6265">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6265">
                 <skos:prefLabel xml:lang="de">Gips</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/65"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/65"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -933,7 +933,7 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/6"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/20"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/9"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/9"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -943,7 +943,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/288"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1925">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1925">
                 <skos:prefLabel xml:lang="de">Glaspaste</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -957,12 +957,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/34"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6295">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6295">
                 <skos:prefLabel xml:lang="de">Glimmerschiefer</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/37"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/37"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -973,12 +973,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/34"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6258">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6258">
                 <skos:prefLabel xml:lang="de">Gneis</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/45"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/45"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -987,7 +987,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/38"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/38"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1022,12 +1022,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/8"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4776">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4776">
                 <skos:prefLabel xml:lang="de">Granit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/18"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/18"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1043,7 +1043,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/12"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/13"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/6"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/6"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1056,7 +1056,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4723">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4723">
                 <skos:prefLabel xml:lang="de">Hämatit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1075,7 +1075,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/34"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/40"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/40"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1084,7 +1084,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/47"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/47"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1125,12 +1125,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4767">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4767">
                 <skos:prefLabel xml:lang="de">Jaspis</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/64"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/64"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1141,7 +1141,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/50"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/50"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1151,12 +1151,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/72"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6238">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6238">
                 <skos:prefLabel xml:lang="de">mergeliger Κalkstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6239">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6239">
                 <skos:prefLabel xml:lang="de">Mergelkalkstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1176,12 +1176,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/56"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8883">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8883">
                 <skos:prefLabel xml:lang="de">Kalksandstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/72"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/72"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1199,7 +1199,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/65"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/232"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/232"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1211,12 +1211,12 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/56"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/297"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2151">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2151">
                 <skos:prefLabel xml:lang="de">Kalkstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/53"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/53"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1236,7 +1236,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/72"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1403">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1403">
                 <skos:prefLabel xml:lang="de">Alabaster</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1253,7 +1253,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/72"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6305">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6305">
                 <skos:prefLabel xml:lang="de">Kalktuff</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1277,7 +1277,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/63"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/64"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/12"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/12"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1287,7 +1287,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4775">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4775">
                 <skos:prefLabel xml:lang="de">Karneol</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1301,12 +1301,12 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/55"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/104"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6243">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6243">
                 <skos:prefLabel xml:lang="de">kieseliger Κalkstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/11"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/11"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1324,7 +1324,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/79"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/75"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/13"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/13"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
         <dct:modified>2014-01-29 22:16:28</dct:modified>
@@ -1339,12 +1339,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/72"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6251">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6251">
                 <skos:prefLabel xml:lang="de">Konglomerat</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/60"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/60"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1357,7 +1357,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/56"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/55"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/55"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1373,7 +1373,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/104"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8884">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8884">
                 <skos:prefLabel xml:lang="de">Korund</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1384,7 +1384,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/50"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8885">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8885">
                 <skos:prefLabel xml:lang="de">Kunstmarmor</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1396,7 +1396,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8887">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8887">
                 <skos:prefLabel xml:lang="de">Kunststoff</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1412,7 +1412,7 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/309"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/310"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2289">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2289">
                 <skos:prefLabel xml:lang="de">Kupfer</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1423,7 +1423,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/113"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8890">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8890">
                 <skos:prefLabel xml:lang="de">Kupferniederschlag</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1435,7 +1435,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8891">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8891">
                 <skos:prefLabel xml:lang="de">Lapislazuli</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1448,7 +1448,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2325">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2325">
                 <skos:prefLabel xml:lang="de">Leder</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1460,7 +1460,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2328">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2328">
                 <skos:prefLabel xml:lang="de">Lehm</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1472,7 +1472,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/317"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8895">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8895">
                 <skos:prefLabel xml:lang="de">Flachsfaser</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1495,7 +1495,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2084">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2084">
                 <skos:prefLabel xml:lang="de">Holz</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1547,7 +1547,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/21"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/28"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/3"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/3"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1564,7 +1564,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/40"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/41"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/16"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/16"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1575,7 +1575,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/56"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/68"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/68"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1585,7 +1585,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8897">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8897">
                 <skos:prefLabel xml:lang="de">Magnetit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1613,7 +1613,7 @@
             Stdtekunde des Altertums, Leipzig 1877, 20; Ginouvès René et Martin Roland, Dictionnaire
             méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin,
             Berlin 1985 (mit Abbildungen), 418-664; Provan, Donald, Roman Rock. Marble and other
-            decorative rock in the Roman World, <a href="//www.geogruppen.no/pdf/roman-rock-marble.pdf" target="_blank">online</a>
+            decorative rock in the Roman World, online
             (ohne Jahr), passim.</skos:note>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
@@ -1637,12 +1637,12 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/748"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/749"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2383">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2383">
                 <skos:prefLabel xml:lang="de">Marmor</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/49"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/49"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -1671,7 +1671,7 @@
             796-7; Borghini, Gabriele, Marmi Antichi 1, Rom 2001 (mit Abbildungen), 72; Provan,
             Donald, Roman Rock. Marble and other decorative rock in the Roman World, online (ohne
             Jahr), 22, Harrell, James A.,
-            http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
+            https://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
             Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne
             Jahr), E 6, EQ 18.</skos:note>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
@@ -1914,9 +1914,9 @@
             265; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 38; Mielsch,
             Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 660;
             Borghini, Gabriele, Marmi Antichi 1, Rom 2001 (mit Abbildungen), 95; Provan, Donald,
-            Roman Rock. Marble and other decorative rock in the Roman World, <a href="//www.geogruppen.no/pdf/roman-rock-marble.pdf" target="_blank">online</a>
+            Roman Rock. Marble and other decorative rock in the Roman World, online
             (ohne Jahr), 1; Harrell, James A.,
-            http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
+            https://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
             Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne
             Jahr), I 14 a.</skos:note>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
@@ -1938,7 +1938,7 @@
             (mit Abbildungen), 265; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin,
             Berlin 1985 (mit Abbildungen),634-641; Borghini, Gabriele, Marmi Antichi 1, Rom 2001
             (mit Abbildungen), 13; Harrell, James A.,
-            http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
+            https://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
             Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne
             Jahr), I 14 b.</skos:note>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
@@ -2035,12 +2035,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/56"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2411">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2411">
                 <skos:prefLabel xml:lang="de">Mergel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/67"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/67"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2053,7 +2053,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/309"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2414">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2414">
                 <skos:prefLabel xml:lang="de">Messing</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2072,7 +2072,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/308"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/117"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2416">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2416">
                 <skos:prefLabel xml:lang="de">Metall</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2089,7 +2089,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/34"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/4"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/4"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2123,7 +2123,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/72"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6283">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6283">
                 <skos:prefLabel xml:lang="de">Molasse</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2141,12 +2141,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/56"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6247">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6247">
                 <skos:prefLabel xml:lang="de">Muschelkalkstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/54"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/54"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2161,7 +2161,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/65"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6247">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6247">
                 <skos:prefLabel xml:lang="de">Muschelkalk</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2182,7 +2182,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2446">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2446">
                 <skos:prefLabel xml:lang="de">Mosaik</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2204,7 +2204,7 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/55"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/86"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/14"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/14"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2218,7 +2218,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/101"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/102"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/15"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/15"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2229,12 +2229,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/19"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4774">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4774">
                 <skos:prefLabel xml:lang="de">Obsidian</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/32"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/32"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2246,7 +2246,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6222">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6222">
                 <skos:prefLabel xml:lang="de">Onyx</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2260,12 +2260,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/69"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6248">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6248">
                 <skos:prefLabel xml:lang="de">oolithischer Rogenstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/56"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/56"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2291,7 +2291,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4729">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4729">
                 <skos:prefLabel xml:lang="de">Papier</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2303,7 +2303,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8899">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8899">
                 <skos:prefLabel xml:lang="de">Papyrus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2315,7 +2315,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/80"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6286">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6286">
                 <skos:prefLabel xml:lang="de">Peperin</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2327,7 +2327,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/8"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/21"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/21"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2338,7 +2338,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/99"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/233"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/233"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2359,7 +2359,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/309"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1546">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1546">
                 <skos:prefLabel xml:lang="de">Blei</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2370,7 +2370,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/60"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8900">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8900">
                 <skos:prefLabel xml:lang="de">Poros</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2388,12 +2388,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/21"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6288">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6288">
                 <skos:prefLabel xml:lang="de">Porphyr</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/26"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/26"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2411,7 +2411,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/26"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/27"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/7"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/7"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2421,7 +2421,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4654">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4654">
                 <skos:prefLabel xml:lang="de">Porzellan</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2451,12 +2451,12 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/32"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/735"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8909">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8909">
                 <skos:prefLabel xml:lang="de">Vulkanit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/10"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/10"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2466,7 +2466,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/21"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/27"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/27"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2479,12 +2479,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2623">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2623">
                 <skos:prefLabel xml:lang="de">Quarzit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/48"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/48"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2510,12 +2510,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/14"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4781">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4781">
                 <skos:prefLabel xml:lang="de">Rhyolit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/22"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/22"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2526,7 +2526,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/21"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/29"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/29"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2564,12 +2564,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/72"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2730">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2730">
                 <skos:prefLabel xml:lang="de">Sandstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/62"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/62"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2583,7 +2583,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/288"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8901">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8901">
                 <skos:prefLabel xml:lang="de">Saphir</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2610,12 +2610,12 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/736"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2768">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2768">
                 <skos:prefLabel xml:lang="de">Schiefer</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/44"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/44"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2630,9 +2630,9 @@
             Leipzig 1884. 23ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen).
             111ff.; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit
             Abbildungen), 692; Borghini, Gabriele, Marmi Antichi 1, Rom 2001 (mit Abbildungen),110;
-            Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, <a href="//www.geogruppen.no/pdf/roman-rock-marble.pdf" target="_blank">online</a>
+            Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online
             (ohne Jahr), 24; Harrell, James A.,
-            http://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
+            https://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
             Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne
             Jahr), E 8, EQ 28a. (a); Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom
             1985ff. 31.</skos:note>
@@ -2652,12 +2652,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/28"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2779">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2779">
                 <skos:prefLabel xml:lang="de">Schlacke</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/34"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/34"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2678,7 +2678,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/53"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/54"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/17"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/17"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2698,7 +2698,7 @@
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/99"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/80"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/2"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/2"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2708,7 +2708,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8902">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8902">
                 <skos:prefLabel xml:lang="de">Sepiolith</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2734,7 +2734,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/34"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/42"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/42"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2750,7 +2750,7 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/737"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2875">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2875">
                 <skos:prefLabel xml:lang="de">Silex</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2773,7 +2773,7 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/288"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/292"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8904">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8904">
                 <skos:prefLabel xml:lang="de">Smaragd</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2784,7 +2784,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/291"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8905">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8905">
                 <skos:prefLabel xml:lang="de">Smaragdplasma</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2799,12 +2799,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/34"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2905">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2905">
                 <skos:prefLabel xml:lang="de">Speckstein</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/41"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/41"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2814,7 +2814,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/3"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/258"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/258"/>
         </skos:closeMatch>
         <dct:created>2013-08-20 17:26:22</dct:created>
     </skos:Concept>
@@ -2824,7 +2824,7 @@
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:narrower rdf:resource="https://www.eagle-network.eu/voc/material/lod/318"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2985">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2985">
                 <skos:prefLabel xml:lang="de">Stoff</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2849,12 +2849,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/8"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6259">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6259">
                 <skos:prefLabel xml:lang="de">Syenit</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/71"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/71"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2879,7 +2879,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2617">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2617">
                 <skos:prefLabel xml:lang="de">Putz</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2897,7 +2897,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3040">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3040">
                 <skos:prefLabel xml:lang="de">Terra sigillata</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2917,7 +2917,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/43"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/43"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2927,7 +2927,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/288"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=8906">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=8906">
                 <skos:prefLabel xml:lang="de">Topas</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2942,7 +2942,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/80"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6298">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6298">
                 <skos:prefLabel xml:lang="de">Trachyt</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2964,12 +2964,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/69"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6299">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6299">
                 <skos:prefLabel xml:lang="de">Travertin</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/57"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/57"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2980,7 +2980,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/56"/>
         <skos:closeMatch>
-            <skos:Concept rdf:about="http://chc.sbg.ac.at/sri/thesaurus/58"/>
+            <skos:Concept rdf:about="https://chc.sbg.ac.at/sri/thesaurus/58"/>
         </skos:closeMatch>
         <dct:created>2013-08-26 16:54:50</dct:created>
     </skos:Concept>
@@ -2989,7 +2989,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/107"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4536">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4536">
                 <skos:prefLabel xml:lang="de">unbestimmt</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3017,7 +3017,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1920">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1920">
                 <skos:prefLabel xml:lang="de">Glas</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3036,7 +3036,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/80"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6306">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6306">
                 <skos:prefLabel xml:lang="de">vulkanischer Tuff</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3047,7 +3047,7 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/309"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3308">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3308">
                 <skos:prefLabel xml:lang="de">Zinn</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>

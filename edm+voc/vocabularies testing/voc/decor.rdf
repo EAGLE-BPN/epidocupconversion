@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
-         xmlns:dct="http://purl.org/dc/terms/"
-         xmlns:dc="http://purl.org/dc/elements/1.1/">
+         xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+         xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="https://purl.org/dc/terms/"
+         xmlns:dc="https://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://www.eagle-network.eu/voc/decor/">
         <dc:title>EAGLE Vocabulary - Decoration</dc:title>
         <dc:creator>EAGLE Consortium</dc:creator>
@@ -89,7 +89,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1391">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1391">
                 <skos:prefLabel xml:lang="de">Adlerfibel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -136,7 +136,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1407">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1407">
                 <skos:prefLabel xml:lang="de">Altar</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -178,7 +178,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4116">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4116">
                 <skos:prefLabel xml:lang="de">Amphitheater</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -190,12 +190,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <dct:created>2013-10-02 01:02:39</dct:created>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300249395">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300249395">
                 <skos:prefLabel>Animalia (kingdom)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/3053">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/3053">
                 <skos:prefLabel>tier</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -254,12 +254,12 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1492">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1492">
                 <skos:prefLabel xml:lang="de">Baum</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300132410">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300132410">
                 <skos:prefLabel>trees</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -279,7 +279,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=113">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=113">
                 <skos:prefLabel xml:lang="de">Arkadenmauer</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -306,7 +306,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3200">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3200">
                 <skos:prefLabel xml:lang="de">Waffe</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -367,7 +367,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4797">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4797">
                 <skos:prefLabel xml:lang="de">Astragal</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -439,7 +439,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=66">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=66">
                 <skos:prefLabel xml:lang="de">Sockel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -520,7 +520,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3667">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3667">
                 <skos:prefLabel xml:lang="de">Bukranienaltar</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -541,7 +541,7 @@
         <skos:prefLabel xml:lang="es">Bulla</skos:prefLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=313">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=313">
                 <skos:prefLabel xml:lang="de">Bullauge</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -573,7 +573,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2567">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2567">
                 <skos:prefLabel xml:lang="de">Pferd</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -690,7 +690,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3203">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3203">
                 <skos:prefLabel xml:lang="de">Wagen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -727,7 +727,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250308">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300250308">
                 <skos:prefLabel>Cervidae (family)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -838,12 +838,12 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300055627">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300055627">
                 <skos:prefLabel>circles (plane figures)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2266">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/2266">
                 <skos:prefLabel xml:lang="de">Kreis</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -888,7 +888,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4728">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4728">
                 <skos:prefLabel xml:lang="de">Muschel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -941,7 +941,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3454">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3454">
                 <skos:prefLabel xml:lang="de">Kranz</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1008,7 +1008,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2267">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2267">
                 <skos:prefLabel xml:lang="de">Kreuz</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1076,7 +1076,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7606">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7606">
                 <skos:prefLabel xml:lang="de">Füllhorn</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1389,7 +1389,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2771">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2771">
                 <skos:prefLabel xml:lang="de">Schild</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1443,7 +1443,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2920">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2920">
                 <skos:prefLabel xml:lang="de">Spirale</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1474,7 +1474,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2971">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2971">
                 <skos:prefLabel xml:lang="de">Stern</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1495,7 +1495,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7464">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7464">
                 <skos:prefLabel xml:lang="de">Riefelung</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1542,7 +1542,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7636">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7636">
                 <skos:prefLabel xml:lang="de">Girlande</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1553,7 +1553,7 @@
         <skos:altLabel xml:lang="hu">fibula</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1785">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1785">
                 <skos:prefLabel xml:lang="de">Fibel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1608,12 +1608,12 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1552">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1552">
                 <skos:prefLabel xml:lang="de">Blüte</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300264247">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300264247">
                 <skos:prefLabel>flower (plant material)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1673,7 +1673,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7571">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7571">
                 <skos:prefLabel xml:lang="de">Frucht</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1723,7 +1723,7 @@
         <skos:altLabel xml:lang="en">Gorgoneiion</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7607">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7607">
                 <skos:prefLabel xml:lang="de">Gorgoneion</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1750,7 +1750,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1965">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1965">
                 <skos:prefLabel xml:lang="de">Greif</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1904,7 +1904,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1541">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1541">
                 <skos:prefLabel xml:lang="de">Blatt</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -1983,7 +1983,7 @@
         <skos:altLabel xml:lang="hu">váza</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3728">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3728">
                 <skos:prefLabel xml:lang="de">Grabvase</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2001,7 +2001,7 @@
         <skos:altLabel xml:lang="hu">kanellúra</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2159">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2159">
                 <skos:prefLabel xml:lang="de">Kannelur</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2012,7 +2012,7 @@
         <skos:altLabel xml:lang="hu">oszlopfő</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=564">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=564">
                 <skos:prefLabel xml:lang="de">Kapitell</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2034,7 +2034,7 @@
         <skos:altLabel xml:lang="en">Kline</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2220">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2220">
                 <skos:prefLabel xml:lang="de">Kline</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2121,7 +2121,7 @@
         <skos:altLabel xml:lang="hu">oroszlán</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1182">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1182">
                 <skos:prefLabel xml:lang="de">Löwenkopfwasserspeier</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2279,7 +2279,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3055">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3055">
                 <skos:prefLabel xml:lang="de">Tisch</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2426,7 +2426,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=264">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=264">
                 <skos:prefLabel xml:lang="de">Nische</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2475,7 +2475,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=1477">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=1477">
                 <skos:prefLabel xml:lang="de">Bär</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2501,7 +2501,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7648">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7648">
                 <skos:prefLabel xml:lang="de">Eierstab</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2527,7 +2527,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3172">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3172">
                 <skos:prefLabel xml:lang="de">Vogel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2547,14 +2547,14 @@
             <skos:Concept rdf:about="https://www.eagle-network.eu/voc/decor/lod/745">
                 <skos:prefLabel xml:lang="de">Palmetten</skos:prefLabel>
             </skos:Concept>
+        </skos:exactMatch>
             <skos:exactMatch>
-                <skos:Concept rdf:about="http://vocab.getty.edu/aat/300375395">
+                <skos:Concept rdf:about="https://vocab.getty.edu/aat/300375395">
                     <skos:prefLabel>Aracaceae (family)</skos:prefLabel>
                 </skos:Concept>
             </skos:exactMatch>
-        </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7582">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7582">
                 <skos:prefLabel xml:lang="de">Palmette</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2571,7 +2571,7 @@
         <skos:altLabel xml:lang="hu">páncél</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2549">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2549">
                 <skos:prefLabel xml:lang="de">Panzer</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2592,7 +2592,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7614">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7614">
                 <skos:prefLabel xml:lang="de">Opferschale</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2745,7 +2745,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=486">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=486">
                 <skos:prefLabel xml:lang="de">Pilaster</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2771,7 +2771,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7574">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7574">
                 <skos:prefLabel xml:lang="de">Pinienzapfen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2958,7 +2958,7 @@
         <skos:prefLabel xml:lang="de">Rolle</skos:prefLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7107">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7107">
                 <skos:prefLabel xml:lang="de">Rolle</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -2989,7 +2989,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7593">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7593">
                 <skos:prefLabel xml:lang="de">Rosette</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3055,7 +3055,7 @@
         <skos:altLabel xml:lang="hu">oszlop</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=479">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=479">
                 <skos:prefLabel xml:lang="de">Säule</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3066,7 +3066,7 @@
         <skos:altLabel xml:lang="hu">hagymafibula</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2759">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2759">
                 <skos:prefLabel xml:lang="de">Scheibenfibel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3126,7 +3126,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=2786">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=2786">
                 <skos:prefLabel xml:lang="de">Schlange</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3193,7 +3193,7 @@
         <skos:altLabel xml:lang="hu">szfinx</skos:altLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7623">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7623">
                 <skos:prefLabel xml:lang="de">Sphinx</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3245,7 +3245,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=4068">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=4068">
                 <skos:prefLabel xml:lang="de">Theater</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3266,7 +3266,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3034">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3034">
                 <skos:prefLabel xml:lang="de">Tempel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3342,7 +3342,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=7603">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=7603">
                 <skos:prefLabel xml:lang="de">Stierschädel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3405,12 +3405,12 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3696">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3696">
                 <skos:prefLabel xml:lang="de">Aschenurne</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3125">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3125">
                 <skos:prefLabel xml:lang="de">Urne</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3431,7 +3431,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=6042">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=6042">
                 <skos:prefLabel xml:lang="de">Traubeneiche</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3456,7 +3456,7 @@
         <skos:prefLabel xml:lang="la">Volumen</skos:prefLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3178">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3178">
                 <skos:prefLabel xml:lang="de">Volumen</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3471,7 +3471,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=3179">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=3179">
                 <skos:prefLabel xml:lang="de">Volute</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3486,7 +3486,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/thesaurus/de/vocab/?tema=616">
+            <skos:Concept rdf:about="https://archwort.dainst.org/thesaurus/de/vocab/?tema=616">
                 <skos:prefLabel xml:lang="de">Volutenpolster</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3513,7 +3513,7 @@
         <skos:prefLabel xml:lang="la">cervus</skos:prefLabel>
         <skos:altLabel xml:lang="en">deer</skos:altLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250308">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300250308">
                 <skos:prefLabel>Cervidae (family)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3523,7 +3523,7 @@
         <skos:altLabel xml:lang="en">boats</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">boat</skos:hiddenLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300178749">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300178749">
                 <skos:prefLabel>boats</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3534,12 +3534,12 @@
         <skos:hiddenLabel xml:lang="en">bust</skos:hiddenLabel>
         <skos:related xml:lang="en">heads</skos:related>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300047457">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300047457">
                 <skos:prefLabel>busts (figures)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/8608">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/8608">
                 <skos:prefLabel>Büste</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3551,12 +3551,12 @@
         <skos:hiddenLabel xml:lang="en">human</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en">person</skos:hiddenLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300024979">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300024979">
                 <skos:prefLabel>people (agents)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/3173">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/3173">
                 <skos:prefLabel>Volk</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3567,12 +3567,12 @@
         <skos:hiddenLabel xml:lang="en">female, woman, girl</skos:hiddenLabel>
         <skos:related xml:lang="en">men</skos:related>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300025943">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300025943">
                 <skos:prefLabel>women (female humans)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/1817">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/1817">
                 <skos:prefLabel>frau</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3589,12 +3589,12 @@
         <skos:hiddenLabel xml:lang="en">male</skos:hiddenLabel>
         <skos:related xml:lang="en">women</skos:related>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300025928">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300025928">
                 <skos:prefLabel>men (male humans)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2376">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/2376">
                 <skos:prefLabel>mann</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3606,7 +3606,7 @@
         <skos:hiddenLabel xml:lang="en">face</skos:hiddenLabel>
         <skos:related xml:lang="en">busts</skos:related>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300375054">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300375054">
                 <skos:prefLabel>heads (animal components)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3617,7 +3617,7 @@
         <skos:hiddenLabel xml:lang="en">gladiator</skos:hiddenLabel>
         <skos:related xml:lang="en">helmets</skos:related>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300258488">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300258488">
                 <skos:prefLabel>gladiators</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3628,7 +3628,7 @@
         <skos:hiddenLabel xml:lang="en">helmet</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en">hat</skos:hiddenLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300036794">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300036794">
                 <skos:prefLabel>helmets (protective wear)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3639,7 +3639,7 @@
         <skos:hiddenLabel xml:lang="en">gladiatorial games</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en">gladiatorial contest</skos:hiddenLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300379177">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300379177">
                 <skos:prefLabel>gladiatorial games</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3649,12 +3649,12 @@
         <skos:altLabel xml:lang="en">dogs</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">dog</skos:hiddenLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300265714">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300265714">
                 <skos:prefLabel>canis (genus)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2112">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/2112">
                 <skos:prefLabel>hund</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3665,7 +3665,7 @@
         <skos:hiddenLabel xml:lang="en">hunt</skos:hiddenLabel>
         <skos:related xml:lang="en">dogs</skos:related>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300239666">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300239666">
                 <skos:prefLabel>hunting</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3675,7 +3675,7 @@
         <skos:altLabel xml:lang="en">erotic scene</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">erotic image</skos:hiddenLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300028882">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300028882">
                 <skos:prefLabel>erotica</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3685,12 +3685,12 @@
         <skos:altLabel xml:lang="en">camels</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">camel</skos:hiddenLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250139">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300250139">
                 <skos:prefLabel>camelus (genus)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2152">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/2152">
                 <skos:prefLabel>kamel</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3700,15 +3700,17 @@
         <skos:altLabel xml:lang="en">chicken</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">rooster</skos:hiddenLabel>
         <skos:closeMatch>
-            <skos:Concept rdf:about="https://www.eagle-network.eu/voc/decor/lod/653.html">gallo</skos:Concept>
+            <skos:Concept rdf:about="https://www.eagle-network.eu/voc/decor/lod/653.html">
+                <skos:prefLabel>gallo</skos:prefLabel>
+         </skos:Concept>
         </skos:closeMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250037">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300250037">
                 <skos:prefLabel>gallus gallus (species)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2109">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/2109">
                 <skos:prefLabel>huhn</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3719,12 +3721,12 @@
         <skos:altLabel xml:lang="en">columns</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">column</skos:hiddenLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300001571">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300001571">
                 <skos:prefLabel>columns (architectural elements)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/479">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/479">
                 <skos:prefLabel>Säule</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
@@ -3734,12 +3736,12 @@
         <skos:altLabel xml:lang="en">plants</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">plant</skos:hiddenLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300132360">
+            <skos:Concept rdf:about="https://vocab.getty.edu/aat/300132360">
                 <skos:prefLabel>Plantae (kingdom)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2568">
+            <skos:Concept rdf:about="https://archwort.dainst.org/de/term/2568">
                 <skos:prefLabel>Pflanze</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>

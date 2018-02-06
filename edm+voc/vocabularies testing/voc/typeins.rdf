@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
-         xmlns:dct="http://purl.org/dc/terms/"
-         xmlns:dc="http://purl.org/dc/elements/1.1/">
+         xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+         xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="https://purl.org/dc/terms/"
+         xmlns:dc="https://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://www.eagle-network.eu/voc/typeins/">
         <dc:title>EAGLE Vocabulary - Type of Inscription</dc:title>
         <dc:creator>EAGLE Consortium</dc:creator>
@@ -85,7 +85,7 @@
             </skos:Concept>
         </skos:exactMatch>
         <skos:broadMatch>
-            <skos:Concept rdf:about="http://nl.dbpedia.org/resource/Acclamatio"/>
+            <skos:Concept rdf:about="https://nl.dbpedia.org/resource/Acclamatio"/>
         </skos:broadMatch>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 14:17:18</dct:modified>
@@ -121,7 +121,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/116">
         <skos:prefLabel xml:lang="de">Assignationsinschrift</skos:prefLabel>
-        <skos:scopeNote xml:lang="de">http://cil.bbaw.de/test06/bilder/datenbank/PH0008101.jpg</skos:scopeNote>
+        <skos:scopeNote xml:lang="de">https://cil.bbaw.de/test06/bilder/datenbank/PH0008101.jpg</skos:scopeNote>
         <skos:scopeNote xml:lang="de">Zuweisung von Aufstellungsplätzen und Land</skos:scopeNote>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
@@ -502,7 +502,7 @@
         <skos:scopeNote xml:lang="de">Fluch, Verwünschung.</skos:scopeNote>
         <skos:scopeNote xml:lang="de">HD001039 HD013929</skos:scopeNote>
         <skos:scopeNote xml:lang="en">HEpOnline 2436</skos:scopeNote>
-        <skos:scopeNote xml:lang="en">http://commons.wikimedia.org/wiki/File:Opisthographic_defixio_Terme.jpg</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">https://commons.wikimedia.org/wiki/File:Opisthographic_defixio_Terme.jpg</skos:scopeNote>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/78"/>
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/77"/>

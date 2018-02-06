@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
-    xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:dct="http://purl.org/dc/terms/" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+<xsl:stylesheet 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+    xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:dct="https://purl.org/dc/terms/" 
+    xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
 xmlns:gcse="uri:not-provided"
-    xmlns:dc="http://purl.org/dc/elements/1.1/" exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
+    xmlns:dc="https://purl.org/dc/elements/1.1/" 
+    exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
 
 
     <!--USE THIS TO GENERATE SKOS AND HTML VIEW FOR WEB SITE NOT SURE HOW TO ACTIVATE LINKS-->
@@ -262,13 +267,13 @@ xmlns:gcse="uri:not-provided"
                                             <xsl:attribute name="value">
                                                 <xsl:value-of select="@rdf:about"/>
                                             </xsl:attribute>
-                                            <xsl:value-of select="skos:prefLabel"/>
+                                            <xsl:value-of select="skos:prefLabel[1]"/>
                                         </option>
                                     </xsl:for-each>
 </xsl:when>
 <xsl:otherwise>
     <OPTION VALUE="">Select from all preferred labels alphabetically</OPTION>
-<xsl:for-each select="//skos:prefLabel">
+<xsl:for-each select="//skos:prefLabel[1]">
                                         <xsl:sort order="ascending"/>
                                         <option>
                                             <xsl:attribute name="value">
@@ -285,7 +290,7 @@ xmlns:gcse="uri:not-provided"
 <xsl:choose>
     <xsl:when test="contains($title, 'Dating')">
         <OPTION VALUE="">Select from all preferred labels alfabetically </OPTION>
-        <xsl:for-each select="//skos:prefLabel">
+        <xsl:for-each select="//skos:prefLabel[1]">
             <xsl:sort order="ascending"/>
             <option>
                 <xsl:attribute name="value">
@@ -692,14 +697,14 @@ xmlns:gcse="uri:not-provided"
                         <div class="hier list">
                             <ul>
                                 <xsl:for-each select="//skos:Concept[@rdf:about = //skos:hasTopConcept/@rdf:resource]">
-                                    <li><a href="{@rdf:about}" target="_blank"><xsl:value-of select="skos:prefLabel"/></a></li>
+                                    <li><a href="{@rdf:about}" target="_blank"><xsl:value-of select="skos:prefLabel[1]"/></a></li>
                                     <ul><xsl:for-each select="skos:narrower/@rdf:resource">
                                         <xsl:variable name="value" select="."/>
-                                        <li><a href="{//skos:Concept[@rdf:about = $value]/@rdf:about}" target="_blank"><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel"/></a><xsl:text> (</xsl:text><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel/@xml:lang"/><xsl:text>)</xsl:text>
+                                        <li><a href="{//skos:Concept[@rdf:about = $value]/@rdf:about}" target="_blank"><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel[1]"/></a><xsl:text> (</xsl:text><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel[1]/@xml:lang"/><xsl:text>)</xsl:text>
                                             <xsl:if test="//skos:Concept[@rdf:about = $value]/skos:narrower">
                                                 <ul><xsl:for-each select="//skos:Concept[@rdf:about = $value]/skos:narrower/@rdf:resource">
                                                     <xsl:variable name="value" select="."/>
-                                                    <li><a href="{.}" target="_blank"><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel"/></a><xsl:text> (</xsl:text><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel/@xml:lang"/><xsl:text>)</xsl:text></li>
+                                                    <li><a href="{.}" target="_blank"><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel[1]"/></a><xsl:text> (</xsl:text><xsl:value-of select="//skos:Concept[@rdf:about = $value]/skos:prefLabel[1]/@xml:lang"/><xsl:text>)</xsl:text></li>
                                                 </xsl:for-each>
                                                 </ul>
                                             </xsl:if>
@@ -780,9 +785,11 @@ xmlns:gcse="uri:not-provided"
             <xsl:result-document href="{$filenameskos}" format="xml" omit-xml-declaration="yes"
                 exclude-result-prefixes="#all">
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-                    xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dct="http://purl.org/dc/terms/"
-                    xmlns:dc="http://purl.org/dc/elements/1.1/">
+                    xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+                    xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+                    xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+                    xmlns:dct="https://purl.org/dc/terms/" 
+                    xmlns:dc="https://purl.org/dc/elements/1.1/">
                     <skos:ConceptScheme rdf:about="{$url}">
                         <xsl:value-of select="$title"/>
                         <dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
@@ -820,7 +827,7 @@ xmlns:gcse="uri:not-provided"
                         <link rel="stylesheet"
                             href="//www.eagle-network.eu/wp-content/themes/eaglenetwork/style.css" type="text/css"/>
                         <title>
-                            <xsl:value-of select="skos:prefLabel"/>
+                            <xsl:value-of select="skos:prefLabel[1]"/>
                         </title>
                         <style>
                             table{
@@ -877,7 +884,7 @@ xmlns:gcse="uri:not-provided"
                         <script src="../../header.js"/>
 
                         <h1 class="page_title">
-                            <xsl:value-of select="skos:prefLabel"/>
+                            <xsl:value-of select="skos:prefLabel[1]"/>
                         </h1>
                         <div class="post-content">
                             <p>
@@ -901,13 +908,13 @@ xmlns:gcse="uri:not-provided"
                                         <a>
                                             <xsl:attribute name="href">
                                                 <xsl:value-of
-                                                    select="concat('https://en.wikipedia.org/wiki/Special:Search?search=',skos:prefLabel,'&amp;fulltext')"
+                                                    select="concat('https://en.wikipedia.org/wiki/Special:Search?search=',skos:prefLabel[1],'&amp;fulltext')"
                                                 />
                                             </xsl:attribute>
 <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
                                                 src="//upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png"
-                                                title="{concat('Search ',skos:prefLabel,' in Wikipedia (EN)')}"/>
+                                                title="{concat('Search ',skos:prefLabel[@xml:lang = 'en'],' in Wikipedia (EN)')}"/>
                                         </a>
                                     </li>
 
@@ -915,41 +922,41 @@ xmlns:gcse="uri:not-provided"
                                         <a>
                                             <xsl:attribute name="href">
                                                 <xsl:value-of
-                                                    select="concat('https://www.wikidata.org/w/index.php?search=',skos:prefLabel,'&amp;fulltext')"
+                                                    select="concat('https://www.wikidata.org/w/index.php?search=',skos:prefLabel[1],'&amp;fulltext')"
                                                 />
                                             </xsl:attribute>
                                             
                                             <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
                                                 src="//smallbiztrends.com/wp-content/uploads/2013/05/wikidata-logo-660x462.jpg"
-                                                title="{concat('Search ',skos:prefLabel,' in Wikidata')}"/>
+                                                title="{concat('Search ',skos:prefLabel[1],' in Wikidata')}"/>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
                                             <xsl:attribute name="href">
                                                 <xsl:value-of
-                                                    select="concat('https://www.google.com/search?as_epq=',skos:prefLabel)"
+                                                    select="concat('https://www.google.com/search?as_epq=',skos:prefLabel[1])"
                                                 />
                                             </xsl:attribute>
                                             
                                             <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
                                                 src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfCP45qJe_tXuHkkAjf3sqKj2BxX0RxjE_9DBlsLbaTpsrjCx1Kg"
-                                                title="{concat('Search ',skos:prefLabel,' in Google')}"/>
+                                                title="{concat('Search ',skos:prefLabel[1],' in Google')}"/>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
                                             <xsl:attribute name="href">
                                                 <xsl:value-of
-                                                    select="concat(' http://scholar.google.com/scholar?lr=&amp;ie=UTF-8&amp;q=%22',skos:prefLabel,'%22&amp;btnG=Search&amp;oe=UTF-8')"
+                                                    select="concat(' http://scholar.google.com/scholar?lr=&amp;ie=UTF-8&amp;q=%22',skos:prefLabel[1],'%22&amp;btnG=Search&amp;oe=UTF-8')"
                                                 />
                                             </xsl:attribute>
                                             <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
                                                 src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoe8OM0OJIpQtArLh2Qeo6N1ohL_nentoovO0nl6t1HzXpUxvWx6az_XbD"
-                                                title="{concat('Search ',skos:prefLabel,' in Google Scholar')}"/>
+                                                title="{concat('Search ',skos:prefLabel[1],' in Google Scholar')}"/>
                                         </a>
                                     </li>
 
@@ -958,13 +965,13 @@ xmlns:gcse="uri:not-provided"
                                         <a>
                                             <xsl:attribute name="href">
                                                 <xsl:value-of
-                                                    select="concat('https://www.google.com/search?q=',skos:prefLabel,'&amp;gws_rd=ssl&amp;tbm=isch')"
+                                                    select="concat('https://www.google.com/search?q=',skos:prefLabel[1],'&amp;gws_rd=ssl&amp;tbm=isch')"
                                                 />
                                             </xsl:attribute>
                                             <xsl:attribute name="target">_blank</xsl:attribute>
                                             <img width="5%" height="5%"
                                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacAaEn4nn0A4697mmGf1A2-OflYYCI4j7F2lNitilAF4gOvnGJDzZJlFk"
-                                                title="{concat('Search ',skos:prefLabel,' in Google Images')}"/>
+                                                title="{concat('Search ',skos:prefLabel[1],' in Google Images')}"/>
                                         </a>
                                     </li>
                                 </ul>

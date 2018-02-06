@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
-         xmlns:dct="http://purl.org/dc/terms/"
-         xmlns:dc="http://purl.org/dc/elements/1.1/">
+         xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+         xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="https://purl.org/dc/terms/"
+         xmlns:dc="https://purl.org/dc/elements/1.1/">
 	  <skos:ConceptScheme rdf:about="https://www.eagle-network.eu/voc/dates/">
 		    <dc:title>EAGLE Vocabulary - Dating Criteria</dc:title>
 		    <dc:creator>EAGLE Consortium</dc:creator>
@@ -26,7 +26,7 @@
 		    <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/dates/"/>
 		    <skos:broader rdf:resource="https://www.eagle-network.eu/voc/dates/lod/8"/>
 		    <skos:exactMatch>
-			      <skos:Concept rdf:about="http://n2t.net/ark:/99152/p0njrb4m4w7">
+			      <skos:Concept rdf:about="https://n2t.net/ark:/99152/p0njrb4m4w7">
 				        <skos:prefLabel xml:lang="en">Aceramic Neolithic</skos:prefLabel>
 			      </skos:Concept>
 		    </skos:exactMatch>
@@ -40,7 +40,7 @@
 		    <skos:related rdf:resource="https://www.eagle-network.eu/voc/dates/lod/129"/>
 		    <skos:broader rdf:resource="https://www.eagle-network.eu/voc/dates/lod/22"/>
 		    <skos:exactMatch>
-			      <skos:Concept rdf:about="http://n2t.net/ark:/99152/p077pzfwxfr">
+			      <skos:Concept rdf:about="https://n2t.net/ark:/99152/p077pzfwxfr">
 				        <skos:prefLabel xml:lang="en">Hadrianic</skos:prefLabel>
 			      </skos:Concept>
 		    </skos:exactMatch>
@@ -4133,9 +4133,33 @@
 		    <skos:broader rdf:resource="https://www.eagle-network.eu/voc/dates/lod/109"/>
 		    <dct:created>2015-01-15 01:00:00</dct:created>
 	  </skos:Concept>
-
-
-
+	  <skos:Concept rdf:about="https://www.eagle-network.eu/voc/dates/lod/110">
+		    <skos:prefLabel xml:lang="en">IX AD</skos:prefLabel>
+		    <skos:altLabel xml:lang="en">IX CE</skos:altLabel>
+		    <skos:altLabel xml:lang="it">IX d.C.</skos:altLabel>
+		    <skos:altLabel xml:lang="en">ninth century AD</skos:altLabel>
+		    <skos:altLabel xml:lang="en">ninth century CE</skos:altLabel>
+		    <skos:altLabel xml:lang="it">nono secolo d.C.</skos:altLabel>
+		    <skos:scopeNote>0801 ; 0900</skos:scopeNote>
+	  </skos:Concept>
+	  <skos:Concept rdf:about="https://www.eagle-network.eu/voc/dates/lod/111">
+                <skos:prefLabel xml:lang="en">X AD</skos:prefLabel>
+		    <skos:altLabel xml:lang="en">X CE</skos:altLabel>
+		    <skos:altLabel xml:lang="it">X d.C.</skos:altLabel>
+		    <skos:altLabel xml:lang="en">tenth century AD</skos:altLabel>
+		    <skos:altLabel xml:lang="en">tenth century CE</skos:altLabel>
+		    <skos:altLabel xml:lang="it">decimo secolo d.C.</skos:altLabel>
+		    <skos:scopeNote>0901 ; 1000</skos:scopeNote>
+	  </skos:Concept>
+	  <skos:Concept rdf:about="https://www.eagle-network.eu/voc/dates/lod/112">
+                <skos:prefLabel xml:lang="en">XI AD</skos:prefLabel>
+		    <skos:altLabel xml:lang="en">XI CE</skos:altLabel>
+		    <skos:altLabel xml:lang="it">XI d.C.</skos:altLabel>
+		    <skos:altLabel xml:lang="en">eleventh century AD</skos:altLabel>
+		    <skos:altLabel xml:lang="en">eleventh century CE</skos:altLabel>
+		    <skos:altLabel xml:lang="it">undicesimo secolo d.C.</skos:altLabel>
+		    <skos:scopeNote>1001 ; 1100</skos:scopeNote>
+	  </skos:Concept>
 	  <!--
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
