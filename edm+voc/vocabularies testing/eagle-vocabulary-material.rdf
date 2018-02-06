@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
     xmlns:skos="https://www.w3.org/2004/02/skos/core#"
     xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
-    xmlns:dct="https://purl.org/dc/terms/" xmlns:dc="https://purl.org/dc/elements/1.1/">
+    xmlns:dct="https://purl.org/dc/terms/" 
+    xmlns:dc="https://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://www.eagle-network.eu/voc/material/">
         <dc:title>EAGLE Vocabulary - Material</dc:title>
         <dc:creator>EAGLE Consortium</dc:creator>
@@ -1612,8 +1614,7 @@
             Stdtekunde des Altertums, Leipzig 1877, 20; Ginouvès René et Martin Roland, Dictionnaire
             méthodique, Rom 1985, 37; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin,
             Berlin 1985 (mit Abbildungen), 418-664; Provan, Donald, Roman Rock. Marble and other
-            decorative rock in the Roman World, <a
-                href="//www.geogruppen.no/pdf/roman-rock-marble.pdf" target="_blank">online</a>
+            decorative rock in the Roman World, online
             (ohne Jahr), passim.</skos:note>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/material/"/>
         <skos:broader rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
@@ -1914,8 +1915,7 @@
             265; Ginouvès René et Martin Roland, Dictionnaire méthodique, Rom 1985, 38; Mielsch,
             Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit Abbildungen), 660;
             Borghini, Gabriele, Marmi Antichi 1, Rom 2001 (mit Abbildungen), 95; Provan, Donald,
-            Roman Rock. Marble and other decorative rock in the Roman World, <a
-                href="//www.geogruppen.no/pdf/roman-rock-marble.pdf" target="_blank">online</a>
+            Roman Rock. Marble and other decorative rock in the Roman World, online
             (ohne Jahr), 1; Harrell, James A.,
             https://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
             Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne
@@ -2631,8 +2631,7 @@
             Leipzig 1884. 23ff.; Gnoli, Raniero, Marmora Romana, Rom 1971, 1988 (mit Abbildungen).
             111ff.; Mielsch, Harald, Buntmarmore aus Rom im Antikenmuseum Berlin, Berlin 1985 (mit
             Abbildungen), 692; Borghini, Gabriele, Marmi Antichi 1, Rom 2001 (mit Abbildungen),110;
-            Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, <a
-                href="//www.geogruppen.no/pdf/roman-rock-marble.pdf" target="_blank">online</a>
+            Provan, Donald, Roman Rock. Marble and other decorative rock in the Roman World, online
             (ohne Jahr), 24; Harrell, James A.,
             https://www.eeescience.utoledo.edu/Faculty/Harrell/Egypt/Mosques/CAIRO_Rocks_1.htm ,
             Decorative Stones in the Pre-Ottoman Islamic Buildings of Cairo, Egypt (online ohne
