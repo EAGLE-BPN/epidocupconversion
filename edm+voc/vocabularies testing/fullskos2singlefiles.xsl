@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
-    xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
     xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:dct="https://purl.org/dc/terms/" 
+    xmlns:dct="http://purl.org/dc/terms/" 
     xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
 xmlns:gcse="uri:not-provided"
-    xmlns:dc="https://purl.org/dc/elements/1.1/" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
     exclude-result-prefixes="tei xsl skos rdf rdfs dct map dc">
 
 

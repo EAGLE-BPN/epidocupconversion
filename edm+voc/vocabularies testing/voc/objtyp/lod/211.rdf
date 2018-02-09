@@ -1,21 +1,24 @@
-<rdf:RDF xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+<rdf:RDF xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+         xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="https://purl.org/dc/terms/"
+         xmlns:dc="https://purl.org/dc/elements/1.1/"
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <skos:ConceptScheme xmlns:skos="https://www.w3.org/2004/02/skos/core#"
-                       rdf:about="https://www.eagle-network.eu/voc/objtyp/">EAGLE Vocabulary - Object type<dc:creator xmlns:dc="https://purl.org/dc/elements/1.1/">Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+   <skos:ConceptScheme rdf:about="https://www.eagle-network.eu/voc/objtyp/">EAGLE Vocabulary - Object type<dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
                             BPN)</dc:creator>
-      <dc:contributor xmlns:dc="https://purl.org/dc/elements/1.1/"/>
-      <dc:publisher xmlns:dc="https://purl.org/dc/elements/1.1/"/>
-      <dc:rights xmlns:dc="https://purl.org/dc/elements/1.1/"/>
-      <dc:subject xmlns:dc="https://purl.org/dc/elements/1.1/"/>
-      <dc:description xmlns:dc="https://purl.org/dc/elements/1.1/"
-                      rdf:resource="https://www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
-      <dc:date xmlns:dc="https://purl.org/dc/elements/1.1/">2018-02-06+01:00</dc:date>
-      <dct:modified xmlns:dct="https://purl.org/dc/terms/">2018-02-06+01:00</dct:modified>
+      <dc:contributor/>
+      <dc:publisher/>
+      <dc:rights/>
+      <dc:subject/>
+      <dc:description rdf:resource="https://www.eagle-network.eu/resources/vocabularies/objtyp.html"/>
+      <dc:date>2018-02-09+01:00</dc:date>
+      <dct:modified>2018-02-09+01:00</dct:modified>
    </skos:ConceptScheme>
-   <skos:Concept xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
-                 xmlns:skos="https://www.w3.org/2004/02/skos/core#"
-                 xmlns:dct="https://purl.org/dc/terms/"
-                 xmlns:dc="https://purl.org/dc/elements/1.1/"
+   <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+                 xmlns:dct="http://purl.org/dc/terms/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
                  rdf:about="https://www.eagle-network.eu/voc/objtyp/lod/211">
         <skos:prefLabel xml:lang="es">Roca</skos:prefLabel>
         <skos:altLabel xml:lang="de">Felsen</skos:altLabel>
