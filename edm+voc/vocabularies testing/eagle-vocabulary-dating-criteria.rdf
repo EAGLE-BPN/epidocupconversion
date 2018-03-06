@@ -262,6 +262,7 @@
 		<skos:scopeNote xml:lang="it">Periodo Bizantino</skos:scopeNote>
 		<skos:scopeNote>0330 ; 1453</skos:scopeNote>
 		<dct:created>2018-02-01 11:04:19</dct:created>
+	</skos:Concept>
 	<skos:Concept rdf:about="https://www.eagle-network.eu/voc/dates/lod/138">
 		<skos:prefLabel xml:lang="es">Caligula</skos:prefLabel>
 		<skos:scopeNote xml:lang="de">18. März 37 - 24. Jan. 41</skos:scopeNote>

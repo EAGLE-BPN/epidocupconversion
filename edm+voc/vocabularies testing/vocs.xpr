@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="17.1">
+<project version="19.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="17.1" xml:space="preserve">
+            <serialized version="19.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>eagle-vocabulary-dating-criteria.rdf</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>eagle-vocabulary-type-of-inscription</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>eagle-vocabulary-writing.rdf</String>
@@ -86,21 +101,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>eagle-vocabulary-decoration.rdf</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>eagle-vocabulary-type-of-inscription</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>eagle-vocabulary-dating-criteria.rdf</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
