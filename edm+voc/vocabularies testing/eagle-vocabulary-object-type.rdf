@@ -7532,5 +7532,12 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/objtyp/"/>
         <dct:created>2015-09-07 11:00:11</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/objtyp/lod/1996">
+        <skos:prefLabel xml:lang="en">Throne</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Trono</skos:altLabel>
+        <skos:altLabel xml:lang="de">Thron</skos:altLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/objtyp/"/>
+        <dct:created>2018-07-22 14:35:11</dct:created>
+    </skos:Concept>
     
 </rdf:RDF>
