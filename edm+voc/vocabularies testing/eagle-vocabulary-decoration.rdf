@@ -3744,4 +3744,9 @@
             </skos:Concept>
         </skos:exactMatch>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/decor/lod/917">
+        <skos:prefLabel xml:lang="la">Monogr. Christi in corona</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/decor/"/>
+        <dct:created>2018-11-29 09:02:39</dct:created>
+    </skos:Concept>
 </rdf:RDF>
