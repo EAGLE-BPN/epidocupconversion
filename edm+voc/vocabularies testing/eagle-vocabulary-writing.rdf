@@ -4,7 +4,8 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
     xmlns:dct="http://purl.org/dc/terms/" 
-    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:extech="https://www.eagle-network.eu/ontology/ExecutionTechnique">
     <skos:ConceptScheme rdf:about="https://www.eagle-network.eu/voc/writing/">
         <dc:title>EAGLE Vocabulary - Writing</dc:title>
         <dc:creator>EAGLE Consortium</dc:creator>
@@ -35,6 +36,7 @@
         <dct:modified>2013-08-26 11:30:28</dct:modified>
     </skos:Concept>
       <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/3">
+          <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva"/>
         <skos:prefLabel xml:lang="la">Caelo</skos:prefLabel>
         <skos:altLabel xml:lang="it">a bulino</skos:altLabel>
         <skos:altLabel xml:lang="en">engraved</skos:altLabel>
@@ -57,6 +59,7 @@
        <dct:created>2013-08-26 11:31:00</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/18">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
         <skos:prefLabel xml:lang="la">Carbone</skos:prefLabel>
         <skos:scopeNote xml:lang="en">realized with coal</skos:scopeNote>
         <skos:scopeNote xml:lang="it">A carbone. Si riferisce a quelle iscrizioni tracciate col
@@ -67,6 +70,12 @@
                 <skos:prefLabel xml:lang="it">Carbone scriptus</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
+        <dct:created>2013-08-26 11:39:47</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/190">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
+        <skos:prefLabel xml:lang="la">Creta (et similia)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2013-08-26 11:39:47</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/168">
@@ -85,6 +94,7 @@
         <dct:created>2013-08-26 11:40:47</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/4">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
         <skos:prefLabel xml:lang="la">Crustis</skos:prefLabel>
         <skos:altLabel xml:lang="it">con pezzetti</skos:altLabel>
         <skos:altLabel xml:lang="fr">incrusté</skos:altLabel>
@@ -212,6 +222,7 @@
         <dct:created>2013-08-26 13:40:09</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/6">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
         <skos:prefLabel xml:lang="la">Litteris Applicitis</skos:prefLabel>
         <skos:altLabel xml:lang="it">applicate</skos:altLabel>
         <skos:altLabel xml:lang="en">applied</skos:altLabel>
@@ -389,6 +400,7 @@
           <dct:created>2013-08-26 11:36:33</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/1">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva"/>
         <skos:prefLabel xml:lang="la">Scalpro</skos:prefLabel>
         <skos:altLabel xml:lang="en">chiselled</skos:altLabel>
         <skos:altLabel xml:lang="es">cincelado</skos:altLabel>
@@ -460,6 +472,7 @@
         <dct:created>2014-02-04 19:04:30</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/14">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva"/>
         <skos:prefLabel xml:lang="la">Stilo</skos:prefLabel>
         <skos:altLabel xml:lang="de">geritzt / in weiches Material</skos:altLabel>
         <skos:altLabel xml:lang="it">incisa su materia morbida</skos:altLabel>
@@ -482,6 +495,7 @@
         <dct:created>2013-08-26 11:38:59</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/15">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva"/>
         <skos:prefLabel xml:lang="la">Terebro</skos:prefLabel>
         <skos:altLabel xml:lang="it">a traforo</skos:altLabel>
         <skos:altLabel xml:lang="de">durchlöchert</skos:altLabel>
@@ -498,6 +512,7 @@
         <dct:created>2013-08-26 11:39:15</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/16">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
         <skos:prefLabel xml:lang="la">Tessellis</skos:prefLabel>
         <skos:altLabel xml:lang="de">als Mosaik</skos:altLabel>
         <skos:altLabel xml:lang="hu">mozaik</skos:altLabel>
@@ -655,5 +670,37 @@
         <skos:scopeNote xml:lang="en">Listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2015-01-29 20:40:47</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/187">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva"/>
+        <skos:prefLabel xml:lang="la">Subula</skos:prefLabel>
+        <dct:created>2019-09-05 16:40:47</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/188">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
+        <skos:prefLabel xml:lang="la">Brattea aurea</skos:prefLabel>
+        <dct:created>2019-09-05 16:40:47</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/189">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
+        <skos:prefLabel xml:lang="la">Calamo</skos:prefLabel>
+        <dct:created>2019-09-05 16:40:47</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/191">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
+        <skos:prefLabel xml:lang="la">Granulis</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/writing/"/>
+        <dct:created>2019-09-05 16:40:47</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/192">
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
+        <skos:prefLabel xml:lang="la">Penicillo</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/writing/"/>
+        <dct:created>2019-09-05 16:40:47</dct:created>
     </skos:Concept>
 </rdf:RDF>
