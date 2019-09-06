@@ -274,6 +274,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/8">
         <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsPlastica"/>
+        <extech:usesTool rdf:resource="https://www.eagle-network.eu/voc/writing/lod/219"/>
         <skos:prefLabel xml:lang="la">Litteris ex Forma</skos:prefLabel>
         <skos:altLabel xml:lang="it">a matrice</skos:altLabel>
         <skos:altLabel xml:lang="de">als Abdruck</skos:altLabel>
@@ -387,7 +388,7 @@
         <dct:created>2014-03-19 09:24:07</dct:created>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/11">
-        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva"/>
+        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ResultType"/>
         <skos:prefLabel xml:lang="la">Punctim</skos:prefLabel>
         <skos:altLabel xml:lang="it">a punti incisi</skos:altLabel>
         <skos:altLabel xml:lang="fr">pointillé</skos:altLabel>
@@ -790,14 +791,6 @@
         <dct:created>2019-09-05 16:40:47</dct:created>
     </skos:Concept>
 
-
-    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/199">
-        <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsPlastica"/>
-        <skos:prefLabel xml:lang="la">Forma</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/writing/"/>
-        <dct:created>2019-09-05 16:40:47</dct:created>
-    </skos:Concept>
-    
     
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/200">
         <rdf:type rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsPlastica"/>
