@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.eagle-network.eu/ontology/ExecutionTechnique"
+     xml:base="https://www.eagle-network.eu/ontology/ExecutionTechnique"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:oa="http://www.w3.org/ns/oa#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="http://purl.org/ontology/olo/core#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:cidoc-crm="http://erlangen-crm.org/current/">
+    <owl:Ontology rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique">
+        <owl:versionIRI rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique/0.1"/>
+        <cc:license rdf:resource="http://creativecommons.org/license/by/3.0/"/>
+        <dc:creator>Pietro Maria Liuzzo</dc:creator>
+        <dc:description>Ontology based on
+Evangelisti, Silvia. 2017. ‘Scrittura Epigrafica, Alcune Riflessioni’. In COLONIE E MUNICIPI NELL’ERA DIGITALE. DOCUMENTAZIONE EPIGRAFICA PER LA CONOSCENZA DELLE CITTÀ ANTICHE ATTI Del Convegno Di Studi (Macerata, 10-12 Dicembre 2015), edited by Simona Antolini, Silvia Maria Marengo, and Gianfranco Paci, 163–78. Tored.
+      </dc:description>
+        <dc:language>en</dc:language>
+        <dc:title>Execution Technique</dc:title>
+    </owl:Ontology>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://erlangen-crm.org/current/P31i_was_modified_by -->
+
+    <rdf:Description rdf:about="http://erlangen-crm.org/current/P31i_was_modified_by">
+        <owl:equivalentProperty rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#hasExecutionPhase"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://erlangen-crm.org/current/P32_used_general_technique">
+        <owl:equivalentProperty rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#uses_technique"/>
+    </rdf:Description>
+
+
+
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#hasColor -->
+
+    <owl:ObjectProperty rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#hasColor">
+        <rdfs:domain rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+        <rdfs:range rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Color"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#hasExecutionPhase -->
+
+    <owl:ObjectProperty rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#hasExecutionPhase">
+        <rdfs:domain rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#inscribedObject"/>
+        <rdfs:range rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#resultsIn -->
+
+    <owl:ObjectProperty rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#resultsIn">
+        <rdfs:domain rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase"/>
+        <rdfs:range rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ResultType"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#usesTool -->
+
+    <owl:ObjectProperty rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#usesTool">
+        <rdfs:domain rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+        <rdfs:range rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Tool"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#uses_technique -->
+
+    <owl:ObjectProperty rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#uses_technique">
+        <rdfs:domain rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase"/>
+        <rdfs:range rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+    </owl:ObjectProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://erlangen-crm.org/current/E11_Modification -->
+
+    <rdf:Description rdf:about="http://erlangen-crm.org/current/E11_Modification">
+        <owl:equivalentClass rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase"/>
+    </rdf:Description>
+
+
+
+    <!-- http://erlangen-crm.org/current/E25_Man-Made_Feature -->
+
+    <rdf:Description rdf:about="http://erlangen-crm.org/current/E25_Man-Made_Feature">
+        <owl:equivalentClass rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#inscribedObject"/>
+    </rdf:Description>
+
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva -->
+
+    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva">
+        <rdfs:subClassOf rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsMixta -->
+
+    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsMixta">
+        <rdfs:subClassOf rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsPlastica -->
+
+    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsPlastica">
+        <rdfs:subClassOf rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva -->
+
+    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva">
+        <rdfs:subClassOf rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#Color -->
+
+    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#Color"/>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase -->
+
+    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase"/>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#ResultType -->
+
+    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ResultType">
+        <rdfs:comment>a value from the writing technique EAGLE vocabulary</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique -->
+
+    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique">
+        <terms:description>The effect that an instrument has on the support, which reacts to this tool on the basis of its specific nature, quality and morphology.</terms:description>
+    </owl:Class>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#Tool -->
+
+    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#Tool">
+        <rdfs:comment>one of the values for tools in the Eagle vocabulary for Execution Technique</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#inscribedObject -->
+
+    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#inscribedObject"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
+            <rdf:Description rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsMixta"/>
+            <rdf:Description rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsPlastica"/>
+            <rdf:Description rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
