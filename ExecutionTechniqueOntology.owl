@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://www.eagle-network.eu/ontology/ExecutionTechnique"
-     xml:base="https://www.eagle-network.eu/ontology/ExecutionTechnique"
+<rdf:RDF xmlns="https://w3id.org/executionTechnique/ontology"
+     xml:base="https://w3id.org/executionTechnique/ontology"
      xmlns:cc="http://creativecommons.org/ns#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
@@ -17,8 +17,8 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:cidoc-crm="http://erlangen-crm.org/current/">
-    <owl:Ontology rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique">
-        <owl:versionIRI rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique/0.1"/>
+    <owl:Ontology rdf:about="https://w3id.org/executionTechnique/ontology">
+        <owl:versionIRI rdf:resource="https://w3id.org/executionTechnique/ontology/0.1"/>
         <cc:license rdf:resource="http://creativecommons.org/license/by/3.0/"/>
         <dc:creator>Pietro Maria Liuzzo</dc:creator>
         <dc:description>Ontology based on
@@ -61,11 +61,11 @@ Evangelisti, Silvia. 2017. ‘Scrittura Epigrafica, Alcune Riflessioni’. In CO
     <!-- http://erlangen-crm.org/current/P31i_was_modified_by -->
 
     <rdf:Description rdf:about="http://erlangen-crm.org/current/P31i_was_modified_by">
-        <owl:equivalentProperty rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#hasExecutionPhase"/>
+        <owl:equivalentProperty rdf:resource="https://w3id.org/executionTechnique/ontology#hasExecutionPhase"/>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://erlangen-crm.org/current/P32_used_general_technique">
-        <owl:equivalentProperty rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#uses_technique"/>
+        <owl:equivalentProperty rdf:resource="https://w3id.org/executionTechnique/ontology#uses_technique"/>
     </rdf:Description>
 
 
@@ -73,47 +73,47 @@ Evangelisti, Silvia. 2017. ‘Scrittura Epigrafica, Alcune Riflessioni’. In CO
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#hasColor -->
+    <!-- https://w3id.org/executionTechnique/ontology#hasColor -->
 
-    <owl:ObjectProperty rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#hasColor">
-        <rdfs:domain rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
-        <rdfs:range rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Color"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/executionTechnique/ontology#hasColor">
+        <rdfs:domain rdf:resource="https://w3id.org/executionTechnique/ontology#Technique"/>
+        <rdfs:range rdf:resource="https://w3id.org/executionTechnique/ontology#Color"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#hasExecutionPhase -->
+    <!-- https://w3id.org/executionTechnique/ontology#hasExecutionPhase -->
 
-    <owl:ObjectProperty rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#hasExecutionPhase">
-        <rdfs:domain rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#inscribedObject"/>
-        <rdfs:range rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/executionTechnique/ontology#hasExecutionPhase">
+        <rdfs:domain rdf:resource="https://w3id.org/executionTechnique/ontology#inscribedObject"/>
+        <rdfs:range rdf:resource="https://w3id.org/executionTechnique/ontology#Phase"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#resultsIn -->
+    <!-- https://w3id.org/executionTechnique/ontology#resultsIn -->
 
-    <owl:ObjectProperty rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#resultsIn">
-        <rdfs:domain rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase"/>
-        <rdfs:range rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#ResultType"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/executionTechnique/ontology#resultsIn">
+        <rdfs:domain rdf:resource="https://w3id.org/executionTechnique/ontology#Phase"/>
+        <rdfs:range rdf:resource="https://w3id.org/executionTechnique/ontology#ResultType"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#usesTool -->
+    <!-- https://w3id.org/executionTechnique/ontology#usesTool -->
 
-    <owl:ObjectProperty rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#usesTool">
-        <rdfs:domain rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
-        <rdfs:range rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Tool"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/executionTechnique/ontology#usesTool">
+        <rdfs:domain rdf:resource="https://w3id.org/executionTechnique/ontology#Technique"/>
+        <rdfs:range rdf:resource="https://w3id.org/executionTechnique/ontology#Tool"/>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#uses_technique -->
+    <!-- https://w3id.org/executionTechnique/ontology#uses_technique -->
 
-    <owl:ObjectProperty rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#uses_technique">
-        <rdfs:domain rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase"/>
-        <rdfs:range rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/executionTechnique/ontology#uses_technique">
+        <rdfs:domain rdf:resource="https://w3id.org/executionTechnique/ontology#Phase"/>
+        <rdfs:range rdf:resource="https://w3id.org/executionTechnique/ontology#Technique"/>
     </owl:ObjectProperty>
 
 
@@ -132,7 +132,7 @@ Evangelisti, Silvia. 2017. ‘Scrittura Epigrafica, Alcune Riflessioni’. In CO
     <!-- http://erlangen-crm.org/current/E11_Modification -->
 
     <rdf:Description rdf:about="http://erlangen-crm.org/current/E11_Modification">
-        <owl:equivalentClass rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase"/>
+        <owl:equivalentClass rdf:resource="https://w3id.org/executionTechnique/ontology#Phase"/>
     </rdf:Description>
 
 
@@ -140,83 +140,83 @@ Evangelisti, Silvia. 2017. ‘Scrittura Epigrafica, Alcune Riflessioni’. In CO
     <!-- http://erlangen-crm.org/current/E25_Man-Made_Feature -->
 
     <rdf:Description rdf:about="http://erlangen-crm.org/current/E25_Man-Made_Feature">
-        <owl:equivalentClass rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#inscribedObject"/>
+        <owl:equivalentClass rdf:resource="https://w3id.org/executionTechnique/ontology#inscribedObject"/>
     </rdf:Description>
 
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva -->
+    <!-- https://w3id.org/executionTechnique/ontology#ArsAddictiva -->
 
-    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva">
-        <rdfs:subClassOf rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+    <owl:Class rdf:about="https://w3id.org/executionTechnique/ontology#ArsAddictiva">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/executionTechnique/ontology#Technique"/>
     </owl:Class>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsMixta -->
+    <!-- https://w3id.org/executionTechnique/ontology#ArsMixta -->
 
-    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsMixta">
-        <rdfs:subClassOf rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+    <owl:Class rdf:about="https://w3id.org/executionTechnique/ontology#ArsMixta">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/executionTechnique/ontology#Technique"/>
     </owl:Class>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsPlastica -->
+    <!-- https://w3id.org/executionTechnique/ontology#ArsPlastica -->
 
-    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsPlastica">
-        <rdfs:subClassOf rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+    <owl:Class rdf:about="https://w3id.org/executionTechnique/ontology#ArsPlastica">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/executionTechnique/ontology#Technique"/>
     </owl:Class>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva -->
+    <!-- https://w3id.org/executionTechnique/ontology#ArsSubtractiva -->
 
-    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva">
-        <rdfs:subClassOf rdf:resource="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique"/>
+    <owl:Class rdf:about="https://w3id.org/executionTechnique/ontology#ArsSubtractiva">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/executionTechnique/ontology#Technique"/>
     </owl:Class>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#Color -->
+    <!-- https://w3id.org/executionTechnique/ontology#Color -->
 
-    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#Color"/>
-
-
-
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase -->
-
-    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#Phase"/>
+    <owl:Class rdf:about="https://w3id.org/executionTechnique/ontology#Color"/>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#ResultType -->
+    <!-- https://w3id.org/executionTechnique/ontology#Phase -->
 
-    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ResultType">
+    <owl:Class rdf:about="https://w3id.org/executionTechnique/ontology#Phase"/>
+
+
+
+    <!-- https://w3id.org/executionTechnique/ontology#ResultType -->
+
+    <owl:Class rdf:about="https://w3id.org/executionTechnique/ontology#ResultType">
         <rdfs:comment>a value from the writing technique EAGLE vocabulary</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique -->
+    <!-- https://w3id.org/executionTechnique/ontology#Technique -->
 
-    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#Technique">
+    <owl:Class rdf:about="https://w3id.org/executionTechnique/ontology#Technique">
         <terms:description>The effect that an instrument has on the support, which reacts to this tool on the basis of its specific nature, quality and morphology.</terms:description>
     </owl:Class>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#Tool -->
+    <!-- https://w3id.org/executionTechnique/ontology#Tool -->
 
-    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#Tool">
+    <owl:Class rdf:about="https://w3id.org/executionTechnique/ontology#Tool">
         <rdfs:comment>one of the values for tools in the Eagle vocabulary for Execution Technique</rdfs:comment>
     </owl:Class>
 
 
 
-    <!-- https://www.eagle-network.eu/ontology/ExecutionTechnique#inscribedObject -->
+    <!-- https://w3id.org/executionTechnique/ontology#inscribedObject -->
 
-    <owl:Class rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#inscribedObject"/>
+    <owl:Class rdf:about="https://w3id.org/executionTechnique/ontology#inscribedObject"/>
 
 
 
@@ -231,10 +231,10 @@ Evangelisti, Silvia. 2017. ‘Scrittura Epigrafica, Alcune Riflessioni’. In CO
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsAddictiva"/>
-            <rdf:Description rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsMixta"/>
-            <rdf:Description rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsPlastica"/>
-            <rdf:Description rdf:about="https://www.eagle-network.eu/ontology/ExecutionTechnique#ArsSubtractiva"/>
+            <rdf:Description rdf:about="https://w3id.org/executionTechnique/ontology#ArsAddictiva"/>
+            <rdf:Description rdf:about="https://w3id.org/executionTechnique/ontology#ArsMixta"/>
+            <rdf:Description rdf:about="https://w3id.org/executionTechnique/ontology#ArsPlastica"/>
+            <rdf:Description rdf:about="https://w3id.org/executionTechnique/ontology#ArsSubtractiva"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
