@@ -912,7 +912,7 @@
     </skos:Concept>
     
     
-    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/214">
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/writing/lod/233">
         <skos:prefLabel xml:lang="la">argento</skos:prefLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/writing/"/>
         <dct:created>2019-09-05 16:40:47</dct:created>

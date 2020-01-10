@@ -1,0 +1,30 @@
+<rdf:RDF xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+         xmlns:map="https://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="https://purl.org/dc/terms/"
+         xmlns:dc="https://purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <skos:ConceptScheme rdf:about="https://www.eagle-network.eu/voc/writing/">EAGLE Vocabulary - Writing<dc:creator>Europeana Best Practice Network for Ancient Greek and Latin Epigraphy (EAGLE
+                            BPN)</dc:creator>
+      <dc:contributor/>
+      <dc:publisher/>
+      <dc:rights/>
+      <dc:subject/>
+      <dc:description rdf:resource="https://www.eagle-network.eu/resources/vocabularies/writing.html"/>
+      <dc:date>2020-01-10+01:00</dc:date>
+      <dct:modified>2020-01-10+01:00</dct:modified>
+   </skos:ConceptScheme>
+   <skos:Concept xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+                 xmlns:dct="http://purl.org/dc/terms/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 xmlns:extech="https://w3id.org/executionTechnique/ontology"
+                 rdf:about="https://www.eagle-network.eu/voc/writing/lod/207">
+        <rdf:type rdf:resource="https://w3id.org/executionTechnique/ontology#ResultType"/>
+        <skos:prefLabel xml:lang="la">litt. rubricatis</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Iscrizione a cordone</skos:altLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/writing/"/>
+        <dct:created>2019-09-05 16:40:47</dct:created>
+    </skos:Concept>
+</rdf:RDF>
