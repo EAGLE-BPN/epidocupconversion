@@ -56,6 +56,11 @@ Evangelisti, Silvia. 2017. ‘Scrittura Epigrafica, Alcune Riflessioni’. In CO
      -->
 
 
+     <!-- http://erlangen-crm.org/current/P31_has_modified -->
+
+     <rdf:Description rdf:about="http://erlangen-crm.org/current/P31_has_modified">
+         <owl:equivalentProperty rdf:resource="https://w3id.org/executionTechnique/ontology#isExecutionPhaseOf"/>
+     </rdf:Description>
 
 
     <!-- http://erlangen-crm.org/current/P31i_was_modified_by -->
