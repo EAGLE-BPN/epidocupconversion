@@ -1482,6 +1482,7 @@
         <skos:prefLabel xml:lang="de">Sitzinschrift</skos:prefLabel>
         <skos:altLabel xml:lang="en">Reserved benches</skos:altLabel>
         <skos:altLabel xml:lang="en">Seat inscriptions</skos:altLabel>
+        <skos:altLabel xml:lang="la">Titulus loci</skos:altLabel>
         <skos:altLabel xml:lang="hu">ülésfelirat</skos:altLabel>
         <skos:scopeNote xml:lang="de">HD047007</skos:scopeNote>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
